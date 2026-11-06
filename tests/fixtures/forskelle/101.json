@@ -1,0 +1,4075 @@
+{
+ "id": "101",
+ "term": "101",
+ "kommuner": "",
+ "sources": [
+  "tests/cases.yaml: kom-101"
+ ],
+ "recorded_at": "2026-11-06T19:50:03+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 443,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "7bf58536-81fd-4f34-a89b-10b8505aceb5",
+      "kommunenavn": "Jammerbugt",
+      "kommunekode": "0849",
+      "vejkode": "0194",
+      "vejnavn": "Bredgade",
+      "husnummer": "101",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "101",
+      "supplerendebynavn": null,
+      "postnummer": "9490",
+      "postnummernavn": "Pandrup",
+      "visningstekst": "Bredgade 101, st. 101, 9490 Pandrup",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         540807.12740426,
+         6341553.05261437
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         540832.31,
+         6341558.73
+        ]
+       ]
+      }
+     },
+     {
+      "id": "b6dd248e-3c62-46d7-8410-aa9a25b01e20",
+      "kommunenavn": "Middelfart",
+      "kommunekode": "0410",
+      "vejkode": "0884",
+      "vejnavn": "Oddevejen",
+      "husnummer": "101",
+      "etagebetegnelse": null,
+      "doerbetegnelse": "101",
+      "supplerendebynavn": null,
+      "postnummer": "5500",
+      "postnummernavn": "Middelfart",
+      "visningstekst": "Oddevejen 101, 101, 5500 Middelfart",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         544555.59646073,
+         6150204.590043
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         544540.26,
+         6150214.6
+        ]
+       ]
+      }
+     },
+     {
+      "id": "f39189b9-0734-4e4e-ad0c-eefc669e7654",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "101",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 101, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548317.64798857,
+         6158794.07108808
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548312.67,
+         6158810.09
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-aa61-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "101",
+      "etagebetegnelse": "2",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 101, 2. th, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548317.64798857,
+         6158794.07108808
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548312.67,
+         6158810.09
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-aa60-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "101",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 101, 1. tv, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548317.64798857,
+         6158794.07108808
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548312.67,
+         6158810.09
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-aa62-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "101",
+      "etagebetegnelse": "2",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 101, 2. tv, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548317.64798857,
+         6158794.07108808
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548312.67,
+         6158810.09
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-aa5e-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "101",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 101, st. tv, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548317.64798857,
+         6158794.07108808
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548312.67,
+         6158810.09
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-aa5d-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "101",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 101, st. th, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548317.64798857,
+         6158794.07108808
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548312.67,
+         6158810.09
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-aa5f-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "101",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 101, 1. th, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548317.64798857,
+         6158794.07108808
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548312.67,
+         6158810.09
+        ]
+       ]
+      }
+     },
+     {
+      "id": "4eca26b5-f6c4-6765-e044-0003ba298018",
+      "kommunenavn": "Svendborg",
+      "kommunekode": "0479",
+      "vejkode": "0005",
+      "vejnavn": "A P Møller Koll",
+      "husnummer": "101",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5700",
+      "postnummernavn": "Svendborg",
+      "visningstekst": "A P Møller Koll 101, 5700 Svendborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         601546.50255035,
+         6101988.0950879
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         601535.49,
+         6101983.75
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 303,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "0a3f508f-0f64-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummertekst": "101",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 101, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548317.64798857,
+         6158794.07108808
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         548312.67,
+         6158810.09
+        ]
+       ]
+      }
+     },
+     {
+      "id": "4eca26b5-eb9b-6765-e044-0003ba298018",
+      "kommunenavn": "Svendborg",
+      "kommunekode": "0479",
+      "vejkode": "0005",
+      "vejnavn": "A P Møller Koll",
+      "husnummertekst": "101",
+      "supplerendebynavn": null,
+      "postnummer": "5700",
+      "postnummernavn": "Svendborg",
+      "visningstekst": "A P Møller Koll 101, 5700 Svendborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         601546.50255035,
+         6101988.0950879
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         601535.49,
+         6101983.75
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508c-63fa-32b8-e044-0003ba298018",
+      "kommunenavn": "Sønderborg",
+      "kommunekode": "0540",
+      "vejkode": "0003",
+      "vejnavn": "Aabenraavej",
+      "husnummertekst": "101",
+      "supplerendebynavn": "Ragebøl",
+      "postnummer": "6400",
+      "postnummernavn": "Sønderborg",
+      "visningstekst": "Aabenraavej 101, Ragebøl, 6400 Sønderborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547014.42442552,
+         6087248.60894614
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         546998.24618868,
+         6087229.04119711
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5097-7f37-32b8-e044-0003ba298018",
+      "kommunenavn": "Viborg",
+      "kommunekode": "0791",
+      "vejkode": "0010",
+      "vejnavn": "Aarestrupvej",
+      "husnummertekst": "101",
+      "supplerendebynavn": null,
+      "postnummer": "7470",
+      "postnummernavn": "Karup J",
+      "visningstekst": "Aarestrupvej 101, 7470 Karup J",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         515482.04,
+         6240456.51
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         515421.07,
+         6240539.9
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f509b-bb3d-32b8-e044-0003ba298018",
+      "kommunenavn": "Rebild",
+      "kommunekode": "0840",
+      "vejkode": "0007",
+      "vejnavn": "Aarestrupvej",
+      "husnummertekst": "101",
+      "supplerendebynavn": "Aarestrup",
+      "postnummer": "9520",
+      "postnummernavn": "Skørping",
+      "visningstekst": "Aarestrupvej 101, Aarestrup, 9520 Skørping",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         545602.3,
+         6297604.62
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         545591.93,
+         6297619.63
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f509a-ed85-32b8-e044-0003ba298018",
+      "kommunenavn": "Vesthimmerlands",
+      "kommunekode": "0820",
+      "vejkode": "0017",
+      "vejnavn": "Aarsvej",
+      "husnummertekst": "101",
+      "supplerendebynavn": "Salling",
+      "postnummer": "9670",
+      "postnummernavn": "Løgstør",
+      "visningstekst": "Aarsvej 101, Salling, 9670 Løgstør",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         522001.93057622,
+         6311260.23025816
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         522016.61,
+         6311262.67
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508b-83da-32b8-e044-0003ba298018",
+      "kommunenavn": "Haderslev",
+      "kommunekode": "0510",
+      "vejkode": "0010",
+      "vejnavn": "Aastrup Alle",
+      "husnummertekst": "101",
+      "supplerendebynavn": null,
+      "postnummer": "6100",
+      "postnummernavn": "Haderslev",
+      "visningstekst": "Aastrup Alle 101, 6100 Haderslev",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         535707.73,
+         6125357.01
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         535621.35299791,
+         6125538.0571105
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508b-84a7-32b8-e044-0003ba298018",
+      "kommunenavn": "Haderslev",
+      "kommunekode": "0510",
+      "vejkode": "0014",
+      "vejnavn": "Aastrupvej",
+      "husnummertekst": "101",
+      "supplerendebynavn": null,
+      "postnummer": "6100",
+      "postnummernavn": "Haderslev",
+      "visningstekst": "Aastrupvej 101, 6100 Haderslev",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         532447.46613854,
+         6123211.90041167
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         532450,
+         6123241.53
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-36a4-32b8-e044-0003ba298018",
+      "kommunenavn": "Lyngby-Taarbæk",
+      "kommunekode": "0173",
+      "vejkode": "0005",
+      "vejnavn": "Abildgaardsvej",
+      "husnummertekst": "101",
+      "supplerendebynavn": null,
+      "postnummer": "2830",
+      "postnummernavn": "Virum",
+      "visningstekst": "Abildgaardsvej 101, 2830 Virum",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         717501.25947786,
+         6187343.41492871
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         717499.34,
+         6187329.92
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5086-61e3-32b8-e044-0003ba298018",
+      "kommunenavn": "Vordingborg",
+      "kommunekode": "0390",
+      "vejkode": "0019",
+      "vejnavn": "Adelgade",
+      "husnummertekst": "101",
+      "supplerendebynavn": null,
+      "postnummer": "4720",
+      "postnummernavn": "Præstø",
+      "visningstekst": "Adelgade 101, 4720 Præstø",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         694186.46282887,
+         6112673.92908273
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         694184.54,
+         6112681.74
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 151,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 153,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 197,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "ejerlavsnavn": "Sdr. Otting under Haderslev",
+      "ejerlavskode": 2007853,
+      "kommunenavn": "Haderslev Kommune",
+      "kommunekode": "0510",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Sdr. Otting under Haderslev",
+      "jordstykke_id": 703633,
+      "bfenummer": 5764777,
+      "centroid_x": 531135.095,
+      "centroid_y": 6122226.175,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           531159.263,
+           6122220.552
+          ],
+          [
+           531159.277,
+           6122231.004
+          ],
+          [
+           531117.958,
+           6122234.067
+          ],
+          [
+           531117.647,
+           6122221.342
+          ],
+          [
+           531128.137,
+           6122220.58
+          ],
+          [
+           531159.263,
+           6122220.552
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Skovby, Vedsted",
+      "ejerlavskode": 1431055,
+      "kommunenavn": "Haderslev Kommune",
+      "kommunekode": "0510",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Skovby, Vedsted",
+      "jordstykke_id": 1511378,
+      "bfenummer": 10163797,
+      "centroid_x": 522875.497,
+      "centroid_y": 6115341.734,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           522698.032,
+           6115157.955
+          ],
+          [
+           522722.345,
+           6115146.003
+          ],
+          [
+           522727.829,
+           6115141.59
+          ],
+          [
+           522761.773,
+           6115128.674
+          ],
+          [
+           522766.339,
+           6115124.162
+          ],
+          [
+           522789.422,
+           6115110.945
+          ],
+          [
+           522789.734,
+           6115112.368
+          ],
+          [
+           522796.149,
+           6115141.566
+          ],
+          [
+           522809.965,
+           6115213.73
+          ],
+          [
+           522823.94,
+           6115287.322
+          ],
+          [
+           522824.143,
+           6115288.391
+          ],
+          [
+           522837.953,
+           6115285.57
+          ],
+          [
+           522854.354,
+           6115282.226
+          ],
+          [
+           522896.424,
+           6115273.3
+          ],
+          [
+           522904.776,
+           6115271.271
+          ],
+          [
+           522916.441,
+           6115269.173
+          ],
+          [
+           522921.392,
+           6115270.323
+          ],
+          [
+           522974.513,
+           6115258.742
+          ],
+          [
+           522998.703,
+           6115253.014
+          ],
+          [
+           523027.839,
+           6115247.364
+          ],
+          [
+           523079.891,
+           6115236.401
+          ],
+          [
+           523102.96,
+           6115230.678
+          ],
+          [
+           523085.406,
+           6115320.796
+          ],
+          [
+           523072.971,
+           6115383.905
+          ],
+          [
+           523063.754,
+           6115386.245
+          ],
+          [
+           523026.578,
+           6115395.097
+          ],
+          [
+           522985.788,
+           6115405.19
+          ],
+          [
+           522947.902,
+           6115414.656
+          ],
+          [
+           522944.342,
+           6115416.408
+          ],
+          [
+           522925.448,
+           6115420.988
+          ],
+          [
+           522905.382,
+           6115425.472
+          ],
+          [
+           522901.87,
+           6115426.56
+          ],
+          [
+           522854.862,
+           6115437.091
+          ],
+          [
+           522850.076,
+           6115438.492
+          ],
+          [
+           522823.596,
+           6115444.894
+          ],
+          [
+           522809.031,
+           6115448.484
+          ],
+          [
+           522743.739,
+           6115462.827
+          ],
+          [
+           522741.649,
+           6115463.042
+          ],
+          [
+           522681.445,
+           6115475.167
+          ],
+          [
+           522652.465,
+           6115470.971
+          ],
+          [
+           522659.724,
+           6115454.307
+          ],
+          [
+           522671.671,
+           6115436.956
+          ],
+          [
+           522702.55,
+           6115391.765
+          ],
+          [
+           522724.353,
+           6115357.074
+          ],
+          [
+           522732.569,
+           6115327.397
+          ],
+          [
+           522733.95,
+           6115307.599
+          ],
+          [
+           522732.312,
+           6115306.484
+          ],
+          [
+           522730.19,
+           6115299.813
+          ],
+          [
+           522725.547,
+           6115278.717
+          ],
+          [
+           522714.495,
+           6115229.29
+          ],
+          [
+           522698.032,
+           6115157.955
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Revsø, Sommersted",
+      "ejerlavskode": 1430953,
+      "kommunenavn": "Haderslev Kommune",
+      "kommunekode": "0510",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Revsø, Sommersted (Haderslev Kommune)",
+      "jordstykke_id": 1307971,
+      "bfenummer": 5189671,
+      "centroid_x": 518182.212,
+      "centroid_y": 6133149.3,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           518269.14,
+           6133163.227
+          ],
+          [
+           518262.73,
+           6133163.442
+          ],
+          [
+           518239.976,
+           6133165.8
+          ],
+          [
+           518210.502,
+           6133169.237
+          ],
+          [
+           518190.091,
+           6133171.201
+          ],
+          [
+           518186.628,
+           6133171.842
+          ],
+          [
+           518176.454,
+           6133171.882
+          ],
+          [
+           518160.672,
+           6133173.822
+          ],
+          [
+           518153.487,
+           6133175.023
+          ],
+          [
+           518152.946,
+           6133172.451
+          ],
+          [
+           518150.167,
+           6133159.245
+          ],
+          [
+           518146.217,
+           6133155.606
+          ],
+          [
+           518141.376,
+           6133127.823
+          ],
+          [
+           518208.377,
+           6133118.3
+          ],
+          [
+           518211.208,
+           6133160.736
+          ],
+          [
+           518264.636,
+           6133154.199
+          ],
+          [
+           518273.61,
+           6133162.88
+          ],
+          [
+           518269.14,
+           6133163.227
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Veddum By, Skelund",
+      "ejerlavskode": 641052,
+      "kommunenavn": "Mariagerfjord Kommune",
+      "kommunekode": "0846",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Veddum By, Skelund",
+      "jordstykke_id": 100061962,
+      "bfenummer": 100056951,
+      "centroid_x": 570674.933,
+      "centroid_y": 6290972.374,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           570934.291,
+           6291321.515
+          ],
+          [
+           570943.285,
+           6291265.489
+          ],
+          [
+           570875.652,
+           6291245.873
+          ],
+          [
+           570864.415,
+           6291303.784
+          ],
+          [
+           570816.436,
+           6291288.102
+          ],
+          [
+           570779.778,
+           6291283.1
+          ],
+          [
+           570741.745,
+           6291275.295
+          ],
+          [
+           570690.615,
+           6291254.605
+          ],
+          [
+           570576.05,
+           6291226.295
+          ],
+          [
+           570554.354,
+           6291199.174
+          ],
+          [
+           570527.789,
+           6291190.378
+          ],
+          [
+           570516.082,
+           6291191.502
+          ],
+          [
+           570505.603,
+           6291197.586
+          ],
+          [
+           570501.896,
+           6291206.865
+          ],
+          [
+           570397.889,
+           6291187.813
+          ],
+          [
+           570398.014,
+           6291186.946
+          ],
+          [
+           570403.161,
+           6291151.307
+          ],
+          [
+           570406.216,
+           6291114.524
+          ],
+          [
+           570340.218,
+           6291115.06
+          ],
+          [
+           570326.336,
+           6291102.559
+          ],
+          [
+           570322.928,
+           6291099.492
+          ],
+          [
+           570314.699,
+           6291101.386
+          ],
+          [
+           570324.505,
+           6291080.725
+          ],
+          [
+           570327.861,
+           6291075.798
+          ],
+          [
+           570329.444,
+           6291069.026
+          ],
+          [
+           570327.419,
+           6291058.129
+          ],
+          [
+           570329.678,
+           6291053.687
+          ],
+          [
+           570333.895,
+           6291049.14
+          ],
+          [
+           570335.882,
+           6291043.896
+          ],
+          [
+           570338.065,
+           6291032.278
+          ],
+          [
+           570339.592,
+           6291018.749
+          ],
+          [
+           570340.951,
+           6291015.83
+          ],
+          [
+           570343.436,
+           6291003.625
+          ],
+          [
+           570343.577,
+           6290999.22
+          ],
+          [
+           570345.047,
+           6290993.433
+          ],
+          [
+           570346.999,
+           6290990.127
+          ],
+          [
+           570347.918,
+           6290984.875
+          ],
+          [
+           570348.268,
+           6290977.679
+          ],
+          [
+           570347.014,
+           6290972.467
+          ],
+          [
+           570347.19,
+           6290969.877
+          ],
+          [
+           570349.828,
+           6290962.261
+          ],
+          [
+           570349.575,
+           6290952.105
+          ],
+          [
+           570350.089,
+           6290944.748
+          ],
+          [
+           570351.668,
+           6290939.806
+          ],
+          [
+           570350.899,
+           6290933.723
+          ],
+          [
+           570351.255,
+           6290927.225
+          ],
+          [
+           570356.505,
+           6290902.137
+          ],
+          [
+           570355.897,
+           6290894.936
+          ],
+          [
+           570357.727,
+           6290892.718
+          ],
+          [
+           570361.097,
+           6290891.047
+          ],
+          [
+           570367.703,
+           6290881.174
+          ],
+          [
+           570373.181,
+           6290876.135
+          ],
+          [
+           570380.461,
+           6290864.917
+          ],
+          [
+           570356.157,
+           6290864.117
+          ],
+          [
+           570374.173,
+           6290778.625
+          ],
+          [
+           570389.435,
+           6290773.938
+          ],
+          [
+           570407.853,
+           6290768.743
+          ],
+          [
+           570417.495,
+           6290764.429
+          ],
+          [
+           570454.157,
+           6290739.624
+          ],
+          [
+           570457.124,
+           6290737.911
+          ],
+          [
+           570473.074,
+           6290733.154
+          ],
+          [
+           570477.489,
+           6290732.179
+          ],
+          [
+           570488.889,
+           6290727.767
+          ],
+          [
+           570500.33,
+           6290722.25
+          ],
+          [
+           570506.002,
+           6290718.493
+          ],
+          [
+           570516.989,
+           6290710.446
+          ],
+          [
+           570522.907,
+           6290708.737
+          ],
+          [
+           570526.733,
+           6290710.734
+          ],
+          [
+           570527.612,
+           6290711.193
+          ],
+          [
+           570531.624,
+           6290715.196
+          ],
+          [
+           570532.833,
+           6290717.064
+          ],
+          [
+           570539.167,
+           6290734.93
+          ],
+          [
+           570562.183,
+           6290761.326
+          ],
+          [
+           570574.484,
+           6290774.348
+          ],
+          [
+           570576.77,
+           6290776.033
+          ],
+          [
+           570584.167,
+           6290779.508
+          ],
+          [
+           570589.108,
+           6290779.235
+          ],
+          [
+           570597.052,
+           6290774.817
+          ],
+          [
+           570661.082,
+           6290729.124
+          ],
+          [
+           570673.222,
+           6290722.137
+          ],
+          [
+           570773.421,
+           6290672.83
+          ],
+          [
+           570788.404,
+           6290668.045
+          ],
+          [
+           570799.371,
+           6290666.456
+          ],
+          [
+           570809.182,
+           6290666.683
+          ],
+          [
+           570814.269,
+           6290666.95
+          ],
+          [
+           570823.392,
+           6290669.659
+          ],
+          [
+           570849.013,
+           6290684.222
+          ],
+          [
+           570865.247,
+           6290697.47
+          ],
+          [
+           570890.273,
+           6290708.857
+          ],
+          [
+           570901.513,
+           6290708.787
+          ],
+          [
+           570921.649,
+           6290700.826
+          ],
+          [
+           570946.163,
+           6290690.702
+          ],
+          [
+           571082.979,
+           6290633.272
+          ],
+          [
+           571091.103,
+           6290630.399
+          ],
+          [
+           571099.498,
+           6290629.453
+          ],
+          [
+           571113.595,
+           6290629.624
+          ],
+          [
+           571118.336,
+           6290630.314
+          ],
+          [
+           571122.116,
+           6290631.036
+          ],
+          [
+           571145.699,
+           6290637.364
+          ],
+          [
+           571035.721,
+           6291139.424
+          ],
+          [
+           571094.056,
+           6291155.379
+          ],
+          [
+           571090.721,
+           6291165.839
+          ],
+          [
+           571049.148,
+           6291296.193
+          ],
+          [
+           571035.699,
+           6291338.915
+          ],
+          [
+           570934.291,
+           6291321.515
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Ballerup By, Ballerup",
+      "ejerlavskode": 20151,
+      "kommunenavn": "Ballerup Kommune",
+      "kommunekode": "0151",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Ballerup By, Ballerup",
+      "jordstykke_id": 1533865,
+      "bfenummer": 2111587,
+      "centroid_x": 711090.406,
+      "centroid_y": 6181520.938,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           711096.246,
+           6181532.53
+          ],
+          [
+           711093.137,
+           6181525.699
+          ],
+          [
+           711084.061,
+           6181532.816
+          ],
+          [
+           711075.203,
+           6181519.279
+          ],
+          [
+           711085.386,
+           6181513.627
+          ],
+          [
+           711087.635,
+           6181514.141
+          ],
+          [
+           711094.252,
+           6181511.301
+          ],
+          [
+           711096.123,
+           6181516.098
+          ],
+          [
+           711100.643,
+           6181523.875
+          ],
+          [
+           711115.077,
+           6181520.366
+          ],
+          [
+           711118.095,
+           6181528.618
+          ],
+          [
+           711116.005,
+           6181528.639
+          ],
+          [
+           711102.848,
+           6181535.145
+          ],
+          [
+           711100.752,
+           6181530.348
+          ],
+          [
+           711096.246,
+           6181532.53
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Tandslet Ejerlav, Tandslet",
+      "ejerlavskode": 1550753,
+      "kommunenavn": "Sønderborg Kommune",
+      "kommunekode": "0540",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Tandslet Ejerlav, Tandslet",
+      "jordstykke_id": 1780857,
+      "bfenummer": 5290491,
+      "centroid_x": 561918.401,
+      "centroid_y": 6086647.798,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           561959.886,
+           6086657.993
+          ],
+          [
+           561952.593,
+           6086658.91
+          ],
+          [
+           561945.536,
+           6086658.666
+          ],
+          [
+           561940.432,
+           6086659.064
+          ],
+          [
+           561938.303,
+           6086659.23
+          ],
+          [
+           561934.231,
+           6086659.474
+          ],
+          [
+           561933.055,
+           6086663.455
+          ],
+          [
+           561932.91,
+           6086663.949
+          ],
+          [
+           561928.745,
+           6086664.912
+          ],
+          [
+           561892.77,
+           6086673.601
+          ],
+          [
+           561886.887,
+           6086636.265
+          ],
+          [
+           561904.994,
+           6086633.301
+          ],
+          [
+           561919.36,
+           6086627.603
+          ],
+          [
+           561927.151,
+           6086626.634
+          ],
+          [
+           561930.746,
+           6086629.046
+          ],
+          [
+           561935.788,
+           6086634.215
+          ],
+          [
+           561956.188,
+           6086653.878
+          ],
+          [
+           561959.886,
+           6086657.993
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Gråsten Gods, Gråsten-Adsbøl",
+      "ejerlavskode": 1530153,
+      "kommunenavn": "Sønderborg Kommune",
+      "kommunekode": "0540",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Gråsten Gods, Gråsten-Adsbøl",
+      "jordstykke_id": 734012,
+      "bfenummer": 5258834,
+      "centroid_x": 537361.552,
+      "centroid_y": 6088480.914,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           537294.216,
+           6088436.398
+          ],
+          [
+           537390.447,
+           6088379.755
+          ],
+          [
+           537439.71,
+           6088461.998
+          ],
+          [
+           537358.978,
+           6088510.891
+          ],
+          [
+           537334.29,
+           6088485.809
+          ],
+          [
+           537305.243,
+           6088455.583
+          ],
+          [
+           537294.216,
+           6088436.398
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Ribe Bygrunde",
+      "ejerlavskode": 2007651,
+      "kommunenavn": "Esbjerg Kommune",
+      "kommunekode": "0561",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Ribe Bygrunde",
+      "jordstykke_id": 1570818,
+      "bfenummer": 5748351,
+      "centroid_x": 485048.154,
+      "centroid_y": 6131088.556,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           485033.687,
+           6131083.506
+          ],
+          [
+           485063.839,
+           6131084.122
+          ],
+          [
+           485064.129,
+           6131092.944
+          ],
+          [
+           485045.839,
+           6131092.496
+          ],
+          [
+           485042.393,
+           6131092.478
+          ],
+          [
+           485033.383,
+           6131092.489
+          ],
+          [
+           485033.375,
+           6131083.499
+          ],
+          [
+           485033.687,
+           6131083.506
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Mølby, Oksenvad",
+      "ejerlavskode": 1430751,
+      "kommunenavn": "Haderslev Kommune",
+      "kommunekode": "0510",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Mølby, Oksenvad",
+      "jordstykke_id": 1574309,
+      "bfenummer": 5187821,
+      "centroid_x": 516989.818,
+      "centroid_y": 6130297.556,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           516989.773,
+           6130323.91
+          ],
+          [
+           516975.983,
+           6130316.799
+          ],
+          [
+           516973.839,
+           6130316.634
+          ],
+          [
+           516957.142,
+           6130308.472
+          ],
+          [
+           516965.337,
+           6130284.643
+          ],
+          [
+           516982.39,
+           6130291.155
+          ],
+          [
+           516985.732,
+           6130277.164
+          ],
+          [
+           517006.28,
+           6130283.248
+          ],
+          [
+           516990.874,
+           6130322.18
+          ],
+          [
+           516989.773,
+           6130323.91
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Nørreby By, Klinte",
+      "ejerlavskode": 370355,
+      "kommunenavn": "Nordfyns Kommune",
+      "kommunekode": "0480",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Nørreby By, Klinte",
+      "jordstykke_id": 37550,
+      "bfenummer": 9428334,
+      "centroid_x": 580473.718,
+      "centroid_y": 6160120.092,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           580517.658,
+           6160066.621
+          ],
+          [
+           580458.688,
+           6160150.341
+          ],
+          [
+           580451.94,
+           6160153.827
+          ],
+          [
+           580461.223,
+           6160132.369
+          ],
+          [
+           580468.466,
+           6160117.502
+          ],
+          [
+           580474.868,
+           6160109.419
+          ],
+          [
+           580484.135,
+           6160101.52
+          ],
+          [
+           580491.038,
+           6160092.529
+          ],
+          [
+           580497.484,
+           6160087.75
+          ],
+          [
+           580504.589,
+           6160080.815
+          ],
+          [
+           580517.658,
+           6160066.621
+          ]
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 152,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "ejerlavsnavn": "Ordrup",
+      "ejerlavskode": 11054,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "101",
+      "visningstekst": "101, Ordrup",
+      "jordstykke_id": 340296,
+      "bfenummer": 2040036,
+      "centroid_x": 724872.017,
+      "centroid_y": 6185980.296,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           724883.376,
+           6185993.914
+          ],
+          [
+           724880.502,
+           6185993.005
+          ],
+          [
+           724873.172,
+           6185990.686
+          ],
+          [
+           724865.1,
+           6185987.065
+          ],
+          [
+           724857.861,
+           6185981.829
+          ],
+          [
+           724853.311,
+           6185976.697
+          ],
+          [
+           724878.397,
+           6185969.464
+          ],
+          [
+           724883.376,
+           6185993.914
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Aaker",
+      "ejerlavskode": 1380151,
+      "kommunenavn": "Bornholms Kommune",
+      "kommunekode": "0400",
+      "matrikelnummer": "101bo",
+      "visningstekst": "101bo, Aaker",
+      "jordstykke_id": 552500,
+      "bfenummer": null,
+      "centroid_x": 877409.4,
+      "centroid_y": 6113364.438,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           877402.821,
+           6113394.103
+          ],
+          [
+           877405.331,
+           6113355.869
+          ],
+          [
+           877415.687,
+           6113352.632
+          ],
+          [
+           877416.405,
+           6113352.188
+          ],
+          [
+           877417.814,
+           6113354.459
+          ],
+          [
+           877406.819,
+           6113389.575
+          ],
+          [
+           877411.313,
+           6113390.685
+          ],
+          [
+           877407.388,
+           6113394.621
+          ],
+          [
+           877402.821,
+           6113394.103
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Gentofte",
+      "ejerlavskode": 10151,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "1an",
+      "visningstekst": "1an, Gentofte",
+      "jordstykke_id": 331608,
+      "bfenummer": 2000039,
+      "centroid_x": 722382.729,
+      "centroid_y": 6183509.887,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           722349.296,
+           6183496.053
+          ],
+          [
+           722398.96,
+           6183490.547
+          ],
+          [
+           722399.03,
+           6183511.253
+          ],
+          [
+           722397.177,
+           6183535.115
+          ],
+          [
+           722392.475,
+           6183534.787
+          ],
+          [
+           722389.828,
+           6183534.473
+          ],
+          [
+           722387.243,
+           6183533.824
+          ],
+          [
+           722384.762,
+           6183532.846
+          ],
+          [
+           722382.428,
+           6183531.559
+          ],
+          [
+           722380.278,
+           6183529.982
+          ],
+          [
+           722378.348,
+           6183528.143
+          ],
+          [
+           722350.661,
+           6183497.814
+          ],
+          [
+           722349.93,
+           6183496.971
+          ],
+          [
+           722349.296,
+           6183496.053
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Gentofte",
+      "ejerlavskode": 10151,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "1cæ",
+      "visningstekst": "1cæ, Gentofte",
+      "jordstykke_id": 331836,
+      "bfenummer": 2000103,
+      "centroid_x": 722420.494,
+      "centroid_y": 6183498.391,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           722425.375,
+           6183487.618
+          ],
+          [
+           722423.888,
+           6183508.532
+          ],
+          [
+           722417.27,
+           6183508.353
+          ],
+          [
+           722418.543,
+           6183488.375
+          ],
+          [
+           722425.375,
+           6183487.618
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Gentofte",
+      "ejerlavskode": 10151,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "1cz",
+      "visningstekst": "1cz, Gentofte",
+      "jordstykke_id": 331911,
+      "bfenummer": 2000102,
+      "centroid_x": 722408.569,
+      "centroid_y": 6183497.166,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           722418.543,
+           6183488.375
+          ],
+          [
+           722417.27,
+           6183508.353
+          ],
+          [
+           722402.338,
+           6183507.948
+          ],
+          [
+           722401.315,
+           6183508.106
+          ],
+          [
+           722400.392,
+           6183508.575
+          ],
+          [
+           722399.659,
+           6183509.307
+          ],
+          [
+           722399.19,
+           6183510.23
+          ],
+          [
+           722399.03,
+           6183511.253
+          ],
+          [
+           722398.96,
+           6183490.547
+          ],
+          [
+           722418.543,
+           6183488.375
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Gentofte",
+      "ejerlavskode": 10151,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "4k",
+      "visningstekst": "4k, Gentofte",
+      "jordstykke_id": 330848,
+      "bfenummer": 2000581,
+      "centroid_x": 722185.309,
+      "centroid_y": 6182509.287,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           722187.404,
+           6182527.102
+          ],
+          [
+           722170.269,
+           6182521.961
+          ],
+          [
+           722177.77,
+           6182496.749
+          ],
+          [
+           722194.928,
+           6182501.898
+          ],
+          [
+           722206.036,
+           6182505.232
+          ],
+          [
+           722194.586,
+           6182515.52
+          ],
+          [
+           722188.502,
+           6182524.693
+          ],
+          [
+           722187.404,
+           6182527.102
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Gentofte",
+      "ejerlavskode": 10151,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "10nh",
+      "visningstekst": "10nh, Gentofte",
+      "jordstykke_id": 332082,
+      "bfenummer": 2003180,
+      "centroid_x": 722522.928,
+      "centroid_y": 6182243.017,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           722522.298,
+           6182227.97
+          ],
+          [
+           722525.689,
+           6182228.997
+          ],
+          [
+           722523.75,
+           6182272.166
+          ],
+          [
+           722522.071,
+           6182271.641
+          ],
+          [
+           722520.476,
+           6182268.26
+          ],
+          [
+           722522.298,
+           6182227.97
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Gentofte",
+      "ejerlavskode": 10151,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "11v",
+      "visningstekst": "11v, Gentofte",
+      "jordstykke_id": 333301,
+      "bfenummer": 2003277,
+      "centroid_x": 723022.879,
+      "centroid_y": 6182467.426,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           723003.354,
+           6182459.272
+          ],
+          [
+           723041.651,
+           6182462.083
+          ],
+          [
+           723040.546,
+           6182474.738
+          ],
+          [
+           723002.145,
+           6182473.119
+          ],
+          [
+           723003.354,
+           6182459.272
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Gentofte",
+      "ejerlavskode": 10151,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "12f",
+      "visningstekst": "12f, Gentofte",
+      "jordstykke_id": 331933,
+      "bfenummer": 2003333,
+      "centroid_x": 722412.226,
+      "centroid_y": 6183465.901,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           722422.087,
+           6183439.673
+          ],
+          [
+           722420.765,
+           6183485.923
+          ],
+          [
+           722395.034,
+           6183488.682
+          ],
+          [
+           722399.985,
+           6183468.65
+          ],
+          [
+           722404.06,
+           6183452.161
+          ],
+          [
+           722407.961,
+           6183436.382
+          ],
+          [
+           722411.312,
+           6183437.496
+          ],
+          [
+           722416.666,
+           6183438.75
+          ],
+          [
+           722422.087,
+           6183439.673
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Gentofte",
+      "ejerlavskode": 10151,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "14ø",
+      "visningstekst": "14ø, Gentofte",
+      "jordstykke_id": 335385,
+      "bfenummer": 2004181,
+      "centroid_x": 723729.791,
+      "centroid_y": 6182447.109,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           723750.506,
+           6182459.119
+          ],
+          [
+           723711.414,
+           6182439.266
+          ],
+          [
+           723712.739,
+           6182437.132
+          ],
+          [
+           723751.865,
+           6182457.001
+          ],
+          [
+           723750.506,
+           6182459.119
+          ]
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 152,
+    "ok": true,
+    "row_count": 2,
+    "rows": [
+     {
+      "id": "1233766a-19f6-6b98-e053-d480220a5a3f",
+      "skrivemaade": "101",
+      "visningstekst": "101 (Grænse i Padborg)",
+      "skrivemaade_officiel": "101",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "andentopografipunkt",
+      "stednavn_subtype": "grænsestenGrænsepæl",
+      "kommunekode": "0580",
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         515308,
+         6075566.62
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Point",
+       "coordinates": [
+        515308,
+        6075566.62
+       ]
+      }
+     },
+     {
+      "id": "60edf2d9-0372-868f-e053-d380220a949d",
+      "skrivemaade": "101 Friendship Park",
+      "visningstekst": "101 Friendship Park (Park i Aarhus N)",
+      "skrivemaade_officiel": "101 Friendship Park",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "naturareal",
+      "stednavn_subtype": "parkAnlæg",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           572748.7011,
+           6227395.7637
+          ],
+          [
+           572680.5443,
+           6227390.2604
+          ],
+          [
+           572655.9909,
+           6227294.1635
+          ],
+          [
+           572700.8643,
+           6227298.3969
+          ],
+          [
+           572748.7011,
+           6227395.7637
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          572655.9909,
+          6227294.1635
+         ],
+         [
+          572655.9909,
+          6227395.7637
+         ],
+         [
+          572748.7011,
+          6227395.7637
+         ],
+         [
+          572748.7011,
+          6227294.1635
+         ],
+         [
+          572655.9909,
+          6227294.1635
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 148,
+    "ok": true,
+    "row_count": 1,
+    "rows": [
+     {
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "visningstekst": "Københavns Kommune",
+      "geometri": {
+       "type": "MultiPolygon",
+       "summarized": true,
+       "vertex_count": 468,
+       "bbox": [
+        716908.1,
+        6168580.13,
+        734617.74,
+        6182071.12
+       ],
+       "part_count": 7,
+       "area_m2": 92023042
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          716908.1,
+          6168580.13
+         ],
+         [
+          716908.1,
+          6182071.12
+         ],
+         [
+          734617.74,
+          6182071.12
+         ],
+         [
+          734617.74,
+          6168580.13
+         ],
+         [
+          716908.1,
+          6168580.13
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 74,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 83,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 75,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 84,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=101&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 81,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "101",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 232,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": [
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "rxqd6jlaofazm"
+       },
+       "refs": {
+        "postcode": "rxqd6jlaofazm"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1801",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722237.034,
+         6174928.04
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.75,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1801"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "3ac37ciiuvnl6"
+       },
+       "refs": {
+        "postcode": "3ac37ciiuvnl6"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1901",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722973.12,
+         6175717.69
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.75,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1901"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "xpvsenhygiy5i"
+       },
+       "refs": {
+        "postcode": "xpvsenhygiy5i"
+       },
+       "result": "København K",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1101",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         725240.712,
+         6176408.425
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.75,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1101"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "bz6moujaimw2y"
+       },
+       "refs": {
+        "postcode": "bz6moujaimw2y"
+       },
+       "result": "København K",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1201",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724945.664,
+         6176060.69
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.75,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1201"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "etpan5uzw7sfe"
+       },
+       "refs": {
+        "postcode": "etpan5uzw7sfe"
+       },
+       "result": "København K",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1301",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         725410.642,
+         6176653.55
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.75,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1301"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "afa2dabmpz3aa"
+       },
+       "refs": {
+        "postcode": "afa2dabmpz3aa"
+       },
+       "result": "København K",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1401",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         725828.429,
+         6175892.83
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.75,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1401"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "zoywq7wso4iiu"
+       },
+       "refs": {
+        "postcode": "zoywq7wso4iiu"
+       },
+       "result": "København V",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1601",
+          "city": "København V"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723751.638,
+         6175778.15
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.75,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1601"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "tkgksg62vujki"
+       },
+       "refs": {
+        "postcode": "tkgksg62vujki"
+       },
+       "result": "København V",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1701",
+          "city": "København V"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724061.211,
+         6175308.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.75,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1701"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 142,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "bq2guabnyax56"
+       },
+       "refs": {
+        "street": "bq2guabnyax56"
+       },
+       "result": "Vej 10, 2000 Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vej 10",
+        "postcodes": [
+         {
+          "postcode": "2000",
+          "city": "Frederiksberg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721326.69,
+         6176824.17
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2222,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "c367bcc5-f6d3-457e-89dd-40488935a323"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "bzbb4432m4iby"
+       },
+       "refs": {
+        "street": "bzbb4432m4iby"
+       },
+       "result": "Pier 10, 9990 Skagen",
+       "lifecycle": "current",
+       "components": {
+        "street": "Pier 10",
+        "postcodes": [
+         {
+          "postcode": "9990",
+          "city": "Skagen"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0813",
+          "kommune": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         594789.88,
+         6398048.43
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "0e16639e-ce4b-4040-a13a-246282010908"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "jfg35j6oiit54"
+       },
+       "refs": {
+        "street": "jfg35j6oiit54"
+       },
+       "result": "Vej 10 Nr, 4560 Vig",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vej 10 Nr",
+        "postcodes": [
+         {
+          "postcode": "4560",
+          "city": "Vig"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0306",
+          "kommune": "Odsherred"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         657556.89,
+         6193025.84
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "363a69d4-bcf1-4b4b-b029-3102ceac80a3"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "7sg2wmrsul5xq"
+       },
+       "refs": {
+        "street": "7sg2wmrsul5xq"
+       },
+       "result": "10. Juli Vej, 6070 Christiansfeld",
+       "lifecycle": "current",
+       "components": {
+        "street": "10. Juli Vej",
+        "postcodes": [
+         {
+          "postcode": "6070",
+          "city": "Christiansfeld"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0621",
+          "kommune": "Kolding"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         530947.87,
+         6134757.23
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "da299ad9-4c69-4fe3-82ba-e07f322b77e4"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "zzaloclmhh5qy"
+       },
+       "refs": {
+        "street": "zzaloclmhh5qy"
+       },
+       "result": "10. Februar Vej, 6070 Christiansfeld",
+       "lifecycle": "current",
+       "components": {
+        "street": "10. Februar Vej",
+        "postcodes": [
+         {
+          "postcode": "6070",
+          "city": "Christiansfeld"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0621",
+          "kommune": "Kolding"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         530867.34,
+         6134756.06
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1176,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "57bda496-d6fe-4ac3-98d0-5d3c6b0accb5"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "34hnami24yz3w"
+       },
+       "refs": {
+        "street": "34hnami24yz3w"
+       },
+       "result": "Stampen Vej 10",
+       "lifecycle": "current",
+       "components": {
+        "street": "Stampen Vej 10"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         866446.0,
+         6117644.75
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1176,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "caf90b2d-41e1-45ac-aecf-e8ba71ac3067"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "jdw6j36zaxvu2"
+       },
+       "refs": {
+        "street": "jdw6j36zaxvu2"
+       },
+       "result": "Vej 1, 2000 Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vej 1",
+        "postcodes": [
+         {
+          "postcode": "2000",
+          "city": "Frederiksberg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721554.09,
+         6176673.84
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "34f01c7c-9ca0-4579-85c2-31881156f9ab"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "huu2us2itxqpy"
+       },
+       "refs": {
+        "street": "huu2us2itxqpy"
+       },
+       "result": "Christian 10 Gade, 6000 Kolding",
+       "lifecycle": "current",
+       "components": {
+        "street": "Christian 10 Gade",
+        "postcodes": [
+         {
+          "postcode": "6000",
+          "city": "Kolding"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0621",
+          "kommune": "Kolding"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         530127.29,
+         6148816.41
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "0889bb71-9b5e-4157-849a-b876a06777fb"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "aayk7h7mgle7g"
+       },
+       "refs": {
+        "street": "aayk7h7mgle7g"
+       },
+       "result": "Pier 1, 6700 Esbjerg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Pier 1",
+        "postcodes": [
+         {
+          "postcode": "6700",
+          "city": "Esbjerg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0561",
+          "kommune": "Esbjerg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         463599.75,
+         6147592.46
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "c2fa7d66-6cf9-4fe7-9052-130eff0e91a2"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "hppkh6eji6eg6"
+       },
+       "refs": {
+        "street": "hppkh6eji6eg6"
+       },
+       "result": "Pier 1, 9970 Strandby",
+       "lifecycle": "current",
+       "components": {
+        "street": "Pier 1",
+        "postcodes": [
+         {
+          "postcode": "9970",
+          "city": "Strandby"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0813",
+          "kommune": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         590044.79,
+         6373295.32
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "f1276b03-b3bf-485c-a2be-49c14d8bcd20"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": []
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 130,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 232,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 231,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": []
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 231,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "zrzamkfixl3sa"
+       },
+       "refs": {
+        "stednavn": "zrzamkfixl3sa"
+       },
+       "result": "101",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "101",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         515308.0,
+         6075566.62
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1152850"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "mrd63ms7fzx7y"
+       },
+       "refs": {
+        "stednavn": "mrd63ms7fzx7y"
+       },
+       "result": "10",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "10",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         526791.53,
+         6076928.14
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1100667"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ku4womafycalm"
+       },
+       "refs": {
+        "stednavn": "ku4womafycalm"
+       },
+       "result": "100",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "100",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         515424.81,
+         6075303.89
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1018935"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "6okn4x377ulsc"
+       },
+       "refs": {
+        "stednavn": "6okn4x377ulsc"
+       },
+       "result": "102",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "102",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         515232.44,
+         6075796.2
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1108572"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "wddiagpycny2i"
+       },
+       "refs": {
+        "stednavn": "wddiagpycny2i"
+       },
+       "result": "103",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "103",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         515152.69,
+         6076036.06
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1142153"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "q62hhrl5thc6c"
+       },
+       "refs": {
+        "stednavn": "q62hhrl5thc6c"
+       },
+       "result": "104",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "104",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         515132.2,
+         6076273.65
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1046751"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "kfhqwuq4gpghq"
+       },
+       "refs": {
+        "stednavn": "kfhqwuq4gpghq"
+       },
+       "result": "105",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "105",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         515116.4,
+         6076461.84
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1034179"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "lpxc7dlbzqcxg"
+       },
+       "refs": {
+        "stednavn": "lpxc7dlbzqcxg"
+       },
+       "result": "106",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "106",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         515250.96,
+         6076740.43
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1152913"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "cyvxarlazltj6"
+       },
+       "refs": {
+        "stednavn": "cyvxarlazltj6"
+       },
+       "result": "107",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "107",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         515382.98,
+         6076966.55
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1044468"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "54m4k6s77wljs"
+       },
+       "refs": {
+        "stednavn": "54m4k6s77wljs"
+       },
+       "result": "108",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "108",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         515552.18,
+         6077203.92
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1021776"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 189,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": [
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "gueg6e4pa63d2"
+       },
+       "refs": {
+        "kommune": "gueg6e4pa63d2"
+       },
+       "result": "København",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         726616.488,
+         6173589.445
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0101"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 189,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": []
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 190,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 203,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": []
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 127,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "101",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 127,
+    "ok": true,
+    "response": {
+     "input": "101",
+     "matches": []
+    }
+   }
+  ]
+ }
+}

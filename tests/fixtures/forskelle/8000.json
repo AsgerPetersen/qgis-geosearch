@@ -1,0 +1,5439 @@
+{
+ "id": "8000",
+ "term": "8000",
+ "kommuner": "",
+ "sources": [
+  "tests/cases.yaml: pos-8000"
+ ],
+ "recorded_at": "2026-11-06T19:49:09+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 3313,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "39ff92cd-efce-0991-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0032",
+      "vejnavn": "Absalonsgade",
+      "husnummer": "1B",
+      "etagebetegnelse": "kl",
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Absalonsgade 1B, kl., 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574183.68773241,
+         6223067.00797633
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574177,
+         6223058.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50c2-64dd-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0032",
+      "vejnavn": "Absalonsgade",
+      "husnummer": "1B",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Absalonsgade 1B, st. tv, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574183.68773241,
+         6223067.00797633
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574177,
+         6223058.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50c2-64de-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0032",
+      "vejnavn": "Absalonsgade",
+      "husnummer": "1B",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Absalonsgade 1B, 1. th, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574183.68773241,
+         6223067.00797633
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574177,
+         6223058.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50c2-64df-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0032",
+      "vejnavn": "Absalonsgade",
+      "husnummer": "1B",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Absalonsgade 1B, 1. tv, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574183.68773241,
+         6223067.00797633
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574177,
+         6223058.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50c2-64e0-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0032",
+      "vejnavn": "Absalonsgade",
+      "husnummer": "1B",
+      "etagebetegnelse": "2",
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Absalonsgade 1B, 2., 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574183.68773241,
+         6223067.00797633
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574177,
+         6223058.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50c2-64dc-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0032",
+      "vejnavn": "Absalonsgade",
+      "husnummer": "1B",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Absalonsgade 1B, st. th, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574183.68773241,
+         6223067.00797633
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574177,
+         6223058.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50c2-64e1-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0032",
+      "vejnavn": "Absalonsgade",
+      "husnummer": "1C",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Absalonsgade 1C, st. th, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574178.8,
+         6223070.85
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574145.94,
+         6223038
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50c2-64e2-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0032",
+      "vejnavn": "Absalonsgade",
+      "husnummer": "1C",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Absalonsgade 1C, st. tv, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574178.8,
+         6223070.85
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574145.94,
+         6223038
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50c2-64e3-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0032",
+      "vejnavn": "Absalonsgade",
+      "husnummer": "1C",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Absalonsgade 1C, 1. th, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574178.8,
+         6223070.85
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574145.94,
+         6223038
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50c2-64e4-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0032",
+      "vejnavn": "Absalonsgade",
+      "husnummer": "1C",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Absalonsgade 1C, 1. tv, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574178.8,
+         6223070.85
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574145.94,
+         6223038
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 677,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "0a3f5095-dfa2-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0169",
+      "vejnavn": "Amaliegade",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Amaliegade 1, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574976.86306857,
+         6223861.25557543
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574985.06,
+         6223859
+        ]
+       ]
+      }
+     },
+     {
+      "id": "8b5940d0-7b1c-443f-bcdc-e37a318fa968",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0026",
+      "vejnavn": "Anna Klindt Sørensens Gade",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Anna Klindt Sørensens Gade 1, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574004.69930465,
+         6223708.61091829
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         573995.19450898,
+         6223695.29949744
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5095-e237-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0264",
+      "vejnavn": "Aros Allé",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Aros Allé 1, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574472.37,
+         6223917.47
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574458.81,
+         6223939.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "5ddb979d-c8b8-40d3-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0444",
+      "vejnavn": "Balivej",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Balivej 1, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         576160.08999851,
+         6224116.8094456
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         576198.60798315,
+         6224190.34518459
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5095-e6b9-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0476",
+      "vejnavn": "Banegårdsgade",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Banegårdsgade 1, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574553.0980432,
+         6223479.29225322
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574555.44,
+         6223496.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5095-e6db-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0480",
+      "vejnavn": "Banegårdspladsen",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Banegårdspladsen 1, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574828.16411575,
+         6223501.95318523
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574835.47,
+         6223468.2
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5097-1aa6-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0500",
+      "vejnavn": "Bartholins Allé",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Bartholins Allé 1, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574848,
+         6225225.38
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574836.23,
+         6225222.19
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5095-ec6f-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0630",
+      "vejnavn": "Birketinget",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Birketinget 1, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574556.09838709,
+         6222377.38308716
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574575.62,
+         6222381.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "5ddb979d-c8d0-40d3-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0650",
+      "vejnavn": "Bispegade",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Bispegade 1, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         575164.3531432,
+         6224265.90648917
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         575150.37,
+         6224270
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5095-ed87-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0674",
+      "vejnavn": "Bissensgade",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "Bissensgade 1, 8000 Aarhus C",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574394.84434914,
+         6223944.08081645
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574390,
+         6223937.5
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 158,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "c62971c9-8c73-4abc-ae44-fa22d2bbd63a",
+      "vejnavn": "Absalonsgade",
+      "supplerendebynavn": null,
+      "visningstekst": "Absalonsgade (8000 Aarhus C)",
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          574208.2,
+          6223047.74
+         ],
+         [
+          574211.76,
+          6223045.02
+         ]
+        ],
+        [
+         [
+          574178.8,
+          6223070.85
+         ],
+         [
+          574208.2,
+          6223047.74
+         ]
+        ],
+        [
+         [
+          574127.1,
+          6223252.62
+         ],
+         [
+          574146.49,
+          6223184.41
+         ],
+         [
+          574164.9,
+          6223117.02
+         ]
+        ],
+        [
+         [
+          574167.03,
+          6223109.94
+         ],
+         [
+          574178.8,
+          6223070.85
+         ]
+        ],
+        [
+         [
+          574164.9,
+          6223117.02
+         ],
+         [
+          574167.03,
+          6223109.94
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          574127.1,
+          6223045.02
+         ],
+         [
+          574127.1,
+          6223252.62
+         ],
+         [
+          574211.76,
+          6223252.62
+         ],
+         [
+          574211.76,
+          6223045.02
+         ],
+         [
+          574127.1,
+          6223045.02
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "5b218b1d-03a7-4805-b929-ee6655665bf7",
+      "vejnavn": "Adolph Meyers Vej",
+      "supplerendebynavn": null,
+      "visningstekst": "Adolph Meyers Vej (8000 Aarhus C)",
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          574930.86,
+          6222553.39
+         ],
+         [
+          574933.28,
+          6222549.47
+         ],
+         [
+          574936.39,
+          6222541.52
+         ]
+        ],
+        [
+         [
+          574846.14,
+          6222476.89
+         ],
+         [
+          574969.24,
+          6222459.47
+         ]
+        ],
+        [
+         [
+          574969.24,
+          6222459.47
+         ],
+         [
+          574954.19,
+          6222496
+         ],
+         [
+          574936.39,
+          6222541.52
+         ]
+        ],
+        [
+         [
+          574936.39,
+          6222541.52
+         ],
+         [
+          574927.23,
+          6222538.95
+         ],
+         [
+          574925.03,
+          6222535.92
+         ],
+         [
+          574923.83,
+          6222531.99
+         ],
+         [
+          574921.32,
+          6222525.29
+         ],
+         [
+          574906.1,
+          6222517.75
+         ]
+        ],
+        [
+         [
+          574969.24,
+          6222459.47
+         ],
+         [
+          575010.59,
+          6222457.53
+         ],
+         [
+          575012.13,
+          6222457.46
+         ],
+         [
+          575018.54,
+          6222457.17
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          574846.14,
+          6222457.17
+         ],
+         [
+          574846.14,
+          6222553.39
+         ],
+         [
+          575018.54,
+          6222553.39
+         ],
+         [
+          575018.54,
+          6222457.17
+         ],
+         [
+          574846.14,
+          6222457.17
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "c6fb8a98-20fc-45b0-bf36-9ade3fa8ddb4",
+      "vejnavn": "Aldersrovej",
+      "supplerendebynavn": null,
+      "visningstekst": "Aldersrovej (8000 Aarhus C, 8200 Aarhus N)",
+      "postnummer": "8000,8200",
+      "postnummernavn": "Aarhus C,Aarhus N",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          575143.94,
+          6226271.82
+         ],
+         [
+          575142.63,
+          6226266.46
+         ],
+         [
+          575140.27,
+          6226256.78
+         ],
+         [
+          575137.93,
+          6226241.09
+         ],
+         [
+          575136.35,
+          6226226.07
+         ],
+         [
+          575135.91,
+          6226216.6
+         ],
+         [
+          575135.75,
+          6226208.2
+         ],
+         [
+          575136.09,
+          6226194.31
+         ],
+         [
+          575136.46,
+          6226189.49
+         ]
+        ],
+        [
+         [
+          575093.69,
+          6226145.56
+         ],
+         [
+          575107.04,
+          6226143.07
+         ]
+        ],
+        [
+         [
+          575107.04,
+          6226143.07
+         ],
+         [
+          575107.82,
+          6226144.66
+         ],
+         [
+          575108.17,
+          6226146.39
+         ],
+         [
+          575108.05,
+          6226148.16
+         ],
+         [
+          575107.48,
+          6226149.83
+         ],
+         [
+          575106.49,
+          6226151.3
+         ],
+         [
+          575105.17,
+          6226152.46
+         ],
+         [
+          575103.58,
+          6226153.24
+         ],
+         [
+          575101.85,
+          6226153.58
+         ],
+         [
+          575100.08,
+          6226153.47
+         ],
+         [
+          575098.41,
+          6226152.9
+         ],
+         [
+          575096.94,
+          6226151.91
+         ],
+         [
+          575095.74,
+          6226150.53
+         ],
+         [
+          575093.69,
+          6226145.56
+         ]
+        ],
+        [
+         [
+          575093.69,
+          6226145.56
+         ],
+         [
+          575090.42,
+          6226145.85
+         ],
+         [
+          575084.25,
+          6226148.57
+         ],
+         [
+          575078.62,
+          6226154.06
+         ],
+         [
+          575073.66,
+          6226158.48
+         ],
+         [
+          575053.03,
+          6226180.64
+         ],
+         [
+          575035.09,
+          6226185.05
+         ],
+         [
+          575018.1,
+          6226188.69
+         ]
+        ],
+        [
+         [
+          575107.04,
+          6226143.07
+         ],
+         [
+          575113.89,
+          6226140.94
+         ],
+         [
+          575124.51,
+          6226138.02
+         ]
+        ],
+        [
+         [
+          575124.51,
+          6226138.02
+         ],
+         [
+          575126.01,
+          6226144.65
+         ],
+         [
+          575126.07,
+          6226145.02
+         ],
+         [
+          575126.61,
+          6226148.44
+         ],
+         [
+          575126.94,
+          6226151.87
+         ],
+         [
+          575126.82,
+          6226155.36
+         ],
+         [
+          575126.61,
+          6226157.99
+         ],
+         [
+          575126.01,
+          6226161.72
+         ],
+         [
+          575125,
+          6226166.28
+         ],
+         [
+          575123.8,
+          6226172.74
+         ],
+         [
+          575123.24,
+          6226176.81
+         ],
+         [
+          575123.09,
+          6226177.89
+         ],
+         [
+          575122.61,
+          6226181.48
+         ],
+         [
+          575122.38,
+          6226185.48
+         ],
+         [
+          575122.55,
+          6226186.85
+         ],
+         [
+          575122.97,
+          6226187.64
+         ],
+         [
+          575123.74,
+          6226188.17
+         ],
+         [
+          575124.88,
+          6226188.42
+         ],
+         [
+          575130.66,
+          6226188.99
+         ],
+         [
+          575136.46,
+          6226189.49
+         ]
+        ],
+        [
+         [
+          575136.46,
+          6226189.49
+         ],
+         [
+          575137.01,
+          6226182.18
+         ],
+         [
+          575138.09,
+          6226173.03
+         ],
+         [
+          575138.95,
+          6226167.69
+         ],
+         [
+          575142.04,
+          6226152.72
+         ],
+         [
+          575144.95,
+          6226140.4
+         ]
+        ],
+        [
+         [
+          575124.51,
+          6226138.02
+         ],
+         [
+          575126.93,
+          6226137.55
+         ],
+         [
+          575129.56,
+          6226137.19
+         ],
+         [
+          575131.62,
+          6226137.23
+         ],
+         [
+          575133.76,
+          6226137.63
+         ],
+         [
+          575139.13,
+          6226139.04
+         ],
+         [
+          575144.95,
+          6226140.4
+         ]
+        ],
+        [
+         [
+          575144.95,
+          6226140.4
+         ],
+         [
+          575150.2,
+          6226118.2
+         ],
+         [
+          575158.13,
+          6226081.43
+         ],
+         [
+          575160.15,
+          6226072.35
+         ],
+         [
+          575160.91,
+          6226068.96
+         ],
+         [
+          575166.96,
+          6226041.77
+         ],
+         [
+          575169.59,
+          6226030.58
+         ],
+         [
+          575174.63,
+          6226009.07
+         ],
+         [
+          575176.81,
+          6225999.12
+         ]
+        ],
+        [
+         [
+          575176.81,
+          6225999.12
+         ],
+         [
+          575183.19,
+          6226003.67
+         ]
+        ],
+        [
+         [
+          575207.18,
+          6225877.85
+         ],
+         [
+          575201.54,
+          6225899.86
+         ],
+         [
+          575199.57,
+          6225908.92
+         ],
+         [
+          575198.57,
+          6225913.53
+         ],
+         [
+          575192.85,
+          6225939.94
+         ],
+         [
+          575182.85,
+          6225975.28
+         ],
+         [
+          575179.85,
+          6225985.24
+         ],
+         [
+          575176.81,
+          6225999.12
+         ]
+        ],
+        [
+         [
+          575176.81,
+          6225999.12
+         ],
+         [
+          575171.01,
+          6225994.96
+         ]
+        ],
+        [
+         [
+          575212.91,
+          6225853.18
+         ],
+         [
+          575207.18,
+          6225877.85
+         ]
+        ],
+        [
+         [
+          575207.18,
+          6225877.85
+         ],
+         [
+          575201.38,
+          6225876.09
+         ],
+         [
+          575196.5,
+          6225874.62
+         ],
+         [
+          575187.7,
+          6225872.42
+         ],
+         [
+          575178.4,
+          6225870.2
+         ],
+         [
+          575161.48,
+          6225866.33
+         ]
+        ],
+        [
+         [
+          575227.17,
+          6225792.72
+         ],
+         [
+          575222.47,
+          6225813.42
+         ],
+         [
+          575215.97,
+          6225840.9
+         ],
+         [
+          575212.91,
+          6225853.18
+         ]
+        ],
+        [
+         [
+          575212.91,
+          6225853.18
+         ],
+         [
+          575207.02,
+          6225852.01
+         ],
+         [
+          575203.4,
+          6225851.3
+         ],
+         [
+          575186.8,
+          6225847.31
+         ],
+         [
+          575168.97,
+          6225843.34
+         ],
+         [
+          575158.67,
+          6225841.1
+         ]
+        ],
+        [
+         [
+          575173.64,
+          6225798.31
+         ],
+         [
+          575197.98,
+          6225792.36
+         ],
+         [
+          575209.35,
+          6225789.63
+         ],
+         [
+          575218.47,
+          6225790.63
+         ],
+         [
+          575221.39,
+          6225791.33
+         ],
+         [
+          575227.17,
+          6225792.72
+         ]
+        ],
+        [
+         [
+          575227.17,
+          6225792.72
+         ],
+         [
+          575233.58,
+          6225765.8
+         ],
+         [
+          575240.84,
+          6225736.5
+         ],
+         [
+          575249.03,
+          6225702.45
+         ],
+         [
+          575253.11,
+          6225684.25
+         ],
+         [
+          575254.59,
+          6225675.46
+         ],
+         [
+          575254.89,
+          6225665.35
+         ],
+         [
+          575253.97,
+          6225655.81
+         ],
+         [
+          575253.3,
+          6225648.81
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          575018.1,
+          6225648.81
+         ],
+         [
+          575018.1,
+          6226271.82
+         ],
+         [
+          575254.89,
+          6226271.82
+         ],
+         [
+          575254.89,
+          6225648.81
+         ],
+         [
+          575018.1,
+          6225648.81
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "854760d8-6e76-4a71-89b8-973811a3ff02",
+      "vejnavn": "Amaliegade",
+      "supplerendebynavn": null,
+      "visningstekst": "Amaliegade (8000 Aarhus C)",
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          574954.59,
+          6223852.05
+         ],
+         [
+          574948.39,
+          6223840.1
+         ],
+         [
+          574942.3,
+          6223837.02
+         ]
+        ],
+        [
+         [
+          574980.32,
+          6223875.67
+         ],
+         [
+          574967.53,
+          6223828.98
+         ]
+        ],
+        [
+         [
+          574967.53,
+          6223828.98
+         ],
+         [
+          574960.07,
+          6223830.96
+         ],
+         [
+          574950.41,
+          6223834.44
+         ],
+         [
+          574942.3,
+          6223837.02
+         ]
+        ],
+        [
+         [
+          574942.3,
+          6223837.02
+         ],
+         [
+          574936.69,
+          6223818.71
+         ]
+        ],
+        [
+         [
+          574967.53,
+          6223828.98
+         ],
+         [
+          574949.37,
+          6223761.59
+         ],
+         [
+          574947.76,
+          6223756.19
+         ],
+         [
+          574946.08,
+          6223751.15
+         ],
+         [
+          574944.82,
+          6223747.35
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          574936.69,
+          6223747.35
+         ],
+         [
+          574936.69,
+          6223875.67
+         ],
+         [
+          574980.32,
+          6223875.67
+         ],
+         [
+          574980.32,
+          6223747.35
+         ],
+         [
+          574936.69,
+          6223747.35
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "ba50f24e-6d09-4796-ae9c-d211f4f38d99",
+      "vejnavn": "Anholtsgade",
+      "supplerendebynavn": null,
+      "visningstekst": "Anholtsgade (8000 Aarhus C)",
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          575098.21,
+          6224689.13
+         ],
+         [
+          575086.57,
+          6224674
+         ]
+        ],
+        [
+         [
+          575086.57,
+          6224674
+         ],
+         [
+          575074.24,
+          6224683.36
+         ],
+         [
+          575070.38,
+          6224679.86
+         ],
+         [
+          575062.66,
+          6224670.34
+         ],
+         [
+          575057.06,
+          6224674.88
+         ],
+         [
+          575053.77,
+          6224676.97
+         ],
+         [
+          575050.46,
+          6224678.18
+         ],
+         [
+          575044.33,
+          6224678.02
+         ]
+        ],
+        [
+         [
+          575104.61,
+          6224659.59
+         ],
+         [
+          575086.57,
+          6224674
+         ]
+        ],
+        [
+         [
+          575086.57,
+          6224674
+         ],
+         [
+          575076.08,
+          6224660.35
+         ],
+         [
+          575062.28,
+          6224643.45
+         ],
+         [
+          575059.88,
+          6224642.43
+         ],
+         [
+          575030.28,
+          6224629.89
+         ],
+         [
+          575026.21,
+          6224628.16
+         ],
+         [
+          575003.95,
+          6224621.07
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          575003.95,
+          6224621.07
+         ],
+         [
+          575003.95,
+          6224689.13
+         ],
+         [
+          575104.61,
+          6224689.13
+         ],
+         [
+          575104.61,
+          6224621.07
+         ],
+         [
+          575003.95,
+          6224621.07
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "59c885e3-9aa8-4e4e-8fda-a89f4f8cba4f",
+      "vejnavn": "Ankersgade",
+      "supplerendebynavn": null,
+      "visningstekst": "Ankersgade (8000 Aarhus C)",
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          574020.87,
+          6223239.91
+         ],
+         [
+          574028.08,
+          6223218.19
+         ],
+         [
+          574039.2,
+          6223214.93
+         ],
+         [
+          574044.11,
+          6223210.37
+         ],
+         [
+          574044.89,
+          6223197.32
+         ]
+        ],
+        [
+         [
+          574044.89,
+          6223197.32
+         ],
+         [
+          574039.51,
+          6223201.42
+         ],
+         [
+          574035.47,
+          6223201.52
+         ],
+         [
+          574016.14,
+          6223197.95
+         ]
+        ],
+        [
+         [
+          574044.89,
+          6223197.32
+         ],
+         [
+          574055.12,
+          6223203.04
+         ],
+         [
+          574082.44,
+          6223226.4
+         ],
+         [
+          574114.45,
+          6223254.93
+         ],
+         [
+          574117.27,
+          6223256.48
+         ],
+         [
+          574120.15,
+          6223256.55
+         ],
+         [
+          574124.63,
+          6223254.84
+         ],
+         [
+          574127.1,
+          6223252.62
+         ],
+         [
+          574128.38,
+          6223257.81
+         ],
+         [
+          574130.85,
+          6223261.49
+         ],
+         [
+          574138.21,
+          6223266.57
+         ],
+         [
+          574145.89,
+          6223270.31
+         ],
+         [
+          574138.91,
+          6223274.02
+         ],
+         [
+          574135.31,
+          6223277.02
+         ],
+         [
+          574135.01,
+          6223277.27
+         ],
+         [
+          574130.66,
+          6223277.87
+         ],
+         [
+          574097.63,
+          6223271.38
+         ],
+         [
+          574092.36,
+          6223273.29
+         ],
+         [
+          574028.05,
+          6223245.46
+         ]
+        ],
+        [
+         [
+          574033.63,
+          6223174.73
+         ],
+         [
+          574028.94,
+          6223180.87
+         ],
+         [
+          574024.82,
+          6223186.27
+         ],
+         [
+          574016.14,
+          6223197.95
+         ]
+        ],
+        [
+         [
+          574016.14,
+          6223197.95
+         ],
+         [
+          573994.38,
+          6223193.39
+         ]
+        ],
+        [
+         [
+          573994.38,
+          6223193.39
+         ],
+         [
+          573991.66,
+          6223206.43
+         ],
+         [
+          573928.42,
+          6223191.9
+         ],
+         [
+          573919.49,
+          6223189.91
+         ],
+         [
+          573888.79,
+          6223183.09
+         ]
+        ],
+        [
+         [
+          573888.79,
+          6223183.09
+         ],
+         [
+          573884.31,
+          6223196.19
+         ],
+         [
+          573862.7,
+          6223189.06
+         ]
+        ],
+        [
+         [
+          573888.79,
+          6223183.09
+         ],
+         [
+          573891.52,
+          6223172.27
+         ]
+        ],
+        [
+         [
+          573891.52,
+          6223172.27
+         ],
+         [
+          573908.91,
+          6223175.93
+         ]
+        ],
+        [
+         [
+          573908.91,
+          6223175.93
+         ],
+         [
+          573909.62,
+          6223172.88
+         ],
+         [
+          573914.55,
+          6223166.32
+         ],
+         [
+          573994.28,
+          6223183.36
+         ],
+         [
+          573994.72,
+          6223187.42
+         ],
+         [
+          573994.38,
+          6223193.39
+         ]
+        ],
+        [
+         [
+          573994.38,
+          6223193.39
+         ],
+         [
+          573930.46,
+          6223180.47
+         ],
+         [
+          573908.91,
+          6223175.93
+         ]
+        ],
+        [
+         [
+          573891.52,
+          6223172.27
+         ],
+         [
+          573857.39,
+          6223165.29
+         ],
+         [
+          573851.54,
+          6223164.09
+         ]
+        ],
+        [
+         [
+          573865.36,
+          6223142.17
+         ],
+         [
+          573857.62,
+          6223154.44
+         ],
+         [
+          573851.54,
+          6223164.09
+         ]
+        ],
+        [
+         [
+          573851.54,
+          6223164.09
+         ],
+         [
+          573839.09,
+          6223161.39
+         ],
+         [
+          573801.23,
+          6223153.18
+         ],
+         [
+          573795.78,
+          6223151.98
+         ]
+        ],
+        [
+         [
+          573808.77,
+          6223131.62
+         ],
+         [
+          573795.78,
+          6223151.98
+         ]
+        ],
+        [
+         [
+          573795.78,
+          6223151.98
+         ],
+         [
+          573784.71,
+          6223149.85
+         ]
+        ],
+        [
+         [
+          573731.23,
+          6223125.71
+         ],
+         [
+          573742.98,
+          6223131.47
+         ],
+         [
+          573754.24,
+          6223137.08
+         ],
+         [
+          573765.13,
+          6223141.5
+         ],
+         [
+          573777.55,
+          6223145.99
+         ],
+         [
+          573784.71,
+          6223149.85
+         ]
+        ],
+        [
+         [
+          573784.71,
+          6223149.85
+         ],
+         [
+          573769.24,
+          6223148.12
+         ],
+         [
+          573756.47,
+          6223146.27
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          573731.23,
+          6223125.71
+         ],
+         [
+          573731.23,
+          6223277.87
+         ],
+         [
+          574145.89,
+          6223277.87
+         ],
+         [
+          574145.89,
+          6223125.71
+         ],
+         [
+          573731.23,
+          6223125.71
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "1931ed89-67e8-4b8a-a475-2f02cbaea425",
+      "vejnavn": "Anna Klindt Sørensens Gade",
+      "supplerendebynavn": null,
+      "visningstekst": "Anna Klindt Sørensens Gade (8000 Aarhus C)",
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          573968.81,
+          6223737
+         ],
+         [
+          573973.19,
+          6223733.47
+         ],
+         [
+          573975.92,
+          6223731.25
+         ],
+         [
+          574012.01,
+          6223702.86
+         ],
+         [
+          574029.03,
+          6223689.47
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          573968.81,
+          6223689.47
+         ],
+         [
+          573968.81,
+          6223737
+         ],
+         [
+          574029.03,
+          6223737
+         ],
+         [
+          574029.03,
+          6223689.47
+         ],
+         [
+          573968.81,
+          6223689.47
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "2baa9117-0a3a-4360-bd0e-4e511222ed6d",
+      "vejnavn": "Aros Allé",
+      "supplerendebynavn": null,
+      "visningstekst": "Aros Allé (8000 Aarhus C)",
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          574484.89,
+          6223950.13
+         ],
+         [
+          574478.91,
+          6223948.2
+         ],
+         [
+          574470.09,
+          6223938.58
+         ],
+         [
+          574472.36,
+          6223933.07
+         ],
+         [
+          574472.99,
+          6223931.29
+         ],
+         [
+          574477.04,
+          6223919.84
+         ]
+        ],
+        [
+         [
+          574477.04,
+          6223919.84
+         ],
+         [
+          574493.67,
+          6223927.39
+         ]
+        ],
+        [
+         [
+          574477.04,
+          6223919.84
+         ],
+         [
+          574466.24,
+          6223914.7
+         ],
+         [
+          574455.23,
+          6223903.94
+         ]
+        ],
+        [
+         [
+          574486.96,
+          6223868.47
+         ],
+         [
+          574478.34,
+          6223883.1
+         ],
+         [
+          574464.29,
+          6223900
+         ],
+         [
+          574455.23,
+          6223903.94
+         ]
+        ],
+        [
+         [
+          574455.23,
+          6223903.94
+         ],
+         [
+          574447.27,
+          6223896.09
+         ],
+         [
+          574412.39,
+          6223861.65
+         ],
+         [
+          574406.42,
+          6223855.76
+         ]
+        ],
+        [
+         [
+          574422.27,
+          6223839.55
+         ],
+         [
+          574406.42,
+          6223855.76
+         ]
+        ],
+        [
+         [
+          574406.42,
+          6223855.76
+         ],
+         [
+          574403.13,
+          6223852.52
+         ],
+         [
+          574349.88,
+          6223800.05
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          574349.88,
+          6223800.05
+         ],
+         [
+          574349.88,
+          6223950.13
+         ],
+         [
+          574493.67,
+          6223950.13
+         ],
+         [
+          574493.67,
+          6223800.05
+         ],
+         [
+          574349.88,
+          6223800.05
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "d44295ec-12e2-4636-869e-3ca3375f2690",
+      "vejnavn": "Assensgade",
+      "supplerendebynavn": null,
+      "visningstekst": "Assensgade (8000 Aarhus C)",
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          574909.91,
+          6222665.2
+         ],
+         [
+          574865.73,
+          6222643.61
+         ],
+         [
+          574843.13,
+          6222638.44
+         ],
+         [
+          574833.28,
+          6222637.81
+         ]
+        ],
+        [
+         [
+          574704.52,
+          6222610.5
+         ],
+         [
+          574695.1,
+          6222607.97
+         ]
+        ],
+        [
+         [
+          574812.13,
+          6222634.76
+         ],
+         [
+          574754.99,
+          6222622.7
+         ],
+         [
+          574704.52,
+          6222610.5
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          574695.1,
+          6222607.97
+         ],
+         [
+          574695.1,
+          6222665.2
+         ],
+         [
+          574909.91,
+          6222665.2
+         ],
+         [
+          574909.91,
+          6222607.97
+         ],
+         [
+          574695.1,
+          6222607.97
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "d89ff8b0-73b4-49b1-8df3-a96062797249",
+      "vejnavn": "Augustenborggade",
+      "supplerendebynavn": null,
+      "visningstekst": "Augustenborggade (8000 Aarhus C)",
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          573585.4,
+          6223059.74
+         ],
+         [
+          573600.88,
+          6223037.56
+         ]
+        ],
+        [
+         [
+          573600.88,
+          6223037.56
+         ],
+         [
+          573614.79,
+          6223048.66
+         ],
+         [
+          573627.3,
+          6223059.44
+         ],
+         [
+          573646.73,
+          6223073.01
+         ],
+         [
+          573652.53,
+          6223076.95
+         ]
+        ],
+        [
+         [
+          573571.88,
+          6223049.73
+         ],
+         [
+          573586.77,
+          6223027.34
+         ]
+        ],
+        [
+         [
+          573586.77,
+          6223027.34
+         ],
+         [
+          573600.88,
+          6223037.56
+         ]
+        ],
+        [
+         [
+          573586.77,
+          6223027.34
+         ],
+         [
+          573578.65,
+          6223021.4
+         ],
+         [
+          573545.55,
+          6222997.93
+         ],
+         [
+          573525.63,
+          6222982.73
+         ],
+         [
+          573511.03,
+          6222970.42
+         ]
+        ],
+        [
+         [
+          573593.37,
+          6222978.99
+         ],
+         [
+          573588.24,
+          6222976.8
+         ],
+         [
+          573582.97,
+          6222974.97
+         ],
+         [
+          573576.63,
+          6222973.56
+         ],
+         [
+          573573.89,
+          6222972.95
+         ],
+         [
+          573573.12,
+          6222975.2
+         ],
+         [
+          573536.19,
+          6222965.38
+         ],
+         [
+          573536.76,
+          6222963.16
+         ],
+         [
+          573531.11,
+          6222961.46
+         ],
+         [
+          573526.87,
+          6222960.36
+         ],
+         [
+          573523.13,
+          6222960.11
+         ],
+         [
+          573520.94,
+          6222960.46
+         ],
+         [
+          573518.97,
+          6222961.2
+         ],
+         [
+          573517.16,
+          6222962.63
+         ],
+         [
+          573515.86,
+          6222964.28
+         ],
+         [
+          573511.03,
+          6222970.42
+         ]
+        ],
+        [
+         [
+          573511.03,
+          6222970.42
+         ],
+         [
+          573491.28,
+          6222952.05
+         ],
+         [
+          573474.9,
+          6222937.32
+         ],
+         [
+          573454.9,
+          6222919.24
+         ]
+        ],
+        [
+         [
+          573445.44,
+          6222888.79
+         ],
+         [
+          573468.75,
+          6222888.71
+         ]
+        ],
+        [
+         [
+          573468.75,
+          6222888.71
+         ],
+         [
+          573468.38,
+          6222899.89
+         ],
+         [
+          573463.63,
+          6222908.77
+         ],
+         [
+          573459.06,
+          6222914.25
+         ],
+         [
+          573454.9,
+          6222919.24
+         ]
+        ],
+        [
+         [
+          573454.9,
+          6222919.24
+         ],
+         [
+          573428.85,
+          6222893.99
+         ],
+         [
+          573408.35,
+          6222874.75
+         ],
+         [
+          573394.79,
+          6222861.56
+         ]
+        ],
+        [
+         [
+          573344.79,
+          6222748.45
+         ],
+         [
+          573345.98,
+          6222781.97
+         ]
+        ],
+        [
+         [
+          573345.98,
+          6222781.97
+         ],
+         [
+          573335.66,
+          6222772.21
+         ],
+         [
+          573329.45,
+          6222765.27
+         ],
+         [
+          573327.4,
+          6222761.59
+         ],
+         [
+          573327.45,
+          6222756.87
+         ],
+         [
+          573327.67,
+          6222753.92
+         ],
+         [
+          573328.08,
+          6222752.52
+         ],
+         [
+          573329,
+          6222750.97
+         ],
+         [
+          573330.18,
+          6222749.7
+         ],
+         [
+          573332.45,
+          6222748.58
+         ],
+         [
+          573344.79,
+          6222748.45
+         ]
+        ],
+        [
+         [
+          573344.79,
+          6222748.45
+         ],
+         [
+          573346.01,
+          6222741.48
+         ]
+        ],
+        [
+         [
+          573468.75,
+          6222888.71
+         ],
+         [
+          573468.35,
+          6222863.53
+         ],
+         [
+          573467.7,
+          6222830.24
+         ],
+         [
+          573467.2,
+          6222813.5
+         ],
+         [
+          573466.93,
+          6222804.59
+         ],
+         [
+          573417.89,
+          6222804.56
+         ],
+         [
+          573416.62,
+          6222761.06
+         ],
+         [
+          573413.89,
+          6222747.74
+         ],
+         [
+          573413.68,
+          6222746.71
+         ],
+         [
+          573412.87,
+          6222743.9
+         ],
+         [
+          573410.51,
+          6222742.02
+         ],
+         [
+          573407.92,
+          6222741.27
+         ],
+         [
+          573403.08,
+          6222740.96
+         ]
+        ],
+        [
+         [
+          573280.18,
+          6222741.46
+         ],
+         [
+          573290.58,
+          6222734.29
+         ]
+        ],
+        [
+         [
+          573290.58,
+          6222734.29
+         ],
+         [
+          573298.68,
+          6222741.66
+         ],
+         [
+          573306.3,
+          6222756.37
+         ],
+         [
+          573313.04,
+          6222769.83
+         ],
+         [
+          573326.91,
+          6222791.62
+         ],
+         [
+          573337.51,
+          6222805.3
+         ]
+        ],
+        [
+         [
+          573337.51,
+          6222805.3
+         ],
+         [
+          573341.47,
+          6222800.73
+         ],
+         [
+          573345.44,
+          6222795.54
+         ],
+         [
+          573346.13,
+          6222793.29
+         ],
+         [
+          573345.98,
+          6222781.97
+         ]
+        ],
+        [
+         [
+          573365.33,
+          6222741.27
+         ],
+         [
+          573364.82,
+          6222702.64
+         ]
+        ],
+        [
+         [
+          573347.51,
+          6222685.53
+         ],
+         [
+          573348.37,
+          6222734.99
+         ],
+         [
+          573345.92,
+          6222734.97
+         ],
+         [
+          573346.01,
+          6222741.48
+         ]
+        ],
+        [
+         [
+          573346.01,
+          6222741.48
+         ],
+         [
+          573365.33,
+          6222741.27
+         ]
+        ],
+        [
+         [
+          573365.33,
+          6222741.27
+         ],
+         [
+          573372.78,
+          6222741.29
+         ],
+         [
+          573391.38,
+          6222740.99
+         ],
+         [
+          573403.08,
+          6222740.96
+         ]
+        ],
+        [
+         [
+          573403.08,
+          6222740.96
+         ],
+         [
+          573405.21,
+          6222850.23
+         ],
+         [
+          573398.86,
+          6222857.13
+         ],
+         [
+          573394.79,
+          6222861.56
+         ]
+        ],
+        [
+         [
+          573394.79,
+          6222861.56
+         ],
+         [
+          573365.85,
+          6222834.16
+         ],
+         [
+          573348.56,
+          6222817.04
+         ],
+         [
+          573337.51,
+          6222805.3
+         ]
+        ],
+        [
+         [
+          573290.58,
+          6222734.29
+         ],
+         [
+          573278.7,
+          6222727.64
+         ],
+         [
+          573278.45,
+          6222727.46
+         ],
+         [
+          573275.79,
+          6222725.57
+         ],
+         [
+          573271.13,
+          6222718.52
+         ],
+         [
+          573267.93,
+          6222712.49
+         ],
+         [
+          573265.42,
+          6222704.74
+         ],
+         [
+          573263.5,
+          6222695.84
+         ],
+         [
+          573262.58,
+          6222687.27
+         ],
+         [
+          573262.3,
+          6222679.07
+         ],
+         [
+          573262.79,
+          6222668.58
+         ],
+         [
+          573264.22,
+          6222659.67
+         ],
+         [
+          573266.73,
+          6222653.22
+         ],
+         [
+          573271.75,
+          6222645.94
+         ],
+         [
+          573277.5,
+          6222649.23
+         ],
+         [
+          573274.24,
+          6222662.16
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          573262.3,
+          6222645.94
+         ],
+         [
+          573262.3,
+          6223076.95
+         ],
+         [
+          573652.53,
+          6223076.95
+         ],
+         [
+          573652.53,
+          6222645.94
+         ],
+         [
+          573262.3,
+          6222645.94
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 143,
+    "ok": true,
+    "row_count": 1,
+    "rows": [
+     {
+      "postnummer": "8000",
+      "postnummernavn": "Aarhus C",
+      "visningstekst": "8000 Aarhus C",
+      "gadepostnummer": false,
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           573939.05,
+           6225404.91
+          ],
+          [
+           573449.3,
+           6224848.73
+          ],
+          [
+           573437.15,
+           6224192.98
+          ],
+          [
+           573279.75,
+           6224180.14
+          ],
+          [
+           573099.98,
+           6224149.05
+          ],
+          [
+           573273.9,
+           6223842.82
+          ],
+          [
+           573150.53,
+           6223659.03
+          ],
+          [
+           573149.4,
+           6223489.68
+          ],
+          [
+           572933.41,
+           6223062.9
+          ],
+          [
+           572914.39,
+           6222674.16
+          ],
+          [
+           573029,
+           6222679.83
+          ],
+          [
+           573068.87,
+           6222218.53
+          ],
+          [
+           573589.72,
+           6222049.27
+          ],
+          [
+           573931.01,
+           6221747.9
+          ],
+          [
+           573950.26,
+           6221541.63
+          ],
+          [
+           574348.91,
+           6220643.67
+          ],
+          [
+           574539.03,
+           6220284.49
+          ],
+          [
+           574605.34,
+           6220095.22
+          ],
+          [
+           575036.66,
+           6220099.52
+          ],
+          [
+           575128.81,
+           6219837.65
+          ],
+          [
+           575751.38,
+           6220624.73
+          ],
+          [
+           575680.04,
+           6220701.39
+          ],
+          [
+           575468.3,
+           6221097.08
+          ],
+          [
+           575414.11,
+           6221350.17
+          ],
+          [
+           575163.4,
+           6221823.94
+          ],
+          [
+           575222.3,
+           6221995.53
+          ],
+          [
+           575323.71,
+           6222016.34
+          ],
+          [
+           575387.7,
+           6221975.3
+          ],
+          [
+           575354.45,
+           6222117.35
+          ],
+          [
+           575419.67,
+           6222232.4
+          ],
+          [
+           575573.11,
+           6222170.38
+          ],
+          [
+           575745.64,
+           6222259.38
+          ],
+          [
+           575738.8,
+           6222171.74
+          ],
+          [
+           575929.82,
+           6222319.01
+          ],
+          [
+           576264.18,
+           6222260.66
+          ],
+          [
+           577686.31,
+           6223365.51
+          ],
+          [
+           577970.17,
+           6223537.46
+          ],
+          [
+           577934.15,
+           6223669.53
+          ],
+          [
+           577801.86,
+           6223723.35
+          ],
+          [
+           577657.45,
+           6223680.03
+          ],
+          [
+           577706.96,
+           6223837.17
+          ],
+          [
+           577422.83,
+           6224364.13
+          ],
+          [
+           577394.26,
+           6224313.17
+          ],
+          [
+           576690.76,
+           6223490.53
+          ],
+          [
+           576503.73,
+           6223325.54
+          ],
+          [
+           576537.05,
+           6223072.35
+          ],
+          [
+           575765.9,
+           6222513.91
+          ],
+          [
+           575687.89,
+           6222578.65
+          ],
+          [
+           575997.6,
+           6223047.45
+          ],
+          [
+           575921.78,
+           6223128.94
+          ],
+          [
+           576134.65,
+           6223449.5
+          ],
+          [
+           576232.72,
+           6223408.31
+          ],
+          [
+           576513.29,
+           6223734.48
+          ],
+          [
+           576449.33,
+           6223817.21
+          ],
+          [
+           576666.91,
+           6224058.56
+          ],
+          [
+           576664.18,
+           6224201.19
+          ],
+          [
+           576471.84,
+           6224407.03
+          ],
+          [
+           576275.93,
+           6224080.86
+          ],
+          [
+           576153.03,
+           6224046.41
+          ],
+          [
+           576286.97,
+           6224317.28
+          ],
+          [
+           576185.77,
+           6224327.62
+          ],
+          [
+           575770.69,
+           6223434.14
+          ],
+          [
+           575418.34,
+           6222934.44
+          ],
+          [
+           575392.04,
+           6222973.12
+          ],
+          [
+           575568.74,
+           6223239.5
+          ],
+          [
+           575543.75,
+           6223262.5
+          ],
+          [
+           575445.43,
+           6223306.07
+          ],
+          [
+           575521.24,
+           6223524.88
+          ],
+          [
+           575725.42,
+           6223612.66
+          ],
+          [
+           575821.46,
+           6223748.45
+          ],
+          [
+           575675,
+           6223710.25
+          ],
+          [
+           575877,
+           6224011.07
+          ],
+          [
+           575906.11,
+           6224185.43
+          ],
+          [
+           575806.7,
+           6224232.42
+          ],
+          [
+           575666.57,
+           6223918.97
+          ],
+          [
+           575458.98,
+           6223666.86
+          ],
+          [
+           575404.56,
+           6223705.31
+          ],
+          [
+           575520.66,
+           6223779.54
+          ],
+          [
+           575425.67,
+           6223960.47
+          ],
+          [
+           575438.09,
+           6224147.11
+          ],
+          [
+           575417.88,
+           6224350.57
+          ],
+          [
+           575685.25,
+           6224284.6
+          ],
+          [
+           575790.38,
+           6224360.59
+          ],
+          [
+           575551.63,
+           6224576.61
+          ],
+          [
+           575650.47,
+           6224674.04
+          ],
+          [
+           575893.68,
+           6224482.59
+          ],
+          [
+           575940.68,
+           6224555.56
+          ],
+          [
+           576147.08,
+           6224728.85
+          ],
+          [
+           575906.16,
+           6224929.87
+          ],
+          [
+           576021.24,
+           6225050.75
+          ],
+          [
+           576301.32,
+           6224821.9
+          ],
+          [
+           576349.6,
+           6224990.96
+          ],
+          [
+           576536.19,
+           6225184.14
+          ],
+          [
+           576193.21,
+           6225486.89
+          ],
+          [
+           576122.84,
+           6225632.97
+          ],
+          [
+           576015.52,
+           6225415.36
+          ],
+          [
+           576033.69,
+           6225283.41
+          ],
+          [
+           575705.21,
+           6224955.21
+          ],
+          [
+           575651.94,
+           6224935.89
+          ],
+          [
+           575853.52,
+           6225383.37
+          ],
+          [
+           575928.73,
+           6225352.96
+          ],
+          [
+           575876.08,
+           6225474.41
+          ],
+          [
+           575942.71,
+           6225601.85
+          ],
+          [
+           575964.93,
+           6225661.17
+          ],
+          [
+           575832.69,
+           6225590.7
+          ],
+          [
+           575668.27,
+           6225545.62
+          ],
+          [
+           575033.8,
+           6225720.94
+          ],
+          [
+           574822.62,
+           6226059.52
+          ],
+          [
+           574761.89,
+           6225962.36
+          ],
+          [
+           574657.99,
+           6225948.65
+          ],
+          [
+           573939.05,
+           6225404.91
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          572914.39,
+          6219837.65
+         ],
+         [
+          572914.39,
+          6226059.52
+         ],
+         [
+          577970.17,
+          6226059.52
+         ],
+         [
+          577970.17,
+          6219837.65
+         ],
+         [
+          572914.39,
+          6219837.65
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 143,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "ejerlavsnavn": "Haderslev",
+      "ejerlavskode": 2007851,
+      "kommunenavn": "Haderslev Kommune",
+      "kommunekode": "0510",
+      "matrikelnummer": "4552a",
+      "visningstekst": "4552a, Haderslev",
+      "jordstykke_id": 1794257,
+      "bfenummer": 8000790,
+      "centroid_x": 528102.394,
+      "centroid_y": 6123145.918,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           528276.062,
+           6123079.682
+          ],
+          [
+           528273.34,
+           6123093.237
+          ],
+          [
+           528262.984,
+           6123129.47
+          ],
+          [
+           528247.95,
+           6123185.409
+          ],
+          [
+           528136.165,
+           6123203.302
+          ],
+          [
+           528074.929,
+           6123240.727
+          ],
+          [
+           527955.675,
+           6123260.508
+          ],
+          [
+           527958.265,
+           6123239.089
+          ],
+          [
+           527962.061,
+           6123225.959
+          ],
+          [
+           527973.796,
+           6123188.442
+          ],
+          [
+           527976.55,
+           6123180.234
+          ],
+          [
+           527982.113,
+           6123176.902
+          ],
+          [
+           527990.713,
+           6123156.426
+          ],
+          [
+           527998.739,
+           6123138.507
+          ],
+          [
+           528007.489,
+           6123123.821
+          ],
+          [
+           528016.867,
+           6123113.288
+          ],
+          [
+           528022.084,
+           6123107.835
+          ],
+          [
+           528036.328,
+           6123095.144
+          ],
+          [
+           528046.763,
+           6123085.041
+          ],
+          [
+           528059.397,
+           6123075.365
+          ],
+          [
+           528063.204,
+           6123073.781
+          ],
+          [
+           528068.639,
+           6123072.975
+          ],
+          [
+           528076.663,
+           6123073.725
+          ],
+          [
+           528096.209,
+           6123077.277
+          ],
+          [
+           528107.5,
+           6123078.344
+          ],
+          [
+           528133.656,
+           6123078.759
+          ],
+          [
+           528143.78,
+           6123080.285
+          ],
+          [
+           528173.068,
+           6123085.942
+          ],
+          [
+           528189.389,
+           6123088.07
+          ],
+          [
+           528201.223,
+           6123088.552
+          ],
+          [
+           528212.995,
+           6123087.526
+          ],
+          [
+           528260.713,
+           6123080.838
+          ],
+          [
+           528276.062,
+           6123079.682
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Ødum By, Ødum",
+      "ejerlavskode": 911256,
+      "kommunenavn": "Favrskov Kommune",
+      "kommunekode": "0710",
+      "matrikelnummer": "6a",
+      "visningstekst": "6a, Ødum By, Ødum",
+      "jordstykke_id": 1338686,
+      "bfenummer": 8000156,
+      "centroid_x": 569770.7,
+      "centroid_y": 6240456.146,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           569793.843,
+           6240505.835
+          ],
+          [
+           569694.334,
+           6240541.55
+          ],
+          [
+           569653.655,
+           6240426.941
+          ],
+          [
+           569849.015,
+           6240378.304
+          ],
+          [
+           569849.987,
+           6240381.096
+          ],
+          [
+           569882.356,
+           6240474.065
+          ],
+          [
+           569793.843,
+           6240505.835
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Heden, Timring",
+      "ejerlavskode": 1230852,
+      "kommunenavn": "Herning Kommune",
+      "kommunekode": "0657",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Heden, Timring",
+      "jordstykke_id": 881231,
+      "bfenummer": 8000303,
+      "centroid_x": 483548.097,
+      "centroid_y": 6226112.268,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           483512.519,
+           6226212.301
+          ],
+          [
+           483492.027,
+           6226108.079
+          ],
+          [
+           483481.867,
+           6226041.148
+          ],
+          [
+           483516.408,
+           6226041.218
+          ],
+          [
+           483542.046,
+           6226042.59
+          ],
+          [
+           483578.473,
+           6226046.009
+          ],
+          [
+           483596.76,
+           6226116.472
+          ],
+          [
+           483614.581,
+           6226186.266
+          ],
+          [
+           483512.519,
+           6226212.301
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Heden, Timring",
+      "ejerlavskode": 1230852,
+      "kommunenavn": "Herning Kommune",
+      "kommunekode": "0657",
+      "matrikelnummer": "6q",
+      "visningstekst": "6q, Heden, Timring",
+      "jordstykke_id": 881263,
+      "bfenummer": 8000303,
+      "centroid_x": 482533.711,
+      "centroid_y": 6226510.707,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           482558.679,
+           6226643.165
+          ],
+          [
+           482543.131,
+           6226646.402
+          ],
+          [
+           482513.469,
+           6226414.347
+          ],
+          [
+           482529.689,
+           6226417.168
+          ],
+          [
+           482558.679,
+           6226643.165
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Hår By, Haldum",
+      "ejerlavskode": 980451,
+      "kommunenavn": "Favrskov Kommune",
+      "kommunekode": "0710",
+      "matrikelnummer": "17m",
+      "visningstekst": "17m, Hår By, Haldum",
+      "jordstykke_id": 1794351,
+      "bfenummer": 8000377,
+      "centroid_x": 566055.532,
+      "centroid_y": 6236717.246,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           566066.24,
+           6236717.076
+          ],
+          [
+           566072.53,
+           6236726.664
+          ],
+          [
+           566051.417,
+           6236736.847
+          ],
+          [
+           566042.142,
+           6236722.653
+          ],
+          [
+           566038.602,
+           6236717.183
+          ],
+          [
+           566057.942,
+           6236704.582
+          ],
+          [
+           566066.24,
+           6236717.076
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Osted By, Osted",
+      "ejerlavskode": 60857,
+      "kommunenavn": "Lejre Kommune",
+      "kommunekode": "0350",
+      "matrikelnummer": "7000u",
+      "visningstekst": "7000u, Osted By, Osted",
+      "jordstykke_id": 1794341,
+      "bfenummer": 8000225,
+      "centroid_x": 685993.409,
+      "centroid_y": 6160758.646,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           686054.191,
+           6160854.874
+          ],
+          [
+           686044.421,
+           6160840.401
+          ],
+          [
+           685979.094,
+           6160743.63
+          ],
+          [
+           685862.369,
+           6160564.731
+          ],
+          [
+           685855.767,
+           6160552.549
+          ],
+          [
+           685812.485,
+           6160485.601
+          ],
+          [
+           685816.94,
+           6160481.858
+          ],
+          [
+           685838.499,
+           6160514.604
+          ],
+          [
+           685866.509,
+           6160557.151
+          ],
+          [
+           685864.599,
+           6160558.664
+          ],
+          [
+           685866.794,
+           6160562.018
+          ],
+          [
+           685887.242,
+           6160593.318
+          ],
+          [
+           685904.509,
+           6160619.712
+          ],
+          [
+           685908.908,
+           6160626.437
+          ],
+          [
+           685925.402,
+           6160651.652
+          ],
+          [
+           685941.287,
+           6160675.956
+          ],
+          [
+           685945.683,
+           6160682.683
+          ],
+          [
+           685961.18,
+           6160706.395
+          ],
+          [
+           685978.48,
+           6160732.868
+          ],
+          [
+           685982.874,
+           6160739.594
+          ],
+          [
+           686049.108,
+           6160836.67
+          ],
+          [
+           686057.041,
+           6160853.9
+          ],
+          [
+           686059.451,
+           6160861.049
+          ],
+          [
+           686061.344,
+           6160868.538
+          ],
+          [
+           686062.189,
+           6160876.417
+          ],
+          [
+           686062.433,
+           6160896.506
+          ],
+          [
+           686062.809,
+           6160900.784
+          ],
+          [
+           686064.033,
+           6160905.16
+          ],
+          [
+           686065.971,
+           6160909.869
+          ],
+          [
+           686078.153,
+           6160921.071
+          ],
+          [
+           686081.544,
+           6160925.639
+          ],
+          [
+           686084.165,
+           6160931.732
+          ],
+          [
+           686086.318,
+           6160941.747
+          ],
+          [
+           686087.556,
+           6160954.394
+          ],
+          [
+           686090.782,
+           6161000.008
+          ],
+          [
+           686090.739,
+           6161014.921
+          ],
+          [
+           686086.477,
+           6161047.944
+          ],
+          [
+           686086.041,
+           6161055.377
+          ],
+          [
+           686088.797,
+           6161073.406
+          ],
+          [
+           686089.986,
+           6161092.264
+          ],
+          [
+           686086.507,
+           6161100.287
+          ],
+          [
+           686081.185,
+           6161107.434
+          ],
+          [
+           686076.434,
+           6161111.971
+          ],
+          [
+           686058.587,
+           6161126.333
+          ],
+          [
+           686053.722,
+           6161131.109
+          ],
+          [
+           686050.447,
+           6161135.895
+          ],
+          [
+           686048.213,
+           6161141.173
+          ],
+          [
+           686046.993,
+           6161146.72
+          ],
+          [
+           686046.881,
+           6161152.939
+          ],
+          [
+           686047.79,
+           6161158.058
+          ],
+          [
+           686049.271,
+           6161160.058
+          ],
+          [
+           686053.871,
+           6161164.179
+          ],
+          [
+           686051.503,
+           6161166.083
+          ],
+          [
+           686047.051,
+           6161162.094
+          ],
+          [
+           686044.956,
+           6161159.283
+          ],
+          [
+           686043.876,
+           6161153.18
+          ],
+          [
+           686044,
+           6161146.371
+          ],
+          [
+           686045.35,
+           6161140.256
+          ],
+          [
+           686047.805,
+           6161134.453
+          ],
+          [
+           686051.41,
+           6161129.183
+          ],
+          [
+           686056.591,
+           6161124.094
+          ],
+          [
+           686074.458,
+           6161109.712
+          ],
+          [
+           686078.933,
+           6161105.449
+          ],
+          [
+           686083.896,
+           6161098.775
+          ],
+          [
+           686086.945,
+           6161091.734
+          ],
+          [
+           686085.81,
+           6161073.727
+          ],
+          [
+           686083.027,
+           6161055.528
+          ],
+          [
+           686083.482,
+           6161047.655
+          ],
+          [
+           686087.729,
+           6161014.851
+          ],
+          [
+           686087.779,
+           6161000.109
+          ],
+          [
+           686084.564,
+           6160954.655
+          ],
+          [
+           686083.348,
+           6160942.208
+          ],
+          [
+           686081.296,
+           6160932.646
+          ],
+          [
+           686078.924,
+           6160927.138
+          ],
+          [
+           686075.905,
+           6160922.997
+          ],
+          [
+           686063.456,
+           6160911.63
+          ],
+          [
+           686061.193,
+           6160906.144
+          ],
+          [
+           686059.848,
+           6160901.326
+          ],
+          [
+           686059.43,
+           6160896.647
+          ],
+          [
+           686059.185,
+           6160876.588
+          ],
+          [
+           686058.429,
+           6160869.271
+          ],
+          [
+           686056.546,
+           6160861.782
+          ],
+          [
+           686054.191,
+           6160854.874
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Høgild By, Karup",
+      "ejerlavskode": 800853,
+      "kommunenavn": "Viborg Kommune",
+      "kommunekode": "0791",
+      "matrikelnummer": "1m",
+      "visningstekst": "1m, Høgild By, Karup",
+      "jordstykke_id": 2225716,
+      "bfenummer": 8000036,
+      "centroid_x": 507157.107,
+      "centroid_y": 6244494.014,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           507105.491,
+           6244541.523
+          ],
+          [
+           507101.946,
+           6244486.39
+          ],
+          [
+           507127.69,
+           6244483.409
+          ],
+          [
+           507158.917,
+           6244443.327
+          ],
+          [
+           507206.443,
+           6244446.88
+          ],
+          [
+           507202.389,
+           6244471.375
+          ],
+          [
+           507193.149,
+           6244527.193
+          ],
+          [
+           507175.1,
+           6244528.455
+          ],
+          [
+           507176.133,
+           6244523.279
+          ],
+          [
+           507156.411,
+           6244527.413
+          ],
+          [
+           507105.491,
+           6244541.523
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Busted, Veggerby",
+      "ejerlavskode": 611453,
+      "kommunenavn": "Rebild Kommune",
+      "kommunekode": "0840",
+      "matrikelnummer": "1t",
+      "visningstekst": "1t, Busted, Veggerby",
+      "jordstykke_id": 2384505,
+      "bfenummer": 8000332,
+      "centroid_x": 543304.176,
+      "centroid_y": 6302825.814,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           543269.929,
+           6302832.052
+          ],
+          [
+           543298.596,
+           6302794.365
+          ],
+          [
+           543315.808,
+           6302786.451
+          ],
+          [
+           543318.236,
+           6302795.307
+          ],
+          [
+           543328.179,
+           6302833.878
+          ],
+          [
+           543333.087,
+           6302851.374
+          ],
+          [
+           543283.67,
+           6302863.782
+          ],
+          [
+           543269.929,
+           6302832.052
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Harte By, Harte",
+      "ejerlavskode": 1150752,
+      "kommunenavn": "Kolding Kommune",
+      "kommunekode": "0621",
+      "matrikelnummer": "2em",
+      "visningstekst": "2em, Harte By, Harte",
+      "jordstykke_id": 1838848,
+      "bfenummer": 8000648,
+      "centroid_x": 527915.984,
+      "centroid_y": 6150272.192,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           527919.894,
+           6150253.531
+          ],
+          [
+           527922.294,
+           6150259.028
+          ],
+          [
+           527933.278,
+           6150284.294
+          ],
+          [
+           527912.935,
+           6150293.137
+          ],
+          [
+           527899.551,
+           6150262.374
+          ],
+          [
+           527919.894,
+           6150253.531
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Høgild By, Karup",
+      "ejerlavskode": 800853,
+      "kommunenavn": "Viborg Kommune",
+      "kommunekode": "0791",
+      "matrikelnummer": "2f",
+      "visningstekst": "2f, Høgild By, Karup",
+      "jordstykke_id": 2225730,
+      "bfenummer": 8000036,
+      "centroid_x": 506766.263,
+      "centroid_y": 6243671.374,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           506807.151,
+           6243803.107
+          ],
+          [
+           506794.157,
+           6243794.739
+          ],
+          [
+           506795.492,
+           6243793.702
+          ],
+          [
+           506798.28,
+           6243789.03
+          ],
+          [
+           506799.891,
+           6243776.297
+          ],
+          [
+           506796.525,
+           6243766.248
+          ],
+          [
+           506792.064,
+           6243761.503
+          ],
+          [
+           506787.053,
+           6243758.279
+          ],
+          [
+           506768.51,
+           6243748.413
+          ],
+          [
+           506754.15,
+           6243739.982
+          ],
+          [
+           506743.357,
+           6243732.199
+          ],
+          [
+           506730.909,
+           6243722.645
+          ],
+          [
+           506721.506,
+           6243716.09
+          ],
+          [
+           506712.432,
+           6243706.813
+          ],
+          [
+           506710.333,
+           6243703.895
+          ],
+          [
+           506705.083,
+           6243692.503
+          ],
+          [
+           506704.194,
+           6243682.572
+          ],
+          [
+           506705.12,
+           6243664.717
+          ],
+          [
+           506707.155,
+           6243650.867
+          ],
+          [
+           506708.489,
+           6243643.9
+          ],
+          [
+           506710.954,
+           6243633.928
+          ],
+          [
+           506716.04,
+           6243619.718
+          ],
+          [
+           506727.493,
+           6243613.256
+          ],
+          [
+           506736.345,
+           6243608.217
+          ],
+          [
+           506744.673,
+           6243613.867
+          ],
+          [
+           506753.403,
+           6243620.146
+          ],
+          [
+           506756.509,
+           6243622.075
+          ],
+          [
+           506767.667,
+           6243625.551
+          ],
+          [
+           506772.341,
+           6243625.522
+          ],
+          [
+           506782.499,
+           6243622.857
+          ],
+          [
+           506792.025,
+           6243620.631
+          ],
+          [
+           506804.487,
+           6243617.787
+          ],
+          [
+           506817.064,
+           6243616.391
+          ],
+          [
+           506826.392,
+           6243615.905
+          ],
+          [
+           506836.67,
+           6243616.745
+          ],
+          [
+           506847.9,
+           6243618.908
+          ],
+          [
+           506859.529,
+           6243620.052
+          ],
+          [
+           506864.221,
+           6243619.91
+          ],
+          [
+           506875.522,
+           6243618.399
+          ],
+          [
+           506878.663,
+           6243617.942
+          ],
+          [
+           506889.402,
+           6243614.597
+          ],
+          [
+           506894.08,
+           6243608.844
+          ],
+          [
+           506909.658,
+           6243617.51
+          ],
+          [
+           506891.353,
+           6243630.659
+          ],
+          [
+           506857.172,
+           6243628.574
+          ],
+          [
+           506832.386,
+           6243652.227
+          ],
+          [
+           506813.33,
+           6243684.498
+          ],
+          [
+           506798.69,
+           6243700.087
+          ],
+          [
+           506799.386,
+           6243712.782
+          ],
+          [
+           506822.295,
+           6243733.64
+          ],
+          [
+           506819.047,
+           6243737.435
+          ],
+          [
+           506821.134,
+           6243760.109
+          ],
+          [
+           506814.255,
+           6243790.574
+          ],
+          [
+           506807.151,
+           6243803.107
+          ]
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 143,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 142,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 201,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 82,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 80,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 84,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 101,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=8000&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 84,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "8000",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 145,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": [
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "g435mecz6suyu"
+       },
+       "refs": {
+        "postcode": "g435mecz6suyu"
+       },
+       "result": "Aarhus C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8000",
+          "city": "Aarhus C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         577561.955,
+         6222970.37
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8000"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 138,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "qggh7liysuume"
+       },
+       "refs": {
+        "street": "qggh7liysuume"
+       },
+       "result": "Vej 8, 2000 Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vej 8",
+        "postcodes": [
+         {
+          "postcode": "2000",
+          "city": "Frederiksberg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721399.37,
+         6176856.76
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "B",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "91ba8443-4180-4eba-8fec-ac12febab82a"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 139,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": [
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "g435mecz6suyu"
+       },
+       "refs": {
+        "postcode": "g435mecz6suyu"
+       },
+       "result": "Aarhus C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8000",
+          "city": "Aarhus C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         577561.955,
+         6222970.37
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8000"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 138,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 145,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 144,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 134,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": []
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 143,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "aecl7b5bplp5w"
+       },
+       "refs": {
+        "stednavn": "aecl7b5bplp5w"
+       },
+       "result": "80",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "80",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         518770.28,
+         6073261.05
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1041764"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "wttoe5oufsf7g"
+       },
+       "refs": {
+        "stednavn": "wttoe5oufsf7g"
+       },
+       "result": "80a",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "80a",
+        "type": "topografi"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         518902.25,
+         6073071.02
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1135327"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "pl7t64hype6zo"
+       },
+       "refs": {
+        "stednavn": "pl7t64hype6zo"
+       },
+       "result": "8",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "8",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         526851.61,
+         6076849.4
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1142429"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "yddopc3acmxa4"
+       },
+       "refs": {
+        "stednavn": "yddopc3acmxa4"
+       },
+       "result": "Skate6000",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skate6000",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0621",
+          "kommune": "Kolding"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         532215.295,
+         6146878.57
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1117038"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "jweyygz5qvlz2"
+       },
+       "refs": {
+        "stednavn": "jweyygz5qvlz2"
+       },
+       "result": "81",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "81",
+        "type": "topografi"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         518999.94,
+         6072930.32
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1108749"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "enrp5cmt5bkfw"
+       },
+       "refs": {
+        "stednavn": "enrp5cmt5bkfw"
+       },
+       "result": "82",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "82",
+        "type": "topografi"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         518959.56,
+         6072763.68
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1116273"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "rahgszjsh4y2a"
+       },
+       "refs": {
+        "stednavn": "rahgszjsh4y2a"
+       },
+       "result": "83",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "83",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         518667.63,
+         6072915.84
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1125222"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "bglmopokje6sg"
+       },
+       "refs": {
+        "stednavn": "bglmopokje6sg"
+       },
+       "result": "84",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "84",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         518407.96,
+         6073052.15
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1148095"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ssatblfolmj36"
+       },
+       "refs": {
+        "stednavn": "ssatblfolmj36"
+       },
+       "result": "85",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "85",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         518269.08,
+         6073649.11
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1072795"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "twhkjgza6zlzg"
+       },
+       "refs": {
+        "stednavn": "twhkjgza6zlzg"
+       },
+       "result": "86",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "86",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         518077.34,
+         6073665.49
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1070936"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 125,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": []
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": [
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "sa4jv7nj7swvc"
+       },
+       "refs": {
+        "sogn": "sa4jv7nj7swvc"
+       },
+       "result": "Ejstrup",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0756",
+          "kommune": "Ikast-Brande"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8000",
+          "sogn": "Ejstrup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         514789.576,
+         6205806.585
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8000"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 129,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 125,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": []
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 127,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "8000",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 124,
+    "ok": true,
+    "response": {
+     "input": "8000",
+     "matches": []
+    }
+   }
+  ]
+ }
+}

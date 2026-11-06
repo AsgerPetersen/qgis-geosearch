@@ -1,0 +1,7180 @@
+{
+ "id": "5a",
+ "term": "5a",
+ "kommuner": "",
+ "sources": [
+  "tests/cases.yaml: mat-5a"
+ ],
+ "recorded_at": "2026-11-06T19:49:24+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 508,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "eb4b2706-e62c-46cd-8e18-9c21eac3b740",
+      "kommunenavn": "Varde",
+      "kommunekode": "0573",
+      "vejkode": "9186",
+      "vejnavn": "Kong Svends Plads",
+      "husnummer": "5A",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "5a",
+      "supplerendebynavn": null,
+      "postnummer": "6800",
+      "postnummernavn": "Varde",
+      "visningstekst": "Kong Svends Plads 5A, st. 5a, 6800 Varde",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         467123.91439219,
+         6163891.71074126
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         467112.32,
+         6163895.45
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-a9c1-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "5A",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 5A, st. th, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547325.94777098,
+         6158509.02967512
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547321.18,
+         6158519.15
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-a9c3-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "5A",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "mf",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 5A, 1. mf, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547325.94777098,
+         6158509.02967512
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547321.18,
+         6158519.15
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-a9c5-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "5A",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 5A, 1. tv, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547325.94777098,
+         6158509.02967512
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547321.18,
+         6158519.15
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-a9c4-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "5A",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 5A, 1. th, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547325.94777098,
+         6158509.02967512
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547321.18,
+         6158519.15
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50ba-a9c2-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummer": "5A",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 5A, st. tv, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547325.94777098,
+         6158509.02967512
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547321.18,
+         6158519.15
+        ]
+       ]
+      }
+     },
+     {
+      "id": "d344edec-e8b4-4783-aa9c-df9038f95e87",
+      "kommunenavn": "Lolland",
+      "kommunekode": "0360",
+      "vejkode": "0001",
+      "vejnavn": "A. E. Hansensvej",
+      "husnummer": "5A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "4900",
+      "postnummernavn": "Nakskov",
+      "visningstekst": "A. E. Hansensvej 5A, 4900 Nakskov",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         637014.68,
+         6078681.47
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         637109.17,
+         6078450.55
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50bf-6261-32b8-e044-0003ba298018",
+      "kommunenavn": "Syddjurs",
+      "kommunekode": "0706",
+      "vejkode": "0002",
+      "vejnavn": "A. Knudsens Vej",
+      "husnummer": "5A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "8400",
+      "postnummernavn": "Ebeltoft",
+      "visningstekst": "A. Knudsens Vej 5A, 8400 Ebeltoft",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         604584.1,
+         6228670.24
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         604598.91,
+         6228693.49
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f509d-4f6c-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "0484",
+      "vejnavn": "A.F. Beyers Vej",
+      "husnummer": "5A",
+      "etagebetegnelse": "3",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "2720",
+      "postnummernavn": "Vanløse",
+      "visningstekst": "A.F. Beyers Vej 5A, 3. th, 2720 Vanløse",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720785.00386887,
+         6177347.91984427
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720791.28,
+         6177336.46
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f509d-4f67-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "0484",
+      "vejnavn": "A.F. Beyers Vej",
+      "husnummer": "5A",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "2720",
+      "postnummernavn": "Vanløse",
+      "visningstekst": "A.F. Beyers Vej 5A, st. tv, 2720 Vanløse",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720785.00386887,
+         6177347.91984427
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720791.28,
+         6177336.46
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 341,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "0a3f508f-0f0a-32b8-e044-0003ba298018",
+      "kommunenavn": "Fredericia",
+      "kommunekode": "0607",
+      "vejkode": "4360",
+      "vejnavn": "6.Julivej",
+      "husnummertekst": "5A",
+      "supplerendebynavn": null,
+      "postnummer": "7000",
+      "postnummernavn": "Fredericia",
+      "visningstekst": "6.Julivej 5A, 7000 Fredericia",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547325.94777098,
+         6158509.02967512
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         547321.18,
+         6158519.15
+        ]
+       ]
+      }
+     },
+     {
+      "id": "53279ace-c5c3-1b90-e044-0003ba298018",
+      "kommunenavn": "Lolland",
+      "kommunekode": "0360",
+      "vejkode": "0001",
+      "vejnavn": "A. E. Hansensvej",
+      "husnummertekst": "5A",
+      "supplerendebynavn": null,
+      "postnummer": "4900",
+      "postnummernavn": "Nakskov",
+      "visningstekst": "A. E. Hansensvej 5A, 4900 Nakskov",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         637014.68,
+         6078681.47
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         637109.17,
+         6078450.55
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5093-23df-32b8-e044-0003ba298018",
+      "kommunenavn": "Syddjurs",
+      "kommunekode": "0706",
+      "vejkode": "0002",
+      "vejnavn": "A. Knudsens Vej",
+      "husnummertekst": "5A",
+      "supplerendebynavn": null,
+      "postnummer": "8400",
+      "postnummernavn": "Ebeltoft",
+      "visningstekst": "A. Knudsens Vej 5A, 8400 Ebeltoft",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         604584.1,
+         6228670.24
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         604598.91,
+         6228693.49
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507a-4444-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "0484",
+      "vejnavn": "A.F. Beyers Vej",
+      "husnummertekst": "5A",
+      "supplerendebynavn": null,
+      "postnummer": "2720",
+      "postnummernavn": "Vanløse",
+      "visningstekst": "A.F. Beyers Vej 5A, 2720 Vanløse",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720785.00386887,
+         6177347.91984427
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720791.28,
+         6177336.46
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507a-ae94-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "3948",
+      "vejnavn": "A.F. Kriegers Vej",
+      "husnummertekst": "5A",
+      "supplerendebynavn": null,
+      "postnummer": "2100",
+      "postnummernavn": "København Ø",
+      "visningstekst": "A.F. Kriegers Vej 5A, 2100 København Ø",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         725252.15244646,
+         6178719.209598
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         725197.53,
+         6178691.74
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508b-3dd0-32b8-e044-0003ba298018",
+      "kommunenavn": "Aabenraa",
+      "kommunekode": "0580",
+      "vejkode": "2274",
+      "vejnavn": "Aabenraavej",
+      "husnummertekst": "5A",
+      "supplerendebynavn": null,
+      "postnummer": "6340",
+      "postnummernavn": "Kruså",
+      "visningstekst": "Aabenraavej 5A, 6340 Kruså",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         525834.49501546,
+         6078530.88868245
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         525809.85594632,
+         6078525.47379239
+        ]
+       ]
+      }
+     },
+     {
+      "id": "5be84c88-2382-4f0c-9178-7b16eae2dae6",
+      "kommunenavn": "Jammerbugt",
+      "kommunekode": "0849",
+      "vejkode": "0102",
+      "vejnavn": "Aabybro Centret",
+      "husnummertekst": "5A",
+      "supplerendebynavn": null,
+      "postnummer": "9440",
+      "postnummernavn": "Aabybro",
+      "visningstekst": "Aabybro Centret 5A, 9440 Aabybro",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         544398.25156192,
+         6335364.98096647
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         544349.15869832,
+         6335390.70578141
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5099-0513-32b8-e044-0003ba298018",
+      "kommunenavn": "Vesthimmerlands",
+      "kommunekode": "0820",
+      "vejkode": "0004",
+      "vejnavn": "Aagade",
+      "husnummertekst": "5A",
+      "supplerendebynavn": null,
+      "postnummer": "9620",
+      "postnummernavn": "Aalestrup",
+      "visningstekst": "Aagade 5A, 9620 Aalestrup",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         530328.82766596,
+         6283353.85040536
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         530335.06,
+         6283353.54
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5097-344f-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "9696",
+      "vejnavn": "Aage Bergs Vej",
+      "husnummertekst": "5A",
+      "supplerendebynavn": null,
+      "postnummer": "8240",
+      "postnummernavn": "Risskov",
+      "visningstekst": "Aage Bergs Vej 5A, 8240 Risskov",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         577852.94,
+         6228853.26
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         577891.44,
+         6228830
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5095-dbad-32b8-e044-0003ba298018",
+      "kommunenavn": "Aarhus",
+      "kommunekode": "0751",
+      "vejkode": "0012",
+      "vejnavn": "Aage Jedichs Vej",
+      "husnummertekst": "5A",
+      "supplerendebynavn": null,
+      "postnummer": "8270",
+      "postnummernavn": "Højbjerg",
+      "visningstekst": "Aage Jedichs Vej 5A, 8270 Højbjerg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574681.15938332,
+         6219375.10256477
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         574693.06,
+         6219372.5
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 68,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 93,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 106,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "ejerlavsnavn": "Moeskær By, Hørning",
+      "ejerlavskode": 930756,
+      "kommunenavn": "Randers Kommune",
+      "kommunekode": "0730",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Moeskær By, Hørning",
+      "jordstykke_id": 198400,
+      "bfenummer": 10215375,
+      "centroid_x": 576033.657,
+      "centroid_y": 6253519.221,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           576049.396,
+           6253445.545
+          ],
+          [
+           576051.845,
+           6253468.409
+          ],
+          [
+           576054.767,
+           6253487.401
+          ],
+          [
+           576072.28,
+           6253545.68
+          ],
+          [
+           576080.494,
+           6253554.941
+          ],
+          [
+           576092.103,
+           6253560.647
+          ],
+          [
+           576096.869,
+           6253619.389
+          ],
+          [
+           576099.998,
+           6253654.048
+          ],
+          [
+           576102.311,
+           6253688.854
+          ],
+          [
+           576102.85,
+           6253708.188
+          ],
+          [
+           576049.07,
+           6253709.889
+          ],
+          [
+           576046.384,
+           6253669.473
+          ],
+          [
+           576043.335,
+           6253632.91
+          ],
+          [
+           576042.292,
+           6253631.994
+          ],
+          [
+           576040.485,
+           6253609.4
+          ],
+          [
+           576037.096,
+           6253610.602
+          ],
+          [
+           576035.727,
+           6253605.316
+          ],
+          [
+           576038.402,
+           6253604.147
+          ],
+          [
+           576043.79,
+           6253601.201
+          ],
+          [
+           576047.846,
+           6253598.529
+          ],
+          [
+           576051.125,
+           6253594.174
+          ],
+          [
+           576034.658,
+           6253550.8
+          ],
+          [
+           576026.417,
+           6253557.914
+          ],
+          [
+           576026.236,
+           6253556.951
+          ],
+          [
+           576004.652,
+           6253574.737
+          ],
+          [
+           576011.629,
+           6253614.362
+          ],
+          [
+           575999.204,
+           6253619.143
+          ],
+          [
+           575996.996,
+           6253603.601
+          ],
+          [
+           575990.576,
+           6253588.097
+          ],
+          [
+           575960.44,
+           6253614.558
+          ],
+          [
+           575959.507,
+           6253611.868
+          ],
+          [
+           575935.861,
+           6253628.626
+          ],
+          [
+           575924.437,
+           6253586.826
+          ],
+          [
+           575897.095,
+           6253570.574
+          ],
+          [
+           575934.682,
+           6253485.952
+          ],
+          [
+           575978.25,
+           6253507.046
+          ],
+          [
+           575984.137,
+           6253497.057
+          ],
+          [
+           575991.065,
+           6253482.262
+          ],
+          [
+           575997.697,
+           6253464.7
+          ],
+          [
+           576005.629,
+           6253436.427
+          ],
+          [
+           576013.611,
+           6253412.441
+          ],
+          [
+           576017.107,
+           6253406.668
+          ],
+          [
+           576036.152,
+           6253446.509
+          ],
+          [
+           576049.396,
+           6253445.545
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Krogsdal Hgd., Nr. Felding",
+      "ejerlavskode": 1230452,
+      "kommunenavn": "Holstebro Kommune",
+      "kommunekode": "0661",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Krogsdal Hgd., Nr. Felding",
+      "jordstykke_id": 765771,
+      "bfenummer": 4499191,
+      "centroid_x": 475776.975,
+      "centroid_y": 6243492.828,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           475913.708,
+           6243304.369
+          ],
+          [
+           475917.178,
+           6243338.645
+          ],
+          [
+           475922.355,
+           6243438.654
+          ],
+          [
+           475923.238,
+           6243461.057
+          ],
+          [
+           475926.609,
+           6243515.998
+          ],
+          [
+           475927.81,
+           6243531.845
+          ],
+          [
+           475929.909,
+           6243548.135
+          ],
+          [
+           475932.805,
+           6243563.944
+          ],
+          [
+           475936.699,
+           6243582.066
+          ],
+          [
+           475933.457,
+           6243723.22
+          ],
+          [
+           475625.408,
+           6243684.861
+          ],
+          [
+           475592.344,
+           6243492.585
+          ],
+          [
+           475589.053,
+           6243472.09
+          ],
+          [
+           475583.167,
+           6243437.174
+          ],
+          [
+           475575.154,
+           6243385.225
+          ],
+          [
+           475572.079,
+           6243367.944
+          ],
+          [
+           475913.664,
+           6243193.766
+          ],
+          [
+           475914.592,
+           6243206.877
+          ],
+          [
+           475915.392,
+           6243227.369
+          ],
+          [
+           475915.354,
+           6243248.648
+          ],
+          [
+           475913.323,
+           6243281.782
+          ],
+          [
+           475913.708,
+           6243304.369
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Vrold, Skanderborg Jorder",
+      "ejerlavskode": 2006660,
+      "kommunenavn": "Skanderborg Kommune",
+      "kommunekode": "0746",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Vrold, Skanderborg Jorder",
+      "jordstykke_id": 1034080,
+      "bfenummer": 5661705,
+      "centroid_x": 555159.432,
+      "centroid_y": 6209594.734,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           555141.928,
+           6209547.491
+          ],
+          [
+           555144.528,
+           6209545.984
+          ],
+          [
+           555161.539,
+           6209538.608
+          ],
+          [
+           555167.127,
+           6209546.658
+          ],
+          [
+           555176.261,
+           6209555.94
+          ],
+          [
+           555179.044,
+           6209558.765
+          ],
+          [
+           555179.569,
+           6209574.513
+          ],
+          [
+           555180.372,
+           6209598.366
+          ],
+          [
+           555181.175,
+           6209622.229
+          ],
+          [
+           555181.927,
+           6209644.671
+          ],
+          [
+           555170.821,
+           6209643.02
+          ],
+          [
+           555136.425,
+           6209636.523
+          ],
+          [
+           555130.788,
+           6209607.17
+          ],
+          [
+           555141.928,
+           6209547.491
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Rådved By, Hansted",
+      "ejerlavskode": 1070255,
+      "kommunenavn": "Horsens Kommune",
+      "kommunekode": "0615",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Rådved By, Hansted",
+      "jordstykke_id": 1099787,
+      "bfenummer": 4288604,
+      "centroid_x": 551303.792,
+      "centroid_y": 6196485.39,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           551275.087,
+           6196382.665
+          ],
+          [
+           551298.786,
+           6196383.334
+          ],
+          [
+           551318.414,
+           6196386.45
+          ],
+          [
+           551345.936,
+           6196389.949
+          ],
+          [
+           551393.856,
+           6196589.727
+          ],
+          [
+           551281.041,
+           6196583.78
+          ],
+          [
+           551245.742,
+           6196581.919
+          ],
+          [
+           551240.387,
+           6196382.45
+          ],
+          [
+           551275.087,
+           6196382.665
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Liltved By, Fausing",
+      "ejerlavskode": 930457,
+      "kommunenavn": "Norddjurs Kommune",
+      "kommunekode": "0707",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Liltved By, Fausing",
+      "jordstykke_id": 197888,
+      "bfenummer": 9790224,
+      "centroid_x": 581680.98,
+      "centroid_y": 6254507.06,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           581742.989,
+           6254732.995
+          ],
+          [
+           581743.847,
+           6254762.922
+          ],
+          [
+           581738.001,
+           6254763.544
+          ],
+          [
+           581726.211,
+           6254771.731
+          ],
+          [
+           581728.116,
+           6254798.941
+          ],
+          [
+           581719.509,
+           6254798.584
+          ],
+          [
+           581721.29,
+           6254810.897
+          ],
+          [
+           581712.701,
+           6254816.978
+          ],
+          [
+           581702.16,
+           6254819.03
+          ],
+          [
+           581691.702,
+           6254819.902
+          ],
+          [
+           581675.824,
+           6254823.952
+          ],
+          [
+           581669.159,
+           6254823.549
+          ],
+          [
+           581636.709,
+           6254826.776
+          ],
+          [
+           581628.871,
+           6254827.474
+          ],
+          [
+           581617.648,
+           6254829.885
+          ],
+          [
+           581587.729,
+           6254829.205
+          ],
+          [
+           581585.154,
+           6254793.216
+          ],
+          [
+           581587.791,
+           6254792.264
+          ],
+          [
+           581587.636,
+           6254786.155
+          ],
+          [
+           581588.148,
+           6254773.5
+          ],
+          [
+           581584.718,
+           6254766.893
+          ],
+          [
+           581581.81,
+           6254763.751
+          ],
+          [
+           581584.312,
+           6254756.973
+          ],
+          [
+           581583.817,
+           6254751.636
+          ],
+          [
+           581589.393,
+           6254752.171
+          ],
+          [
+           581596.581,
+           6254744.017
+          ],
+          [
+           581596.905,
+           6254720.116
+          ],
+          [
+           581580.894,
+           6254718.262
+          ],
+          [
+           581568.419,
+           6254545.343
+          ],
+          [
+           581561.214,
+           6254440.345
+          ],
+          [
+           581563.209,
+           6254440.772
+          ],
+          [
+           581642.659,
+           6254465.703
+          ],
+          [
+           581706.152,
+           6254473.187
+          ],
+          [
+           581771.238,
+           6254374.474
+          ],
+          [
+           581803.918,
+           6254335.904
+          ],
+          [
+           581826.965,
+           6254320.515
+          ],
+          [
+           581859.647,
+           6254310.305
+          ],
+          [
+           581911.181,
+           6254304.027
+          ],
+          [
+           581937.995,
+           6254306.298
+          ],
+          [
+           582040.123,
+           6254362.786
+          ],
+          [
+           582043.551,
+           6254349.019
+          ],
+          [
+           582070.367,
+           6254223.159
+          ],
+          [
+           582087.111,
+           6254146.433
+          ],
+          [
+           582105.24,
+           6254050.845
+          ],
+          [
+           582172.016,
+           6254086.585
+          ],
+          [
+           582187.222,
+           6254108.103
+          ],
+          [
+           582194.503,
+           6254148.049
+          ],
+          [
+           582195.735,
+           6254204.052
+          ],
+          [
+           582191.495,
+           6254227.648
+          ],
+          [
+           582177.617,
+           6254246.074
+          ],
+          [
+           582149.701,
+           6254275.159
+          ],
+          [
+           582134.305,
+           6254317.279
+          ],
+          [
+           582130.994,
+           6254326.339
+          ],
+          [
+           582124.639,
+           6254383.76
+          ],
+          [
+           582126.07,
+           6254415.501
+          ],
+          [
+           582150.059,
+           6254450.719
+          ],
+          [
+           581842.156,
+           6254452.007
+          ],
+          [
+           581820.918,
+           6254446.866
+          ],
+          [
+           581800.733,
+           6254444.954
+          ],
+          [
+           581783.692,
+           6254442.02
+          ],
+          [
+           581758.948,
+           6254445.175
+          ],
+          [
+           581742.545,
+           6254461.768
+          ],
+          [
+           581717.506,
+           6254470.992
+          ],
+          [
+           581706.911,
+           6254474.894
+          ],
+          [
+           581744.99,
+           6254681.085
+          ],
+          [
+           581742.46,
+           6254693.098
+          ],
+          [
+           581742.863,
+           6254704.991
+          ],
+          [
+           581742.989,
+           6254732.995
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Skåde By, Skåde",
+      "ejerlavskode": 1031352,
+      "kommunenavn": "Aarhus Kommune",
+      "kommunekode": "0751",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Skåde By, Skåde",
+      "jordstykke_id": 387428,
+      "bfenummer": 8801355,
+      "centroid_x": 575260.692,
+      "centroid_y": 6219506.514,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           575121.927,
+           6219623.132
+          ],
+          [
+           575122.313,
+           6219622.526
+          ],
+          [
+           575122.701,
+           6219621.922
+          ],
+          [
+           575123.092,
+           6219621.319
+          ],
+          [
+           575123.485,
+           6219620.717
+          ],
+          [
+           575123.88,
+           6219620.117
+          ],
+          [
+           575124.277,
+           6219619.518
+          ],
+          [
+           575124.676,
+           6219618.921
+          ],
+          [
+           575125.077,
+           6219618.326
+          ],
+          [
+           575125.481,
+           6219617.731
+          ],
+          [
+           575125.887,
+           6219617.138
+          ],
+          [
+           575126.295,
+           6219616.547
+          ],
+          [
+           575126.705,
+           6219615.957
+          ],
+          [
+           575127.117,
+           6219615.369
+          ],
+          [
+           575127.531,
+           6219614.782
+          ],
+          [
+           575127.948,
+           6219614.197
+          ],
+          [
+           575128.366,
+           6219613.613
+          ],
+          [
+           575128.787,
+           6219613.031
+          ],
+          [
+           575129.21,
+           6219612.45
+          ],
+          [
+           575129.635,
+           6219611.871
+          ],
+          [
+           575130.062,
+           6219611.293
+          ],
+          [
+           575130.491,
+           6219610.717
+          ],
+          [
+           575130.923,
+           6219610.142
+          ],
+          [
+           575131.356,
+           6219609.569
+          ],
+          [
+           575131.791,
+           6219608.998
+          ],
+          [
+           575132.229,
+           6219608.428
+          ],
+          [
+           575132.668,
+           6219607.86
+          ],
+          [
+           575133.11,
+           6219607.293
+          ],
+          [
+           575133.554,
+           6219606.728
+          ],
+          [
+           575134,
+           6219606.165
+          ],
+          [
+           575134.447,
+           6219605.603
+          ],
+          [
+           575134.897,
+           6219605.043
+          ],
+          [
+           575135.349,
+           6219604.485
+          ],
+          [
+           575135.803,
+           6219603.928
+          ],
+          [
+           575136.259,
+           6219603.373
+          ],
+          [
+           575136.717,
+           6219602.819
+          ],
+          [
+           575137.177,
+           6219602.268
+          ],
+          [
+           575137.639,
+           6219601.718
+          ],
+          [
+           575138.103,
+           6219601.169
+          ],
+          [
+           575138.569,
+           6219600.622
+          ],
+          [
+           575139.037,
+           6219600.077
+          ],
+          [
+           575139.507,
+           6219599.534
+          ],
+          [
+           575139.979,
+           6219598.992
+          ],
+          [
+           575140.453,
+           6219598.452
+          ],
+          [
+           575140.929,
+           6219597.914
+          ],
+          [
+           575141.407,
+           6219597.378
+          ],
+          [
+           575141.886,
+           6219596.843
+          ],
+          [
+           575142.368,
+           6219596.31
+          ],
+          [
+           575142.852,
+           6219595.779
+          ],
+          [
+           575143.337,
+           6219595.25
+          ],
+          [
+           575143.825,
+           6219594.722
+          ],
+          [
+           575144.37,
+           6219593.966
+          ],
+          [
+           575144.918,
+           6219593.212
+          ],
+          [
+           575145.47,
+           6219592.461
+          ],
+          [
+           575146.026,
+           6219591.713
+          ],
+          [
+           575146.586,
+           6219590.968
+          ],
+          [
+           575147.149,
+           6219590.226
+          ],
+          [
+           575147.716,
+           6219589.486
+          ],
+          [
+           575148.287,
+           6219588.749
+          ],
+          [
+           575148.861,
+           6219588.015
+          ],
+          [
+           575149.439,
+           6219587.284
+          ],
+          [
+           575150.021,
+           6219586.556
+          ],
+          [
+           575150.606,
+           6219585.83
+          ],
+          [
+           575151.195,
+           6219585.108
+          ],
+          [
+           575151.788,
+           6219584.388
+          ],
+          [
+           575152.384,
+           6219583.672
+          ],
+          [
+           575152.983,
+           6219582.958
+          ],
+          [
+           575153.586,
+           6219582.248
+          ],
+          [
+           575154.193,
+           6219581.54
+          ],
+          [
+           575154.803,
+           6219580.836
+          ],
+          [
+           575155.417,
+           6219580.134
+          ],
+          [
+           575156.034,
+           6219579.436
+          ],
+          [
+           575156.655,
+           6219578.74
+          ],
+          [
+           575157.279,
+           6219578.048
+          ],
+          [
+           575157.906,
+           6219577.359
+          ],
+          [
+           575158.537,
+           6219576.673
+          ],
+          [
+           575165.084,
+           6219571.433
+          ],
+          [
+           575171.867,
+           6219566.503
+          ],
+          [
+           575187.074,
+           6219555.785
+          ],
+          [
+           575203.003,
+           6219543.54
+          ],
+          [
+           575219.113,
+           6219532.202
+          ],
+          [
+           575221.897,
+           6219530.083
+          ],
+          [
+           575246.493,
+           6219511.359
+          ],
+          [
+           575250.137,
+           6219508.586
+          ],
+          [
+           575264.482,
+           6219496.977
+          ],
+          [
+           575283.757,
+           6219481.983
+          ],
+          [
+           575296.878,
+           6219472.425
+          ],
+          [
+           575297.824,
+           6219471.378
+          ],
+          [
+           575298.539,
+           6219470.163
+          ],
+          [
+           575298.996,
+           6219468.829
+          ],
+          [
+           575299.176,
+           6219467.431
+          ],
+          [
+           575299.072,
+           6219466.025
+          ],
+          [
+           575298.686,
+           6219464.668
+          ],
+          [
+           575282.516,
+           6219446.11
+          ],
+          [
+           575264.689,
+           6219424.563
+          ],
+          [
+           575252.115,
+           6219409.875
+          ],
+          [
+           575242.508,
+           6219398.503
+          ],
+          [
+           575232.306,
+           6219386.427
+          ],
+          [
+           575229.972,
+           6219383.543
+          ],
+          [
+           575229.039,
+           6219382.385
+          ],
+          [
+           575227.706,
+           6219381.029
+          ],
+          [
+           575199.158,
+           6219352.587
+          ],
+          [
+           575205.368,
+           6219344.14
+          ],
+          [
+           575205.439,
+           6219349.525
+          ],
+          [
+           575206.831,
+           6219348.835
+          ],
+          [
+           575220.265,
+           6219357.642
+          ],
+          [
+           575231.011,
+           6219368.263
+          ],
+          [
+           575234.965,
+           6219372.201
+          ],
+          [
+           575239.118,
+           6219375.792
+          ],
+          [
+           575243.089,
+           6219381.529
+          ],
+          [
+           575246.706,
+           6219386.645
+          ],
+          [
+           575252.328,
+           6219387.839
+          ],
+          [
+           575259.577,
+           6219395.342
+          ],
+          [
+           575257.618,
+           6219401.464
+          ],
+          [
+           575277.487,
+           6219424.459
+          ],
+          [
+           575288.651,
+           6219437.203
+          ],
+          [
+           575300.127,
+           6219450.566
+          ],
+          [
+           575312.452,
+           6219465.277
+          ],
+          [
+           575325.557,
+           6219481.389
+          ],
+          [
+           575338.061,
+           6219496.597
+          ],
+          [
+           575350.309,
+           6219511.1
+          ],
+          [
+           575365.906,
+           6219530.002
+          ],
+          [
+           575374.958,
+           6219541.88
+          ],
+          [
+           575377.802,
+           6219545.613
+          ],
+          [
+           575381.469,
+           6219556.241
+          ],
+          [
+           575392.803,
+           6219573.119
+          ],
+          [
+           575405.124,
+           6219591.245
+          ],
+          [
+           575396.009,
+           6219595.708
+          ],
+          [
+           575380.512,
+           6219568.769
+          ],
+          [
+           575381.818,
+           6219568.119
+          ],
+          [
+           575378.833,
+           6219562.514
+          ],
+          [
+           575376.036,
+           6219558.25
+          ],
+          [
+           575372.873,
+           6219554.17
+          ],
+          [
+           575371.813,
+           6219552.883
+          ],
+          [
+           575358.064,
+           6219536.182
+          ],
+          [
+           575355.388,
+           6219532.948
+          ],
+          [
+           575340.284,
+           6219514.722
+          ],
+          [
+           575328.823,
+           6219500.894
+          ],
+          [
+           575310.467,
+           6219478.873
+          ],
+          [
+           575305.722,
+           6219478.496
+          ],
+          [
+           575289.912,
+           6219490.382
+          ],
+          [
+           575270.236,
+           6219505.765
+          ],
+          [
+           575254.993,
+           6219517.104
+          ],
+          [
+           575237.997,
+           6219530.368
+          ],
+          [
+           575235.59,
+           6219532.16
+          ],
+          [
+           575233.177,
+           6219533.943
+          ],
+          [
+           575217.797,
+           6219545.22
+          ],
+          [
+           575201.815,
+           6219557.92
+          ],
+          [
+           575184.78,
+           6219570.475
+          ],
+          [
+           575181.701,
+           6219572.642
+          ],
+          [
+           575177.072,
+           6219575.86
+          ],
+          [
+           575172.551,
+           6219579.228
+          ],
+          [
+           575168.144,
+           6219582.744
+          ],
+          [
+           575164.808,
+           6219585.681
+          ],
+          [
+           575162.801,
+           6219587.458
+          ],
+          [
+           575160.966,
+           6219589.413
+          ],
+          [
+           575159.321,
+           6219591.529
+          ],
+          [
+           575157.879,
+           6219593.789
+          ],
+          [
+           575152.786,
+           6219599.575
+          ],
+          [
+           575147.909,
+           6219605.545
+          ],
+          [
+           575143.255,
+           6219611.69
+          ],
+          [
+           575137.979,
+           6219618.606
+          ],
+          [
+           575132.994,
+           6219625.734
+          ],
+          [
+           575128.308,
+           6219633.063
+          ],
+          [
+           575116.759,
+           6219651.396
+          ],
+          [
+           575107.339,
+           6219647.772
+          ],
+          [
+           575107.947,
+           6219643.537
+          ],
+          [
+           575119.601,
+           6219627.086
+          ],
+          [
+           575121.927,
+           6219623.132
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Nollund By, Grindsted",
+      "ejerlavskode": 1360259,
+      "kommunenavn": "Billund Kommune",
+      "kommunekode": "0530",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Nollund By, Grindsted",
+      "jordstykke_id": 2098547,
+      "bfenummer": 9530358,
+      "centroid_x": 492499.894,
+      "centroid_y": 6182763.034,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           493117.651,
+           6182374.941
+          ],
+          [
+           493218.343,
+           6182599.357
+          ],
+          [
+           493084.63,
+           6182659.481
+          ],
+          [
+           492955.341,
+           6182709.856
+          ],
+          [
+           492638.393,
+           6182840.167
+          ],
+          [
+           492626.224,
+           6182863.432
+          ],
+          [
+           492378.878,
+           6183108.632
+          ],
+          [
+           492325.626,
+           6183030.22
+          ],
+          [
+           492206.672,
+           6183147.786
+          ],
+          [
+           492114.419,
+           6182997.357
+          ],
+          [
+           492024.185,
+           6183048.3
+          ],
+          [
+           492006.589,
+           6183031.137
+          ],
+          [
+           491982.581,
+           6182894.833
+          ],
+          [
+           491972.525,
+           6182837.732
+          ],
+          [
+           491964.201,
+           6182790.476
+          ],
+          [
+           491942.272,
+           6182665.966
+          ],
+          [
+           492251.892,
+           6182612.037
+          ],
+          [
+           492326.967,
+           6182599.032
+          ],
+          [
+           492403.651,
+           6182585.605
+          ],
+          [
+           492483.625,
+           6182571.044
+          ],
+          [
+           492517.875,
+           6182563.76
+          ],
+          [
+           492557.386,
+           6182548.604
+          ],
+          [
+           492634.492,
+           6182518.911
+          ],
+          [
+           492723.618,
+           6182484.224
+          ],
+          [
+           492812.133,
+           6182450.029
+          ],
+          [
+           492856.792,
+           6182433.483
+          ],
+          [
+           492952.059,
+           6182411.445
+          ],
+          [
+           493044.448,
+           6182391.327
+          ],
+          [
+           493117.651,
+           6182374.941
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Øland Hgd., Harring",
+      "ejerlavskode": 710352,
+      "kommunenavn": "Thisted Kommune",
+      "kommunekode": "0787",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Øland Hgd., Harring",
+      "jordstykke_id": 2416240,
+      "bfenummer": 9144558,
+      "centroid_x": 471779.557,
+      "centroid_y": 6302837.476,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           471726.501,
+           6302956.863
+          ],
+          [
+           471692.594,
+           6302888.179
+          ],
+          [
+           471687.424,
+           6302877.711
+          ],
+          [
+           471684.443,
+           6302871.67
+          ],
+          [
+           471664.927,
+           6302832.139
+          ],
+          [
+           471629.662,
+           6302760.694
+          ],
+          [
+           471644.5,
+           6302758.41
+          ],
+          [
+           471669.498,
+           6302754.569
+          ],
+          [
+           471735.872,
+           6302746.811
+          ],
+          [
+           471765.314,
+           6302740.932
+          ],
+          [
+           471838.342,
+           6302717.968
+          ],
+          [
+           471839.811,
+           6302723.764
+          ],
+          [
+           471883.232,
+           6302895.216
+          ],
+          [
+           471732.757,
+           6302950.827
+          ],
+          [
+           471726.501,
+           6302956.863
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Ågårde, Ørum",
+      "ejerlavskode": 551451,
+      "kommunenavn": "Brønderslev Kommune",
+      "kommunekode": "0810",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Ågårde, Ørum",
+      "jordstykke_id": 1770136,
+      "bfenummer": 100003093,
+      "centroid_x": 566693.35,
+      "centroid_y": 6338081.918,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           566447.788,
+           6337817.818
+          ],
+          [
+           566453.855,
+           6337846.22
+          ],
+          [
+           566540.899,
+           6337870.189
+          ],
+          [
+           566623.048,
+           6337895.936
+          ],
+          [
+           566636.886,
+           6337903.643
+          ],
+          [
+           566687.352,
+           6337924.37
+          ],
+          [
+           566728.594,
+           6337943.824
+          ],
+          [
+           566748.379,
+           6337956.956
+          ],
+          [
+           566762.329,
+           6337972.576
+          ],
+          [
+           566786.636,
+           6337973.616
+          ],
+          [
+           566830.011,
+           6337978.659
+          ],
+          [
+           566847.837,
+           6337989.853
+          ],
+          [
+           566873.033,
+           6338006.941
+          ],
+          [
+           566887.953,
+           6338020.997
+          ],
+          [
+           566912.766,
+           6338047.009
+          ],
+          [
+           566926.759,
+           6338064.178
+          ],
+          [
+           566938.859,
+           6338076.381
+          ],
+          [
+           566966.73,
+           6338100.24
+          ],
+          [
+           566985.944,
+           6338123.17
+          ],
+          [
+           566993.627,
+           6338157.842
+          ],
+          [
+           567008.582,
+           6338157.691
+          ],
+          [
+           567015.8,
+           6338158.436
+          ],
+          [
+           567020.669,
+           6338160.757
+          ],
+          [
+           567024.487,
+           6338170.878
+          ],
+          [
+           567024.978,
+           6338179.349
+          ],
+          [
+           567022.123,
+           6338181.903
+          ],
+          [
+           567017.562,
+           6338183.861
+          ],
+          [
+           567010.759,
+           6338185.411
+          ],
+          [
+           567010.728,
+           6338198.92
+          ],
+          [
+           567015.585,
+           6338202.889
+          ],
+          [
+           567011.144,
+           6338202.77
+          ],
+          [
+           566981.228,
+           6338201.148
+          ],
+          [
+           566961.814,
+           6338198.931
+          ],
+          [
+           566923.836,
+           6338191.579
+          ],
+          [
+           566889.404,
+           6338184.743
+          ],
+          [
+           566869.262,
+           6338179.32
+          ],
+          [
+           566862.931,
+           6338167.468
+          ],
+          [
+           566858.944,
+           6338144.588
+          ],
+          [
+           566811.242,
+           6338197.387
+          ],
+          [
+           566777.511,
+           6338223.42
+          ],
+          [
+           566734.916,
+           6338259.513
+          ],
+          [
+           566685.652,
+           6338285.971
+          ],
+          [
+           566696.565,
+           6338299.701
+          ],
+          [
+           566662.908,
+           6338342.25
+          ],
+          [
+           566700.045,
+           6338388.859
+          ],
+          [
+           566652.907,
+           6338411.762
+          ],
+          [
+           566646.561,
+           6338414.765
+          ],
+          [
+           566592.228,
+           6338447.393
+          ],
+          [
+           566582.847,
+           6338452.974
+          ],
+          [
+           566521.494,
+           6338488.732
+          ],
+          [
+           566508.044,
+           6338496.478
+          ],
+          [
+           566488.634,
+           6338506.982
+          ],
+          [
+           566484.044,
+           6338509.515
+          ],
+          [
+           566419.51,
+           6338545.142
+          ],
+          [
+           566414.825,
+           6338547.055
+          ],
+          [
+           566400.075,
+           6338553.12
+          ],
+          [
+           566399.586,
+           6338552.728
+          ],
+          [
+           566372.214,
+           6338564.238
+          ],
+          [
+           566377.168,
+           6338575.021
+          ],
+          [
+           566394.669,
+           6338584.617
+          ],
+          [
+           566425.244,
+           6338602.927
+          ],
+          [
+           566427.909,
+           6338611.565
+          ],
+          [
+           566413.634,
+           6338639.19
+          ],
+          [
+           566381.115,
+           6338647.05
+          ],
+          [
+           566378.611,
+           6338649.846
+          ],
+          [
+           566361.375,
+           6338668.58
+          ],
+          [
+           566342.693,
+           6338681.323
+          ],
+          [
+           566332.011,
+           6338677.083
+          ],
+          [
+           566321.245,
+           6338663.291
+          ],
+          [
+           566313.349,
+           6338648.988
+          ],
+          [
+           566310.905,
+           6338625.761
+          ],
+          [
+           566307.491,
+           6338604.533
+          ],
+          [
+           566297.388,
+           6338599.667
+          ],
+          [
+           566298.556,
+           6338585.877
+          ],
+          [
+           566285.865,
+           6338556.183
+          ],
+          [
+           566281.184,
+           6338545.198
+          ],
+          [
+           566272.155,
+           6338523.965
+          ],
+          [
+           566254.025,
+           6338481.084
+          ],
+          [
+           566268.694,
+           6338469.763
+          ],
+          [
+           566285.124,
+           6338457.619
+          ],
+          [
+           566310.291,
+           6338434.127
+          ],
+          [
+           566329.891,
+           6338416.043
+          ],
+          [
+           566386.033,
+           6338361.901
+          ],
+          [
+           566307.219,
+           6337885.545
+          ],
+          [
+           566300.593,
+           6337844.729
+          ],
+          [
+           566285.953,
+           6337752.836
+          ],
+          [
+           566292.049,
+           6337755.177
+          ],
+          [
+           566298.306,
+           6337757.58
+          ],
+          [
+           566310.608,
+           6337762.306
+          ],
+          [
+           566321.008,
+           6337766.3
+          ],
+          [
+           566326.539,
+           6337768.424
+          ],
+          [
+           566371.27,
+           6337783.731
+          ],
+          [
+           566445.63,
+           6337809.174
+          ],
+          [
+           566447.788,
+           6337817.818
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Tåning By, Tåning",
+      "ejerlavskode": 1070953,
+      "kommunenavn": "Skanderborg Kommune",
+      "kommunekode": "0746",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Tåning By, Tåning",
+      "jordstykke_id": 1029868,
+      "bfenummer": 9771758,
+      "centroid_x": 552559.338,
+      "centroid_y": 6208237.698,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           552461.115,
+           6207830.069
+          ],
+          [
+           552505.037,
+           6207832.142
+          ],
+          [
+           552550.945,
+           6207834.347
+          ],
+          [
+           552565.499,
+           6207835.498
+          ],
+          [
+           552567.864,
+           6207826.227
+          ],
+          [
+           552580.325,
+           6207827.01
+          ],
+          [
+           552579.634,
+           6207771.926
+          ],
+          [
+           552596.57,
+           6207771.691
+          ],
+          [
+           552615.767,
+           6207772.013
+          ],
+          [
+           552626.556,
+           6207772.649
+          ],
+          [
+           552633.509,
+           6207773.475
+          ],
+          [
+           552646.822,
+           6207775.195
+          ],
+          [
+           552649.499,
+           6207775.651
+          ],
+          [
+           552646.095,
+           6207792.154
+          ],
+          [
+           552645.176,
+           6207802.408
+          ],
+          [
+           552646.658,
+           6207802.58
+          ],
+          [
+           552639.846,
+           6207853.915
+          ],
+          [
+           552635.663,
+           6207882.974
+          ],
+          [
+           552620.988,
+           6207882.111
+          ],
+          [
+           552637.209,
+           6207987.943
+          ],
+          [
+           552677.624,
+           6207998.391
+          ],
+          [
+           552713.257,
+           6208009.646
+          ],
+          [
+           552733.616,
+           6208026.15
+          ],
+          [
+           552742.641,
+           6208037.864
+          ],
+          [
+           552766.902,
+           6208047.153
+          ],
+          [
+           552793.463,
+           6208056.53
+          ],
+          [
+           552827.109,
+           6208080.157
+          ],
+          [
+           552827.227,
+           6208099.528
+          ],
+          [
+           552828.591,
+           6208119.793
+          ],
+          [
+           552820.045,
+           6208129.957
+          ],
+          [
+           552809.367,
+           6208140.285
+          ],
+          [
+           552799.927,
+           6208151.79
+          ],
+          [
+           552790.23,
+           6208162.415
+          ],
+          [
+           552779.458,
+           6208177.827
+          ],
+          [
+           552766.889,
+           6208194.676
+          ],
+          [
+           552753.307,
+           6208208.173
+          ],
+          [
+           552738.686,
+           6208222.091
+          ],
+          [
+           552721.325,
+           6208231.428
+          ],
+          [
+           552696.457,
+           6208246.626
+          ],
+          [
+           552662.765,
+           6208279.234
+          ],
+          [
+           552682.451,
+           6208468.949
+          ],
+          [
+           552684.787,
+           6208508.913
+          ],
+          [
+           552685.187,
+           6208515.715
+          ],
+          [
+           552604.132,
+           6208538.731
+          ],
+          [
+           552572.305,
+           6208554.706
+          ],
+          [
+           552530.83,
+           6208595.301
+          ],
+          [
+           552518.08,
+           6208604.967
+          ],
+          [
+           552499.956,
+           6208610.152
+          ],
+          [
+           552467.496,
+           6208614.229
+          ],
+          [
+           552453.237,
+           6208623.649
+          ],
+          [
+           552439.162,
+           6208648.983
+          ],
+          [
+           552413.292,
+           6208671.638
+          ],
+          [
+           552385.642,
+           6208695.851
+          ],
+          [
+           552371.792,
+           6208708.064
+          ],
+          [
+           552328.18,
+           6208762.927
+          ],
+          [
+           552315.176,
+           6208775.817
+          ],
+          [
+           552305.433,
+           6208781.314
+          ],
+          [
+           552294.637,
+           6208785.241
+          ],
+          [
+           552286.515,
+           6208785.525
+          ],
+          [
+           552261.996,
+           6208791.305
+          ],
+          [
+           552258.75,
+           6208778.87
+          ],
+          [
+           552257.158,
+           6208771.99
+          ],
+          [
+           552235.472,
+           6208679.829
+          ],
+          [
+           552248.083,
+           6208654.708
+          ],
+          [
+           552258.677,
+           6208633.598
+          ],
+          [
+           552270.235,
+           6208609.299
+          ],
+          [
+           552280.011,
+           6208586.319
+          ],
+          [
+           552290.133,
+           6208561.721
+          ],
+          [
+           552327.975,
+           6208466.46
+          ],
+          [
+           552350.734,
+           6208409.966
+          ],
+          [
+           552359.717,
+           6208384.157
+          ],
+          [
+           552372.95,
+           6208342.399
+          ],
+          [
+           552380.734,
+           6208313.247
+          ],
+          [
+           552403.207,
+           6208232.207
+          ],
+          [
+           552411.615,
+           6208203.301
+          ],
+          [
+           552415.529,
+           6208187.547
+          ],
+          [
+           552418.868,
+           6208170.674
+          ],
+          [
+           552422.182,
+           6208148.671
+          ],
+          [
+           552429.261,
+           6208083.939
+          ],
+          [
+           552438.508,
+           6207987.564
+          ],
+          [
+           552447.624,
+           6207896.246
+          ],
+          [
+           552454.429,
+           6207857.698
+          ],
+          [
+           552461.115,
+           6207830.069
+          ]
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 116,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "ejerlavsnavn": "Herlev",
+      "ejerlavskode": 10451,
+      "kommunenavn": "Herlev Kommune",
+      "kommunekode": "0163",
+      "matrikelnummer": "5ab",
+      "visningstekst": "5ab, Herlev",
+      "jordstykke_id": 1351766,
+      "bfenummer": 2019516,
+      "centroid_x": 716037.188,
+      "centroid_y": 6180573.444,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           716048.241,
+           6180583.08
+          ],
+          [
+           716027.34,
+           6180586.88
+          ],
+          [
+           716027.019,
+           6180564.868
+          ],
+          [
+           716049.072,
+           6180563.386
+          ],
+          [
+           716048.241,
+           6180583.08
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Vangede",
+      "ejerlavskode": 12255,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "5ac",
+      "visningstekst": "5ac, Vangede",
+      "jordstykke_id": 346707,
+      "bfenummer": 2069411,
+      "centroid_x": 721273.327,
+      "centroid_y": 6185018.691,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           721278.546,
+           6184984.186
+          ],
+          [
+           721309.421,
+           6185021.244
+          ],
+          [
+           721300.759,
+           6185028.535
+          ],
+          [
+           721292.286,
+           6185036.048
+          ],
+          [
+           721284.008,
+           6185043.774
+          ],
+          [
+           721275.931,
+           6185051.71
+          ],
+          [
+           721268.059,
+           6185059.851
+          ],
+          [
+           721248.099,
+           6185060.752
+          ],
+          [
+           721246.818,
+           6185003.992
+          ],
+          [
+           721278.546,
+           6184984.186
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Vangede",
+      "ejerlavskode": 12255,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "5an",
+      "visningstekst": "5an, Vangede",
+      "jordstykke_id": 346405,
+      "bfenummer": 2069421,
+      "centroid_x": 721196.386,
+      "centroid_y": 6185064.558,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           721210.709,
+           6185026.433
+          ],
+          [
+           721212.58,
+           6185100.39
+          ],
+          [
+           721205.87,
+           6185095.617
+          ],
+          [
+           721175.659,
+           6185094.803
+          ],
+          [
+           721175.753,
+           6185093.567
+          ],
+          [
+           721176.136,
+           6185092.388
+          ],
+          [
+           721176.79,
+           6185091.335
+          ],
+          [
+           721177.676,
+           6185090.467
+          ],
+          [
+           721178.743,
+           6185089.836
+          ],
+          [
+           721179.928,
+           6185089.478
+          ],
+          [
+           721181.424,
+           6185088.972
+          ],
+          [
+           721182.769,
+           6185088.146
+          ],
+          [
+           721183.895,
+           6185087.041
+          ],
+          [
+           721184.748,
+           6185085.713
+          ],
+          [
+           721185.282,
+           6185084.228
+          ],
+          [
+           721185.472,
+           6185082.662
+          ],
+          [
+           721185.308,
+           6185081.092
+          ],
+          [
+           721184.799,
+           6185079.598
+          ],
+          [
+           721183.97,
+           6185078.255
+          ],
+          [
+           721182.862,
+           6185077.132
+          ],
+          [
+           721181.531,
+           6185076.283
+          ],
+          [
+           721180.045,
+           6185075.753
+          ],
+          [
+           721178.477,
+           6185075.568
+          ],
+          [
+           721175.532,
+           6185075.509
+          ],
+          [
+           721175.427,
+           6185059.774
+          ],
+          [
+           721194.841,
+           6185047.527
+          ],
+          [
+           721185.656,
+           6185042.033
+          ],
+          [
+           721210.709,
+           6185026.433
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Borre By, Ål",
+      "ejerlavskode": 1340152,
+      "kommunenavn": "Varde Kommune",
+      "kommunekode": "0573",
+      "matrikelnummer": "5ac",
+      "visningstekst": "5ac, Borre By, Ål",
+      "jordstykke_id": 100054040,
+      "bfenummer": 100049683,
+      "centroid_x": 454646.01,
+      "centroid_y": 6166028.595,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           454664.821,
+           6166050.626
+          ],
+          [
+           454634.596,
+           6166051.83
+          ],
+          [
+           454627.106,
+           6166008.566
+          ],
+          [
+           454656.654,
+           6166003.451
+          ],
+          [
+           454664.821,
+           6166050.626
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Frederiksberg",
+      "ejerlavskode": 10051,
+      "kommunenavn": "Frederiksberg Kommune",
+      "kommunekode": "0147",
+      "matrikelnummer": "5aæ",
+      "visningstekst": "5aæ, Frederiksberg",
+      "jordstykke_id": 100031921,
+      "bfenummer": 100030636,
+      "centroid_x": 720234.481,
+      "centroid_y": 6176803.502,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           720270.214,
+           6176785.936
+          ],
+          [
+           720270.235,
+           6176786.271
+          ],
+          [
+           720312.67,
+           6176784.348
+          ],
+          [
+           720312.819,
+           6176787.166
+          ],
+          [
+           720313.494,
+           6176802.812
+          ],
+          [
+           720282.654,
+           6176804.257
+          ],
+          [
+           720252.985,
+           6176805.648
+          ],
+          [
+           720250.519,
+           6176805.76
+          ],
+          [
+           720248.056,
+           6176805.919
+          ],
+          [
+           720242.212,
+           6176806.489
+          ],
+          [
+           720236.401,
+           6176807.329
+          ],
+          [
+           720230.634,
+           6176808.437
+          ],
+          [
+           720224.925,
+           6176809.81
+          ],
+          [
+           720219.286,
+           6176811.445
+          ],
+          [
+           720213.361,
+           6176813.379
+          ],
+          [
+           720207.528,
+           6176815.576
+          ],
+          [
+           720201.566,
+           6176818.138
+          ],
+          [
+           720195.73,
+           6176820.975
+          ],
+          [
+           720190.033,
+           6176824.081
+          ],
+          [
+           720184.487,
+           6176827.45
+          ],
+          [
+           720179.104,
+           6176831.073
+          ],
+          [
+           720173.895,
+           6176834.943
+          ],
+          [
+           720168.873,
+           6176839.052
+          ],
+          [
+           720168.757,
+           6176835.372
+          ],
+          [
+           720168.436,
+           6176834.905
+          ],
+          [
+           720158.833,
+           6176826.272
+          ],
+          [
+           720156.409,
+           6176823.885
+          ],
+          [
+           720161.916,
+           6176819.359
+          ],
+          [
+           720167.642,
+           6176815.115
+          ],
+          [
+           720173.573,
+           6176811.162
+          ],
+          [
+           720179.695,
+           6176807.512
+          ],
+          [
+           720185.993,
+           6176804.173
+          ],
+          [
+           720192.449,
+           6176801.153
+          ],
+          [
+           720199.06,
+           6176798.26
+          ],
+          [
+           720205.801,
+           6176795.685
+          ],
+          [
+           720212.657,
+           6176793.434
+          ],
+          [
+           720219.613,
+           6176791.512
+          ],
+          [
+           720226.652,
+           6176789.924
+          ],
+          [
+           720233.759,
+           6176788.673
+          ],
+          [
+           720239.919,
+           6176787.868
+          ],
+          [
+           720246.107,
+           6176787.316
+          ],
+          [
+           720252.312,
+           6176787.019
+          ],
+          [
+           720262.19,
+           6176786.618
+          ],
+          [
+           720266.162,
+           6176786.446
+          ],
+          [
+           720266.215,
+           6176786.127
+          ],
+          [
+           720270.214,
+           6176785.936
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Ydby By, Ydby",
+      "ejerlavskode": 721358,
+      "kommunenavn": "Thisted Kommune",
+      "kommunekode": "0787",
+      "matrikelnummer": "5al",
+      "visningstekst": "5al, Ydby By, Ydby",
+      "jordstykke_id": 1838353,
+      "bfenummer": 3434661,
+      "centroid_x": 463453.274,
+      "centroid_y": 6285475.676,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           463457.729,
+           6285492.402
+          ],
+          [
+           463439.726,
+           6285467.278
+          ],
+          [
+           463445.658,
+           6285462.756
+          ],
+          [
+           463449.026,
+           6285460.178
+          ],
+          [
+           463467.749,
+           6285484.889
+          ],
+          [
+           463457.729,
+           6285492.402
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Røjen By, Sunds",
+      "ejerlavskode": 1191654,
+      "kommunenavn": "Herning Kommune",
+      "kommunekode": "0657",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Røjen By, Sunds",
+      "jordstykke_id": 117870,
+      "bfenummer": null,
+      "centroid_x": 498382.356,
+      "centroid_y": 6234031.613,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           498421.034,
+           6234013.242
+          ],
+          [
+           498416.961,
+           6234031.76
+          ],
+          [
+           498411.797,
+           6234041.975
+          ],
+          [
+           498403.741,
+           6234050.902
+          ],
+          [
+           498387.642,
+           6234061.468
+          ],
+          [
+           498362.807,
+           6234070.93
+          ],
+          [
+           498384.749,
+           6234125.199
+          ],
+          [
+           498403.392,
+           6234168.874
+          ],
+          [
+           498407.366,
+           6234178.191
+          ],
+          [
+           498399.454,
+           6234180.535
+          ],
+          [
+           498392.861,
+           6234183.838
+          ],
+          [
+           498384.956,
+           6234188.468
+          ],
+          [
+           498382.938,
+           6234189.672
+          ],
+          [
+           498378.045,
+           6234189.693
+          ],
+          [
+           498369.534,
+           6234185.251
+          ],
+          [
+           498356.786,
+           6234179.028
+          ],
+          [
+           498345.931,
+           6234173.714
+          ],
+          [
+           498344.29,
+           6234173.253
+          ],
+          [
+           498338.289,
+           6234171.571
+          ],
+          [
+           498333.62,
+           6234170.262
+          ],
+          [
+           498329.784,
+           6234171.201
+          ],
+          [
+           498323.277,
+           6234172.797
+          ],
+          [
+           498317.757,
+           6234174.09
+          ],
+          [
+           498314.49,
+           6234172.407
+          ],
+          [
+           498306.675,
+           6234173.524
+          ],
+          [
+           498281.286,
+           6234176.842
+          ],
+          [
+           498278.167,
+           6234177.257
+          ],
+          [
+           498277.837,
+           6234174.886
+          ],
+          [
+           498274.063,
+           6234162.634
+          ],
+          [
+           498277.772,
+           6234130.17
+          ],
+          [
+           498279.675,
+           6234095.481
+          ],
+          [
+           498285.544,
+           6234096.034
+          ],
+          [
+           498292.197,
+           6234086.139
+          ],
+          [
+           498292.579,
+           6234082.061
+          ],
+          [
+           498279.803,
+           6234082.075
+          ],
+          [
+           498282.092,
+           6234075.896
+          ],
+          [
+           498289.671,
+           6234052.322
+          ],
+          [
+           498297.726,
+           6234050.731
+          ],
+          [
+           498298.345,
+           6234053.185
+          ],
+          [
+           498313.371,
+           6234055.495
+          ],
+          [
+           498316.747,
+           6234063.392
+          ],
+          [
+           498327.233,
+           6234062.17
+          ],
+          [
+           498334.844,
+           6234067.197
+          ],
+          [
+           498337.711,
+           6234065.548
+          ],
+          [
+           498343.11,
+           6234065.504
+          ],
+          [
+           498342.074,
+           6234052.723
+          ],
+          [
+           498356.669,
+           6234053.517
+          ],
+          [
+           498356.695,
+           6234049.227
+          ],
+          [
+           498352.452,
+           6234049.306
+          ],
+          [
+           498352.586,
+           6234039.162
+          ],
+          [
+           498356.743,
+           6234038.144
+          ],
+          [
+           498343.496,
+           6233893.173
+          ],
+          [
+           498332.699,
+           6233873.201
+          ],
+          [
+           498441.595,
+           6233880.553
+          ],
+          [
+           498440.607,
+           6233884.043
+          ],
+          [
+           498440.205,
+           6233900.022
+          ],
+          [
+           498425.997,
+           6233955.245
+          ],
+          [
+           498421.034,
+           6234013.242
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Tolne By, Tolne",
+      "ejerlavskode": 531353,
+      "kommunenavn": "Hjørring Kommune",
+      "kommunekode": "0860",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Tolne By, Tolne",
+      "jordstykke_id": 1457687,
+      "bfenummer": 3155000,
+      "centroid_x": 580992.974,
+      "centroid_y": 6370413.911,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           581001.235,
+           6370391.508
+          ],
+          [
+           581058.318,
+           6370382.165
+          ],
+          [
+           581053.98,
+           6370388.26
+          ],
+          [
+           581045.553,
+           6370395.081
+          ],
+          [
+           581024.782,
+           6370419.435
+          ],
+          [
+           581008.536,
+           6370430.964
+          ],
+          [
+           580979.011,
+           6370453.901
+          ],
+          [
+           580963.382,
+           6370462.224
+          ],
+          [
+           580946.538,
+           6370471.895
+          ],
+          [
+           580936.531,
+           6370478.539
+          ],
+          [
+           580938.755,
+           6370447.219
+          ],
+          [
+           580942.149,
+           6370441.698
+          ],
+          [
+           580967.221,
+           6370411.912
+          ],
+          [
+           580951.104,
+           6370392.353
+          ],
+          [
+           580935.551,
+           6370382.068
+          ],
+          [
+           580973.341,
+           6370353.402
+          ],
+          [
+           581001.235,
+           6370391.508
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Østrup By, Glud",
+      "ejerlavskode": 1100452,
+      "kommunenavn": "Hedensted Kommune",
+      "kommunekode": "0766",
+      "matrikelnummer": "5a",
+      "visningstekst": "5a, Østrup By, Glud",
+      "jordstykke_id": 1545575,
+      "bfenummer": null,
+      "centroid_x": 564287.959,
+      "centroid_y": 6186165.872,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           564205.842,
+           6185924.474
+          ],
+          [
+           564218.371,
+           6185966.319
+          ],
+          [
+           564444.188,
+           6186389.141
+          ],
+          [
+           564392.947,
+           6186412.791
+          ],
+          [
+           564155.774,
+           6186012.554
+          ],
+          [
+           564092.408,
+           6185800.654
+          ],
+          [
+           564102.069,
+           6185806.83
+          ],
+          [
+           564108.345,
+           6185812.027
+          ],
+          [
+           564115.253,
+           6185819.199
+          ],
+          [
+           564122.077,
+           6185826.243
+          ],
+          [
+           564134.494,
+           6185840.085
+          ],
+          [
+           564148.165,
+           6185856.684
+          ],
+          [
+           564160.581,
+           6185870.86
+          ],
+          [
+           564173.504,
+           6185886.32
+          ],
+          [
+           564186.949,
+           6185901.12
+          ],
+          [
+           564199.229,
+           6185916.546
+          ],
+          [
+           564205.842,
+           6185924.474
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Askov By, Malt",
+      "ejerlavskode": 1280751,
+      "kommunenavn": "Vejen Kommune",
+      "kommunekode": "0575",
+      "matrikelnummer": "5aæ",
+      "visningstekst": "5aæ, Askov By, Malt",
+      "jordstykke_id": 2372919,
+      "bfenummer": 5039230,
+      "centroid_x": 505183.257,
+      "centroid_y": 6147117.411,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           505162.013,
+           6147138.224
+          ],
+          [
+           505158.309,
+           6147105.281
+          ],
+          [
+           505157.718,
+           6147100.82
+          ],
+          [
+           505169.973,
+           6147100.264
+          ],
+          [
+           505196.642,
+           6147098.776
+          ],
+          [
+           505205.984,
+           6147105.409
+          ],
+          [
+           505208.365,
+           6147136.213
+          ],
+          [
+           505162.013,
+           6147138.224
+          ]
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 83,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 92,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 81,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 83,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 81,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 240,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=5a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 80,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "5a",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 139,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": []
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 132,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "b6fh5gga464ii"
+       },
+       "refs": {
+        "street": "b6fh5gga464ii"
+       },
+       "result": "Vej 5, 2000 Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vej 5",
+        "postcodes": [
+         {
+          "postcode": "2000",
+          "city": "Frederiksberg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721426.5,
+         6176681.75
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "0f6d5885-7624-406b-ab64-85d521c0aaa5"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "h3yhbzlv6sjkw"
+       },
+       "refs": {
+        "street": "h3yhbzlv6sjkw"
+       },
+       "result": "Pier 5, 9900 Frederikshavn",
+       "lifecycle": "current",
+       "components": {
+        "street": "Pier 5",
+        "postcodes": [
+         {
+          "postcode": "9900",
+          "city": "Frederikshavn"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0813",
+          "kommune": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         593045.95,
+         6367484.53
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "60a54f10-db78-4e92-acb6-9140a95e336d"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "6oi2rsc4ovss6"
+       },
+       "refs": {
+        "street": "6oi2rsc4ovss6"
+       },
+       "result": "Ring 5, 2640 Hedehusene",
+       "lifecycle": "current",
+       "components": {
+        "street": "Ring 5",
+        "postcodes": [
+         {
+          "postcode": "2640",
+          "city": "Hedehusene"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0169",
+          "kommune": "Høje-Taastrup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         703786.91,
+         6171655.25
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "3fbbd4cc-f2e7-4717-b3fe-d8a19d619008"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 137,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": []
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 136,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 5798,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "yoh4rae4muisw"
+       },
+       "refs": {
+        "ejendom": "yoh4rae4muisw"
+       },
+       "result": "5a, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "5a",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100030984
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720543.34,
+         6176955.662
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100030062
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "n22ns2omf4okm"
+       },
+       "refs": {
+        "ejendom": "n22ns2omf4okm"
+       },
+       "result": "5a, Gentofte",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "5a",
+        "ejerlavskode": 10151,
+        "ejerlav": "Gentofte",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 10151,
+           "ejerlav": "Gentofte",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 330698
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722099.082,
+         6181770.973
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2001210
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "x3d343w6q47ty"
+       },
+       "refs": {
+        "ejendom": "x3d343w6q47ty"
+       },
+       "result": "5a, Buddinge",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 10251,
+        "ejerlav": "Buddinge",
+        "kommuner": [
+         {
+          "kommunekode": "0159",
+          "kommune": "Gladsaxe"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 919450
+           }
+          },
+          {
+           "matrikelnummer": "5c",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 919831
+           }
+          },
+          {
+           "matrikelnummer": "5at",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 920897
+           }
+          },
+          {
+           "matrikelnummer": "5au",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 920857
+           }
+          },
+          {
+           "matrikelnummer": "5av",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 920906
+           }
+          },
+          {
+           "matrikelnummer": "5ax",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 920944
+           }
+          },
+          {
+           "matrikelnummer": "5ay",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 919522
+           }
+          },
+          {
+           "matrikelnummer": "5az",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 919778
+           }
+          },
+          {
+           "matrikelnummer": "5aæ",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 920070
+           }
+          },
+          {
+           "matrikelnummer": "5ba",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 919844
+           }
+          },
+          {
+           "matrikelnummer": "5bb",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 919294
+           }
+          },
+          {
+           "matrikelnummer": "5bc",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 920899
+           }
+          },
+          {
+           "matrikelnummer": "5bd",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 919856
+           }
+          },
+          {
+           "matrikelnummer": "5be",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 920917
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719111.943,
+         6181512.467
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8777388
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "slm3so4ehudp2"
+       },
+       "refs": {
+        "ejendom": "slm3so4ehudp2"
+       },
+       "result": "5a, Gladsaxe",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 10252,
+        "ejerlav": "Gladsaxe",
+        "kommuner": [
+         {
+          "kommunekode": "0159",
+          "kommune": "Gladsaxe"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [
+           {
+            "id": "xkmzf5qi7wfvs",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100651546
+            }
+           },
+           {
+            "id": "fni2mvdqbduue",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100651547
+            }
+           },
+           {
+            "id": "wm5kc4xtgnbc4",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100651548
+            }
+           },
+           {
+            "id": "bzlq2mztenbi2",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100651549
+            }
+           },
+           {
+            "id": "4gfvifgwumkpa",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100651550
+            }
+           },
+           {
+            "id": "jr3twhyrzenpm",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100651551
+            }
+           },
+           {
+            "id": "lxx62wnydfrae",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100651554
+            }
+           },
+           {
+            "id": "5zystckvp2z6o",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100651555
+            }
+           },
+           {
+            "id": "3a5opsj5kqwf6",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654054
+            }
+           },
+           {
+            "id": "ysah56phnrmt4",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654105
+            }
+           },
+           {
+            "id": "vcoqmfy6i7dgi",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654113
+            }
+           },
+           {
+            "id": "y2nskeux7nvlq",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654114
+            }
+           },
+           {
+            "id": "uvvexri63pijo",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654115
+            }
+           },
+           {
+            "id": "d4qwlw6fsopyo",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654116
+            }
+           },
+           {
+            "id": "6nl6e5tbyrjg6",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654118
+            }
+           },
+           {
+            "id": "jsrmyrv7mpb32",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654120
+            }
+           },
+           {
+            "id": "ozu7lcuxpze3k",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654125
+            }
+           },
+           {
+            "id": "7gq7w3wfd3ju4",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654127
+            }
+           },
+           {
+            "id": "5xn7qpcjeqkxa",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654128
+            }
+           },
+           {
+            "id": "so2icz42eu5vq",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654130
+            }
+           },
+           {
+            "id": "4o4grrqu2vp5e",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654133
+            }
+           },
+           {
+            "id": "izg7nldmtqy4m",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654135
+            }
+           },
+           {
+            "id": "qbpdzudmmymku",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654141
+            }
+           },
+           {
+            "id": "3rpmiafk7v7ww",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654144
+            }
+           },
+           {
+            "id": "dc7o4xgg47nma",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654145
+            }
+           },
+           {
+            "id": "bpz77tpbf6zps",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654147
+            }
+           },
+           {
+            "id": "jfflpgtkzdpsu",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654158
+            }
+           },
+           {
+            "id": "uvr7tujlp4v3k",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654159
+            }
+           },
+           {
+            "id": "c5m4umwstaxwg",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654160
+            }
+           },
+           {
+            "id": "2pzjig2dydqac",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100654161
+            }
+           },
+           {
+            "id": "ccdwoeno24g26",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100655336
+            }
+           },
+           {
+            "id": "lmro2dfxc36jm",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100655340
+            }
+           },
+           {
+            "id": "2fzkd3ypfavvu",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100655342
+            }
+           },
+           {
+            "id": "ce4bapr66bcum",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100763245
+            }
+           },
+           {
+            "id": "qkz3lfsozife4",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100763246
+            }
+           },
+           {
+            "id": "hgmj2qg77hb3q",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100821771
+            }
+           },
+           {
+            "id": "ogckpspf3kyi2",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "retired",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100858615
+            }
+           },
+           {
+            "id": "6c3ub2nyd5nkg",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "retired",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100859628
+            }
+           },
+           {
+            "id": "ipndwrj5uqeww",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100859648
+            }
+           },
+           {
+            "id": "nnfjeesstwaas",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100985959
+            }
+           },
+           {
+            "id": "y5elxsv566ebm",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "retired",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 711939
+            }
+           },
+           {
+            "id": "twcw6m3idz73g",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 711940
+            }
+           },
+           {
+            "id": "eheaibi6vnlye",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 711941
+            }
+           },
+           {
+            "id": "cjigns2uq6rzi",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 711942
+            }
+           }
+          ],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 10252,
+           "ejerlav": "Gladsaxe",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 923886
+           }
+          },
+          {
+           "matrikelnummer": "5c",
+           "ejerlavskode": 10252,
+           "ejerlav": "Gladsaxe",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 923880
+           }
+          },
+          {
+           "matrikelnummer": "5e",
+           "ejerlavskode": 10252,
+           "ejerlav": "Gladsaxe",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 923882
+           }
+          },
+          {
+           "matrikelnummer": "5f",
+           "ejerlavskode": 10252,
+           "ejerlav": "Gladsaxe",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 923881
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         716542.779,
+         6182768.378
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9522597
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "l4z6utfrscwda"
+       },
+       "refs": {
+        "ejendom": "l4z6utfrscwda"
+       },
+       "result": "5a, Hellerup",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "5a",
+        "ejerlavskode": 10352,
+        "ejerlav": "Hellerup",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 10352,
+           "ejerlav": "Hellerup",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 337534
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724893.478,
+         6181320.549
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 7118309
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "isd3v7vhkkpsw"
+       },
+       "refs": {
+        "ejendom": "isd3v7vhkkpsw"
+       },
+       "result": "5a, Herlev",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "5a",
+        "ejerlavskode": 10451,
+        "ejerlav": "Herlev",
+        "kommuner": [
+         {
+          "kommunekode": "0163",
+          "kommune": "Herlev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 10451,
+           "ejerlav": "Herlev",
+           "kommunekode": "0163",
+           "kommune": "Herlev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1352317
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         716434.782,
+         6180261.96
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9785229
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "nn6vls7pcrak2"
+       },
+       "refs": {
+        "ejendom": "nn6vls7pcrak2"
+       },
+       "result": "5a, Hvidovre By, Hvidovre",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 10551,
+        "ejerlav": "Hvidovre By, Hvidovre",
+        "kommuner": [
+         {
+          "kommunekode": "0167",
+          "kommune": "Hvidovre"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 10551,
+           "ejerlav": "Hvidovre By, Hvidovre",
+           "kommunekode": "0167",
+           "kommune": "Hvidovre",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 258005
+           }
+          },
+          {
+           "matrikelnummer": "5bq",
+           "ejerlavskode": 10551,
+           "ejerlav": "Hvidovre By, Hvidovre",
+           "kommunekode": "0167",
+           "kommune": "Hvidovre",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 258419
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         717595.924,
+         6174066.905
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 1300623
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "z6q6wjegdgu2y"
+       },
+       "refs": {
+        "ejendom": "z6q6wjegdgu2y"
+       },
+       "result": "5a, Kgs. Lyngby By, Kgs. Lyngby",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 10752,
+        "ejerlav": "Kgs. Lyngby By, Kgs. Lyngby",
+        "kommuner": [
+         {
+          "kommunekode": "0173",
+          "kommune": "Lyngby-Taarbæk"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 10752,
+           "ejerlav": "Kgs. Lyngby By, Kgs. Lyngby",
+           "kommunekode": "0173",
+           "kommune": "Lyngby-Taarbæk",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2457487
+           }
+          },
+          {
+           "matrikelnummer": "5ug",
+           "ejerlavskode": 10752,
+           "ejerlav": "Kgs. Lyngby By, Kgs. Lyngby",
+           "kommunekode": "0173",
+           "kommune": "Lyngby-Taarbæk",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2457452
+           }
+          },
+          {
+           "matrikelnummer": "5uh",
+           "ejerlavskode": 10752,
+           "ejerlav": "Kgs. Lyngby By, Kgs. Lyngby",
+           "kommunekode": "0173",
+           "kommune": "Lyngby-Taarbæk",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2457464
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719689.435,
+         6187610.583
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8864414
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ud3jluckot4tk"
+       },
+       "refs": {
+        "ejendom": "ud3jluckot4tk"
+       },
+       "result": "5a, St. Magleby By, St. Magleby",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 10851,
+        "ejerlav": "St. Magleby By, St. Magleby",
+        "kommuner": [
+         {
+          "kommunekode": "0155",
+          "kommune": "Dragør"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 10851,
+           "ejerlav": "St. Magleby By, St. Magleby",
+           "kommunekode": "0155",
+           "kommune": "Dragør",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 176062
+           }
+          },
+          {
+           "matrikelnummer": "5az",
+           "ejerlavskode": 10851,
+           "ejerlav": "St. Magleby By, St. Magleby",
+           "kommunekode": "0155",
+           "kommune": "Dragør",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 176060
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         729637.476,
+         6166724.35
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8752210
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "cvaernd32an46"
+       },
+       "refs": {
+        "ejendom": "cvaernd32an46"
+       },
+       "result": "5a, Rødovre By, Rødovre",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "5a",
+        "ejerlavskode": 11151,
+        "ejerlav": "Rødovre By, Rødovre",
+        "kommuner": [
+         {
+          "kommunekode": "0175",
+          "kommune": "Rødovre"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 11151,
+           "ejerlav": "Rødovre By, Rødovre",
+           "kommunekode": "0175",
+           "kommune": "Rødovre",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1628474
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         717954.871,
+         6176226.906
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8776840
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 880,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ffmdncktm5a7o"
+       },
+       "refs": {
+        "ejendom": "ffmdncktm5a7o"
+       },
+       "result": "10a, Røgerup By, Skibby",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "10a",
+        "ejerlavskode": 70853,
+        "ejerlav": "Røgerup By, Skibby",
+        "kommuner": [
+         {
+          "kommunekode": "0250",
+          "kommune": "Frederikssund"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "10a",
+           "ejerlavskode": 70853,
+           "ejerlav": "Røgerup By, Skibby",
+           "kommunekode": "0250",
+           "kommune": "Frederikssund",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1897337
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         684210.832,
+         6183256.994
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 7137625
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "hcjtm7vx4y25g"
+       },
+       "refs": {
+        "ejendom": "hcjtm7vx4y25g"
+       },
+       "result": "4fd, Skibby By, Skibby",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "4fd",
+        "ejerlavskode": 70854,
+        "ejerlav": "Skibby By, Skibby",
+        "kommuner": [
+         {
+          "kommunekode": "0250",
+          "kommune": "Frederikssund"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4fd",
+           "ejerlavskode": 70854,
+           "ejerlav": "Skibby By, Skibby",
+           "kommunekode": "0250",
+           "kommune": "Frederikssund",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100442500
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         686369.879,
+         6182349.599
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100429012
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "6uozoxobesemq"
+       },
+       "refs": {
+        "ejendom": "6uozoxobesemq"
+       },
+       "result": "5a, Søborg Sø, Søborg",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 111062,
+        "ejerlav": "Søborg Sø, Søborg",
+        "kommuner": [
+         {
+          "kommunekode": "0270",
+          "kommune": "Gribskov"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 111062,
+           "ejerlav": "Søborg Sø, Søborg",
+           "kommunekode": "0270",
+           "kommune": "Gribskov",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 977896
+           }
+          },
+          {
+           "matrikelnummer": "5b",
+           "ejerlavskode": 111062,
+           "ejerlav": "Søborg Sø, Søborg",
+           "kommunekode": "0270",
+           "kommune": "Gribskov",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 977897
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         705698.638,
+         6220764.091
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 7334125
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "dpwwlp75nx4wg"
+       },
+       "refs": {
+        "ejendom": "dpwwlp75nx4wg"
+       },
+       "result": "3l, Skalbjerg By, Vissenbjerg",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 331664,
+        "ejerlav": "Skalbjerg By, Vissenbjerg",
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3l",
+           "ejerlavskode": 331664,
+           "ejerlav": "Skalbjerg By, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 162179
+           }
+          },
+          {
+           "matrikelnummer": "4af",
+           "ejerlavskode": 331664,
+           "ejerlav": "Skalbjerg By, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 162132
+           }
+          },
+          {
+           "matrikelnummer": "5ae",
+           "ejerlavskode": 331664,
+           "ejerlav": "Skalbjerg By, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2604753
+           }
+          },
+          {
+           "matrikelnummer": "7e",
+           "ejerlavskode": 331664,
+           "ejerlav": "Skalbjerg By, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 162144
+           }
+          },
+          {
+           "matrikelnummer": "8a",
+           "ejerlavskode": 331664,
+           "ejerlav": "Skalbjerg By, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 162203
+           }
+          },
+          {
+           "matrikelnummer": "8e",
+           "ejerlavskode": 331664,
+           "ejerlav": "Skalbjerg By, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 162014
+           }
+          },
+          {
+           "matrikelnummer": "8aa",
+           "ejerlavskode": 331664,
+           "ejerlav": "Skalbjerg By, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 162195
+           }
+          },
+          {
+           "matrikelnummer": "8ac",
+           "ejerlavskode": 331664,
+           "ejerlav": "Skalbjerg By, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 162084
+           }
+          },
+          {
+           "matrikelnummer": "8ad",
+           "ejerlavskode": 331664,
+           "ejerlav": "Skalbjerg By, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 162002
+           }
+          },
+          {
+           "matrikelnummer": "9o",
+           "ejerlavskode": 331664,
+           "ejerlav": "Skalbjerg By, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 162023
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572031.43,
+         6135914.507
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 10043047
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ldguzw545yz3c"
+       },
+       "refs": {
+        "ejendom": "ldguzw545yz3c"
+       },
+       "result": "1e, Kildebjerg, Vissenbjerg",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 331657,
+        "ejerlav": "Kildebjerg, Vissenbjerg",
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1e",
+           "ejerlavskode": 331657,
+           "ejerlav": "Kildebjerg, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 161156
+           }
+          },
+          {
+           "matrikelnummer": "1bg",
+           "ejerlavskode": 331657,
+           "ejerlav": "Kildebjerg, Vissenbjerg",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 161181
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         575784.179,
+         6138986.67
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9578995
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "mb6tykljzwfxm"
+       },
+       "refs": {
+        "ejendom": "mb6tykljzwfxm"
+       },
+       "result": "4a, Stensby By, Skamby",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 370758,
+        "ejerlav": "Stensby By, Skamby",
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4a",
+           "ejerlavskode": 370758,
+           "ejerlav": "Stensby By, Skamby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 42338
+           }
+          },
+          {
+           "matrikelnummer": "4d",
+           "ejerlavskode": 370758,
+           "ejerlav": "Stensby By, Skamby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 42366
+           }
+          },
+          {
+           "matrikelnummer": "5f",
+           "ejerlavskode": 370758,
+           "ejerlav": "Stensby By, Skamby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 42367
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         581568.277,
+         6150822.115
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9579156
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "tnef2yjm5k64i"
+       },
+       "refs": {
+        "ejendom": "tnef2yjm5k64i"
+       },
+       "result": "4k, Strandby By, Haarby",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "4k",
+        "ejerlavskode": 390658,
+        "ejerlav": "Strandby By, Haarby",
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4k",
+           "ejerlavskode": 390658,
+           "ejerlav": "Strandby By, Haarby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 93899
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         570785.392,
+         6117929.58
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9678032
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "tlfxoboqcydzy"
+       },
+       "refs": {
+        "ejendom": "tlfxoboqcydzy"
+       },
+       "result": "1a, Broholm Hgd., Gudme",
+       "lifecycle": "retired",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0479",
+          "kommune": "Svendborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [
+           {
+            "id": "dyimwbahms4us",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 732893
+            }
+           }
+          ],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 420451,
+           "ejerlav": "Broholm Hgd., Gudme",
+           "kommunekode": "0479",
+           "kommune": "Svendborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 155895
+           }
+          },
+          {
+           "matrikelnummer": "1c",
+           "ejerlavskode": 420451,
+           "ejerlav": "Broholm Hgd., Gudme",
+           "kommunekode": "0479",
+           "kommune": "Svendborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 155892
+           }
+          },
+          {
+           "matrikelnummer": "1d",
+           "ejerlavskode": 420451,
+           "ejerlav": "Broholm Hgd., Gudme",
+           "kommunekode": "0479",
+           "kommune": "Svendborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 155900
+           }
+          },
+          {
+           "matrikelnummer": "23a",
+           "ejerlavskode": 420453,
+           "ejerlav": "Gudme By, Gudme",
+           "kommunekode": "0479",
+           "kommune": "Svendborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 156626
+           }
+          },
+          {
+           "matrikelnummer": "6a",
+           "ejerlavskode": 420751,
+           "ejerlav": "Albjerg By, Oure",
+           "kommunekode": "0479",
+           "kommune": "Svendborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 158068
+           }
+          },
+          {
+           "matrikelnummer": "6g",
+           "ejerlavskode": 420751,
+           "ejerlav": "Albjerg By, Oure",
+           "kommunekode": "0479",
+           "kommune": "Svendborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 158085
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         609869.531,
+         6111311.952
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9465188
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ytpxrzoyyteb6"
+       },
+       "refs": {
+        "ejendom": "ytpxrzoyyteb6"
+       },
+       "result": "5a, V. Ulslev By, V. Ulslev",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "5a",
+        "ejerlavskode": 471955,
+        "ejerlav": "V. Ulslev By, V. Ulslev",
+        "kommuner": [
+         {
+          "kommunekode": "0376",
+          "kommune": "Guldborgsund"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 471955,
+           "ejerlav": "V. Ulslev By, V. Ulslev",
+           "kommunekode": "0376",
+           "kommune": "Guldborgsund",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1451815
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         665597.588,
+         6063127.054
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3090404
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "j4ap2bzzf23ei"
+       },
+       "refs": {
+        "ejendom": "j4ap2bzzf23ei"
+       },
+       "result": "5a, Ullerslev By, Avnede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "5a",
+        "ejerlavskode": 500257,
+        "ejerlav": "Ullerslev By, Avnede",
+        "kommuner": [
+         {
+          "kommunekode": "0360",
+          "kommune": "Lolland"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5a",
+           "ejerlavskode": 500257,
+           "ejerlav": "Ullerslev By, Avnede",
+           "kommunekode": "0360",
+           "kommune": "Lolland",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1557330
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         643015.76,
+         6076770.082
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9813173
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 129,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": []
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 134,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "6trufphwgap2m"
+       },
+       "refs": {
+        "stednavn": "6trufphwgap2m"
+       },
+       "result": "5",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "5",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         526866.66,
+         6076697.58
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1108555"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "bsyq3gh57sdu4"
+       },
+       "refs": {
+        "stednavn": "bsyq3gh57sdu4"
+       },
+       "result": "50",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "50",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         523312.05,
+         6074438.37
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1034933"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "apssboi3qpdrc"
+       },
+       "refs": {
+        "stednavn": "apssboi3qpdrc"
+       },
+       "result": "51",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "51",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         523355.28,
+         6074299.59
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1084582"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ry6aqsegbv6uc"
+       },
+       "refs": {
+        "stednavn": "ry6aqsegbv6uc"
+       },
+       "result": "52",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "52",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         523311.34,
+         6074284.87
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1033385"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ycujyccwzrjfo"
+       },
+       "refs": {
+        "stednavn": "ycujyccwzrjfo"
+       },
+       "result": "53",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "53",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         523281.08,
+         6074374.63
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1066376"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "3dlaxjffygax2"
+       },
+       "refs": {
+        "stednavn": "3dlaxjffygax2"
+       },
+       "result": "54",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "54",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         523237.55,
+         6074375.36
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1151085"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "6ndv7cjsx3qnk"
+       },
+       "refs": {
+        "stednavn": "6ndv7cjsx3qnk"
+       },
+       "result": "55",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "55",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         523189.36,
+         6074402.68
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1136848"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "kzpanb7w3g3ri"
+       },
+       "refs": {
+        "stednavn": "kzpanb7w3g3ri"
+       },
+       "result": "56",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "56",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         522913.7,
+         6074302.11
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1106299"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "af4vo3vetvqsc"
+       },
+       "refs": {
+        "stednavn": "af4vo3vetvqsc"
+       },
+       "result": "57",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "57",
+        "type": "topografi"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         522791.4,
+         6074179.56
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1137547"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "43urwi5sbgehi"
+       },
+       "refs": {
+        "stednavn": "43urwi5sbgehi"
+       },
+       "result": "58",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "58",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         522672.29,
+         6073962.01
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1112026"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 135,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": []
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 134,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": []
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 132,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": []
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 132,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "5a",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 131,
+    "ok": true,
+    "response": {
+     "input": "5a",
+     "matches": []
+    }
+   }
+  ]
+ }
+}
