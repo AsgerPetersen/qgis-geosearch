@@ -1,0 +1,18 @@
+[project]
+name = "geosearch-dk"
+version = "0.0.0"
+description = "QGIS plugin Geosearch DK (dev tooling only; the plugin is not packaged from here)"
+requires-python = ">=3.9"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+# Only src/ is put on the path: importing geosearch_dk.bifrost must not need QGIS.
+pythonpath = ["src"]
+testpaths = ["tests/unit"]
+addopts = "-ra"

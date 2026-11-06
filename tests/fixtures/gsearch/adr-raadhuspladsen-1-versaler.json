@@ -1,0 +1,1509 @@
+{
+ "case_id": "adr-raadhuspladsen-1-versaler",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "RÅDHUSPLADSEN 1",
+ "term": "RÅDHUSPLADSEN 1",
+ "keys": [
+  "adr"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=R%C3%85DHUSPLADSEN%201&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 246,
+   "row_count": 40,
+   "rows": [
+    {
+     "id": "0a3f507a-ec01-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 1, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724454.63549553,
+        6175800.01960673
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724434.93,
+        6175755.61
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507f-0959-32b8-e044-0003ba298018",
+     "kommunenavn": "Halsnæs",
+     "kommunekode": "0260",
+     "vejkode": "1214",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "3300",
+     "postnummernavn": "Frederiksværk",
+     "visningstekst": "Rådhuspladsen 1, 3300 Frederiksværk",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        688207.08,
+        6207593.7
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        688190.35,
+        6207578.8
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5084-62c3-32b8-e044-0003ba298018",
+     "kommunenavn": "Slagelse",
+     "kommunekode": "0330",
+     "vejkode": "1407",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "4200",
+     "postnummernavn": "Slagelse",
+     "visningstekst": "Rådhuspladsen 1, 4200 Slagelse",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        649198.49528267,
+        6142354.50223969
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        649189.55,
+        6142347.15
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5083-452c-32b8-e044-0003ba298018",
+     "kommunenavn": "Holbæk",
+     "kommunekode": "0316",
+     "vejkode": "1322",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "4300",
+     "postnummernavn": "Holbæk",
+     "visningstekst": "Rådhuspladsen 1, 4300 Holbæk",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        670319.82368855,
+        6177821.3254674
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        670327.26927435,
+        6177835.02364516
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5096-c91e-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "7005",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Rådhuspladsen 1, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574719.28873857,
+        6223783.40750461
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574724.58304292,
+        6223800.99596137
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5093-f86f-32b8-e044-0003ba298018",
+     "kommunenavn": "Skanderborg",
+     "kommunekode": "0746",
+     "vejkode": "0847",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "8362",
+     "postnummernavn": "Hørning",
+     "visningstekst": "Rådhuspladsen 1, 8362 Hørning",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564440.7943641,
+        6216062.98875724
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564456.76,
+        6216035.02
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f509b-eeab-32b8-e044-0003ba298018",
+     "kommunenavn": "Frederikshavn",
+     "kommunekode": "0813",
+     "vejkode": "1610",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "9300",
+     "postnummernavn": "Sæby",
+     "visningstekst": "Rådhuspladsen 1, 9300 Sæby",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        590671.19692171,
+        6355512.70160191
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        590645.61,
+        6355513.83
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508a-0b0a-32b8-e044-0003ba298018",
+     "kommunenavn": "Nordfyns",
+     "kommunekode": "0480",
+     "vejkode": "1034",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": "Otterup",
+     "postnummer": "5450",
+     "postnummernavn": "Otterup",
+     "visningstekst": "Rådhuspladsen 1, Otterup, 5450 Otterup",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        587991.50382313,
+        6152881.39261476
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        587999.85,
+        6152889.38
+       ]
+      ]
+     }
+    },
+    {
+     "id": "6ca6b685-8066-48b9-bcdb-ed1fa493dec6",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "7005",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1B",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Rådhuspladsen 1B, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574729.4999819,
+        6223781.87109069
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574732.09055793,
+        6223799.08845755
+       ]
+      ]
+     }
+    },
+    {
+     "id": "323ae6a0-6f73-41d4-9281-bfc5d315e130",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "7005",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1C",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Rådhuspladsen 1C, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574734.92515798,
+        6223781.05480262
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574737.48056871,
+        6223798.03845545
+       ]
+      ]
+     }
+    },
+    {
+     "id": "559e2a41-2930-468e-a8fd-38da268d82bc",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "7005",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1D",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Rådhuspladsen 1D, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574740.42543946,
+        6223780.22721397
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574743.01057977,
+        6223797.40845419
+       ]
+      ]
+     }
+    },
+    {
+     "id": "80e5e24b-f053-415e-bfab-fdc56b60f93f",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "7005",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1E",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Rådhuspladsen 1E, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574747.71763414,
+        6223779.13000875
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574749.73059321,
+        6223792.50844439
+       ]
+      ]
+     }
+    },
+    {
+     "id": "5bae167c-19bb-4096-8c86-f728b39e38af",
+     "kommunenavn": "Skanderborg",
+     "kommunekode": "0746",
+     "vejkode": "0847",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "10",
+     "supplerendebynavn": null,
+     "postnummer": "8362",
+     "postnummernavn": "Hørning",
+     "visningstekst": "Rådhuspladsen 10, 8362 Hørning",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564508.5,
+        6216064.56
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564425.5488511,
+        6216086.70217341
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec07-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "11",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 11, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724384.54359081,
+        6175853.90661506
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724372.77,
+        6175836.28
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5084-62cc-32b8-e044-0003ba298018",
+     "kommunenavn": "Slagelse",
+     "kommunekode": "0330",
+     "vejkode": "1407",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "11",
+     "supplerendebynavn": null,
+     "postnummer": "4200",
+     "postnummernavn": "Slagelse",
+     "visningstekst": "Rådhuspladsen 11, 4200 Slagelse",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        649192.32415707,
+        6142404.00479407
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        649172.63,
+        6142430.04
+       ]
+      ]
+     }
+    },
+    {
+     "id": "89d147d1-b5d2-4e99-aa24-2ce3bfe75973",
+     "kommunenavn": "Skanderborg",
+     "kommunekode": "0746",
+     "vejkode": "0847",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "12",
+     "supplerendebynavn": null,
+     "postnummer": "8362",
+     "postnummernavn": "Hørning",
+     "visningstekst": "Rådhuspladsen 12, 8362 Hørning",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564508.5,
+        6216064.56
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564422.94201568,
+        6216078.62345585
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec08-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "14",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 14, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724277.09,
+        6175824.31
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724262.8,
+        6175814.36
+       ]
+      ]
+     }
+    },
+    {
+     "id": "efc92dc8-6362-4408-80b2-77b1b1c6db2c",
+     "kommunenavn": "Skanderborg",
+     "kommunekode": "0746",
+     "vejkode": "0847",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "14",
+     "supplerendebynavn": null,
+     "postnummer": "8362",
+     "postnummernavn": "Hørning",
+     "visningstekst": "Rådhuspladsen 14, 8362 Hørning",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564445.6,
+        6216083.26
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564423.72884746,
+        6216068.71213743
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec09-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "16",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 16, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724297.28319268,
+        6175794.56902024
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724283.29,
+        6175783.9
+       ]
+      ]
+     }
+    },
+    {
+     "id": "a0834db8-8abd-494d-a161-c1af22bad01b",
+     "kommunenavn": "Skanderborg",
+     "kommunekode": "0746",
+     "vejkode": "0847",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "16",
+     "supplerendebynavn": null,
+     "postnummer": "8362",
+     "postnummernavn": "Hørning",
+     "visningstekst": "Rådhuspladsen 16, 8362 Hørning",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564436.92,
+        6216054.41
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564414.62882926,
+        6216049.46209893
+       ]
+      ]
+     }
+    },
+    {
+     "id": "cd80a85b-747a-4e1c-8ad3-4a403b8b1687",
+     "kommunenavn": "Skanderborg",
+     "kommunekode": "0746",
+     "vejkode": "0847",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "18",
+     "supplerendebynavn": null,
+     "postnummer": "8362",
+     "postnummernavn": "Hørning",
+     "visningstekst": "Rådhuspladsen 18, 8362 Hørning",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564436.92,
+        6216054.41
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564413.92882786,
+        6216036.30207261
+       ]
+      ]
+     }
+    },
+    {
+     "id": "39ece5fb-ee06-0ee2-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "2",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 2, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724279.09,
+        6175844.16
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724305.26250273,
+        6175876.59758331
+       ]
+      ]
+     }
+    },
+    {
+     "id": "22eee5e2-5e7a-46c3-ae9c-36eb7b4863a7",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "2A",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 2A, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724343.76,
+        6175884.59
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724322.40957929,
+        6175887.76357818
+       ]
+      ]
+     }
+    },
+    {
+     "id": "71e42789-ef7c-459a-89ef-003f3432d352",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "2B",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 2B, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724279.09,
+        6175844.16
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724314.01371562,
+        6175882.54476386
+       ]
+      ]
+     }
+    },
+    {
+     "id": "9e721a19-a565-4483-9811-18338f744fee",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "2C",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 2C, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724272.37524034,
+        6175853.38263038
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724294.95832714,
+        6175870.15375758
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec03-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "3",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 3, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724328.3,
+        6175787.11
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724347.85,
+        6175804.93
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec04-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "4",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 4, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724358.32,
+        6175871.27
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724301.72,
+        6175875.01
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec05-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "5",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 5, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724317.73252701,
+        6175799.19293172
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724335.34,
+        6175813.12
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec06-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "7",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 7, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724365.55163782,
+        6175866.48527411
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724364.80870145,
+        6175834.61164385
+       ]
+      ]
+     }
+    },
+    {
+     "id": "5348675e-2ccb-434d-99ac-ad7abd7dee1b",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "9",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 9, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724389.5499971,
+        6175850.59038619
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724381.92,
+        6175839.26
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec0a-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "37",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 37, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724346.31122298,
+        6175882.46613924
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724354.72,
+        6175895.99
+       ]
+      ]
+     }
+    },
+    {
+     "id": "4ce967b5-e942-4770-a760-09f52c0c246b",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "43",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 43, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724380.95802001,
+        6175856.28168666
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724390.23,
+        6175870.55
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec0b-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "45",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 45, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724383.70834737,
+        6175854.45987786
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724393.19,
+        6175869.11
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec0c-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "47",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 47, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724394.08124773,
+        6175847.58889903
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724406.62,
+        6175861.36
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec0d-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "53",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 53, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724413.12,
+        6175846.07
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724429.68,
+        6175847.24
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec0e-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "55",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 55, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724432.87898808,
+        6175835.70117798
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724437,
+        6175843.5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec0f-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "55B",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 55B, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724413.12,
+        6175846.07
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724442.71,
+        6175840.83
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec10-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "57",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 57, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724462.14022384,
+        6175820.34591056
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724468.12,
+        6175828.87
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ec11-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "59",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 59, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724500.92957585,
+        6175799.99062285
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724507.36,
+        6175807.77
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5099-429f-32b8-e044-0003ba298018",
+     "kommunenavn": "Brønderslev",
+     "kommunekode": "0810",
+     "vejkode": "0533",
+     "vejnavn": "Gl Rådhusplads",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "9700",
+     "postnummernavn": "Brønderslev",
+     "visningstekst": "Gl Rådhusplads 1, 9700 Brønderslev",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        557136.42777264,
+        6347869.74396563
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        557118.50442494,
+        6347875.84343067
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 3300 Frederiksværk",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 2
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 4200 Slagelse",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 3
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 4300 Holbæk",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 4
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 5
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 8362 Hørning",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 6
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 9300 Sæby",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 7
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, Otterup, 5450 Otterup",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 8
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1B, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 9
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1C, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 10
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1D, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 11
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1E, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 12
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 10, 8362 Hørning",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 13
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 11, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 14
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 11, 4200 Slagelse",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 15
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 12, 8362 Hørning",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 16
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 14, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 17
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 14, 8362 Hørning",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 18
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 16, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 19
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 16, 8362 Hørning",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 20
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 18, 8362 Hørning",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 21
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 2, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 22
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 2A, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 23
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 2B, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 24
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 2C, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 25
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 3, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 26
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 4, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 27
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 5, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 28
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 7, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 29
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 9, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 30
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 37, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 31
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 43, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 32
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 45, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 33
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 47, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 34
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 53, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 35
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 55, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 36
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 55B, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 37
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 57, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 38
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 59, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 39
+  },
+  {
+   "key": "adr",
+   "text": "Gl Rådhusplads 1, 9700 Brønderslev",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 40
+  }
+ ]
+}

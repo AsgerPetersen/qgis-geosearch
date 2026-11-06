@@ -1,0 +1,2481 @@
+{
+ "case_id": "mat-3kg",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "mat: 3kg",
+ "term": "3kg",
+ "keys": [
+  "mat"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "mat",
+   "resource": "matrikel",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=3kg&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 86,
+   "row_count": 40,
+   "rows": [
+    {
+     "ejerlavsnavn": "Aaker",
+     "ejerlavskode": 1380151,
+     "kommunenavn": "Bornholms Kommune",
+     "kommunekode": "0400",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Aaker",
+     "jordstykke_id": 552414,
+     "bfenummer": 5152275,
+     "centroid_x": 877287.679,
+     "centroid_y": 6118638.547,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          877142.175,
+          6118685.901
+         ],
+         [
+          877131.013,
+          6118643.378
+         ],
+         [
+          877118.186,
+          6118558.873
+         ],
+         [
+          877212.587,
+          6118556.001
+         ],
+         [
+          877212.715,
+          6118559.846
+         ],
+         [
+          877314.985,
+          6118556.669
+         ],
+         [
+          877350.258,
+          6118560.454
+         ],
+         [
+          877385.784,
+          6118571.046
+         ],
+         [
+          877389.468,
+          6118578.031
+         ],
+         [
+          877400.867,
+          6118599.638
+         ],
+         [
+          877414.467,
+          6118625.417
+         ],
+         [
+          877429.457,
+          6118653.824
+         ],
+         [
+          877437.406,
+          6118665.682
+         ],
+         [
+          877459.072,
+          6118698.001
+         ],
+         [
+          877451.902,
+          6118702.618
+         ],
+         [
+          877449.666,
+          6118699.353
+         ],
+         [
+          877444.683,
+          6118702.419
+         ],
+         [
+          877435.463,
+          6118708.773
+         ],
+         [
+          877378.458,
+          6118746.696
+         ],
+         [
+          877357.172,
+          6118761.082
+         ],
+         [
+          877340.4,
+          6118772.113
+         ],
+         [
+          877323.661,
+          6118783.006
+         ],
+         [
+          877313.087,
+          6118789.899
+         ],
+         [
+          877313.684,
+          6118725.311
+         ],
+         [
+          877268.553,
+          6118726.437
+         ],
+         [
+          877268.666,
+          6118710.825
+         ],
+         [
+          877188.864,
+          6118710.947
+         ],
+         [
+          877188.858,
+          6118692.001
+         ],
+         [
+          877142.175,
+          6118685.901
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Struer",
+     "ejerlavskode": 2007451,
+     "kommunenavn": "Struer Kommune",
+     "kommunekode": "0671",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Struer",
+     "jordstykke_id": 830337,
+     "bfenummer": 5729374,
+     "centroid_x": 473326.295,
+     "centroid_y": 6259786.708,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          473338.582,
+          6259801.09
+         ],
+         [
+          473311.831,
+          6259797.561
+         ],
+         [
+          473314.961,
+          6259773.768
+         ],
+         [
+          473341.721,
+          6259777.298
+         ],
+         [
+          473338.582,
+          6259801.09
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Vangede",
+     "ejerlavskode": 12255,
+     "kommunenavn": "Gentofte Kommune",
+     "kommunekode": "0157",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Vangede",
+     "jordstykke_id": 344291,
+     "bfenummer": 1301565,
+     "centroid_x": 719923.738,
+     "centroid_y": 6183482.288,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          719929.274,
+          6183495.445
+         ],
+         [
+          719922.873,
+          6183496.919
+         ],
+         [
+          719917.4,
+          6183473.211
+         ],
+         [
+          719917.16,
+          6183472.196
+         ],
+         [
+          719923.737,
+          6183471.456
+         ],
+         [
+          719929.274,
+          6183495.445
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Buddinge",
+     "ejerlavskode": 10251,
+     "kommunenavn": "Gladsaxe Kommune",
+     "kommunekode": "0159",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Buddinge",
+     "jordstykke_id": 922675,
+     "bfenummer": 2010658,
+     "centroid_x": 720510.397,
+     "centroid_y": 6180647.645,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          720488.21,
+          6180645.774
+         ],
+         [
+          720490.272,
+          6180642.181
+         ],
+         [
+          720496.361,
+          6180631.566
+         ],
+         [
+          720532.977,
+          6180652.738
+         ],
+         [
+          720524.607,
+          6180667.21
+         ],
+         [
+          720488.21,
+          6180645.774
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Aars By, Aars",
+     "ejerlavskode": 650151,
+     "kommunenavn": "Vesthimmerlands Kommune",
+     "kommunekode": "0820",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Aars By, Aars",
+     "jordstykke_id": 2076858,
+     "bfenummer": 3359193,
+     "centroid_x": 531315.892,
+     "centroid_y": 6294998.495,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          531301.966,
+          6294985.213
+         ],
+         [
+          531327.519,
+          6294985.345
+         ],
+         [
+          531331.14,
+          6294988.797
+         ],
+         [
+          531331.449,
+          6294994.883
+         ],
+         [
+          531332.457,
+          6295005.401
+         ],
+         [
+          531333.421,
+          6295013.68
+         ],
+         [
+          531332.9,
+          6295013.729
+         ],
+         [
+          531313.887,
+          6295015.478
+         ],
+         [
+          531301.704,
+          6295015.714
+         ],
+         [
+          531301.966,
+          6294985.213
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Hårup By, Linå",
+     "ejerlavskode": 1060652,
+     "kommunenavn": "Silkeborg Kommune",
+     "kommunekode": "0740",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Hårup By, Linå",
+     "jordstykke_id": 1922390,
+     "bfenummer": 4279463,
+     "centroid_x": 538715.327,
+     "centroid_y": 6225698.445,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          538691.745,
+          6225702.789
+         ],
+         [
+          538696.215,
+          6225692.754
+         ],
+         [
+          538701.741,
+          6225680.381
+         ],
+         [
+          538736.968,
+          6225696.116
+         ],
+         [
+          538738.961,
+          6225701.478
+         ],
+         [
+          538730.532,
+          6225720.045
+         ],
+         [
+          538691.745,
+          6225702.789
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Farsø By, Farsø",
+     "ejerlavskode": 670354,
+     "kommunenavn": "Vesthimmerlands Kommune",
+     "kommunekode": "0820",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Farsø By, Farsø",
+     "jordstykke_id": 1065569,
+     "bfenummer": 3379506,
+     "centroid_x": 521216.968,
+     "centroid_y": 6292688.407,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          521200.718,
+          6292703.014
+         ],
+         [
+          521200.353,
+          6292674.999
+         ],
+         [
+          521230.362,
+          6292675.922
+         ],
+         [
+          521230.718,
+          6292703.948
+         ],
+         [
+          521200.718,
+          6292703.014
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Holte By, Nærum",
+     "ejerlavskode": 13352,
+     "kommunenavn": "Rudersdal Kommune",
+     "kommunekode": "0230",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Holte By, Nærum",
+     "jordstykke_id": 1392450,
+     "bfenummer": 2100834,
+     "centroid_x": 720231.215,
+     "centroid_y": 6192149.46,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          720242.158,
+          6192157.871
+         ],
+         [
+          720239.146,
+          6192157.825
+         ],
+         [
+          720221.689,
+          6192157.553
+         ],
+         [
+          720221.9,
+          6192144.712
+         ],
+         [
+          720225.717,
+          6192144.771
+         ],
+         [
+          720242.386,
+          6192145.027
+         ],
+         [
+          720242.158,
+          6192157.871
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Kærsgård, Balle",
+     "ejerlavskode": 810153,
+     "kommunenavn": "Silkeborg Kommune",
+     "kommunekode": "0740",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Kærsgård, Balle",
+     "jordstykke_id": 1915126,
+     "bfenummer": 4036540,
+     "centroid_x": 531850.492,
+     "centroid_y": 6225669.808,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          531846.645,
+          6225659.903
+         ],
+         [
+          531858.738,
+          6225663.031
+         ],
+         [
+          531853.916,
+          6225681.63
+         ],
+         [
+          531841.811,
+          6225678.532
+         ],
+         [
+          531846.645,
+          6225659.903
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Langø, Idestrup",
+     "ejerlavskode": 520657,
+     "kommunenavn": "Guldborgsund Kommune",
+     "kommunekode": "0376",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Langø, Idestrup",
+     "jordstykke_id": 2231474,
+     "bfenummer": 3131517,
+     "centroid_x": 691748.052,
+     "centroid_y": 6065930.53,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          691771.924,
+          6065940.96
+         ],
+         [
+          691754.594,
+          6065956.759
+         ],
+         [
+          691749.664,
+          6065956.359
+         ],
+         [
+          691744.317,
+          6065949.765
+         ],
+         [
+          691732.296,
+          6065935.912
+         ],
+         [
+          691721.769,
+          6065924.225
+         ],
+         [
+          691740.974,
+          6065906.746
+         ],
+         [
+          691771.924,
+          6065940.96
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Måløv By, Måløv",
+     "ejerlavskode": 21151,
+     "kommunenavn": "Ballerup Kommune",
+     "kommunekode": "0151",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Måløv By, Måløv",
+     "jordstykke_id": 1537913,
+     "bfenummer": 2140504,
+     "centroid_x": 708821.46,
+     "centroid_y": 6183451.932,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          708813.01,
+          6183451.933
+         ],
+         [
+          708812.218,
+          6183449.509
+         ],
+         [
+          708830.027,
+          6183444.553
+         ],
+         [
+          708832.923,
+          6183454.797
+         ],
+         [
+          708813.203,
+          6183460.225
+         ],
+         [
+          708811.49,
+          6183453.905
+         ],
+         [
+          708811.497,
+          6183453.179
+         ],
+         [
+          708811.843,
+          6183452.541
+         ],
+         [
+          708812.446,
+          6183452.14
+         ],
+         [
+          708813.01,
+          6183451.933
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Vorup By, Vorup",
+     "ejerlavskode": 911051,
+     "kommunenavn": "Randers Kommune",
+     "kommunekode": "0730",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Vorup By, Vorup",
+     "jordstykke_id": 2036808,
+     "bfenummer": 4100119,
+     "centroid_x": 563976.107,
+     "centroid_y": 6255339.366,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          563983.344,
+          6255361.153
+         ],
+         [
+          563964.519,
+          6255357.595
+         ],
+         [
+          563965.218,
+          6255338.283
+         ],
+         [
+          563965.747,
+          6255322.487
+         ],
+         [
+          563970.119,
+          6255322.925
+         ],
+         [
+          563974.467,
+          6255323.555
+         ],
+         [
+          563978.783,
+          6255324.375
+         ],
+         [
+          563990.542,
+          6255326.842
+         ],
+         [
+          563983.344,
+          6255361.153
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Mosede By, Greve",
+     "ejerlavskode": 40153,
+     "kommunenavn": "Greve Kommune",
+     "kommunekode": "0253",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Mosede By, Greve",
+     "jordstykke_id": 1323842,
+     "bfenummer": 2186621,
+     "centroid_x": 706432.493,
+     "centroid_y": 6164074.399,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          706410.04,
+          6164071.465
+         ],
+         [
+          706435.045,
+          6164053.48
+         ],
+         [
+          706451.786,
+          6164076.768
+         ],
+         [
+          706430.386,
+          6164092.745
+         ],
+         [
+          706446.938,
+          6164115.647
+         ],
+         [
+          706443.496,
+          6164118.101
+         ],
+         [
+          706426.661,
+          6164094.642
+         ],
+         [
+          706410.04,
+          6164071.465
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Yderby By, Odden",
+     "ejerlavskode": 160852,
+     "kommunenavn": "Odsherred Kommune",
+     "kommunekode": "0306",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Yderby By, Odden",
+     "jordstykke_id": 1658467,
+     "bfenummer": 2439228,
+     "centroid_x": 642826.898,
+     "centroid_y": 6208083.026,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          642858.17,
+          6208082.03
+         ],
+         [
+          642841.191,
+          6208111.033
+         ],
+         [
+          642798.942,
+          6208090.464
+         ],
+         [
+          642814.57,
+          6208056.774
+         ],
+         [
+          642856.722,
+          6208077.246
+         ],
+         [
+          642858.17,
+          6208082.03
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Paarup By, Paarup",
+     "ejerlavskode": 330854,
+     "kommunenavn": "Odense Kommune",
+     "kommunekode": "0461",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Paarup By, Paarup",
+     "jordstykke_id": 523081,
+     "bfenummer": 2617463,
+     "centroid_x": 583746.88,
+     "centroid_y": 6141942.635,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          583724.701,
+          6141935.69
+         ],
+         [
+          583732.003,
+          6141927.351
+         ],
+         [
+          583768.315,
+          6141950.265
+         ],
+         [
+          583762.412,
+          6141959.55
+         ],
+         [
+          583724.701,
+          6141935.69
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Sindal By, Sindal",
+     "ejerlavskode": 541255,
+     "kommunenavn": "Hjørring Kommune",
+     "kommunekode": "0860",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Sindal By, Sindal",
+     "jordstykke_id": 1459531,
+     "bfenummer": 3169223,
+     "centroid_x": 571569.151,
+     "centroid_y": 6371087,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          571583.429,
+          6371071.43
+         ],
+         [
+          571577.476,
+          6371105.894
+         ],
+         [
+          571555.806,
+          6371102.137
+         ],
+         [
+          571561.76,
+          6371067.673
+         ],
+         [
+          571583.429,
+          6371071.43
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Bringe By, Værløse",
+     "ejerlavskode": 20951,
+     "kommunenavn": "Furesø Kommune",
+     "kommunekode": "0190",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Bringe By, Værløse",
+     "jordstykke_id": 853510,
+     "bfenummer": 2132813,
+     "centroid_x": 708888.402,
+     "centroid_y": 6184412.579,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          708884.286,
+          6184423.418
+         ],
+         [
+          708884.447,
+          6184401.402
+         ],
+         [
+          708892.522,
+          6184401.522
+         ],
+         [
+          708891.973,
+          6184428.625
+         ],
+         [
+          708888.259,
+          6184428.568
+         ],
+         [
+          708888.124,
+          6184423.455
+         ],
+         [
+          708884.286,
+          6184423.418
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Dagnæs By, Tyrsted",
+     "ejerlavskode": 1111151,
+     "kommunenavn": "Horsens Kommune",
+     "kommunekode": "0615",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Dagnæs By, Tyrsted",
+     "jordstykke_id": 1109120,
+     "bfenummer": 4337125,
+     "centroid_x": 553417.451,
+     "centroid_y": 6188581.4,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          553408.393,
+          6188591.22
+         ],
+         [
+          553407.972,
+          6188590.58
+         ],
+         [
+          553407.552,
+          6188589.939
+         ],
+         [
+          553407.134,
+          6188589.297
+         ],
+         [
+          553406.717,
+          6188588.654
+         ],
+         [
+          553406.301,
+          6188588.011
+         ],
+         [
+          553405.886,
+          6188587.366
+         ],
+         [
+          553405.473,
+          6188586.721
+         ],
+         [
+          553405.061,
+          6188586.075
+         ],
+         [
+          553404.65,
+          6188585.428
+         ],
+         [
+          553404.241,
+          6188584.78
+         ],
+         [
+          553403.833,
+          6188584.132
+         ],
+         [
+          553403.426,
+          6188583.483
+         ],
+         [
+          553403.02,
+          6188582.833
+         ],
+         [
+          553402.616,
+          6188582.182
+         ],
+         [
+          553402.213,
+          6188581.53
+         ],
+         [
+          553401.811,
+          6188580.878
+         ],
+         [
+          553401.411,
+          6188580.225
+         ],
+         [
+          553401.011,
+          6188579.57
+         ],
+         [
+          553400.614,
+          6188578.916
+         ],
+         [
+          553400.217,
+          6188578.26
+         ],
+         [
+          553399.822,
+          6188577.604
+         ],
+         [
+          553399.428,
+          6188576.947
+         ],
+         [
+          553399.035,
+          6188576.289
+         ],
+         [
+          553398.644,
+          6188575.63
+         ],
+         [
+          553398.254,
+          6188574.97
+         ],
+         [
+          553397.865,
+          6188574.31
+         ],
+         [
+          553397.477,
+          6188573.649
+         ],
+         [
+          553397.091,
+          6188572.987
+         ],
+         [
+          553396.706,
+          6188572.325
+         ],
+         [
+          553396.323,
+          6188571.661
+         ],
+         [
+          553395.941,
+          6188570.997
+         ],
+         [
+          553395.56,
+          6188570.333
+         ],
+         [
+          553395.18,
+          6188569.667
+         ],
+         [
+          553424.101,
+          6188571.41
+         ],
+         [
+          553438.96,
+          6188572.361
+         ],
+         [
+          553438.073,
+          6188586.331
+         ],
+         [
+          553415.74,
+          6188601.975
+         ],
+         [
+          553415.298,
+          6188601.349
+         ],
+         [
+          553414.857,
+          6188600.723
+         ],
+         [
+          553414.417,
+          6188600.095
+         ],
+         [
+          553413.979,
+          6188599.467
+         ],
+         [
+          553413.542,
+          6188598.837
+         ],
+         [
+          553413.106,
+          6188598.207
+         ],
+         [
+          553412.671,
+          6188597.576
+         ],
+         [
+          553412.237,
+          6188596.945
+         ],
+         [
+          553411.805,
+          6188596.312
+         ],
+         [
+          553411.374,
+          6188595.678
+         ],
+         [
+          553410.945,
+          6188595.044
+         ],
+         [
+          553410.516,
+          6188594.409
+         ],
+         [
+          553410.089,
+          6188593.773
+         ],
+         [
+          553409.663,
+          6188593.136
+         ],
+         [
+          553409.238,
+          6188592.498
+         ],
+         [
+          553408.815,
+          6188591.86
+         ],
+         [
+          553408.393,
+          6188591.22
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Lyngsbæk By, Dråby",
+     "ejerlavskode": 960256,
+     "kommunenavn": "Syddjurs Kommune",
+     "kommunekode": "0706",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Lyngsbæk By, Dråby",
+     "jordstykke_id": 1814245,
+     "bfenummer": 4162865,
+     "centroid_x": 600690.752,
+     "centroid_y": 6233372.316,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          600704.88,
+          6233400.002
+         ],
+         [
+          600678.494,
+          6233398.049
+         ],
+         [
+          600675.116,
+          6233362.108
+         ],
+         [
+          600676.239,
+          6233349.268
+         ],
+         [
+          600681.181,
+          6233350.545
+         ],
+         [
+          600695.21,
+          6233351.415
+         ],
+         [
+          600709.216,
+          6233350.245
+         ],
+         [
+          600704.88,
+          6233400.002
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Sdr. Lund, Vinding",
+     "ejerlavskode": 1231262,
+     "kommunenavn": "Herning Kommune",
+     "kommunekode": "0657",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Sdr. Lund, Vinding",
+     "jordstykke_id": 2573535,
+     "bfenummer": 8795309,
+     "centroid_x": 478326.539,
+     "centroid_y": 6235664.536,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          478303.834,
+          6235654.418
+         ],
+         [
+          478336.506,
+          6235641.109
+         ],
+         [
+          478352.407,
+          6235680.111
+         ],
+         [
+          478316.449,
+          6235694.765
+         ],
+         [
+          478301.892,
+          6235659.029
+         ],
+         [
+          478303.834,
+          6235654.418
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Velling By, Bryrup",
+     "ejerlavskode": 1050153,
+     "kommunenavn": "Silkeborg Kommune",
+     "kommunekode": "0740",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Velling By, Bryrup",
+     "jordstykke_id": 607064,
+     "bfenummer": 4265585,
+     "centroid_x": 532220.846,
+     "centroid_y": 6208713.198,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          532226.943,
+          6208662.227
+         ],
+         [
+          532247.826,
+          6208710.338
+         ],
+         [
+          532247.343,
+          6208710.466
+         ],
+         [
+          532263.848,
+          6208745.755
+         ],
+         [
+          532216.793,
+          6208759.89
+         ],
+         [
+          532185.775,
+          6208692.008
+         ],
+         [
+          532184.831,
+          6208689.943
+         ],
+         [
+          532222.023,
+          6208665.743
+         ],
+         [
+          532224.199,
+          6208663.405
+         ],
+         [
+          532226.943,
+          6208662.227
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Bistrup By, Bistrup",
+     "ejerlavskode": 130651,
+     "kommunenavn": "Rudersdal Kommune",
+     "kommunekode": "0230",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Bistrup By, Bistrup",
+     "jordstykke_id": 958444,
+     "bfenummer": 2378360,
+     "centroid_x": 715320.808,
+     "centroid_y": 6192057.751,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          715331.212,
+          6192037.718
+         ],
+         [
+          715329.978,
+          6192080.653
+         ],
+         [
+          715311.45,
+          6192080.386
+         ],
+         [
+          715309.984,
+          6192080.364
+         ],
+         [
+          715311.213,
+          6192037.273
+         ],
+         [
+          715331.212,
+          6192037.718
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Bøtø By, Væggerløse",
+     "ejerlavskode": 521252,
+     "kommunenavn": "Guldborgsund Kommune",
+     "kommunekode": "0376",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Bøtø By, Væggerløse",
+     "jordstykke_id": 2235237,
+     "bfenummer": 3134167,
+     "centroid_x": 690565.056,
+     "centroid_y": 6063417.469,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          690579.444,
+          6063395.633
+         ],
+         [
+          690585.904,
+          6063430.849
+         ],
+         [
+          690553.928,
+          6063439.265
+         ],
+         [
+          690547.751,
+          6063404.872
+         ],
+         [
+          690579.444,
+          6063395.633
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Gistrup By, Nøvling",
+     "ejerlavskode": 620951,
+     "kommunenavn": "Aalborg Kommune",
+     "kommunekode": "0851",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Gistrup By, Nøvling",
+     "jordstykke_id": 1711403,
+     "bfenummer": 3323548,
+     "centroid_x": 560198.779,
+     "centroid_y": 6316856.555,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          560182.966,
+          6316838.77
+         ],
+         [
+          560186.443,
+          6316837.815
+         ],
+         [
+          560202.408,
+          6316833.428
+         ],
+         [
+          560213.892,
+          6316875.199
+         ],
+         [
+          560194.422,
+          6316880.61
+         ],
+         [
+          560182.966,
+          6316838.77
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Ullerød By, Karlebo",
+     "ejerlavskode": 130465,
+     "kommunenavn": "Fredensborg Kommune",
+     "kommunekode": "0210",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Ullerød By, Karlebo",
+     "jordstykke_id": 771786,
+     "bfenummer": 9156982,
+     "centroid_x": 719022.14,
+     "centroid_y": 6201805.602,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          719011.199,
+          6201800.227
+         ],
+         [
+          719034.028,
+          6201802.503
+         ],
+         [
+          719033.213,
+          6201810.492
+         ],
+         [
+          719032.996,
+          6201812.618
+         ],
+         [
+          719010.151,
+          6201810.338
+         ],
+         [
+          719011.199,
+          6201800.227
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Ullerød By, Ullerød",
+     "ejerlavskode": 101452,
+     "kommunenavn": "Hillerød Kommune",
+     "kommunekode": "0219",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Ullerød By, Ullerød",
+     "jordstykke_id": 906743,
+     "bfenummer": 2301893,
+     "centroid_x": 703393.374,
+     "centroid_y": 6203819.41,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          703408.704,
+          6203822.442
+         ],
+         [
+          703384.084,
+          6203822.386
+         ],
+         [
+          703384.097,
+          6203816.686
+         ],
+         [
+          703408.717,
+          6203816.742
+         ],
+         [
+          703408.704,
+          6203822.442
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Vejlby By, Ellevang",
+     "ejerlavskode": 1021151,
+     "kommunenavn": "Aarhus Kommune",
+     "kommunekode": "0751",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Vejlby By, Ellevang",
+     "jordstykke_id": 323463,
+     "bfenummer": 4229245,
+     "centroid_x": 575847.416,
+     "centroid_y": 6229095.996,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          575858.716,
+          6229115.754
+         ],
+         [
+          575836.027,
+          6229086.365
+         ],
+         [
+          575839.794,
+          6229083.354
+         ],
+         [
+          575863.052,
+          6229112.343
+         ],
+         [
+          575858.716,
+          6229115.754
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Virum By, Lundtofte",
+     "ejerlavskode": 11953,
+     "kommunenavn": "Lyngby-Taarbæk Kommune",
+     "kommunekode": "0173",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Virum By, Lundtofte",
+     "jordstykke_id": 2462744,
+     "bfenummer": 2062914,
+     "centroid_x": 718505.104,
+     "centroid_y": 6188822.889,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          718494.03,
+          6188814.149
+         ],
+         [
+          718521.17,
+          6188825.729
+         ],
+         [
+          718517.709,
+          6188834.028
+         ],
+         [
+          718490.544,
+          6188822.32
+         ],
+         [
+          718494.03,
+          6188814.149
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Øverød By, Søllerød",
+     "ejerlavskode": 11453,
+     "kommunenavn": "Rudersdal Kommune",
+     "kommunekode": "0230",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Øverød By, Søllerød",
+     "jordstykke_id": 1385274,
+     "bfenummer": 2045507,
+     "centroid_x": 717930.036,
+     "centroid_y": 6191893.951,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          717911.421,
+          6191907.269
+         ],
+         [
+          717918.91,
+          6191883.719
+         ],
+         [
+          717922.633,
+          6191884.955
+         ],
+         [
+          717929.298,
+          6191881.615
+         ],
+         [
+          717952.722,
+          6191889.361
+         ],
+         [
+          717943.749,
+          6191917.669
+         ],
+         [
+          717915.534,
+          6191908.59
+         ],
+         [
+          717911.421,
+          6191907.269
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Obling By, Sdr. Bork",
+     "ejerlavskode": 1200954,
+     "kommunenavn": "Ringkøbing-Skjern Kommune",
+     "kommunekode": "0760",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Obling By, Sdr. Bork",
+     "jordstykke_id": 2311300,
+     "bfenummer": 4475365,
+     "centroid_x": 454181.798,
+     "centroid_y": 6187773.03,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          454173.719,
+          6187775.427
+         ],
+         [
+          454171.042,
+          6187770.063
+         ],
+         [
+          454179.986,
+          6187765.603
+         ],
+         [
+          454184.45,
+          6187763.364
+         ],
+         [
+          454190.252,
+          6187774.99
+         ],
+         [
+          454191.147,
+          6187776.783
+         ],
+         [
+          454177.73,
+          6187783.48
+         ],
+         [
+          454173.719,
+          6187775.427
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Ordrup By, Fårevejle",
+     "ejerlavskode": 160454,
+     "kommunenavn": "Odsherred Kommune",
+     "kommunekode": "0306",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Ordrup By, Fårevejle",
+     "jordstykke_id": 2563901,
+     "bfenummer": 8608352,
+     "centroid_x": 650603.307,
+     "centroid_y": 6189030.254,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          650604.402,
+          6189006.79
+         ],
+         [
+          650609.355,
+          6189007.483
+         ],
+         [
+          650620.869,
+          6189031.884
+         ],
+         [
+          650597.781,
+          6189058.63
+         ],
+         [
+          650575.832,
+          6189039.687
+         ],
+         [
+          650594.733,
+          6189017.78
+         ],
+         [
+          650604.402,
+          6189006.79
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Plougslund By, Grene",
+     "ejerlavskode": 1360156,
+     "kommunenavn": "Billund Kommune",
+     "kommunekode": "0530",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Plougslund By, Grene",
+     "jordstykke_id": 420357,
+     "bfenummer": 7565372,
+     "centroid_x": 507072.062,
+     "centroid_y": 6174483.536,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          507056.451,
+          6174503.695
+         ],
+         [
+          507055.38,
+          6174469.225
+         ],
+         [
+          507085.354,
+          6174468.294
+         ],
+         [
+          507090.351,
+          6174468.136
+         ],
+         [
+          507091.419,
+          6174502.608
+         ],
+         [
+          507056.451,
+          6174503.695
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Skiften Ejerlav, Hou",
+     "ejerlavskode": 450254,
+     "kommunenavn": "Langeland Kommune",
+     "kommunekode": "0482",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Skiften Ejerlav, Hou",
+     "jordstykke_id": 1405,
+     "bfenummer": 9474327,
+     "centroid_x": 621479.492,
+     "centroid_y": 6111315.773,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          621489.666,
+          6111324.538
+         ],
+         [
+          621483.215,
+          6111333.953
+         ],
+         [
+          621464.134,
+          6111321.597
+         ],
+         [
+          621471.612,
+          6111310.121
+         ],
+         [
+          621506.677,
+          6111302.379
+         ],
+         [
+          621489.782,
+          6111324.37
+         ],
+         [
+          621489.666,
+          6111324.538
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Usserød By, Hørsholm",
+     "ejerlavskode": 130353,
+     "kommunenavn": "Hørsholm Kommune",
+     "kommunekode": "0223",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Usserød By, Hørsholm",
+     "jordstykke_id": 989040,
+     "bfenummer": 2368088,
+     "centroid_x": 718508.545,
+     "centroid_y": 6198582.923,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          718499.84,
+          6198575.761
+         ],
+         [
+          718520.354,
+          6198577.608
+         ],
+         [
+          718519.138,
+          6198591.883
+         ],
+         [
+          718498.596,
+          6198590.037
+         ],
+         [
+          718499.84,
+          6198575.761
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Østerris By, Højslev",
+     "ejerlavskode": 820864,
+     "kommunenavn": "Skive Kommune",
+     "kommunekode": "0779",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Østerris By, Højslev",
+     "jordstykke_id": 527072,
+     "bfenummer": 4050209,
+     "centroid_x": 507267.57,
+     "centroid_y": 6267124.372,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          507236.174,
+          6267132.125
+         ],
+         [
+          507268.62,
+          6267118.038
+         ],
+         [
+          507290.754,
+          6267105.695
+         ],
+         [
+          507294.512,
+          6267125.972
+         ],
+         [
+          507271.411,
+          6267136.915
+         ],
+         [
+          507244.377,
+          6267149.535
+         ],
+         [
+          507236.174,
+          6267132.125
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Bratskov Hgd., Brovst",
+     "ejerlavskode": 580351,
+     "kommunenavn": "Jammerbugt Kommune",
+     "kommunekode": "0849",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Bratskov Hgd., Brovst",
+     "jordstykke_id": 1781667,
+     "bfenummer": 3242479,
+     "centroid_x": 531541.461,
+     "centroid_y": 6328252.397,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          531552.925,
+          6328244
+         ],
+         [
+          531556.144,
+          6328245.19
+         ],
+         [
+          531546.656,
+          6328268.243
+         ],
+         [
+          531537.725,
+          6328265.881
+         ],
+         [
+          531527.084,
+          6328263.07
+         ],
+         [
+          531535.346,
+          6328237.14
+         ],
+         [
+          531552.925,
+          6328244
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Fovrfeld By, Guldager",
+     "ejerlavskode": 1350652,
+     "kommunenavn": "Esbjerg Kommune",
+     "kommunekode": "0561",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Fovrfeld By, Guldager",
+     "jordstykke_id": 465333,
+     "bfenummer": 5115273,
+     "centroid_x": 463661.366,
+     "centroid_y": 6149743.4,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          463654.468,
+          6149724.831
+         ],
+         [
+          463665.245,
+          6149721.867
+         ],
+         [
+          463668.58,
+          6149760.706
+         ],
+         [
+          463657.823,
+          6149763.7
+         ],
+         [
+          463654.468,
+          6149724.831
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Gug By, Sdr. Tranders",
+     "ejerlavskode": 621351,
+     "kommunenavn": "Aalborg Kommune",
+     "kommunekode": "0851",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Gug By, Sdr. Tranders",
+     "jordstykke_id": 1715563,
+     "bfenummer": 3328520,
+     "centroid_x": 557690.248,
+     "centroid_y": 6319184.197,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          557670.421,
+          6319197.898
+         ],
+         [
+          557687.676,
+          6319162.248
+         ],
+         [
+          557709.239,
+          6319172.447
+         ],
+         [
+          557692.122,
+          6319208.239
+         ],
+         [
+          557670.421,
+          6319197.898
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Hallundbæk By, Blåhøj",
+     "ejerlavskode": 1120151,
+     "kommunenavn": "Ikast-Brande Kommune",
+     "kommunekode": "0756",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Hallundbæk By, Blåhøj",
+     "jordstykke_id": 228823,
+     "bfenummer": 4343045,
+     "centroid_x": 501680.87,
+     "centroid_y": 6191799.543,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          501703.179,
+          6191805.477
+         ],
+         [
+          501684.49,
+          6191822.005
+         ],
+         [
+          501659.962,
+          6191794.292
+         ],
+         [
+          501678.7,
+          6191777.789
+         ],
+         [
+          501703.179,
+          6191805.477
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Jerne, Esbjerg Jorder",
+     "ejerlavskode": 2007558,
+     "kommunenavn": "Esbjerg Kommune",
+     "kommunekode": "0561",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Jerne, Esbjerg Jorder",
+     "jordstykke_id": 481780,
+     "bfenummer": 5743795,
+     "centroid_x": 467394.551,
+     "centroid_y": 6148676.868,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          467373.312,
+          6148776.389
+         ],
+         [
+          467372.661,
+          6148742.549
+         ],
+         [
+          467369.928,
+          6148591.427
+         ],
+         [
+          467420.889,
+          6148590.479
+         ],
+         [
+          467423.31,
+          6148710.285
+         ],
+         [
+          467424.759,
+          6148710.267
+         ],
+         [
+          467426.134,
+          6148792.837
+         ],
+         [
+          467373.312,
+          6148776.389
+         ]
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "mat",
+   "text": "3kg, Aaker",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 1
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Struer",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 2
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Vangede",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 3
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Buddinge",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 4
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Aars By, Aars",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 5
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Hårup By, Linå",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 6
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Farsø By, Farsø",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 7
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Holte By, Nærum",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 8
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Kærsgård, Balle",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 9
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Langø, Idestrup",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 10
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Måløv By, Måløv",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 11
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Vorup By, Vorup",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 12
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Mosede By, Greve",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 13
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Yderby By, Odden",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 14
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Paarup By, Paarup",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 15
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Sindal By, Sindal",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 16
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Bringe By, Værløse",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 17
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Dagnæs By, Tyrsted",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 18
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Lyngsbæk By, Dråby",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 19
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Sdr. Lund, Vinding",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 20
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Velling By, Bryrup",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 21
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Bistrup By, Bistrup",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 22
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Bøtø By, Væggerløse",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 23
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Gistrup By, Nøvling",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 24
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Ullerød By, Karlebo",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 25
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Ullerød By, Ullerød",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 26
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Vejlby By, Ellevang",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 27
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Virum By, Lundtofte",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 28
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Øverød By, Søllerød",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 29
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Obling By, Sdr. Bork",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 30
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Ordrup By, Fårevejle",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 31
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Plougslund By, Grene",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 32
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Skiften Ejerlav, Hou",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 33
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Usserød By, Hørsholm",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 34
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Østerris By, Højslev",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 35
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Bratskov Hgd., Brovst",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 36
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Fovrfeld By, Guldager",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 37
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Gug By, Sdr. Tranders",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 38
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Hallundbæk By, Blåhøj",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 39
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Jerne, Esbjerg Jorder",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 40
+  }
+ ]
+}

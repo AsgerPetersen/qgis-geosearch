@@ -1,0 +1,137 @@
+{
+ "case_id": "pol-koebenhavn",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "københavn",
+ "term": "københavn",
+ "keys": [
+  "pol"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "pol",
+   "resource": "politikreds",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=k%C3%B8benhavn&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 63,
+   "row_count": 2,
+   "rows": [
+    {
+     "politikredsnummer": 11,
+     "navn": "Københavns Politi",
+     "visningstekst": "Københavns Politikreds",
+     "myndighedskode": "1470",
+     "kommunekode": "0155,0163,0167,0175,0101,0185,0159,0147,0157",
+     "geometri": {
+      "type": "MultiPolygon",
+      "summarized": true,
+      "vertex_count": 674,
+      "bbox": [
+       716908.1,
+       6162389.65,
+       738913.55,
+       6182071.12
+      ],
+      "part_count": 9,
+      "area_m2": 184623054
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         716908.1,
+         6162389.65
+        ],
+        [
+         716908.1,
+         6182071.12
+        ],
+        [
+         738913.55,
+         6182071.12
+        ],
+        [
+         738913.55,
+         6162389.65
+        ],
+        [
+         716908.1,
+         6162389.65
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "politikredsnummer": 10,
+     "navn": "Københavns Vestegns Politi",
+     "visningstekst": "Københavns Vestegns Politikreds",
+     "myndighedskode": "1469",
+     "kommunekode": "0265,0240,0169,0253,0183,0187,0165,0190,0151,0163,0153,0161,0167,0175,0159,0173,0157,0101",
+     "geometri": {
+      "type": "MultiPolygon",
+      "summarized": true,
+      "vertex_count": 261,
+      "bbox": [
+       698117.92,
+       6166025.84,
+       721117.12,
+       6186583.54
+      ],
+      "part_count": 1,
+      "area_m2": 277594214
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         698117.92,
+         6166025.84
+        ],
+        [
+         698117.92,
+         6186583.54
+        ],
+        [
+         721117.12,
+         6186583.54
+        ],
+        [
+         721117.12,
+         6166025.84
+        ],
+        [
+         698117.92,
+         6166025.84
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "pol",
+   "text": "Københavns Politikreds",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 1
+  },
+  {
+   "key": "pol",
+   "text": "Københavns Vestegns Politikreds",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 2
+  }
+ ]
+}

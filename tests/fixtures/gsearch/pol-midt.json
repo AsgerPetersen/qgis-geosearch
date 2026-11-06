@@ -1,0 +1,137 @@
+{
+ "case_id": "pol-midt",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "pol: midt",
+ "term": "midt",
+ "keys": [
+  "pol"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "pol",
+   "resource": "politikreds",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=midt&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 74,
+   "row_count": 2,
+   "rows": [
+    {
+     "politikredsnummer": 3,
+     "navn": "Midt- og Vestjyllands Politi",
+     "visningstekst": "Midt- og Vestjyllands Politikreds",
+     "myndighedskode": "1462",
+     "kommunekode": "0630,0740,0766,0846,0746,0820,0849,0730,0710,0615,0773,0671,0791,0756,0530,0779,0657,0787,0665,0573,0760,0661",
+     "geometri": {
+      "type": "MultiPolygon",
+      "summarized": true,
+      "vertex_count": 4418,
+      "bbox": [
+       443787.9,
+       6180970.66,
+       553380.35,
+       6335063.23
+      ],
+      "part_count": 21,
+      "area_m2": 9551058333
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         443787.9,
+         6180970.66
+        ],
+        [
+         443787.9,
+         6335063.23
+        ],
+        [
+         553380.35,
+         6335063.23
+        ],
+        [
+         553380.35,
+         6180970.66
+        ],
+        [
+         443787.9,
+         6180970.66
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "politikredsnummer": 8,
+     "navn": "Midt- og Vestsjællands Politi",
+     "visningstekst": "Midt- og Vestsjællands Politikreds",
+     "myndighedskode": "1467",
+     "kommunekode": "0326,0330,0340,0306,0316,0350,0329,0336,0183,0253,0169,0240,0265,0250,0320,0259,0269,0370",
+     "geometri": {
+      "type": "MultiPolygon",
+      "summarized": true,
+      "vertex_count": 2251,
+      "bbox": [
+       617309.27,
+       6126139.02,
+       719364.69,
+       6209602.82
+      ],
+      "part_count": 9,
+      "area_m2": 2898840683
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         617309.27,
+         6126139.02
+        ],
+        [
+         617309.27,
+         6209602.82
+        ],
+        [
+         719364.69,
+         6209602.82
+        ],
+        [
+         719364.69,
+         6126139.02
+        ],
+        [
+         617309.27,
+         6126139.02
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "pol",
+   "text": "Midt- og Vestjyllands Politikreds",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 1
+  },
+  {
+   "key": "pol",
+   "text": "Midt- og Vestsjællands Politikreds",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 2
+  }
+ ]
+}

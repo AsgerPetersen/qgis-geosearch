@@ -1,0 +1,66 @@
+{
+ "case_id": "adr-skodsborgvej-414",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "skodsborgvej 414",
+ "term": "skodsborgvej 414",
+ "keys": [
+  "adr"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=skodsborgvej%20414&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 76,
+   "row_count": 1,
+   "rows": [
+    {
+     "id": "0a3f507d-be63-32b8-e044-0003ba298018",
+     "kommunenavn": "Rudersdal",
+     "kommunekode": "0230",
+     "vejkode": "0540",
+     "vejnavn": "Skodsborgvej",
+     "husnummertekst": "414",
+     "supplerendebynavn": null,
+     "postnummer": "2942",
+     "postnummernavn": "Skodsborg",
+     "visningstekst": "Skodsborgvej 414, 2942 Skodsborg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723863.55378002,
+        6191920.66324082
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723865.11,
+        6191902.87
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Skodsborgvej 414, 2942 Skodsborg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  }
+ ]
+}

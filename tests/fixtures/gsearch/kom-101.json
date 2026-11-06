@@ -1,0 +1,81 @@
+{
+ "case_id": "kom-101",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "kom: 101",
+ "term": "101",
+ "keys": [
+  "kom"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "kom",
+   "resource": "kommune",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=101&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 63,
+   "row_count": 1,
+   "rows": [
+    {
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "visningstekst": "Københavns Kommune",
+     "geometri": {
+      "type": "MultiPolygon",
+      "summarized": true,
+      "vertex_count": 468,
+      "bbox": [
+       716908.1,
+       6168580.13,
+       734617.74,
+       6182071.12
+      ],
+      "part_count": 7,
+      "area_m2": 92023042
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         716908.1,
+         6168580.13
+        ],
+        [
+         716908.1,
+         6182071.12
+        ],
+        [
+         734617.74,
+         6182071.12
+        ],
+        [
+         734617.74,
+         6168580.13
+        ],
+        [
+         716908.1,
+         6168580.13
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "kom",
+   "text": "Københavns Kommune",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 1
+  }
+ ]
+}
