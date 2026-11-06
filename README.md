@@ -30,7 +30,7 @@ Pluginet har endnu ingen indbygget nøgle. Så længe der ingen nøgle er, viser
 - **Stednavnets undertype.** GSearch viste fx *Skodsborg (By i Rudersdal Kommune)*. Nu vises kun en overordnet type, fx *bebyggelse* eller *naturareal*, så steder med samme navn kan være svære at skelne.\
   *Hvorfor: Bifrost tilbyder det ikke.*
 
-På [sammenligningssiden](https://asgerpetersen.github.io/gsearch-bifrost-compare/) kan du søge i GSearch og Bifrost side om side.
+På [sammenligningssiden](https://asgerpetersen.github.io/gsearch-bifrost-compare/) kan du søge i GSearch og Bifrost side om side. Konkrete eksempler, optaget fra begge tjenester før GSearch lukkede, står i [Forskelle mellem GSearch og Bifrost](docs/forskelle-gsearch-bifrost.md).
 
 Teksten i pluginet findes i [src/geosearch_dk/help/hvad_er_nyt.html](src/geosearch_dk/help/hvad_er_nyt.html) og på engelsk i [hvad_er_nyt.en.html](src/geosearch_dk/help/hvad_er_nyt.en.html), som vises, når QGIS kører på engelsk.
 

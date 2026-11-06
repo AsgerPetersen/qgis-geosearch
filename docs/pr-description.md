@@ -75,4 +75,6 @@ det sker i søgetjenesten.
   *Hvorfor: Bifrost tilbyder det ikke.*
 
 På [sammenligningssiden](https://asgerpetersen.github.io/gsearch-bifrost-compare/)
-kan man søge i GSearch og Bifrost side om side.
+kan man søge i GSearch og Bifrost side om side. Konkrete eksempler, optaget fra begge
+tjenester før GSearch lukkede, står i
+[Forskelle mellem GSearch og Bifrost](https://github.com/AsgerPetersen/qgis-geosearch/blob/bifrost/docs/forskelle-gsearch-bifrost.md).
