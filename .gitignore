@@ -45,3 +45,7 @@ TMP/
 
 # VS Code settings
 .vscode/
+
+# uv / pytest
+.venv/
+.pytest_cache/
