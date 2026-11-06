@@ -35,9 +35,9 @@ from .qgissettingmanager import *
 DEFAULT_BIFROST_KEY = ""
 # Used when the "Bifrost URL" setting is empty. Pending the production URL (#5).
 DEFAULT_BIFROST_URL = DEFAULT_BASE_URL
-# How to get a key. Pending #5; until then the Bifrost docs.
+# How to get a key: Klimadatastyrelsen's page with the user guide. Pending #5.
 BIFROST_KEY_HELP_URL = (
-    "https://bifrost.test42.dataforsyningen.dk/docs/da/#authentication"
+    "https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen"
 )
 
 

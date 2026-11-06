@@ -54,11 +54,11 @@ Det følgende kunne ikke porteres. Pluginet kan ikke arbejde uden om det, fordi
 det sker i søgetjenesten.
 
 - **Søgning på dele af ord.** GSearch matchede på begyndelsen af ord, så
-  *rådhuspl* fandt Rådhuspladsen. Bifrost matcher hele ord med tolerance for
+  *nørrebrog* fandt Nørrebrogade. Bifrost matcher hele ord med tolerance for
   stavefejl, så et halvt ord bliver rettet til det nærmeste hele ord i stedet
   for at blive fuldført. Brugerne skal skrive hele ord, fx
-  *rådhuspladsen 1 københavn*. Dette er den største ændring for brugerne.
-  [Prøv selv](https://asgerpetersen.github.io/gsearch-bifrost-compare/direct.html?q=skodsb)\
+  *nørrebrogade 1 københavn*. Dette er den største ændring for brugerne.
+  [Prøv selv](https://asgerpetersen.github.io/gsearch-bifrost-compare/direct.html?q=n%C3%B8rrebrog)\
   *Hvorfor: Bifrost tilbyder det ikke.*
 - **Kommunefilter i søgetjenesten.** GSearch filtrerede på kommune på serveren,
   så man fik alle hits i de valgte kommuner. Bifrost har ingen kommunefilter
