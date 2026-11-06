@@ -14,9 +14,12 @@ flytter Geosearch DK over på Klimadatastyrelsens nye søgetjeneste, **Bifrost**
 så pluginet kan bruges, efter at GSearch er lukket. Pluginet understøtter både
 QGIS 3 (Qt5) og QGIS 4 (Qt6).
 
-Brugerne får forskellene at vide i en "Hvad er nyt"-dialog, som vises første
-gang pluginet starter efter opdateringen, og som altid kan åbnes med ⓘ-knappen i
-søgepanelet. Teksten er `src/geosearch_dk/help/hvad_er_nyt.html`.
+Brugerne får forskellene at vide i en "Hvad er nyt"-dialog, som kun åbner, når
+brugeren klikker. Brugere, der opdaterer fra 3.x, ser en lille blå bjælke i
+søgepanelet med et link til dialogen og en rød prik på ⓘ-knappen, indtil de har
+åbnet den. Bjælken kan lukkes, og dialogen kan altid åbnes med ⓘ-knappen. Nye
+brugere ser hverken bjælken eller prikken. Teksten er
+`src/geosearch_dk/help/hvad_er_nyt.html`.
 
 ### Nøgle til Bifrost
 Bifrost kræver sin egen API-nøgle; et token til Dataforsyningen kan ikke
@@ -24,6 +27,8 @@ bruges, så opdateringen fjerner et gemt token. Pluginet har endnu ingen
 indbygget nøgle (`DEFAULT_BIFROST_KEY` er tom). Det er endnu ikke afklaret med
 Klimadatastyrelsen, om pluginet må få en fælles nøgle. Indtil da indtaster
 brugerne selv en nøgle i indstillingerne eller i miljøvariablen `BIFROST_KEY`.
+Så længe der ingen nøgle er, viser søgepanelet en gul bjælke med et link til
+nøglefeltet i indstillingerne.
 
 ### Nyt
 - **Lejligheder:** Man kan nu finde adresser med etage og dør.

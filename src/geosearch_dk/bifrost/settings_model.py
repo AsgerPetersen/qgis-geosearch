@@ -23,6 +23,17 @@ KOMMUNEFILTER_MIGRATED_SETTING = "kommunefilter_migrated"
 # cannot be used with Bifrost, which needs its own key.
 OBSOLETE_SETTINGS = ("token",)
 
+# 3.x stored these only when the user saved the settings (or, for "token",
+# when a bundled token was replaced), so any of them means an upgrade from 3.x.
+# A 3.x user who never saved the settings cannot be told from a new user.
+LEGACY_3X_TYPE_KEYS = ("adr", "ste", "pos", "mat", "kom", "ops", "pol", "reg")
+LEGACY_3X_SETTINGS = ("token", KOMMUNEFILTER_SETTING) + tuple(
+    TYPE_SETTING.format(k) for k in LEGACY_3X_TYPE_KEYS
+)
+# Set once the check for an upgrade from 3.x has run, and its result.
+UPGRADE_CHECKED_SETTING = "upgrade_checked"
+UPGRADED_FROM_3X_SETTING = "upgraded_from_3x"
+
 
 def type_setting(key):
     """The bool setting that switches a type on: ``search_<key>``."""
@@ -80,6 +91,22 @@ def migrate(store):
             store.remove(name)
             removed.append(name)
     return tuple(removed)
+
+
+def detect_3x_upgrade(contains, value, set_value):
+    """Whether the user upgraded from 3.x, decided once and then remembered.
+
+    Must run before ``migrate``, which deletes the token. ``contains(name)``
+    tells whether a setting is stored; ``value`` and ``set_value`` read and
+    write a setting by name. Later runs return the stored answer, so a new
+    user who saves the settings is not taken for an upgrader.
+    """
+    if value(UPGRADE_CHECKED_SETTING):
+        return bool(value(UPGRADED_FROM_3X_SETTING))
+    upgraded = any(contains(name) for name in LEGACY_3X_SETTINGS)
+    set_value(UPGRADED_FROM_3X_SETTING, upgraded)
+    set_value(UPGRADE_CHECKED_SETTING, True)
+    return upgraded
 
 
 def migrate_kommunefilter(value, set_value):

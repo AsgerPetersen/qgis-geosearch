@@ -23,6 +23,7 @@ import os
 from qgis.PyQt import QtCore
 from qgis.PyQt.QtCore import QSettings
 
+from .. import notice
 from ..bifrost import settings_model as model
 from ..bifrost.transport import DEFAULT_BASE_URL
 from ..bifrost.types import TYPES
@@ -70,8 +71,15 @@ class Settings(SettingManager):
         self.add_setting(String(model.URL_SETTING, Scope.Global, ""))
         # Empty: the BIFROST_KEY environment variable, else DEFAULT_BIFROST_KEY.
         self.add_setting(String(model.KEY_SETTING, Scope.Global, ""))
-        # The "Hvad er nyt" notice version last seen (whatsnew.NOTICE_VERSION).
-        self.add_setting(String("notice_seen_version", Scope.Global, ""))
+        # The notice version (notice.NOTICE_VERSION) for which "Hvad er nyt"
+        # was opened, and for which the banner in the search panel was closed.
+        self.add_setting(String(notice.SEEN_SETTING, Scope.Global, ""))
+        self.add_setting(String(notice.CLOSED_SETTING, Scope.Global, ""))
+        # Whether this is an upgrade from 3.x, decided once (see _migratesettings).
+        self.add_setting(Bool(model.UPGRADE_CHECKED_SETTING, Scope.Global, False))
+        self.add_setting(Bool(model.UPGRADED_FROM_3X_SETTING, Scope.Global, False))
+        # Set to put the cursor in the key field when the settings page opens.
+        self.focus_key_on_open = False
 
         # The order of TYPES is the order results are displayed in
         for t in TYPES:
@@ -103,8 +111,18 @@ class Settings(SettingManager):
         """Migrate settings from 3.x, see ``settings_model.migrate``."""
         # Where qgissettingmanager stores global settings, and where its
         # older versions did.
-        model.migrate(_QSettingsStore(QSettings(), f"plugins/{self.plugin_name}/"))
-        model.migrate(_QSettingsStore(QSettings(self.plugin_name, self.plugin_name)))
+        stores = (
+            _QSettingsStore(QSettings(), f"plugins/{self.plugin_name}/"),
+            _QSettingsStore(QSettings(self.plugin_name, self.plugin_name)),
+        )
+        # Before migrate() deletes the token, which tells an upgrader.
+        self.upgraded_from_3x = model.detect_3x_upgrade(
+            lambda name: any(store.contains(name) for store in stores),
+            self.value,
+            self.set_value,
+        )
+        for store in stores:
+            model.migrate(store)
         # True when this instance switched the kommune filter on for a 3.x
         # user; the plugin then tells the user once (SearchBox).
         self.kommunefilter_migrated_now = model.migrate_kommunefilter(

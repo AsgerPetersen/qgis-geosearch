@@ -153,7 +153,7 @@ def find_match(rows, expected):
 
 
 def close_whats_new():
-    """Close the "Hvad er nyt" notice (shown on a new profile) so it does not take focus."""
+    """Close the "Hvad er nyt" dialog if it is open, so it does not take focus."""
     try:
         import qgis.utils
 
