@@ -203,8 +203,8 @@
     </message>
     <message>
         <location filename="../config/settings.ui" line="116"/>
-        <source>Sådan får du en API-nøgle til Bifrost</source>
-        <translation>How to get an API key for Bifrost</translation>
+        <source>Sådan opretter du en bruger på Dataforsyningen</source>
+        <translation>How to create a user at Dataforsyningen</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="286"/>

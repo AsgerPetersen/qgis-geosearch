@@ -109,7 +109,7 @@
              <item>
               <widget class="QLabel" name="bifrostKeyLinkLabel">
                <property name="text">
-                <string>Sådan får du en API-nøgle til Bifrost</string>
+                <string>Sådan opretter du en bruger på Dataforsyningen</string>
                </property>
                <property name="textFormat">
                 <enum>Qt::RichText</enum>
