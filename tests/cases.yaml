@@ -19,7 +19,14 @@
 #     geometry  point | line | polygon
 #     empty     true = no rows at all (the popup does not open); used instead of text
 #   known_gap   optional: issue number in this repo if Bifrost is expected to fail the case
+#   bifrost     optional: where Bifrost should behave differently from GSearch on purpose
+#     expect    replaces `expect` for Bifrost (null = no expectation)
+#     reason    why (shown in the Bifrost report)
 #   notes       free text
+#
+# The Bifrost side is run by `pytest -m live` (tests/live) and recorded with
+#   BIFROST_KEY=... uv run python tests/tools/record_bifrost.py --cases
+# which also writes tests/fixtures/bifrost/cases/REPORT.md (before/after).
 #
 # Record or refresh the GSearch baseline with:
 #   uv run tests/tools/record_gsearch.py record
@@ -151,6 +158,12 @@
   types: [adr]
   expect:
     empty: true
+  bifrost:
+    expect:
+      text: "Nøddebogade 1, st. th, 2200 København N"
+      within: 1
+      geometry: point
+    reason: "Bifrost finder selve lejligheden (ny mulighed)."
   notes: "GSearch søger kun husnumre, så etage/dør giver ingen hits. Bifrost kan finde selve lejligheden (ny mulighed)."
 
 # --------------------------------------------------------------------------
@@ -413,6 +426,7 @@
   input: "mat: 1an gentofte"
   expect:
     empty: true
+  known_gap: 4
   notes: "Udgåede matrikler er ikke med i pluginets GSearch-typer. Bifrost kan finde dem (lifecycle retired), se #4 og #6."
 
 # --------------------------------------------------------------------------
@@ -536,6 +550,9 @@
   expect:
     text: "Husnumre - Der skete en fejl"
     within: 1
+  bifrost:
+    expect: null
+    reason: "Bifrost svarer uden fejl på teksten inkl. 'udg:'; der er ikke noget bestemt hit at forvente."
   notes: "Ukendt præfiks: hele teksten inkl. 'udg:' sendes til alle typer. GSearch svarer HTTP 400 (Invalid input) på alle 8, så pop-op'en viser 8 fejlrækker."
 
 - id: pfx-kun-praefiks

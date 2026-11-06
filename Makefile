@@ -144,3 +144,45 @@ endif
 macos-patch-qgis: check-qgis ## macOS 27: make a patched QGIS copy in ~/Applications that does not crash at start
 	python3 scripts/macos_patch_qgis.py "$(QGIS_APP)" \
 	  "$(HOME)/Applications/$(basename $(notdir $(QGIS_APP)))-patched.app"
+
+# --- Tests ------------------------------------------------------------------
+#
+#   make test                  unit tests (no QGIS, no network)
+#   make test-qgis             QGIS integration tests in Docker, QGIS 4 (QGIS=3: 3.44 LTR)
+#   make test-live             tests/cases.yaml against the real Bifrost (BIFROST_KEY)
+#   make mock                  mock Bifrost on http://127.0.0.1:8766
+#
+# PYTEST_ARGS is passed to pytest, e.g. PYTEST_ARGS="-k marker -x".
+
+PYTEST_ARGS ?=
+# Any qgis/qgis image instead of QGIS=3|4, e.g. QGIS_IMAGE=qgis/qgis:latest
+QGIS_IMAGE  ?=
+MOCK_ARGS   ?=
+comma       := ,
+
+.PHONY: test
+test: ## Unit tests: core, mock Bifrost, replay of the recorded cases
+	uv run pytest $(PYTEST_ARGS)
+
+.PHONY: test-qgis
+test-qgis: ## QGIS integration tests in Docker (QGIS=4 or 3, or QGIS_IMAGE=...)
+	tests/qgis/run.sh $(or $(QGIS_IMAGE),$(QGIS)) $(PYTEST_ARGS)
+
+.PHONY: test-qgis-all
+test-qgis-all: ## QGIS integration tests in both QGIS 3.44 LTR and QGIS 4
+	tests/qgis/run.sh 3 $(PYTEST_ARGS)
+	tests/qgis/run.sh 4 $(PYTEST_ARGS)
+
+.PHONY: test-live
+test-live: ## The case catalogue against the real Bifrost; report in out/ (needs BIFROST_KEY)
+	@[ -n "$$BIFROST_KEY" ] || { echo "Set BIFROST_KEY to run the live suite" >&2; exit 1; }
+	uv run pytest -m live tests/live $(PYTEST_ARGS)
+
+.PHONY: mock
+mock: ## Mock Bifrost on http://127.0.0.1:8766 (MOCK_ARGS="--error 503")
+	python3 tests/mock_bifrost.py $(MOCK_ARGS)
+
+.PHONY: record-bifrost
+record-bifrost: ## Re-record the Bifrost case fixtures and REPORT.md (BIFROST_KEY; ONLY=id1,id2)
+	@[ -n "$$BIFROST_KEY" ] || { echo "Set BIFROST_KEY to record" >&2; exit 1; }
+	uv run python tests/tools/record_bifrost.py --cases $(subst $(comma), ,$(ONLY))

@@ -211,6 +211,54 @@ Status per case:
 - **PASS (KNOWN GAP)**: the case passed although it has `known_gap`. The issue
   may be fixed.
 
+## Automated tests
+
+| Command | What | Needs |
+| --- | --- | --- |
+| `make test` | Unit tests: the Bifrost core, the mock Bifrost, and every case in `tests/cases.yaml` replayed from its recorded fixture | [uv](https://docs.astral.sh/uv/) |
+| `make test-qgis` | `tests/qgis` in a real QGIS 4 in Docker (pytest-qgis): plugin load/unload, settings, options page, map markers, the Bifrost fetcher against the mock. `QGIS=3` uses QGIS 3.44 LTR, `make test-qgis-all` runs both | Docker |
+| `make test-live` | Every case against the real Bifrost; writes a before/after report against the GSearch baseline to `out/bifrost-live-report.md` | `BIFROST_KEY` |
+| `make mock` | A mock Bifrost on `http://127.0.0.1:8766` that answers from the recorded fixtures | Python 3 |
+
+Pass pytest options with `PYTEST_ARGS`, e.g. `make test-qgis QGIS=3 PYTEST_ARGS="-k marker -x"`.
+The QGIS images are linux/amd64 only and run emulated on Apple silicon.
+
+In the live suite, a `known_gap` case is an expected failure (xfail) and an
+XPASS means Bifrost now does what the issue says it cannot. Stednavne are
+matched on the name before " (" because Bifrost has no subtype (#1). A case can
+expect something else from Bifrost than from GSearch with a `bifrost:` override
+in `cases.yaml`.
+
+### Mock Bifrost
+
+Point the plugin's Bifrost URL at `http://127.0.0.1:8766`; any key is accepted.
+The mock answers from `tests/fixtures/bifrost/` (see the docstring in
+`tests/mock_bifrost.py` for how requests are matched). To see the plugin's
+error handling:
+
+- type `mock-401`, `mock-422`, `mock-503` or `mock-slow` into the search box;
+- or make every request fail: `make mock MOCK_ARGS="--error 503"`, or
+  `curl -X POST localhost:8766/_mock/config -d '{"error": "503"}'`
+  (`{"error": null}` turns it off, `"error_count": 2` fails only the next two).
+
+`GET /_mock/requests` lists the requests the mock got.
+
+### Recording fixtures
+
+`make record-bifrost` (needs `BIFROST_KEY`, `ONLY=id1,id2` for some cases)
+records every case to `tests/fixtures/bifrost/cases/<id>.json` and rewrites
+`tests/fixtures/bifrost/cases/REPORT.md`. Re-record when a case is added or the
+core sends different requests (`make test` tells you which). The unit test
+fixtures are recorded with `uv run python tests/tools/record_bifrost.py`. The
+recorder refuses to write a fixture that contains the key.
+
+### CI
+
+`.github/workflows/tests.yml` runs the unit tests and the QGIS tests (QGIS 3.44
+and 4) on pushes and pull requests to `master` and `bifrost`, and the live
+suite nightly (from `master`) or by hand (*Run workflow*). The live job needs
+the repository secret `BIFROST_KEY`; without it, it is skipped.
+
 ## QGIS 4 crashes at startup on macOS 27
 
 QGIS 4.2.3 crashes right after it starts on macOS 27.2 (`EXC_BREAKPOINT` in
