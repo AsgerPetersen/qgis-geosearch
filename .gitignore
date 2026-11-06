@@ -45,3 +45,6 @@ TMP/
 
 # VS Code settings
 .vscode/
+
+# Visual run output (tests/manual/visual_run.py)
+out/
