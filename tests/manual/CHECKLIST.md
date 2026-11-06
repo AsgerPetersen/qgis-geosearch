@@ -78,6 +78,8 @@ QGIS version: ____   OS: ____   Plugin commit: ____
 
 - [ ] *(Bifrost)* The **"what's new" dialog** is shown once after upgrading
       from the GSearch version, and not again after a restart.
+- [ ] *(Bifrost)* Unticking **Vis ikke igen** shows the dialog again at the
+      next start. Links open in the web browser.
 - [ ] *(Bifrost)* The **ⓘ** button opens the "what's new"/about information
       again.
 - [ ] *(Bifrost)* **Kommunefilter migration**: in a profile with an old

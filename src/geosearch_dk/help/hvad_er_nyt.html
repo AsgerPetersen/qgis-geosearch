@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<title>Geosearch DK 4.0 – hvad er nyt, og hvorfor</title>
+<!--
+  The single source text for "Hvad er nyt" in Geosearch DK. It is shown by
+  whatsnew.py (QTextBrowser, so keep the HTML simple). README.md
+  ("Overgang til Bifrost"), metadata.txt and docs/pr-description.md reuse the
+  same bullets: update them together.
+
+  The anchors (name and id) are part of the API: whatsnew.show_whats_new(parent, anchor=...)
+    nyt, anderledes, visningstekst, matrikel, geometri, kommunefilter,
+    virker-ikke, delord, kommunefilter-server, undertype, sammenlign
+-->
+<style>
+  body { font-family: sans-serif; }
+  h2 { margin-bottom: 4px; }
+  h3 { margin-top: 14px; margin-bottom: 4px; }
+  li { margin-bottom: 6px; }
+  .hvorfor { color: #555555; }
+</style>
+</head>
+<body>
+
+<h2>Geosearch DK 4.0 – nu med Bifrost</h2>
+
+<p>Klimadatastyrelsen lukker søgetjenesten <b>GSearch</b> i november 2026.
+Geosearch DK bruger derfor nu Klimadatastyrelsens nye søgetjeneste,
+<b>Bifrost</b>. Det meste virker som før, men der er nogle forskelle.</p>
+
+<h3 id="nyt"><a name="nyt"></a>Nyt</h3>
+<ul>
+  <li><b>Lejligheder:</b> Du kan nu finde adresser med etage og dør.</li>
+</ul>
+
+<h3 id="anderledes"><a name="anderledes"></a>Virker anderledes</h3>
+<ul>
+  <li id="visningstekst"><a name="visningstekst"></a><b>Teksten i resultatlisten</b> laves nu af
+    pluginet. Stednavne vises som <i>navn (type, kommune)</i>, fx
+    <i>Skodsborg (bebyggelse, Rudersdal)</i>.</li>
+  <li id="matrikel"><a name="matrikel"></a><b>Matrikelnumre</b> finder nu hele ejendommen
+    (BFE), som matriklen hører til, og kortet viser hele ejendommen. Det præcise
+    matrikelnummer står øverst i listen.</li>
+  <li id="geometri"><a name="geometri"></a><b>Kortet</b> zoomer først til et punkt. Den fulde
+    geometri, fx en vej eller en ejendom, kommer et øjeblik efter.</li>
+  <li id="kommunefilter"><a name="kommunefilter"></a><b>Kommunefilteret</b> er nu et valg, du
+    selv slår til i indstillingerne. Bifrost kan ikke filtrere på kommune, så
+    pluginet henter resultater for hele landet og skjuler dem uden for dine
+    kommuner. Vær opmærksom på:
+    <ul>
+      <li><b>Du kan gå glip af resultater.</b> Pluginet ser kun på Bifrosts 100
+        bedste hits for hele landet. Fx giver matrikel <i>1a</i> med filter på
+        Horsens (615) ingen resultater, selvom der findes mange.
+        <a href="https://asgerpetersen.github.io/gsearch-bifrost-compare/direct.html?q=1a&amp;t=matrikel&amp;n=10&amp;k=615">Prøv selv</a></li>
+      <li><b>Adresser virker bedst</b>, fordi pluginet sender kommunen med
+        til Bifrost.</li>
+      <li><b>Store stednavne</b>, fx en å eller en landsdel, kan blive skjult,
+        fordi de kun hører til én kommune.</li>
+      <li>Brugte du kommunefilteret i den gamle version, er det slået til.
+        Du kan slå det fra i indstillingerne.</li>
+    </ul></li>
+</ul>
+
+<h3 id="virker-ikke"><a name="virker-ikke"></a>Virker ikke længere – og hvorfor</h3>
+<ul>
+  <li id="delord"><a name="delord"></a><b>Søgning på dele af ord.</b> <i>rådhuspl</i>
+    finder ikke længere Rådhuspladsen. Skriv hele ord, fx
+    <i>rådhuspladsen 1 københavn</i>. Til gengæld retter Bifrost små
+    stavefejl.<br>
+    <span class="hvorfor">Hvorfor: Bifrost tilbyder det ikke – vi har bedt
+    Klimadatastyrelsen om det.</span>
+    <a href="https://asgerpetersen.github.io/gsearch-bifrost-compare/direct.html?q=skodsb">Prøv selv</a></li>
+  <li id="kommunefilter-server"><a name="kommunefilter-server"></a><b>Kommunefilter i
+    søgetjenesten.</b> GSearch filtrerede på kommune, så du fik alle hits i dine
+    kommuner. Nu filtrerer pluginet selv, og det kan give færre resultater (se
+    <a href="#kommunefilter">Kommunefilteret</a>).<br>
+    <span class="hvorfor">Hvorfor: Bifrost tilbyder det ikke – vi har bedt
+    Klimadatastyrelsen om det.</span></li>
+  <li id="undertype"><a name="undertype"></a><b>Stednavnets undertype.</b> GSearch viste fx
+    <i>Skodsborg (By i Rudersdal Kommune)</i>. Nu vises kun en overordnet type,
+    fx <i>bebyggelse</i> eller <i>naturareal</i>, så steder med samme navn kan
+    være svære at skelne.<br>
+    <span class="hvorfor">Hvorfor: Bifrost tilbyder det ikke – vi har bedt
+    Klimadatastyrelsen om det.</span>
+    <a href="https://asgerpetersen.github.io/gsearch-bifrost-compare/direct.html?q=vendsyssel&amp;t=stednavn">Prøv selv</a></li>
+</ul>
+
+<h3 id="sammenlign"><a name="sammenlign"></a>Se forskellene selv</h3>
+<p>På <a href="https://asgerpetersen.github.io/gsearch-bifrost-compare/">sammenligningssiden</a>
+kan du søge i GSearch og Bifrost side om side.
+Fejl og ønsker kan meldes på
+<a href="https://github.com/Septima/qgis-geosearch/issues">GitHub</a>.</p>
+
+</body>
+</html>

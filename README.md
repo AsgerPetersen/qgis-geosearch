@@ -1,11 +1,34 @@
-OB! GSearch (https://github.com/Klimadatastyrelsen/gsearch), som er den tjeneste som pluginet anvender, er sat til at lukke i november 2026. Når GSearch lukkes, så vil dette plugin ikke længere kunne bruges.
-
 Geosearch DK
 ==============
 
 QGIS-plugin der tilføjer en søgeboks der anvender offentlige data, som tillader brugeren lynhurtigt at zoome til navngivne steder i Danmark - f.eks. adresser, stednavne, kommuner.
 
 Pluginet er udviklet af [Septima](http://www.septima.dk) og stilles frit og gratis til rådighed for QGIS-brugere under GNU General Public License v3.0, se nærmere i afsnittet [Ophavsret og videredistribution](#ophavsret-og-videredistribution).
+
+Overgang til Bifrost
+--------------
+Klimadatastyrelsen lukker søgetjenesten [GSearch](https://github.com/Klimadatastyrelsen/gsearch) i november 2026. Fra version 4.0 bruger Geosearch DK derfor Klimadatastyrelsens nye søgetjeneste, **Bifrost**. Det meste virker som før, men der er nogle forskelle. Pluginet viser dem første gang, det starter efter opdateringen, og du kan altid finde dem igen under ⓘ-knappen i søgepanelet.
+
+**Nyt**
+- **Lejligheder:** Du kan nu finde adresser med etage og dør.
+
+**Virker anderledes**
+- **Teksten i resultatlisten** laves nu af pluginet. Stednavne vises som *navn (type, kommune)*, fx *Skodsborg (bebyggelse, Rudersdal)*.
+- **Matrikelnumre** finder nu hele ejendommen (BFE), som matriklen hører til, og kortet viser hele ejendommen. Det præcise matrikelnummer står øverst i listen.
+- **Kortet** zoomer først til et punkt. Den fulde geometri, fx en vej eller en ejendom, kommer et øjeblik efter.
+- **Kommunefilteret** er nu et valg, du selv slår til i indstillingerne. Bifrost kan ikke filtrere på kommune, så pluginet henter resultater for hele landet og skjuler dem uden for dine kommuner. Du kan derfor gå glip af resultater: pluginet ser kun på Bifrosts 100 bedste hits for hele landet. Adresser virker bedst. Brugte du kommunefilteret i den gamle version, er det slået til.
+
+**Virker ikke længere – og hvorfor**
+- **Søgning på dele af ord.** *rådhuspl* finder ikke længere Rådhuspladsen. Skriv hele ord, fx *rådhuspladsen 1 københavn*. Til gengæld retter Bifrost små stavefejl.\
+  *Hvorfor: Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det.*
+- **Kommunefilter i søgetjenesten.** GSearch filtrerede på kommune, så du fik alle hits i dine kommuner. Nu filtrerer pluginet selv, og det kan give færre resultater (se Kommunefilteret ovenfor).\
+  *Hvorfor: Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det.*
+- **Stednavnets undertype.** GSearch viste fx *Skodsborg (By i Rudersdal Kommune)*. Nu vises kun en overordnet type, fx *bebyggelse* eller *naturareal*, så steder med samme navn kan være svære at skelne.\
+  *Hvorfor: Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det.*
+
+På [sammenligningssiden](https://asgerpetersen.github.io/gsearch-bifrost-compare/) kan du søge i GSearch og Bifrost side om side.
+
+Teksten i pluginet findes i [src/geosearch_dk/help/hvad_er_nyt.html](src/geosearch_dk/help/hvad_er_nyt.html).
 
 Installation af pluginet
 --------------
@@ -46,7 +69,7 @@ Du kan lave en række indstillinger i pluginets indstillingsfane, som du kan åb
 
 Følgende indstillinger kan foretages i pluginets indstillingsdialog:
 - Token til Dataforsyningen (Opret token [her](https://dataforsyningen.dk/user#token)) - sørg for at du er logget ind øverst til højre og opret derefter et token under "Administrer token til webservices og API'er"
-- Kommunefilter. Indtast et eller flere kommunenumre adskilt af komma. Der vises nu kun søgeresultater fra de listede kommuner.
+- Kommunefilter. Indtast et eller flere kommunenumre adskilt af komma. Pluginet skjuler så søgeresultater uden for de listede kommuner. Læs om begrænsningerne under [Overgang til Bifrost](#overgang-til-bifrost).
 - Typefilter. Vis kun søgeresultater af bestemte typer, f.eks. adresser, matrikelnumre, stednavne etc.
 
 ![geosearchsettings](https://github.com/Septima/qgis-geosearch/assets/16276034/ffcfe419-38af-4ed1-80f8-bc2264919fb0)

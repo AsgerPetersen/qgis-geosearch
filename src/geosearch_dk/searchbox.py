@@ -42,7 +42,7 @@ from qgis.core import (
 )
 from qgis.gui import QgsVertexMarker, QgsRubberBand
 
-from . import qgisutils
+from . import qgisutils, whatsnew
 from .suggester import Suggester
 from .config import Settings
 
@@ -62,6 +62,7 @@ class SearchBox(QFrame, FORM_CLASS):
         self.setupUi(self)
 
         self.qgisIface = qgisIface
+        self.settings = settings
         self.markers = []
         self._last_message = {}
         self._zoomed_extent = None
@@ -104,6 +105,16 @@ class SearchBox(QFrame, FORM_CLASS):
         self.settingsButton.setFixedSize(20, 20)
 
         self.settingsButton.clicked.connect(self.show_settings)
+
+        self.infoButton.setIcon(
+            QIcon(os.path.join(os.path.dirname(__file__), "icons", "info.svg"))
+        )
+        self.infoButton.setIconSize(QSize(16, 16))
+        self.infoButton.setFixedSize(20, 20)
+        self.infoButton.clicked.connect(self.show_whats_new)
+
+    def show_whats_new(self):
+        whatsnew.show_whats_new(self.qgisIface.mainWindow(), settings=self.settings)
 
     def show_settings(self):
         self.qgisIface.showOptionsDialog(currentPage="geosearchOptions")
@@ -333,8 +344,7 @@ class SearchBox(QFrame, FORM_CLASS):
     def show_about_dialog(self):
         infoString = self.tr(
             "Geosearch DK lader brugeren zoome til navngivne steder i Danmark.<br />"
-            "Pluginet benytter tjenesten 'gsearch' fra <a href=\"http://kortforsyningen.dk/\">kortforsyningen.dk</a>"
-            " og kræver derfor et gyldigt login til denne tjeneste.<br />"
+            "Pluginet benytter Klimadatastyrelsens søgetjeneste Bifrost, som afløser GSearch.<br />"
             'Pluginets webside: <a href="http://github.com/Septima/qgis-geosearch">github.com/Septima/qgis-geosearch</a><br />'
             "Udviklet af: Septima<br />"
             'Mail: <a href="mailto:kontakt@septima.dk">kontakt@septima.dk</a><br />'
