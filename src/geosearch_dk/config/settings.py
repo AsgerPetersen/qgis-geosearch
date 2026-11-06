@@ -55,6 +55,8 @@ class Settings(SettingManager):
         self.add_setting(String("bifrost_url", Scope.Global, DEFAULT_BIFROST_URL))
         # Empty: use the BIFROST_KEY environment variable.
         self.add_setting(String("bifrost_key", Scope.Global, ""))
+        # The "Hvad er nyt" notice version last seen (whatsnew.NOTICE_VERSION).
+        self.add_setting(String("notice_seen_version", Scope.Global, ""))
 
         self._migratesettings()
 
