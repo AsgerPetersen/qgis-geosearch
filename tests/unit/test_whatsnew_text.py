@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 HTML = ROOT / "src" / "geosearch_dk" / "help" / "hvad_er_nyt.html"
-WHY = "Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det"
+WHY = "Hvorfor: Bifrost tilbyder det ikke."
 
 # Used by whatsnew.show_whats_new(parent, anchor=...), e.g. from the kommunefilter (#11).
 ANCHORS = [

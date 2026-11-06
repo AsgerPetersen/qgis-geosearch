@@ -21,9 +21,9 @@ søgepanelet. Teksten er `src/geosearch_dk/help/hvad_er_nyt.html`.
 ### Nøgle til Bifrost
 Bifrost kræver sin egen API-nøgle; et token til Dataforsyningen kan ikke
 bruges, så opdateringen fjerner et gemt token. Pluginet har endnu ingen
-indbygget nøgle (`DEFAULT_BIFROST_KEY` er tom), indtil Klimadatastyrelsen har
-svaret på, om pluginet må få en fælles nøgle. Indtil da indtaster brugerne
-selv en nøgle i indstillingerne eller i miljøvariablen `BIFROST_KEY`.
+indbygget nøgle (`DEFAULT_BIFROST_KEY` er tom). Det er endnu ikke afklaret med
+Klimadatastyrelsen, om pluginet må få en fælles nøgle. Indtil da indtaster
+brugerne selv en nøgle i indstillingerne eller i miljøvariablen `BIFROST_KEY`.
 
 ### Nyt
 - **Lejligheder:** Man kan nu finde adresser med etage og dør.
@@ -54,18 +54,18 @@ det sker i søgetjenesten.
   for at blive fuldført. Brugerne skal skrive hele ord, fx
   *rådhuspladsen 1 københavn*. Dette er den største ændring for brugerne.
   [Prøv selv](https://asgerpetersen.github.io/gsearch-bifrost-compare/direct.html?q=skodsb)\
-  *Hvorfor: Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det.*
+  *Hvorfor: Bifrost tilbyder det ikke.*
 - **Kommunefilter i søgetjenesten.** GSearch filtrerede på kommune på serveren,
   så man fik alle hits i de valgte kommuner. Bifrost har ingen kommunefilter
   på `/search`, så pluginet filtrerer selv i Bifrosts 100 bedste hits for hele
   landet. Fx giver matrikel *1a* med filter på Horsens (615) ingen resultater.
   [Prøv selv](https://asgerpetersen.github.io/gsearch-bifrost-compare/direct.html?q=1a&t=matrikel&n=10&k=615)\
-  *Hvorfor: Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det.*
+  *Hvorfor: Bifrost tilbyder det ikke.*
 - **Stednavnets undertype.** GSearch viste fx *Skodsborg (By i Rudersdal
   Kommune)*. Bifrost giver kun en overordnet type, fx *bebyggelse* eller
   *naturareal*, og én kommune, så steder med samme navn kan være svære at
   skelne. [Prøv selv](https://asgerpetersen.github.io/gsearch-bifrost-compare/direct.html?q=vendsyssel&t=stednavn)\
-  *Hvorfor: Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det.*
+  *Hvorfor: Bifrost tilbyder det ikke.*
 
 På [sammenligningssiden](https://asgerpetersen.github.io/gsearch-bifrost-compare/)
 kan man søge i GSearch og Bifrost side om side.

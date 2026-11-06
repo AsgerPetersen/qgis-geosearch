@@ -11,7 +11,7 @@ Klimadatastyrelsen lukker søgetjenesten [GSearch](https://github.com/Klimadatas
 
 **Du skal bruge en nøgle til Bifrost**\
 Bifrost kræver sin egen API-nøgle. Et token til Dataforsyningen kan ikke bruges, så pluginet har fjernet det token, du måske havde angivet i den gamle version.
-Pluginet har endnu ingen indbygget nøgle. Vi har spurgt Klimadatastyrelsen, om pluginet må få en fælles nøgle, som det havde et fælles token til Dataforsyningen. Indtil da skal du selv indtaste en nøgle: Klik på skruenøglen i søgepanelet (eller vælg *Indstillinger → Indstillinger → Geosearch DK*), og indsæt den under **Bifrost API-nøgle**. [Sådan får du en API-nøgle til Bifrost](https://bifrost.test42.dataforsyningen.dk/docs/da/#authentication). Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen `BIFROST_KEY`.
+Pluginet har endnu ingen indbygget nøgle. Indtil videre skal du selv indtaste en nøgle: Klik på skruenøglen i søgepanelet (eller vælg *Indstillinger → Indstillinger → Geosearch DK*), og indsæt den under **Bifrost API-nøgle**. [Sådan får du en API-nøgle til Bifrost](https://bifrost.test42.dataforsyningen.dk/docs/da/#authentication). Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen `BIFROST_KEY`.
 
 **Nyt**
 - **Lejligheder:** Du kan nu finde adresser med etage og dør.
@@ -24,11 +24,11 @@ Pluginet har endnu ingen indbygget nøgle. Vi har spurgt Klimadatastyrelsen, om 
 
 **Virker ikke længere – og hvorfor**
 - **Søgning på dele af ord.** *rådhuspl* finder ikke længere Rådhuspladsen. Skriv hele ord, fx *rådhuspladsen 1 københavn*. Til gengæld retter Bifrost små stavefejl.\
-  *Hvorfor: Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det.*
+  *Hvorfor: Bifrost tilbyder det ikke.*
 - **Kommunefilter i søgetjenesten.** GSearch filtrerede på kommune, så du fik alle hits i dine kommuner. Nu filtrerer pluginet selv, og det kan give færre resultater (se Kommunefilteret ovenfor).\
-  *Hvorfor: Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det.*
+  *Hvorfor: Bifrost tilbyder det ikke.*
 - **Stednavnets undertype.** GSearch viste fx *Skodsborg (By i Rudersdal Kommune)*. Nu vises kun en overordnet type, fx *bebyggelse* eller *naturareal*, så steder med samme navn kan være svære at skelne.\
-  *Hvorfor: Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det.*
+  *Hvorfor: Bifrost tilbyder det ikke.*
 
 På [sammenligningssiden](https://asgerpetersen.github.io/gsearch-bifrost-compare/) kan du søge i GSearch og Bifrost side om side.
 
