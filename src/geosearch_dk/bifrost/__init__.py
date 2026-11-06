@@ -25,7 +25,9 @@ from .core import (
     normalize,
     parse_query,
     plan_search,
+    matches_term,
     rank_rows,
+    rank_types,
     row_geometry,
 )
 from .display import display_text
@@ -95,7 +97,9 @@ __all__ = [
     "parse_kommunekoder",
     "parse_query",
     "plan_search",
+    "matches_term",
     "rank_rows",
+    "rank_types",
     "row_geometry",
     "types_by_key",
 ]
