@@ -11,6 +11,7 @@ def test_core_imports_without_qgis_or_qt():
         import geosearch_dk.bifrost
         import geosearch_dk.bifrost.core, geosearch_dk.bifrost.display
         import geosearch_dk.bifrost.kommunefilter, geosearch_dk.bifrost.types
+        import geosearch_dk.bifrost.transport
         bad = sorted(m for m in sys.modules if m.split(".")[0] in ("qgis", "PyQt5", "PyQt6", "sip"))
         assert not bad, bad
         """

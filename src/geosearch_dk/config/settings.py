@@ -25,6 +25,7 @@ from qgis.PyQt import QtCore
 from .qgissettingmanager import *
 
 DEFAULT_DATAFORSYNING_TOKEN = "0350b5341749c0970454474881173412"
+DEFAULT_BIFROST_URL = "https://bifrost.test42.dataforsyningen.dk"
 
 
 class Settings(SettingManager):
@@ -51,6 +52,9 @@ class Settings(SettingManager):
             String("token", Scope.Global, DEFAULT_DATAFORSYNING_TOKEN)
         )
         self.add_setting(String("kommunefilter", Scope.Global, ""))
+        self.add_setting(String("bifrost_url", Scope.Global, DEFAULT_BIFROST_URL))
+        # Empty: use the BIFROST_KEY environment variable.
+        self.add_setting(String("bifrost_key", Scope.Global, ""))
 
         self._migratesettings()
 
