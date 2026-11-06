@@ -61,6 +61,10 @@ class Settings(SettingManager):
         SettingManager.__init__(self, "Geosearch DK")
 
         self.add_setting(String("kommunefilter", Scope.Global, ""))
+        # The kommune filter is client-side and opt-in since Bifrost (#11).
+        self.add_setting(Bool(model.KOMMUNEFILTER_ENABLED_SETTING, Scope.Global, False))
+        # Set once the 3.x kommunefilter has been migrated (see _migratesettings).
+        self.add_setting(Bool(model.KOMMUNEFILTER_MIGRATED_SETTING, Scope.Global, False))
         # Empty: DEFAULT_BIFROST_URL. The default is not stored, so a new
         # default (#5) reaches everyone who has not set a URL.
         self.add_setting(String(model.URL_SETTING, Scope.Global, ""))
@@ -101,3 +105,8 @@ class Settings(SettingManager):
         # older versions did.
         model.migrate(_QSettingsStore(QSettings(), f"plugins/{self.plugin_name}/"))
         model.migrate(_QSettingsStore(QSettings(self.plugin_name, self.plugin_name)))
+        # True when this instance switched the kommune filter on for a 3.x
+        # user; the plugin then tells the user once (SearchBox).
+        self.kommunefilter_migrated_now = model.migrate_kommunefilter(
+            self.value, self.set_value
+        )

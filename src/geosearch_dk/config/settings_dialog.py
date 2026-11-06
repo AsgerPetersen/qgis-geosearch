@@ -29,6 +29,7 @@ from ..bifrost import settings_model as model
 from ..bifrost.types import TYPES
 from .qgissettingmanager import *
 from .settings import BIFROST_KEY_HELP_URL, DEFAULT_BIFROST_URL
+from .. import kommunefilter_info, whatsnew
 
 MUNCODE_REGEX = "[0-9]{3}(,[0-9]{3})*"
 
@@ -71,6 +72,24 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
         regex = QRegularExpression(MUNCODE_REGEX)
         self.muncodeValidator = QRegularExpressionValidator(regex)
         self.kommunefilter.setValidator(self.muncodeValidator)
+        self.kommunefilterInfoLabel.setText(kommunefilter_info.INFO_HTML)
+        self.kommunefilter_enabled.toggled.connect(self._update_kommunefilter_enabled)
+        self._update_kommunefilter_enabled()
+        self.kommunefilterWhatsNewLabel.linkActivated.connect(
+            self._show_kommunefilter_whatsnew
+        )
+
+    def _show_kommunefilter_whatsnew(self, *args):
+        # A widget in the (modal) options dialog as parent, so the notice is
+        # not blocked behind it.
+        whatsnew.show_whats_new(
+            self, anchor=kommunefilter_info.WHATSNEW_ANCHOR, settings=self.settings
+        )
+
+    def _update_kommunefilter_enabled(self, *args):
+        enabled = self.kommunefilter_enabled.isChecked()
+        self.kommunefilter.setEnabled(enabled)
+        self.kommunekoderLabel.setEnabled(enabled)
 
     def _add_type_checkboxes(self):
         """One checkbox per type in TYPES, named after its setting."""

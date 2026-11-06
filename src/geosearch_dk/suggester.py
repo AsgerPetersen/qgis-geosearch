@@ -36,6 +36,10 @@ from qgis.PyQt.uic import loadUi
 from qgis.core import QgsApplication, QgsMessageLog, Qgis
 
 from .bifrost.fetcher import BifrostFetcher
+from .kommunefilter_info import hidden_row_text
+
+# Status of the grey last row that counts the hits the kommune filter hid.
+HIDDEN_STATUS = "hidden"
 
 # TODO: Add events to completer? http://www.valuedlessons.com/2008/04/events-in-python.html
 
@@ -48,10 +52,13 @@ class Suggester(QObject):
         searchbox_widget=None,
         notauthorized_func=None,
         missingkey_func=None,
+        hiddeninfo_func=None,
+        kommunefiltererror_func=None,
     ):
         QObject.__init__(self, searchbox_widget)
         self.notauthorized_func = notauthorized_func
         self.missingkey_func = missingkey_func
+        self.hiddeninfo_func = hiddeninfo_func
 
         self.my_searchbox_widget = searchbox_widget
         self.fetcher = BifrostFetcher(settings, parent=self)
@@ -59,6 +66,8 @@ class Suggester(QObject):
             self.fetcher.not_authorized.connect(notauthorized_func)
         if missingkey_func:
             self.fetcher.missing_key.connect(missingkey_func)
+        if kommunefiltererror_func:
+            self.fetcher.kommunefilter_error.connect(kommunefiltererror_func)
 
         self.selectedObject = None
         self.isUnloaded = False
@@ -141,15 +150,18 @@ class Suggester(QObject):
 
         return False
 
-    def showResultRows(self, rows):
+    def showResultRows(self, rows, hidden_count=0):
         pal = self.my_searchbox_widget.palette()
         color = pal.color(
             QPalette.ColorGroup.Disabled, QPalette.ColorRole.WindowText
         )
 
+        rows = list(rows or [])
+        hidden_text = hidden_row_text(hidden_count)
         self.resultlistwidget.setUpdatesEnabled(False)
         self.resultlistwidget.clear()
-        if rows is None or len(rows) < 1:
+        if not rows and not hidden_text:
+            self.resultlistwidget.setUpdatesEnabled(True)
             return
 
         for row in rows:
@@ -161,6 +173,21 @@ class Suggester(QObject):
                 2, Qt.ItemDataRole.UserRole, (row,)
             )  # Try immutable py obj #http://stackoverflow.com/questions/9257422/how-to-get-the-original-python-data-from-qvariant
 
+        if hidden_text:
+            # Not a place: grey, and choosing it explains the filter instead.
+            item = QTreeWidgetItem(self.resultlistwidget)
+            item.setText(0, hidden_text)
+            item.setIcon(0, QgsApplication.getThemeIcon("/mIconInfo.svg"))
+            item.setForeground(0, color)
+            item.setToolTip(0, "Hvorfor? Klik for at læse om kommunefilteret")
+            item.setFlags(Qt.ItemFlag.ItemIsEnabled)
+            item.setData(
+                2,
+                Qt.ItemDataRole.UserRole,
+                ({"status": HIDDEN_STATUS, "text": hidden_text, "count": hidden_count},),
+            )
+
+        row_count = self.resultlistwidget.topLevelItemCount()
         self.resultlistwidget.setCurrentItem(
             self.resultlistwidget.topLevelItem(0)
         )
@@ -168,7 +195,7 @@ class Suggester(QObject):
         self.resultlistwidget.adjustSize()
         self.resultlistwidget.setUpdatesEnabled(True)
 
-        h = self.resultlistwidget.sizeHintForRow(0) * min(15, len(rows)) + 3
+        h = self.resultlistwidget.sizeHintForRow(0) * min(15, row_count) + 3
         w = max(self.resultlistwidget.width(), self.my_searchbox_widget.width())
         self.resultlistwidget.resize(w, h)
 
@@ -180,13 +207,18 @@ class Suggester(QObject):
         self.resultlistwidget.setFocus()
         self.resultlistwidget.show()
 
-    def onResultSelected(self):
+    def onResultSelected(self, item=None, column=0):
         self.timer.stop()
         self.resultlistwidget.hide()
         self.my_searchbox_widget.setFocus()
-        item = self.resultlistwidget.currentItem()
+        if not isinstance(item, QTreeWidgetItem):
+            item = self.resultlistwidget.currentItem()
         if item:
             row = item.data(2, Qt.ItemDataRole.UserRole)  # .toPyObject()
+            if row[0]["status"] == HIDDEN_STATUS:
+                if self.hiddeninfo_func:
+                    self.hiddeninfo_func()
+                return
             if row[0]["status"] != "error":
                 self.my_searchbox_widget.setText(item.text(0))
             self.selectedObject = row
@@ -213,7 +245,7 @@ class Suggester(QObject):
 
     def handleFetcherResults(self):
         rows = self.fetcher.get_result()
-        self.showResultRows(rows)
+        self.showResultRows(rows, sum((self.fetcher.hidden or {}).values()))
 
     def unload(self):
         # Avoid processing events after QGIS shutdown has begun
