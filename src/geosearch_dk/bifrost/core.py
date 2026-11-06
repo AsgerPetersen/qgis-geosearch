@@ -27,7 +27,12 @@ import re
 from typing import Dict, List, NamedTuple, Optional, Tuple
 
 from .display import display_text
-from .kommunefilter import apply_kommunefilter, membership_targets, parse_kommunekoder
+from .kommunefilter import (
+    UnknownKommune,
+    apply_kommunefilter,
+    membership_targets,
+    parse_kommunekoder,
+)
 from .types import (
     PROJECT,
     RESOLVE,
@@ -276,6 +281,40 @@ def error_row(search_type, message=None):
         "title": search_type.title,
         "status": STATUS_ERROR,
         "text": search_type.title + ERROR_TEXT,
+        "message": message,
+        "kind": None,
+        "ref": None,
+        "point": None,
+        "geometry": None,
+        "lifecycle": None,
+    }
+
+
+KOMMUNEFILTER_KEY = "kommunefilter"
+
+
+def kommunefilter_error_row(error):
+    """The only row shown when the kommune filter could not be applied.
+
+    ``error`` is what ``KommunefilterCache.load`` reported: ``UnknownKommune``
+    or the exception of a failed request.
+    """
+    if isinstance(error, UnknownKommune):
+        code = error.code.lstrip("0") or "0"
+        text = "Ukendt kommunekode %s i kommunefilteret" % code
+        message = (
+            "Kommunefilteret i indstillingerne indeholder kommunekoden %s, som "
+            "Bifrost ikke kender. Ret eller fjern koden under Indstillinger > "
+            "Geosearch DK." % code
+        )
+    else:
+        text = "Kommunefilter" + ERROR_TEXT
+        message = "Kommunefilteret kunne ikke hentes fra Bifrost: %s" % error
+    return {
+        "key": KOMMUNEFILTER_KEY,
+        "title": "Kommunefilter",
+        "status": STATUS_ERROR,
+        "text": text,
         "message": message,
         "kind": None,
         "ref": None,

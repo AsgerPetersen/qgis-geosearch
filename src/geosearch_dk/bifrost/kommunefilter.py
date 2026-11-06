@@ -136,3 +136,161 @@ def apply_kommunefilter(rows, codes, members, search_type):
         else:
             hidden += 1
     return kept, hidden
+
+
+MAX_MEMBERSHIP_PAGES = 200
+
+
+class KommunefilterCache:
+    """Kommune refs and /project memberships, fetched once per session.
+
+    ``send(requests, callback)`` sends ``BifrostRequest``s and calls
+    ``callback(responses)`` once, where ``responses[i]`` is the decoded JSON
+    or the exception (the contract of ``BifrostClient.send``). Lookups that
+    are already running are shared, not sent twice. Unknown codes are
+    remembered; failed requests are not.
+    """
+
+    def __init__(self, send):
+        self._send = send
+        self.refs = {}
+        self.unknown = set()
+        self.members = {}
+        self._waiting = {}
+        self._generation = 0
+
+    def load(self, codes, targets, callback):
+        """Call ``callback(members)`` when everything for ``codes`` is known.
+
+        ``members`` maps each of ``targets`` to the ids inside any of
+        ``codes`` (the argument ``apply_kommunefilter`` takes). On failure
+        ``callback(error)`` is called instead: ``UnknownKommune`` for the
+        first unknown code, or the exception of the failed request. Every
+        code is looked up, also when ``targets`` is empty, so a mistyped code
+        is always reported. The callback may run before ``load`` returns.
+        """
+        codes = tuple(codes)
+        targets = tuple(targets)
+
+        def after_members(error):
+            if error is not None:
+                callback(error)
+                return
+            callback(
+                {
+                    t: frozenset().union(*(self.members[(c, t)] for c in codes))
+                    for t in targets
+                }
+            )
+
+        def after_refs(error):
+            if error is not None:
+                callback(error)
+                return
+            for code in codes:
+                if code in self.unknown:
+                    callback(UnknownKommune(code))
+                    return
+            self._ensure_all(
+                [("members", c, t) for t in targets for c in codes], after_members
+            )
+
+        self._ensure_all([("ref", c) for c in codes], after_refs)
+
+    def abort(self):
+        """Forget running lookups; their callbacks are never called."""
+        self._generation += 1
+        self._waiting = {}
+
+    def clear(self):
+        """Forget everything, e.g. when the Bifrost URL changes."""
+        self.abort()
+        self.refs = {}
+        self.unknown = set()
+        self.members = {}
+
+    # --- internals --------------------------------------------------------
+
+    def _known(self, key):
+        if key[0] == "ref":
+            return key[1] in self.refs or key[1] in self.unknown
+        return key[1:] in self.members
+
+    def _ensure_all(self, keys, done):
+        missing = [k for k in dict.fromkeys(keys) if not self._known(k)]
+        if not missing:
+            done(None)
+            return
+        state = {"pending": len(missing), "finished": False}
+
+        def one_done(error):
+            if state["finished"]:
+                return
+            state["pending"] -= 1
+            if error is not None or state["pending"] == 0:
+                state["finished"] = True
+                done(error)
+
+        for key in missing:
+            self._ensure(key, one_done)
+
+    def _ensure(self, key, callback):
+        if key in self._waiting:
+            self._waiting[key].append(callback)
+            return
+        self._waiting[key] = [callback]
+        if key[0] == "ref":
+            self._load_ref(key, self._generation)
+        else:
+            self._load_members(key, self._generation)
+
+    def _finish(self, key, generation, error=None):
+        if generation != self._generation:
+            return
+        for callback in self._waiting.pop(key, []):
+            callback(error)
+
+    def _load_ref(self, key, generation):
+        code = key[1]
+
+        def on_response(responses):
+            if generation != self._generation:
+                return
+            response = responses[0]
+            if isinstance(response, BaseException):
+                self._finish(key, generation, response)
+                return
+            try:
+                self.refs[code] = kommune_ref_from_response(code, response)
+            except UnknownKommune:
+                self.unknown.add(code)
+            self._finish(key, generation)
+
+        self._send([kommune_ref_request(code)], on_response)
+
+    def _load_members(self, key, generation):
+        _, code, target = key
+        ref = self.refs[code]
+        ids = set()
+
+        def step(cursor, page):
+            self._send(
+                [membership_request(ref, target, cursor)],
+                lambda responses: on_page(responses[0], page),
+            )
+
+        def on_page(response, page):
+            if generation != self._generation:
+                return
+            if isinstance(response, BaseException):
+                self._finish(key, generation, response)
+                return
+            page_ids, next_cursor = membership_from_response(response)
+            ids.update(page_ids)
+            if next_cursor and page + 1 < MAX_MEMBERSHIP_PAGES:
+                step(next_cursor, page + 1)
+                return
+            self.members[(code, target)] = frozenset(ids)
+            self._finish(key, generation)
+
+        step(None, 0)

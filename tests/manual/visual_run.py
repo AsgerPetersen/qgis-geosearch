@@ -65,9 +65,8 @@ LOG_TAG = "Geosearch visual run"
 TYPE_KEYS = ("adr", "ste", "pos", "mat", "kom", "ops", "pol", "reg")
 TYPE_SETTING = "search_{}"
 KOMMUNEFILTER_SETTING = "kommunefilter"
-# Bool settings that switch the kommunefilter on. Step 5 (#11) makes the
-# filter opt-in; add the name of its switch here.
-KOMMUNEFILTER_SWITCH_SETTINGS = ()
+# Bool settings that switch the kommunefilter on (opt-in since Step 5, #11).
+KOMMUNEFILTER_SWITCH_SETTINGS = ("kommunefilter_enabled",)
 
 # Denmark in EPSG:25832, used to reset the map before each case
 DK_EXTENT_25832 = (440000, 6040000, 900000, 6410000)

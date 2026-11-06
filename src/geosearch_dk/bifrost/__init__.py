@@ -21,6 +21,7 @@ from .core import (
     error_row,
     geometry_from_response,
     geometry_request,
+    kommunefilter_error_row,
     make_row,
     normalize,
     parse_query,
@@ -32,6 +33,7 @@ from .core import (
 )
 from .display import display_text
 from .kommunefilter import (
+    KommunefilterCache,
     MissingMembership,
     UnknownKommune,
     apply_kommunefilter,
@@ -72,6 +74,7 @@ __all__ = [
     "STATUS_OK",
     "TYPES",
     "BifrostRequest",
+    "KommunefilterCache",
     "MissingMembership",
     "ParsedQuery",
     "SearchPlan",
@@ -89,6 +92,7 @@ __all__ = [
     "geometry_request",
     "kommune_ref_from_response",
     "kommune_ref_request",
+    "kommunefilter_error_row",
     "make_row",
     "membership_from_response",
     "membership_request",

@@ -83,6 +83,9 @@ class SeptimaGeoSearch(object):
         )
         # Make changed settings apply immediately
         self.settings.settings_updated.connect(self.searchwidget.readconfig)
+        if self.settings.kommunefilter_migrated_now:
+            self.settings.kommunefilter_migrated_now = False
+            self.searchwidget.showKommunefilterMigrationNotice()
 
         # "Hvad er nyt" once after an upgrade, when the main window is up.
         self.notice_timer = QTimer()

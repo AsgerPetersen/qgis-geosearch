@@ -42,7 +42,7 @@ from qgis.core import (
 )
 from qgis.gui import QgsVertexMarker, QgsRubberBand
 
-from . import qgisutils, whatsnew
+from . import kommunefilter_info, qgisutils, whatsnew
 from .suggester import Suggester
 from .config import Settings
 
@@ -75,6 +75,8 @@ class SearchBox(QFrame, FORM_CLASS):
             searchbox_widget=self.searchEdit,
             notauthorized_func=self.handleNotAuthorized,
             missingkey_func=self.handleMissingKey,
+            hiddeninfo_func=self.showKommunefilterInfo,
+            kommunefiltererror_func=self.handleKommunefilterError,
         )
         self.setupCrsTransform()
 
@@ -164,6 +166,52 @@ class SearchBox(QFrame, FORM_CLASS):
                 "Geosearch DK kræver en nøgle til Bifrost. Angiv den i "
                 "indstillingerne eller i miljøvariablen BIFROST_KEY."
             ),
+        )
+
+    def handleKommunefilterError(self, message):
+        self._pushSettingsMessage("kommunefilter", self.tr("Kommunefilter"), message)
+
+    def showKommunefilterInfo(self):
+        """Explain the kommune filter (the grey "skjult" row was chosen)."""
+        box = QMessageBox(self.qgisIface.mainWindow())
+        box.setWindowTitle(self.tr("Geosearch DK - Kommunefilter"))
+        box.setIcon(QMessageBox.Icon.Information)
+        # macOS renders message box text in bold; keep the explanation normal.
+        box.setText(kommunefilter_info.INFO_TITLE)
+        box.setInformativeText(
+            '<div style="font-weight: normal">'
+            + kommunefilter_info.INFO_BODY_HTML
+            + "</div>"
+        )
+        settings_button = box.addButton(
+            self.tr("Åbn indstillinger"), QMessageBox.ButtonRole.ActionRole
+        )
+        box.addButton(QMessageBox.StandardButton.Close)
+        exec_func = getattr(box, "exec", None) or getattr(box, "exec_")
+        exec_func()
+        if box.clickedButton() is settings_button:
+            self.show_settings()
+
+    def showKommunefilterMigrationNotice(self):
+        """Tell a 3.x user once that their kommune filter now works differently."""
+        widget = self.qgisIface.messageBar().createMessage(
+            "Geosearch DK", kommunefilter_info.MIGRATION_TEXT
+        )
+        button = QPushButton(widget)
+        button.setText(self.tr("Åbn indstillinger"))
+        button.pressed.connect(self.show_settings)
+        widget.layout().addWidget(button)
+        whatsnew_button = QPushButton(widget)
+        whatsnew_button.setText(self.tr("Hvad er nyt"))
+        whatsnew_button.pressed.connect(self.showKommunefilterWhatsNew)
+        widget.layout().addWidget(whatsnew_button)
+        self.qgisIface.messageBar().pushWidget(widget, level=Qgis.MessageLevel.Info)
+
+    def showKommunefilterWhatsNew(self):
+        whatsnew.show_whats_new(
+            self.qgisIface.mainWindow(),
+            anchor=kommunefilter_info.WHATSNEW_ANCHOR,
+            settings=self.settings,
         )
 
     def _pushSettingsMessage(self, kind, title, message):

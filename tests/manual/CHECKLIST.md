@@ -71,6 +71,15 @@ QGIS version: ____   OS: ____   Plugin commit: ____
       from the next search. Turning it on again brings them back.
 - [ ] The kommunefilter limits the hits to the chosen kommuner. An empty
       filter gives hits from the whole country.
+- [ ] *(Bifrost)* The kommunefilter is off by default. The code field is
+      enabled only when *Filtrér søgeresultater lokalt på kommune* is ticked,
+      and the explanation of the gotchas is always visible below it.
+- [ ] *(Bifrost)* With the filter on, hidden hits are counted in a grey last
+      row ("N resultater uden for kommunefilteret er skjult"). Choosing it
+      (click or Enter) explains the filter and offers to open the settings;
+      it does not zoom anywhere. `1a` with kommune 615 shows only that row.
+- [ ] *(Bifrost)* An unknown kommune code (e.g. `999`) gives an error row
+      and a message bar with a button to the settings.
 - [ ] Settings are kept after a QGIS restart.
 - [ ] Cancel in the options dialog does not change the settings.
 

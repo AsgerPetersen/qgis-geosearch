@@ -12,7 +12,14 @@ from qgis.core import Qgis, QgsApplication
 from qgis.PyQt.QtCore import QObject, pyqtSignal
 
 from .client import BifrostClient
-from .core import collect_rows, geometry_from_response, geometry_request, plan_search
+from .core import (
+    collect_rows,
+    geometry_from_response,
+    geometry_request,
+    kommunefilter_error_row,
+    plan_search,
+)
+from .kommunefilter import KommunefilterCache, UnknownKommune
 from .transport import GEOMETRY_TIMEOUT_MS, SEARCH_TIMEOUT_MS
 
 GEOMETRY_CACHE_SIZE = 50
@@ -35,6 +42,8 @@ class BifrostFetcher(QObject):
       ``finished``        a search completed; read the rows with ``get_result()``
       ``not_authorized``  Bifrost rejected the key (401/403)
       ``missing_key``     no key in the settings, ``BIFROST_KEY`` or the plugin; nothing sent
+      ``kommunefilter_error(str)``  the kommune filter has a code Bifrost
+                          does not know; the result is a single error row
 
     Only the newest search is reported: an older one still in flight is
     aborted when a new one starts, and its reply is ignored.
@@ -43,6 +52,7 @@ class BifrostFetcher(QObject):
     finished = pyqtSignal()
     not_authorized = pyqtSignal()
     missing_key = pyqtSignal()
+    kommunefilter_error = pyqtSignal(str)
 
     def __init__(self, settings, client=None, parent=None):
         QObject.__init__(self, parent)
@@ -56,6 +66,12 @@ class BifrostFetcher(QObject):
         self._geometry_id = 0
         self._geometry_call = None
         self._geometry_cache = OrderedDict()
+        self.kommunefilter_cache = KommunefilterCache(
+            lambda requests, callback: self.client.send(
+                requests, callback, SEARCH_TIMEOUT_MS
+            )
+        )
+        self._kommunefilter_base_url = None
 
     # --- settings ---------------------------------------------------------
 
@@ -68,12 +84,22 @@ class BifrostFetcher(QObject):
     def selected_keys(self):
         return self.settings.selected_type_keys()
 
+    def kommunefilter(self):
+        """The kommune filter setting, or "" when the filter is switched off."""
+        if not self.settings.value("kommunefilter_enabled"):
+            return ""
+        return self.settings.value("kommunefilter") or ""
+
     # --- search -----------------------------------------------------------
 
     def fetch(self, term):
-        """Start a search. Returns its id, or None when nothing was sent."""
-        # Kommunefilter is applied client-side from Step 5 (#11).
-        plan = plan_search(term, self.selected_keys(), kommunefilter="")
+        """Start a search. Returns its id, or None when nothing was sent.
+
+        With the kommune filter on, the kommune refs and /project memberships
+        are fetched alongside the search (once per session, see
+        ``KommunefilterCache``) and the hits outside the kommuner are hidden.
+        """
+        plan = plan_search(term, self.selected_keys(), kommunefilter=self.kommunefilter())
         if not plan.requests:
             return None
         if not self.key():
@@ -82,11 +108,33 @@ class BifrostFetcher(QObject):
         self._abort_search()
         self._search_id += 1
         search_id = self._search_id
+        parts = {}
+
+        def ready(name, value):
+            if search_id != self._search_id:
+                return
+            parts[name] = value
+            if len(parts) == 2:
+                self._on_search(search_id, plan, parts["responses"], parts["members"])
+
+        if plan.kommuner:
+            base_url = self.base_url()
+            if base_url != self._kommunefilter_base_url:
+                self.kommunefilter_cache.clear()
+                self._kommunefilter_base_url = base_url
         self._search_call = self.client.send(
             plan.requests,
-            lambda responses: self._on_search(search_id, plan, responses),
+            lambda responses: ready("responses", responses),
             SEARCH_TIMEOUT_MS,
         )
+        if plan.kommuner:
+            self.kommunefilter_cache.load(
+                plan.kommuner,
+                plan.membership_targets,
+                lambda members: ready("members", members),
+            )
+        else:
+            ready("members", None)
         return search_id
 
     def get_result(self):
@@ -97,7 +145,7 @@ class BifrostFetcher(QObject):
             self._search_call.abort()
             self._search_call = None
 
-    def _on_search(self, search_id, plan, responses):
+    def _on_search(self, search_id, plan, responses, members):
         if search_id != self._search_id:
             return
         self._search_call = None
@@ -108,7 +156,16 @@ class BifrostFetcher(QObject):
                         request.endpoint, ", ".join(request.keys), response
                     )
                 )
-        result = collect_rows(plan, responses)
+        if isinstance(members, BaseException):
+            row = kommunefilter_error_row(members)
+            _log(row["message"])
+            self.result = [row]
+            self.hidden = {}
+            if isinstance(members, UnknownKommune):
+                self.kommunefilter_error.emit(row["message"])
+            self.finished.emit()
+            return
+        result = collect_rows(plan, responses, members)
         for row in result.rows:
             if row["status"] == "error" and row.get("message"):
                 _log("Fejl fra Bifrost for {}: {}".format(row["title"], row["message"]))
@@ -178,4 +235,5 @@ class BifrostFetcher(QObject):
         self._search_id += 1
         self._abort_search()
         self.cancel_geometry()
+        self.kommunefilter_cache.abort()
         self.client.abort_all()

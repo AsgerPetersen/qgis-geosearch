@@ -13,6 +13,10 @@ from .types import DEFAULT_ON_KEYS, TYPES
 KEY_SETTING = "bifrost_key"
 URL_SETTING = "bifrost_url"
 TYPE_SETTING = "search_{}"
+KOMMUNEFILTER_SETTING = "kommunefilter"
+KOMMUNEFILTER_ENABLED_SETTING = "kommunefilter_enabled"
+# Set once the 3.x kommunefilter has been migrated, so it happens only once.
+KOMMUNEFILTER_MIGRATED_SETTING = "kommunefilter_migrated"
 
 # Settings from 3.x (GSearch) that are deleted on upgrade.
 # "token": a Dataforsyningen token, the bundled one or the user's own. It
@@ -68,7 +72,7 @@ def migrate(store):
     - The Dataforsyningen ``token`` is deleted.
     - ``search_<key>`` values are kept as they are. Types without a stored
       value get ``type_default()``, so new types start switched off.
-    - ``kommunefilter`` is migrated by Step 5 (#11), not here.
+    - ``kommunefilter`` is migrated by ``migrate_kommunefilter``.
     """
     removed = []
     for name in OBSOLETE_SETTINGS:
@@ -76,3 +80,21 @@ def migrate(store):
             store.remove(name)
             removed.append(name)
     return tuple(removed)
+
+
+def migrate_kommunefilter(value, set_value):
+    """Switch the kommune filter on once for users who had one in 3.x.
+
+    3.x filtered on the server whenever ``kommunefilter`` was set. Now the
+    filter is client-side and opt-in (``kommunefilter_enabled``). ``value`` and
+    ``set_value`` read and write a setting by name. Returns True when the
+    filter was switched on now, so the user can be told; running it again
+    returns False and changes nothing.
+    """
+    if value(KOMMUNEFILTER_MIGRATED_SETTING):
+        return False
+    switched_on = bool((value(KOMMUNEFILTER_SETTING) or "").strip())
+    if switched_on:
+        set_value(KOMMUNEFILTER_ENABLED_SETTING, True)
+    set_value(KOMMUNEFILTER_MIGRATED_SETTING, True)
+    return switched_on
