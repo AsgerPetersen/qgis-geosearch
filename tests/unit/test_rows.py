@@ -9,9 +9,11 @@ from geosearch_dk.bifrost import (
     collect_rows,
     dedupe,
     error_row,
+    matches_term,
     normalize,
     plan_search,
     rank_rows,
+    rank_types,
     types_by_key,
 )
 
@@ -60,9 +62,12 @@ def test_rows_satisfy_the_contract(name):
         assert len([r for r in rows if r["key"] == key]) <= plan.limits[key]
     ids = [(r["kind"], r["ref"]["id"]) for r in rows]
     assert len(ids) == len(set(ids))
-    assert [r["key"] for r in rows] == sorted(
-        (r["key"] for r in rows), key=lambda k: plan.keys.index(k)
-    )
+    keys = [r["key"] for r in rows]
+    order = [k for i, k in enumerate(keys) if k not in keys[:i]]
+    assert keys == sorted(keys, key=order.index)
+    groups = [(k, [r for r in rows if r["key"] == k]) for k in plan.keys]
+    ranked = [k for k, g in rank_types(groups, plan.term) if g]
+    assert order == ranked
 
 
 def test_single_address_unit_becomes_husnummer():
@@ -161,6 +166,45 @@ def test_rank_rows_puts_exact_matrikelnummer_first():
     ]
     assert rank_rows(rows, "20 a, søll")[0]["components"]["matrikelnummer"] == "20a"
     assert rank_rows(rows, "søllerød") == rows
+
+
+def _row(key, text):
+    return {"key": key, "status": STATUS_OK, "text": text}
+
+
+def test_matches_term_needs_every_word_to_start_a_word():
+    assert matches_term(_row("reg", "Region Hovedstaden"), "hovedstaden")
+    assert matches_term(_row("reg", "Region Hovedstaden"), "region hoved")
+    assert matches_term(_row("pos", "8000 Aarhus C"), "8000")
+    assert not matches_term(_row("pos", "8732 Hovedgård"), "hovedstaden")
+    assert not matches_term(_row("mat", "1a, Hovedejerlavet, Stadil"), "hovedstaden")
+    assert not matches_term(_row("reg", "Region Hovedstaden"), "region sjælland")
+    assert not matches_term(_row("reg", "Region Hovedstaden"), "")
+    assert not matches_term(error_row(BY_KEY["reg"]), "regioner")
+
+
+def test_rank_types_puts_types_with_only_fuzzy_hits_last():
+    groups = [
+        ("ste", [_row("ste", "Region Hovedstaden (bygning, Hillerød)")]),
+        ("pos", [_row("pos", "8732 Hovedgård")]),
+        ("mat", [error_row(BY_KEY["mat"])]),
+        ("kom", [_row("kom", "Holbæk Kommune")]),
+        ("reg", [_row("reg", "Region Hovedstaden")]),
+    ]
+    assert [k for k, _ in rank_types(groups, "hovedstaden")] == [
+        "ste",
+        "mat",
+        "reg",
+        "pos",
+        "kom",
+    ]
+    assert rank_types(groups, "xyz") == groups
+    assert [k for k, _ in rank_types(groups[1:], "hovedstaden")] == [
+        "mat",
+        "reg",
+        "pos",
+        "kom",
+    ]
 
 
 def test_dedupe_keeps_first_and_errors():
