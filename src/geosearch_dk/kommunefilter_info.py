@@ -29,7 +29,7 @@ def info_body_html():
         "mange.</li>"
         "<li><b>Adresser virker bedst.</b> For adresser sender pluginet kommunen "
         "med til Bifrost, så adresser i kommunen kommer først.</li>"
-        "<li><b>Stednavne</b> vurderes ud fra ét punkt. Store områder (fx en "
+        "<li><b>Stednavne</b> har kun én kommune i Bifrost. Store områder (fx en "
         "landsdel eller en å), som strækker sig over flere kommuner, kan blive "
         "skjult.</li>"
         "<li><b>Regioner, kredse og byer</b> vises, hvis de overlapper din "
