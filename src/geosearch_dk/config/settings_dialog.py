@@ -24,7 +24,7 @@ from qgis.PyQt.QtWidgets import QCheckBox, QFileDialog
 from qgis.gui import QgsOptionsPageWidget
 from qgis.PyQt.QtWidgets import QVBoxLayout
 from qgis.PyQt.QtGui import QRegularExpressionValidator
-from qgis.PyQt.QtCore import QCoreApplication, QRegularExpression, Qt
+from qgis.PyQt.QtCore import QCoreApplication, QRegularExpression, Qt, QTimer
 from ..bifrost import settings_model as model
 from ..bifrost.types import TYPES
 from .qgissettingmanager import *
@@ -49,6 +49,13 @@ class ConfigOptionsPage(QgsOptionsPageWidget):
         self.setLayout(layout)
         layout.addWidget(self.config_widget)
         self.setObjectName("geosearchOptions")
+
+    def showEvent(self, event):
+        super().showEvent(event)
+        # "Indtast nøgle" in the search panel's key banner
+        if getattr(self.settings, "focus_key_on_open", False):
+            self.settings.focus_key_on_open = False
+            QTimer.singleShot(0, self.config_widget.focus_key)
 
     def apply(self):
         self.config_widget.accept_dialog()
@@ -78,6 +85,10 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
         self.kommunefilterWhatsNewLabel.linkActivated.connect(
             self._show_kommunefilter_whatsnew
         )
+
+    def focus_key(self):
+        self.scrollArea.ensureWidgetVisible(self.bifrost_key)
+        self.bifrost_key.setFocus(Qt.FocusReason.OtherFocusReason)
 
     def _show_kommunefilter_whatsnew(self, *args):
         # A widget in the (modal) options dialog as parent, so the notice is

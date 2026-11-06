@@ -85,12 +85,23 @@ QGIS version: ____   OS: ____   Plugin commit: ____
 
 ## Dialogs and messages
 
-- [ ] *(Bifrost)* The **"what's new" dialog** is shown once after upgrading
-      from the GSearch version, and not again after a restart.
-- [ ] *(Bifrost)* Unticking **Vis ikke igen** shows the dialog again at the
-      next start. Links open in the web browser.
-- [ ] *(Bifrost)* The **ⓘ** button opens the "what's new"/about information
-      again.
+- [ ] *(Bifrost)* **No dialog at startup**: the "what's new" dialog opens
+      only from ⓘ, the banner link or the kommunefilter links. Links in it
+      open in the web browser.
+- [ ] *(Bifrost)* **Info banner** (blue): after upgrading from the GSearch
+      version (a profile with an old token, kommunefilter or saved types),
+      the search panel shows "Geosearch DK søger nu i Klimadatastyrelsens
+      Bifrost …" and ⓘ has a red dot. A new profile shows neither.
+- [ ] *(Bifrost)* **✕** hides the banner, also after a restart; the red dot
+      stays until the dialog has been opened. *Se hvad der er ændret* or ⓘ
+      opens the dialog and removes both.
+- [ ] *(Bifrost)* **Key banner** (yellow, no ✕): shown when no Bifrost key is
+      set. *Indtast nøgle* opens the settings with the cursor in the key
+      field; *Hvorfor?* opens the dialog at the key section. Saving a key
+      hides it at once. Searching without a key shows no message bar.
+- [ ] *(Bifrost)* Both banners read well docked at the top (long text) and in
+      a narrow side dock (short text, links on their own line), in a light
+      and a dark theme.
 - [ ] *(Bifrost)* **Kommunefilter migration**: in a profile with an old
       GSearch kommunefilter setting, the filter is migrated on first start,
       and the **message bar** explains what happened. The message is shown

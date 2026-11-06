@@ -20,7 +20,7 @@ author               : asger@septima.dk
 
 from builtins import object
 
-from qgis.PyQt.QtCore import QFileInfo, QSettings, QTimer, QTranslator, qVersion, Qt
+from qgis.PyQt.QtCore import QFileInfo, QSettings, QTranslator, qVersion, Qt
 from qgis.PyQt.QtWidgets import QDockWidget, QAction
 from qgis.PyQt.QtGui import QIcon
 from qgis.core import QgsApplication
@@ -81,34 +81,21 @@ class SeptimaGeoSearch(object):
         self.iface.addDockWidget(
             Qt.DockWidgetArea.TopDockWidgetArea, self.searchdockwidget
         )
+        # QGIS restores the saved dock size after initGui; fit it to the banner
+        self.searchdockwidget.dockLocationChanged.connect(self.searchwidget.fitDock)
+        self.iface.initializationCompleted.connect(self.searchwidget.fitDock)
         # Make changed settings apply immediately
         self.settings.settings_updated.connect(self.searchwidget.readconfig)
         if self.settings.kommunefilter_migrated_now:
             self.settings.kommunefilter_migrated_now = False
             self.searchwidget.showKommunefilterMigrationNotice()
 
-        # "Hvad er nyt" once after an upgrade, when the main window is up.
-        self.notice_timer = QTimer()
-        self.notice_timer.setSingleShot(True)
-        self.notice_timer.timeout.connect(self._show_notice)
-        if self.iface.mainWindow().isVisible():
-            self.notice_timer.start(500)
-        else:
-            self.iface.initializationCompleted.connect(self._start_notice_timer)
-
-    def _start_notice_timer(self):
-        self.notice_timer.start(500)
-
-    def _show_notice(self):
-        whatsnew.maybe_show_on_startup(self.iface.mainWindow(), self.settings)
-
     def unload(self):
-        self.notice_timer.stop()
-        try:
-            self.iface.initializationCompleted.disconnect(self._start_notice_timer)
-        except (TypeError, RuntimeError):
-            pass
         whatsnew.close_whats_new()
+        try:
+            self.iface.initializationCompleted.disconnect(self.searchwidget.fitDock)
+        except TypeError:
+            pass
         self.searchwidget.unload()  # try to avoid processing events, when QGIS is closing
         self.iface.removeDockWidget(self.searchdockwidget)
         self.iface.unregisterOptionsWidgetFactory(self.options_factory)

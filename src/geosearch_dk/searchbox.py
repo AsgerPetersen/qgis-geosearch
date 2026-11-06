@@ -26,9 +26,17 @@ import time
 
 from osgeo import ogr
 
-from qgis.PyQt.QtWidgets import QFrame, QMessageBox, QPushButton, QApplication
+from qgis.PyQt.QtWidgets import (
+    QWIDGETSIZE_MAX,
+    QApplication,
+    QDockWidget,
+    QFrame,
+    QMainWindow,
+    QMessageBox,
+    QPushButton,
+)
 from qgis.PyQt.QtGui import QColor, QIcon
-from qgis.PyQt.QtCore import QSettings, QSize
+from qgis.PyQt.QtCore import QEvent, QSettings, QSize, Qt, QTimer
 from qgis.PyQt import uic
 from qgis.core import (
     QgsApplication,
@@ -42,13 +50,15 @@ from qgis.core import (
 )
 from qgis.gui import QgsVertexMarker, QgsRubberBand
 
-from . import kommunefilter_info, qgisutils, whatsnew
+from . import kommunefilter_info, notice, qgisutils, whatsnew
+from .bifrost import settings_model
 from .suggester import Suggester
 from .config import Settings
 
 # Seconds a not-authorised/missing-key message stays and is not repeated.
 MESSAGE_DURATION = 15
 ZOOM_BUFFER = 200.0
+ICONS = os.path.join(os.path.dirname(__file__), "icons")
 
 FORM_CLASS, _ = uic.loadUiType(
     os.path.join(os.path.dirname(__file__), "ui_search.ui")
@@ -93,6 +103,11 @@ class SearchBox(QFrame, FORM_CLASS):
             self.setupCrsTransform
         )
 
+        self.infoButton.setIconSize(QSize(16, 16))
+        self.infoButton.setFixedSize(20, 20)
+        self.infoButton.clicked.connect(lambda: self.show_whats_new())
+        self._setupBanner()
+
         self.adjustSize()
         self.resize(50, self.height())
         self.searchEdit.setFocus()
@@ -106,20 +121,167 @@ class SearchBox(QFrame, FORM_CLASS):
         # self.settingsButton.setStyleSheet('border: none;')
         self.settingsButton.setFixedSize(20, 20)
 
-        self.settingsButton.clicked.connect(self.show_settings)
+        self.settingsButton.clicked.connect(lambda: self.show_settings())
 
-        self.infoButton.setIcon(
-            QIcon(os.path.join(os.path.dirname(__file__), "icons", "info.svg"))
+    def show_whats_new(self, anchor=None):
+        whatsnew.show_whats_new(
+            self.qgisIface.mainWindow(), anchor=anchor, settings=self.settings
         )
-        self.infoButton.setIconSize(QSize(16, 16))
-        self.infoButton.setFixedSize(20, 20)
-        self.infoButton.clicked.connect(self.show_whats_new)
 
-    def show_whats_new(self):
-        whatsnew.show_whats_new(self.qgisIface.mainWindow(), settings=self.settings)
+    def show_settings(self, focus_key=False):
+        self.settings.focus_key_on_open = focus_key
+        try:
+            self.qgisIface.showOptionsDialog(currentPage="geosearchOptions")
+        finally:
+            self.settings.focus_key_on_open = False
 
-    def show_settings(self):
-        self.qgisIface.showOptionsDialog(currentPage="geosearchOptions")
+    # -- The banner below the search field and the dot on ⓘ (notice.py) -------
+
+    def _setupBanner(self):
+        self._infoIcons = {
+            False: QIcon(os.path.join(ICONS, "info.svg")),
+            True: QIcon(os.path.join(ICONS, "info-new.svg")),
+        }
+        self._bannerIcons = {
+            notice.INFO: QgsApplication.getThemeIcon("/mIconInfo.svg"),
+            notice.KEY: QgsApplication.getThemeIcon("/mIconWarning.svg"),
+        }
+        self._bannerShown = None  # (state, narrow) of the text shown
+        self._bannerFitted = None  # (visible, label height) the dock was fitted to
+        self.bannerCloseButton.setToolTip(self.tr("Skjul beskeden"))
+        self.bannerCloseButton.clicked.connect(self.closeBanner)
+        self.bannerLabel.linkActivated.connect(self._bannerLinkActivated)
+        self.bannerLabel.installEventFilter(self)
+        self.settings.settings_updated.connect(self.updateBanner)
+        whatsnew.notifier.opened.connect(self.updateBanner)
+        self.updateBanner()
+
+    def bannerState(self):
+        """notice.KEY, notice.INFO or None."""
+        return notice.banner_state(
+            has_key=bool(self.settings.bifrost_key()),
+            upgraded=self.settings.value(settings_model.UPGRADED_FROM_3X_SETTING),
+            seen_version=self.settings.value(notice.SEEN_SETTING),
+            closed_version=self.settings.value(notice.CLOSED_SETTING),
+        )
+
+    def updateBanner(self, *args):
+        dot = notice.show_dot(
+            self.settings.value(settings_model.UPGRADED_FROM_3X_SETTING),
+            self.settings.value(notice.SEEN_SETTING),
+        )
+        self.infoButton.setIcon(self._infoIcons[dot])
+        state = self.bannerState()
+        if state is None:
+            self._bannerShown = None
+            self.bannerFrame.hide()
+            self._shrinkToContents()
+            return
+        narrow = notice.is_narrow(self.width())
+        if self._bannerShown != (state, narrow):
+            self._bannerShown = (state, narrow)
+            self.bannerFrame.setStyleSheet(notice.stylesheet(state))
+            self.bannerIcon.setPixmap(self._bannerIcons[state].pixmap(16, 16))
+            self.bannerLabel.setText(self._bannerHtml(state, narrow))
+            self.bannerCloseButton.setVisible(state == notice.INFO)
+        self.bannerFrame.show()
+        self._fitBannerHeight()
+
+    def _bannerHtml(self, state, narrow):
+        link_color = notice.STYLES[state]["text"]
+        if state == notice.KEY:
+            message = (
+                self.tr("Søgning kræver en Bifrost-nøgle.")
+                if narrow
+                else self.tr("Bifrost kræver en API-nøgle, og pluginet har ingen endnu.")
+            )
+            links = [
+                (notice.LINK_ENTER_KEY, self.tr("Indtast nøgle")),
+                (notice.LINK_WHY_KEY, self.tr("Hvorfor?")),
+            ]
+        else:
+            message = (
+                self.tr("Søgningen bruger nu Bifrost. Noget virker anderledes.")
+                if narrow
+                else self.tr(
+                    "Geosearch DK søger nu i Klimadatastyrelsens Bifrost i stedet "
+                    "for GSearch. Noget virker anderledes."
+                )
+            )
+            links = [(notice.LINK_WHATS_NEW, self.tr("Se hvad der er ændret"))]
+        return notice.banner_html(message, links, narrow, link_color)
+
+    def _bannerLinkActivated(self, link):
+        if link == notice.LINK_ENTER_KEY:
+            self.show_settings(focus_key=True)
+        elif link == notice.LINK_WHY_KEY:
+            self.show_whats_new(anchor="noegle")
+        else:
+            self.show_whats_new()
+
+    def closeBanner(self):
+        """✕: hide the "info" banner for this NOTICE_VERSION. The dot stays."""
+        self.settings.set_value(notice.CLOSED_SETTING, notice.NOTICE_VERSION)
+        self.updateBanner()
+
+    def _fitBannerHeight(self):
+        # A dock does not ask its widget for heightForWidth, and a wrapped
+        # label's sizeHint assumes some other width, so fix the label's height:
+        # it is neither cut off in a narrow dock nor too tall in a wide one.
+        width = self.bannerLabel.width()
+        if width > 0:
+            # heightForWidth is bounded by the label's own min and max height
+            self.bannerLabel.setMinimumHeight(0)
+            self.bannerLabel.setMaximumHeight(QWIDGETSIZE_MAX)
+            self.bannerLabel.setFixedHeight(self.bannerLabel.heightForWidth(width))
+        self._shrinkToContents()
+
+    def eventFilter(self, obj, event):
+        # The label gets its new width after our resizeEvent; fit it then
+        if (
+            obj is self.bannerLabel
+            and event.type() == QEvent.Type.Resize
+            and event.size().width() != event.oldSize().width()
+        ):
+            self._fitBannerHeight()
+        return super().eventFilter(obj, event)
+
+    def _shrinkToContents(self):
+        self.updateGeometry()
+        fitted = (
+            self.bannerFrame.isVisibleTo(self),
+            self.bannerLabel.minimumHeight(),
+        )
+        if fitted != self._bannerFitted:
+            self._bannerFitted = fitted
+            QTimer.singleShot(0, self._fitDock)
+
+    def fitDock(self, *args):
+        if self.bannerFrame.isVisibleTo(self):
+            QTimer.singleShot(0, self._fitDock)
+
+    def _fitDock(self):
+        # A top or bottom dock keeps its height when the banner appears or
+        # disappears; give it the height the panel needs now.
+        dock = self.parentWidget()
+        if not isinstance(dock, QDockWidget) or dock.isFloating():
+            return
+        window = dock.parentWidget()
+        if not isinstance(window, QMainWindow):
+            return
+        area = window.dockWidgetArea(dock)
+        if area in (
+            Qt.DockWidgetArea.TopDockWidgetArea,
+            Qt.DockWidgetArea.BottomDockWidgetArea,
+        ):
+            window.resizeDocks(
+                [dock], [dock.sizeHint().height()], Qt.Orientation.Vertical
+            )
+
+    def resizeEvent(self, event):
+        super().resizeEvent(event)
+        if self.bannerFrame.isVisible():
+            self.updateBanner()
 
     def readconfig(self):
         settings = Settings()  # new config
@@ -159,14 +321,8 @@ class SearchBox(QFrame, FORM_CLASS):
         )
 
     def handleMissingKey(self):
-        self._pushSettingsMessage(
-            "missingkey",
-            self.tr("Bifrost-nøgle mangler"),
-            self.tr(
-                "Geosearch DK kræver en nøgle til Bifrost. Angiv den i "
-                "indstillingerne eller i miljøvariablen BIFROST_KEY."
-            ),
-        )
+        # Said by the key banner, which stays until a key is entered.
+        self.updateBanner()
 
     def handleKommunefilterError(self, message):
         self._pushSettingsMessage("kommunefilter", self.tr("Kommunefilter"), message)
@@ -400,6 +556,12 @@ class SearchBox(QFrame, FORM_CLASS):
         )
 
     def unload(self):
+        for signal in (self.settings.settings_updated, whatsnew.notifier.opened):
+            try:
+                signal.disconnect(self.updateBanner)
+            except (TypeError, RuntimeError):
+                pass
+        self.bannerLabel.removeEventFilter(self)
         self.suggester.unload()
         self.clearMarkerGeom()
 

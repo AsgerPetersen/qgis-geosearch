@@ -7,11 +7,11 @@ Pluginet er udviklet af [Septima](http://www.septima.dk) og stilles frit og grat
 
 Overgang til Bifrost
 --------------
-Klimadatastyrelsen lukker søgetjenesten [GSearch](https://github.com/Klimadatastyrelsen/gsearch) i november 2026. Fra version 4.0 bruger Geosearch DK derfor Klimadatastyrelsens nye søgetjeneste, **Bifrost**. Det meste virker som før, men der er nogle forskelle. Pluginet viser dem første gang, det starter efter opdateringen, og du kan altid finde dem igen under ⓘ-knappen i søgepanelet.
+Klimadatastyrelsen lukker søgetjenesten [GSearch](https://github.com/Klimadatastyrelsen/gsearch) i november 2026. Fra version 4.0 bruger Geosearch DK derfor Klimadatastyrelsens nye søgetjeneste, **Bifrost**. Det meste virker som før, men der er nogle forskelle. Efter opdateringen viser søgepanelet en lille blå bjælke med et link til forskellene, og du kan altid finde dem igen under ⓘ-knappen i søgepanelet.
 
 **Du skal bruge en nøgle til Bifrost**\
 Bifrost kræver sin egen API-nøgle. Et token til Dataforsyningen kan ikke bruges, så pluginet har fjernet det token, du måske havde angivet i den gamle version.
-Pluginet har endnu ingen indbygget nøgle. Indtil videre skal du selv indtaste en nøgle: Klik på skruenøglen i søgepanelet (eller vælg *Indstillinger → Indstillinger → Geosearch DK*), og indsæt den under **Bifrost API-nøgle**. [Sådan får du en API-nøgle til Bifrost](https://bifrost.test42.dataforsyningen.dk/docs/da/#authentication). Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen `BIFROST_KEY`.
+Pluginet har endnu ingen indbygget nøgle. Så længe der ingen nøgle er, viser søgepanelet en gul bjælke. Indtil videre skal du selv indtaste en nøgle: Klik på *Indtast nøgle* i den gule bjælke eller på skruenøglen i søgepanelet (eller vælg *Indstillinger → Indstillinger → Geosearch DK*), og indsæt den under **Bifrost API-nøgle**. [Sådan får du en API-nøgle til Bifrost](https://bifrost.test42.dataforsyningen.dk/docs/da/#authentication). Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen `BIFROST_KEY`.
 
 **Nyt**
 - **Lejligheder:** Du kan nu finde adresser med etage og dør.
