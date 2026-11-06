@@ -21,6 +21,7 @@ from .core import (
 )
 from .kommunefilter import KommunefilterCache, UnknownKommune
 from .transport import GEOMETRY_TIMEOUT_MS, SEARCH_TIMEOUT_MS
+from .translation import tr
 
 GEOMETRY_CACHE_SIZE = 50
 LOG_TAG = "Geosearch DK"
@@ -152,9 +153,8 @@ class BifrostFetcher(QObject):
         for request, response in zip(plan.requests, responses):
             if isinstance(response, Exception):
                 _log(
-                    "Fejl i kald til Bifrost /{} ({}): {}".format(
-                        request.endpoint, ", ".join(request.keys), response
-                    )
+                    tr("bifrost", "Fejl i kald til Bifrost /%s (%s): %s")
+                    % (request.endpoint, ", ".join(request.keys), response)
                 )
         if isinstance(members, BaseException):
             row = kommunefilter_error_row(members)
@@ -168,7 +168,10 @@ class BifrostFetcher(QObject):
         result = collect_rows(plan, responses, members)
         for row in result.rows:
             if row["status"] == "error" and row.get("message"):
-                _log("Fejl fra Bifrost for {}: {}".format(row["title"], row["message"]))
+                _log(
+                    tr("bifrost", "Fejl fra Bifrost for %s: %s")
+                    % (tr("bifrost", row["title"]), row["message"])
+                )
         self.result = result.rows
         self.hidden = result.hidden
         self.finished.emit()
@@ -219,7 +222,10 @@ class BifrostFetcher(QObject):
             return
         self._geometry_call = None
         if isinstance(response, Exception):
-            _log("Kunne ikke hente geometri for '{}': {}".format(row["text"], response))
+            _log(
+                tr("bifrost", "Kunne ikke hente geometri for '%s': %s")
+                % (row["text"], response)
+            )
             callback(row, None)
             return
         geojson = geometry_from_response(row, response)

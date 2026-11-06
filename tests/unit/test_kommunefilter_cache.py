@@ -9,7 +9,7 @@ from geosearch_dk.bifrost import (
     UnknownKommune,
     kommunefilter_error_row,
 )
-from geosearch_dk.kommunefilter_info import INFO_HTML, MIGRATION_TEXT, hidden_row_text
+from geosearch_dk.kommunefilter_info import hidden_row_text, info_html, migration_text
 
 
 def kommune_match(code):
@@ -190,7 +190,7 @@ def test_hidden_row_text(count, text):
 
 
 def test_info_texts():
-    assert MIGRATION_TEXT == "Kommunefilteret virker nu anderledes – læs hvorfor"
+    assert migration_text() == "Kommunefilteret virker nu anderledes – læs hvorfor"
     for part in ("100 bedste hits", "1a", "Horsens (615)", "vestergade 1 horsens"):
-        assert part in INFO_HTML
-    assert hidden_row_text(12) in INFO_HTML
+        assert part in info_html()
+    assert hidden_row_text(12) in info_html()

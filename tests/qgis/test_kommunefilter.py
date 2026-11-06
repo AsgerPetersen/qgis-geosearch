@@ -168,7 +168,7 @@ def test_migration_notice_buttons(plugin, monkeypatch):
     )
     box.showKommunefilterMigrationNotice()
     (widget,) = pushed
-    assert kommunefilter_info.MIGRATION_TEXT in widget.text()
+    assert kommunefilter_info.migration_text() in widget.text()
     buttons = {b.text(): b for b in widget.findChildren(QPushButton)}
     buttons["Åbn indstillinger"].pressed.emit()
     buttons["Hvad er nyt"].pressed.emit()

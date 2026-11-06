@@ -19,7 +19,9 @@ brugeren klikker. Brugere, der opdaterer fra 3.x, ser en lille blå bjælke i
 søgepanelet med et link til dialogen og en rød prik på ⓘ-knappen, indtil de har
 åbnet den. Bjælken kan lukkes, og dialogen kan altid åbnes med ⓘ-knappen. Nye
 brugere ser hverken bjælken eller prikken. Teksten er
-`src/geosearch_dk/help/hvad_er_nyt.html`.
+`src/geosearch_dk/help/hvad_er_nyt.html`, og på engelsk
+`hvad_er_nyt.en.html`. Kører QGIS på engelsk (fx `en_DK`), er hele pluginet på
+engelsk; ellers er det på dansk.
 
 ### Nøgle til Bifrost
 Bifrost kræver sin egen API-nøgle; et token til Dataforsyningen kan ikke

@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Search</string>
+   <string>Søg</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="spacing">
@@ -138,7 +138,7 @@
       <item alignment="Qt::AlignTop">
        <widget class="QToolButton" name="bannerCloseButton">
         <property name="text">
-         <string>✕</string>
+         <string notr="true">✕</string>
         </property>
         <property name="autoRaise">
          <bool>true</bool>

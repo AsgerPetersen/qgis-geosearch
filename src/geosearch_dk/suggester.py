@@ -36,7 +36,7 @@ from qgis.PyQt.uic import loadUi
 from qgis.core import QgsApplication, QgsMessageLog, Qgis
 
 from .bifrost.fetcher import BifrostFetcher
-from .kommunefilter_info import hidden_row_text
+from .kommunefilter_info import hidden_row_text, hidden_row_tooltip
 
 # Status of the grey last row that counts the hits the kommune filter hid.
 HIDDEN_STATUS = "hidden"
@@ -179,7 +179,7 @@ class Suggester(QObject):
             item.setText(0, hidden_text)
             item.setIcon(0, QgsApplication.getThemeIcon("/mIconInfo.svg"))
             item.setForeground(0, color)
-            item.setToolTip(0, "Hvorfor? Klik for at læse om kommunefilteret")
+            item.setToolTip(0, hidden_row_tooltip())
             item.setFlags(Qt.ItemFlag.ItemIsEnabled)
             item.setData(
                 2,

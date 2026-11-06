@@ -12,6 +12,7 @@ from qgis.PyQt.QtCore import QObject, QTimer, QUrl, pyqtSignal
 from qgis.PyQt.QtNetwork import QNetworkReply, QNetworkRequest
 
 from . import transport
+from .translation import tr
 from .transport import (
     BifrostMissingKey,
     BifrostNetworkError,
@@ -113,9 +114,8 @@ class BifrostCall(QObject):
     def _decode(self, reply):
         if reply.property("geosearch_timed_out"):
             return BifrostNetworkError(
-                "Bifrost svarede ikke inden for {} sekunder".format(
-                    self._timeout_ms // 1000
-                )
+                tr("bifrost", "Bifrost svarede ikke inden for %d sekunder")
+                % (self._timeout_ms // 1000)
             )
         status = reply.attribute(QNetworkRequest.Attribute.HttpStatusCodeAttribute)
         body = bytes(reply.readAll())
@@ -124,7 +124,7 @@ class BifrostCall(QObject):
                 status = 200
             else:
                 return BifrostNetworkError(
-                    "Kunne ikke kontakte Bifrost: " + reply.errorString()
+                    tr("bifrost", "Kunne ikke kontakte Bifrost: %s") % reply.errorString()
                 )
         retry_after = None
         if reply.hasRawHeader(b"Retry-After"):

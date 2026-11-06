@@ -33,6 +33,7 @@ from .kommunefilter import (
     membership_targets,
     parse_kommunekoder,
 )
+from .translation import tr
 from .types import (
     PROJECT,
     RESOLVE,
@@ -50,7 +51,6 @@ SEARCH_MAX_LIMIT = 100
 
 STATUS_OK = "ok"
 STATUS_ERROR = "error"
-ERROR_TEXT = " - Der skete en fejl"
 
 
 class ParsedQuery(NamedTuple):
@@ -280,7 +280,7 @@ def error_row(search_type, message=None):
         "key": search_type.key,
         "title": search_type.title,
         "status": STATUS_ERROR,
-        "text": search_type.title + ERROR_TEXT,
+        "text": tr("bifrost", "%s - Der skete en fejl") % tr("bifrost", search_type.title),
         "message": message,
         "kind": None,
         "ref": None,
@@ -301,15 +301,16 @@ def kommunefilter_error_row(error):
     """
     if isinstance(error, UnknownKommune):
         code = error.code.lstrip("0") or "0"
-        text = "Ukendt kommunekode %s i kommunefilteret" % code
-        message = (
+        text = tr("bifrost", "Ukendt kommunekode %s i kommunefilteret") % code
+        message = tr(
+            "bifrost",
             "Kommunefilteret i indstillingerne indeholder kommunekoden %s, som "
             "Bifrost ikke kender. Ret eller fjern koden under Indstillinger > "
-            "Geosearch DK." % code
-        )
+            "Geosearch DK.",
+        ) % code
     else:
-        text = "Kommunefilter" + ERROR_TEXT
-        message = "Kommunefilteret kunne ikke hentes fra Bifrost: %s" % error
+        text = tr("bifrost", "%s - Der skete en fejl") % tr("bifrost", "Kommunefilter")
+        message = tr("bifrost", "Kommunefilteret kunne ikke hentes fra Bifrost: %s") % error
     return {
         "key": KOMMUNEFILTER_KEY,
         "title": "Kommunefilter",
