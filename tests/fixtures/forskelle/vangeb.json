@@ -1,0 +1,8810 @@
+{
+ "id": "vangeb",
+ "term": "vangeb",
+ "kommuner": "",
+ "sources": [
+  "supplerende"
+ ],
+ "recorded_at": "2026-11-06T19:48:49+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 197,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "0a3f50a6-fb8c-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummer": "1",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 1, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719985.07787239,
+         6190435.70509626
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720005.91,
+         6190438.13
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-fb8d-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummer": "2",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 2, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719972.1,
+         6190374.78
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719945.49,
+         6190396.8
+        ]
+       ]
+      }
+     },
+     {
+      "id": "eb48c859-752b-400c-89c6-323dcf5d0c01",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummer": "2A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 2A, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719972.1,
+         6190374.78
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719958.73,
+         6190426.83
+        ]
+       ]
+      }
+     },
+     {
+      "id": "8214164f-e8cb-4943-898e-49cf1d031a9f",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummer": "3",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 3, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720030.9,
+         6190410.31
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720030.15,
+         6190440.49
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-fb8e-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummer": "4",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 4, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719971.64,
+         6190367.73
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719951.61,
+         6190370.25
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-fb8f-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummer": "5",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 5, st., Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720002.54,
+         6190402.35
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719996.65,
+         6190384.27
+        ]
+       ]
+      }
+     },
+     {
+      "id": "1066c1ad-fafa-4b83-b51b-140bee7224d1",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummer": "5",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 5, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720002.54,
+         6190402.35
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719996.65,
+         6190384.27
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-fb90-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummer": "5",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 5, 1., Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720002.54,
+         6190402.35
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719996.65,
+         6190384.27
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-fb91-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummer": "6",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 6, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719972.83,
+         6190350.16
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719950.55,
+         6190343.44
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-fb92-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummer": "7",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 7, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720002.54,
+         6190402.35
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720008.65,
+         6190368.78
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 198,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "0a3f507d-c454-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummertekst": "1",
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 1, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719985.07787239,
+         6190435.70509626
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720005.91,
+         6190438.13
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-c455-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummertekst": "2",
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 2, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719972.1,
+         6190374.78
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719945.49,
+         6190396.8
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-c464-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0684",
+      "vejnavn": "Vangebovej",
+      "husnummertekst": "2",
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangebovej 2, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         717727.04709928,
+         6190529.4740553
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         717720.02,
+         6190496.48
+        ]
+       ]
+      }
+     },
+     {
+      "id": "45cacb7c-1440-45b2-8d2e-06c767862990",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummertekst": "2A",
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 2A, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719972.1,
+         6190374.78
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719958.73,
+         6190426.83
+        ]
+       ]
+      }
+     },
+     {
+      "id": "3ed82801-e9e6-458a-9bc4-8ae3bec1f4dc",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0684",
+      "vejnavn": "Vangebovej",
+      "husnummertekst": "2B",
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangebovej 2B, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         718539.38,
+         6190452.63
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         718456.33347026,
+         6190186.42267787
+        ]
+       ]
+      }
+     },
+     {
+      "id": "7b5cc445-af04-4e23-8eb6-d5cb96695463",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0684",
+      "vejnavn": "Vangebovej",
+      "husnummertekst": "2C",
+      "supplerendebynavn": null,
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangebovej 2C, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         718623.74614188,
+         6190401.66957965
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         718613.17722636,
+         6190383.80576762
+        ]
+       ]
+      }
+     },
+     {
+      "id": "aaac9a81-1eaf-47b9-943d-2bc327f4c9b6",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0684",
+      "vejnavn": "Vangebovej",
+      "husnummertekst": "2D",
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangebovej 2D, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         718637.24194359,
+         6190392.97620356
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         718728.95745792,
+         6189940.31988064
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-c456-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummertekst": "3",
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 3, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720030.9,
+         6190410.31
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         720030.15,
+         6190440.49
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-c457-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0683",
+      "vejnavn": "Vangeboled",
+      "husnummertekst": "4",
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangeboled 4, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719971.64,
+         6190367.73
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         719951.61,
+         6190370.25
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-c465-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0684",
+      "vejnavn": "Vangebovej",
+      "husnummertekst": "4A",
+      "supplerendebynavn": "Søllerød",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "visningstekst": "Vangebovej 4A, Søllerød, 2840 Holte",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         718826.13300165,
+         6190349.93312349
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         718831.8,
+         6190337.75
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 99,
+    "ok": true,
+    "row_count": 2,
+    "rows": [
+     {
+      "id": "af36b8a3-5fe2-45e3-820f-f19bc24ce885",
+      "vejnavn": "Vangeboled",
+      "supplerendebynavn": "Søllerød",
+      "visningstekst": "Vangeboled (2840 Holte)",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "kommunekode": "0230",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          719954.17,
+          6190475.59
+         ],
+         [
+          719958.43,
+          6190473.46
+         ],
+         [
+          719962.88,
+          6190469.98
+         ],
+         [
+          719964.79,
+          6190468.56
+         ],
+         [
+          719971.18,
+          6190463.66
+         ],
+         [
+          719975.66,
+          6190457.92
+         ],
+         [
+          719979.52,
+          6190452.85
+         ],
+         [
+          719982.17,
+          6190446.96
+         ],
+         [
+          719984.55,
+          6190440.24
+         ],
+         [
+          719985.21,
+          6190434.57
+         ],
+         [
+          719984.95,
+          6190424.41
+         ],
+         [
+          719984.26,
+          6190417.92
+         ],
+         [
+          719980.16,
+          6190403.22
+         ]
+        ],
+        [
+         [
+          720030.9,
+          6190410.31
+         ],
+         [
+          720027.22,
+          6190409.28
+         ],
+         [
+          720022.75,
+          6190408.03
+         ],
+         [
+          720018.22,
+          6190406.76
+         ],
+         [
+          720013.06,
+          6190405.3
+         ],
+         [
+          720006.03,
+          6190403.31
+         ],
+         [
+          720004.73,
+          6190402.95
+         ],
+         [
+          720002.54,
+          6190402.35
+         ],
+         [
+          719999.46,
+          6190401.51
+         ],
+         [
+          719996.53,
+          6190401.08
+         ],
+         [
+          719993.91,
+          6190400.56
+         ],
+         [
+          719987.2,
+          6190402.48
+         ],
+         [
+          719982.54,
+          6190402.87
+         ],
+         [
+          719980.16,
+          6190403.22
+         ]
+        ],
+        [
+         [
+          719980.16,
+          6190403.22
+         ],
+         [
+          719978.78,
+          6190398.54
+         ]
+        ],
+        [
+         [
+          719972.47,
+          6190351.77
+         ],
+         [
+          719977.69,
+          6190352.75
+         ],
+         [
+          719981.47,
+          6190353.81
+         ],
+         [
+          719989.04,
+          6190356.09
+         ],
+         [
+          719993.73,
+          6190357.39
+         ],
+         [
+          719995.71,
+          6190358.15
+         ],
+         [
+          719997.22,
+          6190358.64
+         ],
+         [
+          719998.57,
+          6190359.43
+         ],
+         [
+          719999.6,
+          6190360.24
+         ],
+         [
+          720000.58,
+          6190361.36
+         ],
+         [
+          720001.35,
+          6190362.68
+         ],
+         [
+          720001.81,
+          6190363.66
+         ],
+         [
+          720002.11,
+          6190364.64
+         ],
+         [
+          720002.33,
+          6190365.69
+         ],
+         [
+          720002.39,
+          6190366.87
+         ],
+         [
+          720002.32,
+          6190368.32
+         ],
+         [
+          720002.13,
+          6190369.58
+         ],
+         [
+          720001.87,
+          6190370.59
+         ],
+         [
+          720001.54,
+          6190371.92
+         ],
+         [
+          719997.68,
+          6190384.52
+         ],
+         [
+          719996.53,
+          6190388.58
+         ],
+         [
+          719996.18,
+          6190389.79
+         ],
+         [
+          719995.67,
+          6190390.98
+         ],
+         [
+          719995.09,
+          6190391.96
+         ],
+         [
+          719994.71,
+          6190392.53
+         ],
+         [
+          719993.97,
+          6190393.28
+         ],
+         [
+          719993.11,
+          6190394.09
+         ],
+         [
+          719991.45,
+          6190395.05
+         ],
+         [
+          719988.51,
+          6190396.13
+         ],
+         [
+          719984.36,
+          6190397.33
+         ],
+         [
+          719978.78,
+          6190398.54
+         ]
+        ],
+        [
+         [
+          719978.78,
+          6190398.54
+         ],
+         [
+          719973.99,
+          6190382.09
+         ],
+         [
+          719972.1,
+          6190374.78
+         ],
+         [
+          719971.64,
+          6190367.73
+         ],
+         [
+          719971.56,
+          6190359.61
+         ],
+         [
+          719972.47,
+          6190351.77
+         ]
+        ],
+        [
+         [
+          719972.47,
+          6190351.77
+         ],
+         [
+          719976.82,
+          6190338.02
+         ],
+         [
+          719992.71,
+          6190282.15
+         ],
+         [
+          719996.66,
+          6190268.69
+         ],
+         [
+          720013.91,
+          6190209.85
+         ],
+         [
+          720023.26,
+          6190178.38
+         ],
+         [
+          720026.37,
+          6190173.04
+         ],
+         [
+          720030.07,
+          6190167.59
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          719954.17,
+          6190167.59
+         ],
+         [
+          719954.17,
+          6190475.59
+         ],
+         [
+          720030.9,
+          6190475.59
+         ],
+         [
+          720030.9,
+          6190167.59
+         ],
+         [
+          719954.17,
+          6190167.59
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "919eb5cc-a047-4b67-80c2-13c5bcf5d63d",
+      "vejnavn": "Vangebovej",
+      "supplerendebynavn": "Søllerød,Øverød",
+      "visningstekst": "Vangebovej (2840 Holte)",
+      "postnummer": "2840",
+      "postnummernavn": "Holte",
+      "kommunekode": "0230",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          717760.26,
+          6190630.43
+         ],
+         [
+          717762.61,
+          6190625.66
+         ],
+         [
+          717764.16,
+          6190622.45
+         ],
+         [
+          717770.8,
+          6190608.96
+         ],
+         [
+          717774.25,
+          6190601.82
+         ],
+         [
+          717782.57,
+          6190584.57
+         ],
+         [
+          717790.67,
+          6190567.36
+         ],
+         [
+          717794.13,
+          6190560.36
+         ],
+         [
+          717798.97,
+          6190550.9
+         ],
+         [
+          717803.72,
+          6190542.16
+         ],
+         [
+          717808.96,
+          6190534.3
+         ],
+         [
+          717810.07,
+          6190532.84
+         ]
+        ],
+        [
+         [
+          717810.07,
+          6190532.84
+         ],
+         [
+          717813,
+          6190531
+         ],
+         [
+          717816.18,
+          6190528.45
+         ],
+         [
+          717824.03,
+          6190520.16
+         ],
+         [
+          717828.38,
+          6190515.01
+         ],
+         [
+          717840.92,
+          6190506.27
+         ],
+         [
+          717862.04,
+          6190492.35
+         ],
+         [
+          717881.28,
+          6190483.78
+         ],
+         [
+          717901.28,
+          6190478.12
+         ],
+         [
+          717908.41,
+          6190474.99
+         ]
+        ],
+        [
+         [
+          717783.58,
+          6190512.1
+         ],
+         [
+          717782.12,
+          6190510.26
+         ],
+         [
+          717779.78,
+          6190506.12
+         ],
+         [
+          717776.43,
+          6190497.84
+         ],
+         [
+          717774.4,
+          6190492.09
+         ],
+         [
+          717769.79,
+          6190479.03
+         ],
+         [
+          717767.6,
+          6190474.7
+         ],
+         [
+          717765.8,
+          6190471.94
+         ],
+         [
+          717764.76,
+          6190470.72
+         ],
+         [
+          717762.84,
+          6190468.96
+         ],
+         [
+          717760.64,
+          6190467.51
+         ],
+         [
+          717758.21,
+          6190466.39
+         ],
+         [
+          717755.49,
+          6190465.39
+         ],
+         [
+          717754.06,
+          6190465.01
+         ],
+         [
+          717749.69,
+          6190464.13
+         ],
+         [
+          717736.96,
+          6190460.73
+         ],
+         [
+          717731.22,
+          6190459.19
+         ],
+         [
+          717713.55,
+          6190454.99
+         ],
+         [
+          717710.69,
+          6190454.31
+         ],
+         [
+          717697.67,
+          6190452.02
+         ]
+        ],
+        [
+         [
+          719496.72,
+          6190445.99
+         ],
+         [
+          719515.53,
+          6190444.65
+         ],
+         [
+          719533.53,
+          6190443.29
+         ],
+         [
+          719536.05,
+          6190443.34
+         ],
+         [
+          719536.5,
+          6190445.28
+         ],
+         [
+          719537.8,
+          6190451.66
+         ],
+         [
+          719538.49,
+          6190454.52
+         ],
+         [
+          719538.91,
+          6190455.74
+         ],
+         [
+          719539.11,
+          6190456.65
+         ],
+         [
+          719540.19,
+          6190460.6
+         ]
+        ],
+        [
+         [
+          719540.19,
+          6190460.6
+         ],
+         [
+          719546.97,
+          6190459.04
+         ],
+         [
+          719575.73,
+          6190453.97
+         ],
+         [
+          719593.9,
+          6190452.32
+         ],
+         [
+          719608.48,
+          6190451.94
+         ],
+         [
+          719623.89,
+          6190452.39
+         ],
+         [
+          719637.34,
+          6190453.22
+         ],
+         [
+          719655.42,
+          6190455.46
+         ],
+         [
+          719695.56,
+          6190460.5
+         ],
+         [
+          719736.71,
+          6190464.91
+         ],
+         [
+          719799.77,
+          6190472.78
+         ],
+         [
+          719848.76,
+          6190477.66
+         ],
+         [
+          719887.18,
+          6190481.13
+         ],
+         [
+          719916.48,
+          6190483.38
+         ],
+         [
+          719923.18,
+          6190483.89
+         ],
+         [
+          719929.13,
+          6190483.98
+         ],
+         [
+          719933.67,
+          6190483.75
+         ],
+         [
+          719938.79,
+          6190482.62
+         ],
+         [
+          719945.33,
+          6190479.48
+         ],
+         [
+          719949.42,
+          6190477.51
+         ],
+         [
+          719954.17,
+          6190475.59
+         ]
+        ],
+        [
+         [
+          717717.3,
+          6190531.55
+         ],
+         [
+          717738.1,
+          6190527.12
+         ],
+         [
+          717757.64,
+          6190523.13
+         ],
+         [
+          717762.49,
+          6190521.69
+         ],
+         [
+          717767.31,
+          6190519.85
+         ],
+         [
+          717774.23,
+          6190516.8
+         ],
+         [
+          717778.3,
+          6190514.88
+         ],
+         [
+          717783.58,
+          6190512.1
+         ]
+        ],
+        [
+         [
+          717783.58,
+          6190512.1
+         ],
+         [
+          717785.65,
+          6190514.12
+         ],
+         [
+          717787.93,
+          6190515.94
+         ],
+         [
+          717790.31,
+          6190517.65
+         ],
+         [
+          717800.06,
+          6190525.06
+         ],
+         [
+          717805.25,
+          6190529.12
+         ],
+         [
+          717810.07,
+          6190532.84
+         ]
+        ],
+        [
+         [
+          717810.07,
+          6190532.84
+         ],
+         [
+          717810.44,
+          6190528.34
+         ],
+         [
+          717811.64,
+          6190525.42
+         ],
+         [
+          717814.97,
+          6190520.61
+         ],
+         [
+          717826.53,
+          6190509.15
+         ],
+         [
+          717842.05,
+          6190497.24
+         ],
+         [
+          717862.34,
+          6190485.52
+         ],
+         [
+          717878.75,
+          6190479
+         ],
+         [
+          717899.73,
+          6190474.39
+         ],
+         [
+          717908.41,
+          6190474.99
+         ]
+        ],
+        [
+         [
+          717908.41,
+          6190474.99
+         ],
+         [
+          717935.44,
+          6190471.88
+         ],
+         [
+          717974.56,
+          6190467.66
+         ],
+         [
+          718016.07,
+          6190463.28
+         ],
+         [
+          718036.44,
+          6190462.47
+         ],
+         [
+          718045.23,
+          6190462.52
+         ],
+         [
+          718067.83,
+          6190463.58
+         ],
+         [
+          718100.64,
+          6190465.84
+         ],
+         [
+          718120.91,
+          6190466.74
+         ],
+         [
+          718179.06,
+          6190469.72
+         ],
+         [
+          718243.55,
+          6190473.41
+         ],
+         [
+          718288.18,
+          6190476.04
+         ],
+         [
+          718301.3,
+          6190476.31
+         ],
+         [
+          718317.43,
+          6190476.47
+         ],
+         [
+          718335.95,
+          6190476.1
+         ],
+         [
+          718397.73,
+          6190474.19
+         ],
+         [
+          718453.96,
+          6190471.99
+         ],
+         [
+          718483.47,
+          6190471.3
+         ],
+         [
+          718493.76,
+          6190469.89
+         ],
+         [
+          718504.5,
+          6190467.94
+         ],
+         [
+          718522.1,
+          6190461.93
+         ],
+         [
+          718530.91,
+          6190458.05
+         ],
+         [
+          718539.38,
+          6190452.63
+         ],
+         [
+          718568.38,
+          6190434.76
+         ],
+         [
+          718604.46,
+          6190413.08
+         ],
+         [
+          718625.03,
+          6190400.91
+         ],
+         [
+          718645.04,
+          6190387.91
+         ],
+         [
+          718659.68,
+          6190380.08
+         ],
+         [
+          718674.6,
+          6190371.15
+         ],
+         [
+          718695.01,
+          6190358.93
+         ],
+         [
+          718710.3,
+          6190349.92
+         ],
+         [
+          718716.97,
+          6190346.16
+         ],
+         [
+          718724.52,
+          6190342.41
+         ],
+         [
+          718733.65,
+          6190338.56
+         ],
+         [
+          718741.76,
+          6190336.22
+         ],
+         [
+          718748.6,
+          6190334.84
+         ],
+         [
+          718757.03,
+          6190333.6
+         ],
+         [
+          718764.56,
+          6190332.83
+         ],
+         [
+          718771.5,
+          6190332.77
+         ],
+         [
+          718777.24,
+          6190332.98
+         ],
+         [
+          718783.06,
+          6190333.68
+         ],
+         [
+          718788.67,
+          6190334.64
+         ],
+         [
+          718794.15,
+          6190335.94
+         ],
+         [
+          718805.54,
+          6190339.78
+         ],
+         [
+          718823.31,
+          6190348.62
+         ],
+         [
+          718849.71,
+          6190360.9
+         ],
+         [
+          718871.68,
+          6190371.55
+         ],
+         [
+          718884.75,
+          6190377.57
+         ],
+         [
+          718913.32,
+          6190390.69
+         ],
+         [
+          718946.89,
+          6190406.48
+         ],
+         [
+          718964.36,
+          6190413.41
+         ],
+         [
+          718976.94,
+          6190417.98
+         ],
+         [
+          718995.57,
+          6190424
+         ],
+         [
+          719011.52,
+          6190429.02
+         ],
+         [
+          719035.8,
+          6190435.36
+         ],
+         [
+          719047.7,
+          6190437.35
+         ],
+         [
+          719069.95,
+          6190441.2
+         ],
+         [
+          719129.73,
+          6190451.5
+         ],
+         [
+          719161.37,
+          6190456.98
+         ],
+         [
+          719194.18,
+          6190462.24
+         ],
+         [
+          719255.35,
+          6190473.27
+         ],
+         [
+          719308,
+          6190481.94
+         ],
+         [
+          719320.23,
+          6190484.5
+         ],
+         [
+          719344.85,
+          6190488.77
+         ],
+         [
+          719367.35,
+          6190490.7
+         ],
+         [
+          719393.16,
+          6190490.43
+         ],
+         [
+          719410.05,
+          6190489.01
+         ],
+         [
+          719414.55,
+          6190488.36
+         ],
+         [
+          719426.39,
+          6190486.53
+         ],
+         [
+          719448.45,
+          6190482.43
+         ],
+         [
+          719498.63,
+          6190470.08
+         ],
+         [
+          719540.19,
+          6190460.6
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          717697.67,
+          6190332.77
+         ],
+         [
+          717697.67,
+          6190630.43
+         ],
+         [
+          719954.17,
+          6190630.43
+         ],
+         [
+          719954.17,
+          6190332.77
+         ],
+         [
+          717697.67,
+          6190332.77
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 89,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 92,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 196,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 89,
+    "ok": true,
+    "row_count": 5,
+    "rows": [
+     {
+      "id": "19e4392f-a48a-5d41-e053-d380220a2006",
+      "skrivemaade": "Vangebo",
+      "visningstekst": "Vangebo (Gård i Helsingør)",
+      "skrivemaade_officiel": "Vangebo",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "bygning",
+      "stednavn_subtype": "gård",
+      "kommunekode": "0217",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           721768.08,
+           6214806.46
+          ],
+          [
+           721764.48,
+           6214804.06
+          ],
+          [
+           721777.36,
+           6214785.07
+          ],
+          [
+           721783.42,
+           6214789.31
+          ],
+          [
+           721785.37,
+           6214786.46
+          ],
+          [
+           721789.96,
+           6214789.51
+          ],
+          [
+           721783.97,
+           6214798.48
+          ],
+          [
+           721777.2,
+           6214794.03
+          ],
+          [
+           721773.67,
+           6214799.29
+          ],
+          [
+           721780.22,
+           6214803.76
+          ],
+          [
+           721775.08,
+           6214811.19
+          ],
+          [
+           721771.98,
+           6214809.13
+          ],
+          [
+           721770.06,
+           6214812.01
+          ],
+          [
+           721766.13,
+           6214809.38
+          ],
+          [
+           721768.08,
+           6214806.46
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          721764.48,
+          6214785.07
+         ],
+         [
+          721764.48,
+          6214812.01
+         ],
+         [
+          721789.96,
+          6214812.01
+         ],
+         [
+          721789.96,
+          6214785.07
+         ],
+         [
+          721764.48,
+          6214785.07
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "43747b46-c08e-1fb1-e053-d480220a93da",
+      "skrivemaade": "Vangebovej",
+      "visningstekst": "Vangebovej (Daginstitution i Holte)",
+      "skrivemaade_officiel": "Vangebovej",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "bygning",
+      "stednavn_subtype": "daginstitution",
+      "kommunekode": "0230",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           717728.86,
+           6190497.87
+          ],
+          [
+           717712.88,
+           6190501.15
+          ],
+          [
+           717710.65,
+           6190490.29
+          ],
+          [
+           717726.63,
+           6190487.01
+          ],
+          [
+           717728.86,
+           6190497.87
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          717710.65,
+          6190487.01
+         ],
+         [
+          717710.65,
+          6190501.15
+         ],
+         [
+          717728.86,
+          6190501.15
+         ],
+         [
+          717728.86,
+          6190487.01
+         ],
+         [
+          717710.65,
+          6190487.01
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "19e4392f-cacc-5d41-e053-d380220a2006",
+      "skrivemaade": "Ravnholm Skole - Afdeling Vangebo",
+      "visningstekst": "Vangebomatriklen (Ravnholm Skole - Afdeling Vangebo, Folkeskole i Holte)",
+      "skrivemaade_officiel": "Ravnholm Skole - Afdeling Vangebo",
+      "skrivemaade_uofficiel": "Vangebomatriklen",
+      "stednavn_type": "bygning",
+      "stednavn_subtype": "folkeskole",
+      "kommunekode": "0230",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           720122.34,
+           6190377.56
+          ],
+          [
+           720103.66,
+           6190371.94
+          ],
+          [
+           720108.54,
+           6190355.29
+          ],
+          [
+           720097.5,
+           6190352.06
+          ],
+          [
+           720092.63,
+           6190368.68
+          ],
+          [
+           720073.9,
+           6190363.2
+          ],
+          [
+           720078.74,
+           6190346.65
+          ],
+          [
+           720067.56,
+           6190343.38
+          ],
+          [
+           720062.66,
+           6190360.1
+          ],
+          [
+           720043.63,
+           6190354.53
+          ],
+          [
+           720048.55,
+           6190337.73
+          ],
+          [
+           720037.57,
+           6190334.51
+          ],
+          [
+           720032.65,
+           6190351.34
+          ],
+          [
+           720016.22,
+           6190346.53
+          ],
+          [
+           720015.86,
+           6190347.75
+          ],
+          [
+           720013.37,
+           6190347.02
+          ],
+          [
+           720018.61,
+           6190329.12
+          ],
+          [
+           720007.89,
+           6190325.98
+          ],
+          [
+           720003.01,
+           6190342.61
+          ],
+          [
+           719986.51,
+           6190337.78
+          ],
+          [
+           719996.4,
+           6190304.03
+          ],
+          [
+           720000.49,
+           6190305.23
+          ],
+          [
+           720009.06,
+           6190275.96
+          ],
+          [
+           720021.26,
+           6190279.54
+          ],
+          [
+           720021.14,
+           6190279.96
+          ],
+          [
+           720079.29,
+           6190296.99
+          ],
+          [
+           720077.52,
+           6190303.03
+          ],
+          [
+           720113.08,
+           6190313.44
+          ],
+          [
+           720112.15,
+           6190316.6
+          ],
+          [
+           720098.85,
+           6190312.7
+          ],
+          [
+           720097.04,
+           6190318.8
+          ],
+          [
+           720106.08,
+           6190321.45
+          ],
+          [
+           720104.15,
+           6190328.11
+          ],
+          [
+           720110.05,
+           6190329.84
+          ],
+          [
+           720111.8,
+           6190323.87
+          ],
+          [
+           720109.93,
+           6190323.33
+          ],
+          [
+           720110.89,
+           6190320.06
+          ],
+          [
+           720132.87,
+           6190326.5
+          ],
+          [
+           720135.6,
+           6190317.15
+          ],
+          [
+           720152.98,
+           6190322.24
+          ],
+          [
+           720149.09,
+           6190331.39
+          ],
+          [
+           720146.42,
+           6190330.61
+          ],
+          [
+           720141.67,
+           6190346.8
+          ],
+          [
+           720139.21,
+           6190346.08
+          ],
+          [
+           720136.7,
+           6190354.63
+          ],
+          [
+           720135.44,
+           6190354.26
+          ],
+          [
+           720133.73,
+           6190360.08
+          ],
+          [
+           720130.04,
+           6190359
+          ],
+          [
+           720129.34,
+           6190361.39
+          ],
+          [
+           720127.25,
+           6190360.78
+          ],
+          [
+           720122.34,
+           6190377.56
+          ]
+         ],
+         [
+          [
+           720023.22,
+           6190290.64
+          ],
+          [
+           720032.2,
+           6190293.26
+          ],
+          [
+           720034.05,
+           6190286.93
+          ],
+          [
+           720020.28,
+           6190282.9
+          ],
+          [
+           720008.99,
+           6190321.55
+          ],
+          [
+           720013.26,
+           6190322.8
+          ],
+          [
+           720013.68,
+           6190321.35
+          ],
+          [
+           720014.2,
+           6190321.5
+          ],
+          [
+           720023.22,
+           6190290.64
+          ]
+         ],
+         [
+          [
+           720113.68,
+           6190338.13
+          ],
+          [
+           720119.92,
+           6190339.83
+          ],
+          [
+           720121.63,
+           6190333.52
+          ],
+          [
+           720130.56,
+           6190335.95
+          ],
+          [
+           720132.35,
+           6190329.34
+          ],
+          [
+           720119.87,
+           6190325.95
+          ],
+          [
+           720118.14,
+           6190332.28
+          ],
+          [
+           720118.02,
+           6190332.74
+          ],
+          [
+           720115.35,
+           6190332.01
+          ],
+          [
+           720113.68,
+           6190338.13
+          ]
+         ],
+         [
+          [
+           720076.5,
+           6190313.12
+          ],
+          [
+           720085.41,
+           6190315.84
+          ],
+          [
+           720083.57,
+           6190322.09
+          ],
+          [
+           720089.77,
+           6190324.06
+          ],
+          [
+           720091.56,
+           6190317.97
+          ],
+          [
+           720089,
+           6190317.19
+          ],
+          [
+           720091.18,
+           6190310.56
+          ],
+          [
+           720084.68,
+           6190308.42
+          ],
+          [
+           720084.51,
+           6190308.94
+          ],
+          [
+           720078.46,
+           6190306.95
+          ],
+          [
+           720076.5,
+           6190313.12
+          ]
+         ],
+         [
+          [
+           720064.07,
+           6190302.53
+          ],
+          [
+           720073.06,
+           6190305.07
+          ],
+          [
+           720074.8,
+           6190298.86
+          ],
+          [
+           720062.39,
+           6190295.15
+          ],
+          [
+           720060.35,
+           6190301.95
+          ],
+          [
+           720057.83,
+           6190301.2
+          ],
+          [
+           720056.08,
+           6190307.09
+          ],
+          [
+           720062.19,
+           6190308.91
+          ],
+          [
+           720064.07,
+           6190302.53
+          ]
+         ],
+         [
+          [
+           720040.07,
+           6190295.93
+          ],
+          [
+           720037.41,
+           6190295.18
+          ],
+          [
+           720035.71,
+           6190301.28
+          ],
+          [
+           720041.7,
+           6190302.95
+          ],
+          [
+           720043.47,
+           6190296.6
+          ],
+          [
+           720052.66,
+           6190299.16
+          ],
+          [
+           720054.42,
+           6190292.85
+          ],
+          [
+           720041.9,
+           6190289.36
+          ],
+          [
+           720040.07,
+           6190295.93
+          ]
+         ],
+         [
+          [
+           720048.66,
+           6190333.11
+          ],
+          [
+           720054.77,
+           6190334.82
+          ],
+          [
+           720056.5,
+           6190328.64
+          ],
+          [
+           720050.39,
+           6190326.93
+          ],
+          [
+           720048.66,
+           6190333.11
+          ]
+         ],
+         [
+          [
+           720060.26,
+           6190315.82
+          ],
+          [
+           720054.15,
+           6190314.03
+          ],
+          [
+           720052.38,
+           6190320.04
+          ],
+          [
+           720058.5,
+           6190321.84
+          ],
+          [
+           720060.26,
+           6190315.82
+          ]
+         ],
+         [
+          [
+           720072.83,
+           6190326.21
+          ],
+          [
+           720078.82,
+           6190327.87
+          ],
+          [
+           720080.54,
+           6190321.68
+          ],
+          [
+           720074.55,
+           6190320.02
+          ],
+          [
+           720072.83,
+           6190326.21
+          ]
+         ],
+         [
+          [
+           720093.26,
+           6190332.05
+          ],
+          [
+           720099.32,
+           6190333.8
+          ],
+          [
+           720101.08,
+           6190327.73
+          ],
+          [
+           720095.02,
+           6190325.98
+          ],
+          [
+           720093.26,
+           6190332.05
+          ]
+         ],
+         [
+          [
+           720039.8,
+           6190309.87
+          ],
+          [
+           720033.74,
+           6190308.08
+          ],
+          [
+           720031.96,
+           6190314.06
+          ],
+          [
+           720038.02,
+           6190315.86
+          ],
+          [
+           720039.8,
+           6190309.87
+          ]
+         ],
+         [
+          [
+           720046.84,
+           6190318.82
+          ],
+          [
+           720040.81,
+           6190317.14
+          ],
+          [
+           720039.12,
+           6190323.2
+          ],
+          [
+           720045.15,
+           6190324.88
+          ],
+          [
+           720046.84,
+           6190318.82
+          ]
+         ],
+         [
+          [
+           720026.34,
+           6190312.97
+          ],
+          [
+           720020.37,
+           6190311.18
+          ],
+          [
+           720018.56,
+           6190317.23
+          ],
+          [
+           720024.53,
+           6190319.01
+          ],
+          [
+           720026.34,
+           6190312.97
+          ]
+         ],
+         [
+          [
+           720030.23,
+           6190300.08
+          ],
+          [
+           720024.16,
+           6190298.27
+          ],
+          [
+           720022.39,
+           6190304.21
+          ],
+          [
+           720028.46,
+           6190306.02
+          ],
+          [
+           720030.23,
+           6190300.08
+          ]
+         ],
+         [
+          [
+           720115.48,
+           6190352.61
+          ],
+          [
+           720116.04,
+           6190350.66
+          ],
+          [
+           720116.55,
+           6190350.81
+          ],
+          [
+           720117.77,
+           6190346.6
+          ],
+          [
+           720111.74,
+           6190344.86
+          ],
+          [
+           720109.96,
+           6190351.02
+          ],
+          [
+           720115.48,
+           6190352.61
+          ]
+         ],
+         [
+          [
+           720120.81,
+           6190346.93
+          ],
+          [
+           720126.82,
+           6190348.71
+          ],
+          [
+           720128.58,
+           6190342.74
+          ],
+          [
+           720122.57,
+           6190340.96
+          ],
+          [
+           720120.81,
+           6190346.93
+          ]
+         ],
+         [
+          [
+           720108.12,
+           6190336.82
+          ],
+          [
+           720102.1,
+           6190335.04
+          ],
+          [
+           720100.35,
+           6190341
+          ],
+          [
+           720106.37,
+           6190342.78
+          ],
+          [
+           720108.12,
+           6190336.82
+          ]
+         ],
+         [
+          [
+           720063.23,
+           6190316.15
+          ],
+          [
+           720069.22,
+           6190317.99
+          ],
+          [
+           720071.05,
+           6190312.05
+          ],
+          [
+           720065.06,
+           6190310.21
+          ],
+          [
+           720063.23,
+           6190316.15
+          ]
+         ],
+         [
+          [
+           720042.86,
+           6190310.22
+          ],
+          [
+           720048.82,
+           6190311.96
+          ],
+          [
+           720050.57,
+           6190305.96
+          ],
+          [
+           720044.61,
+           6190304.23
+          ],
+          [
+           720042.86,
+           6190310.22
+          ]
+         ],
+         [
+          [
+           720067.18,
+           6190324.78
+          ],
+          [
+           720061.27,
+           6190323.13
+          ],
+          [
+           720059.58,
+           6190329.16
+          ],
+          [
+           720065.49,
+           6190330.81
+          ],
+          [
+           720067.18,
+           6190324.78
+          ]
+         ],
+         [
+          [
+           720087.67,
+           6190330.85
+          ],
+          [
+           720081.69,
+           6190329.07
+          ],
+          [
+           720079.95,
+           6190334.9
+          ],
+          [
+           720085.93,
+           6190336.69
+          ],
+          [
+           720087.67,
+           6190330.85
+          ]
+         ],
+         [
+          [
+           720089.47,
+           6190345.03
+          ],
+          [
+           720094.3,
+           6190346.44
+          ],
+          [
+           720094.98,
+           6190344.12
+          ],
+          [
+           720096.19,
+           6190344.48
+          ],
+          [
+           720097.32,
+           6190340.62
+          ],
+          [
+           720091.27,
+           6190338.85
+          ],
+          [
+           720089.47,
+           6190345.03
+          ]
+         ],
+         [
+          [
+           720028.24,
+           6190326.98
+          ],
+          [
+           720033.14,
+           6190328.43
+          ],
+          [
+           720033.78,
+           6190326.26
+          ],
+          [
+           720034.95,
+           6190326.61
+          ],
+          [
+           720036.08,
+           6190322.8
+          ],
+          [
+           720030,
+           6190321
+          ],
+          [
+           720028.24,
+           6190326.98
+          ]
+         ],
+         [
+          [
+           720069.25,
+           6190339.13
+          ],
+          [
+           720073.93,
+           6190340.45
+          ],
+          [
+           720074.53,
+           6190338.31
+          ],
+          [
+           720075.77,
+           6190338.66
+          ],
+          [
+           720076.91,
+           6190334.61
+          ],
+          [
+           720070.99,
+           6190332.94
+          ],
+          [
+           720069.25,
+           6190339.13
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          719986.51,
+          6190275.96
+         ],
+         [
+          719986.51,
+          6190377.56
+         ],
+         [
+          720152.98,
+          6190377.56
+         ],
+         [
+          720152.98,
+          6190275.96
+         ],
+         [
+          719986.51,
+          6190275.96
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "377e4d34-ff0e-1bc1-e053-d480220ab5e3",
+      "skrivemaade": "Haveforeningen Vangebo",
+      "visningstekst": "Haveforeningen Vangebo (Park i Holte)",
+      "skrivemaade_officiel": "Haveforeningen Vangebo",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "naturareal",
+      "stednavn_subtype": "parkAnlæg",
+      "kommunekode": "0230",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           720047.1584,
+           6190407.6618
+          ],
+          [
+           720047.6347,
+           6190399.5654
+          ],
+          [
+           720050.4921,
+           6190391.1517
+          ],
+          [
+           720054.4608,
+           6190386.0717
+          ],
+          [
+           720060.9696,
+           6190381.9442
+          ],
+          [
+           720065.4146,
+           6190380.5154
+          ],
+          [
+           720070.6534,
+           6190379.0866
+          ],
+          [
+           720075.7334,
+           6190379.4042
+          ],
+          [
+           720083.9884,
+           6190381.6266
+          ],
+          [
+           720090.4971,
+           6190383.5317
+          ],
+          [
+           720098.7522,
+           6190386.5479
+          ],
+          [
+           720100.8159,
+           6190391.4692
+          ],
+          [
+           720102.721,
+           6190396.7079
+          ],
+          [
+           720103.6735,
+           6190402.7405
+          ],
+          [
+           720103.5148,
+           6190409.0904
+          ],
+          [
+           720102.8797,
+           6190415.758
+          ],
+          [
+           720101.4343,
+           6190422.1089
+          ],
+          [
+           720097.8993,
+           6190427.6848
+          ],
+          [
+           720093.5449,
+           6190434.553
+          ],
+          [
+           720089.8622,
+           6190436.7131
+          ],
+          [
+           720084.7822,
+           6190438.9355
+          ],
+          [
+           720078.1147,
+           6190440.8405
+          ],
+          [
+           720071.4471,
+           6190441.6343
+          ],
+          [
+           720063.9859,
+           6190440.6818
+          ],
+          [
+           720056.8421,
+           6190436.8718
+          ],
+          [
+           720052.2384,
+           6190430.998
+          ],
+          [
+           720048.2696,
+           6190424.013
+          ],
+          [
+           720046.8409,
+           6190415.758
+          ],
+          [
+           720047.1584,
+           6190407.6618
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          720046.8409,
+          6190379.0866
+         ],
+         [
+          720046.8409,
+          6190441.6343
+         ],
+         [
+          720103.6735,
+          6190441.6343
+         ],
+         [
+          720103.6735,
+          6190379.0866
+         ],
+         [
+          720046.8409,
+          6190379.0866
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "19e4392f-cacc-5d41-e053-d380220a2006",
+      "skrivemaade": "Ravnholm Skole - Afdeling Vangebo",
+      "visningstekst": "Ravnholm Skole - Afdeling Vangebo (Folkeskole i Holte)",
+      "skrivemaade_officiel": "Ravnholm Skole - Afdeling Vangebo",
+      "skrivemaade_uofficiel": "Vangebomatriklen",
+      "stednavn_type": "bygning",
+      "stednavn_subtype": "folkeskole",
+      "kommunekode": "0230",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           720122.34,
+           6190377.56
+          ],
+          [
+           720103.66,
+           6190371.94
+          ],
+          [
+           720108.54,
+           6190355.29
+          ],
+          [
+           720097.5,
+           6190352.06
+          ],
+          [
+           720092.63,
+           6190368.68
+          ],
+          [
+           720073.9,
+           6190363.2
+          ],
+          [
+           720078.74,
+           6190346.65
+          ],
+          [
+           720067.56,
+           6190343.38
+          ],
+          [
+           720062.66,
+           6190360.1
+          ],
+          [
+           720043.63,
+           6190354.53
+          ],
+          [
+           720048.55,
+           6190337.73
+          ],
+          [
+           720037.57,
+           6190334.51
+          ],
+          [
+           720032.65,
+           6190351.34
+          ],
+          [
+           720016.22,
+           6190346.53
+          ],
+          [
+           720015.86,
+           6190347.75
+          ],
+          [
+           720013.37,
+           6190347.02
+          ],
+          [
+           720018.61,
+           6190329.12
+          ],
+          [
+           720007.89,
+           6190325.98
+          ],
+          [
+           720003.01,
+           6190342.61
+          ],
+          [
+           719986.51,
+           6190337.78
+          ],
+          [
+           719996.4,
+           6190304.03
+          ],
+          [
+           720000.49,
+           6190305.23
+          ],
+          [
+           720009.06,
+           6190275.96
+          ],
+          [
+           720021.26,
+           6190279.54
+          ],
+          [
+           720021.14,
+           6190279.96
+          ],
+          [
+           720079.29,
+           6190296.99
+          ],
+          [
+           720077.52,
+           6190303.03
+          ],
+          [
+           720113.08,
+           6190313.44
+          ],
+          [
+           720112.15,
+           6190316.6
+          ],
+          [
+           720098.85,
+           6190312.7
+          ],
+          [
+           720097.04,
+           6190318.8
+          ],
+          [
+           720106.08,
+           6190321.45
+          ],
+          [
+           720104.15,
+           6190328.11
+          ],
+          [
+           720110.05,
+           6190329.84
+          ],
+          [
+           720111.8,
+           6190323.87
+          ],
+          [
+           720109.93,
+           6190323.33
+          ],
+          [
+           720110.89,
+           6190320.06
+          ],
+          [
+           720132.87,
+           6190326.5
+          ],
+          [
+           720135.6,
+           6190317.15
+          ],
+          [
+           720152.98,
+           6190322.24
+          ],
+          [
+           720149.09,
+           6190331.39
+          ],
+          [
+           720146.42,
+           6190330.61
+          ],
+          [
+           720141.67,
+           6190346.8
+          ],
+          [
+           720139.21,
+           6190346.08
+          ],
+          [
+           720136.7,
+           6190354.63
+          ],
+          [
+           720135.44,
+           6190354.26
+          ],
+          [
+           720133.73,
+           6190360.08
+          ],
+          [
+           720130.04,
+           6190359
+          ],
+          [
+           720129.34,
+           6190361.39
+          ],
+          [
+           720127.25,
+           6190360.78
+          ],
+          [
+           720122.34,
+           6190377.56
+          ]
+         ],
+         [
+          [
+           720023.22,
+           6190290.64
+          ],
+          [
+           720032.2,
+           6190293.26
+          ],
+          [
+           720034.05,
+           6190286.93
+          ],
+          [
+           720020.28,
+           6190282.9
+          ],
+          [
+           720008.99,
+           6190321.55
+          ],
+          [
+           720013.26,
+           6190322.8
+          ],
+          [
+           720013.68,
+           6190321.35
+          ],
+          [
+           720014.2,
+           6190321.5
+          ],
+          [
+           720023.22,
+           6190290.64
+          ]
+         ],
+         [
+          [
+           720113.68,
+           6190338.13
+          ],
+          [
+           720119.92,
+           6190339.83
+          ],
+          [
+           720121.63,
+           6190333.52
+          ],
+          [
+           720130.56,
+           6190335.95
+          ],
+          [
+           720132.35,
+           6190329.34
+          ],
+          [
+           720119.87,
+           6190325.95
+          ],
+          [
+           720118.14,
+           6190332.28
+          ],
+          [
+           720118.02,
+           6190332.74
+          ],
+          [
+           720115.35,
+           6190332.01
+          ],
+          [
+           720113.68,
+           6190338.13
+          ]
+         ],
+         [
+          [
+           720076.5,
+           6190313.12
+          ],
+          [
+           720085.41,
+           6190315.84
+          ],
+          [
+           720083.57,
+           6190322.09
+          ],
+          [
+           720089.77,
+           6190324.06
+          ],
+          [
+           720091.56,
+           6190317.97
+          ],
+          [
+           720089,
+           6190317.19
+          ],
+          [
+           720091.18,
+           6190310.56
+          ],
+          [
+           720084.68,
+           6190308.42
+          ],
+          [
+           720084.51,
+           6190308.94
+          ],
+          [
+           720078.46,
+           6190306.95
+          ],
+          [
+           720076.5,
+           6190313.12
+          ]
+         ],
+         [
+          [
+           720064.07,
+           6190302.53
+          ],
+          [
+           720073.06,
+           6190305.07
+          ],
+          [
+           720074.8,
+           6190298.86
+          ],
+          [
+           720062.39,
+           6190295.15
+          ],
+          [
+           720060.35,
+           6190301.95
+          ],
+          [
+           720057.83,
+           6190301.2
+          ],
+          [
+           720056.08,
+           6190307.09
+          ],
+          [
+           720062.19,
+           6190308.91
+          ],
+          [
+           720064.07,
+           6190302.53
+          ]
+         ],
+         [
+          [
+           720040.07,
+           6190295.93
+          ],
+          [
+           720037.41,
+           6190295.18
+          ],
+          [
+           720035.71,
+           6190301.28
+          ],
+          [
+           720041.7,
+           6190302.95
+          ],
+          [
+           720043.47,
+           6190296.6
+          ],
+          [
+           720052.66,
+           6190299.16
+          ],
+          [
+           720054.42,
+           6190292.85
+          ],
+          [
+           720041.9,
+           6190289.36
+          ],
+          [
+           720040.07,
+           6190295.93
+          ]
+         ],
+         [
+          [
+           720048.66,
+           6190333.11
+          ],
+          [
+           720054.77,
+           6190334.82
+          ],
+          [
+           720056.5,
+           6190328.64
+          ],
+          [
+           720050.39,
+           6190326.93
+          ],
+          [
+           720048.66,
+           6190333.11
+          ]
+         ],
+         [
+          [
+           720060.26,
+           6190315.82
+          ],
+          [
+           720054.15,
+           6190314.03
+          ],
+          [
+           720052.38,
+           6190320.04
+          ],
+          [
+           720058.5,
+           6190321.84
+          ],
+          [
+           720060.26,
+           6190315.82
+          ]
+         ],
+         [
+          [
+           720072.83,
+           6190326.21
+          ],
+          [
+           720078.82,
+           6190327.87
+          ],
+          [
+           720080.54,
+           6190321.68
+          ],
+          [
+           720074.55,
+           6190320.02
+          ],
+          [
+           720072.83,
+           6190326.21
+          ]
+         ],
+         [
+          [
+           720093.26,
+           6190332.05
+          ],
+          [
+           720099.32,
+           6190333.8
+          ],
+          [
+           720101.08,
+           6190327.73
+          ],
+          [
+           720095.02,
+           6190325.98
+          ],
+          [
+           720093.26,
+           6190332.05
+          ]
+         ],
+         [
+          [
+           720039.8,
+           6190309.87
+          ],
+          [
+           720033.74,
+           6190308.08
+          ],
+          [
+           720031.96,
+           6190314.06
+          ],
+          [
+           720038.02,
+           6190315.86
+          ],
+          [
+           720039.8,
+           6190309.87
+          ]
+         ],
+         [
+          [
+           720046.84,
+           6190318.82
+          ],
+          [
+           720040.81,
+           6190317.14
+          ],
+          [
+           720039.12,
+           6190323.2
+          ],
+          [
+           720045.15,
+           6190324.88
+          ],
+          [
+           720046.84,
+           6190318.82
+          ]
+         ],
+         [
+          [
+           720026.34,
+           6190312.97
+          ],
+          [
+           720020.37,
+           6190311.18
+          ],
+          [
+           720018.56,
+           6190317.23
+          ],
+          [
+           720024.53,
+           6190319.01
+          ],
+          [
+           720026.34,
+           6190312.97
+          ]
+         ],
+         [
+          [
+           720030.23,
+           6190300.08
+          ],
+          [
+           720024.16,
+           6190298.27
+          ],
+          [
+           720022.39,
+           6190304.21
+          ],
+          [
+           720028.46,
+           6190306.02
+          ],
+          [
+           720030.23,
+           6190300.08
+          ]
+         ],
+         [
+          [
+           720115.48,
+           6190352.61
+          ],
+          [
+           720116.04,
+           6190350.66
+          ],
+          [
+           720116.55,
+           6190350.81
+          ],
+          [
+           720117.77,
+           6190346.6
+          ],
+          [
+           720111.74,
+           6190344.86
+          ],
+          [
+           720109.96,
+           6190351.02
+          ],
+          [
+           720115.48,
+           6190352.61
+          ]
+         ],
+         [
+          [
+           720120.81,
+           6190346.93
+          ],
+          [
+           720126.82,
+           6190348.71
+          ],
+          [
+           720128.58,
+           6190342.74
+          ],
+          [
+           720122.57,
+           6190340.96
+          ],
+          [
+           720120.81,
+           6190346.93
+          ]
+         ],
+         [
+          [
+           720108.12,
+           6190336.82
+          ],
+          [
+           720102.1,
+           6190335.04
+          ],
+          [
+           720100.35,
+           6190341
+          ],
+          [
+           720106.37,
+           6190342.78
+          ],
+          [
+           720108.12,
+           6190336.82
+          ]
+         ],
+         [
+          [
+           720063.23,
+           6190316.15
+          ],
+          [
+           720069.22,
+           6190317.99
+          ],
+          [
+           720071.05,
+           6190312.05
+          ],
+          [
+           720065.06,
+           6190310.21
+          ],
+          [
+           720063.23,
+           6190316.15
+          ]
+         ],
+         [
+          [
+           720042.86,
+           6190310.22
+          ],
+          [
+           720048.82,
+           6190311.96
+          ],
+          [
+           720050.57,
+           6190305.96
+          ],
+          [
+           720044.61,
+           6190304.23
+          ],
+          [
+           720042.86,
+           6190310.22
+          ]
+         ],
+         [
+          [
+           720067.18,
+           6190324.78
+          ],
+          [
+           720061.27,
+           6190323.13
+          ],
+          [
+           720059.58,
+           6190329.16
+          ],
+          [
+           720065.49,
+           6190330.81
+          ],
+          [
+           720067.18,
+           6190324.78
+          ]
+         ],
+         [
+          [
+           720087.67,
+           6190330.85
+          ],
+          [
+           720081.69,
+           6190329.07
+          ],
+          [
+           720079.95,
+           6190334.9
+          ],
+          [
+           720085.93,
+           6190336.69
+          ],
+          [
+           720087.67,
+           6190330.85
+          ]
+         ],
+         [
+          [
+           720089.47,
+           6190345.03
+          ],
+          [
+           720094.3,
+           6190346.44
+          ],
+          [
+           720094.98,
+           6190344.12
+          ],
+          [
+           720096.19,
+           6190344.48
+          ],
+          [
+           720097.32,
+           6190340.62
+          ],
+          [
+           720091.27,
+           6190338.85
+          ],
+          [
+           720089.47,
+           6190345.03
+          ]
+         ],
+         [
+          [
+           720028.24,
+           6190326.98
+          ],
+          [
+           720033.14,
+           6190328.43
+          ],
+          [
+           720033.78,
+           6190326.26
+          ],
+          [
+           720034.95,
+           6190326.61
+          ],
+          [
+           720036.08,
+           6190322.8
+          ],
+          [
+           720030,
+           6190321
+          ],
+          [
+           720028.24,
+           6190326.98
+          ]
+         ],
+         [
+          [
+           720069.25,
+           6190339.13
+          ],
+          [
+           720073.93,
+           6190340.45
+          ],
+          [
+           720074.53,
+           6190338.31
+          ],
+          [
+           720075.77,
+           6190338.66
+          ],
+          [
+           720076.91,
+           6190334.61
+          ],
+          [
+           720070.99,
+           6190332.94
+          ],
+          [
+           720069.25,
+           6190339.13
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          719986.51,
+          6190275.96
+         ],
+         [
+          719986.51,
+          6190377.56
+         ],
+         [
+          720152.98,
+          6190377.56
+         ],
+         [
+          720152.98,
+          6190275.96
+         ],
+         [
+          719986.51,
+          6190275.96
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 91,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 176,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 176,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 173,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 172,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=vangeb&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 170,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "vangeb",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 144,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "knq6clgfvk7de"
+       },
+       "refs": {
+        "street": "knq6clgfvk7de"
+       },
+       "result": "Vangen, 6715 Esbjerg N",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "6715",
+          "city": "Esbjerg N"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0561",
+          "kommune": "Esbjerg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         466166.57,
+         6153044.14
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "1403eb5b-2e44-4911-bdc2-8911c10ecafc"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "kql74hoc4q6wy"
+       },
+       "refs": {
+        "street": "kql74hoc4q6wy"
+       },
+       "result": "Vangen, 9460 Brovst",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "9460",
+          "city": "Brovst"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0849",
+          "kommune": "Jammerbugt"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         530704.95,
+         6328851.36
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "17cabf38-4d1b-4021-8a2b-0a22a08499fc"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "shmxeefdgl7sw"
+       },
+       "refs": {
+        "street": "shmxeefdgl7sw"
+       },
+       "result": "Vangen, 4281 Gørlev",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "4281",
+          "city": "Gørlev"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0326",
+          "kommune": "Kalundborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         637058.41,
+         6152911.47
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "1b9120b9-a261-4c05-9241-4d3cc200bae7"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "o3zjiswr2py7s"
+       },
+       "refs": {
+        "street": "o3zjiswr2py7s"
+       },
+       "result": "Vangen, 8270 Højbjerg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "8270",
+          "city": "Højbjerg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572311.61,
+         6220191.28
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "282e35af-6193-4859-b795-36117c0a0978"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "3357atpqk2kgg"
+       },
+       "refs": {
+        "street": "3357atpqk2kgg"
+       },
+       "result": "Vangen, 8963 Auning",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "8963",
+          "city": "Auning"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0707",
+          "kommune": "Norddjurs"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         581148.94,
+         6252770.83
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "357fe529-fb13-4c50-bda3-41db2e7ef7ce"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "xelqio2ostrve"
+       },
+       "refs": {
+        "street": "xelqio2ostrve"
+       },
+       "result": "Vangen, 4500 Nykøbing Sj",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "4500",
+          "city": "Nykøbing Sj"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0306",
+          "kommune": "Odsherred"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         666852.6,
+         6201761.47
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "45bc1ec8-2348-442a-bfcd-3ae5f8c099c3"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "iefu2j45dgpjq"
+       },
+       "refs": {
+        "street": "iefu2j45dgpjq"
+       },
+       "result": "Vangen, 9280 Storvorde",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "9280",
+          "city": "Storvorde"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         566977.94,
+         6314970.44
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "4d15695f-0233-485d-b08a-c14892d2df24"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "62meqhncl6qg2"
+       },
+       "refs": {
+        "street": "62meqhncl6qg2"
+       },
+       "result": "Vangen, 9492 Blokhus",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "9492",
+          "city": "Blokhus"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0849",
+          "kommune": "Jammerbugt"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         536637.57,
+         6345602.63
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "61b89955-67a5-4327-a21d-0ec395c0c781"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "ngiqtsjkxldpe"
+       },
+       "refs": {
+        "street": "ngiqtsjkxldpe"
+       },
+       "result": "Vangen, 8940 Randers SV",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "8940",
+          "city": "Randers SV"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         563166.68,
+         6252824.37
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "63f2059b-9f99-4704-a9ce-3ed47bcc5b2b"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "m5aseulvb55iy"
+       },
+       "refs": {
+        "street": "m5aseulvb55iy"
+       },
+       "result": "Vangen, 8981 Spentrup",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "8981",
+          "city": "Spentrup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         561549.0,
+         6270774.39
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "a80c3037-38ce-4b39-82de-7c1d00006bbb"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 131,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "knq6clgfvk7de"
+       },
+       "refs": {
+        "street": "knq6clgfvk7de"
+       },
+       "result": "Vangen, 6715 Esbjerg N",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "6715",
+          "city": "Esbjerg N"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0561",
+          "kommune": "Esbjerg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         466166.57,
+         6153044.14
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "1403eb5b-2e44-4911-bdc2-8911c10ecafc"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "kql74hoc4q6wy"
+       },
+       "refs": {
+        "street": "kql74hoc4q6wy"
+       },
+       "result": "Vangen, 9460 Brovst",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "9460",
+          "city": "Brovst"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0849",
+          "kommune": "Jammerbugt"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         530704.95,
+         6328851.36
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "17cabf38-4d1b-4021-8a2b-0a22a08499fc"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "shmxeefdgl7sw"
+       },
+       "refs": {
+        "street": "shmxeefdgl7sw"
+       },
+       "result": "Vangen, 4281 Gørlev",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "4281",
+          "city": "Gørlev"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0326",
+          "kommune": "Kalundborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         637058.41,
+         6152911.47
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "1b9120b9-a261-4c05-9241-4d3cc200bae7"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "o3zjiswr2py7s"
+       },
+       "refs": {
+        "street": "o3zjiswr2py7s"
+       },
+       "result": "Vangen, 8270 Højbjerg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "8270",
+          "city": "Højbjerg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572311.61,
+         6220191.28
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "282e35af-6193-4859-b795-36117c0a0978"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "3357atpqk2kgg"
+       },
+       "refs": {
+        "street": "3357atpqk2kgg"
+       },
+       "result": "Vangen, 8963 Auning",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "8963",
+          "city": "Auning"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0707",
+          "kommune": "Norddjurs"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         581148.94,
+         6252770.83
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "357fe529-fb13-4c50-bda3-41db2e7ef7ce"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "xelqio2ostrve"
+       },
+       "refs": {
+        "street": "xelqio2ostrve"
+       },
+       "result": "Vangen, 4500 Nykøbing Sj",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "4500",
+          "city": "Nykøbing Sj"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0306",
+          "kommune": "Odsherred"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         666852.6,
+         6201761.47
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "45bc1ec8-2348-442a-bfcd-3ae5f8c099c3"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "iefu2j45dgpjq"
+       },
+       "refs": {
+        "street": "iefu2j45dgpjq"
+       },
+       "result": "Vangen, 9280 Storvorde",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "9280",
+          "city": "Storvorde"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         566977.94,
+         6314970.44
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "4d15695f-0233-485d-b08a-c14892d2df24"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "62meqhncl6qg2"
+       },
+       "refs": {
+        "street": "62meqhncl6qg2"
+       },
+       "result": "Vangen, 9492 Blokhus",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "9492",
+          "city": "Blokhus"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0849",
+          "kommune": "Jammerbugt"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         536637.57,
+         6345602.63
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "61b89955-67a5-4327-a21d-0ec395c0c781"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "ngiqtsjkxldpe"
+       },
+       "refs": {
+        "street": "ngiqtsjkxldpe"
+       },
+       "result": "Vangen, 8940 Randers SV",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "8940",
+          "city": "Randers SV"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         563166.68,
+         6252824.37
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "63f2059b-9f99-4704-a9ce-3ed47bcc5b2b"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "m5aseulvb55iy"
+       },
+       "refs": {
+        "street": "m5aseulvb55iy"
+       },
+       "result": "Vangen, 8981 Spentrup",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vangen",
+        "postcodes": [
+         {
+          "postcode": "8981",
+          "city": "Spentrup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         561549.0,
+         6270774.39
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "a80c3037-38ce-4b39-82de-7c1d00006bbb"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 146,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "7doumrx5ybfno"
+       },
+       "refs": {
+        "postcode": "7doumrx5ybfno"
+       },
+       "result": "Vandel",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7184",
+          "city": "Vandel"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0630",
+          "kommune": "Vejle"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         512288.625,
+         6174922.74
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2727,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "7184"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "pkr4mt3e6ggss"
+       },
+       "refs": {
+        "postcode": "pkr4mt3e6ggss"
+       },
+       "result": "Vanløse",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2720",
+          "city": "Vanløse"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         },
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718964.852,
+         6176743.33
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2308,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2720"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "4ipc5y7gitqdi"
+       },
+       "refs": {
+        "postcode": "4ipc5y7gitqdi"
+       },
+       "result": "Engesvang",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7442",
+          "city": "Engesvang"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         },
+         {
+          "kommunekode": "0756",
+          "kommune": "Ikast-Brande"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         519593.265,
+         6228321.72
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2143,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "7442"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "b6zxspe3qy3yq"
+       },
+       "refs": {
+        "postcode": "b6zxspe3qy3yq"
+       },
+       "result": "Langebæk",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4772",
+          "city": "Langebæk"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0390",
+          "kommune": "Vordingborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         698336.812,
+         6097204.175
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2143,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "4772"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "utpmmncw2ttdg"
+       },
+       "refs": {
+        "postcode": "utpmmncw2ttdg"
+       },
+       "result": "Vadum",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9430",
+          "city": "Vadum"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0849",
+          "kommune": "Jammerbugt"
+         },
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         552973.953,
+         6332806.48
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "9430"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "7bcx5dsu6frl4"
+       },
+       "refs": {
+        "postcode": "7bcx5dsu6frl4"
+       },
+       "result": "Valby",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2500",
+          "city": "Valby"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         },
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720252.517,
+         6173863.045
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2500"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "uo22raox5jrly"
+       },
+       "refs": {
+        "postcode": "uo22raox5jrly"
+       },
+       "result": "Varde",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6800",
+          "city": "Varde"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0573",
+          "kommune": "Varde"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         472298.557,
+         6169611.135
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "6800"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "bos6eot27kste"
+       },
+       "refs": {
+        "postcode": "bos6eot27kste"
+       },
+       "result": "Vonge",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7173",
+          "city": "Vonge"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0630",
+          "kommune": "Vejle"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         526801.298,
+         6191127.855
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "7173"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "hjhzxb6c3tit6"
+       },
+       "refs": {
+        "postcode": "hjhzxb6c3tit6"
+       },
+       "result": "Vamdrup",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6580",
+          "city": "Vamdrup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0621",
+          "kommune": "Kolding"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         521599.421,
+         6141197.98
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "6580"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "pq2oy5wnkohay"
+       },
+       "refs": {
+        "postcode": "pq2oy5wnkohay"
+       },
+       "result": "Fårvang",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8882",
+          "city": "Fårvang"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0710",
+          "kommune": "Favrskov"
+         },
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         544359.418,
+         6236684.61
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8882"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 142,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "city",
+        "id": "eax454xliajic"
+       },
+       "refs": {
+        "city": "eax454xliajic"
+       },
+       "result": "Vandel",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7184",
+          "city": "Vandel"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         512288.625,
+         6174922.74
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2727,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "eax454xliajic"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "bybt3gdqvgj42"
+       },
+       "refs": {
+        "city": "bybt3gdqvgj42"
+       },
+       "result": "Vanløse",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2720",
+          "city": "Vanløse"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718964.852,
+         6176743.33
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2308,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "bybt3gdqvgj42"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "hddj4lfqhlnbi"
+       },
+       "refs": {
+        "city": "hddj4lfqhlnbi"
+       },
+       "result": "Engesvang",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7442",
+          "city": "Engesvang"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         519593.265,
+         6228321.72
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2143,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "hddj4lfqhlnbi"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "xtjutj4uxssb2"
+       },
+       "refs": {
+        "city": "xtjutj4uxssb2"
+       },
+       "result": "Langebæk",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4772",
+          "city": "Langebæk"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         698336.812,
+         6097204.175
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2143,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "xtjutj4uxssb2"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "igkevdew5j5iu"
+       },
+       "refs": {
+        "city": "igkevdew5j5iu"
+       },
+       "result": "Vadum",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9430",
+          "city": "Vadum"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         552973.953,
+         6332806.48
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "igkevdew5j5iu"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "ry6grcyz4gwlq"
+       },
+       "refs": {
+        "city": "ry6grcyz4gwlq"
+       },
+       "result": "Valby",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2500",
+          "city": "Valby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720252.517,
+         6173863.045
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "ry6grcyz4gwlq"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "mbgxkhrbb2srq"
+       },
+       "refs": {
+        "city": "mbgxkhrbb2srq"
+       },
+       "result": "Varde",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6800",
+          "city": "Varde"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         472298.557,
+         6169611.135
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "mbgxkhrbb2srq"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "r7mrt2cvjidvw"
+       },
+       "refs": {
+        "city": "r7mrt2cvjidvw"
+       },
+       "result": "Vonge",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7173",
+          "city": "Vonge"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         526801.298,
+         6191127.855
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "r7mrt2cvjidvw"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "cmggv64p4ovvi"
+       },
+       "refs": {
+        "city": "cmggv64p4ovvi"
+       },
+       "result": "Vamdrup",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6580",
+          "city": "Vamdrup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         521599.421,
+         6141197.98
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "cmggv64p4ovvi"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "maqf4vorkcirg"
+       },
+       "refs": {
+        "city": "maqf4vorkcirg"
+       },
+       "result": "Fårvang",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8882",
+          "city": "Fårvang"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         544359.418,
+         6236684.61
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "maqf4vorkcirg"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 233,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "t2vrfo5ber7la"
+       },
+       "refs": {
+        "ejendom": "t2vrfo5ber7la"
+       },
+       "result": "1a, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1a",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345315
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720811.736,
+         6183953.344
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2068782
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "u3ifve7zstgyi"
+       },
+       "refs": {
+        "ejendom": "u3ifve7zstgyi"
+       },
+       "result": "1c, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1c",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1c",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345321
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720784.292,
+         6183927.324
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2068784
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "kbn3o5nnlgsmo"
+       },
+       "refs": {
+        "ejendom": "kbn3o5nnlgsmo"
+       },
+       "result": "1d, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1d",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1d",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345358
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720759.712,
+         6183692.527
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2068785
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "mgwkvysiir4w6"
+       },
+       "refs": {
+        "ejendom": "mgwkvysiir4w6"
+       },
+       "result": "1e, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1e",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [
+           {
+            "id": "i6gzogqqg5ghy",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "1",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199756
+            }
+           },
+           {
+            "id": "kz35unpt5a5ja",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "10",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199757
+            }
+           },
+           {
+            "id": "3vrizqzhmtk5q",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "11",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199758
+            }
+           },
+           {
+            "id": "kiabhkyhzchne",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "12",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199759
+            }
+           },
+           {
+            "id": "ft4y555izp4eq",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "13",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199760
+            }
+           },
+           {
+            "id": "swe4comx4jawm",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "14",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199761
+            }
+           },
+           {
+            "id": "jvvtkjfxdxzas",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "15",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199762
+            }
+           },
+           {
+            "id": "r7pc67tumsmaq",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "16",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199763
+            }
+           },
+           {
+            "id": "xkt7rvcyd3him",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "17",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199764
+            }
+           },
+           {
+            "id": "rinyl4ht7v3om",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "18",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199765
+            }
+           },
+           {
+            "id": "pbderc774l7mo",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "2",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199766
+            }
+           },
+           {
+            "id": "o7ge3pmzhwumy",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "3",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199767
+            }
+           },
+           {
+            "id": "keaz2ft2pv3ia",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "4",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199768
+            }
+           },
+           {
+            "id": "omwkivs4dapl2",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "5",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199769
+            }
+           },
+           {
+            "id": "3vqeql7e3ygym",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "6",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199770
+            }
+           },
+           {
+            "id": "sroqvbechzwum",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "7",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199771
+            }
+           },
+           {
+            "id": "qhjd2vbiu2hai",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "8",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199772
+            }
+           },
+           {
+            "id": "pnfd6qqmcyugk",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "9",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 199773
+            }
+           }
+          ],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1e",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345326
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720800.204,
+         6183717.586
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2068786
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "jou5vldwm2roa"
+       },
+       "refs": {
+        "ejendom": "jou5vldwm2roa"
+       },
+       "result": "1f, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1f",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1f",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345296
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720815.18,
+         6184003.917
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2068787
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "xtz4ewyx5uhu6"
+       },
+       "refs": {
+        "ejendom": "xtz4ewyx5uhu6"
+       },
+       "result": "1n, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1n",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1n",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345366
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720758.137,
+         6183794.74
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2068794
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "orkgmxmtf5iyi"
+       },
+       "refs": {
+        "ejendom": "orkgmxmtf5iyi"
+       },
+       "result": "1o, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1o",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1o",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345362
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720760.365,
+         6183721.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2068795
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "3eokzfn4vsjzq"
+       },
+       "refs": {
+        "ejendom": "3eokzfn4vsjzq"
+       },
+       "result": "1p, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1p",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1p",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345350
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720747.007,
+         6183679.273
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2068796
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "anjykbg75vyyy"
+       },
+       "refs": {
+        "ejendom": "anjykbg75vyyy"
+       },
+       "result": "1q, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1q",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1q",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345336
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720783.744,
+         6183752.557
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2068797
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "nuotlmyqljjyk"
+       },
+       "refs": {
+        "ejendom": "nuotlmyqljjyk"
+       },
+       "result": "1r, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1r",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1r",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345411
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720673.449,
+         6183845.723
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2068798
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 148,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "m4k5ojrmgqx3o"
+       },
+       "refs": {
+        "ejendom": "m4k5ojrmgqx3o"
+       },
+       "result": "5ac, Vangede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "5ac",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5ac",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 346707
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721273.327,
+         6185018.691
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2069411
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ozvkrxvfm732y"
+       },
+       "refs": {
+        "ejendom": "ozvkrxvfm732y"
+       },
+       "result": "5an, Vangede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "5an",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5an",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 346405
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721196.386,
+         6185064.558
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2069421
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "jymbfhz3ywfb6"
+       },
+       "refs": {
+        "ejendom": "jymbfhz3ywfb6"
+       },
+       "result": "8ci, Vangede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "8ci",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "8ci",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344943
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720261.424,
+         6184567.587
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2069766
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "mak6qjpjkbhlk"
+       },
+       "refs": {
+        "ejendom": "mak6qjpjkbhlk"
+       },
+       "result": "8cm, Vangede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "8cm",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "8cm",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344928
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720250.69,
+         6184519.09
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2069769
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "l5wvj4zbcfcty"
+       },
+       "refs": {
+        "ejendom": "l5wvj4zbcfcty"
+       },
+       "result": "8cn, Vangede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "8cn",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "8cn",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344900
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720282.399,
+         6184506.572
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2069770
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "35blvr4yhk4q2"
+       },
+       "refs": {
+        "ejendom": "35blvr4yhk4q2"
+       },
+       "result": "8cu, Vangede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "8cu",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "8cu",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 345014
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720176.388,
+         6184557.114
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2069777
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "flxuqdfgq476k"
+       },
+       "refs": {
+        "ejendom": "flxuqdfgq476k"
+       },
+       "result": "8cy, Vangede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "8cy",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "8cy",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344936
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720229.729,
+         6184529.475
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2069780
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "3vhap5sakznoo"
+       },
+       "refs": {
+        "ejendom": "3vhap5sakznoo"
+       },
+       "result": "8cz, Vangede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "8cz",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "8cz",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344949
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720218.678,
+         6184534.729
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2069781
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "bh4qmoxlldwfu"
+       },
+       "refs": {
+        "ejendom": "bh4qmoxlldwfu"
+       },
+       "result": "8cæ, Vangede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "8cæ",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "8cæ",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344960
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720205.906,
+         6184540.864
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2069782
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "b3h4ivy4insuw"
+       },
+       "refs": {
+        "ejendom": "b3h4ivy4insuw"
+       },
+       "result": "8de, Vangede",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "8de",
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "8de",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344878
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720306.641,
+         6184555.26
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2069788
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 145,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "fv2b4xaayla3u"
+       },
+       "refs": {
+        "ejerlav": "fv2b4xaayla3u"
+       },
+       "result": "Vangede",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Vangede",
+        "ejerlavskode": 12255
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721184.813,
+         6184380.75
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "B",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 12255
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "vkf5hbhsovo66"
+       },
+       "refs": {
+        "ejerlav": "vkf5hbhsovo66"
+       },
+       "result": "Vang By, Vang",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Vang By, Vang",
+        "ejerlavskode": 701355
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         469988.156,
+         6315548.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3636,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 701355
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "lpie4b4zxqeeq"
+       },
+       "refs": {
+        "ejerlav": "lpie4b4zxqeeq"
+       },
+       "result": "Vangså, Vang",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Vangså, Vang",
+        "ejerlavskode": 701356
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         466732.233,
+         6318306.416
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 701356
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "e22rl6bslyc7g"
+       },
+       "refs": {
+        "ejerlav": "e22rl6bslyc7g"
+       },
+       "result": "Vantinge By, Vantinge",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Vantinge By, Vantinge",
+        "ejerlavskode": 442351
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         587686.448,
+         6121504.741
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2667,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 442351
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "2kfiz5ifkh4va"
+       },
+       "refs": {
+        "ejerlav": "2kfiz5ifkh4va"
+       },
+       "result": "Gurre Vang, Tikøb",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Gurre Vang, Tikøb",
+        "ejerlavskode": 120656
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         716890.09,
+         6214248.664
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 120656
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "kly3cm6j2z5qo"
+       },
+       "refs": {
+        "ejerlav": "kly3cm6j2z5qo"
+       },
+       "result": "Nystrup, Vang",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Nystrup, Vang",
+        "ejerlavskode": 701353
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         472758.541,
+         6317790.393
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 701353
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "3hnleqhngnclm"
+       },
+       "refs": {
+        "ejerlav": "3hnleqhngnclm"
+       },
+       "result": "Diernæs, Vang",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Diernæs, Vang",
+        "ejerlavskode": 701352
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         473170.0,
+         6312990.928
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2353,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 701352
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "fnt6owq5p7tyw"
+       },
+       "refs": {
+        "ejerlav": "fnt6owq5p7tyw"
+       },
+       "result": "Kronenshede, Vang",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Kronenshede, Vang",
+        "ejerlavskode": 701351
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         472480.787,
+         6316516.589
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 701351
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "o25ngf4bbeyve"
+       },
+       "refs": {
+        "ejerlav": "o25ngf4bbeyve"
+       },
+       "result": "Sjørring Sø, Vang",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sjørring Sø, Vang",
+        "ejerlavskode": 701354
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         473103.892,
+         6312737.894
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 701354
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "asqyljflygwsa"
+       },
+       "refs": {
+        "ejerlav": "asqyljflygwsa"
+       },
+       "result": "V. Vandet By, V. Vandet",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "V. Vandet By, V. Vandet",
+        "ejerlavskode": 691052
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         474373.691,
+         6318856.714
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 691052
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 146,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "5nuq6cx3xvxms"
+       },
+       "refs": {
+        "stednavn": "5nuq6cx3xvxms"
+       },
+       "result": "Vangebo",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Vangebo",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0217",
+          "kommune": "Helsingør"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721770.966,
+         6214798.885
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1142336"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ya6f7voaqiius"
+       },
+       "refs": {
+        "stednavn": "ya6f7voaqiius"
+       },
+       "result": "Vange",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Vange",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0550",
+          "kommune": "Tønder"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         499032.658,
+         6086566.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.625,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1101831"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "u7wpuizpzi476"
+       },
+       "refs": {
+        "stednavn": "u7wpuizpzi476"
+       },
+       "result": "Vangen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Vangen",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0766",
+          "kommune": "Hedensted"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         546761.528,
+         6177649.125
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1019252"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "mvriqtdcm73hi"
+       },
+       "refs": {
+        "stednavn": "mvriqtdcm73hi"
+       },
+       "result": "Vangen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Vangen",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0820",
+          "kommune": "Vesthimmerlands"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         521287.077,
+         6294201.84
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1034850"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "6greia7mkcegm"
+       },
+       "refs": {
+        "stednavn": "6greia7mkcegm"
+       },
+       "result": "Vangen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Vangen",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0860",
+          "kommune": "Hjørring"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         562091.957,
+         6371781.11
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1055060"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "4pubmfzaavq3w"
+       },
+       "refs": {
+        "stednavn": "4pubmfzaavq3w"
+       },
+       "result": "Vangen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Vangen",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0860",
+          "kommune": "Hjørring"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         571625.49,
+         6377659.21
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1104744"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ugk5w3rjs7bm6"
+       },
+       "refs": {
+        "stednavn": "ugk5w3rjs7bm6"
+       },
+       "result": "Vangen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Vangen",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0306",
+          "kommune": "Odsherred"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         666959.48,
+         6201755.49
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1106027"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "emqlkb5atghy4"
+       },
+       "refs": {
+        "stednavn": "emqlkb5atghy4"
+       },
+       "result": "Vangen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Vangen",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0813",
+          "kommune": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572442.287,
+         6354617.92
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1113194"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "yhj2hlumordge"
+       },
+       "refs": {
+        "stednavn": "yhj2hlumordge"
+       },
+       "result": "Vangen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Vangen",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         564895.801,
+         6351733.23
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1123065"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "xlcgwz5nxc5r4"
+       },
+       "refs": {
+        "stednavn": "xlcgwz5nxc5r4"
+       },
+       "result": "Vangen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Vangen",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0860",
+          "kommune": "Hjørring"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         562357.253,
+         6371914.94
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1141251"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 139,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "scakv2jczgk6y"
+       },
+       "refs": {
+        "kommune": "scakv2jczgk6y"
+       },
+       "result": "Varde",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0573",
+          "kommune": "Varde"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         469014.319,
+         6168724.39
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0573"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "vhyijlisqz2bo"
+       },
+       "refs": {
+        "kommune": "vhyijlisqz2bo"
+       },
+       "result": "Langeland",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0482",
+          "kommune": "Langeland"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         613857.111,
+         6090005.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0482"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "uotwzjsd47fsk"
+       },
+       "refs": {
+        "kommune": "uotwzjsd47fsk"
+       },
+       "result": "Vallensbæk",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0187",
+          "kommune": "Vallensbæk"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         712139.432,
+         6170394.02
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1176,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0187"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 137,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "6tx2juuh7f5rw"
+       },
+       "refs": {
+        "sogn": "6tx2juuh7f5rw"
+       },
+       "result": "Vang",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8730",
+          "sogn": "Vang"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         468540.749,
+         6316158.96
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8730"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "hn7cmviuhrs5g"
+       },
+       "refs": {
+        "sogn": "hn7cmviuhrs5g"
+       },
+       "result": "Vangede",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7113",
+          "sogn": "Vangede"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720616.602,
+         6183903.2
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7113"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "7om3j55txjnq4"
+       },
+       "refs": {
+        "sogn": "7om3j55txjnq4"
+       },
+       "result": "Vantinge",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7751",
+          "sogn": "Vantinge"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         588682.766,
+         6122443.73
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7751"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "4hq7i2crjlasu"
+       },
+       "refs": {
+        "sogn": "4hq7i2crjlasu"
+       },
+       "result": "Vandborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0665",
+          "kommune": "Lemvig"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8861",
+          "sogn": "Vandborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         448768.06,
+         6267686.33
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2308,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8861"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "qae3a45yvwur4"
+       },
+       "refs": {
+        "sogn": "qae3a45yvwur4"
+       },
+       "result": "Vanløse",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7058",
+          "sogn": "Vanløse"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718569.361,
+         6177324.13
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2308,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7058"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "izesoakudveoq"
+       },
+       "refs": {
+        "sogn": "izesoakudveoq"
+       },
+       "result": "Engesvang",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0756",
+          "kommune": "Ikast-Brande"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8612",
+          "sogn": "Engesvang"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         519260.406,
+         6225792.77
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2143,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8612"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "xnyaut7hoo2dc"
+       },
+       "refs": {
+        "sogn": "xnyaut7hoo2dc"
+       },
+       "result": "Vær",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0615",
+          "kommune": "Horsens"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8048",
+          "sogn": "Vær"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         558475.573,
+         6193406.37
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8048"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "wrhpqyjiv6ewa"
+       },
+       "refs": {
+        "sogn": "wrhpqyjiv6ewa"
+       },
+       "result": "Vestervang",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0217",
+          "kommune": "Helsingør"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7439",
+          "sogn": "Vestervang"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722666.534,
+         6215385.065
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7439"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "6c3f7olp6w6zk"
+       },
+       "refs": {
+        "sogn": "6c3f7olp6w6zk"
+       },
+       "result": "Vestervang",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0791",
+          "kommune": "Viborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9079",
+          "sogn": "Vestervang"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         523409.551,
+         6259126.985
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9079"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "xcpxggpehgtnq"
+       },
+       "refs": {
+        "sogn": "xcpxggpehgtnq"
+       },
+       "result": "Vadum",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8378",
+          "sogn": "Vadum"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         550921.711,
+         6329924.35
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8378"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 125,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 134,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": []
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "vangeb",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 132,
+    "ok": true,
+    "response": {
+     "input": "vangeb",
+     "matches": [
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "yxhji3dwikqnw"
+       },
+       "refs": {
+        "opstillingskreds": "yxhji3dwikqnw"
+       },
+       "result": "Valby",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "8",
+          "opstillingskreds": "Valby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720293.17,
+         6173441.955
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "8"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "nzagqbj3hrjgw"
+       },
+       "refs": {
+        "opstillingskreds": "nzagqbj3hrjgw"
+       },
+       "result": "Varde",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "54",
+          "opstillingskreds": "Varde"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         469014.319,
+         6168724.39
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "54"
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

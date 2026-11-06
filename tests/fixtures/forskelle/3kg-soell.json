@@ -1,0 +1,4915 @@
+{
+ "id": "3kg-soell",
+ "term": "3kg søll",
+ "kommuner": "",
+ "sources": [
+  "sammenligningssiden index.html: mat: 3kg søll",
+  "sammenligningssiden direct.html: 3kg søll",
+  "tests/cases.yaml: mat-3kg-soell"
+ ],
+ "recorded_at": "2026-11-06T19:48:21+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 82,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 90,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 71,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 106,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 106,
+    "ok": true,
+    "row_count": 2,
+    "rows": [
+     {
+      "ejerlavsnavn": "Øverød By, Søllerød",
+      "ejerlavskode": 11453,
+      "kommunenavn": "Rudersdal Kommune",
+      "kommunekode": "0230",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Øverød By, Søllerød",
+      "jordstykke_id": 1385274,
+      "bfenummer": 2045507,
+      "centroid_x": 717930.036,
+      "centroid_y": 6191893.951,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           717911.421,
+           6191907.269
+          ],
+          [
+           717918.91,
+           6191883.719
+          ],
+          [
+           717922.633,
+           6191884.955
+          ],
+          [
+           717929.298,
+           6191881.615
+          ],
+          [
+           717952.722,
+           6191889.361
+          ],
+          [
+           717943.749,
+           6191917.669
+          ],
+          [
+           717915.534,
+           6191908.59
+          ],
+          [
+           717911.421,
+           6191907.269
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Søllerød By, Søllerød",
+      "ejerlavskode": 11452,
+      "kommunenavn": "Rudersdal Kommune",
+      "kommunekode": "0230",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Søllerød By, Søllerød",
+      "jordstykke_id": 1384672,
+      "bfenummer": 2043966,
+      "centroid_x": 719742.989,
+      "centroid_y": 6190488.113,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           719729.843,
+           6190470.887
+          ],
+          [
+           719746.915,
+           6190472.954
+          ],
+          [
+           719758.37,
+           6190507.3
+          ],
+          [
+           719735.759,
+           6190502.734
+          ],
+          [
+           719729.843,
+           6190470.887
+          ]
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 101,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 80,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 87,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 76,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 101,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 89,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 99,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=3kg%20s%C3%B8ll&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 93,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "3kg søll",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 241,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "qjqnnv3rj3ivk"
+       },
+       "refs": {
+        "street": "qjqnnv3rj3ivk"
+       },
+       "result": "Søllen, 5750 Ringe",
+       "lifecycle": "current",
+       "components": {
+        "street": "Søllen",
+        "postcodes": [
+         {
+          "postcode": "5750",
+          "city": "Ringe"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         593086.59,
+         6125000.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3846,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "27cdbe3a-b61e-4eec-8d47-0c82ececc655"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "mtku4k6fhctc4"
+       },
+       "refs": {
+        "street": "mtku4k6fhctc4"
+       },
+       "result": "Søle, 4871 Horbelev",
+       "lifecycle": "current",
+       "components": {
+        "street": "Søle",
+        "postcodes": [
+         {
+          "postcode": "4871",
+          "city": "Horbelev"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0376",
+          "kommune": "Guldborgsund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         698354.61,
+         6078937.08
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "af30875a-a2ca-4eba-8821-19fcb9c3823a"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "dontxpuat7wz6"
+       },
+       "refs": {
+        "city": "dontxpuat7wz6"
+       },
+       "result": "Søllested",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4920",
+          "city": "Søllested"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         647335.467,
+         6074348.595
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3125,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "dontxpuat7wz6"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "oosher7jw7o62"
+       },
+       "refs": {
+        "street": "oosher7jw7o62"
+       },
+       "result": "Sølund, 9900 Frederikshavn",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølund",
+        "postcodes": [
+         {
+          "postcode": "9900",
+          "city": "Frederikshavn"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0813",
+          "kommune": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         591989.82,
+         6369515.03
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "3dcbc9eb-6fe6-4792-853f-7c3f84f3b61d"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "y6wgdtjg6xd7k"
+       },
+       "refs": {
+        "street": "y6wgdtjg6xd7k"
+       },
+       "result": "Sølund, 4581 Rørvig",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølund",
+        "postcodes": [
+         {
+          "postcode": "4581",
+          "city": "Rørvig"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0306",
+          "kommune": "Odsherred"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         673113.01,
+         6204473.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "7059f204-3c4c-4eb1-b2d6-92b6770a18a4"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "pdf3n7lbvvqgi"
+       },
+       "refs": {
+        "street": "pdf3n7lbvvqgi"
+       },
+       "result": "Sølund, 5600 Faaborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølund",
+        "postcodes": [
+         {
+          "postcode": "5600",
+          "city": "Faaborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         587053.32,
+         6110261.41
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "9bae2f83-90d0-4544-8d46-ddb1e592e449"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "pg4hisxsju6po"
+       },
+       "refs": {
+        "street": "pg4hisxsju6po"
+       },
+       "result": "Sølund, 4330 Hvalsø",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølund",
+        "postcodes": [
+         {
+          "postcode": "4330",
+          "city": "Hvalsø"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0350",
+          "kommune": "Lejre"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         679490.78,
+         6164425.39
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "e45b1975-f65c-4d90-8c2d-2decd2545d7f"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "elre3dn46fchw"
+       },
+       "refs": {
+        "street": "elre3dn46fchw"
+       },
+       "result": "Sølyst, 4532 Gislinge",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølyst",
+        "postcodes": [
+         {
+          "postcode": "4532",
+          "city": "Gislinge"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0316",
+          "kommune": "Holbæk"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         658777.25,
+         6181246.75
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "463e79ae-4224-40e0-af3a-59ee82852cd4"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "rc62f574w7slk"
+       },
+       "refs": {
+        "street": "rc62f574w7slk"
+       },
+       "result": "Sølyst, 5900 Rudkøbing",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølyst",
+        "postcodes": [
+         {
+          "postcode": "5900",
+          "city": "Rudkøbing"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0482",
+          "kommune": "Langeland"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         616713.45,
+         6087303.14
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "55ad8f6a-791e-4fb6-b877-28c542d565e0"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "iam7abdrzv4io"
+       },
+       "refs": {
+        "street": "iam7abdrzv4io"
+       },
+       "result": "Sølyst, 8600 Silkeborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølyst",
+        "postcodes": [
+         {
+          "postcode": "8600",
+          "city": "Silkeborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         541149.73,
+         6230232.38
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "d1851b42-9d6d-4624-b412-03a516412549"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 239,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "qjqnnv3rj3ivk"
+       },
+       "refs": {
+        "street": "qjqnnv3rj3ivk"
+       },
+       "result": "Søllen, 5750 Ringe",
+       "lifecycle": "current",
+       "components": {
+        "street": "Søllen",
+        "postcodes": [
+         {
+          "postcode": "5750",
+          "city": "Ringe"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         593086.59,
+         6125000.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3846,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "27cdbe3a-b61e-4eec-8d47-0c82ececc655"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "mtku4k6fhctc4"
+       },
+       "refs": {
+        "street": "mtku4k6fhctc4"
+       },
+       "result": "Søle, 4871 Horbelev",
+       "lifecycle": "current",
+       "components": {
+        "street": "Søle",
+        "postcodes": [
+         {
+          "postcode": "4871",
+          "city": "Horbelev"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0376",
+          "kommune": "Guldborgsund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         698354.61,
+         6078937.08
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "af30875a-a2ca-4eba-8821-19fcb9c3823a"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "oosher7jw7o62"
+       },
+       "refs": {
+        "street": "oosher7jw7o62"
+       },
+       "result": "Sølund, 9900 Frederikshavn",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølund",
+        "postcodes": [
+         {
+          "postcode": "9900",
+          "city": "Frederikshavn"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0813",
+          "kommune": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         591989.82,
+         6369515.03
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "3dcbc9eb-6fe6-4792-853f-7c3f84f3b61d"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "y6wgdtjg6xd7k"
+       },
+       "refs": {
+        "street": "y6wgdtjg6xd7k"
+       },
+       "result": "Sølund, 4581 Rørvig",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølund",
+        "postcodes": [
+         {
+          "postcode": "4581",
+          "city": "Rørvig"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0306",
+          "kommune": "Odsherred"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         673113.01,
+         6204473.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "7059f204-3c4c-4eb1-b2d6-92b6770a18a4"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "pdf3n7lbvvqgi"
+       },
+       "refs": {
+        "street": "pdf3n7lbvvqgi"
+       },
+       "result": "Sølund, 5600 Faaborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølund",
+        "postcodes": [
+         {
+          "postcode": "5600",
+          "city": "Faaborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         587053.32,
+         6110261.41
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "9bae2f83-90d0-4544-8d46-ddb1e592e449"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "pg4hisxsju6po"
+       },
+       "refs": {
+        "street": "pg4hisxsju6po"
+       },
+       "result": "Sølund, 4330 Hvalsø",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølund",
+        "postcodes": [
+         {
+          "postcode": "4330",
+          "city": "Hvalsø"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0350",
+          "kommune": "Lejre"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         679490.78,
+         6164425.39
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "e45b1975-f65c-4d90-8c2d-2decd2545d7f"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "elre3dn46fchw"
+       },
+       "refs": {
+        "street": "elre3dn46fchw"
+       },
+       "result": "Sølyst, 4532 Gislinge",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølyst",
+        "postcodes": [
+         {
+          "postcode": "4532",
+          "city": "Gislinge"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0316",
+          "kommune": "Holbæk"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         658777.25,
+         6181246.75
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "463e79ae-4224-40e0-af3a-59ee82852cd4"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "rc62f574w7slk"
+       },
+       "refs": {
+        "street": "rc62f574w7slk"
+       },
+       "result": "Sølyst, 5900 Rudkøbing",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølyst",
+        "postcodes": [
+         {
+          "postcode": "5900",
+          "city": "Rudkøbing"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0482",
+          "kommune": "Langeland"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         616713.45,
+         6087303.14
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "55ad8f6a-791e-4fb6-b877-28c542d565e0"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "iam7abdrzv4io"
+       },
+       "refs": {
+        "street": "iam7abdrzv4io"
+       },
+       "result": "Sølyst, 8600 Silkeborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølyst",
+        "postcodes": [
+         {
+          "postcode": "8600",
+          "city": "Silkeborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         541149.73,
+         6230232.38
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "d1851b42-9d6d-4624-b412-03a516412549"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "ulm2lc34wle74"
+       },
+       "refs": {
+        "street": "ulm2lc34wle74"
+       },
+       "result": "Sølyst, 8305 Samsø",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sølyst",
+        "postcodes": [
+         {
+          "postcode": "8305",
+          "city": "Samsø"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0741",
+          "kommune": "Samsø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         597515.4,
+         6204042.14
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "d781fa60-b0c4-455c-8f3e-16c86fcd0602"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 243,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "fswuqcyweamd4"
+       },
+       "refs": {
+        "postcode": "fswuqcyweamd4"
+       },
+       "result": "Søllested",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4920",
+          "city": "Søllested"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0360",
+          "kommune": "Lolland"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         647335.467,
+         6074348.595
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3125,
+        "confidence": "B",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "4920"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "fxd4gc7oexyca"
+       },
+       "refs": {
+        "postcode": "fxd4gc7oexyca"
+       },
+       "result": "Søborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2860",
+          "city": "Søborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         },
+         {
+          "kommunekode": "0159",
+          "kommune": "Gladsaxe"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718656.073,
+         6182251.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2860"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "kdiyei7vbp6xe"
+       },
+       "refs": {
+        "postcode": "kdiyei7vbp6xe"
+       },
+       "result": "Sørvad",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7550",
+          "city": "Sørvad"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0657",
+          "kommune": "Herning"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         479438.735,
+         6234233.335
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "7550"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "pibxnofvf2rze"
+       },
+       "refs": {
+        "postcode": "pibxnofvf2rze"
+       },
+       "result": "Søndersø",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5471",
+          "city": "Søndersø"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572765.996,
+         6150778.575
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1765,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "5471"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "x73z4ylyshx4q"
+       },
+       "refs": {
+        "postcode": "x73z4ylyshx4q"
+       },
+       "result": "Svebølle",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4470",
+          "city": "Svebølle"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0316",
+          "kommune": "Holbæk"
+         },
+         {
+          "kommunekode": "0326",
+          "kommune": "Kalundborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         644987.966,
+         6168701.9
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1765,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "4470"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "dk6r2ff4wvezs"
+       },
+       "refs": {
+        "postcode": "dk6r2ff4wvezs"
+       },
+       "result": "Odense SØ",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5220",
+          "city": "Odense SØ"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0461",
+          "kommune": "Odense"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         594839.874,
+         6135384.36
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "5220"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "zsc62ooiomgcw"
+       },
+       "refs": {
+        "postcode": "zsc62ooiomgcw"
+       },
+       "result": "Aalborg SØ",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9210",
+          "city": "Aalborg SØ"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         556778.666,
+         6318279.21
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "9210"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "ipzbp6rvqnk5m"
+       },
+       "refs": {
+        "postcode": "ipzbp6rvqnk5m"
+       },
+       "result": "Randers SØ",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8960",
+          "city": "Randers SØ"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0710",
+          "kommune": "Favrskov"
+         },
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572002.136,
+         6254157.56
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8960"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "fe3vyie2u4fqs"
+       },
+       "refs": {
+        "postcode": "fe3vyie2u4fqs"
+       },
+       "result": "Søby Ærø",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5985",
+          "city": "Søby Ærø"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0492",
+          "kommune": "Ærø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         579844.251,
+         6088534.45
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "5985"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "6ou7y7a4wifam"
+       },
+       "refs": {
+        "postcode": "6ou7y7a4wifam"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6400",
+          "city": "Sønderborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548074.596,
+         6088417.23
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "6400"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 235,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "city",
+        "id": "dontxpuat7wz6"
+       },
+       "refs": {
+        "city": "dontxpuat7wz6"
+       },
+       "result": "Søllested",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4920",
+          "city": "Søllested"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         647335.467,
+         6074348.595
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3125,
+        "confidence": "B",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "dontxpuat7wz6"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "v7evie7odqwtk"
+       },
+       "refs": {
+        "city": "v7evie7odqwtk"
+       },
+       "result": "Søborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2860",
+          "city": "Søborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718656.073,
+         6182251.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "v7evie7odqwtk"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "cgl6bkk7pfmva"
+       },
+       "refs": {
+        "city": "cgl6bkk7pfmva"
+       },
+       "result": "Sørvad",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7550",
+          "city": "Sørvad"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         479438.735,
+         6234233.335
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "cgl6bkk7pfmva"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "6iukdwnhizin6"
+       },
+       "refs": {
+        "city": "6iukdwnhizin6"
+       },
+       "result": "Søndersø",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5471",
+          "city": "Søndersø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572765.996,
+         6150778.575
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1765,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "6iukdwnhizin6"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "o4hwsbncpmgdk"
+       },
+       "refs": {
+        "city": "o4hwsbncpmgdk"
+       },
+       "result": "Svebølle",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4470",
+          "city": "Svebølle"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         644987.966,
+         6168701.9
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1765,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "o4hwsbncpmgdk"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "kacn5kywjinsk"
+       },
+       "refs": {
+        "city": "kacn5kywjinsk"
+       },
+       "result": "Odense SØ",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5220",
+          "city": "Odense SØ"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         594839.874,
+         6135384.36
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "kacn5kywjinsk"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "ojzc22ug5q7gg"
+       },
+       "refs": {
+        "city": "ojzc22ug5q7gg"
+       },
+       "result": "Aalborg SØ",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9210",
+          "city": "Aalborg SØ"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         556778.666,
+         6318279.21
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "ojzc22ug5q7gg"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "cw2qtl5j56ec2"
+       },
+       "refs": {
+        "city": "cw2qtl5j56ec2"
+       },
+       "result": "Randers SØ",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8960",
+          "city": "Randers SØ"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572002.136,
+         6254157.56
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "cw2qtl5j56ec2"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "v4drln4n3y7ki"
+       },
+       "refs": {
+        "city": "v4drln4n3y7ki"
+       },
+       "result": "Søby Ærø",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5985",
+          "city": "Søby Ærø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         579844.251,
+         6088534.45
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "v4drln4n3y7ki"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "2lw3fzifxm2b6"
+       },
+       "refs": {
+        "city": "2lw3fzifxm2b6"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6400",
+          "city": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548074.596,
+         6088417.23
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "2lw3fzifxm2b6"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 929,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "eaiznf3scek3g"
+       },
+       "refs": {
+        "ejendom": "eaiznf3scek3g"
+       },
+       "result": "3kg, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3kg",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384672
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719742.989,
+         6190488.113
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5774,
+        "confidence": "B",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043966
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "us445qvsba4te"
+       },
+       "refs": {
+        "ejendom": "us445qvsba4te"
+       },
+       "result": "2kg, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "2kg",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "2kg",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384947
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719999.489,
+         6190655.119
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4714,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043529
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "gt2u5cyl3x6mu"
+       },
+       "refs": {
+        "ejendom": "gt2u5cyl3x6mu"
+       },
+       "result": "3g, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3g",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3g",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384304
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719532.092,
+         6189790.016
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4714,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043705
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "2xhevf3irnch2"
+       },
+       "refs": {
+        "ejendom": "2xhevf3irnch2"
+       },
+       "result": "3k, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3k",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3k",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384777
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719574.689,
+         6189912.355
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4714,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043708
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ymnbpgki7e3yq"
+       },
+       "refs": {
+        "ejendom": "ymnbpgki7e3yq"
+       },
+       "result": "3ag, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3ag",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3ag",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384433
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719370.179,
+         6189873.71
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4714,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043731
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "rvbgl5fx4ydl4"
+       },
+       "refs": {
+        "ejendom": "rvbgl5fx4ydl4"
+       },
+       "result": "3bg, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3bg",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3bg",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384379
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719423.306,
+         6190192.031
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4714,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043757
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "toy7j2i4noulg"
+       },
+       "refs": {
+        "ejendom": "toy7j2i4noulg"
+       },
+       "result": "3cg, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3cg",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3cg",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384431
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719359.897,
+         6190395.156
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4714,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043786
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "sflkqfglyll4g"
+       },
+       "refs": {
+        "ejendom": "sflkqfglyll4g"
+       },
+       "result": "3dg, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3dg",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3dg",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384317
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719507.307,
+         6189927.31
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4714,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043813
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "gkb36lt4vpj3s"
+       },
+       "refs": {
+        "ejendom": "gkb36lt4vpj3s"
+       },
+       "result": "3eg, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3eg",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3eg",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384096
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719146.949,
+         6190632.718
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4714,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043840
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "orvlz2hjy7xxo"
+       },
+       "refs": {
+        "ejendom": "orvlz2hjy7xxo"
+       },
+       "result": "3gg, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3gg",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3gg",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384450
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719334.526,
+         6190516.866
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4714,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043892
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 422,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "gubysjw6uqmos"
+       },
+       "refs": {
+        "ejendom": "gubysjw6uqmos"
+       },
+       "result": "4c, Søllinge By, Søllinge",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "4c",
+        "ejerlavskode": 411453,
+        "ejerlav": "Søllinge By, Søllinge",
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4c",
+           "ejerlavskode": 411453,
+           "ejerlav": "Søllinge By, Søllinge",
+           "kommunekode": "0430",
+           "kommune": "Faaborg-Midtfyn",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 98455
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         597328.153,
+         6127709.729
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.345,
+        "confidence": "B",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 1337224
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "oxozucoxkftow"
+       },
+       "refs": {
+        "ejendom": "oxozucoxkftow"
+       },
+       "result": "5k, Søllested By, Søllested (Lolland)",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "5k",
+        "ejerlavskode": 501352,
+        "ejerlav": "Søllested By, Søllested (Lolland)",
+        "kommuner": [
+         {
+          "kommunekode": "0360",
+          "kommune": "Lolland"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5k",
+           "ejerlavskode": 501352,
+           "ejerlav": "Søllested By, Søllested (Lolland)",
+           "kommunekode": "0360",
+           "kommune": "Lolland",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1559433
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         646043.439,
+         6076158.125
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3113586
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ne6zqwrirmvoy"
+       },
+       "refs": {
+        "ejendom": "ne6zqwrirmvoy"
+       },
+       "result": "10ap, Søllinge By, Søllinge",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 411453,
+        "ejerlav": "Søllinge By, Søllinge",
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "10ap",
+           "ejerlavskode": 411453,
+           "ejerlav": "Søllinge By, Søllinge",
+           "kommunekode": "0430",
+           "kommune": "Faaborg-Midtfyn",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 98370
+           }
+          },
+          {
+           "matrikelnummer": "12l",
+           "ejerlavskode": 411453,
+           "ejerlav": "Søllinge By, Søllinge",
+           "kommunekode": "0430",
+           "kommune": "Faaborg-Midtfyn",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 98466
+           }
+          },
+          {
+           "matrikelnummer": "13d",
+           "ejerlavskode": 411453,
+           "ejerlav": "Søllinge By, Søllinge",
+           "kommunekode": "0430",
+           "kommune": "Faaborg-Midtfyn",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 98459
+           }
+          },
+          {
+           "matrikelnummer": "16c",
+           "ejerlavskode": 411453,
+           "ejerlav": "Søllinge By, Søllinge",
+           "kommunekode": "0430",
+           "kommune": "Faaborg-Midtfyn",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 98462
+           }
+          },
+          {
+           "matrikelnummer": "23a",
+           "ejerlavskode": 411453,
+           "ejerlav": "Søllinge By, Søllinge",
+           "kommunekode": "0430",
+           "kommune": "Faaborg-Midtfyn",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 98380
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         597689.811,
+         6127348.053
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1757,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 10183687
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "us3vnuseykyq6"
+       },
+       "refs": {
+        "ejendom": "us3vnuseykyq6"
+       },
+       "result": "7c, Tarup By, Sdr. Nærå",
+       "lifecycle": "retired",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "7c",
+           "ejerlavskode": 351154,
+           "ejerlav": "Tarup By, Sdr. Nærå",
+           "kommunekode": "0430",
+           "kommune": "Faaborg-Midtfyn",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 168850
+           }
+          },
+          {
+           "matrikelnummer": "7i",
+           "ejerlavskode": 351154,
+           "ejerlav": "Tarup By, Sdr. Nærå",
+           "kommunekode": "0430",
+           "kommune": "Faaborg-Midtfyn",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 168837
+           }
+          },
+          {
+           "matrikelnummer": "15a",
+           "ejerlavskode": 411453,
+           "ejerlav": "Søllinge By, Søllinge",
+           "kommunekode": "0430",
+           "kommune": "Faaborg-Midtfyn",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 98413
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         597433.967,
+         6128655.029
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1757,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 1337211
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "zwcjjaomqm6go"
+       },
+       "refs": {
+        "ejendom": "zwcjjaomqm6go"
+       },
+       "result": "2nn, Søllerød By, Søllerød",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "2nn",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "2nn",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1385083
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720493.763,
+         6190865.84
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043608
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "gsefofamo5hcg"
+       },
+       "refs": {
+        "ejendom": "gsefofamo5hcg"
+       },
+       "result": "6cb, Søllerød By, Søllerød",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [
+           {
+            "id": "ghcutsy4mnibk",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "1",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 212628
+            }
+           },
+           {
+            "id": "227qfzlkzp4yk",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "2",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 212629
+            }
+           }
+          ],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "6cb",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1385159
+           }
+          },
+          {
+           "matrikelnummer": "6cm",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1385154
+           }
+          },
+          {
+           "matrikelnummer": "6cp",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2583124
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720306.079,
+         6191364.451
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8941270
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "shiwjrevq7d3o"
+       },
+       "refs": {
+        "ejendom": "shiwjrevq7d3o"
+       },
+       "result": "5r, Søllested By, Søllested (Lolland)",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "5r",
+        "ejerlavskode": 501352,
+        "ejerlav": "Søllested By, Søllested (Lolland)",
+        "kommuner": [
+         {
+          "kommunekode": "0360",
+          "kommune": "Lolland"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "5r",
+           "ejerlavskode": 501352,
+           "ejerlav": "Søllested By, Søllested (Lolland)",
+           "kommunekode": "0360",
+           "kommune": "Lolland",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1559410
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         646068.229,
+         6076146.862
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3113593
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "g6xqrbe67qlrg"
+       },
+       "refs": {
+        "ejendom": "g6xqrbe67qlrg"
+       },
+       "result": "11c, Søllested By, Søllested (Lolland)",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "11c",
+        "ejerlavskode": 501352,
+        "ejerlav": "Søllested By, Søllested (Lolland)",
+        "kommuner": [
+         {
+          "kommunekode": "0360",
+          "kommune": "Lolland"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "11c",
+           "ejerlavskode": 501352,
+           "ejerlav": "Søllested By, Søllested (Lolland)",
+           "kommunekode": "0360",
+           "kommune": "Lolland",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1559185
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         645733.05,
+         6076629.41
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3113819
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 226,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "hqsldznlgfjbk"
+       },
+       "refs": {
+        "ejerlav": "hqsldznlgfjbk"
+       },
+       "result": "Søllinge By, Søllinge",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Søllinge By, Søllinge",
+        "ejerlavskode": 411453
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         596967.237,
+         6127209.111
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2778,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 411453
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "dvpggxrqoszmi"
+       },
+       "refs": {
+        "ejerlav": "dvpggxrqoszmi"
+       },
+       "result": "Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Søllerød By, Søllerød",
+        "ejerlavskode": 11452
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719732.771,
+         6189996.316
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2632,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 11452
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "g4pslghiskt6u"
+       },
+       "refs": {
+        "ejerlav": "g4pslghiskt6u"
+       },
+       "result": "Søllested By, Søllested (Assens)",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Søllested By, Søllested (Assens)",
+        "ejerlavskode": 391654
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         566335.75,
+         6127162.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2632,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 391654
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "5ywj7ta7b3zhq"
+       },
+       "refs": {
+        "ejerlav": "5ywj7ta7b3zhq"
+       },
+       "result": "Søllested By, Søllested (Lolland)",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Søllested By, Søllested (Lolland)",
+        "ejerlavskode": 501352
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         645191.14,
+         6076634.666
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2632,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 501352
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "2oqotx3pp6hzq"
+       },
+       "refs": {
+        "ejerlav": "2oqotx3pp6hzq"
+       },
+       "result": "Ll. Vistorp, Søllested",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Ll. Vistorp, Søllested",
+        "ejerlavskode": 391653
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         564937.79,
+         6127843.17
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2308,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 391653
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "da5zxag2sgsz4"
+       },
+       "refs": {
+        "ejerlav": "da5zxag2sgsz4"
+       },
+       "result": "Søllestedgård, Søllested",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Søllestedgård, Søllested",
+        "ejerlavskode": 501353
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         648570.239,
+         6077791.699
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2273,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 501353
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "a7f3pii3aik3k"
+       },
+       "refs": {
+        "ejerlav": "a7f3pii3aik3k"
+       },
+       "result": "Falden, Søllested",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Falden, Søllested",
+        "ejerlavskode": 391652
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         571032.794,
+         6127923.637
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2174,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 391652
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "crlelnvgs7xkc"
+       },
+       "refs": {
+        "ejerlav": "crlelnvgs7xkc"
+       },
+       "result": "Øverød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Øverød By, Søllerød",
+        "ejerlavskode": 11453
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         717931.739,
+         6192080.805
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2083,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 11453
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "p5udhtoaxzmcw"
+       },
+       "refs": {
+        "ejerlav": "p5udhtoaxzmcw"
+       },
+       "result": "Holte By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Holte By, Søllerød",
+        "ejerlavskode": 11451
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719231.403,
+         6193746.288
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 11451
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "mpkiglfnp5ae2"
+       },
+       "refs": {
+        "ejerlav": "mpkiglfnp5ae2"
+       },
+       "result": "Søby By, Søby (Ærø)",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Søby By, Søby (Ærø)",
+        "ejerlavskode": 1320452
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         580732.687,
+         6088216.321
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1320452
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 239,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "hxzhbmczixzow"
+       },
+       "refs": {
+        "stednavn": "hxzhbmczixzow"
+       },
+       "result": "Søle",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Søle",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0376",
+          "kommune": "Guldborgsund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         698274.026,
+         6078978.605
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1110946"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "rdrhdj3bfvg5w"
+       },
+       "refs": {
+        "stednavn": "rdrhdj3bfvg5w"
+       },
+       "result": "Søllerup",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Søllerup",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0259",
+          "kommune": "Køge"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         696978.684,
+         6145224.435
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "7466113"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "wwh6vz3x44fj2"
+       },
+       "refs": {
+        "stednavn": "wwh6vz3x44fj2"
+       },
+       "result": "Søllinge",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Søllinge",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         597592.682,
+         6127749.725
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "7490417"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "23n7k6unc5od2"
+       },
+       "refs": {
+        "stednavn": "23n7k6unc5od2"
+       },
+       "result": "Sølt",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sølt",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         601324.723,
+         6116441.835
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1140881"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "xqcksdlmtfztw"
+       },
+       "refs": {
+        "stednavn": "xqcksdlmtfztw"
+       },
+       "result": "Søly",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Søly",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0306",
+          "kommune": "Odsherred"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         647775.13,
+         6181670.715
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1033426"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "uei273npzwifo"
+       },
+       "refs": {
+        "stednavn": "uei273npzwifo"
+       },
+       "result": "Søly",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Søly",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0336",
+          "kommune": "Stevns"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         714450.793,
+         6128420.475
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1034678"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "n2o4swisippfo"
+       },
+       "refs": {
+        "stednavn": "n2o4swisippfo"
+       },
+       "result": "Søly",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Søly",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0400",
+          "kommune": "Bornholm"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         880662.451,
+         6133267.335
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1064062"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ysxisa4e44zp2"
+       },
+       "refs": {
+        "stednavn": "ysxisa4e44zp2"
+       },
+       "result": "Søly",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Søly",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0340",
+          "kommune": "Sorø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         661638.293,
+         6147897.645
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1135339"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "hb4sqlbxzhgt2"
+       },
+       "refs": {
+        "stednavn": "hb4sqlbxzhgt2"
+       },
+       "result": "Rølle Sø",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Rølle Sø",
+        "type": "sø",
+        "kommuner": [
+         {
+          "kommunekode": "0461",
+          "kommune": "Odense"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         596964.395,
+         6133020.37
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3125,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1135192"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "nveito5le3rew"
+       },
+       "refs": {
+        "stednavn": "nveito5le3rew"
+       },
+       "result": "Sø Mølle",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sø Mølle",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0773",
+          "kommune": "Morsø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         491695.416,
+         6306713.77
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3125,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1089373"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 132,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "shcdgza3xmtsy"
+       },
+       "refs": {
+        "kommune": "shcdgza3xmtsy"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         559691.612,
+         6091586.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0540"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "u7wao7ekxpjpe"
+       },
+       "refs": {
+        "kommune": "u7wao7ekxpjpe"
+       },
+       "result": "Sorø",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0340",
+          "kommune": "Sorø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         661650.602,
+         6150816.76
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0340"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "kls7tcyin4cma"
+       },
+       "refs": {
+        "kommune": "kls7tcyin4cma"
+       },
+       "result": "Samsø",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0741",
+          "kommune": "Samsø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         600818.435,
+         6194239.8
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1333,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0741"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "vwzws4nosxebm"
+       },
+       "refs": {
+        "kommune": "vwzws4nosxebm"
+       },
+       "result": "Solrød",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0269",
+          "kommune": "Solrød"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         700012.345,
+         6159251.925
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0269"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 136,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "bnfpcxj24gply"
+       },
+       "refs": {
+        "sogn": "bnfpcxj24gply"
+       },
+       "result": "Søllinge",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7737",
+          "sogn": "Søllinge"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         597238.234,
+         6127272.755
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7737"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "5wcq24fwk7vfq"
+       },
+       "refs": {
+        "sogn": "5wcq24fwk7vfq"
+       },
+       "result": "Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7125",
+          "sogn": "Søllerød"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719143.388,
+         6191564.46
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3125,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7125"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "i6iu7v6ynerty"
+       },
+       "refs": {
+        "sogn": "i6iu7v6ynerty"
+       },
+       "result": "Søllested",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7815",
+          "sogn": "Søllested"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         567462.702,
+         6127589.96
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3125,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7815"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "i4hcottxlxdzi"
+       },
+       "refs": {
+        "sogn": "i4hcottxlxdzi"
+       },
+       "result": "Søby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0492",
+          "kommune": "Ærø"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7718",
+          "sogn": "Søby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         579910.086,
+         6089103.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2308,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7718"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "llihzjtti2o6u"
+       },
+       "refs": {
+        "sogn": "llihzjtti2o6u"
+       },
+       "result": "Søby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7805",
+          "sogn": "Søby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         565039.437,
+         6124807.7
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2308,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7805"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "epf3hxj36fcic"
+       },
+       "refs": {
+        "sogn": "epf3hxj36fcic"
+       },
+       "result": "Søby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0710",
+          "kommune": "Favrskov"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8024",
+          "sogn": "Søby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         550339.593,
+         6234284.845
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2308,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8024"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "cpy2lk6cgouui"
+       },
+       "refs": {
+        "sogn": "cpy2lk6cgouui"
+       },
+       "result": "Søby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0706",
+          "kommune": "Syddjurs"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8228",
+          "sogn": "Søby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         576989.998,
+         6244542.97
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2308,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8228"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "ihtmdt3aql4im"
+       },
+       "refs": {
+        "sogn": "ihtmdt3aql4im"
+       },
+       "result": "Sørig",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0860",
+          "kommune": "Hjørring"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9229",
+          "sogn": "Sørig"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         576925.182,
+         6382389.555
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2143,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9229"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "rtqqqssmofms6"
+       },
+       "refs": {
+        "sogn": "rtqqqssmofms6"
+       },
+       "result": "Sørup",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0479",
+          "kommune": "Svendborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7678",
+          "sogn": "Sørup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         600423.388,
+         6104766.82
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2143,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7678"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "kkqawb3clv3ac"
+       },
+       "refs": {
+        "sogn": "kkqawb3clv3ac"
+       },
+       "result": "Sørup",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0840",
+          "kommune": "Rebild"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9238",
+          "sogn": "Sørup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         547665.0,
+         6305116.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2143,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9238"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 132,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 140,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "retskreds",
+        "id": "q37ulfwqiyca6"
+       },
+       "refs": {
+        "retskreds": "q37ulfwqiyca6"
+       },
+       "result": "Retten i Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "retskredse": [
+         {
+          "retskredsnummer": "11",
+          "retskreds": "Retten i Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         506222.063,
+         6104992.435
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1071,
+        "confidence": "B",
+        "upstream": {
+         "retskreds": {
+          "source": "DAGI.Retskreds",
+          "id": "11"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 131,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg søll",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 130,
+    "ok": true,
+    "response": {
+     "input": "3kg søll",
+     "matches": [
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "c5w6hcgpve7fo"
+       },
+       "refs": {
+        "opstillingskreds": "c5w6hcgpve7fo"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "49",
+          "opstillingskreds": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         559691.612,
+         6091586.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "B",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "49"
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

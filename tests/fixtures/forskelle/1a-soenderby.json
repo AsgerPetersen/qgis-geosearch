@@ -1,0 +1,7106 @@
+{
+ "id": "1a-soenderby",
+ "term": "1a sønderby",
+ "kommuner": "",
+ "sources": [
+  "tests/cases.yaml: mat-1a-soenderby"
+ ],
+ "recorded_at": "2026-11-06T19:51:02+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 103,
+    "ok": true,
+    "row_count": 6,
+    "rows": [
+     {
+      "id": "58eba9b3-adf8-4d05-a819-6929dc3df365",
+      "kommunenavn": "Herning",
+      "kommunekode": "0657",
+      "vejkode": "1053",
+      "vejnavn": "Sønderbyvej",
+      "husnummer": "1A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "7270",
+      "postnummernavn": "Stakroge",
+      "visningstekst": "Sønderbyvej 1A, 7270 Stakroge",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         489348.17,
+         6194286.63
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         489348.83,
+         6194114.31
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50b7-fe90-32b8-e044-0003ba298018",
+      "kommunenavn": "Tønder",
+      "kommunekode": "0550",
+      "vejkode": "1624",
+      "vejnavn": "Sønderbyvej",
+      "husnummer": "1A",
+      "etagebetegnelse": "2",
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Møgeltønder",
+      "postnummer": "6270",
+      "postnummernavn": "Tønder",
+      "visningstekst": "Sønderbyvej 1A, 2., Møgeltønder, 6270 Tønder",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         487379.11,
+         6088229.91
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         487341.60468321,
+         6088246.28649258
+        ]
+       ]
+      }
+     },
+     {
+      "id": "7bae0e17-dbcb-4b77-9792-e70213978630",
+      "kommunenavn": "Tønder",
+      "kommunekode": "0550",
+      "vejkode": "1624",
+      "vejnavn": "Sønderbyvej",
+      "husnummer": "1A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Møgeltønder",
+      "postnummer": "6270",
+      "postnummernavn": "Tønder",
+      "visningstekst": "Sønderbyvej 1A, Møgeltønder, 6270 Tønder",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         487379.11,
+         6088229.91
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         487341.60468321,
+         6088246.28649258
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50aa-6e34-32b8-e044-0003ba298018",
+      "kommunenavn": "Frederikssund",
+      "kommunekode": "0250",
+      "vejkode": "0142",
+      "vejnavn": "Bredvigvej",
+      "husnummer": "1A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Sønderby",
+      "postnummer": "4050",
+      "postnummernavn": "Skibby",
+      "visningstekst": "Bredvigvej 1A, Sønderby, 4050 Skibby",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         690319.25667832,
+         6180806.93308935
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         690333.04,
+         6180797.79
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50b2-5098-32b8-e044-0003ba298018",
+      "kommunenavn": "Assens",
+      "kommunekode": "0420",
+      "vejkode": "1340",
+      "vejnavn": "Rybergsvej",
+      "husnummer": "1A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Sønderby",
+      "postnummer": "5631",
+      "postnummernavn": "Ebberup",
+      "visningstekst": "Rybergsvej 1A, Sønderby, 5631 Ebberup",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         561455.29412639,
+         6122599.71137246
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         561502.42,
+         6122567.04
+        ]
+       ]
+      }
+     },
+     {
+      "id": "5006fc2d-3877-4446-97ed-71b9b2faebad",
+      "kommunenavn": "Sønderborg",
+      "kommunekode": "0540",
+      "vejkode": "2108",
+      "vejnavn": "Søndermark",
+      "husnummer": "1A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": "Sønderby",
+      "postnummer": "6470",
+      "postnummernavn": "Sydals",
+      "visningstekst": "Søndermark 1A, Sønderby, 6470 Sydals",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         557243.71,
+         6080556.7
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         557233.06246783,
+         6080557.07211329
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 114,
+    "ok": true,
+    "row_count": 5,
+    "rows": [
+     {
+      "id": "6825e2c1-6f59-501c-e044-00144f3ead67",
+      "kommunenavn": "Herning",
+      "kommunekode": "0657",
+      "vejkode": "1053",
+      "vejnavn": "Sønderbyvej",
+      "husnummertekst": "1A",
+      "supplerendebynavn": null,
+      "postnummer": "7270",
+      "postnummernavn": "Stakroge",
+      "visningstekst": "Sønderbyvej 1A, 7270 Stakroge",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         489348.17,
+         6194286.63
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         489348.83,
+         6194114.31
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508c-b27c-32b8-e044-0003ba298018",
+      "kommunenavn": "Tønder",
+      "kommunekode": "0550",
+      "vejkode": "1624",
+      "vejnavn": "Sønderbyvej",
+      "husnummertekst": "1A",
+      "supplerendebynavn": "Møgeltønder",
+      "postnummer": "6270",
+      "postnummernavn": "Tønder",
+      "visningstekst": "Sønderbyvej 1A, Møgeltønder, 6270 Tønder",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         487379.11,
+         6088229.91
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         487341.60468321,
+         6088246.28649258
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5080-9c0c-32b8-e044-0003ba298018",
+      "kommunenavn": "Frederikssund",
+      "kommunekode": "0250",
+      "vejkode": "0142",
+      "vejnavn": "Bredvigvej",
+      "husnummertekst": "1A",
+      "supplerendebynavn": "Sønderby",
+      "postnummer": "4050",
+      "postnummernavn": "Skibby",
+      "visningstekst": "Bredvigvej 1A, Sønderby, 4050 Skibby",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         690319.25667832,
+         6180806.93308935
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         690333.04,
+         6180797.79
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f5087-ca6a-32b8-e044-0003ba298018",
+      "kommunenavn": "Assens",
+      "kommunekode": "0420",
+      "vejkode": "1340",
+      "vejnavn": "Rybergsvej",
+      "husnummertekst": "1A",
+      "supplerendebynavn": "Sønderby",
+      "postnummer": "5631",
+      "postnummernavn": "Ebberup",
+      "visningstekst": "Rybergsvej 1A, Sønderby, 5631 Ebberup",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         561455.29412639,
+         6122599.71137246
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         561502.42,
+         6122567.04
+        ]
+       ]
+      }
+     },
+     {
+      "id": "ebfcdb93-b3d9-493a-95f5-07101a8c5d7f",
+      "kommunenavn": "Sønderborg",
+      "kommunekode": "0540",
+      "vejkode": "2108",
+      "vejnavn": "Søndermark",
+      "husnummertekst": "1A",
+      "supplerendebynavn": "Sønderby",
+      "postnummer": "6470",
+      "postnummernavn": "Sydals",
+      "visningstekst": "Søndermark 1A, Sønderby, 6470 Sydals",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         557243.71,
+         6080556.7
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         557233.06246783,
+         6080557.07211329
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 135,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 95,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 155,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "ejerlavsnavn": "Sønderby, Kegnæs",
+      "ejerlavskode": 1550353,
+      "kommunenavn": "Sønderborg Kommune",
+      "kommunekode": "0540",
+      "matrikelnummer": "1a",
+      "visningstekst": "1a, Sønderby, Kegnæs",
+      "jordstykke_id": 2681497,
+      "bfenummer": 9913601,
+      "centroid_x": 558171.597,
+      "centroid_y": 6080474.102,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           558284.663,
+           6080243.301
+          ],
+          [
+           558285.615,
+           6080246.47
+          ],
+          [
+           558293.304,
+           6080266.686
+          ],
+          [
+           558295.655,
+           6080270.074
+          ],
+          [
+           558305.505,
+           6080294.595
+          ],
+          [
+           558317.633,
+           6080336.495
+          ],
+          [
+           558319.487,
+           6080340.331
+          ],
+          [
+           558321.64,
+           6080347.684
+          ],
+          [
+           558320.363,
+           6080348.158
+          ],
+          [
+           558322.025,
+           6080353.094
+          ],
+          [
+           558333.651,
+           6080386.252
+          ],
+          [
+           558337.155,
+           6080396.493
+          ],
+          [
+           558346.645,
+           6080423.808
+          ],
+          [
+           558396.754,
+           6080525.634
+          ],
+          [
+           558407.294,
+           6080525.591
+          ],
+          [
+           558438.435,
+           6080524.556
+          ],
+          [
+           558439.85,
+           6080524.51
+          ],
+          [
+           558439.632,
+           6080534.912
+          ],
+          [
+           558443.607,
+           6080560.065
+          ],
+          [
+           558450.276,
+           6080606.912
+          ],
+          [
+           558433.75,
+           6080656.717
+          ],
+          [
+           558416.239,
+           6080706.945
+          ],
+          [
+           558407.249,
+           6080730.35
+          ],
+          [
+           558416.776,
+           6080778.561
+          ],
+          [
+           558434.006,
+           6080873.309
+          ],
+          [
+           558446.495,
+           6080947.303
+          ],
+          [
+           558450.65,
+           6080970.877
+          ],
+          [
+           558454.891,
+           6080995.347
+          ],
+          [
+           558365.098,
+           6081009.939
+          ],
+          [
+           558275.171,
+           6081024.553
+          ],
+          [
+           558265.896,
+           6080987.474
+          ],
+          [
+           558264.862,
+           6080965.411
+          ],
+          [
+           558269.426,
+           6080950.382
+          ],
+          [
+           558294.781,
+           6080876.394
+          ],
+          [
+           558311.807,
+           6080821.486
+          ],
+          [
+           558313.177,
+           6080817.07
+          ],
+          [
+           558333.098,
+           6080812.472
+          ],
+          [
+           558331.773,
+           6080812.461
+          ],
+          [
+           558343.466,
+           6080764.478
+          ],
+          [
+           558354.752,
+           6080718.56
+          ],
+          [
+           558333.362,
+           6080714.384
+          ],
+          [
+           558262.501,
+           6080699.804
+          ],
+          [
+           558247.01,
+           6080697.985
+          ],
+          [
+           558240.951,
+           6080696.668
+          ],
+          [
+           558214.548,
+           6080691.911
+          ],
+          [
+           558117.83,
+           6080673.311
+          ],
+          [
+           558115.46,
+           6080674.258
+          ],
+          [
+           558077.931,
+           6080666.703
+          ],
+          [
+           558038.849,
+           6080658.645
+          ],
+          [
+           557993.035,
+           6080650.382
+          ],
+          [
+           557990.281,
+           6080638.127
+          ],
+          [
+           557985.142,
+           6080629.021
+          ],
+          [
+           557966.863,
+           6080606.262
+          ],
+          [
+           557963.576,
+           6080605.072
+          ],
+          [
+           557952.237,
+           6080586.826
+          ],
+          [
+           557948.514,
+           6080581.357
+          ],
+          [
+           557943.75,
+           6080571.335
+          ],
+          [
+           557942.913,
+           6080563.847
+          ],
+          [
+           557943.309,
+           6080559.995
+          ],
+          [
+           557957.233,
+           6080522.596
+          ],
+          [
+           557965.27,
+           6080504.834
+          ],
+          [
+           557970.326,
+           6080498.224
+          ],
+          [
+           557994.254,
+           6080489.385
+          ],
+          [
+           557998.763,
+           6080487.885
+          ],
+          [
+           558013.178,
+           6080481.947
+          ],
+          [
+           558017.726,
+           6080479.02
+          ],
+          [
+           558020.255,
+           6080477.48
+          ],
+          [
+           558021.436,
+           6080476.583
+          ],
+          [
+           558016.332,
+           6080464.653
+          ],
+          [
+           558018.266,
+           6080457.293
+          ],
+          [
+           558007.775,
+           6080445.067
+          ],
+          [
+           557996.191,
+           6080431.366
+          ],
+          [
+           557996.908,
+           6080430.042
+          ],
+          [
+           557993.134,
+           6080427.651
+          ],
+          [
+           557966.287,
+           6080406.258
+          ],
+          [
+           557958.602,
+           6080398.946
+          ],
+          [
+           557944.941,
+           6080390.811
+          ],
+          [
+           557928.413,
+           6080383.889
+          ],
+          [
+           557905.622,
+           6080374.506
+          ],
+          [
+           557873.696,
+           6080360.896
+          ],
+          [
+           557857.521,
+           6080353.177
+          ],
+          [
+           557852.4,
+           6080350.684
+          ],
+          [
+           557837.499,
+           6080344.126
+          ],
+          [
+           557838.177,
+           6080341.048
+          ],
+          [
+           557849.525,
+           6080335.31
+          ],
+          [
+           557871.177,
+           6080324.313
+          ],
+          [
+           557894.969,
+           6080310.814
+          ],
+          [
+           557904.594,
+           6080304.187
+          ],
+          [
+           557928.643,
+           6080288.387
+          ],
+          [
+           557939.945,
+           6080282.73
+          ],
+          [
+           557953.918,
+           6080275.377
+          ],
+          [
+           557972.056,
+           6080267.114
+          ],
+          [
+           558003.241,
+           6080252.412
+          ],
+          [
+           558012.594,
+           6080248.155
+          ],
+          [
+           558023.704,
+           6080243.413
+          ],
+          [
+           558031.639,
+           6080239.785
+          ],
+          [
+           558044.297,
+           6080236.096
+          ],
+          [
+           558056.689,
+           6080232.279
+          ],
+          [
+           558066.881,
+           6080231.246
+          ],
+          [
+           558079.117,
+           6080231.184
+          ],
+          [
+           558087.308,
+           6080231.1
+          ],
+          [
+           558106.935,
+           6080233.853
+          ],
+          [
+           558099.999,
+           6080271.818
+          ],
+          [
+           558130.845,
+           6080279.362
+          ],
+          [
+           558144.078,
+           6080281.71
+          ],
+          [
+           558157.371,
+           6080283.279
+          ],
+          [
+           558170.799,
+           6080283.14
+          ],
+          [
+           558192.219,
+           6080280.655
+          ],
+          [
+           558211.504,
+           6080274.513
+          ],
+          [
+           558229.852,
+           6080268.214
+          ],
+          [
+           558247.532,
+           6080260.177
+          ],
+          [
+           558284.663,
+           6080243.301
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Sønderby By, Femø",
+      "ejerlavskode": 480752,
+      "kommunenavn": "Lolland Kommune",
+      "kommunekode": "0360",
+      "matrikelnummer": "1a",
+      "visningstekst": "1a, Sønderby By, Femø",
+      "jordstykke_id": 2254848,
+      "bfenummer": 3095027,
+      "centroid_x": 662035.532,
+      "centroid_y": 6094444.867,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           661990.823,
+           6094417.246
+          ],
+          [
+           661997.343,
+           6094410.175
+          ],
+          [
+           662002.466,
+           6094403.38
+          ],
+          [
+           662017.834,
+           6094408.185
+          ],
+          [
+           662037.884,
+           6094414.081
+          ],
+          [
+           662046.419,
+           6094416.948
+          ],
+          [
+           662056.253,
+           6094421.404
+          ],
+          [
+           662068.585,
+           6094426.932
+          ],
+          [
+           662075.428,
+           6094430.118
+          ],
+          [
+           662076.779,
+           6094431.956
+          ],
+          [
+           662078.151,
+           6094434.793
+          ],
+          [
+           662072.555,
+           6094493.043
+          ],
+          [
+           662051.341,
+           6094491.739
+          ],
+          [
+           662036.443,
+           6094490.009
+          ],
+          [
+           662036.345,
+           6094483.177
+          ],
+          [
+           662024.588,
+           6094479.338
+          ],
+          [
+           662015.266,
+           6094478.877
+          ],
+          [
+           662017.722,
+           6094463.603
+          ],
+          [
+           662003.905,
+           6094457.184
+          ],
+          [
+           661983.76,
+           6094447.012
+          ],
+          [
+           661971.893,
+           6094440.631
+          ],
+          [
+           661954.334,
+           6094431.679
+          ],
+          [
+           661956.618,
+           6094427.177
+          ],
+          [
+           661974.746,
+           6094432.976
+          ],
+          [
+           661982.707,
+           6094425.101
+          ],
+          [
+           661990.823,
+           6094417.246
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Sønderby By, Glud",
+      "ejerlavskode": 1100453,
+      "kommunenavn": "Hedensted Kommune",
+      "kommunekode": "0766",
+      "matrikelnummer": "1a",
+      "visningstekst": "1a, Sønderby By, Glud",
+      "jordstykke_id": 1546401,
+      "bfenummer": 7045889,
+      "centroid_x": 562480.776,
+      "centroid_y": 6181647.62,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           562471.493,
+           6181472.228
+          ],
+          [
+           562520.99,
+           6181471.307
+          ],
+          [
+           562519.235,
+           6181467.17
+          ],
+          [
+           562540.982,
+           6181463.892
+          ],
+          [
+           562580.907,
+           6181457.021
+          ],
+          [
+           562594.51,
+           6181458.122
+          ],
+          [
+           562608.725,
+           6181456.633
+          ],
+          [
+           562626.788,
+           6181454.094
+          ],
+          [
+           562640.022,
+           6181451.828
+          ],
+          [
+           562676.919,
+           6181440.768
+          ],
+          [
+           562720.862,
+           6181433.889
+          ],
+          [
+           562735.072,
+           6181430.575
+          ],
+          [
+           562746.247,
+           6181449.133
+          ],
+          [
+           562755.26,
+           6181444.049
+          ],
+          [
+           562848.01,
+           6181730.054
+          ],
+          [
+           562530.317,
+           6181815.374
+          ],
+          [
+           562450.406,
+           6181836.835
+          ],
+          [
+           562292.079,
+           6181879.355
+          ],
+          [
+           562208.686,
+           6181902.501
+          ],
+          [
+           562132.416,
+           6181765.726
+          ],
+          [
+           562142.442,
+           6181737.307
+          ],
+          [
+           562157.58,
+           6181709.159
+          ],
+          [
+           562184.231,
+           6181677.414
+          ],
+          [
+           562214.642,
+           6181621.758
+          ],
+          [
+           562233.098,
+           6181588.438
+          ],
+          [
+           562243.144,
+           6181576.283
+          ],
+          [
+           562251.898,
+           6181568.084
+          ],
+          [
+           562266.116,
+           6181557.824
+          ],
+          [
+           562356.249,
+           6181507.332
+          ],
+          [
+           562357.703,
+           6181506.518
+          ],
+          [
+           562376.712,
+           6181495.519
+          ],
+          [
+           562393.957,
+           6181488.347
+          ],
+          [
+           562421.697,
+           6181480.923
+          ],
+          [
+           562422.998,
+           6181480.575
+          ],
+          [
+           562454.137,
+           6181473.612
+          ],
+          [
+           562471.493,
+           6181472.228
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Sønderby By, Tved",
+      "ejerlavskode": 690952,
+      "kommunenavn": "Thisted Kommune",
+      "kommunekode": "0787",
+      "matrikelnummer": "1a",
+      "visningstekst": "1a, Sønderby By, Tved",
+      "jordstykke_id": 2390894,
+      "bfenummer": 10235302,
+      "centroid_x": 480898.721,
+      "centroid_y": 6323386.351,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           480848.505,
+           6323221.884
+          ],
+          [
+           480891.548,
+           6323215.471
+          ],
+          [
+           480999.419,
+           6323201.166
+          ],
+          [
+           481011.762,
+           6323253.78
+          ],
+          [
+           481026.895,
+           6323290.346
+          ],
+          [
+           481034.943,
+           6323315.489
+          ],
+          [
+           481060.007,
+           6323380.009
+          ],
+          [
+           481074.405,
+           6323452.763
+          ],
+          [
+           481079.032,
+           6323467.939
+          ],
+          [
+           481027.593,
+           6323493.401
+          ],
+          [
+           481019.842,
+           6323479.223
+          ],
+          [
+           480913.022,
+           6323537.614
+          ],
+          [
+           480809.389,
+           6323572.464
+          ],
+          [
+           480807.279,
+           6323573.316
+          ],
+          [
+           480805.526,
+           6323551.68
+          ],
+          [
+           480755.091,
+           6323552.807
+          ],
+          [
+           480754.981,
+           6323548.175
+          ],
+          [
+           480830.183,
+           6323545.064
+          ],
+          [
+           480820.139,
+           6323509.91
+          ],
+          [
+           480803.546,
+           6323510.883
+          ],
+          [
+           480802.062,
+           6323488.837
+          ],
+          [
+           480799.132,
+           6323435.165
+          ],
+          [
+           480814.909,
+           6323433.724
+          ],
+          [
+           480814.359,
+           6323416.84
+          ],
+          [
+           480812.995,
+           6323381.03
+          ],
+          [
+           480755.171,
+           6323382.696
+          ],
+          [
+           480750.987,
+           6323385.43
+          ],
+          [
+           480750.773,
+           6323375.944
+          ],
+          [
+           480750.605,
+           6323370.368
+          ],
+          [
+           480834.968,
+           6323367.243
+          ],
+          [
+           480833.864,
+           6323323.79
+          ],
+          [
+           480832.197,
+           6323262.227
+          ],
+          [
+           480847.558,
+           6323262.227
+          ],
+          [
+           480848.505,
+           6323221.884
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Sønderby By, Borre",
+      "ejerlavskode": 320257,
+      "kommunenavn": "Vordingborg Kommune",
+      "kommunekode": "0390",
+      "matrikelnummer": "1a",
+      "visningstekst": "1a, Sønderby By, Borre",
+      "jordstykke_id": 2477886,
+      "bfenummer": 2601247,
+      "centroid_x": 720069.386,
+      "centroid_y": 6099550.173,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           720034.624,
+           6099589.093
+          ],
+          [
+           720028.021,
+           6099585.737
+          ],
+          [
+           720029.249,
+           6099576.203
+          ],
+          [
+           720032.712,
+           6099552.767
+          ],
+          [
+           720039.221,
+           6099509.352
+          ],
+          [
+           720116.223,
+           6099522.296
+          ],
+          [
+           720092.433,
+           6099598.613
+          ],
+          [
+           720038.2,
+           6099581.689
+          ],
+          [
+           720037.273,
+           6099582.763
+          ],
+          [
+           720036.144,
+           6099584.534
+          ],
+          [
+           720035.037,
+           6099586.746
+          ],
+          [
+           720034.624,
+           6099589.093
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Sønderby By, Sønderby",
+      "ejerlavskode": 391752,
+      "kommunenavn": "Assens Kommune",
+      "kommunekode": "0420",
+      "matrikelnummer": "1a",
+      "visningstekst": "1a, Sønderby By, Sønderby",
+      "jordstykke_id": 87567,
+      "bfenummer": 2694505,
+      "centroid_x": 561267.126,
+      "centroid_y": 6119855.955,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           561286.354,
+           6119883.744
+          ],
+          [
+           561246.256,
+           6119877.953
+          ],
+          [
+           561239.069,
+           6119877.66
+          ],
+          [
+           561252.966,
+           6119806.562
+          ],
+          [
+           561285.54,
+           6119817.467
+          ],
+          [
+           561278.585,
+           6119849.945
+          ],
+          [
+           561330.272,
+           6119859.146
+          ],
+          [
+           561332.44,
+           6119862.692
+          ],
+          [
+           561324.176,
+           6119888.277
+          ],
+          [
+           561314.906,
+           6119887.076
+          ],
+          [
+           561286.354,
+           6119883.744
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Sønderby By, Grindsted",
+      "ejerlavskode": 1360261,
+      "kommunenavn": "Billund Kommune",
+      "kommunekode": "0530",
+      "matrikelnummer": "1a",
+      "visningstekst": "1a, Sønderby By, Grindsted",
+      "jordstykke_id": 2099757,
+      "bfenummer": 9084344,
+      "centroid_x": 497036.952,
+      "centroid_y": 6178229.074,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           497318.288,
+           6178248.262
+          ],
+          [
+           497316.725,
+           6178249.141
+          ],
+          [
+           497129.06,
+           6178354.789
+          ],
+          [
+           497105.226,
+           6178354.196
+          ],
+          [
+           497081.076,
+           6178353.596
+          ],
+          [
+           497009.469,
+           6178398.928
+          ],
+          [
+           496896.73,
+           6178465.018
+          ],
+          [
+           496884.451,
+           6178460.522
+          ],
+          [
+           496856.53,
+           6178451.032
+          ],
+          [
+           496895.94,
+           6178436.782
+          ],
+          [
+           496902.883,
+           6178424.655
+          ],
+          [
+           496908.351,
+           6178418.357
+          ],
+          [
+           496913.942,
+           6178413.866
+          ],
+          [
+           496977.881,
+           6178384.866
+          ],
+          [
+           496966.821,
+           6178350.429
+          ],
+          [
+           496816.285,
+           6178411.389
+          ],
+          [
+           496831.006,
+           6178328.187
+          ],
+          [
+           496807.341,
+           6178104.264
+          ],
+          [
+           496963.459,
+           6178053.087
+          ],
+          [
+           496966.322,
+           6178081.391
+          ],
+          [
+           496999.426,
+           6178070.559
+          ],
+          [
+           496993.743,
+           6178043.298
+          ],
+          [
+           497156.868,
+           6177989.927
+          ],
+          [
+           497196.676,
+           6177976.884
+          ],
+          [
+           497248.732,
+           6178209.383
+          ],
+          [
+           497253.825,
+           6178232.042
+          ],
+          [
+           497275.54,
+           6178224.672
+          ],
+          [
+           497283.651,
+           6178226.053
+          ],
+          [
+           497311.882,
+           6178237.905
+          ],
+          [
+           497329.763,
+           6178243.939
+          ],
+          [
+           497318.288,
+           6178248.262
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Sønderby By, Grindsted",
+      "ejerlavskode": 1360261,
+      "kommunenavn": "Billund Kommune",
+      "kommunekode": "0530",
+      "matrikelnummer": "1aæ",
+      "visningstekst": "1aæ, Sønderby By, Grindsted",
+      "jordstykke_id": 2099770,
+      "bfenummer": 9084344,
+      "centroid_x": 496542.517,
+      "centroid_y": 6175646.836,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           496560.9,
+           6175521.493
+          ],
+          [
+           496726.871,
+           6175601.46
+          ],
+          [
+           496744.043,
+           6175717.232
+          ],
+          [
+           496634.736,
+           6175762.877
+          ],
+          [
+           496449.84,
+           6175839.83
+          ],
+          [
+           496444.88,
+           6175841.268
+          ],
+          [
+           496412.557,
+           6175735.131
+          ],
+          [
+           496343.886,
+           6175497.538
+          ],
+          [
+           496457.52,
+           6175471.684
+          ],
+          [
+           496560.9,
+           6175521.493
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Sønderby By, Grindsted",
+      "ejerlavskode": 1360261,
+      "kommunenavn": "Billund Kommune",
+      "kommunekode": "0530",
+      "matrikelnummer": "1ab",
+      "visningstekst": "1ab, Sønderby By, Grindsted",
+      "jordstykke_id": 2099806,
+      "bfenummer": 5142381,
+      "centroid_x": 496227.095,
+      "centroid_y": 6175352.069,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           496174.782,
+           6175411.106
+          ],
+          [
+           496200.768,
+           6175228.103
+          ],
+          [
+           496202.052,
+           6175223.659
+          ],
+          [
+           496236.008,
+           6175306.189
+          ],
+          [
+           496322.256,
+           6175408.639
+          ],
+          [
+           496174.782,
+           6175411.106
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Sønderby By, Grindsted",
+      "ejerlavskode": 1360261,
+      "kommunenavn": "Billund Kommune",
+      "kommunekode": "0530",
+      "matrikelnummer": "1ad",
+      "visningstekst": "1ad, Sønderby By, Grindsted",
+      "jordstykke_id": 2099814,
+      "bfenummer": 5142383,
+      "centroid_x": 496153.567,
+      "centroid_y": 6175399.482,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           496162.412,
+           6175411.313
+          ],
+          [
+           496137.151,
+           6175411.736
+          ],
+          [
+           496136.824,
+           6175392.245
+          ],
+          [
+           496156.822,
+           6175392.411
+          ],
+          [
+           496165.221,
+           6175392.27
+          ],
+          [
+           496162.412,
+           6175411.313
+          ]
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 103,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 72,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 90,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 75,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 84,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 84,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 78,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=1a%20s%C3%B8nderby&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 80,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "1a sønderby",
+     "limit": 10
+    },
+    "http_status": 504,
+    "elapsed_ms": 30341,
+    "ok": false,
+    "response": {
+     "detail": "request timed out"
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 196,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "o6zn45ubiydke"
+       },
+       "refs": {
+        "street": "o6zn45ubiydke"
+       },
+       "result": "Sønderby Bro, 4050 Skibby",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sønderby Bro",
+        "postcodes": [
+         {
+          "postcode": "4050",
+          "city": "Skibby"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0250",
+          "kommune": "Frederikssund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         689737.65,
+         6181102.91
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5882,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "c50a9204-ff86-4f11-bb6b-55a6ef00f152"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "jzqsiu4qh7v5a"
+       },
+       "refs": {
+        "street": "jzqsiu4qh7v5a"
+       },
+       "result": "Sønderby Huk, 6792 Rømø",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sønderby Huk",
+        "postcodes": [
+         {
+          "postcode": "6792",
+          "city": "Rømø"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0550",
+          "kommune": "Tønder"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         471056.44,
+         6104744.14
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5882,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "4b15547f-27f8-48f1-a98c-72e87001f26c"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "dvbi3t5s7pl42"
+       },
+       "refs": {
+        "street": "dvbi3t5s7pl42"
+       },
+       "result": "Sønderbyen, 7870 Roslev",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sønderbyen",
+        "postcodes": [
+         {
+          "postcode": "7870",
+          "city": "Roslev"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0779",
+          "kommune": "Skive"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         495327.25,
+         6285361.23
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5625,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "00fea912-673f-4e12-b6b1-1295f64272ef"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "fe7w442eqtgms"
+       },
+       "refs": {
+        "street": "fe7w442eqtgms"
+       },
+       "result": "Sønderbyen, 6534 Agerskov",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sønderbyen",
+        "postcodes": [
+         {
+          "postcode": "6534",
+          "city": "Agerskov"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0550",
+          "kommune": "Tønder"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         508065.55,
+         6109067.9
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5625,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "63ab3e2b-b324-437a-bc9e-2b09ab5ab5e9"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "m2l3txlku2kcs"
+       },
+       "refs": {
+        "street": "m2l3txlku2kcs"
+       },
+       "result": "Sønderbyen, 9510 Arden",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sønderbyen",
+        "postcodes": [
+         {
+          "postcode": "9510",
+          "city": "Arden"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0846",
+          "kommune": "Mariagerfjord"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         555552.28,
+         6291713.18
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5625,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "c866bdce-78ee-40d0-a201-c4cdbdc6df40"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "gy46mn42ic7d2"
+       },
+       "refs": {
+        "street": "gy46mn42ic7d2"
+       },
+       "result": "Sønderbyen, 6753 Agerbæk",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sønderbyen",
+        "postcodes": [
+         {
+          "postcode": "6753",
+          "city": "Agerbæk"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0573",
+          "kommune": "Varde"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         487754.47,
+         6160860.22
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5625,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "ca0647b6-b228-4675-9668-c003ed00327e"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "hod6qwnq7niya"
+       },
+       "refs": {
+        "street": "hod6qwnq7niya"
+       },
+       "result": "Sønderby Alle, 2630 Taastrup",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sønderby Alle",
+        "postcodes": [
+         {
+          "postcode": "2630",
+          "city": "Taastrup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0169",
+          "kommune": "Høje-Taastrup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         706226.28,
+         6170529.45
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "d4fac2c3-aedf-497c-98d5-d5e7b4b3c5a2"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "5s4iowf7tjrn2"
+       },
+       "refs": {
+        "street": "5s4iowf7tjrn2"
+       },
+       "result": "Sønderby Torv, 2630 Taastrup",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sønderby Torv",
+        "postcodes": [
+         {
+          "postcode": "2630",
+          "city": "Taastrup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0169",
+          "kommune": "Høje-Taastrup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         706134.67,
+         6170539.83
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5556,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "4cdb988c-f6f3-4277-99e8-e0402dd7fe95"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "4hsj6to2o7bag"
+       },
+       "refs": {
+        "street": "4hsj6to2o7bag"
+       },
+       "result": "Sønderbyvej, 6731 Tjæreborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sønderbyvej",
+        "postcodes": [
+         {
+          "postcode": "6731",
+          "city": "Tjæreborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0561",
+          "kommune": "Esbjerg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         474272.97,
+         6145313.29
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5294,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "028fb7f4-0d72-4427-aa5a-9bb231804e51"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "xtbsqecr26tuc"
+       },
+       "refs": {
+        "street": "xtbsqecr26tuc"
+       },
+       "result": "Sønderbyvej, 6950 Ringkøbing",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sønderbyvej",
+        "postcodes": [
+         {
+          "postcode": "6950",
+          "city": "Ringkøbing"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         447716.33,
+         6219353.9
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5294,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "02d2a2a5-ca0c-4a58-9465-40b11c24299e"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 194,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "6ou7y7a4wifam"
+       },
+       "refs": {
+        "postcode": "6ou7y7a4wifam"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6400",
+          "city": "Sønderborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548074.596,
+         6088417.23
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4706,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "6400"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "pibxnofvf2rze"
+       },
+       "refs": {
+        "postcode": "pibxnofvf2rze"
+       },
+       "result": "Søndersø",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5471",
+          "city": "Søndersø"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572765.996,
+         6150778.575
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4375,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "5471"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "kksxuvtrcaqmk"
+       },
+       "refs": {
+        "postcode": "kksxuvtrcaqmk"
+       },
+       "result": "Sønder Omme",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7260",
+          "city": "Sønder Omme"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0530",
+          "kommune": "Billund"
+         },
+         {
+          "kommunekode": "0657",
+          "kommune": "Herning"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         493140.122,
+         6189086.74
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3684,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "7260"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "lktwb3qxg2ilw"
+       },
+       "refs": {
+        "postcode": "lktwb3qxg2ilw"
+       },
+       "result": "Sønder Stenderup",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6092",
+          "city": "Sønder Stenderup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0621",
+          "kommune": "Kolding"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         541169.779,
+         6145562.345
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.35,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "6092"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "mlele5byuo2te"
+       },
+       "refs": {
+        "postcode": "mlele5byuo2te"
+       },
+       "result": "Sønder Felding",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7280",
+          "city": "Sønder Felding"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0657",
+          "kommune": "Herning"
+         },
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         487527.962,
+         6198899.64
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3182,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "7280"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "ipzbp6rvqnk5m"
+       },
+       "refs": {
+        "postcode": "ipzbp6rvqnk5m"
+       },
+       "result": "Randers SØ",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8960",
+          "city": "Randers SØ"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0710",
+          "kommune": "Favrskov"
+         },
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572002.136,
+         6254157.56
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8960"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "jj67x7lgqbi32"
+       },
+       "refs": {
+        "postcode": "jj67x7lgqbi32"
+       },
+       "result": "Tønder",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6270",
+          "city": "Tønder"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0550",
+          "kommune": "Tønder"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         493934.51,
+         6090260.93
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2353,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "6270"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "uyowhd4ly2zha"
+       },
+       "refs": {
+        "postcode": "uyowhd4ly2zha"
+       },
+       "result": "Stenderup",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8781",
+          "city": "Stenderup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0615",
+          "kommune": "Horsens"
+         },
+         {
+          "kommunekode": "0766",
+          "kommune": "Hedensted"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         550545.028,
+         6183845.775
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2105,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8781"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "dxefblhejpjtc"
+       },
+       "refs": {
+        "postcode": "dxefblhejpjtc"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8660",
+          "city": "Skanderborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0615",
+          "kommune": "Horsens"
+         },
+         {
+          "kommunekode": "0727",
+          "kommune": "Odder"
+         },
+         {
+          "kommunekode": "0746",
+          "kommune": "Skanderborg"
+         },
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         556632.444,
+         6211516.605
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1905,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8660"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "fe3vyie2u4fqs"
+       },
+       "refs": {
+        "postcode": "fe3vyie2u4fqs"
+       },
+       "result": "Søby Ærø",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5985",
+          "city": "Søby Ærø"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0492",
+          "kommune": "Ærø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         579844.251,
+         6088534.45
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1905,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "5985"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 195,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "city",
+        "id": "2lw3fzifxm2b6"
+       },
+       "refs": {
+        "city": "2lw3fzifxm2b6"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6400",
+          "city": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548074.596,
+         6088417.23
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4706,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "2lw3fzifxm2b6"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "6iukdwnhizin6"
+       },
+       "refs": {
+        "city": "6iukdwnhizin6"
+       },
+       "result": "Søndersø",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5471",
+          "city": "Søndersø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572765.996,
+         6150778.575
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4375,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "6iukdwnhizin6"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "jspju4yihnmdc"
+       },
+       "refs": {
+        "city": "jspju4yihnmdc"
+       },
+       "result": "Sønder Omme",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7260",
+          "city": "Sønder Omme"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         493140.122,
+         6189086.74
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3684,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "jspju4yihnmdc"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "iznrb2d7kensy"
+       },
+       "refs": {
+        "city": "iznrb2d7kensy"
+       },
+       "result": "Sønder Stenderup",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6092",
+          "city": "Sønder Stenderup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         541169.779,
+         6145562.345
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.35,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "iznrb2d7kensy"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "l3ny36mn6ink4"
+       },
+       "refs": {
+        "city": "l3ny36mn6ink4"
+       },
+       "result": "Sønder Felding",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7280",
+          "city": "Sønder Felding"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         487527.962,
+         6198899.64
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3182,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "l3ny36mn6ink4"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "cw2qtl5j56ec2"
+       },
+       "refs": {
+        "city": "cw2qtl5j56ec2"
+       },
+       "result": "Randers SØ",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8960",
+          "city": "Randers SØ"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         572002.136,
+         6254157.56
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "cw2qtl5j56ec2"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "ultx4vq7tz22y"
+       },
+       "refs": {
+        "city": "ultx4vq7tz22y"
+       },
+       "result": "Tønder",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6270",
+          "city": "Tønder"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         493934.51,
+         6090260.93
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2353,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "ultx4vq7tz22y"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "2dd5xsb476xgy"
+       },
+       "refs": {
+        "city": "2dd5xsb476xgy"
+       },
+       "result": "Stenderup",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8781",
+          "city": "Stenderup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         550545.028,
+         6183845.775
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2105,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "2dd5xsb476xgy"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "iv7znd3wz24uq"
+       },
+       "refs": {
+        "city": "iv7znd3wz24uq"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8660",
+          "city": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         556632.444,
+         6211516.605
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1905,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "iv7znd3wz24uq"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "v4drln4n3y7ki"
+       },
+       "refs": {
+        "city": "v4drln4n3y7ki"
+       },
+       "result": "Søby Ærø",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5985",
+          "city": "Søby Ærø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         579844.251,
+         6088534.45
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1905,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "v4drln4n3y7ki"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 193,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "k23rmbajncnj6"
+       },
+       "refs": {
+        "ejendom": "k23rmbajncnj6"
+       },
+       "result": "1a, Sønderby By, Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1a",
+        "ejerlavskode": 391752,
+        "ejerlav": "Sønderby By, Sønderby",
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87567
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         561267.126,
+         6119855.955
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9129,
+        "confidence": "B",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2694505
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "4lhrzwyis2k4w"
+       },
+       "refs": {
+        "ejendom": "4lhrzwyis2k4w"
+       },
+       "result": "1a, Sønderby By, Borre",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1a",
+        "ejerlavskode": 320257,
+        "ejerlav": "Sønderby By, Borre",
+        "kommuner": [
+         {
+          "kommunekode": "0390",
+          "kommune": "Vordingborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 320257,
+           "ejerlav": "Sønderby By, Borre",
+           "kommunekode": "0390",
+           "kommune": "Vordingborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2477886
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720069.386,
+         6099550.173
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.767,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2601247
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "tqwzurjwumop4"
+       },
+       "refs": {
+        "ejendom": "tqwzurjwumop4"
+       },
+       "result": "1a, Sønderby By, Tved",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 690952,
+        "ejerlav": "Sønderby By, Tved",
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390894
+           }
+          },
+          {
+           "matrikelnummer": "2a",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390927
+           }
+          },
+          {
+           "matrikelnummer": "2n",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390908
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         480898.721,
+         6323386.351
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.767,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 10235302
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ir3ghvxvsbjt4"
+       },
+       "refs": {
+        "ejendom": "ir3ghvxvsbjt4"
+       },
+       "result": "1a, Sønderby By, Glud",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0766",
+          "kommune": "Hedensted"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546401
+           }
+          },
+          {
+           "matrikelnummer": "1s",
+           "ejerlavskode": 1100151,
+           "ejerlav": "Kirkholm By, As",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100058258
+           }
+          },
+          {
+           "matrikelnummer": "1p",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100048465
+           }
+          },
+          {
+           "matrikelnummer": "16d",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546392
+           }
+          },
+          {
+           "matrikelnummer": "17m",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546402
+           }
+          },
+          {
+           "matrikelnummer": "17p",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546404
+           }
+          },
+          {
+           "matrikelnummer": "1c",
+           "ejerlavskode": 1100963,
+           "ejerlav": "Åstrup By, Rårup",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100058260
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         562378.29,
+         6181060.078
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.767,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 7045889
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "gbryzrwm2rosi"
+       },
+       "refs": {
+        "ejendom": "gbryzrwm2rosi"
+       },
+       "result": "10a, Sønderby By, Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "10a",
+        "ejerlavskode": 391752,
+        "ejerlav": "Sønderby By, Sønderby",
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "10a",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87702
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         560190.814,
+         6120662.163
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7454,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9917379
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "frnw6qxkyzbpu"
+       },
+       "refs": {
+        "ejendom": "frnw6qxkyzbpu"
+       },
+       "result": "11a, Sønderby By, Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 391752,
+        "ejerlav": "Sønderby By, Sønderby",
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "11a",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87709
+           }
+          },
+          {
+           "matrikelnummer": "50b",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87717
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         559919.225,
+         6120807.465
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7454,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 7179507
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ug4cvntrughq6"
+       },
+       "refs": {
+        "ejendom": "ug4cvntrughq6"
+       },
+       "result": "12a, Sønderby By, Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "12a",
+        "ejerlavskode": 391752,
+        "ejerlav": "Sønderby By, Sønderby",
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "12a",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87507
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         561588.938,
+         6119749.432
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7454,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2694537
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "phxz2qu7etop2"
+       },
+       "refs": {
+        "ejendom": "phxz2qu7etop2"
+       },
+       "result": "16a, Sønderby By, Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 391752,
+        "ejerlav": "Sønderby By, Sønderby",
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "16a",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87582
+           }
+          },
+          {
+           "matrikelnummer": "16bl",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87506
+           }
+          },
+          {
+           "matrikelnummer": "16bm",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87607
+           }
+          },
+          {
+           "matrikelnummer": "87",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100066631
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         561306.847,
+         6122467.536
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7454,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9509671
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "wmke6jyuq7vcq"
+       },
+       "refs": {
+        "ejendom": "wmke6jyuq7vcq"
+       },
+       "result": "17a, Sønderby By, Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "17a",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87673
+           }
+          },
+          {
+           "matrikelnummer": "2ah",
+           "ejerlavskode": 390360,
+           "ejerlav": "Mullerød By, Dreslette",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 92008
+           }
+          },
+          {
+           "matrikelnummer": "1bø",
+           "ejerlavskode": 391751,
+           "ejerlav": "Hagenskov Hgd., Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87413
+           }
+          },
+          {
+           "matrikelnummer": "16b",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87647
+           }
+          },
+          {
+           "matrikelnummer": "20f",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87686
+           }
+          },
+          {
+           "matrikelnummer": "20h",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87694
+           }
+          },
+          {
+           "matrikelnummer": "31a",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87680
+           }
+          },
+          {
+           "matrikelnummer": "31b",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87689
+           }
+          },
+          {
+           "matrikelnummer": "48g",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87539
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         566503.946,
+         6117870.743
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7454,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9509676
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "iffeh6aajfu7e"
+       },
+       "refs": {
+        "ejendom": "iffeh6aajfu7e"
+       },
+       "result": "18a, Sønderby By, Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "18a",
+        "ejerlavskode": 391752,
+        "ejerlav": "Sønderby By, Sønderby",
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "18a",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2557710
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         560160.963,
+         6120414.641
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7454,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9820430
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 194,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ala5t42vsag6i"
+       },
+       "refs": {
+        "ejendom": "ala5t42vsag6i"
+       },
+       "result": "3a, Ballerum By, Tved",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 690951,
+        "ejerlav": "Ballerum By, Tved",
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3a",
+           "ejerlavskode": 690951,
+           "ejerlav": "Ballerum By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390710
+           }
+          },
+          {
+           "matrikelnummer": "3b",
+           "ejerlavskode": 690951,
+           "ejerlav": "Ballerum By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390723
+           }
+          },
+          {
+           "matrikelnummer": "3n",
+           "ejerlavskode": 690951,
+           "ejerlav": "Ballerum By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390719
+           }
+          },
+          {
+           "matrikelnummer": "3r",
+           "ejerlavskode": 690951,
+           "ejerlav": "Ballerum By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390707
+           }
+          },
+          {
+           "matrikelnummer": "3s",
+           "ejerlavskode": 690951,
+           "ejerlav": "Ballerum By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390714
+           }
+          },
+          {
+           "matrikelnummer": "23",
+           "ejerlavskode": 690951,
+           "ejerlav": "Ballerum By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390706
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         483348.838,
+         6322449.286
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6262,
+        "confidence": "B",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8897677
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "bwntdk2vrop62"
+       },
+       "refs": {
+        "ejendom": "bwntdk2vrop62"
+       },
+       "result": "6k, Vorring By, Nors",
+       "lifecycle": "retired",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "6k",
+           "ejerlavskode": 690655,
+           "ejerlav": "Vorring By, Nors",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2389759
+           }
+          },
+          {
+           "matrikelnummer": "6l",
+           "ejerlavskode": 690655,
+           "ejerlav": "Vorring By, Nors",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2389757
+           }
+          },
+          {
+           "matrikelnummer": "6o",
+           "ejerlavskode": 690655,
+           "ejerlav": "Vorring By, Nors",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100013038
+           }
+          },
+          {
+           "matrikelnummer": "4n",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390749
+           }
+          },
+          {
+           "matrikelnummer": "18g",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390744
+           }
+          },
+          {
+           "matrikelnummer": "46a",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390991
+           }
+          },
+          {
+           "matrikelnummer": "63tt",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2391002
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         480549.501,
+         6321145.326
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5423,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100014126
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "uj2fhl7dx4ba2"
+       },
+       "refs": {
+        "ejendom": "uj2fhl7dx4ba2"
+       },
+       "result": "2a, Sønderby By, Glud",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "2a",
+        "ejerlavskode": 1100453,
+        "ejerlav": "Sønderby By, Glud",
+        "kommuner": [
+         {
+          "kommunekode": "0766",
+          "kommune": "Hedensted"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "2a",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546366
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         563143.054,
+         6182690.744
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5423,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 4318347
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "2nal336rvoco6"
+       },
+       "refs": {
+        "ejendom": "2nal336rvoco6"
+       },
+       "result": "51æ, Sønderby By, Selsø",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "51æ",
+        "ejerlavskode": 70753,
+        "ejerlav": "Sønderby By, Selsø",
+        "kommuner": [
+         {
+          "kommunekode": "0250",
+          "kommune": "Frederikssund"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "51æ",
+           "ejerlavskode": 70753,
+           "ejerlav": "Sønderby By, Selsø",
+           "kommunekode": "0250",
+           "kommune": "Frederikssund",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1896704
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         690545.143,
+         6182459.004
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4428,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 1306333
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "6imtu7vry5dn4"
+       },
+       "refs": {
+        "ejendom": "6imtu7vry5dn4"
+       },
+       "result": "34b, Nors By, Nors",
+       "lifecycle": "retired",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "34b",
+           "ejerlavskode": 690653,
+           "ejerlav": "Nors By, Nors",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2389138
+           }
+          },
+          {
+           "matrikelnummer": "36b",
+           "ejerlavskode": 690653,
+           "ejerlav": "Nors By, Nors",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2389183
+           }
+          },
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 690754,
+           "ejerlav": "Sårup, Ræhr",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2126253
+           }
+          },
+          {
+           "matrikelnummer": "7c",
+           "ejerlavskode": 690754,
+           "ejerlav": "Sårup, Ræhr",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2126239
+           }
+          },
+          {
+           "matrikelnummer": "16b",
+           "ejerlavskode": 690754,
+           "ejerlav": "Sårup, Ræhr",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100047400
+           }
+          },
+          {
+           "matrikelnummer": "3v",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390873
+           }
+          },
+          {
+           "matrikelnummer": "58d",
+           "ejerlavskode": 691151,
+           "ejerlav": "Vigsø By, Vigsø",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2127788
+           }
+          },
+          {
+           "matrikelnummer": "58e",
+           "ejerlavskode": 691151,
+           "ejerlav": "Vigsø By, Vigsø",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2127786
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         479637.054,
+         6325172.207
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4428,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9737171
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "u3qt4viqdjdpq"
+       },
+       "refs": {
+        "ejendom": "u3qt4viqdjdpq"
+       },
+       "result": "16h, Sønderby By, Tved",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 690952,
+        "ejerlav": "Sønderby By, Tved",
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "16h",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390932
+           }
+          },
+          {
+           "matrikelnummer": "16q",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390909
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         480645.248,
+         6323758.224
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4428,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8897694
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "suhqyke4vk7dy"
+       },
+       "refs": {
+        "ejendom": "suhqyke4vk7dy"
+       },
+       "result": "16f, Sønderby By, Tved",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "16f",
+        "ejerlavskode": 690952,
+        "ejerlav": "Sønderby By, Tved",
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "16f",
+           "ejerlavskode": 690952,
+           "ejerlav": "Sønderby By, Tved",
+           "kommunekode": "0787",
+           "kommune": "Thisted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2390911
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         480723.245,
+         6323648.654
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4428,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8897693
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "eyrc2nxlb4jky"
+       },
+       "refs": {
+        "ejendom": "eyrc2nxlb4jky"
+       },
+       "result": "1v, Kirkholm By, As",
+       "lifecycle": "retired",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0766",
+          "kommune": "Hedensted"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1v",
+           "ejerlavskode": 1100151,
+           "ejerlav": "Kirkholm By, As",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100874602
+           }
+          },
+          {
+           "matrikelnummer": "4y",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546490
+           }
+          },
+          {
+           "matrikelnummer": "7u",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100507772
+           }
+          },
+          {
+           "matrikelnummer": "7v",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100564062
+           }
+          },
+          {
+           "matrikelnummer": "10a",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546389
+           }
+          },
+          {
+           "matrikelnummer": "10ee",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546320
+           }
+          },
+          {
+           "matrikelnummer": "10ef",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546323
+           }
+          },
+          {
+           "matrikelnummer": "13bs",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546240
+           }
+          },
+          {
+           "matrikelnummer": "15a",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546384
+           }
+          },
+          {
+           "matrikelnummer": "15d",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1546293
+           }
+          },
+          {
+           "matrikelnummer": "20m",
+           "ejerlavskode": 1100453,
+           "ejerlav": "Sønderby By, Glud",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2686174
+           }
+          },
+          {
+           "matrikelnummer": "9e",
+           "ejerlavskode": 1101053,
+           "ejerlav": "Stourup By, Skjold",
+           "kommunekode": "0766",
+           "kommune": "Hedensted",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1552046
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         562598.136,
+         6180783.19
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4428,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8578784
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ypvk4kdyioqyg"
+       },
+       "refs": {
+        "ejendom": "ypvk4kdyioqyg"
+       },
+       "result": "34e, Sønderby By, Borre",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "34e",
+        "ejerlavskode": 320257,
+        "ejerlav": "Sønderby By, Borre",
+        "kommuner": [
+         {
+          "kommunekode": "0390",
+          "kommune": "Vordingborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "34e",
+           "ejerlavskode": 320257,
+           "ejerlav": "Sønderby By, Borre",
+           "kommunekode": "0390",
+           "kommune": "Vordingborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2477883
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720106.07,
+         6099655.307
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 1326294
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "oz5zfprpk6vn4"
+       },
+       "refs": {
+        "ejendom": "oz5zfprpk6vn4"
+       },
+       "result": "25p, Sønderby By, Sønderby",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "25p",
+        "ejerlavskode": 391752,
+        "ejerlav": "Sønderby By, Sønderby",
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "25p",
+           "ejerlavskode": 391752,
+           "ejerlav": "Sønderby By, Sønderby",
+           "kommunekode": "0420",
+           "kommune": "Assens",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 87528
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         561347.008,
+         6122236.809
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2694789
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 191,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "66uz6zotw3x2y"
+       },
+       "refs": {
+        "ejerlav": "66uz6zotw3x2y"
+       },
+       "result": "Sønderby By, Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sønderby By, Sønderby",
+        "ejerlavskode": 391752
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         559653.124,
+         6120347.119
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6667,
+        "confidence": "B",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 391752
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "ikuugbfl76lfi"
+       },
+       "refs": {
+        "ejerlav": "ikuugbfl76lfi"
+       },
+       "result": "Sønderby By, Borre",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sønderby By, Borre",
+        "ejerlavskode": 320257
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718792.812,
+         6098868.313
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 320257
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "fvi3x6pbjnc7w"
+       },
+       "refs": {
+        "ejerlav": "fvi3x6pbjnc7w"
+       },
+       "result": "Sønderby By, Glud",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sønderby By, Glud",
+        "ejerlavskode": 1100453
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         562519.622,
+         6182010.495
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1100453
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "5v52qkk7tyc5k"
+       },
+       "refs": {
+        "ejerlav": "5v52qkk7tyc5k"
+       },
+       "result": "Sønderby By, Selsø",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sønderby By, Selsø",
+        "ejerlavskode": 70753
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         689403.192,
+         6180003.513
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 70753
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "foq7yofbc2xh2"
+       },
+       "refs": {
+        "ejerlav": "foq7yofbc2xh2"
+       },
+       "result": "Sønderby By, Tved",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sønderby By, Tved",
+        "ejerlavskode": 690952
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         481749.318,
+         6321587.97
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 690952
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "rs2qtrrojunm4"
+       },
+       "refs": {
+        "ejerlav": "rs2qtrrojunm4"
+       },
+       "result": "Sønderby By, Femø",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sønderby By, Femø",
+        "ejerlavskode": 480752
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         662574.781,
+         6093276.814
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4762,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 480752
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "uftmcbwipbf4s"
+       },
+       "refs": {
+        "ejerlav": "uftmcbwipbf4s"
+       },
+       "result": "Sønderby, Kegnæs",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sønderby, Kegnæs",
+        "ejerlavskode": 1550353
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         557157.648,
+         6081094.8
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4762,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1550353
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "rrrn5irqs4k3u"
+       },
+       "refs": {
+        "ejerlav": "rrrn5irqs4k3u"
+       },
+       "result": "Sønderbæk By, Sønderbæk",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sønderbæk By, Sønderbæk",
+        "ejerlavskode": 770952
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         551893.938,
+         6261685.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4737,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 770952
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "jqtivtcmmls4s"
+       },
+       "refs": {
+        "ejerlav": "jqtivtcmmls4s"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sønderborg",
+        "ejerlavskode": 2008451
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         550564.094,
+         6084758.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4706,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 2008451
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "7ninjpvrcbrp2"
+       },
+       "refs": {
+        "ejerlav": "7ninjpvrcbrp2"
+       },
+       "result": "Sønderho By, Sønderho",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Sønderho By, Sønderho",
+        "ejerlavskode": 1351651
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         465213.755,
+         6133529.757
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4444,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1351651
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 192,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "5egpf75nmdzzi"
+       },
+       "refs": {
+        "stednavn": "5egpf75nmdzzi"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sønderby",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0510",
+          "kommune": "Haderslev"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         506753.256,
+         6128361.955
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1010215"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "h2zsxeyu2u5bk"
+       },
+       "refs": {
+        "stednavn": "h2zsxeyu2u5bk"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sønderby",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         447776.277,
+         6219077.76
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1022068"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "7y5pdncs72k2k"
+       },
+       "refs": {
+        "stednavn": "7y5pdncs72k2k"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sønderby",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0661",
+          "kommune": "Holstebro"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         483492.064,
+         6254699.78
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1027468"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "oenzv3p4bqoke"
+       },
+       "refs": {
+        "stednavn": "oenzv3p4bqoke"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sønderby",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         455580.321,
+         6221804.255
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1029468"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "42tvamcw5cuh2"
+       },
+       "refs": {
+        "stednavn": "42tvamcw5cuh2"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sønderby",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0661",
+          "kommune": "Holstebro"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         452480.27,
+         6234123.365
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1030659"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "2r6w6izs5amok"
+       },
+       "refs": {
+        "stednavn": "2r6w6izs5amok"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sønderby",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0665",
+          "kommune": "Lemvig"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         453121.471,
+         6271329.47
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1035383"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "vv6tmmpw6hgf4"
+       },
+       "refs": {
+        "stednavn": "vv6tmmpw6hgf4"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sønderby",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         477393.227,
+         6200310.395
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1040194"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "wj5zo2dfruq56"
+       },
+       "refs": {
+        "stednavn": "wj5zo2dfruq56"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sønderby",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         454739.941,
+         6216217.73
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1040472"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "4o56ishnzjxye"
+       },
+       "refs": {
+        "stednavn": "4o56ishnzjxye"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sønderby",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         490581.854,
+         6319359.05
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1040966"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "f4yt2cpxuqtni"
+       },
+       "refs": {
+        "stednavn": "f4yt2cpxuqtni"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Sønderby",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0665",
+          "kommune": "Lemvig"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         446363.885,
+         6257658.415
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1044245"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 136,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "shcdgza3xmtsy"
+       },
+       "refs": {
+        "kommune": "shcdgza3xmtsy"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         559691.612,
+         6091586.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4706,
+        "confidence": "B",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0540"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "vlwswxw7tkxao"
+       },
+       "refs": {
+        "kommune": "vlwswxw7tkxao"
+       },
+       "result": "Tønder",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0550",
+          "kommune": "Tønder"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         492860.416,
+         6101828.66
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2353,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0550"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "4g2kaelduf6im"
+       },
+       "refs": {
+        "kommune": "4g2kaelduf6im"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0746",
+          "kommune": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         553205.992,
+         6215883.855
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1905,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0746"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "42xztfooysv5y"
+       },
+       "refs": {
+        "kommune": "42xztfooysv5y"
+       },
+       "result": "Brønderslev",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         571589.574,
+         6341167.25
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0810"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "xly3cyrbaldnm"
+       },
+       "refs": {
+        "kommune": "xly3cyrbaldnm"
+       },
+       "result": "Brøndby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0153",
+          "kommune": "Brøndby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         714258.196,
+         6171256.06
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0153"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "u7wao7ekxpjpe"
+       },
+       "refs": {
+        "kommune": "u7wao7ekxpjpe"
+       },
+       "result": "Sorø",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0340",
+          "kommune": "Sorø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         661650.602,
+         6150816.76
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1176,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0340"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "kls7tcyin4cma"
+       },
+       "refs": {
+        "kommune": "kls7tcyin4cma"
+       },
+       "result": "Samsø",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0741",
+          "kommune": "Samsø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         600818.435,
+         6194239.8
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0741"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "svmjrfam5d4zm"
+       },
+       "refs": {
+        "kommune": "svmjrfam5d4zm"
+       },
+       "result": "Randers",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         561577.223,
+         6266305.17
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1053,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0730"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "vwzws4nosxebm"
+       },
+       "refs": {
+        "kommune": "vwzws4nosxebm"
+       },
+       "result": "Solrød",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0269",
+          "kommune": "Solrød"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         700012.345,
+         6159251.925
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1053,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0269"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 119,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "pkvy7jmx5cnng"
+       },
+       "refs": {
+        "sogn": "pkvy7jmx5cnng"
+       },
+       "result": "Sønderby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7821",
+          "sogn": "Sønderby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         561582.993,
+         6120882.615
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7692,
+        "confidence": "B",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7821"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "ukd5q6rxrtz76"
+       },
+       "refs": {
+        "sogn": "ukd5q6rxrtz76"
+       },
+       "result": "Sønderbro",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0615",
+          "kommune": "Horsens"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9077",
+          "sogn": "Sønderbro"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         551336.796,
+         6190801.135
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9077"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "ezmxfx4cs4xro"
+       },
+       "refs": {
+        "sogn": "ezmxfx4cs4xro"
+       },
+       "result": "Sønderbæk",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8511",
+          "sogn": "Sønderbæk"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         551805.439,
+         6263162.7
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4706,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8511"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "xj5aasicatjok"
+       },
+       "refs": {
+        "sogn": "xj5aasicatjok"
+       },
+       "result": "Søndersø",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7867",
+          "sogn": "Søndersø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         580056.106,
+         6149149.975
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4375,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7867"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "jiiwibcvmxlmg"
+       },
+       "refs": {
+        "sogn": "jiiwibcvmxlmg"
+       },
+       "result": "Sønderup",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0330",
+          "kommune": "Slagelse"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7350",
+          "sogn": "Sønderup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         651208.206,
+         6148937.89
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4375,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7350"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "2o7dkiujdcohc"
+       },
+       "refs": {
+        "sogn": "2o7dkiujdcohc"
+       },
+       "result": "Sønderup",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0840",
+          "kommune": "Rebild"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8339",
+          "sogn": "Sønderup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         539927.22,
+         6297912.775
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4375,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8339"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "fhs5on7jqbk6g"
+       },
+       "refs": {
+        "sogn": "fhs5on7jqbk6g"
+       },
+       "result": "Sønder Broby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7755",
+          "sogn": "Sønder Broby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         580755.627,
+         6121724.805
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4211,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7755"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "xw5mmchd4b5rq"
+       },
+       "refs": {
+        "sogn": "xw5mmchd4b5rq"
+       },
+       "result": "Sønder Dalby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0320",
+          "kommune": "Faxe"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7530",
+          "sogn": "Sønder Dalby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         695483.339,
+         6133539.4
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4211,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7530"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "aj4nhynmz4cyc"
+       },
+       "refs": {
+        "sogn": "aj4nhynmz4cyc"
+       },
+       "result": "Sønderhå",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8662",
+          "sogn": "Sønderhå"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         466237.013,
+         6302545.125
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4118,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8662"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "xn24csuelcagw"
+       },
+       "refs": {
+        "sogn": "xn24csuelcagw"
+       },
+       "result": "Sønder Dråby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0773",
+          "kommune": "Morsø"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8674",
+          "sogn": "Sønder Dråby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         489877.22,
+         6304805.635
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8674"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 135,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 144,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "retskreds",
+        "id": "q37ulfwqiyca6"
+       },
+       "refs": {
+        "retskreds": "q37ulfwqiyca6"
+       },
+       "result": "Retten i Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "retskredse": [
+         {
+          "retskredsnummer": "11",
+          "retskreds": "Retten i Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         506222.063,
+         6104992.435
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3077,
+        "confidence": "B",
+        "upstream": {
+         "retskreds": {
+          "source": "DAGI.Retskreds",
+          "id": "11"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "politikreds",
+        "id": "qwttw4jvgydgo"
+       },
+       "refs": {
+        "politikreds": "qwttw4jvgydgo"
+       },
+       "result": "Syd- og Sønderjyllands Politi",
+       "lifecycle": "current",
+       "components": {
+        "politikredse": [
+         {
+          "politikredsnummer": "5",
+          "politikreds": "Syd- og Sønderjyllands Politi"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         500532.25,
+         6131019.62
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "B",
+        "upstream": {
+         "politikreds": {
+          "source": "DAGI.Politikreds",
+          "id": "5"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "1a sønderby",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 135,
+    "ok": true,
+    "response": {
+     "input": "1a sønderby",
+     "matches": [
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "c5w6hcgpve7fo"
+       },
+       "refs": {
+        "opstillingskreds": "c5w6hcgpve7fo"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "49",
+          "opstillingskreds": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         559691.612,
+         6091586.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4706,
+        "confidence": "B",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "49"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "63xqgbaxfux5m"
+       },
+       "refs": {
+        "opstillingskreds": "63xqgbaxfux5m"
+       },
+       "result": "Tønder",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "51",
+          "opstillingskreds": "Tønder"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         492860.416,
+         6101828.66
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2353,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "51"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "7j4l2hb2wgh3e"
+       },
+       "refs": {
+        "opstillingskreds": "7j4l2hb2wgh3e"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "70",
+          "opstillingskreds": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         555005.341,
+         6209540.65
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1905,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "70"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "ijelhosasu6h2"
+       },
+       "refs": {
+        "opstillingskreds": "ijelhosasu6h2"
+       },
+       "result": "Brønderslev",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "86",
+          "opstillingskreds": "Brønderslev"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540187.495,
+         6337588.065
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "86"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "lsgjjlypiv4m6"
+       },
+       "refs": {
+        "opstillingskreds": "lsgjjlypiv4m6"
+       },
+       "result": "Brøndby",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "18",
+          "opstillingskreds": "Brøndby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         711465.253,
+         6170452.835
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1579,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "18"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "2te2ae3roogua"
+       },
+       "refs": {
+        "opstillingskreds": "2te2ae3roogua"
+       },
+       "result": "Randers Syd",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "68",
+          "opstillingskreds": "Randers Syd"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         552067.64,
+         6259409.68
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1364,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "68"
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

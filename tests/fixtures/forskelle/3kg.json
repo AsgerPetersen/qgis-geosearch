@@ -1,0 +1,2422 @@
+{
+ "id": "3kg",
+ "term": "3kg",
+ "kommuner": "",
+ "sources": [
+  "sammenligningssiden index.html: mat: 3kg",
+  "sammenligningssiden direct.html: 3kg",
+  "tests/cases.yaml: mat-3kg"
+ ],
+ "recorded_at": "2026-11-06T19:48:22+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 92,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 109,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 95,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 111,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 127,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "ejerlavsnavn": "Aaker",
+      "ejerlavskode": 1380151,
+      "kommunenavn": "Bornholms Kommune",
+      "kommunekode": "0400",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Aaker",
+      "jordstykke_id": 552414,
+      "bfenummer": 5152275,
+      "centroid_x": 877287.679,
+      "centroid_y": 6118638.547,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           877142.175,
+           6118685.901
+          ],
+          [
+           877131.013,
+           6118643.378
+          ],
+          [
+           877118.186,
+           6118558.873
+          ],
+          [
+           877212.587,
+           6118556.001
+          ],
+          [
+           877212.715,
+           6118559.846
+          ],
+          [
+           877314.985,
+           6118556.669
+          ],
+          [
+           877350.258,
+           6118560.454
+          ],
+          [
+           877385.784,
+           6118571.046
+          ],
+          [
+           877389.468,
+           6118578.031
+          ],
+          [
+           877400.867,
+           6118599.638
+          ],
+          [
+           877414.467,
+           6118625.417
+          ],
+          [
+           877429.457,
+           6118653.824
+          ],
+          [
+           877437.406,
+           6118665.682
+          ],
+          [
+           877459.072,
+           6118698.001
+          ],
+          [
+           877451.902,
+           6118702.618
+          ],
+          [
+           877449.666,
+           6118699.353
+          ],
+          [
+           877444.683,
+           6118702.419
+          ],
+          [
+           877435.463,
+           6118708.773
+          ],
+          [
+           877378.458,
+           6118746.696
+          ],
+          [
+           877357.172,
+           6118761.082
+          ],
+          [
+           877340.4,
+           6118772.113
+          ],
+          [
+           877323.661,
+           6118783.006
+          ],
+          [
+           877313.087,
+           6118789.899
+          ],
+          [
+           877313.684,
+           6118725.311
+          ],
+          [
+           877268.553,
+           6118726.437
+          ],
+          [
+           877268.666,
+           6118710.825
+          ],
+          [
+           877188.864,
+           6118710.947
+          ],
+          [
+           877188.858,
+           6118692.001
+          ],
+          [
+           877142.175,
+           6118685.901
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Struer",
+      "ejerlavskode": 2007451,
+      "kommunenavn": "Struer Kommune",
+      "kommunekode": "0671",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Struer",
+      "jordstykke_id": 830337,
+      "bfenummer": 5729374,
+      "centroid_x": 473326.295,
+      "centroid_y": 6259786.708,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           473338.582,
+           6259801.09
+          ],
+          [
+           473311.831,
+           6259797.561
+          ],
+          [
+           473314.961,
+           6259773.768
+          ],
+          [
+           473341.721,
+           6259777.298
+          ],
+          [
+           473338.582,
+           6259801.09
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Vangede",
+      "ejerlavskode": 12255,
+      "kommunenavn": "Gentofte Kommune",
+      "kommunekode": "0157",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Vangede",
+      "jordstykke_id": 344291,
+      "bfenummer": 1301565,
+      "centroid_x": 719923.738,
+      "centroid_y": 6183482.288,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           719929.274,
+           6183495.445
+          ],
+          [
+           719922.873,
+           6183496.919
+          ],
+          [
+           719917.4,
+           6183473.211
+          ],
+          [
+           719917.16,
+           6183472.196
+          ],
+          [
+           719923.737,
+           6183471.456
+          ],
+          [
+           719929.274,
+           6183495.445
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Buddinge",
+      "ejerlavskode": 10251,
+      "kommunenavn": "Gladsaxe Kommune",
+      "kommunekode": "0159",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Buddinge",
+      "jordstykke_id": 922675,
+      "bfenummer": 2010658,
+      "centroid_x": 720510.397,
+      "centroid_y": 6180647.645,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           720488.21,
+           6180645.774
+          ],
+          [
+           720490.272,
+           6180642.181
+          ],
+          [
+           720496.361,
+           6180631.566
+          ],
+          [
+           720532.977,
+           6180652.738
+          ],
+          [
+           720524.607,
+           6180667.21
+          ],
+          [
+           720488.21,
+           6180645.774
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Aars By, Aars",
+      "ejerlavskode": 650151,
+      "kommunenavn": "Vesthimmerlands Kommune",
+      "kommunekode": "0820",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Aars By, Aars",
+      "jordstykke_id": 2076858,
+      "bfenummer": 3359193,
+      "centroid_x": 531315.892,
+      "centroid_y": 6294998.495,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           531301.966,
+           6294985.213
+          ],
+          [
+           531327.519,
+           6294985.345
+          ],
+          [
+           531331.14,
+           6294988.797
+          ],
+          [
+           531331.449,
+           6294994.883
+          ],
+          [
+           531332.457,
+           6295005.401
+          ],
+          [
+           531333.421,
+           6295013.68
+          ],
+          [
+           531332.9,
+           6295013.729
+          ],
+          [
+           531313.887,
+           6295015.478
+          ],
+          [
+           531301.704,
+           6295015.714
+          ],
+          [
+           531301.966,
+           6294985.213
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Hårup By, Linå",
+      "ejerlavskode": 1060652,
+      "kommunenavn": "Silkeborg Kommune",
+      "kommunekode": "0740",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Hårup By, Linå",
+      "jordstykke_id": 1922390,
+      "bfenummer": 4279463,
+      "centroid_x": 538715.327,
+      "centroid_y": 6225698.445,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           538691.745,
+           6225702.789
+          ],
+          [
+           538696.215,
+           6225692.754
+          ],
+          [
+           538701.741,
+           6225680.381
+          ],
+          [
+           538736.968,
+           6225696.116
+          ],
+          [
+           538738.961,
+           6225701.478
+          ],
+          [
+           538730.532,
+           6225720.045
+          ],
+          [
+           538691.745,
+           6225702.789
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Farsø By, Farsø",
+      "ejerlavskode": 670354,
+      "kommunenavn": "Vesthimmerlands Kommune",
+      "kommunekode": "0820",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Farsø By, Farsø",
+      "jordstykke_id": 1065569,
+      "bfenummer": 3379506,
+      "centroid_x": 521216.968,
+      "centroid_y": 6292688.407,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           521200.718,
+           6292703.014
+          ],
+          [
+           521200.353,
+           6292674.999
+          ],
+          [
+           521230.362,
+           6292675.922
+          ],
+          [
+           521230.718,
+           6292703.948
+          ],
+          [
+           521200.718,
+           6292703.014
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Holte By, Nærum",
+      "ejerlavskode": 13352,
+      "kommunenavn": "Rudersdal Kommune",
+      "kommunekode": "0230",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Holte By, Nærum",
+      "jordstykke_id": 1392450,
+      "bfenummer": 2100834,
+      "centroid_x": 720231.215,
+      "centroid_y": 6192149.46,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           720242.158,
+           6192157.871
+          ],
+          [
+           720239.146,
+           6192157.825
+          ],
+          [
+           720221.689,
+           6192157.553
+          ],
+          [
+           720221.9,
+           6192144.712
+          ],
+          [
+           720225.717,
+           6192144.771
+          ],
+          [
+           720242.386,
+           6192145.027
+          ],
+          [
+           720242.158,
+           6192157.871
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Kærsgård, Balle",
+      "ejerlavskode": 810153,
+      "kommunenavn": "Silkeborg Kommune",
+      "kommunekode": "0740",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Kærsgård, Balle",
+      "jordstykke_id": 1915126,
+      "bfenummer": 4036540,
+      "centroid_x": 531850.492,
+      "centroid_y": 6225669.808,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           531846.645,
+           6225659.903
+          ],
+          [
+           531858.738,
+           6225663.031
+          ],
+          [
+           531853.916,
+           6225681.63
+          ],
+          [
+           531841.811,
+           6225678.532
+          ],
+          [
+           531846.645,
+           6225659.903
+          ]
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "ejerlavsnavn": "Langø, Idestrup",
+      "ejerlavskode": 520657,
+      "kommunenavn": "Guldborgsund Kommune",
+      "kommunekode": "0376",
+      "matrikelnummer": "3kg",
+      "visningstekst": "3kg, Langø, Idestrup",
+      "jordstykke_id": 2231474,
+      "bfenummer": 3131517,
+      "centroid_x": 691748.052,
+      "centroid_y": 6065930.53,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           691771.924,
+           6065940.96
+          ],
+          [
+           691754.594,
+           6065956.759
+          ],
+          [
+           691749.664,
+           6065956.359
+          ],
+          [
+           691744.317,
+           6065949.765
+          ],
+          [
+           691732.296,
+           6065935.912
+          ],
+          [
+           691721.769,
+           6065924.225
+          ],
+          [
+           691740.974,
+           6065906.746
+          ],
+          [
+           691771.924,
+           6065940.96
+          ]
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 115,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 86,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 109,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 82,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 86,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 92,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 79,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=3kg&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 80,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "3kg",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 233,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 229,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "g5whyethwk4mu"
+       },
+       "refs": {
+        "street": "g5whyethwk4mu"
+       },
+       "result": "Vej 3, 2000 Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Vej 3",
+        "postcodes": [
+         {
+          "postcode": "2000",
+          "city": "Frederiksberg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721461.09,
+         6176658.57
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "a58b05d9-6e65-484e-8c16-8573dde82a0b"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "abnhnmtsaittu"
+       },
+       "refs": {
+        "street": "abnhnmtsaittu"
+       },
+       "result": "Pier 3",
+       "lifecycle": "current",
+       "components": {
+        "street": "Pier 3"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592775.58,
+         6367559.44
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "483b58b3-71d8-4473-91e7-aecbb514225c"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 229,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 229,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 497,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "dy7isqqnmlrvo"
+       },
+       "refs": {
+        "ejendom": "dy7isqqnmlrvo"
+       },
+       "result": "3kg, Buddinge",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3kg",
+        "ejerlavskode": 10251,
+        "ejerlav": "Buddinge",
+        "kommuner": [
+         {
+          "kommunekode": "0159",
+          "kommune": "Gladsaxe"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 10251,
+           "ejerlav": "Buddinge",
+           "kommunekode": "0159",
+           "kommune": "Gladsaxe",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 922675
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720510.397,
+         6180647.645
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2010658
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "eaiznf3scek3g"
+       },
+       "refs": {
+        "ejendom": "eaiznf3scek3g"
+       },
+       "result": "3kg, Søllerød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3kg",
+        "ejerlavskode": 11452,
+        "ejerlav": "Søllerød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 11452,
+           "ejerlav": "Søllerød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1384672
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719742.989,
+         6190488.113
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2043966
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "kfmp2mdgjitna"
+       },
+       "refs": {
+        "ejendom": "kfmp2mdgjitna"
+       },
+       "result": "3kg, Øverød By, Søllerød",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3kg",
+        "ejerlavskode": 11453,
+        "ejerlav": "Øverød By, Søllerød",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 11453,
+           "ejerlav": "Øverød By, Søllerød",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1385274
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         717930.036,
+         6191893.951
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2045507
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "vp6r6qomrsq6k"
+       },
+       "refs": {
+        "ejendom": "vp6r6qomrsq6k"
+       },
+       "result": "3kg, Virum By, Lundtofte",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3kg",
+        "ejerlavskode": 11953,
+        "ejerlav": "Virum By, Lundtofte",
+        "kommuner": [
+         {
+          "kommunekode": "0173",
+          "kommune": "Lyngby-Taarbæk"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 11953,
+           "ejerlav": "Virum By, Lundtofte",
+           "kommunekode": "0173",
+           "kommune": "Lyngby-Taarbæk",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2462744
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718505.104,
+         6188822.889
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2062914
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "4zhuww35nj5k2"
+       },
+       "refs": {
+        "ejendom": "4zhuww35nj5k2"
+       },
+       "result": "3kg, Vangede",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 12255,
+        "ejerlav": "Vangede",
+        "kommuner": [
+         {
+          "kommunekode": "0157",
+          "kommune": "Gentofte"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344291
+           }
+          },
+          {
+           "matrikelnummer": "3hx",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344385
+           }
+          },
+          {
+           "matrikelnummer": "3iu",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344373
+           }
+          },
+          {
+           "matrikelnummer": "3iv",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344371
+           }
+          },
+          {
+           "matrikelnummer": "3ix",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344381
+           }
+          },
+          {
+           "matrikelnummer": "3iy",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344376
+           }
+          },
+          {
+           "matrikelnummer": "3iz",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344370
+           }
+          },
+          {
+           "matrikelnummer": "3iæ",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344366
+           }
+          },
+          {
+           "matrikelnummer": "3iø",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344346
+           }
+          },
+          {
+           "matrikelnummer": "3ka",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344339
+           }
+          },
+          {
+           "matrikelnummer": "3kb",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344332
+           }
+          },
+          {
+           "matrikelnummer": "3kc",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344324
+           }
+          },
+          {
+           "matrikelnummer": "3kd",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344312
+           }
+          },
+          {
+           "matrikelnummer": "3ke",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344306
+           }
+          },
+          {
+           "matrikelnummer": "3kf",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344299
+           }
+          },
+          {
+           "matrikelnummer": "3kh",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344278
+           }
+          },
+          {
+           "matrikelnummer": "3ki",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344773
+           }
+          },
+          {
+           "matrikelnummer": "3kk",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344765
+           }
+          },
+          {
+           "matrikelnummer": "3kl",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344761
+           }
+          },
+          {
+           "matrikelnummer": "3km",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344289
+           }
+          },
+          {
+           "matrikelnummer": "3kn",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344280
+           }
+          },
+          {
+           "matrikelnummer": "3ko",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344768
+           }
+          },
+          {
+           "matrikelnummer": "3kp",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344762
+           }
+          },
+          {
+           "matrikelnummer": "3kq",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344754
+           }
+          },
+          {
+           "matrikelnummer": "3kr",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344747
+           }
+          },
+          {
+           "matrikelnummer": "3ks",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344739
+           }
+          },
+          {
+           "matrikelnummer": "3kt",
+           "ejerlavskode": 12255,
+           "ejerlav": "Vangede",
+           "kommunekode": "0157",
+           "kommune": "Gentofte",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 344732
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719957.095,
+         6183523.746
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 1301565
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "dwes2hyajnsrc"
+       },
+       "refs": {
+        "ejendom": "dwes2hyajnsrc"
+       },
+       "result": "3kg, Holte By, Nærum",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3kg",
+        "ejerlavskode": 13352,
+        "ejerlav": "Holte By, Nærum",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 13352,
+           "ejerlav": "Holte By, Nærum",
+           "kommunekode": "0230",
+           "kommune": "Rudersdal",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1392450
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720231.215,
+         6192149.46
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2100834
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "o46ygjcxmhgfy"
+       },
+       "refs": {
+        "ejendom": "o46ygjcxmhgfy"
+       },
+       "result": "3kg, Rødovre By, Hendriksholm",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3kg",
+        "ejerlavskode": 13451,
+        "ejerlav": "Rødovre By, Hendriksholm",
+        "kommuner": [
+         {
+          "kommunekode": "0175",
+          "kommune": "Rødovre"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 13451,
+           "ejerlav": "Rødovre By, Hendriksholm",
+           "kommunekode": "0175",
+           "kommune": "Rødovre",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1635486
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718515.741,
+         6174692.749
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2101170
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "3wnsf7niernms"
+       },
+       "refs": {
+        "ejendom": "3wnsf7niernms"
+       },
+       "result": "3kg, Brøndbyøster By, Brøndbyøster",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3kg",
+        "ejerlavskode": 20351,
+        "ejerlav": "Brøndbyøster By, Brøndbyøster",
+        "kommuner": [
+         {
+          "kommunekode": "0153",
+          "kommune": "Brøndby"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 20351,
+           "ejerlav": "Brøndbyøster By, Brøndbyøster",
+           "kommunekode": "0153",
+           "kommune": "Brøndby",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1791435
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         715785.813,
+         6173766.354
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2115365
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ci6l5mwytriss"
+       },
+       "refs": {
+        "ejendom": "ci6l5mwytriss"
+       },
+       "result": "3kg, Bringe By, Værløse",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3kg",
+        "ejerlavskode": 20951,
+        "ejerlav": "Bringe By, Værløse",
+        "kommuner": [
+         {
+          "kommunekode": "0190",
+          "kommune": "Furesø"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 20951,
+           "ejerlav": "Bringe By, Værløse",
+           "kommunekode": "0190",
+           "kommune": "Furesø",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 853510
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         708888.402,
+         6184412.579
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2132813
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "424wlfivcm6rk"
+       },
+       "refs": {
+        "ejendom": "424wlfivcm6rk"
+       },
+       "result": "3kg, Ll. Værløse By, Værløse",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "3kg",
+        "ejerlavskode": 20957,
+        "ejerlav": "Ll. Værløse By, Værløse",
+        "kommuner": [
+         {
+          "kommunekode": "0190",
+          "kommune": "Furesø"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "3kg",
+           "ejerlavskode": 20957,
+           "ejerlav": "Ll. Værløse By, Værløse",
+           "kommunekode": "0190",
+           "kommune": "Furesø",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 856813
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         710589.879,
+         6186724.061
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2136096
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 250,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 231,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 230,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "xjj7bxie6jgjw"
+       },
+       "refs": {
+        "stednavn": "xjj7bxie6jgjw"
+       },
+       "result": "3",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "3",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         526749.56,
+         6076605.07
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1136527"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "yb2lufrai4edc"
+       },
+       "refs": {
+        "stednavn": "yb2lufrai4edc"
+       },
+       "result": "30",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "30",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         524337.1,
+         6076282.67
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1034934"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "mzojpobitra3c"
+       },
+       "refs": {
+        "stednavn": "mzojpobitra3c"
+       },
+       "result": "31",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "31",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         524148.21,
+         6076363.28
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1069223"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ziedapw5z4dz6"
+       },
+       "refs": {
+        "stednavn": "ziedapw5z4dz6"
+       },
+       "result": "32",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "32",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         524138.92,
+         6076360.68
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1019949"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "fszcgvlwr6qyo"
+       },
+       "refs": {
+        "stednavn": "fszcgvlwr6qyo"
+       },
+       "result": "33",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "33",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         524146.87,
+         6076310.03
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1135941"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "7zfadbncewygm"
+       },
+       "refs": {
+        "stednavn": "7zfadbncewygm"
+       },
+       "result": "34",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "34",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         524072.08,
+         6076164.77
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1048511"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "7v5kgz6xxxq3s"
+       },
+       "refs": {
+        "stednavn": "7v5kgz6xxxq3s"
+       },
+       "result": "35",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "35",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         524065.55,
+         6076039.74
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1103852"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "yeiapgtliydy6"
+       },
+       "refs": {
+        "stednavn": "yeiapgtliydy6"
+       },
+       "result": "36",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "36",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         524168.21,
+         6075849.53
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1112726"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "vvw2nltcaplwq"
+       },
+       "refs": {
+        "stednavn": "vvw2nltcaplwq"
+       },
+       "result": "37",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "37",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         524167.36,
+         6075842.4
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1113139"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "5q3ibvvab7k7y"
+       },
+       "refs": {
+        "stednavn": "5q3ibvvab7k7y"
+       },
+       "result": "38",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "38",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         524088.67,
+         6075593.14
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1085726"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 122,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 141,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 141,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 150,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 139,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "3kg",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 137,
+    "ok": true,
+    "response": {
+     "input": "3kg",
+     "matches": []
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,6139 @@
+{
+ "id": "frederiksberggade-1a",
+ "term": "frederiksberggade 1a",
+ "kommuner": "",
+ "sources": [
+  "tests/cases.yaml: adr-frederiksberggade-1a"
+ ],
+ "recorded_at": "2026-11-06T19:48:56+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 111,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "0a3f509e-1a52-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummer": "1A",
+      "etagebetegnelse": "kl",
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, kl., 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f509e-1a53-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummer": "1A",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, st., 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f509e-1a54-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummer": "1A",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, 1., 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f509e-1a55-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummer": "1A",
+      "etagebetegnelse": "2",
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, 2., 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f509e-1a56-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummer": "1A",
+      "etagebetegnelse": "3",
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, 3., 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f509e-1a57-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummer": "1A",
+      "etagebetegnelse": "4",
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, 4., 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f509e-1a58-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummer": "1A",
+      "etagebetegnelse": "5",
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, 5., 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     },
+     {
+      "id": "18457aa2-0efd-4a53-b645-625989de1fdc",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummer": "1A",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, 1. th, 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     },
+     {
+      "id": "1ed691b4-8fa3-486c-b906-f12d813d9831",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummer": "1A",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, 1. tv, 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     },
+     {
+      "id": "355ad500-a64f-484a-9da6-7faa67c197a4",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummer": "1A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 102,
+    "ok": true,
+    "row_count": 1,
+    "rows": [
+     {
+      "id": "0a3f507a-6f8e-32b8-e044-0003ba298018",
+      "kommunenavn": "København",
+      "kommunekode": "0101",
+      "vejkode": "1932",
+      "vejnavn": "Frederiksberggade",
+      "husnummertekst": "1A",
+      "supplerendebynavn": null,
+      "postnummer": "1459",
+      "postnummernavn": "København K",
+      "visningstekst": "Frederiksberggade 1A, 1459 København K",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724576.32674086,
+         6175991.29092548
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724581.86,
+         6175984.91
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 79,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 83,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 144,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 104,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 76,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 93,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 86,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 93,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 74,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 77,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=frederiksberggade%201a&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 69,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 264,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "ybzeqlgd42e76"
+       },
+       "refs": {
+        "entrance": "ybzeqlgd42e76"
+       },
+       "result": "Frederiksberggade 1A, 1459 København K",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "house_number": "1",
+        "house_letter": "A",
+        "postcodes": [
+         {
+          "postcode": "1459",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7002",
+          "sogn": "Helligånds"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "23",
+          "retskreds": "Københavns Byret"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "11",
+          "politikreds": "Københavns Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "3",
+          "opstillingskreds": "Indre By"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724581.86,
+         6175984.91
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507a-6f8e-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "unit",
+        "id": "bhspaq3zriars"
+       },
+       "refs": {
+        "entrance": "3jaumzk6gy6qm",
+        "unit": "bhspaq3zriars"
+       },
+       "result": "Frederiksberggade 11A, 1459 København K",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "house_number": "11",
+        "house_letter": "A",
+        "postcodes": [
+         {
+          "postcode": "1459",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7002",
+          "sogn": "Helligånds"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "23",
+          "retskreds": "Københavns Byret"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "11",
+          "politikreds": "Københavns Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "3",
+          "opstillingskreds": "Indre By"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724552.843295974,
+         6175959.88924351
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9897,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507a-6f99-32b8-e044-0003ba298018"
+         },
+         "unit": {
+          "source": "DAR.Adresse",
+          "id": "d71e61a0-27f1-4d39-9860-7b0f1c793da8"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "4xlc34y5jgr4o"
+       },
+       "refs": {
+        "entrance": "4xlc34y5jgr4o"
+       },
+       "result": "Frederiksberggade 12A, 1459 København K",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "house_number": "12",
+        "house_letter": "A",
+        "postcodes": [
+         {
+          "postcode": "1459",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9174",
+          "sogn": "Vor Frue"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "23",
+          "retskreds": "Københavns Byret"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "11",
+          "politikreds": "Københavns Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "3",
+          "opstillingskreds": "Indre By"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724539.11,
+         6175968.41
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9897,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "46fccf4c-dfac-4d7e-a25d-c3c40af91dbf"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "p44unkqk2plmw"
+       },
+       "refs": {
+        "entrance": "p44unkqk2plmw"
+       },
+       "result": "Frederiksberggade 17A, 1459 København K",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "house_number": "17",
+        "house_letter": "A",
+        "postcodes": [
+         {
+          "postcode": "1459",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7002",
+          "sogn": "Helligånds"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "23",
+          "retskreds": "Københavns Byret"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "11",
+          "politikreds": "Københavns Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "3",
+          "opstillingskreds": "Indre By"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724527.32,
+         6175914.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9897,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507a-6fa0-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "unit",
+        "id": "qe766lnuqrhmq"
+       },
+       "refs": {
+        "entrance": "mb7ejf55ftpri",
+        "unit": "qe766lnuqrhmq"
+       },
+       "result": "Frederiksberggade 51A, 7323 Give",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "house_number": "51",
+        "house_letter": "A",
+        "postcodes": [
+         {
+          "postcode": "7323",
+          "city": "Give"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0630",
+          "kommune": "Vejle"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7983",
+          "sogn": "Give"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1083",
+          "region": "Region Syddanmark"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "9",
+          "retskreds": "Retten i Kolding"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "4",
+          "politikreds": "Sydøstjyllands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "56",
+          "opstillingskreds": "Vejle Nord"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         514125.95,
+         6188616.66
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9897,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f508f-5058-32b8-e044-0003ba298018"
+         },
+         "unit": {
+          "source": "DAR.Adresse",
+          "id": "0a3f50ba-fd2d-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "unit",
+        "id": "xph4vhv3ofkp4"
+       },
+       "refs": {
+        "entrance": "jxakbaxzqivo6",
+        "unit": "xph4vhv3ofkp4"
+       },
+       "result": "Frederiksberggade 13A, 8600 Silkeborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "house_number": "13",
+        "house_letter": "A",
+        "postcodes": [
+         {
+          "postcode": "8600",
+          "city": "Silkeborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8017",
+          "sogn": "Silkeborg"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1082",
+          "region": "Region Midtjylland"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "5",
+          "retskreds": "Retten i Viborg"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "3",
+          "politikreds": "Midt- og Vestjyllands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "78",
+          "opstillingskreds": "Silkeborg Syd"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         534269.3953498456,
+         6224409.6917047445
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9897,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "f26124ef-19d0-46e3-bc73-5954a70b3d6e"
+         },
+         "unit": {
+          "source": "DAR.Adresse",
+          "id": "e15c4a41-6307-4821-967a-3c99c1d2a902"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "unit",
+        "id": "okl2o4no2o64c"
+       },
+       "refs": {
+        "entrance": "ttucz3ljddjzk",
+        "unit": "okl2o4no2o64c"
+       },
+       "result": "Frederiksberggade 15A, 8600 Silkeborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "house_number": "15",
+        "house_letter": "A",
+        "postcodes": [
+         {
+          "postcode": "8600",
+          "city": "Silkeborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8017",
+          "sogn": "Silkeborg"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1082",
+          "region": "Region Midtjylland"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "5",
+          "retskreds": "Retten i Viborg"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "3",
+          "politikreds": "Midt- og Vestjyllands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "78",
+          "opstillingskreds": "Silkeborg Syd"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         534273.6045506272,
+         6224395.452786155
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9897,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f5095-54d0-32b8-e044-0003ba298018"
+         },
+         "unit": {
+          "source": "DAR.Adresse",
+          "id": "0a3f50c1-ca65-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "clynr6k5iywri"
+       },
+       "refs": {
+        "entrance": "clynr6k5iywri"
+       },
+       "result": "Frederiksberggade 11A, 8700 Horsens",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "house_number": "11",
+        "house_letter": "A",
+        "postcodes": [
+         {
+          "postcode": "8700",
+          "city": "Horsens"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0615",
+          "kommune": "Horsens"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8053",
+          "sogn": "Vor Frelsers"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1082",
+          "region": "Region Midtjylland"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "8",
+          "retskreds": "Retten i Horsens"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "4",
+          "politikreds": "Sydøstjyllands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "71",
+          "opstillingskreds": "Horsens"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         552267.36,
+         6191966.13
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9897,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f508f-9e69-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "zvroqugt4vngk"
+       },
+       "refs": {
+        "entrance": "zvroqugt4vngk"
+       },
+       "result": "Frederiksberggade 3A, 1459 København K",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "house_number": "3",
+        "house_letter": "A",
+        "postcodes": [
+         {
+          "postcode": "1459",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7002",
+          "sogn": "Helligånds"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "23",
+          "retskreds": "Københavns Byret"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "11",
+          "politikreds": "Københavns Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "3",
+          "opstillingskreds": "Indre By"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724575.93,
+         6175980.13
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.902,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507a-6f91-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "ld2wwbdazxtzg"
+       },
+       "refs": {
+        "entrance": "ld2wwbdazxtzg"
+       },
+       "result": "Frederiksberggade 25A, 1459 København K",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "house_number": "25",
+        "house_letter": "A",
+        "postcodes": [
+         {
+          "postcode": "1459",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7002",
+          "sogn": "Helligånds"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "23",
+          "retskreds": "Københavns Byret"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "11",
+          "politikreds": "Københavns Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "3",
+          "opstillingskreds": "Indre By"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724467.91,
+         6175884.14
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.902,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507a-6fa6-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 233,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "37zccpnmxuem4"
+       },
+       "refs": {
+        "street": "37zccpnmxuem4"
+       },
+       "result": "Frederiksberggade, 7323 Give",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "postcodes": [
+         {
+          "postcode": "7323",
+          "city": "Give"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0630",
+          "kommune": "Vejle"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         514279.82,
+         6188638.76
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.8571,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "0424c776-c88b-4c68-a637-e6de46bedca4"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "ygdrfgwfr4u5q"
+       },
+       "refs": {
+        "street": "ygdrfgwfr4u5q"
+       },
+       "result": "Frederiksberggade, 6640 Lunderskov",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "postcodes": [
+         {
+          "postcode": "6640",
+          "city": "Lunderskov"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0621",
+          "kommune": "Kolding"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         519050.43,
+         6147898.95
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.8571,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "2bf225fe-0d3a-4235-a3dc-e211c186f5c7"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "7no76gstgjwoa"
+       },
+       "refs": {
+        "street": "7no76gstgjwoa"
+       },
+       "result": "Frederiksberggade, 6670 Holsted",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "postcodes": [
+         {
+          "postcode": "6670",
+          "city": "Holsted"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         494636.85,
+         6148435.18
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.8571,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "6ac9fe9e-ce50-4759-99f0-2695235b72c6"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "zhxfxnko6ysgq"
+       },
+       "refs": {
+        "street": "zhxfxnko6ysgq"
+       },
+       "result": "Frederiksberggade, 8600 Silkeborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "postcodes": [
+         {
+          "postcode": "8600",
+          "city": "Silkeborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         534164.13,
+         6223985.18
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.8571,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "7905e88e-49ff-40df-9c2c-929428f66858"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "2dhqhsd4aawa2"
+       },
+       "refs": {
+        "street": "2dhqhsd4aawa2"
+       },
+       "result": "Frederiksberggade, 1459 København K",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "postcodes": [
+         {
+          "postcode": "1459",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724518.71,
+         6175940.01
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.8571,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "851edf4c-fd0c-4892-8cb9-dbc717e70acb"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "42d5mn2is4d5i"
+       },
+       "refs": {
+        "street": "42d5mn2is4d5i"
+       },
+       "result": "Frederiksberggade, 8700 Horsens",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "postcodes": [
+         {
+          "postcode": "8700",
+          "city": "Horsens"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0615",
+          "kommune": "Horsens"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         552253.3,
+         6191942.53
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.8571,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "ada8dedc-b6b2-428d-8d13-5f19d21ef824"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "q5g4qucshv7da"
+       },
+       "refs": {
+        "street": "q5g4qucshv7da"
+       },
+       "result": "Frederiksberggade, 8883 Gjern",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberggade",
+        "postcodes": [
+         {
+          "postcode": "8883",
+          "city": "Gjern"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         545495.05,
+         6231879.53
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.8571,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "eae966f3-fba3-436a-b08f-1948728fd07a"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "z24rf6byu5jlu"
+       },
+       "refs": {
+        "street": "z24rf6byu5jlu"
+       },
+       "result": "Frederiksborggade, 3600 Frederikssund",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksborggade",
+        "postcodes": [
+         {
+          "postcode": "3600",
+          "city": "Frederikssund"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0250",
+          "kommune": "Frederikssund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         691969.31,
+         6192520.1
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.625,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "275a4877-d239-4de3-9048-633afb551d83"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "na3r2svqo7rxu"
+       },
+       "refs": {
+        "street": "na3r2svqo7rxu"
+       },
+       "result": "Frederiksborggade, 1360 København K",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksborggade",
+        "postcodes": [
+         {
+          "postcode": "1360",
+          "city": "København K"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724375.83,
+         6176741.93
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.625,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "297eac99-e2ea-430e-b027-5c6774a3063d"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "qte7ggp5gisty"
+       },
+       "refs": {
+        "street": "qte7ggp5gisty"
+       },
+       "result": "Frederiksberg Bredegade, 2000 Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Frederiksberg Bredegade",
+        "postcodes": [
+         {
+          "postcode": "2000",
+          "city": "Frederiksberg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721964.76,
+         6175893.66
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5926,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "27357a18-a6cb-4215-9c50-b200bc0048d2"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 239,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "q3kaazzc5qiwm"
+       },
+       "refs": {
+        "postcode": "q3kaazzc5qiwm"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2000",
+          "city": "Frederiksberg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         },
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720946.203,
+         6176332.43
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2000"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "qlnzzqufryncq"
+       },
+       "refs": {
+        "postcode": "qlnzzqufryncq"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1800",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722111.718,
+         6175109.685
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1800"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "rxqd6jlaofazm"
+       },
+       "refs": {
+        "postcode": "rxqd6jlaofazm"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1801",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722237.034,
+         6174928.04
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1801"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "lfnu6cbgmwbzq"
+       },
+       "refs": {
+        "postcode": "lfnu6cbgmwbzq"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1802",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722253.879,
+         6174991.955
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1802"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "7cpu5wtoauony"
+       },
+       "refs": {
+        "postcode": "7cpu5wtoauony"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1803",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722192.655,
+         6175017.44
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1803"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "5pubzrvzph37k"
+       },
+       "refs": {
+        "postcode": "5pubzrvzph37k"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1804",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722118.011,
+         6174976.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1804"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "jtv2nl5mrbs2s"
+       },
+       "refs": {
+        "postcode": "jtv2nl5mrbs2s"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1805",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722072.56,
+         6174803.385
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1805"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "vmbw3opvucjds"
+       },
+       "refs": {
+        "postcode": "vmbw3opvucjds"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1806",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722179.268,
+         6175263.49
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1806"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "uztre2cei777q"
+       },
+       "refs": {
+        "postcode": "uztre2cei777q"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1807",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722184.222,
+         6175173.385
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1807"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "cvjdb54ihnlhq"
+       },
+       "refs": {
+        "postcode": "cvjdb54ihnlhq"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1808",
+          "city": "Frederiksberg C"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722231.486,
+         6175179.49
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "1808"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 234,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "city",
+        "id": "mj7edfy6vznjs"
+       },
+       "refs": {
+        "city": "mj7edfy6vznjs"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2000",
+          "city": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720946.203,
+         6176332.43
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "mj7edfy6vznjs"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "e7bvflpw4czfe"
+       },
+       "refs": {
+        "city": "e7bvflpw4czfe"
+       },
+       "result": "Frederiksberg C",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "1800",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1801",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1802",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1803",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1804",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1805",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1806",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1807",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1808",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1809",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1810",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1811",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1812",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1813",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1814",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1815",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1816",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1817",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1818",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1819",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1820",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1822",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1823",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1824",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1825",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1826",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1827",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1828",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1829",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1850",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1851",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1852",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1853",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1854",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1855",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1856",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1857",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1860",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1861",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1862",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1863",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1864",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1865",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1866",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1867",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1868",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1870",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1871",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1872",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1873",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1874",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1875",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1876",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1877",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1878",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1879",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1900",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1901",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1902",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1903",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1904",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1905",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1906",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1908",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1909",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1910",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1911",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1912",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1913",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1914",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1915",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1916",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1917",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1920",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1921",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1922",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1923",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1924",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1925",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1926",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1927",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1928",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1950",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1951",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1952",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1953",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1954",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1955",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1956",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1957",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1958",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1959",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1960",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1961",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1962",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1963",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1964",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1965",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1966",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1967",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1970",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1971",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1972",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1973",
+          "city": "Frederiksberg C"
+         },
+         {
+          "postcode": "1974",
+          "city": "Frederiksberg C"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722937.207,
+         6175860.255
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "e7bvflpw4czfe"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "fqrj6csi6leb4"
+       },
+       "refs": {
+        "city": "fqrj6csi6leb4"
+       },
+       "result": "Frederikshavn",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9900",
+          "city": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         600860.866,
+         6372400.56
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3462,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "fqrj6csi6leb4"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "dh2rcepynyiea"
+       },
+       "refs": {
+        "city": "dh2rcepynyiea"
+       },
+       "result": "Frederikssund",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "3600",
+          "city": "Frederikssund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         693357.473,
+         6192031.18
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3462,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "dh2rcepynyiea"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "jbpq22si46n7c"
+       },
+       "refs": {
+        "city": "jbpq22si46n7c"
+       },
+       "result": "Frederiksværk",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "3300",
+          "city": "Frederiksværk"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         690312.847,
+         6211959.8
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "jbpq22si46n7c"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "xurh2p32xvzmi"
+       },
+       "refs": {
+        "city": "xurh2p32xvzmi"
+       },
+       "result": "Fredericia",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "7000",
+          "city": "Fredericia"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         543556.964,
+         6159091.07
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.28,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "xurh2p32xvzmi"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "do3o2ephf6lj2"
+       },
+       "refs": {
+        "city": "do3o2ephf6lj2"
+       },
+       "result": "Fredensborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "3480",
+          "city": "Fredensborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         711823.762,
+         6208510.9
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1786,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "do3o2ephf6lj2"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 1744,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "x5qnt7jq7jdgs"
+       },
+       "refs": {
+        "ejendom": "x5qnt7jq7jdgs"
+       },
+       "result": "1a, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [
+           {
+            "id": "b2kfunrhrppl4",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100195294
+            }
+           },
+           {
+            "id": "2px343boww5hq",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100195320
+            }
+           },
+           {
+            "id": "zabf2ulwxvzj6",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100688676
+            }
+           },
+           {
+            "id": "wegqbixj6ko2k",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100688677
+            }
+           },
+           {
+            "id": "cv7nxjrnntpme",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100688678
+            }
+           },
+           {
+            "id": "deh2czwdkwhbi",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100688682
+            }
+           },
+           {
+            "id": "xtzuqf3rx7s54",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100688696
+            }
+           },
+           {
+            "id": "lkv5rnaysszyy",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 100910531
+            }
+           },
+           {
+            "id": "cta67m4j36h54",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "retired",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 706934
+            }
+           }
+          ],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100028854
+           }
+          },
+          {
+           "matrikelnummer": "1bx",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100028857
+           }
+          },
+          {
+           "matrikelnummer": "1by",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100028858
+           }
+          },
+          {
+           "matrikelnummer": "1bz",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026618
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721741.831,
+         6175243.025
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.8272,
+        "confidence": "B",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100027966
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ibeb3qsdu66l6"
+       },
+       "refs": {
+        "ejendom": "ibeb3qsdu66l6"
+       },
+       "result": "1aa, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1aa",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1aa",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026445
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720749.533,
+         6174890.609
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100025544
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "5reaswk2r32ji"
+       },
+       "refs": {
+        "ejendom": "5reaswk2r32ji"
+       },
+       "result": "1ab, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1ab",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1ab",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026444
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720723.599,
+         6174887.027
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100025545
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "7ac74lv7ntqeg"
+       },
+       "refs": {
+        "ejendom": "7ac74lv7ntqeg"
+       },
+       "result": "1ac, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1ac",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [
+           {
+            "id": "5gdhaafzdcehm",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "1",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 176068
+            }
+           },
+           {
+            "id": "4jjb2pnwykouq",
+            "type": "ejerlejlighed",
+            "ejerlejlighedsnummer": "2",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.Ejerlejlighed",
+             "id": 176069
+            }
+           }
+          ],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1ac",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026443
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720697.633,
+         6174883.454
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100025546
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "bum3457qpqtqk"
+       },
+       "refs": {
+        "ejendom": "bum3457qpqtqk"
+       },
+       "result": "1ad, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1ad",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1ad",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026442
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720672.179,
+         6174879.969
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100025547
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "oqobl4xihuiva"
+       },
+       "refs": {
+        "ejendom": "oqobl4xihuiva"
+       },
+       "result": "1ae, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1ae",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1ae",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026441
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720647.215,
+         6174876.531
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100025548
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "cp3rw2d6vufhc"
+       },
+       "refs": {
+        "ejendom": "cp3rw2d6vufhc"
+       },
+       "result": "1af, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1af",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1af",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026440
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720622.161,
+         6174873.092
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100025549
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "2enu6hll5p2ze"
+       },
+       "refs": {
+        "ejendom": "2enu6hll5p2ze"
+       },
+       "result": "1ag, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1ag",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1ag",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026439
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720597.181,
+         6174869.67
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100025550
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "yboonrbbqrbgy"
+       },
+       "refs": {
+        "ejendom": "yboonrbbqrbgy"
+       },
+       "result": "1ah, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1ah",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1ah",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026438
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720572.308,
+         6174866.144
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100025563
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "uhwe6ygdbaelg"
+       },
+       "refs": {
+        "ejendom": "uhwe6ygdbaelg"
+       },
+       "result": "1ai, Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1ai",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1ai",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026437
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720547.486,
+         6174862.285
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100025564
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 544,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "y3aivyalrc7iu"
+       },
+       "refs": {
+        "ejendom": "y3aivyalrc7iu"
+       },
+       "result": "1an, Frederiksberg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "1an",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1an",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100029298
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721092.042,
+         6174825.337
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100028358
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ebtxt4rcfw7y2"
+       },
+       "refs": {
+        "ejendom": "ebtxt4rcfw7y2"
+       },
+       "result": "19a, Frederiksberg",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "19a",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100027318
+           }
+          },
+          {
+           "matrikelnummer": "19bn",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100031438
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723036.804,
+         6176510.718
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6754,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100026403
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ln53keyji532e"
+       },
+       "refs": {
+        "ejendom": "ln53keyji532e"
+       },
+       "result": "1y, Frederiksberg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "1y",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1y",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100031689
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720611.381,
+         6174890.062
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5849,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100030715
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "tz4vdm2u3oqfe"
+       },
+       "refs": {
+        "ejendom": "tz4vdm2u3oqfe"
+       },
+       "result": "12ia, Frederiksberg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "12ia",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "12ia",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100029858
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721997.643,
+         6177071.828
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5849,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100028949
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "d4pxqmv5wxwtk"
+       },
+       "refs": {
+        "ejendom": "d4pxqmv5wxwtk"
+       },
+       "result": "13da, Frederiksberg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "13da",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "13da",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100027628
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723188.914,
+         6176308.27
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5849,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100026771
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "buhho4j4eyoho"
+       },
+       "refs": {
+        "ejendom": "buhho4j4eyoho"
+       },
+       "result": "107a, Frederiksberg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "107a",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "107a",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100026584
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721833.156,
+         6175942.631
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5849,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100025693
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "oknrmmzqkowwa"
+       },
+       "refs": {
+        "ejendom": "oknrmmzqkowwa"
+       },
+       "result": "158a, Frederiksberg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "158a",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "158a",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100029025
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722214.77,
+         6177115.057
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5849,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100028122
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "475djwfpsomv2"
+       },
+       "refs": {
+        "ejendom": "475djwfpsomv2"
+       },
+       "result": "241a, Frederiksberg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "241a",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "241a",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100030575
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721349.962,
+         6176117.764
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5849,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100029570
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "zzplsgokmqn2a"
+       },
+       "refs": {
+        "ejendom": "zzplsgokmqn2a"
+       },
+       "result": "13gø, Frederiksberg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "13gø",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "13gø",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100603736
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         722892.316,
+         6176748.878
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5231,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100615063
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "mcufvbqcp46ao"
+       },
+       "refs": {
+        "ejendom": "mcufvbqcp46ao"
+       },
+       "result": "14fæ, Frederiksberg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "14fæ",
+        "ejerlavskode": 10051,
+        "ejerlav": "Frederiksberg",
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "14fæ",
+           "ejerlavskode": 10051,
+           "ejerlav": "Frederiksberg",
+           "kommunekode": "0147",
+           "kommune": "Frederiksberg",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100031495
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721921.997,
+         6177403.62
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5231,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100030573
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 238,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "eskozsdpyciza"
+       },
+       "refs": {
+        "ejerlav": "eskozsdpyciza"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Frederiksberg",
+        "ejerlavskode": 10051
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720500.358,
+         6175057.158
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "B",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 10051
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "hf73zqkjdhivo"
+       },
+       "refs": {
+        "ejerlav": "hf73zqkjdhivo"
+       },
+       "result": "Flade, Frederikshavn Jorder",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Flade, Frederikshavn Jorder",
+        "ejerlavskode": 2004655
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         590995.423,
+         6368306.52
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3143,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 2004655
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "2qrhfbyso4x6w"
+       },
+       "refs": {
+        "ejerlav": "2qrhfbyso4x6w"
+       },
+       "result": "Frederikskilde, Lynge",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Frederikskilde, Lynge",
+        "ejerlavskode": 220852
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         661104.379,
+         6139587.273
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3125,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 220852
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "fu7afbhexb43o"
+       },
+       "refs": {
+        "ejerlav": "fu7afbhexb43o"
+       },
+       "result": "Resenfelde, Frederiks",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Resenfelde, Frederiks",
+        "ejerlavskode": 820653
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         508747.5,
+         6247671.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3125,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 820653
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "c5xcxsu52h5hq"
+       },
+       "refs": {
+        "ejerlav": "c5xcxsu52h5hq"
+       },
+       "result": "Tohuse, Frederiks",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tohuse, Frederiks",
+        "ejerlavskode": 820654
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         514004.261,
+         6249327.669
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3103,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 820654
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "evl7vwled6p3e"
+       },
+       "refs": {
+        "ejerlav": "evl7vwled6p3e"
+       },
+       "result": "Frederikssund Bygrunde",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Frederikssund Bygrunde",
+        "ejerlavskode": 2000451
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         691352.418,
+         6192299.838
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.303,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 2000451
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "yodcunipd3oho"
+       },
+       "refs": {
+        "ejerlav": "yodcunipd3oho"
+       },
+       "result": "Firehuse, Frederiks",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Firehuse, Frederiks",
+        "ejerlavskode": 820651
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         511407.172,
+         6241860.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 820651
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "pqkyldxgnt26u"
+       },
+       "refs": {
+        "ejerlav": "pqkyldxgnt26u"
+       },
+       "result": "Trehuse, Frederiks",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Trehuse, Frederiks",
+        "ejerlavskode": 800355
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         517446.845,
+         6245858.36
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 800355
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "xhgx4mrysxlk6"
+       },
+       "refs": {
+        "ejerlav": "xhgx4mrysxlk6"
+       },
+       "result": "Ulvedal, Frederiks",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Ulvedal, Frederiks",
+        "ejerlavskode": 800356
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         517227.438,
+         6240357.321
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 800356
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "7yifit4xs6dfq"
+       },
+       "refs": {
+        "ejerlav": "7yifit4xs6dfq"
+       },
+       "result": "Frederikshavn Bygrunde",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Frederikshavn Bygrunde",
+        "ejerlavskode": 2004651
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592138.875,
+         6367626.25
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2941,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 2004651
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 239,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "xr2hdseqwiqm6"
+       },
+       "refs": {
+        "stednavn": "xr2hdseqwiqm6"
+       },
+       "result": "Frederiksberggård",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Frederiksberggård",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         507738.813,
+         6159596.57
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1052639"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "cliivseek3bj6"
+       },
+       "refs": {
+        "stednavn": "cliivseek3bj6"
+       },
+       "result": "Frederiksberggård",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Frederiksberggård",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         585218.03,
+         6105535.365
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.6,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1142288"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "j6mfzimxinjju"
+       },
+       "refs": {
+        "stednavn": "j6mfzimxinjju"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Frederiksberg",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         494599.509,
+         6148464.26
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1019297"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "6d5otkii4vqig"
+       },
+       "refs": {
+        "stednavn": "6d5otkii4vqig"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Frederiksberg",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0630",
+          "kommune": "Vejle"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         514140.913,
+         6188459.495
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1021626"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "tmmeo6afnzeu4"
+       },
+       "refs": {
+        "stednavn": "tmmeo6afnzeu4"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Frederiksberg",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0657",
+          "kommune": "Herning"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         487190.16,
+         6234925.4
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1028281"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "intvrlkdpmln2"
+       },
+       "refs": {
+        "stednavn": "intvrlkdpmln2"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Frederiksberg",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         578351.815,
+         6346354.835
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1032004"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "u7q4qpj6s43zc"
+       },
+       "refs": {
+        "stednavn": "u7q4qpj6s43zc"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Frederiksberg",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         567973.293,
+         6271210.05
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1032215"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "bi72sb3efeyge"
+       },
+       "refs": {
+        "stednavn": "bi72sb3efeyge"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Frederiksberg",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0741",
+          "kommune": "Samsø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         599985.517,
+         6188180.155
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1034792"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "fpq75do4mb7x6"
+       },
+       "refs": {
+        "stednavn": "fpq75do4mb7x6"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Frederiksberg",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0482",
+          "kommune": "Langeland"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         611181.289,
+         6078070.865
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1067927"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "gii6y4k4ajohs"
+       },
+       "refs": {
+        "stednavn": "gii6y4k4ajohs"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Frederiksberg",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         585639.391,
+         6105945.905
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1101547"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 142,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "tppp5oyzwta6s"
+       },
+       "refs": {
+        "kommune": "tppp5oyzwta6s"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721651.422,
+         6176350.225
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "B",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0147"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "nrfeiec54rqy2"
+       },
+       "refs": {
+        "kommune": "nrfeiec54rqy2"
+       },
+       "result": "Frederikshavn",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0813",
+          "kommune": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         587235.774,
+         6369762.33
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3462,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0813"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "lckn7snbxgxga"
+       },
+       "refs": {
+        "kommune": "lckn7snbxgxga"
+       },
+       "result": "Frederikssund",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0250",
+          "kommune": "Frederikssund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         696198.523,
+         6192020.025
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3462,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0250"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "cj774gvxdwzis"
+       },
+       "refs": {
+        "kommune": "cj774gvxdwzis"
+       },
+       "result": "Fredericia",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0607",
+          "kommune": "Fredericia"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         542142.649,
+         6158321.04
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.28,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0607"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "kfj25kgqxygpy"
+       },
+       "refs": {
+        "kommune": "kfj25kgqxygpy"
+       },
+       "result": "Fredensborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0210",
+          "kommune": "Fredensborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         714864.85,
+         6205788.28
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1786,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0210"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 140,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "cicscn2x4nths"
+       },
+       "refs": {
+        "sogn": "cicscn2x4nths"
+       },
+       "result": "Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0147",
+          "kommune": "Frederiksberg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9181",
+          "sogn": "Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721757.192,
+         6175288.77
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "B",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9181"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "phkyhfyryx3uc"
+       },
+       "refs": {
+        "sogn": "phkyhfyryx3uc"
+       },
+       "result": "Frederiks",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7038",
+          "sogn": "Frederiks"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         725485.389,
+         6176912.21
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4091,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7038"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "of4quxu5edvyc"
+       },
+       "refs": {
+        "sogn": "of4quxu5edvyc"
+       },
+       "result": "Frederiks",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0791",
+          "kommune": "Viborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8602",
+          "sogn": "Frederiks"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         514536.779,
+         6243710.64
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4091,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8602"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "5nudjp3bc7oa2"
+       },
+       "refs": {
+        "sogn": "5nudjp3bc7oa2"
+       },
+       "result": "Frederikshavn",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0813",
+          "kommune": "Frederikshavn"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8476",
+          "sogn": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592577.422,
+         6368543.99
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3462,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8476"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "zed3nhhibfkkg"
+       },
+       "refs": {
+        "sogn": "zed3nhhibfkkg"
+       },
+       "result": "Frederikssund",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0250",
+          "kommune": "Frederikssund"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7418",
+          "sogn": "Frederikssund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         692773.515,
+         6192137.36
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3462,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7418"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "iwruwnlzpfole"
+       },
+       "refs": {
+        "sogn": "iwruwnlzpfole"
+       },
+       "result": "Frederiksborg Slotssogn",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0219",
+          "kommune": "Hillerød"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7436",
+          "sogn": "Frederiksborg Slotssogn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         704553.056,
+         6202898.805
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7436"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "vuzfecqkizgwy"
+       },
+       "refs": {
+        "sogn": "vuzfecqkizgwy"
+       },
+       "result": "Frederiksværk-Vinderød",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0260",
+          "kommune": "Halsnæs"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9186",
+          "sogn": "Frederiksværk-Vinderød"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         689335.704,
+         6209423.365
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9186"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "4fpklcukywsk6"
+       },
+       "refs": {
+        "sogn": "4fpklcukywsk6"
+       },
+       "result": "Fredens",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0461",
+          "kommune": "Odense"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7782",
+          "sogn": "Fredens"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         589876.156,
+         6143948.395
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2083,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7782"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "p5mdarvep6asy"
+       },
+       "refs": {
+        "sogn": "p5mdarvep6asy"
+       },
+       "result": "Fredens",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8101",
+          "sogn": "Fredens"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         573475.289,
+         6221226.96
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2083,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8101"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "isadq3dj6p3fe"
+       },
+       "refs": {
+        "sogn": "isadq3dj6p3fe"
+       },
+       "result": "Fredens",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0657",
+          "kommune": "Herning"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8791",
+          "sogn": "Fredens"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         499571.853,
+         6221540.75
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2083,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8791"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 137,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 136,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "retskreds",
+        "id": "ypwarzcfrysl6"
+       },
+       "refs": {
+        "retskreds": "ypwarzcfrysl6"
+       },
+       "result": "Retten på Frederiksberg",
+       "lifecycle": "current",
+       "components": {
+        "retskredse": [
+         {
+          "retskredsnummer": "22",
+          "retskreds": "Retten på Frederiksberg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720827.885,
+         6176124.425
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3939,
+        "confidence": "B",
+        "upstream": {
+         "retskreds": {
+          "source": "DAGI.Retskreds",
+          "id": "22"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 135,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "frederiksberggade 1a",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 123,
+    "ok": true,
+    "response": {
+     "input": "frederiksberggade 1a",
+     "matches": [
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "mdevlxh5btjwy"
+       },
+       "refs": {
+        "opstillingskreds": "mdevlxh5btjwy"
+       },
+       "result": "Frederikshavn",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "84",
+          "opstillingskreds": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         620331.314,
+         6349561.635
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3462,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "84"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "62te2edwotjpk"
+       },
+       "refs": {
+        "opstillingskreds": "62te2edwotjpk"
+       },
+       "result": "Frederikssund",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "24",
+          "opstillingskreds": "Frederikssund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         687430.643,
+         6190966.515
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3462,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "24"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "oaeswadt3j46i"
+       },
+       "refs": {
+        "opstillingskreds": "oaeswadt3j46i"
+       },
+       "result": "Fredericia",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "58",
+          "opstillingskreds": "Fredericia"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         542142.649,
+         6158321.04
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.28,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "58"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "bfv63uxdgppja"
+       },
+       "refs": {
+        "opstillingskreds": "bfv63uxdgppja"
+       },
+       "result": "Fredensborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "22",
+          "opstillingskreds": "Fredensborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         715183.126,
+         6204324.255
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1786,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "22"
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

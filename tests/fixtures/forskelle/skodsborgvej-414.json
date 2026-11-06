@@ -1,0 +1,6210 @@
+{
+ "id": "skodsborgvej-414",
+ "term": "skodsborgvej 414",
+ "kommuner": "",
+ "sources": [
+  "sammenligningssiden index.html: skodsborgvej 414",
+  "sammenligningssiden direct.html: skodsborgvej 414",
+  "tests/cases.yaml: adr-skodsborgvej-414"
+ ],
+ "recorded_at": "2026-11-06T19:48:14+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 99,
+    "ok": true,
+    "row_count": 8,
+    "rows": [
+     {
+      "id": "0a3f50a6-f2a8-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0540",
+      "vejnavn": "Skodsborgvej",
+      "husnummer": "414",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborgvej 414, st. th, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723863.55378002,
+         6191920.66324082
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723865.11,
+         6191902.87
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-f2a9-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0540",
+      "vejnavn": "Skodsborgvej",
+      "husnummer": "414",
+      "etagebetegnelse": "st",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborgvej 414, st. tv, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723863.55378002,
+         6191920.66324082
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723865.11,
+         6191902.87
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-f2aa-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0540",
+      "vejnavn": "Skodsborgvej",
+      "husnummer": "414",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborgvej 414, 1. th, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723863.55378002,
+         6191920.66324082
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723865.11,
+         6191902.87
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-f2ab-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0540",
+      "vejnavn": "Skodsborgvej",
+      "husnummer": "414",
+      "etagebetegnelse": "1",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborgvej 414, 1. tv, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723863.55378002,
+         6191920.66324082
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723865.11,
+         6191902.87
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-f2ac-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0540",
+      "vejnavn": "Skodsborgvej",
+      "husnummer": "414",
+      "etagebetegnelse": "2",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborgvej 414, 2. th, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723863.55378002,
+         6191920.66324082
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723865.11,
+         6191902.87
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-f2ad-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0540",
+      "vejnavn": "Skodsborgvej",
+      "husnummer": "414",
+      "etagebetegnelse": "2",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborgvej 414, 2. tv, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723863.55378002,
+         6191920.66324082
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723865.11,
+         6191902.87
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-f2ae-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0540",
+      "vejnavn": "Skodsborgvej",
+      "husnummer": "414",
+      "etagebetegnelse": "3",
+      "doerbetegnelse": "th",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborgvej 414, 3. th, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723863.55378002,
+         6191920.66324082
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723865.11,
+         6191902.87
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-f2af-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0540",
+      "vejnavn": "Skodsborgvej",
+      "husnummer": "414",
+      "etagebetegnelse": "3",
+      "doerbetegnelse": "tv",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborgvej 414, 3. tv, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723863.55378002,
+         6191920.66324082
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723865.11,
+         6191902.87
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 104,
+    "ok": true,
+    "row_count": 1,
+    "rows": [
+     {
+      "id": "0a3f507d-be63-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0540",
+      "vejnavn": "Skodsborgvej",
+      "husnummertekst": "414",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborgvej 414, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723863.55378002,
+         6191920.66324082
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         723865.11,
+         6191902.87
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 77,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 99,
+    "ok": true,
+    "row_count": 1,
+    "rows": [
+     {
+      "postnummer": "4140",
+      "postnummernavn": "Borup",
+      "visningstekst": "4140 Borup",
+      "gadepostnummer": false,
+      "kommunekode": "0265,0259,0329,0350",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           688254.91,
+           6157664.04
+          ],
+          [
+           688273.66,
+           6157507.95
+          ],
+          [
+           688154.68,
+           6157470.29
+          ],
+          [
+           687836.71,
+           6157535.49
+          ],
+          [
+           687408.76,
+           6157518.99
+          ],
+          [
+           687260.58,
+           6157601.8
+          ],
+          [
+           686792.48,
+           6157805.02
+          ],
+          [
+           686598.55,
+           6157689.73
+          ],
+          [
+           685766.89,
+           6157557.36
+          ],
+          [
+           685368.24,
+           6157364.52
+          ],
+          [
+           685168.9,
+           6157396.13
+          ],
+          [
+           684547.52,
+           6157628.55
+          ],
+          [
+           684583.15,
+           6157389.39
+          ],
+          [
+           684627.9,
+           6157089.73
+          ],
+          [
+           684642.63,
+           6156990.1
+          ],
+          [
+           684670.72,
+           6156796.59
+          ],
+          [
+           684685.34,
+           6156695.72
+          ],
+          [
+           685192.29,
+           6156010.4
+          ],
+          [
+           684871.21,
+           6155949.38
+          ],
+          [
+           684521.77,
+           6155757.74
+          ],
+          [
+           683984.68,
+           6155668.37
+          ],
+          [
+           683706.58,
+           6155885.75
+          ],
+          [
+           683418.91,
+           6156238.88
+          ],
+          [
+           683147.5,
+           6155935.56
+          ],
+          [
+           682952.92,
+           6155826.92
+          ],
+          [
+           682521.12,
+           6155444.8
+          ],
+          [
+           682409.64,
+           6155193.18
+          ],
+          [
+           682461.73,
+           6154865.38
+          ],
+          [
+           682176.5,
+           6154755.59
+          ],
+          [
+           682088.17,
+           6154609.01
+          ],
+          [
+           682197.62,
+           6154528.99
+          ],
+          [
+           682283.79,
+           6154159.11
+          ],
+          [
+           682297.58,
+           6154023.22
+          ],
+          [
+           682044.23,
+           6153959.34
+          ],
+          [
+           681981.48,
+           6153270.88
+          ],
+          [
+           681969.75,
+           6153139.61
+          ],
+          [
+           681953.4,
+           6152948.37
+          ],
+          [
+           681955.68,
+           6152588.91
+          ],
+          [
+           682179.51,
+           6152412.27
+          ],
+          [
+           682230.68,
+           6152540.42
+          ],
+          [
+           682654.52,
+           6152716.82
+          ],
+          [
+           682711.26,
+           6152466.19
+          ],
+          [
+           682809.19,
+           6152407.35
+          ],
+          [
+           682951.56,
+           6152154.19
+          ],
+          [
+           683073.26,
+           6151945.19
+          ],
+          [
+           683022,
+           6151677.93
+          ],
+          [
+           682967.23,
+           6151590.47
+          ],
+          [
+           682898.07,
+           6151479.71
+          ],
+          [
+           683155.36,
+           6151121.69
+          ],
+          [
+           684286.98,
+           6149883.6
+          ],
+          [
+           684502.52,
+           6149937.25
+          ],
+          [
+           684693.64,
+           6149884.72
+          ],
+          [
+           685395.79,
+           6149909.38
+          ],
+          [
+           685960.28,
+           6149996.31
+          ],
+          [
+           686907.39,
+           6150458.35
+          ],
+          [
+           687456.9,
+           6150400.75
+          ],
+          [
+           687969.26,
+           6150454.69
+          ],
+          [
+           688389.87,
+           6150377.18
+          ],
+          [
+           688719.43,
+           6150295.93
+          ],
+          [
+           689357.48,
+           6150320.07
+          ],
+          [
+           689648.59,
+           6150310.52
+          ],
+          [
+           689751.91,
+           6150613.74
+          ],
+          [
+           690252.98,
+           6150978.37
+          ],
+          [
+           690437.8,
+           6150846.66
+          ],
+          [
+           690566.05,
+           6150831.03
+          ],
+          [
+           691190.26,
+           6150867.56
+          ],
+          [
+           692233.2,
+           6152107.12
+          ],
+          [
+           692760.86,
+           6152560.58
+          ],
+          [
+           692964.67,
+           6152740.78
+          ],
+          [
+           692901.92,
+           6152966.06
+          ],
+          [
+           692847.06,
+           6153562.86
+          ],
+          [
+           691952.37,
+           6153594.62
+          ],
+          [
+           691780.34,
+           6153594.07
+          ],
+          [
+           691528.74,
+           6153611.23
+          ],
+          [
+           691403.49,
+           6154190.15
+          ],
+          [
+           690885.03,
+           6154713.07
+          ],
+          [
+           690690.06,
+           6155129.4
+          ],
+          [
+           691023.43,
+           6156297.64
+          ],
+          [
+           690746.94,
+           6156812.74
+          ],
+          [
+           690898.09,
+           6157047.29
+          ],
+          [
+           690880.57,
+           6157389.96
+          ],
+          [
+           690680.63,
+           6157546.17
+          ],
+          [
+           689921.69,
+           6157978.22
+          ],
+          [
+           688963.86,
+           6157358.76
+          ],
+          [
+           688828.05,
+           6157417.23
+          ],
+          [
+           688254.91,
+           6157664.04
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          681953.4,
+          6149883.6
+         ],
+         [
+          681953.4,
+          6157978.22
+         ],
+         [
+          692964.67,
+          6157978.22
+         ],
+         [
+          692964.67,
+          6149883.6
+         ],
+         [
+          681953.4,
+          6149883.6
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 105,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 110,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 77,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 88,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 77,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 76,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 98,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 90,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=skodsborgvej%20414&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 95,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "skodsborgvej 414",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 215,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "tjb33aj2duv6k"
+       },
+       "refs": {
+        "entrance": "tjb33aj2duv6k"
+       },
+       "result": "Skodsborgvej 414, 2942 Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "house_number": "414",
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7126",
+          "sogn": "Vedbæk"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "20",
+          "retskreds": "Retten i Lyngby"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "9",
+          "politikreds": "Nordsjællands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "26",
+          "opstillingskreds": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723865.11,
+         6191902.87
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507d-be63-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "unit",
+        "id": "svvliwrdinefw"
+       },
+       "refs": {
+        "entrance": "ynyceje62frg6",
+        "unit": "svvliwrdinefw"
+       },
+       "result": "Skodsborgvej 14, 2830 Virum",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "house_number": "14",
+        "postcodes": [
+         {
+          "postcode": "2830",
+          "city": "Virum"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0173",
+          "kommune": "Lyngby-Taarbæk"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7123",
+          "sogn": "Lundtofte"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "20",
+          "retskreds": "Retten i Lyngby"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "9",
+          "politikreds": "Nordsjællands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "14",
+          "opstillingskreds": "Lyngby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718438.52,
+         6189049.21
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9937,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507d-6680-32b8-e044-0003ba298018"
+         },
+         "unit": {
+          "source": "DAR.Adresse",
+          "id": "0a3f50a6-65bc-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "unit",
+        "id": "ko3ihnifnvzko"
+       },
+       "refs": {
+        "entrance": "rycz4pdnnbzfq",
+        "unit": "ko3ihnifnvzko"
+       },
+       "result": "Skodsborgvej 41, 2830 Virum",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "house_number": "41",
+        "postcodes": [
+         {
+          "postcode": "2830",
+          "city": "Virum"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0173",
+          "kommune": "Lyngby-Taarbæk"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7123",
+          "sogn": "Lundtofte"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "20",
+          "retskreds": "Retten i Lyngby"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "9",
+          "politikreds": "Nordsjællands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "14",
+          "opstillingskreds": "Lyngby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718639.14,
+         6189214.99
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9937,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507d-6699-32b8-e044-0003ba298018"
+         },
+         "unit": {
+          "source": "DAR.Adresse",
+          "id": "0a3f50a6-65d5-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "unit",
+        "id": "pmug6kajkftm6"
+       },
+       "refs": {
+        "entrance": "jrg6hg5kzgajs",
+        "unit": "pmug6kajkftm6"
+       },
+       "result": "Skodsborgvej 44, 2830 Virum",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "house_number": "44",
+        "postcodes": [
+         {
+          "postcode": "2830",
+          "city": "Virum"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0173",
+          "kommune": "Lyngby-Taarbæk"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7123",
+          "sogn": "Lundtofte"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "20",
+          "retskreds": "Retten i Lyngby"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "9",
+          "politikreds": "Nordsjællands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "14",
+          "opstillingskreds": "Lyngby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718711.43,
+         6189208.34
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9937,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507d-669c-32b8-e044-0003ba298018"
+         },
+         "unit": {
+          "source": "DAR.Adresse",
+          "id": "0a3f50a6-65d8-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "lyrlmabjdhc6q"
+       },
+       "refs": {
+        "entrance": "lyrlmabjdhc6q"
+       },
+       "result": "Skodsborgvej 314, 2850 Nærum",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "house_number": "314",
+        "postcodes": [
+         {
+          "postcode": "2850",
+          "city": "Nærum"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7129",
+          "sogn": "Nærum"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "20",
+          "retskreds": "Retten i Lyngby"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "9",
+          "politikreds": "Nordsjællands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "26",
+          "opstillingskreds": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721420.35,
+         6191133.36
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9937,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507d-be2f-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "o44syxm4ia64u"
+       },
+       "refs": {
+        "entrance": "o44syxm4ia64u"
+       },
+       "result": "Skodsborgvej 410, 2942 Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "house_number": "410",
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7126",
+          "sogn": "Vedbæk"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "20",
+          "retskreds": "Retten i Lyngby"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "9",
+          "politikreds": "Nordsjællands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "26",
+          "opstillingskreds": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723832.57,
+         6191877.75
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9937,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507d-be61-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "cdqk52amrphf6"
+       },
+       "refs": {
+        "entrance": "cdqk52amrphf6"
+       },
+       "result": "Skodsborgvej 412, 2942 Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "house_number": "412",
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7126",
+          "sogn": "Vedbæk"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "20",
+          "retskreds": "Retten i Lyngby"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "9",
+          "politikreds": "Nordsjællands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "26",
+          "opstillingskreds": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723844.3,
+         6191899.66
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9937,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507d-be62-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "entrance",
+        "id": "nawjn4dma4pne"
+       },
+       "refs": {
+        "entrance": "nawjn4dma4pne"
+       },
+       "result": "Skodsborgvej 416, 2942 Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "house_number": "416",
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7126",
+          "sogn": "Vedbæk"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1084",
+          "region": "Region Hovedstaden"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "20",
+          "retskreds": "Retten i Lyngby"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "9",
+          "politikreds": "Nordsjællands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "26",
+          "opstillingskreds": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723885.9,
+         6191903.7
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9937,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f507d-be64-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "unit",
+        "id": "ezqdns4o7jhcm"
+       },
+       "refs": {
+        "entrance": "o4nivpr3dyklk",
+        "unit": "ezqdns4o7jhcm"
+       },
+       "result": "Skodsborgvej 14, 9270 Klarup",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "house_number": "14",
+        "postcodes": [
+         {
+          "postcode": "9270",
+          "city": "Klarup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9187",
+          "sogn": "Romdrup-Klarup"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1081",
+          "region": "Region Nordjylland"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "2",
+          "retskreds": "Retten i Aalborg"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "1",
+          "politikreds": "Nordjyllands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "90",
+          "opstillingskreds": "Aalborg Øst"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         564874.87,
+         6319035.65
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9937,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f509c-b219-32b8-e044-0003ba298018"
+         },
+         "unit": {
+          "source": "DAR.Adresse",
+          "id": "0a3f50ca-b1e6-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "unit",
+        "id": "u3rwxnxbfncji"
+       },
+       "refs": {
+        "entrance": "k4brroc5sphgu",
+        "unit": "u3rwxnxbfncji"
+       },
+       "result": "Skodsborgvej 41, 9270 Klarup",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "house_number": "41",
+        "postcodes": [
+         {
+          "postcode": "9270",
+          "city": "Klarup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9187",
+          "sogn": "Romdrup-Klarup"
+         }
+        ],
+        "regioner": [
+         {
+          "regionskode": "1081",
+          "region": "Region Nordjylland"
+         }
+        ],
+        "retskredse": [
+         {
+          "retskredsnummer": "2",
+          "retskreds": "Retten i Aalborg"
+         }
+        ],
+        "politikredse": [
+         {
+          "politikredsnummer": "1",
+          "politikreds": "Nordjyllands Politi"
+         }
+        ],
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "90",
+          "opstillingskreds": "Aalborg Øst"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         564780.46,
+         6318780.05
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.9937,
+        "confidence": "C",
+        "upstream": {
+         "entrance": {
+          "source": "DAR.Husnummer",
+          "id": "0a3f509c-b234-32b8-e044-0003ba298018"
+         },
+         "unit": {
+          "source": "DAR.Adresse",
+          "id": "0a3f50ca-b201-32b8-e044-0003ba298018"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 149,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "xomjdltrrj7nc"
+       },
+       "refs": {
+        "street": "xomjdltrrj7nc"
+       },
+       "result": "Skodsborgvej",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "postcodes": [
+         {
+          "postcode": "2830",
+          "city": "Virum"
+         },
+         {
+          "postcode": "2840",
+          "city": "Holte"
+         },
+         {
+          "postcode": "2850",
+          "city": "Nærum"
+         },
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0173",
+          "kommune": "Lyngby-Taarbæk"
+         },
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720700.83,
+         6190806.01
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7647,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "0d39f5fc-471d-4381-8d5c-3ebccaf38c26"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "lwbzvldgkx672"
+       },
+       "refs": {
+        "street": "lwbzvldgkx672"
+       },
+       "result": "Skodsborgvej, 9270 Klarup",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborgvej",
+        "postcodes": [
+         {
+          "postcode": "9270",
+          "city": "Klarup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         564711.76,
+         6318944.75
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.7647,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "2a5c877b-a91f-41ad-b06a-2b0460237ab8"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "yrutmb3qzfliu"
+       },
+       "refs": {
+        "street": "yrutmb3qzfliu"
+       },
+       "result": "Høje Skodsborgvej, 2942 Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Høje Skodsborgvej",
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723781.15,
+         6192734.85
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5652,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "08891f8b-0cd5-47e3-b872-b49349041ac1"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "v6l6ws2pt7y6g"
+       },
+       "refs": {
+        "street": "v6l6ws2pt7y6g"
+       },
+       "result": "Skodborgvej, 6630 Rødding",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodborgvej",
+        "postcodes": [
+         {
+          "postcode": "6630",
+          "city": "Rødding"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         506431.96,
+         6138925.41
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "29b667d3-ea9e-4c54-a8cf-56844243ad4a"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "x744mnecuq5ve"
+       },
+       "refs": {
+        "street": "x744mnecuq5ve"
+       },
+       "result": "Skodborgvej, 2610 Rødovre",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodborgvej",
+        "postcodes": [
+         {
+          "postcode": "2610",
+          "city": "Rødovre"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0175",
+          "kommune": "Rødovre"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         717684.78,
+         6174662.79
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "942e8c3a-ddaf-492f-a038-00c8dc674cda"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "b2453alsza42s"
+       },
+       "refs": {
+        "street": "b2453alsza42s"
+       },
+       "result": "Skodborgvej, 7620 Lemvig",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodborgvej",
+        "postcodes": [
+         {
+          "postcode": "7620",
+          "city": "Lemvig"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0665",
+          "kommune": "Lemvig"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         468180.21,
+         6262801.27
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "9c324114-f0f3-468c-8b72-fde0382e75f0"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "qj7a45c6b44bc"
+       },
+       "refs": {
+        "street": "qj7a45c6b44bc"
+       },
+       "result": "Skovsborgvej, 6933 Kibæk",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skovsborgvej",
+        "postcodes": [
+         {
+          "postcode": "6933",
+          "city": "Kibæk"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0657",
+          "kommune": "Herning"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         493740.92,
+         6205993.02
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "ac946a43-dd62-49b7-9f56-77852cba4f5a"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "zfazzbmfv4x3c"
+       },
+       "refs": {
+        "street": "zfazzbmfv4x3c"
+       },
+       "result": "Skovsborgvej",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skovsborgvej",
+        "postcodes": [
+         {
+          "postcode": "8620",
+          "city": "Kjellerup"
+         },
+         {
+          "postcode": "8840",
+          "city": "Rødkærsbro"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         532593.31,
+         6239918.96
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "c6b49e3c-06b3-4471-a83e-5780ae504634"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "7yx6hfgui7al2"
+       },
+       "refs": {
+        "street": "7yx6hfgui7al2"
+       },
+       "result": "Skovborgvej, 7173 Vonge",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skovborgvej",
+        "postcodes": [
+         {
+          "postcode": "7173",
+          "city": "Vonge"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0630",
+          "kommune": "Vejle"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         525937.32,
+         6190986.43
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.45,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "42d851aa-a909-4ce1-a1e4-69d2757b6803"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "ekjy5m2rpyvb2"
+       },
+       "refs": {
+        "street": "ekjy5m2rpyvb2"
+       },
+       "result": "Skodsborg Strandvej, 2942 Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborg Strandvej",
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723870.96,
+         6192448.92
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.44,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "166e957e-f0df-4e0b-b8f4-6e5503cd381a"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 141,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "wgxiyjjxsa2r2"
+       },
+       "refs": {
+        "postcode": "wgxiyjjxsa2r2"
+       },
+       "result": "Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         726604.387,
+         6192440.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "B",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2942"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "dxefblhejpjtc"
+       },
+       "refs": {
+        "postcode": "dxefblhejpjtc"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8660",
+          "city": "Skanderborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0615",
+          "kommune": "Horsens"
+         },
+         {
+          "kommunekode": "0727",
+          "kommune": "Odder"
+         },
+         {
+          "kommunekode": "0746",
+          "kommune": "Skanderborg"
+         },
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         556632.444,
+         6211516.605
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.16,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8660"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "fxd4gc7oexyca"
+       },
+       "refs": {
+        "postcode": "fxd4gc7oexyca"
+       },
+       "result": "Søborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2860",
+          "city": "Søborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         },
+         {
+          "kommunekode": "0159",
+          "kommune": "Gladsaxe"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718656.073,
+         6182251.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1364,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2860"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "nangc776ikq6o"
+       },
+       "refs": {
+        "postcode": "nangc776ikq6o"
+       },
+       "result": "Glesborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8585",
+          "city": "Glesborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0707",
+          "kommune": "Norddjurs"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         602080.767,
+         6277341.935
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1304,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8585"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "ndxrojc67dfto"
+       },
+       "refs": {
+        "postcode": "ndxrojc67dfto"
+       },
+       "result": "Silkeborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8600",
+          "city": "Silkeborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         },
+         {
+          "kommunekode": "0746",
+          "kommune": "Skanderborg"
+         },
+         {
+          "kommunekode": "0756",
+          "kommune": "Ikast-Brande"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         534561.756,
+         6226591.665
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8600"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "sc73gqqdqofzm"
+       },
+       "refs": {
+        "postcode": "sc73gqqdqofzm"
+       },
+       "result": "Skørping",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9520",
+          "city": "Skørping"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0840",
+          "kommune": "Rebild"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         557558.101,
+         6300716.64
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "9520"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "dlsemrf23wqju"
+       },
+       "refs": {
+        "postcode": "dlsemrf23wqju"
+       },
+       "result": "Skovlunde",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2740",
+          "city": "Skovlunde"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0151",
+          "kommune": "Ballerup"
+         },
+         {
+          "kommunekode": "0163",
+          "kommune": "Herlev"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         713604.632,
+         6179442.34
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2740"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "vsvr2q2lk3aco"
+       },
+       "refs": {
+        "postcode": "vsvr2q2lk3aco"
+       },
+       "result": "Svendborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5700",
+          "city": "Svendborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0479",
+          "kommune": "Svendborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         603980.363,
+         6099546.235
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "5700"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "xawy7b6axgtkm"
+       },
+       "refs": {
+        "postcode": "xawy7b6axgtkm"
+       },
+       "result": "Aalborg SV",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9200",
+          "city": "Aalborg SV"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         551474.413,
+         6318735.455
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.12,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "9200"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "nm2ia7xlgq3j2"
+       },
+       "refs": {
+        "postcode": "nm2ia7xlgq3j2"
+       },
+       "result": "Skælskør",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4230",
+          "city": "Skælskør"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0330",
+          "kommune": "Slagelse"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         650112.932,
+         6119584.91
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.12,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "4230"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 152,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "city",
+        "id": "jfkdmehz3bs2g"
+       },
+       "refs": {
+        "city": "jfkdmehz3bs2g"
+       },
+       "result": "Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         726604.387,
+         6192440.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "B",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "jfkdmehz3bs2g"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "iv7znd3wz24uq"
+       },
+       "refs": {
+        "city": "iv7znd3wz24uq"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8660",
+          "city": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         556632.444,
+         6211516.605
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.16,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "iv7znd3wz24uq"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "v7evie7odqwtk"
+       },
+       "refs": {
+        "city": "v7evie7odqwtk"
+       },
+       "result": "Søborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2860",
+          "city": "Søborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718656.073,
+         6182251.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1364,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "v7evie7odqwtk"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "iarhwoxjxhiu4"
+       },
+       "refs": {
+        "city": "iarhwoxjxhiu4"
+       },
+       "result": "Glesborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8585",
+          "city": "Glesborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         602080.767,
+         6277341.935
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1304,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "iarhwoxjxhiu4"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "6v53xewpnoej2"
+       },
+       "refs": {
+        "city": "6v53xewpnoej2"
+       },
+       "result": "Silkeborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8600",
+          "city": "Silkeborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         534561.756,
+         6226591.665
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "6v53xewpnoej2"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "kkifi5bssktvg"
+       },
+       "refs": {
+        "city": "kkifi5bssktvg"
+       },
+       "result": "Skørping",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9520",
+          "city": "Skørping"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         557558.101,
+         6300716.64
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "kkifi5bssktvg"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "4z2q44kxwwlqe"
+       },
+       "refs": {
+        "city": "4z2q44kxwwlqe"
+       },
+       "result": "Skovlunde",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2740",
+          "city": "Skovlunde"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         713604.632,
+         6179442.34
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "4z2q44kxwwlqe"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "rfca5s6fieola"
+       },
+       "refs": {
+        "city": "rfca5s6fieola"
+       },
+       "result": "Svendborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "5700",
+          "city": "Svendborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         603980.363,
+         6099546.235
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "rfca5s6fieola"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "syim4iyizcmvm"
+       },
+       "refs": {
+        "city": "syim4iyizcmvm"
+       },
+       "result": "Aalborg SV",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9200",
+          "city": "Aalborg SV"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         551474.413,
+         6318735.455
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.12,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "syim4iyizcmvm"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "5flhzrpbin4cc"
+       },
+       "refs": {
+        "city": "5flhzrpbin4cc"
+       },
+       "result": "Skælskør",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4230",
+          "city": "Skælskør"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         650112.932,
+         6119584.91
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.12,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "5flhzrpbin4cc"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 707,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "2td4vtffnkb2a"
+       },
+       "refs": {
+        "ejendom": "2td4vtffnkb2a"
+       },
+       "result": "414, Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "414",
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "414",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1772974
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540463.493,
+         6083552.283
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5401,
+        "confidence": "B",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5277937
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "imvzrw6ttqqkq"
+       },
+       "refs": {
+        "ejendom": "imvzrw6ttqqkq"
+       },
+       "result": "14, Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "14",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773420
+           }
+          },
+          {
+           "matrikelnummer": "687",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773355
+           }
+          },
+          {
+           "matrikelnummer": "688",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773303
+           }
+          },
+          {
+           "matrikelnummer": "689",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773314
+           }
+          },
+          {
+           "matrikelnummer": "690",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773350
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         542432.85,
+         6083827.393
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.441,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8955187
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ywidkw6qm7ruw"
+       },
+       "refs": {
+        "ejendom": "ywidkw6qm7ruw"
+       },
+       "result": "44, Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "44",
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "44",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773411
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         542329.225,
+         6083634.097
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.441,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5277602
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "luwvdblz6my7y"
+       },
+       "refs": {
+        "ejendom": "luwvdblz6my7y"
+       },
+       "result": "114, Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "114",
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "114",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773031
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540288.409,
+         6083842.721
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.441,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5277662
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "b2ww332tod3hc"
+       },
+       "refs": {
+        "ejendom": "b2ww332tod3hc"
+       },
+       "result": "314, Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "314",
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "314",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773277
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         541440.672,
+         6084133.926
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.441,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8069162
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "pkfh3flt4mv2s"
+       },
+       "refs": {
+        "ejendom": "pkfh3flt4mv2s"
+       },
+       "result": "404, Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "404",
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "404",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1772915
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540606.884,
+         6083488.078
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.441,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5277927
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "oslefhfgxbm6g"
+       },
+       "refs": {
+        "ejendom": "oslefhfgxbm6g"
+       },
+       "result": "410, Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "410",
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "410",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1772934
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540535.709,
+         6083558.337
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.441,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5277933
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "4jxok46enzs7c"
+       },
+       "refs": {
+        "ejendom": "4jxok46enzs7c"
+       },
+       "result": "411, Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "411",
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "411",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1772948
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540515.66,
+         6083526.904
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.441,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5277934
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "6mv7sbcsoo3io"
+       },
+       "refs": {
+        "ejendom": "6mv7sbcsoo3io"
+       },
+       "result": "412, Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "412",
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "412",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1772941
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540525.296,
+         6083580.667
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.441,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5277935
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "y5wkjnys45elg"
+       },
+       "refs": {
+        "ejendom": "y5wkjnys45elg"
+       },
+       "result": "413, Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "413",
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "413",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1772959
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540492.574,
+         6083536.789
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.441,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5277936
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 199,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "pighuoj4nqu2c"
+       },
+       "refs": {
+        "ejendom": "pighuoj4nqu2c"
+       },
+       "result": "1141, Skodborg Ejerlav, Skodborg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "1141",
+        "ejerlavskode": 1440651,
+        "ejerlav": "Skodborg Ejerlav, Skodborg",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1141",
+           "ejerlavskode": 1440651,
+           "ejerlav": "Skodborg Ejerlav, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1839409
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         510182.624,
+         6142024.19
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3536,
+        "confidence": "B",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 7886542
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "obbfvzzzhokja"
+       },
+       "refs": {
+        "ejendom": "obbfvzzzhokja"
+       },
+       "result": "724, Skodsbøl, Broager",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "724",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773389
+           }
+          },
+          {
+           "matrikelnummer": "725",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773221
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         542489.076,
+         6083062.813
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3118,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8955205
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "xlrwawdcmicv4"
+       },
+       "refs": {
+        "ejendom": "xlrwawdcmicv4"
+       },
+       "result": "4, Skodborg Ejerlav, Skodborg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "4",
+        "ejerlavskode": 1440651,
+        "ejerlav": "Skodborg Ejerlav, Skodborg",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4",
+           "ejerlavskode": 1440651,
+           "ejerlav": "Skodborg Ejerlav, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1839049
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         508933.291,
+         6141978.299
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2887,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5198613
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "2dwdzancxgqfi"
+       },
+       "refs": {
+        "ejendom": "2dwdzancxgqfi"
+       },
+       "result": "210, Skodborg Ejerlav, Skodborg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "210",
+        "ejerlavskode": 1440651,
+        "ejerlav": "Skodborg Ejerlav, Skodborg",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "210",
+           "ejerlavskode": 1440651,
+           "ejerlav": "Skodborg Ejerlav, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1839539
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         509831.456,
+         6141101.541
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2887,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5198789
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "wfse7mrkivuoy"
+       },
+       "refs": {
+        "ejendom": "wfse7mrkivuoy"
+       },
+       "result": "918, Skodborg Ejerlav, Skodborg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "918",
+        "ejerlavskode": 1440651,
+        "ejerlav": "Skodborg Ejerlav, Skodborg",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "918",
+           "ejerlavskode": 1440651,
+           "ejerlav": "Skodborg Ejerlav, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1839040
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         508948.776,
+         6141858.41
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2887,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5199480
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "3qpblhns7aunk"
+       },
+       "refs": {
+        "ejendom": "3qpblhns7aunk"
+       },
+       "result": "168, Skodsbøl, Broager",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 1540158,
+        "ejerlav": "Skodsbøl, Broager",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "168",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1773407
+           }
+          },
+          {
+           "matrikelnummer": "711",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1772921
+           }
+          },
+          {
+           "matrikelnummer": "746",
+           "ejerlavskode": 1540158,
+           "ejerlav": "Skodsbøl, Broager",
+           "kommunekode": "0540",
+           "kommune": "Sønderborg",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100117289
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         542476.61,
+         6084827.678
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.27,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8955197
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "agd7vgxfmy5cg"
+       },
+       "refs": {
+        "ejendom": "agd7vgxfmy5cg"
+       },
+       "result": "21, Skudstrup, Skodborg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "21",
+        "ejerlavskode": 1440652,
+        "ejerlav": "Skudstrup, Skodborg",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "21",
+           "ejerlavskode": 1440652,
+           "ejerlav": "Skudstrup, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1885999
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         511914.836,
+         6141894.877
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100003715
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "zoymd2igmdl76"
+       },
+       "refs": {
+        "ejendom": "zoymd2igmdl76"
+       },
+       "result": "2aa, Askov By, Malt",
+       "lifecycle": "retired",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "2aa",
+           "ejerlavskode": 1280751,
+           "ejerlav": "Askov By, Malt",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2373200
+           }
+          },
+          {
+           "matrikelnummer": "11d",
+           "ejerlavskode": 1280751,
+           "ejerlav": "Askov By, Malt",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2373197
+           }
+          },
+          {
+           "matrikelnummer": "30a",
+           "ejerlavskode": 1280751,
+           "ejerlav": "Askov By, Malt",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2373227
+           }
+          },
+          {
+           "matrikelnummer": "9d",
+           "ejerlavskode": 1280851,
+           "ejerlav": "Skodborghus Hgd., Vejen",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2373866
+           }
+          },
+          {
+           "matrikelnummer": "10a",
+           "ejerlavskode": 1280851,
+           "ejerlav": "Skodborghus Hgd., Vejen",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2373882
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         507415.109,
+         6143506.098
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 7672636
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "cklbfyuo77iga"
+       },
+       "refs": {
+        "ejendom": "cklbfyuo77iga"
+       },
+       "result": "2b, Skodborg Ejerlav, Skodborg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "2b",
+        "ejerlavskode": 1440651,
+        "ejerlav": "Skodborg Ejerlav, Skodborg",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "2b",
+           "ejerlavskode": 1440651,
+           "ejerlav": "Skodborg Ejerlav, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100164772
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         509041.917,
+         6142038.38
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100145206
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "auycrg4ulk4os"
+       },
+       "refs": {
+        "ejendom": "auycrg4ulk4os"
+       },
+       "result": "738, Skodborg Ejerlav, Skodborg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "738",
+        "ejerlavskode": 1440651,
+        "ejerlav": "Skodborg Ejerlav, Skodborg",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "738",
+           "ejerlavskode": 1440651,
+           "ejerlav": "Skodborg Ejerlav, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1838969
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         509076.959,
+         6141864.108
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.0,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8589197
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 148,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "einf2ymvnaksm"
+       },
+       "refs": {
+        "ejerlav": "einf2ymvnaksm"
+       },
+       "result": "Skodsbøl, Ådum",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skodsbøl, Ådum",
+        "ejerlavskode": 1200158
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         472878.857,
+         6191120.949
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2692,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1200158
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "hvoutfdpsq7yk"
+       },
+       "refs": {
+        "ejerlav": "hvoutfdpsq7yk"
+       },
+       "result": "Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skodsbøl, Broager",
+        "ejerlavskode": 1540158
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540951.375,
+         6083678.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1540158
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "pd7ruo7pyuacs"
+       },
+       "refs": {
+        "ejerlav": "pd7ruo7pyuacs"
+       },
+       "result": "Skodborghus Hgd., Vejen",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skodborghus Hgd., Vejen",
+        "ejerlavskode": 1280851
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         508279.115,
+         6145156.917
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2188,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1280851
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "6jzyswdzsd56q"
+       },
+       "refs": {
+        "ejerlav": "6jzyswdzsd56q"
+       },
+       "result": "Skodborg Ejerlav, Skodborg",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skodborg Ejerlav, Skodborg",
+        "ejerlavskode": 1440651
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         509777.844,
+         6142147.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2143,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1440651
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "w25l53ifsjb7e"
+       },
+       "refs": {
+        "ejerlav": "w25l53ifsjb7e"
+       },
+       "result": "Skudstrup, Skodborg",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skudstrup, Skodborg",
+        "ejerlavskode": 1440652
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         510467.13,
+         6144065.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2143,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1440652
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "2agaak3jzet7q"
+       },
+       "refs": {
+        "ejerlav": "2agaak3jzet7q"
+       },
+       "result": "Stadsborg, Koed",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Stadsborg, Koed",
+        "ejerlavskode": 930855
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592075.732,
+         6254997.949
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1852,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 930855
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "5frl7sitnstgu"
+       },
+       "refs": {
+        "ejerlav": "5frl7sitnstgu"
+       },
+       "result": "Glæsborg, Skjød",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Glæsborg, Skjød",
+        "ejerlavskode": 791153
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         557293.739,
+         6238987.237
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1724,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 791153
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "7kl3mbbe2cmna"
+       },
+       "refs": {
+        "ejerlav": "7kl3mbbe2cmna"
+       },
+       "result": "Skovhuse By, Ø. Egesborg",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skovhuse By, Ø. Egesborg",
+        "ejerlavskode": 261455
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         695055.563,
+         6099565.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1714,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 261455
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "ivluiywz35hsu"
+       },
+       "refs": {
+        "ejerlav": "ivluiywz35hsu"
+       },
+       "result": "Skalborg By, Skalborg",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skalborg By, Skalborg",
+        "ejerlavskode": 611652
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         553518.634,
+         6317695.817
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.16,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 611652
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "dtt5eiwzzwf5e"
+       },
+       "refs": {
+        "ejerlav": "dtt5eiwzzwf5e"
+       },
+       "result": "Vesterborg Skovhuse, Vesterborg",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Vesterborg Skovhuse, Vesterborg",
+        "ejerlavskode": 501654
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         649352.875,
+         6082281.451
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1563,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 501654
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 153,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "e3b35gin6kt46"
+       },
+       "refs": {
+        "stednavn": "e3b35gin6kt46"
+       },
+       "result": "Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsborg",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723858.896,
+         6191905.57
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "7484561"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "mzxzitjismblg"
+       },
+       "refs": {
+        "stednavn": "mzxzitjismblg"
+       },
+       "result": "Skodsborg Dam",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsborg Dam",
+        "type": "sø",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723374.191,
+         6191540.295
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4091,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1069615"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "g7cwn7ues2d7a"
+       },
+       "refs": {
+        "stednavn": "g7cwn7ues2d7a"
+       },
+       "result": "Skodsborg Eng",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsborg Eng",
+        "type": "naturareal",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723709.513,
+         6191735.69
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4091,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1146660"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "swnarffxruiuc"
+       },
+       "refs": {
+        "stednavn": "swnarffxruiuc"
+       },
+       "result": "Skodsborg Station",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsborg Station",
+        "type": "standsningssted",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723718.63,
+         6192176.8
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.36,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1055683"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "eth6gvgzyxiek"
+       },
+       "refs": {
+        "stednavn": "eth6gvgzyxiek"
+       },
+       "result": "Skodsbøl",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsbøl",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         473453.173,
+         6190323.69
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.35,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1128072"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "4wg7gqp6qs6so"
+       },
+       "refs": {
+        "stednavn": "4wg7gqp6qs6so"
+       },
+       "result": "Skodsbøl",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsbøl",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         542161.298,
+         6083709.475
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.35,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "7491937"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "bqigwrprgl7da"
+       },
+       "refs": {
+        "stednavn": "bqigwrprgl7da"
+       },
+       "result": "Kurhotel Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Kurhotel Skodsborg",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723869.849,
+         6191709.105
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1011673"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "xzvrtzat2ezuq"
+       },
+       "refs": {
+        "stednavn": "xzvrtzat2ezuq"
+       },
+       "result": "Skodsborg Strandpark",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsborg Strandpark",
+        "type": "naturareal"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723891.403,
+         6192768.59
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3214,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "7534645"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ozavfmzvt6s72"
+       },
+       "refs": {
+        "stednavn": "ozavfmzvt6s72"
+       },
+       "result": "Skodsbøl Skov",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsbøl Skov",
+        "type": "naturareal",
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540446.844,
+         6085008.61
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3182,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1062627"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "qae2ryek43c4u"
+       },
+       "refs": {
+        "stednavn": "qae2ryek43c4u"
+       },
+       "result": "Skodborg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodborg",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0665",
+          "kommune": "Lemvig"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         468159.129,
+         6263176.33
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1104551"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 172,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "4g2kaelduf6im"
+       },
+       "refs": {
+        "kommune": "4g2kaelduf6im"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0746",
+          "kommune": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         553205.992,
+         6215883.855
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.16,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0746"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "xfesabtvns5pw"
+       },
+       "refs": {
+        "kommune": "xfesabtvns5pw"
+       },
+       "result": "Silkeborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         537834.497,
+         6226474.69
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0740"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "c3h7fi7t6ikym"
+       },
+       "refs": {
+        "kommune": "c3h7fi7t6ikym"
+       },
+       "result": "Svendborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0479",
+          "kommune": "Svendborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         601749.963,
+         6109890.33
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0479"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "kfj25kgqxygpy"
+       },
+       "refs": {
+        "kommune": "kfj25kgqxygpy"
+       },
+       "result": "Fredensborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0210",
+          "kommune": "Fredensborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         714864.85,
+         6205788.28
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1154,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0210"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "shcdgza3xmtsy"
+       },
+       "refs": {
+        "kommune": "shcdgza3xmtsy"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         559691.612,
+         6091586.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1154,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0540"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 220,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "t45v3vyvyxd2w"
+       },
+       "refs": {
+        "sogn": "t45v3vyvyxd2w"
+       },
+       "result": "Skodborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8987",
+          "sogn": "Skodborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         511006.28,
+         6141153.815
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3,
+        "confidence": "B",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8987"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "ggr35vvjceadg"
+       },
+       "refs": {
+        "sogn": "ggr35vvjceadg"
+       },
+       "result": "Skalborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9076",
+          "sogn": "Skalborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         553577.855,
+         6318913.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9076"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "3pfxdej7asay2"
+       },
+       "refs": {
+        "sogn": "3pfxdej7asay2"
+       },
+       "result": "Skjoldborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8726",
+          "sogn": "Skjoldborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         476199.828,
+         6307319.955
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8726"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "3cwmsdmmrjrzm"
+       },
+       "refs": {
+        "sogn": "3cwmsdmmrjrzm"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0746",
+          "kommune": "Skanderborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9166",
+          "sogn": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         557405.578,
+         6211762.995
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.16,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9166"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "kdm2ettaph7h4"
+       },
+       "refs": {
+        "sogn": "kdm2ettaph7h4"
+       },
+       "result": "Skorup",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0710",
+          "kommune": "Favrskov"
+         },
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8025",
+          "sogn": "Skorup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         546171.211,
+         6237956.815
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8025"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "7clnaa2mzfmm2"
+       },
+       "refs": {
+        "sogn": "7clnaa2mzfmm2"
+       },
+       "result": "Skovby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7857",
+          "sogn": "Skovby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         568957.736,
+         6155387.6
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7857"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "dz5sx4ywoc5eq"
+       },
+       "refs": {
+        "sogn": "dz5sx4ywoc5eq"
+       },
+       "result": "Skovby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0746",
+          "kommune": "Skanderborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8078",
+          "sogn": "Skovby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         558982.073,
+         6224112.24
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8078"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "x6rcqwew7hsfk"
+       },
+       "refs": {
+        "sogn": "x6rcqwew7hsfk"
+       },
+       "result": "Skoven",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0250",
+          "kommune": "Frederikssund"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9242",
+          "sogn": "Skoven"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         685860.897,
+         6199060.1
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9242"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "khstwaj7mzgta"
+       },
+       "refs": {
+        "sogn": "khstwaj7mzgta"
+       },
+       "result": "Søborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0270",
+          "kommune": "Gribskov"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7430",
+          "sogn": "Søborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         707618.292,
+         6221227.875
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1364,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7430"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "y33ael3lqoa74"
+       },
+       "refs": {
+        "sogn": "y33ael3lqoa74"
+       },
+       "result": "Visborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0846",
+          "kommune": "Mariagerfjord"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8305",
+          "sogn": "Visborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         571875.2,
+         6288396.83
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1364,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8305"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 216,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 213,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": []
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 216,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborgvej 414",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 208,
+    "ok": true,
+    "response": {
+     "input": "skodsborgvej 414",
+     "matches": [
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "7j4l2hb2wgh3e"
+       },
+       "refs": {
+        "opstillingskreds": "7j4l2hb2wgh3e"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "70",
+          "opstillingskreds": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         555005.341,
+         6209540.65
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.16,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "70"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "tnvrfj5zuiomq"
+       },
+       "refs": {
+        "opstillingskreds": "tnvrfj5zuiomq"
+       },
+       "result": "Svendborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "47",
+          "opstillingskreds": "Svendborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         601745.325,
+         6109885.525
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "47"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "bfv63uxdgppja"
+       },
+       "refs": {
+        "opstillingskreds": "bfv63uxdgppja"
+       },
+       "result": "Fredensborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "22",
+          "opstillingskreds": "Fredensborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         715183.126,
+         6204324.255
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1154,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "22"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "c5w6hcgpve7fo"
+       },
+       "refs": {
+        "opstillingskreds": "c5w6hcgpve7fo"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "49",
+          "opstillingskreds": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         559691.612,
+         6091586.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1154,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "49"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "sbpqa52m4syxa"
+       },
+       "refs": {
+        "opstillingskreds": "sbpqa52m4syxa"
+       },
+       "result": "Silkeborg Syd",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "78",
+          "opstillingskreds": "Silkeborg Syd"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         532465.132,
+         6218039.28
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "78"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "ddnr6rivqk5g6"
+       },
+       "refs": {
+        "opstillingskreds": "ddnr6rivqk5g6"
+       },
+       "result": "Silkeborg Nord",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "77",
+          "opstillingskreds": "Silkeborg Nord"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         531008.598,
+         6233135.67
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1034,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "77"
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

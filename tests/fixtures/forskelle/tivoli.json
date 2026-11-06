@@ -1,0 +1,9036 @@
+{
+ "id": "tivoli",
+ "term": "tivoli",
+ "kommuner": "",
+ "sources": [
+  "tests/cases.yaml: ste-tivoli"
+ ],
+ "recorded_at": "2026-11-06T19:49:05+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 95,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "0a3f50b6-1335-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummer": "2",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 2, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590129.33014035,
+         6082745.66778602
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590113.02,
+         6082751.13
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50b6-1336-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummer": "3",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 3, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590024.14,
+         6082553.78
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590050.78010156,
+         6082543.51508703
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50b6-1337-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummer": "4",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 4, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590121.90280693,
+         6082724.3255808
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590101.46,
+         6082732.67
+        ]
+       ]
+      }
+     },
+     {
+      "id": "a06f5ebf-e771-42fc-856a-95de1956a77b",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummer": "4B",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 4B, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590111.98941192,
+         6082701.95911153
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590101.97,
+         6082706.66
+        ]
+       ]
+      }
+     },
+     {
+      "id": "4dc5b567-9e1b-4b18-a1fa-ebf595330427",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummer": "5",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 5, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590123.57,
+         6082728.41
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590122.13,
+         6082680.2
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50b6-1338-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummer": "6",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 6, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590092.34258625,
+         6082669.89338518
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590072.97,
+         6082683.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50b6-1339-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummer": "8",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 8, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590005.09182006,
+         6082509.50747181
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589986.6,
+         6082517.64
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50b6-133a-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummer": "10",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 10, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589982.73267858,
+         6082458.00661747
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589971.16,
+         6082462.98
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50b6-133b-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummer": "12",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 12, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589924.65135334,
+         6082344.72227012
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589908.77,
+         6082354.19
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50b6-133c-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummer": "14",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 14, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589909.1706301,
+         6082319.2207359
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589921.46,
+         6082311.84
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 107,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "0a3f508a-f228-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummertekst": "2",
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 2, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590129.33014035,
+         6082745.66778602
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590113.02,
+         6082751.13
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508a-f229-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummertekst": "3",
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 3, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590024.14,
+         6082553.78
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590050.78010156,
+         6082543.51508703
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508a-f22a-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummertekst": "4",
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 4, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590121.90280693,
+         6082724.3255808
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590101.46,
+         6082732.67
+        ]
+       ]
+      }
+     },
+     {
+      "id": "dd6ccfd4-0f72-4a08-bbbf-800ad5960bc9",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummertekst": "4B",
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 4B, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590111.98941192,
+         6082701.95911153
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590101.97,
+         6082706.66
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508a-ea1a-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummertekst": "5",
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 5, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590123.57,
+         6082728.41
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590122.13,
+         6082680.2
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508a-f22b-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummertekst": "6",
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 6, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590092.34258625,
+         6082669.89338518
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590072.97,
+         6082683.5
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508a-f22c-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummertekst": "8",
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 8, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         590005.09182006,
+         6082509.50747181
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589986.6,
+         6082517.64
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508a-f22d-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummertekst": "10",
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 10, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589982.73267858,
+         6082458.00661747
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589971.16,
+         6082462.98
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508a-f22e-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummertekst": "12",
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 12, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589924.65135334,
+         6082344.72227012
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589908.77,
+         6082354.19
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f508a-f22f-32b8-e044-0003ba298018",
+      "kommunenavn": "Ærø",
+      "kommunekode": "0492",
+      "vejkode": "0313",
+      "vejnavn": "Tivoli",
+      "husnummertekst": "14",
+      "supplerendebynavn": null,
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "visningstekst": "Tivoli 14, 5970 Ærøskøbing",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589909.1706301,
+         6082319.2207359
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         589921.46,
+         6082311.84
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 95,
+    "ok": true,
+    "row_count": 1,
+    "rows": [
+     {
+      "id": "05faa8ba-53ba-406a-9764-ca52057b8bae",
+      "vejnavn": "Tivoli",
+      "supplerendebynavn": null,
+      "visningstekst": "Tivoli (5970 Ærøskøbing)",
+      "postnummer": "5970",
+      "postnummernavn": "Ærøskøbing",
+      "kommunekode": "0492",
+      "geometri": {
+       "type": "MultiLineString",
+       "coordinates": [
+        [
+         [
+          590096.14,
+          6082675.3
+         ],
+         [
+          590091.09,
+          6082668.11
+         ],
+         [
+          590088.34,
+          6082664.24
+         ],
+         [
+          590087.51,
+          6082663.07
+         ],
+         [
+          590082.73,
+          6082656.61
+         ],
+         [
+          590077.98,
+          6082650.31
+         ],
+         [
+          590072.33,
+          6082642.64
+         ],
+         [
+          590067.76,
+          6082636.07
+         ],
+         [
+          590062.59,
+          6082628.57
+         ],
+         [
+          590058.55,
+          6082622.26
+         ],
+         [
+          590054.22,
+          6082615.44
+         ],
+         [
+          590050.91,
+          6082609.79
+         ],
+         [
+          590047.62,
+          6082603.87
+         ],
+         [
+          590043.11,
+          6082595.17
+         ],
+         [
+          590039.02,
+          6082586.85
+         ],
+         [
+          590035.02,
+          6082578.32
+         ],
+         [
+          590031.14,
+          6082569.92
+         ],
+         [
+          590027.35,
+          6082561
+         ],
+         [
+          590024.14,
+          6082553.78
+         ],
+         [
+          590020.54,
+          6082545.37
+         ],
+         [
+          590017.4,
+          6082538.41
+         ],
+         [
+          590013.37,
+          6082529.02
+         ],
+         [
+          590010.34,
+          6082521.75
+         ],
+         [
+          590007.05,
+          6082513.96
+         ],
+         [
+          590002.85,
+          6082504.41
+         ],
+         [
+          589998.8,
+          6082495.21
+         ],
+         [
+          589995.38,
+          6082487.1
+         ],
+         [
+          589990.84,
+          6082476.71
+         ],
+         [
+          589985.91,
+          6082465.4
+         ],
+         [
+          589981.75,
+          6082455.72
+         ],
+         [
+          589978.09,
+          6082447.2
+         ],
+         [
+          589974.26,
+          6082438.36
+         ],
+         [
+          589970.85,
+          6082430.86
+         ],
+         [
+          589967.08,
+          6082422.55
+         ],
+         [
+          589963.77,
+          6082415.29
+         ],
+         [
+          589959.83,
+          6082406.66
+         ],
+         [
+          589956.03,
+          6082398.86
+         ],
+         [
+          589951.33,
+          6082389.38
+         ],
+         [
+          589946.2,
+          6082380
+         ],
+         [
+          589942.01,
+          6082372.62
+         ],
+         [
+          589936.45,
+          6082363.55
+         ],
+         [
+          589932.42,
+          6082357.07
+         ],
+         [
+          589926.86,
+          6082348.41
+         ],
+         [
+          589924.96,
+          6082345.24
+         ]
+        ],
+        [
+         [
+          590554.29,
+          6082180.31
+         ],
+         [
+          590543.21,
+          6082178.49
+         ],
+         [
+          590538.22,
+          6082178.77
+         ],
+         [
+          590530.81,
+          6082179.72
+         ],
+         [
+          590521.67,
+          6082181.24
+         ],
+         [
+          590512.13,
+          6082183.45
+         ],
+         [
+          590501.85,
+          6082186.19
+         ],
+         [
+          590489.31,
+          6082189.53
+         ],
+         [
+          590477.82,
+          6082192.62
+         ],
+         [
+          590467.32,
+          6082195.6
+         ],
+         [
+          590455.1,
+          6082199.03
+         ],
+         [
+          590443.82,
+          6082202.14
+         ],
+         [
+          590433.85,
+          6082204.82
+         ],
+         [
+          590424.07,
+          6082207.56
+         ],
+         [
+          590415.17,
+          6082209.92
+         ],
+         [
+          590406.32,
+          6082212.29
+         ],
+         [
+          590397.58,
+          6082214.52
+         ],
+         [
+          590385.18,
+          6082217.75
+         ],
+         [
+          590371.43,
+          6082221.56
+         ],
+         [
+          590361.78,
+          6082224.08
+         ],
+         [
+          590351.16,
+          6082227.1
+         ],
+         [
+          590338.06,
+          6082230.73
+         ],
+         [
+          590326.47,
+          6082233.75
+         ],
+         [
+          590314.38,
+          6082237.35
+         ],
+         [
+          590299.84,
+          6082241.41
+         ],
+         [
+          590286.62,
+          6082245.23
+         ],
+         [
+          590273.06,
+          6082249.25
+         ],
+         [
+          590262.31,
+          6082252.61
+         ],
+         [
+          590249.86,
+          6082256.32
+         ],
+         [
+          590238.24,
+          6082259.42
+         ],
+         [
+          590227.68,
+          6082262.41
+         ],
+         [
+          590222.18,
+          6082263.91
+         ]
+        ],
+        [
+         [
+          590222.18,
+          6082263.91
+         ],
+         [
+          590217.05,
+          6082244.89
+         ],
+         [
+          590215.12,
+          6082233.18
+         ],
+         [
+          590214.9,
+          6082228.38
+         ],
+         [
+          590215.33,
+          6082225.52
+         ],
+         [
+          590216.24,
+          6082222.16
+         ],
+         [
+          590218.63,
+          6082217.58
+         ],
+         [
+          590221.4,
+          6082214.48
+         ],
+         [
+          590225.03,
+          6082212.21
+         ],
+         [
+          590227.74,
+          6082211.39
+         ],
+         [
+          590229.29,
+          6082211.39
+         ],
+         [
+          590231.64,
+          6082212.34
+         ],
+         [
+          590232.99,
+          6082213.72
+         ],
+         [
+          590234.17,
+          6082215.08
+         ],
+         [
+          590235.66,
+          6082218
+         ],
+         [
+          590238.09,
+          6082223.06
+         ],
+         [
+          590240.72,
+          6082231.27
+         ]
+        ],
+        [
+         [
+          590222.18,
+          6082263.91
+         ],
+         [
+          590215.94,
+          6082265.61
+         ],
+         [
+          590202.6,
+          6082268.97
+         ],
+         [
+          590188.97,
+          6082272.47
+         ],
+         [
+          590176.25,
+          6082275.78
+         ],
+         [
+          590163.88,
+          6082279.31
+         ],
+         [
+          590154.27,
+          6082282.02
+         ],
+         [
+          590143.32,
+          6082284.72
+         ],
+         [
+          590130.56,
+          6082288.12
+         ],
+         [
+          590117.28,
+          6082291.84
+         ],
+         [
+          590104.5,
+          6082295.38
+         ],
+         [
+          590090.81,
+          6082299.19
+         ],
+         [
+          590078.23,
+          6082302.62
+         ],
+         [
+          590068.68,
+          6082305.31
+         ],
+         [
+          590058.07,
+          6082308.31
+         ],
+         [
+          590047.05,
+          6082311.26
+         ],
+         [
+          590037.21,
+          6082313.83
+         ],
+         [
+          590027.04,
+          6082316.49
+         ],
+         [
+          590015.27,
+          6082319.67
+         ],
+         [
+          590002.31,
+          6082323.39
+         ],
+         [
+          589992.23,
+          6082325.84
+         ],
+         [
+          589984.06,
+          6082328.17
+         ],
+         [
+          589973.56,
+          6082330.96
+         ],
+         [
+          589962.92,
+          6082334.02
+         ],
+         [
+          589959.76,
+          6082334.99
+         ],
+         [
+          589948.62,
+          6082337.98
+         ],
+         [
+          589940.15,
+          6082340.58
+         ],
+         [
+          589932.16,
+          6082343.47
+         ],
+         [
+          589924.96,
+          6082345.24
+         ]
+        ],
+        [
+         [
+          589924.96,
+          6082345.24
+         ],
+         [
+          589920.93,
+          6082338.48
+         ],
+         [
+          589915.26,
+          6082329.21
+         ],
+         [
+          589911.05,
+          6082322.35
+         ],
+         [
+          589906.9,
+          6082315.44
+         ],
+         [
+          589901.98,
+          6082307.36
+         ],
+         [
+          589897.23,
+          6082299.39
+         ],
+         [
+          589891.72,
+          6082290.13
+         ],
+         [
+          589887.63,
+          6082282.83
+         ],
+         [
+          589883.89,
+          6082275.85
+         ],
+         [
+          589878.89,
+          6082266.27
+         ],
+         [
+          589874.43,
+          6082257.33
+         ],
+         [
+          589870.48,
+          6082248.94
+         ],
+         [
+          589866.26,
+          6082240.54
+         ],
+         [
+          589862.1,
+          6082231.87
+         ],
+         [
+          589859,
+          6082225.24
+         ],
+         [
+          589854.33,
+          6082215.52
+         ],
+         [
+          589849.76,
+          6082206.44
+         ],
+         [
+          589845.21,
+          6082196.91
+         ],
+         [
+          589840.15,
+          6082186.4
+         ],
+         [
+          589837.96,
+          6082182.23
+         ],
+         [
+          589835.53,
+          6082176.95
+         ],
+         [
+          589831.11,
+          6082167.9
+         ],
+         [
+          589826.17,
+          6082157.34
+         ],
+         [
+          589822.58,
+          6082149.63
+         ],
+         [
+          589818.2,
+          6082140.36
+         ],
+         [
+          589814.59,
+          6082132.32
+         ],
+         [
+          589811.4,
+          6082125.01
+         ],
+         [
+          589807.59,
+          6082115.97
+         ],
+         [
+          589803.61,
+          6082106.45
+         ],
+         [
+          589800.62,
+          6082099.19
+         ],
+         [
+          589796.64,
+          6082089.64
+         ],
+         [
+          589792.93,
+          6082080.84
+         ],
+         [
+          589789.12,
+          6082072.11
+         ],
+         [
+          589784.56,
+          6082061.14
+         ],
+         [
+          589780.61,
+          6082051.69
+         ],
+         [
+          589776.37,
+          6082041.62
+         ],
+         [
+          589772.52,
+          6082032.22
+         ],
+         [
+          589768.48,
+          6082022.74
+         ],
+         [
+          589764.26,
+          6082012.47
+         ],
+         [
+          589760.59,
+          6082003.78
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          589760.59,
+          6082003.78
+         ],
+         [
+          589760.59,
+          6082675.3
+         ],
+         [
+          590554.29,
+          6082675.3
+         ],
+         [
+          590554.29,
+          6082003.78
+         ],
+         [
+          589760.59,
+          6082003.78
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 102,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 107,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 102,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 108,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "12423f6c-6175-b1ea-e053-d480220a29f7",
+      "skrivemaade": "Tivoli",
+      "visningstekst": "Tivoli (Forlystelsespark i København V)",
+      "skrivemaade_officiel": "Tivoli",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "sevaerdighed",
+      "stednavn_subtype": "forlystelsespark",
+      "kommunekode": "0101",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           724232.66,
+           6175674.84
+          ],
+          [
+           724206.65,
+           6175656.28
+          ],
+          [
+           724196.67,
+           6175649.26
+          ],
+          [
+           724201.18,
+           6175642.86
+          ],
+          [
+           724196.26,
+           6175639.21
+          ],
+          [
+           724192.2,
+           6175636.35
+          ],
+          [
+           724189.06,
+           6175634.14
+          ],
+          [
+           724183.72,
+           6175629.65
+          ],
+          [
+           724178.79,
+           6175636.65
+          ],
+          [
+           724169.14,
+           6175629.85
+          ],
+          [
+           724150.39,
+           6175617.5
+          ],
+          [
+           724150.75,
+           6175616.9
+          ],
+          [
+           724158.88,
+           6175603.41
+          ],
+          [
+           724175.45,
+           6175578.77
+          ],
+          [
+           724179.95,
+           6175572.09
+          ],
+          [
+           724238.49,
+           6175485.07
+          ],
+          [
+           724243.03,
+           6175479.23
+          ],
+          [
+           724248.52,
+           6175472.15
+          ],
+          [
+           724285.41,
+           6175418.54
+          ],
+          [
+           724300.33,
+           6175398.71
+          ],
+          [
+           724304.88,
+           6175392.82
+          ],
+          [
+           724307.59,
+           6175387.6
+          ],
+          [
+           724312.29,
+           6175380.76
+          ],
+          [
+           724312.89,
+           6175378.15
+          ],
+          [
+           724321.3,
+           6175365.93
+          ],
+          [
+           724323.54,
+           6175361.9
+          ],
+          [
+           724339.09,
+           6175338.03
+          ],
+          [
+           724343.57,
+           6175331.21
+          ],
+          [
+           724350.56,
+           6175322.56
+          ],
+          [
+           724358.04,
+           6175327.56
+          ],
+          [
+           724363.53,
+           6175332.91
+          ],
+          [
+           724416.21,
+           6175370.08
+          ],
+          [
+           724414.82,
+           6175372.16
+          ],
+          [
+           724440.07,
+           6175389.05
+          ],
+          [
+           724443.52,
+           6175391.08
+          ],
+          [
+           724467.63,
+           6175408.61
+          ],
+          [
+           724476.46,
+           6175414.34
+          ],
+          [
+           724482.25,
+           6175418.83
+          ],
+          [
+           724486.5,
+           6175422.16
+          ],
+          [
+           724530.69,
+           6175454.11
+          ],
+          [
+           724539.9,
+           6175460.71
+          ],
+          [
+           724543.73,
+           6175465.97
+          ],
+          [
+           724546.77,
+           6175470.15
+          ],
+          [
+           724553.31,
+           6175479.1
+          ],
+          [
+           724563.26,
+           6175490.97
+          ],
+          [
+           724587.69,
+           6175520.11
+          ],
+          [
+           724586.63,
+           6175524.48
+          ],
+          [
+           724510.75,
+           6175582.58
+          ],
+          [
+           724448.44,
+           6175632.19
+          ],
+          [
+           724400.26,
+           6175672.41
+          ],
+          [
+           724396.88,
+           6175675.23
+          ],
+          [
+           724378.52,
+           6175690.8
+          ],
+          [
+           724320.86,
+           6175735.03
+          ],
+          [
+           724304.3,
+           6175723.37
+          ],
+          [
+           724297.58,
+           6175719.26
+          ],
+          [
+           724279.31,
+           6175706.39
+          ],
+          [
+           724273.99,
+           6175703.12
+          ],
+          [
+           724255.98,
+           6175690.71
+          ],
+          [
+           724250.02,
+           6175687.08
+          ],
+          [
+           724232.66,
+           6175674.84
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          724150.39,
+          6175322.56
+         ],
+         [
+          724150.39,
+          6175735.03
+         ],
+         [
+          724587.69,
+          6175735.03
+         ],
+         [
+          724587.69,
+          6175322.56
+         ],
+         [
+          724150.39,
+          6175322.56
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "12337669-ddaf-6b98-e053-d480220a5a3f",
+      "skrivemaade": "Tivoli",
+      "visningstekst": "Tivoli (By i Birkerød)",
+      "skrivemaade_officiel": "Tivoli",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "bebyggelse",
+      "stednavn_subtype": "by",
+      "kommunekode": "0190",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           711507.74,
+           6193955.84
+          ],
+          [
+           711529.67,
+           6193948.1
+          ],
+          [
+           711548.68,
+           6193972.23
+          ],
+          [
+           711561.74,
+           6193989.79
+          ],
+          [
+           711560.26,
+           6193990.6
+          ],
+          [
+           711555.64,
+           6193992.79
+          ],
+          [
+           711533.37,
+           6194005.94
+          ],
+          [
+           711531.93,
+           6194007.52
+          ],
+          [
+           711527.39,
+           6194009.35
+          ],
+          [
+           711522.46,
+           6194011.65
+          ],
+          [
+           711521.73,
+           6194012.69
+          ],
+          [
+           711513.1,
+           6194018.1
+          ],
+          [
+           711512.09,
+           6194018.19
+          ],
+          [
+           711507.9,
+           6194020.8
+          ],
+          [
+           711507.8,
+           6194021.63
+          ],
+          [
+           711504.79,
+           6194023.19
+          ],
+          [
+           711502.71,
+           6194023.71
+          ],
+          [
+           711501.15,
+           6194023.92
+          ],
+          [
+           711499.69,
+           6194023.81
+          ],
+          [
+           711495.12,
+           6194022.25
+          ],
+          [
+           711492.31,
+           6194020.7
+          ],
+          [
+           711488.05,
+           6194017.37
+          ],
+          [
+           711484,
+           6194013.73
+          ],
+          [
+           711479.62,
+           6194009.99
+          ],
+          [
+           711479.09,
+           6194009.7
+          ],
+          [
+           711478.48,
+           6194009.37
+          ],
+          [
+           711477.44,
+           6194009.16
+          ],
+          [
+           711475.88,
+           6194009.05
+          ],
+          [
+           711465.69,
+           6194009.26
+          ],
+          [
+           711452.7,
+           6194009.57
+          ],
+          [
+           711434.36,
+           6194009.78
+          ],
+          [
+           711426.67,
+           6194009.78
+          ],
+          [
+           711415.65,
+           6194009.26
+          ],
+          [
+           711398.08,
+           6194008.85
+          ],
+          [
+           711392.42,
+           6194008.63
+          ],
+          [
+           711396.17,
+           6194008.21
+          ],
+          [
+           711398.13,
+           6194007.64
+          ],
+          [
+           711399.31,
+           6194006.27
+          ],
+          [
+           711399.87,
+           6194005.26
+          ],
+          [
+           711399.07,
+           6194004.1
+          ],
+          [
+           711398.31,
+           6194002.69
+          ],
+          [
+           711398.13,
+           6194000.88
+          ],
+          [
+           711398.51,
+           6193999.3
+          ],
+          [
+           711399.8,
+           6193998.16
+          ],
+          [
+           711402.47,
+           6193997.95
+          ],
+          [
+           711405.27,
+           6193998.48
+          ],
+          [
+           711409.35,
+           6193998.03
+          ],
+          [
+           711411.88,
+           6193998.15
+          ],
+          [
+           711416.52,
+           6193999.5
+          ],
+          [
+           711418.58,
+           6193999.77
+          ],
+          [
+           711421.61,
+           6193999.48
+          ],
+          [
+           711423.5,
+           6193998.94
+          ],
+          [
+           711424.56,
+           6193998.15
+          ],
+          [
+           711425.23,
+           6193996.53
+          ],
+          [
+           711425.17,
+           6193994.82
+          ],
+          [
+           711424.6,
+           6193990.38
+          ],
+          [
+           711424.72,
+           6193988.12
+          ],
+          [
+           711424.34,
+           6193985.22
+          ],
+          [
+           711423.68,
+           6193982.74
+          ],
+          [
+           711422.69,
+           6193980.51
+          ],
+          [
+           711421.69,
+           6193978.91
+          ],
+          [
+           711420.11,
+           6193977.46
+          ],
+          [
+           711418.34,
+           6193976.54
+          ],
+          [
+           711415.31,
+           6193975.79
+          ],
+          [
+           711412.97,
+           6193975.58
+          ],
+          [
+           711411.12,
+           6193975.03
+          ],
+          [
+           711412.8,
+           6193969.56
+          ],
+          [
+           711415.22,
+           6193967.94
+          ],
+          [
+           711418.18,
+           6193968.48
+          ],
+          [
+           711428.68,
+           6193973.33
+          ],
+          [
+           711437.15,
+           6193976.56
+          ],
+          [
+           711439.98,
+           6193977.5
+          ],
+          [
+           711442.8,
+           6193977.77
+          ],
+          [
+           711451.96,
+           6193978.04
+          ],
+          [
+           711473.08,
+           6193978.71
+          ],
+          [
+           711477.25,
+           6193974.67
+          ],
+          [
+           711476.98,
+           6193968.75
+          ],
+          [
+           711478.73,
+           6193965.93
+          ],
+          [
+           711481.1,
+           6193965.14
+          ],
+          [
+           711499.97,
+           6193958.88
+          ],
+          [
+           711507.74,
+           6193955.84
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          711392.42,
+          6193948.1
+         ],
+         [
+          711392.42,
+          6194023.92
+         ],
+         [
+          711561.74,
+          6194023.92
+         ],
+         [
+          711561.74,
+          6193948.1
+         ],
+         [
+          711392.42,
+          6193948.1
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "5368def8-c85a-3830-e053-d380220aa205",
+      "skrivemaade": null,
+      "visningstekst": "Tivoli (Skov i Kjellerup)",
+      "skrivemaade_officiel": null,
+      "skrivemaade_uofficiel": "Tivoli",
+      "stednavn_type": "naturareal",
+      "stednavn_subtype": "skovPlantage",
+      "kommunekode": "0740",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           526918.7,
+           6238873.53
+          ],
+          [
+           526926.74,
+           6238808.44
+          ],
+          [
+           526926.7404,
+           6238808.3713
+          ],
+          [
+           526926.75,
+           6238806.49
+          ],
+          [
+           526927.06,
+           6238800.6
+          ],
+          [
+           526927.21,
+           6238791.52
+          ],
+          [
+           526926.96,
+           6238778.66
+          ],
+          [
+           526927.12,
+           6238775.07
+          ],
+          [
+           526927.43,
+           6238770.73
+          ],
+          [
+           526927.85,
+           6238763.4
+          ],
+          [
+           526928.15,
+           6238758.77
+          ],
+          [
+           526929.16,
+           6238753.68
+          ],
+          [
+           526930.62,
+           6238748.85
+          ],
+          [
+           526932.34,
+           6238745.33
+          ],
+          [
+           526933.72,
+           6238743.5
+          ],
+          [
+           526934.5,
+           6238741.29
+          ],
+          [
+           526935.18,
+           6238738.44
+          ],
+          [
+           526936.11,
+           6238736.14
+          ],
+          [
+           526936.89,
+           6238735.4
+          ],
+          [
+           526937.64,
+           6238734.93
+          ],
+          [
+           526938.34,
+           6238734.34
+          ],
+          [
+           526939.37,
+           6238733.06
+          ],
+          [
+           526940.11,
+           6238730.91
+          ],
+          [
+           526940.64,
+           6238728.63
+          ],
+          [
+           526941.68,
+           6238726.36
+          ],
+          [
+           526942.95,
+           6238725.04
+          ],
+          [
+           526944.83,
+           6238723.36
+          ],
+          [
+           526947.13,
+           6238721.54
+          ],
+          [
+           526948.2,
+           6238720.27
+          ],
+          [
+           526948.66,
+           6238718.76
+          ],
+          [
+           526948.15,
+           6238716.78
+          ],
+          [
+           526956.85,
+           6238707.43
+          ],
+          [
+           526957.92,
+           6238709.57
+          ],
+          [
+           526958.68,
+           6238710.75
+          ],
+          [
+           526959.45,
+           6238711.52
+          ],
+          [
+           526960.93,
+           6238711.81
+          ],
+          [
+           526962.25,
+           6238711.46
+          ],
+          [
+           526964.78,
+           6238710.6
+          ],
+          [
+           526966.14,
+           6238709.69
+          ],
+          [
+           526967.08,
+           6238708.45
+          ],
+          [
+           526967.88,
+           6238705.69
+          ],
+          [
+           526968.65,
+           6238703.63
+          ],
+          [
+           526969.19,
+           6238702.93
+          ],
+          [
+           526972.74,
+           6238701.19
+          ],
+          [
+           526976.49,
+           6238699.15
+          ],
+          [
+           526977.19,
+           6238699
+          ],
+          [
+           526978.12,
+           6238699.55
+          ],
+          [
+           526978.74,
+           6238700.13
+          ],
+          [
+           526979.0441,
+           6238700.0013
+          ],
+          [
+           526970.174,
+           6238715.413
+          ],
+          [
+           526980.141,
+           6238716.263
+          ],
+          [
+           526969.195,
+           6238739.066
+          ],
+          [
+           526970.232,
+           6238745.459
+          ],
+          [
+           526974.514,
+           6238772.011
+          ],
+          [
+           526980.11,
+           6238806.638
+          ],
+          [
+           526987.116,
+           6238851.526
+          ],
+          [
+           526987.0522,
+           6238853.7511
+          ],
+          [
+           526986.454,
+           6238874.63
+          ],
+          [
+           526925.523,
+           6238875.611
+          ],
+          [
+           526920.639,
+           6238875.689
+          ],
+          [
+           526920.9673,
+           6238877.508
+          ],
+          [
+           526919.85,
+           6238877.59
+          ],
+          [
+           526919.61,
+           6238876.75
+          ],
+          [
+           526919.52,
+           6238876.43
+          ],
+          [
+           526918.7,
+           6238873.53
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          526918.7,
+          6238699
+         ],
+         [
+          526918.7,
+          6238877.59
+         ],
+         [
+          526987.116,
+          6238877.59
+         ],
+         [
+          526987.116,
+          6238699
+         ],
+         [
+          526918.7,
+          6238699
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "19e4392f-8f38-5d41-e053-d380220a2006",
+      "skrivemaade": "Tivoli",
+      "visningstekst": "Tivoli (Hus i Askeby)",
+      "skrivemaade_officiel": "Tivoli",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "bygning",
+      "stednavn_subtype": "hus",
+      "kommunekode": "0390",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           705186.39,
+           6091954.66
+          ],
+          [
+           705185.81,
+           6091959.08
+          ],
+          [
+           705188.58,
+           6091959.44
+          ],
+          [
+           705187.94,
+           6091964.37
+          ],
+          [
+           705185.17,
+           6091964.01
+          ],
+          [
+           705178.48,
+           6091963.14
+          ],
+          [
+           705169.58,
+           6091961.97
+          ],
+          [
+           705166.68,
+           6091961.59
+          ],
+          [
+           705167.33,
+           6091956.6
+          ],
+          [
+           705170.23,
+           6091956.98
+          ],
+          [
+           705170.8,
+           6091952.63
+          ],
+          [
+           705186.39,
+           6091954.66
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          705166.68,
+          6091952.63
+         ],
+         [
+          705166.68,
+          6091964.37
+         ],
+         [
+          705188.58,
+          6091964.37
+         ],
+         [
+          705188.58,
+          6091952.63
+         ],
+         [
+          705166.68,
+          6091952.63
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "12337669-bf40-6b98-e053-d480220a5a3f",
+      "skrivemaade": "Tivoli",
+      "visningstekst": "Tivoli (By i Ærøskøbing)",
+      "skrivemaade_officiel": "Tivoli",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "bebyggelse",
+      "stednavn_subtype": "by",
+      "kommunekode": "0492",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           590004.77,
+           6082517.16
+          ],
+          [
+           590002.42,
+           6082518.23
+          ],
+          [
+           589967.62,
+           6082539.89
+          ],
+          [
+           589956.3,
+           6082547.06
+          ],
+          [
+           589953.85,
+           6082542.48
+          ],
+          [
+           589945.94,
+           6082526.02
+          ],
+          [
+           589938.6,
+           6082508.66
+          ],
+          [
+           589947.07,
+           6082503.23
+          ],
+          [
+           589936.8,
+           6082482.61
+          ],
+          [
+           589920.07,
+           6082448.14
+          ],
+          [
+           589937.77,
+           6082440.96
+          ],
+          [
+           589961.44,
+           6082431.78
+          ],
+          [
+           589952.01,
+           6082410.48
+          ],
+          [
+           589940.01,
+           6082384.91
+          ],
+          [
+           589930.65,
+           6082365.67
+          ],
+          [
+           589897.83,
+           6082383.01
+          ],
+          [
+           589872.99,
+           6082329.98
+          ],
+          [
+           589897.3,
+           6082320.5
+          ],
+          [
+           589904.08,
+           6082317.14
+          ],
+          [
+           589909.73,
+           6082313.73
+          ],
+          [
+           589904.81,
+           6082305.65
+          ],
+          [
+           589900.06,
+           6082297.7
+          ],
+          [
+           589894.58,
+           6082288.48
+          ],
+          [
+           589890.53,
+           6082281.24
+          ],
+          [
+           589886.81,
+           6082274.31
+          ],
+          [
+           589881.83,
+           6082264.78
+          ],
+          [
+           589885.64,
+           6082263.43
+          ],
+          [
+           589894.62,
+           6082260.08
+          ],
+          [
+           589954.07,
+           6082240.8
+          ],
+          [
+           589974.87,
+           6082311.02
+          ],
+          [
+           589978.78,
+           6082325.71
+          ],
+          [
+           589979.11,
+           6082327.8
+          ],
+          [
+           589982.55,
+           6082331.76
+          ],
+          [
+           589973.47,
+           6082334.33
+          ],
+          [
+           589941.22,
+           6082346.01
+          ],
+          [
+           589955.2,
+           6082381.33
+          ],
+          [
+           589974.09,
+           6082420.55
+          ],
+          [
+           589976.64,
+           6082427.21
+          ],
+          [
+           589992.57,
+           6082463.48
+          ],
+          [
+           590015.51,
+           6082513.7
+          ],
+          [
+           590048.36,
+           6082504.66
+          ],
+          [
+           590057.41,
+           6082525.21
+          ],
+          [
+           590075.53,
+           6082569.91
+          ],
+          [
+           590046.83,
+           6082585.09
+          ],
+          [
+           590042.84,
+           6082587
+          ],
+          [
+           590036.05,
+           6082588.28
+          ],
+          [
+           590032.03,
+           6082579.71
+          ],
+          [
+           590028.12,
+           6082571.25
+          ],
+          [
+           590024.33,
+           6082562.32
+          ],
+          [
+           590021.12,
+           6082555.1
+          ],
+          [
+           590017.52,
+           6082546.7
+          ],
+          [
+           590014.38,
+           6082539.73
+          ],
+          [
+           590010.33,
+           6082530.3
+          ],
+          [
+           590007.3,
+           6082523.03
+          ],
+          [
+           590004.77,
+           6082517.16
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          589872.99,
+          6082240.8
+         ],
+         [
+          589872.99,
+          6082588.28
+         ],
+         [
+          590075.53,
+          6082588.28
+         ],
+         [
+          590075.53,
+          6082240.8
+         ],
+         [
+          589872.99,
+          6082240.8
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "1d080552-40b8-c458-e053-d380220afabb",
+      "skrivemaade": "Haraldsted Lillesø",
+      "visningstekst": "Tivolisøen (Haraldsted Lillesø, Sø i Ringsted)",
+      "skrivemaade_officiel": "Haraldsted Lillesø",
+      "skrivemaade_uofficiel": "Tivolisøen",
+      "stednavn_type": "soe",
+      "stednavn_subtype": "sø",
+      "kommunekode": "0329",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           673290.87,
+           6152028.78
+          ],
+          [
+           673264.06,
+           6152038.79
+          ],
+          [
+           673231.72,
+           6152032.01
+          ],
+          [
+           673216.7,
+           6152018.96
+          ],
+          [
+           673212.34,
+           6152008.18
+          ],
+          [
+           673201.85,
+           6151999.17
+          ],
+          [
+           673184.9,
+           6151974.35
+          ],
+          [
+           673171.87,
+           6151946.49
+          ],
+          [
+           673162.61,
+           6151940.84
+          ],
+          [
+           673168.22,
+           6151931.36
+          ],
+          [
+           673163.66,
+           6151906.93
+          ],
+          [
+           673170.19,
+           6151879.67
+          ],
+          [
+           673163.45,
+           6151876.34
+          ],
+          [
+           673153.09,
+           6151855.53
+          ],
+          [
+           673147.13,
+           6151779.14
+          ],
+          [
+           673154.81,
+           6151744.19
+          ],
+          [
+           673160.02,
+           6151738.41
+          ],
+          [
+           673158.71,
+           6151723.97
+          ],
+          [
+           673167.27,
+           6151725.02
+          ],
+          [
+           673169.37,
+           6151719.88
+          ],
+          [
+           673166.26,
+           6151716.03
+          ],
+          [
+           673178.14,
+           6151699.63
+          ],
+          [
+           673229.9,
+           6151646.56
+          ],
+          [
+           673264.57,
+           6151627.18
+          ],
+          [
+           673294.98,
+           6151574.71
+          ],
+          [
+           673307.62,
+           6151565.02
+          ],
+          [
+           673341.1,
+           6151557.65
+          ],
+          [
+           673397.09,
+           6151553.35
+          ],
+          [
+           673415.26,
+           6151555.17
+          ],
+          [
+           673439.64,
+           6151563.56
+          ],
+          [
+           673469.89,
+           6151548.24
+          ],
+          [
+           673473.25,
+           6151543.33
+          ],
+          [
+           673466.67,
+           6151525.66
+          ],
+          [
+           673467.44,
+           6151514.13
+          ],
+          [
+           673486.01,
+           6151501.7
+          ],
+          [
+           673503.48,
+           6151472.92
+          ],
+          [
+           673560.42,
+           6151455.76
+          ],
+          [
+           673576.25,
+           6151455.34
+          ],
+          [
+           673597.76,
+           6151465.72
+          ],
+          [
+           673649.86,
+           6151476.05
+          ],
+          [
+           673673.03,
+           6151490.16
+          ],
+          [
+           673700.94,
+           6151514.4
+          ],
+          [
+           673713.56,
+           6151508.85
+          ],
+          [
+           673731.66,
+           6151532.32
+          ],
+          [
+           673730.58,
+           6151546.35
+          ],
+          [
+           673723,
+           6151557.16
+          ],
+          [
+           673719.89,
+           6151573.68
+          ],
+          [
+           673706.44,
+           6151581.68
+          ],
+          [
+           673700.82,
+           6151591.41
+          ],
+          [
+           673710.48,
+           6151608.54
+          ],
+          [
+           673710.01,
+           6151612.83
+          ],
+          [
+           673699.49,
+           6151621.22
+          ],
+          [
+           673699.98,
+           6151628.03
+          ],
+          [
+           673711.73,
+           6151640.54
+          ],
+          [
+           673709.15,
+           6151651.35
+          ],
+          [
+           673693.97,
+           6151665.44
+          ],
+          [
+           673694.57,
+           6151673.22
+          ],
+          [
+           673698.07,
+           6151677.52
+          ],
+          [
+           673710.21,
+           6151680.05
+          ],
+          [
+           673704.41,
+           6151695.3
+          ],
+          [
+           673712.45,
+           6151715.35
+          ],
+          [
+           673717.23,
+           6151718.51
+          ],
+          [
+           673700.69,
+           6151734.72
+          ],
+          [
+           673703.15,
+           6151755.46
+          ],
+          [
+           673706.89,
+           6151764.49
+          ],
+          [
+           673726.77,
+           6151779.4
+          ],
+          [
+           673748.15,
+           6151782.81
+          ],
+          [
+           673759.43,
+           6151790.9
+          ],
+          [
+           673764.7,
+           6151797.63
+          ],
+          [
+           673763.61,
+           6151817.24
+          ],
+          [
+           673767.38,
+           6151826.92
+          ],
+          [
+           673778.29,
+           6151836.39
+          ],
+          [
+           673782.69,
+           6151851.54
+          ],
+          [
+           673827.63,
+           6151870.2
+          ],
+          [
+           673840.74,
+           6151881.84
+          ],
+          [
+           673848.74,
+           6151882.61
+          ],
+          [
+           673853.94,
+           6151872.7
+          ],
+          [
+           673871.09,
+           6151873.66
+          ],
+          [
+           673872.22,
+           6151885.64
+          ],
+          [
+           673878.79,
+           6151894.26
+          ],
+          [
+           673867.84,
+           6151923.95
+          ],
+          [
+           673856.01,
+           6151934.83
+          ],
+          [
+           673834.09,
+           6151938.28
+          ],
+          [
+           673824.49,
+           6151948.25
+          ],
+          [
+           673813.7,
+           6151946.75
+          ],
+          [
+           673787.09,
+           6151959.59
+          ],
+          [
+           673756.62,
+           6151986.08
+          ],
+          [
+           673743.22,
+           6151991.89
+          ],
+          [
+           673740.99,
+           6151997.25
+          ],
+          [
+           673663.08,
+           6152027.53
+          ],
+          [
+           673640.44,
+           6152027.91
+          ],
+          [
+           673635.29,
+           6152032.52
+          ],
+          [
+           673633.64,
+           6152027.31
+          ],
+          [
+           673617.86,
+           6152030.07
+          ],
+          [
+           673594.74,
+           6152020.31
+          ],
+          [
+           673561.38,
+           6151991.53
+          ],
+          [
+           673543.21,
+           6151956.39
+          ],
+          [
+           673515.43,
+           6151948.85
+          ],
+          [
+           673488.57,
+           6151946.72
+          ],
+          [
+           673454.16,
+           6151953.92
+          ],
+          [
+           673412.6,
+           6151981.29
+          ],
+          [
+           673381.21,
+           6151984.43
+          ],
+          [
+           673363.46,
+           6151991.13
+          ],
+          [
+           673335.69,
+           6152003.54
+          ],
+          [
+           673330.26,
+           6152011.82
+          ],
+          [
+           673311.06,
+           6152015.28
+          ],
+          [
+           673307,
+           6152011.95
+          ],
+          [
+           673290.87,
+           6152028.78
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          673147.13,
+          6151455.34
+         ],
+         [
+          673147.13,
+          6152038.79
+         ],
+         [
+          673878.79,
+          6152038.79
+         ],
+         [
+          673878.79,
+          6151455.34
+         ],
+         [
+          673147.13,
+          6151455.34
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "3835abe2-6f1b-0e8c-e053-d480220a193c",
+      "skrivemaade": "Tivoli Søen",
+      "visningstekst": "Tivoli Søen (Sø i København V)",
+      "skrivemaade_officiel": "Tivoli Søen",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "soe",
+      "stednavn_subtype": "sø",
+      "kommunekode": "0101",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           724425.77,
+           6175604.46
+          ],
+          [
+           724423.24,
+           6175605.25
+          ],
+          [
+           724421.35,
+           6175606.38
+          ],
+          [
+           724419.22,
+           6175608.14
+          ],
+          [
+           724417.58,
+           6175609.8
+          ],
+          [
+           724415.4,
+           6175612.1
+          ],
+          [
+           724413.28,
+           6175615.52
+          ],
+          [
+           724411.84,
+           6175618.93
+          ],
+          [
+           724410.88,
+           6175622.82
+          ],
+          [
+           724410.81,
+           6175626.81
+          ],
+          [
+           724410.88,
+           6175632.21
+          ],
+          [
+           724410.36,
+           6175635.08
+          ],
+          [
+           724408.78,
+           6175638.83
+          ],
+          [
+           724406.89,
+           6175640.84
+          ],
+          [
+           724404.85,
+           6175641.82
+          ],
+          [
+           724402.62,
+           6175642.13
+          ],
+          [
+           724400.43,
+           6175641.8
+          ],
+          [
+           724398.77,
+           6175640.93
+          ],
+          [
+           724397.21,
+           6175639.58
+          ],
+          [
+           724396.08,
+           6175638.17
+          ],
+          [
+           724394.95,
+           6175636.28
+          ],
+          [
+           724394.41,
+           6175634.39
+          ],
+          [
+           724394.01,
+           6175632.44
+          ],
+          [
+           724393.61,
+           6175630.4
+          ],
+          [
+           724393.2,
+           6175627
+          ],
+          [
+           724393.14,
+           6175623.94
+          ],
+          [
+           724393.56,
+           6175621.16
+          ],
+          [
+           724393.45,
+           6175618.83
+          ],
+          [
+           724392.28,
+           6175617.08
+          ],
+          [
+           724390.57,
+           6175615.78
+          ],
+          [
+           724388.37,
+           6175614.96
+          ],
+          [
+           724387.25,
+           6175613.85
+          ],
+          [
+           724386.9,
+           6175612.73
+          ],
+          [
+           724386.26,
+           6175609.97
+          ],
+          [
+           724386.28,
+           6175606.12
+          ],
+          [
+           724387.04,
+           6175602.62
+          ],
+          [
+           724388.87,
+           6175598.13
+          ],
+          [
+           724391.76,
+           6175593.74
+          ],
+          [
+           724393.94,
+           6175590.67
+          ],
+          [
+           724394.95,
+           6175588.76
+          ],
+          [
+           724396.25,
+           6175586.18
+          ],
+          [
+           724397.06,
+           6175583.31
+          ],
+          [
+           724398.46,
+           6175580.62
+          ],
+          [
+           724399.33,
+           6175579.74
+          ],
+          [
+           724400.69,
+           6175579.15
+          ],
+          [
+           724403.41,
+           6175579.14
+          ],
+          [
+           724407.11,
+           6175579.12
+          ],
+          [
+           724409.63,
+           6175578.72
+          ],
+          [
+           724412.06,
+           6175577.44
+          ],
+          [
+           724413.46,
+           6175575.83
+          ],
+          [
+           724414.66,
+           6175573.15
+          ],
+          [
+           724417.88,
+           6175565.59
+          ],
+          [
+           724419.43,
+           6175563.54
+          ],
+          [
+           724422.14,
+           6175562.17
+          ],
+          [
+           724424.72,
+           6175561.33
+          ],
+          [
+           724427.97,
+           6175560.97
+          ],
+          [
+           724429.43,
+           6175560.28
+          ],
+          [
+           724431.27,
+           6175558.42
+          ],
+          [
+           724433.84,
+           6175556.71
+          ],
+          [
+           724435.93,
+           6175556.26
+          ],
+          [
+           724438.36,
+           6175556.34
+          ],
+          [
+           724444.54,
+           6175557.14
+          ],
+          [
+           724448.92,
+           6175557.41
+          ],
+          [
+           724452.13,
+           6175557.29
+          ],
+          [
+           724455.91,
+           6175556.4
+          ],
+          [
+           724458.53,
+           6175555.12
+          ],
+          [
+           724463.19,
+           6175551.98
+          ],
+          [
+           724467.4,
+           6175548.31
+          ],
+          [
+           724469.48,
+           6175545.43
+          ],
+          [
+           724470.05,
+           6175543.48
+          ],
+          [
+           724470.23,
+           6175540.95
+          ],
+          [
+           724469.83,
+           6175538.14
+          ],
+          [
+           724468.99,
+           6175536.05
+          ],
+          [
+           724466.97,
+           6175532.12
+          ],
+          [
+           724464.67,
+           6175528.19
+          ],
+          [
+           724463.38,
+           6175524.31
+          ],
+          [
+           724462.79,
+           6175522.46
+          ],
+          [
+           724463.12,
+           6175520.76
+          ],
+          [
+           724464.77,
+           6175519.88
+          ],
+          [
+           724467.15,
+           6175518.94
+          ],
+          [
+           724469.7,
+           6175514.11
+          ],
+          [
+           724470.17,
+           6175510.31
+          ],
+          [
+           724469.96,
+           6175507.2
+          ],
+          [
+           724469.41,
+           6175504.14
+          ],
+          [
+           724467.83,
+           6175499.87
+          ],
+          [
+           724466.64,
+           6175496.37
+          ],
+          [
+           724465.21,
+           6175492.25
+          ],
+          [
+           724464.81,
+           6175489.33
+          ],
+          [
+           724465.23,
+           6175486.56
+          ],
+          [
+           724467.16,
+           6175482.95
+          ],
+          [
+           724468.75,
+           6175481.04
+          ],
+          [
+           724470.35,
+           6175479.33
+          ],
+          [
+           724472.19,
+           6175478.45
+          ],
+          [
+           724474.47,
+           6175477.9
+          ],
+          [
+           724477.44,
+           6175478.23
+          ],
+          [
+           724480.12,
+           6175478.55
+          ],
+          [
+           724482.46,
+           6175479.71
+          ],
+          [
+           724482.9,
+           6175480.03
+          ],
+          [
+           724481.94,
+           6175481.71
+          ],
+          [
+           724483.03,
+           6175482.61
+          ],
+          [
+           724484.19,
+           6175483.92
+          ],
+          [
+           724485.04,
+           6175485.17
+          ],
+          [
+           724485.79,
+           6175486.55
+          ],
+          [
+           724486.38,
+           6175488.22
+          ],
+          [
+           724486.75,
+           6175489.83
+          ],
+          [
+           724489,
+           6175489.57
+          ],
+          [
+           724489.28,
+           6175490.81
+          ],
+          [
+           724491.03,
+           6175500.58
+          ],
+          [
+           724492.26,
+           6175512.53
+          ],
+          [
+           724493.08,
+           6175519.83
+          ],
+          [
+           724493.88,
+           6175525.46
+          ],
+          [
+           724494.83,
+           6175529.49
+          ],
+          [
+           724496.36,
+           6175534.01
+          ],
+          [
+           724498.91,
+           6175538.86
+          ],
+          [
+           724502.15,
+           6175542.93
+          ],
+          [
+           724505.37,
+           6175545.25
+          ],
+          [
+           724507.18,
+           6175548.01
+          ],
+          [
+           724508.51,
+           6175551.36
+          ],
+          [
+           724508.58,
+           6175554.91
+          ],
+          [
+           724507.72,
+           6175558.8
+          ],
+          [
+           724505.94,
+           6175562.46
+          ],
+          [
+           724503.43,
+           6175565.88
+          ],
+          [
+           724501.01,
+           6175568.42
+          ],
+          [
+           724498.3,
+           6175570.28
+          ],
+          [
+           724493.35,
+           6175572.64
+          ],
+          [
+           724490.05,
+           6175573.73
+          ],
+          [
+           724481.01,
+           6175575.82
+          ],
+          [
+           724478.45,
+           6175576.9
+          ],
+          [
+           724477.68,
+           6175575.34
+          ],
+          [
+           724474.99,
+           6175576.67
+          ],
+          [
+           724475.73,
+           6175578.17
+          ],
+          [
+           724474.22,
+           6175578.97
+          ],
+          [
+           724469.48,
+           6175574.18
+          ],
+          [
+           724462.17,
+           6175580.78
+          ],
+          [
+           724459.58,
+           6175578.6
+          ],
+          [
+           724453.39,
+           6175584.76
+          ],
+          [
+           724452.8,
+           6175584.18
+          ],
+          [
+           724448.93,
+           6175588.09
+          ],
+          [
+           724449.66,
+           6175588.63
+          ],
+          [
+           724443.95,
+           6175594.69
+          ],
+          [
+           724445.81,
+           6175596.14
+          ],
+          [
+           724444.6,
+           6175597.26
+          ],
+          [
+           724449.05,
+           6175601.86
+          ],
+          [
+           724450.16,
+           6175600.93
+          ],
+          [
+           724450.8,
+           6175601.46
+          ],
+          [
+           724452.93,
+           6175599.7
+          ],
+          [
+           724455.82,
+           6175602.75
+          ],
+          [
+           724455.14,
+           6175604.21
+          ],
+          [
+           724453.45,
+           6175606.02
+          ],
+          [
+           724450.59,
+           6175608.12
+          ],
+          [
+           724447.82,
+           6175609.35
+          ],
+          [
+           724444.91,
+           6175609.95
+          ],
+          [
+           724443.35,
+           6175609.86
+          ],
+          [
+           724442.43,
+           6175609.53
+          ],
+          [
+           724438.57,
+           6175606.97
+          ],
+          [
+           724435.79,
+           6175605.28
+          ],
+          [
+           724432.87,
+           6175604.33
+          ],
+          [
+           724429.32,
+           6175604
+          ],
+          [
+           724425.77,
+           6175604.46
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          724386.26,
+          6175477.9
+         ],
+         [
+          724386.26,
+          6175642.13
+         ],
+         [
+          724508.58,
+          6175642.13
+         ],
+         [
+          724508.58,
+          6175477.9
+         ],
+         [
+          724386.26,
+          6175477.9
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "19e4392f-decf-5d41-e053-d380220a2006",
+      "skrivemaade": "Tivoli Hotel",
+      "visningstekst": "Tivoli Hotel (Hotel i København V)",
+      "skrivemaade_officiel": "Tivoli Hotel",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "bygning",
+      "stednavn_subtype": "hotel",
+      "kommunekode": "0101",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           724203.69,
+           6174703.8745
+          ],
+          [
+           724213.2635,
+           6174692.8073
+          ],
+          [
+           724212.751,
+           6174692.3381
+          ],
+          [
+           724216.17,
+           6174688.37
+          ],
+          [
+           724216.1917,
+           6174688.3559
+          ],
+          [
+           724216.6501,
+           6174688.7195
+          ],
+          [
+           724218.39,
+           6174686.76
+          ],
+          [
+           724219.99,
+           6174688.15
+          ],
+          [
+           724224.55,
+           6174682.91
+          ],
+          [
+           724238.2605,
+           6174694.8404
+          ],
+          [
+           724262.33,
+           6174667.71
+          ],
+          [
+           724255.52,
+           6174661.67
+          ],
+          [
+           724256.82,
+           6174660.19
+          ],
+          [
+           724254.79,
+           6174658.39
+          ],
+          [
+           724259.49,
+           6174653.09
+          ],
+          [
+           724261.52,
+           6174654.9
+          ],
+          [
+           724266.25,
+           6174649.57
+          ],
+          [
+           724263.99,
+           6174647.56
+          ],
+          [
+           724267.33,
+           6174643.8
+          ],
+          [
+           724269.59,
+           6174645.8
+          ],
+          [
+           724270.56,
+           6174644.71
+          ],
+          [
+           724268.64,
+           6174643.01
+          ],
+          [
+           724273.19,
+           6174637.87
+          ],
+          [
+           724275.11,
+           6174639.58
+          ],
+          [
+           724276.44,
+           6174638.08
+          ],
+          [
+           724283.64,
+           6174644.47
+          ],
+          [
+           724283.29,
+           6174644.87
+          ],
+          [
+           724285.12,
+           6174646.5
+          ],
+          [
+           724285.47,
+           6174646.1
+          ],
+          [
+           724290.25,
+           6174650.33
+          ],
+          [
+           724289.89,
+           6174650.73
+          ],
+          [
+           724292.22,
+           6174652.8
+          ],
+          [
+           724291.21,
+           6174653.94
+          ],
+          [
+           724292.71,
+           6174655.27
+          ],
+          [
+           724290.34,
+           6174657.94
+          ],
+          [
+           724291.01,
+           6174658.54
+          ],
+          [
+           724292.81,
+           6174656.52
+          ],
+          [
+           724297.16,
+           6174660.38
+          ],
+          [
+           724296.85,
+           6174660.73
+          ],
+          [
+           724298.95,
+           6174662.59
+          ],
+          [
+           724299.26,
+           6174662.24
+          ],
+          [
+           724304.07,
+           6174666.51
+          ],
+          [
+           724303.77,
+           6174666.86
+          ],
+          [
+           724305.86,
+           6174668.72
+          ],
+          [
+           724306.17,
+           6174668.38
+          ],
+          [
+           724310.5,
+           6174672.22
+          ],
+          [
+           724312.73,
+           6174669.7
+          ],
+          [
+           724317.46,
+           6174673.9
+          ],
+          [
+           724317.15,
+           6174674.24
+          ],
+          [
+           724319.25,
+           6174676.1
+          ],
+          [
+           724319.56,
+           6174675.76
+          ],
+          [
+           724326.32,
+           6174681.76
+          ],
+          [
+           724325.94,
+           6174682.19
+          ],
+          [
+           724328.04,
+           6174684.05
+          ],
+          [
+           724328.42,
+           6174683.62
+          ],
+          [
+           724330.87,
+           6174685.8
+          ],
+          [
+           724330.49,
+           6174686.23
+          ],
+          [
+           724334.81,
+           6174690.06
+          ],
+          [
+           724335.19,
+           6174689.63
+          ],
+          [
+           724348.98,
+           6174701.86
+          ],
+          [
+           724348.02,
+           6174702.94
+          ],
+          [
+           724349.91,
+           6174704.63
+          ],
+          [
+           724347.53,
+           6174707.31
+          ],
+          [
+           724345.63,
+           6174705.63
+          ],
+          [
+           724341.53,
+           6174710.25
+          ],
+          [
+           724331.4262,
+           6174717.01
+          ],
+          [
+           724314.7332,
+           6174701.8073
+          ],
+          [
+           724254.58,
+           6174767.71
+          ],
+          [
+           724252.16,
+           6174765.6
+          ],
+          [
+           724252.96,
+           6174764.68
+          ],
+          [
+           724251.6,
+           6174763.5
+          ],
+          [
+           724250.78,
+           6174764.44
+          ],
+          [
+           724248.89,
+           6174762.79
+          ],
+          [
+           724248.57,
+           6174763.16
+          ],
+          [
+           724244.53,
+           6174759.65
+          ],
+          [
+           724244.9,
+           6174759.22
+          ],
+          [
+           724241.67,
+           6174756.4
+          ],
+          [
+           724241.29,
+           6174756.83
+          ],
+          [
+           724237.3,
+           6174753.36
+          ],
+          [
+           724237.78,
+           6174752.82
+          ],
+          [
+           724234.02,
+           6174749.55
+          ],
+          [
+           724238.58,
+           6174744.3
+          ],
+          [
+           724237.2,
+           6174743.1
+          ],
+          [
+           724236.76,
+           6174743.6
+          ],
+          [
+           724232.75,
+           6174740.11
+          ],
+          [
+           724233.28,
+           6174739.49
+          ],
+          [
+           724230.06,
+           6174736.69
+          ],
+          [
+           724229.58,
+           6174737.25
+          ],
+          [
+           724225.38,
+           6174733.6
+          ],
+          [
+           724225.88,
+           6174733.03
+          ],
+          [
+           724220.51,
+           6174728.35
+          ],
+          [
+           724225.18,
+           6174722.97
+          ],
+          [
+           724218.3,
+           6174716.98
+          ],
+          [
+           724217.95,
+           6174717.39
+          ],
+          [
+           724212.09,
+           6174712.3
+          ],
+          [
+           724212.64,
+           6174711.66
+          ],
+          [
+           724203.69,
+           6174703.8745
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          724203.69,
+          6174637.87
+         ],
+         [
+          724203.69,
+          6174767.71
+         ],
+         [
+          724349.91,
+          6174767.71
+         ],
+         [
+          724349.91,
+          6174637.87
+         ],
+         [
+          724203.69,
+          6174637.87
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "6968bc69-e908-db6c-e053-d480220a24ba",
+      "skrivemaade": "H.C. Andersen-slottet",
+      "visningstekst": "Tivolislottet (H.C. Andersen-slottet, Bygning i København V)",
+      "skrivemaade_officiel": "H.C. Andersen-slottet",
+      "skrivemaade_uofficiel": "Tivolislottet",
+      "stednavn_type": "bygning",
+      "stednavn_subtype": "andenBygning",
+      "kommunekode": "0101",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           724383.47,
+           6175686.16
+          ],
+          [
+           724383.88,
+           6175686.65
+          ],
+          [
+           724377.96,
+           6175691.37
+          ],
+          [
+           724377.33,
+           6175690.54
+          ],
+          [
+           724377.69,
+           6175690.24
+          ],
+          [
+           724374.02,
+           6175685.61
+          ],
+          [
+           724371.72,
+           6175682.71
+          ],
+          [
+           724368.32,
+           6175678.41
+          ],
+          [
+           724367.71,
+           6175678.93
+          ],
+          [
+           724363.21,
+           6175673.27
+          ],
+          [
+           724366.39,
+           6175670.64
+          ],
+          [
+           724335.3,
+           6175649.59
+          ],
+          [
+           724334.98,
+           6175650.37
+          ],
+          [
+           724333.27,
+           6175650.65
+          ],
+          [
+           724332.01,
+           6175649.82
+          ],
+          [
+           724331.65,
+           6175648.28
+          ],
+          [
+           724332.58,
+           6175646.97
+          ],
+          [
+           724334.23,
+           6175646.86
+          ],
+          [
+           724334.82,
+           6175647.24
+          ],
+          [
+           724343.14,
+           6175634.82
+          ],
+          [
+           724345.17,
+           6175636.15
+          ],
+          [
+           724349.48,
+           6175638.99
+          ],
+          [
+           724349.1,
+           6175639.72
+          ],
+          [
+           724377.74,
+           6175659.22
+          ],
+          [
+           724380.04,
+           6175657.34
+          ],
+          [
+           724381.66,
+           6175659.43
+          ],
+          [
+           724385.68,
+           6175656.26
+          ],
+          [
+           724389.36,
+           6175660.9
+          ],
+          [
+           724386.64,
+           6175663.03
+          ],
+          [
+           724396.45,
+           6175675.4
+          ],
+          [
+           724396.78,
+           6175675.17
+          ],
+          [
+           724397.33,
+           6175675.92
+          ],
+          [
+           724391.52,
+           6175680.55
+          ],
+          [
+           724391.07,
+           6175680.01
+          ],
+          [
+           724383.47,
+           6175686.16
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          724331.65,
+          6175634.82
+         ],
+         [
+          724331.65,
+          6175691.37
+         ],
+         [
+          724397.33,
+          6175691.37
+         ],
+         [
+          724397.33,
+          6175634.82
+         ],
+         [
+          724331.65,
+          6175634.82
+         ]
+        ]
+       ]
+      }
+     },
+     {
+      "id": "12423f6c-616e-b1ea-e053-d480220a29f7",
+      "skrivemaade": "Tivoli Friheden",
+      "visningstekst": "Tivoli Friheden (Forlystelsespark i Aarhus C)",
+      "skrivemaade_officiel": "Tivoli Friheden",
+      "skrivemaade_uofficiel": null,
+      "stednavn_type": "sevaerdighed",
+      "stednavn_subtype": "forlystelsespark",
+      "kommunekode": "0751",
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           574591.67,
+           6222040.23
+          ],
+          [
+           574566.76,
+           6222060.57
+          ],
+          [
+           574561.72,
+           6222056.48
+          ],
+          [
+           574558.07,
+           6222059.55
+          ],
+          [
+           574552.71,
+           6222050.12
+          ],
+          [
+           574527.16,
+           6222060.7
+          ],
+          [
+           574511.76,
+           6222042.86
+          ],
+          [
+           574489.35,
+           6222033.51
+          ],
+          [
+           574467.81,
+           6222037.13
+          ],
+          [
+           574451.71,
+           6222040.82
+          ],
+          [
+           574442.4,
+           6222042.06
+          ],
+          [
+           574427.03,
+           6222038.88
+          ],
+          [
+           574413.66,
+           6222033.86
+          ],
+          [
+           574397.84,
+           6222027.85
+          ],
+          [
+           574389.12,
+           6222025.62
+          ],
+          [
+           574380.2,
+           6222021.33
+          ],
+          [
+           574373.17,
+           6222015.85
+          ],
+          [
+           574365.91,
+           6222009.67
+          ],
+          [
+           574351.61,
+           6222003.48
+          ],
+          [
+           574337.69,
+           6222015.35
+          ],
+          [
+           574299.9,
+           6222002.08
+          ],
+          [
+           574303.62,
+           6221981.27
+          ],
+          [
+           574310.41,
+           6221936.17
+          ],
+          [
+           574328.77,
+           6221803.75
+          ],
+          [
+           574334.36,
+           6221806.37
+          ],
+          [
+           574349.69,
+           6221809.83
+          ],
+          [
+           574363.01,
+           6221803.32
+          ],
+          [
+           574375.13,
+           6221807.83
+          ],
+          [
+           574375.83,
+           6221813.03
+          ],
+          [
+           574377.61,
+           6221817.99
+          ],
+          [
+           574382.26,
+           6221822.63
+          ],
+          [
+           574382.01,
+           6221826.38
+          ],
+          [
+           574400.4,
+           6221825.05
+          ],
+          [
+           574408.01,
+           6221822.88
+          ],
+          [
+           574423.8,
+           6221818.37
+          ],
+          [
+           574433.65,
+           6221814.47
+          ],
+          [
+           574443.1,
+           6221817.67
+          ],
+          [
+           574477.55,
+           6221832.24
+          ],
+          [
+           574504.31,
+           6221849.1
+          ],
+          [
+           574523.83,
+           6221897.01
+          ],
+          [
+           574529.38,
+           6221903.13
+          ],
+          [
+           574549.1,
+           6221924.89
+          ],
+          [
+           574567.62,
+           6221935.27
+          ],
+          [
+           574581.58,
+           6221965.7
+          ],
+          [
+           574588.19,
+           6221975.88
+          ],
+          [
+           574594.86,
+           6221974.4
+          ],
+          [
+           574610.45,
+           6221990.32
+          ],
+          [
+           574624.43,
+           6222008.3
+          ],
+          [
+           574628.75,
+           6222025
+          ],
+          [
+           574631.19,
+           6222023.87
+          ],
+          [
+           574635.79,
+           6222022.54
+          ],
+          [
+           574628.1,
+           6222039.34
+          ],
+          [
+           574619.2,
+           6222045.53
+          ],
+          [
+           574611.44,
+           6222047.07
+          ],
+          [
+           574603.77,
+           6222046.88
+          ],
+          [
+           574597.61,
+           6222045.04
+          ],
+          [
+           574591.67,
+           6222040.23
+          ]
+         ]
+        ]
+       ]
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          574299.9,
+          6221803.32
+         ],
+         [
+          574299.9,
+          6222060.7
+         ],
+         [
+          574635.79,
+          6222060.7
+         ],
+         [
+          574635.79,
+          6221803.32
+         ],
+         [
+          574299.9,
+          6221803.32
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 84,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 81,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 73,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 75,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 80,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=tivoli&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 74,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "tivoli",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 241,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "g25rpqqplgqy6"
+       },
+       "refs": {
+        "street": "g25rpqqplgqy6"
+       },
+       "result": "Tivoli, 5970 Ærøskøbing",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tivoli",
+        "postcodes": [
+         {
+          "postcode": "5970",
+          "city": "Ærøskøbing"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0492",
+          "kommune": "Ærø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         590078.23,
+         6082302.62
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "05faa8ba-53ba-406a-9764-ca52057b8bae"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "lsinqjzurzzku"
+       },
+       "refs": {
+        "city": "lsinqjzurzzku"
+       },
+       "result": "Tim",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6980",
+          "city": "Tim"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         456832.086,
+         6228217.64
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2222,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "lsinqjzurzzku"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "pdsf26cqcrrim"
+       },
+       "refs": {
+        "street": "pdsf26cqcrrim"
+       },
+       "result": "Tivekrogen, 5863 Ferritslev Fyn",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tivekrogen",
+        "postcodes": [
+         {
+          "postcode": "5863",
+          "city": "Ferritslev Fyn"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         601984.25,
+         6129393.69
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "ee88791a-0374-4e9b-904d-251e48dc50ec"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "smbg6qlb26knm"
+       },
+       "refs": {
+        "city": "smbg6qlb26knm"
+       },
+       "result": "Tilst",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8381",
+          "city": "Tilst"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         568187.879,
+         6228176.225
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "smbg6qlb26knm"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "r5dri46c5yaki"
+       },
+       "refs": {
+        "city": "r5dri46c5yaki"
+       },
+       "result": "Tikøb",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "3080",
+          "city": "Tikøb"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         714407.492,
+         6214135.41
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "r5dri46c5yaki"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "f2gu3zp5l5r5a"
+       },
+       "refs": {
+        "street": "f2gu3zp5l5r5a"
+       },
+       "result": "Tinvej, 8940 Randers SV",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinvej",
+        "postcodes": [
+         {
+          "postcode": "8940",
+          "city": "Randers SV"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         564440.52,
+         6254399.72
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "13ee2a68-5980-4d75-8de6-e381db9cb9cc"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "6bbr47eshg4fu"
+       },
+       "refs": {
+        "street": "6bbr47eshg4fu"
+       },
+       "result": "Tinvej, 6900 Skjern",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinvej",
+        "postcodes": [
+         {
+          "postcode": "6900",
+          "city": "Skjern"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         469344.37,
+         6201598.04
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "2d0a1fc3-b5ac-4763-aafa-19192dabc28c"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "2uyqbivzvm74e"
+       },
+       "refs": {
+        "street": "2uyqbivzvm74e"
+       },
+       "result": "Tinvej, 9700 Brønderslev",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinvej",
+        "postcodes": [
+         {
+          "postcode": "9700",
+          "city": "Brønderslev"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         566899.9,
+         6344447.52
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "61abb131-196f-47f7-bf05-890b18c86c70"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "366wvx6zhvbwo"
+       },
+       "refs": {
+        "street": "366wvx6zhvbwo"
+       },
+       "result": "Tinvej, 4100 Ringsted",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinvej",
+        "postcodes": [
+         {
+          "postcode": "4100",
+          "city": "Ringsted"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0329",
+          "kommune": "Ringsted"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         677563.34,
+         6149656.01
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "a1d861e8-3f8a-4c81-8407-9438c7b3d0e0"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "4ovu6en347pte"
+       },
+       "refs": {
+        "street": "4ovu6en347pte"
+       },
+       "result": "Tinvej, 3060 Espergærde",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinvej",
+        "postcodes": [
+         {
+          "postcode": "3060",
+          "city": "Espergærde"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0217",
+          "kommune": "Helsingør"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720021.22,
+         6211067.34
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "f29d6eba-2cca-4c55-ac74-dd745598a354"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 202,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "g25rpqqplgqy6"
+       },
+       "refs": {
+        "street": "g25rpqqplgqy6"
+       },
+       "result": "Tivoli, 5970 Ærøskøbing",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tivoli",
+        "postcodes": [
+         {
+          "postcode": "5970",
+          "city": "Ærøskøbing"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0492",
+          "kommune": "Ærø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         590078.23,
+         6082302.62
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "05faa8ba-53ba-406a-9764-ca52057b8bae"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "pdsf26cqcrrim"
+       },
+       "refs": {
+        "street": "pdsf26cqcrrim"
+       },
+       "result": "Tivekrogen, 5863 Ferritslev Fyn",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tivekrogen",
+        "postcodes": [
+         {
+          "postcode": "5863",
+          "city": "Ferritslev Fyn"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0430",
+          "kommune": "Faaborg-Midtfyn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         601984.25,
+         6129393.69
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "ee88791a-0374-4e9b-904d-251e48dc50ec"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "f2gu3zp5l5r5a"
+       },
+       "refs": {
+        "street": "f2gu3zp5l5r5a"
+       },
+       "result": "Tinvej, 8940 Randers SV",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinvej",
+        "postcodes": [
+         {
+          "postcode": "8940",
+          "city": "Randers SV"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0730",
+          "kommune": "Randers"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         564440.52,
+         6254399.72
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "13ee2a68-5980-4d75-8de6-e381db9cb9cc"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "6bbr47eshg4fu"
+       },
+       "refs": {
+        "street": "6bbr47eshg4fu"
+       },
+       "result": "Tinvej, 6900 Skjern",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinvej",
+        "postcodes": [
+         {
+          "postcode": "6900",
+          "city": "Skjern"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         469344.37,
+         6201598.04
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "2d0a1fc3-b5ac-4763-aafa-19192dabc28c"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "2uyqbivzvm74e"
+       },
+       "refs": {
+        "street": "2uyqbivzvm74e"
+       },
+       "result": "Tinvej, 9700 Brønderslev",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinvej",
+        "postcodes": [
+         {
+          "postcode": "9700",
+          "city": "Brønderslev"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         566899.9,
+         6344447.52
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "61abb131-196f-47f7-bf05-890b18c86c70"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "366wvx6zhvbwo"
+       },
+       "refs": {
+        "street": "366wvx6zhvbwo"
+       },
+       "result": "Tinvej, 4100 Ringsted",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinvej",
+        "postcodes": [
+         {
+          "postcode": "4100",
+          "city": "Ringsted"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0329",
+          "kommune": "Ringsted"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         677563.34,
+         6149656.01
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "a1d861e8-3f8a-4c81-8407-9438c7b3d0e0"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "4ovu6en347pte"
+       },
+       "refs": {
+        "street": "4ovu6en347pte"
+       },
+       "result": "Tinvej, 3060 Espergærde",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinvej",
+        "postcodes": [
+         {
+          "postcode": "3060",
+          "city": "Espergærde"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0217",
+          "kommune": "Helsingør"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         720021.22,
+         6211067.34
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "f29d6eba-2cca-4c55-ac74-dd745598a354"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "doltyxjjdco74"
+       },
+       "refs": {
+        "street": "doltyxjjdco74"
+       },
+       "result": "Tippen",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tippen"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         472281.07,
+         6104490.15
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "1601abb1-4a13-4778-8d9c-203044dc3ff1"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "n7efivmogrrn4"
+       },
+       "refs": {
+        "street": "n7efivmogrrn4"
+       },
+       "result": "Tippen, 9493 Saltum",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tippen",
+        "postcodes": [
+         {
+          "postcode": "9493",
+          "city": "Saltum"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0849",
+          "kommune": "Jammerbugt"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         539311.0,
+         6349808.01
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "e1d02c9d-f117-48f0-a5b2-8e9160d9a5d4"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "bps5e3reltg5e"
+       },
+       "refs": {
+        "street": "bps5e3reltg5e"
+       },
+       "result": "Tinevej, 3060 Espergærde",
+       "lifecycle": "current",
+       "components": {
+        "street": "Tinevej",
+        "postcodes": [
+         {
+          "postcode": "3060",
+          "city": "Espergærde"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0217",
+          "kommune": "Helsingør"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         721092.97,
+         6212253.06
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "2cd9527d-96c0-460a-817e-fc09e86d6b95"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 201,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": [
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "mo3wufsjwb24y"
+       },
+       "refs": {
+        "postcode": "mo3wufsjwb24y"
+       },
+       "result": "Tim",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6980",
+          "city": "Tim"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         456832.086,
+         6228217.64
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2222,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "6980"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "npny7fqdq4nkm"
+       },
+       "refs": {
+        "postcode": "npny7fqdq4nkm"
+       },
+       "result": "Tilst",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8381",
+          "city": "Tilst"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         568187.879,
+         6228176.225
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8381"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "6d4hwvqpasbbw"
+       },
+       "refs": {
+        "postcode": "6d4hwvqpasbbw"
+       },
+       "result": "Tikøb",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "3080",
+          "city": "Tikøb"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0217",
+          "kommune": "Helsingør"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         714407.492,
+         6214135.41
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "3080"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "sfm5igutmq3wq"
+       },
+       "refs": {
+        "postcode": "sfm5igutmq3wq"
+       },
+       "result": "Tinglev",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6360",
+          "city": "Tinglev"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         513696.888,
+         6086328.205
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "6360"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "sjn3zq5g6yx5a"
+       },
+       "refs": {
+        "postcode": "sjn3zq5g6yx5a"
+       },
+       "result": "Tistrup",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6862",
+          "city": "Tistrup"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0573",
+          "kommune": "Varde"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         476073.422,
+         6174060.19
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "6862"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "ujszre4psyzqw"
+       },
+       "refs": {
+        "postcode": "ujszre4psyzqw"
+       },
+       "result": "Tisvildeleje",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "3220",
+          "city": "Tisvildeleje"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0270",
+          "kommune": "Gribskov"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         686255.346,
+         6221316.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "3220"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 232,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": [
+      {
+       "ref": {
+        "kind": "city",
+        "id": "lsinqjzurzzku"
+       },
+       "refs": {
+        "city": "lsinqjzurzzku"
+       },
+       "result": "Tim",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6980",
+          "city": "Tim"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         456832.086,
+         6228217.64
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2222,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "lsinqjzurzzku"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "smbg6qlb26knm"
+       },
+       "refs": {
+        "city": "smbg6qlb26knm"
+       },
+       "result": "Tilst",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8381",
+          "city": "Tilst"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         568187.879,
+         6228176.225
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "smbg6qlb26knm"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "r5dri46c5yaki"
+       },
+       "refs": {
+        "city": "r5dri46c5yaki"
+       },
+       "result": "Tikøb",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "3080",
+          "city": "Tikøb"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         714407.492,
+         6214135.41
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "r5dri46c5yaki"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "mlkn6bjq36mwi"
+       },
+       "refs": {
+        "city": "mlkn6bjq36mwi"
+       },
+       "result": "Tinglev",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6360",
+          "city": "Tinglev"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         513696.888,
+         6086328.205
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "mlkn6bjq36mwi"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "6pj5yovzbce76"
+       },
+       "refs": {
+        "city": "6pj5yovzbce76"
+       },
+       "result": "Tistrup",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6862",
+          "city": "Tistrup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         476073.422,
+         6174060.19
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "6pj5yovzbce76"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "mfomyon5ll3ei"
+       },
+       "refs": {
+        "city": "mfomyon5ll3ei"
+       },
+       "result": "Tisvildeleje",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "3220",
+          "city": "Tisvildeleje"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         686255.346,
+         6221316.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "mfomyon5ll3ei"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 1082,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "wkepfzuoywifa"
+       },
+       "refs": {
+        "ejendom": "wkepfzuoywifa"
+       },
+       "result": "1a, Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1a",
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596321
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         549022.181,
+         6349774.539
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3211830
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "iwoyjc6aay7xc"
+       },
+       "refs": {
+        "ejendom": "iwoyjc6aay7xc"
+       },
+       "result": "1b, Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1b",
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1b",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596330
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548950.323,
+         6349865.674
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3211831
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "pv4ttfalwjag6"
+       },
+       "refs": {
+        "ejendom": "pv4ttfalwjag6"
+       },
+       "result": "1e, Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1e",
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1e",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596332
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548906.662,
+         6349912.274
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3211834
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "pzeppagkreshi"
+       },
+       "refs": {
+        "ejendom": "pzeppagkreshi"
+       },
+       "result": "1f, Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1f",
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1f",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596335
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548882.385,
+         6349939.085
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3211835
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "a72vbyticow22"
+       },
+       "refs": {
+        "ejendom": "a72vbyticow22"
+       },
+       "result": "1g, Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1g",
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1g",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596338
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548854.981,
+         6349970.161
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3211836
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "47pt27jrzfwfi"
+       },
+       "refs": {
+        "ejendom": "47pt27jrzfwfi"
+       },
+       "result": "2, Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "2",
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "2",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596287
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         549267.832,
+         6351166.356
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3211837
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "abigpfi5tma4o"
+       },
+       "refs": {
+        "ejendom": "abigpfi5tma4o"
+       },
+       "result": "4a, Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "4a",
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4a",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596132
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548322.084,
+         6351017.579
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8839133
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ip6lsy2lpzubs"
+       },
+       "refs": {
+        "ejendom": "ip6lsy2lpzubs"
+       },
+       "result": "4c, Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4c",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596265
+           }
+          },
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 561251,
+           "ejerlav": "Filholm By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1595442
+           }
+          },
+          {
+           "matrikelnummer": "1c",
+           "ejerlavskode": 561251,
+           "ejerlav": "Filholm By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1941457
+           }
+          },
+          {
+           "matrikelnummer": "10e",
+           "ejerlavskode": 561251,
+           "ejerlav": "Filholm By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1643623
+           }
+          },
+          {
+           "matrikelnummer": "10g",
+           "ejerlavskode": 561251,
+           "ejerlav": "Filholm By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1643620
+           }
+          },
+          {
+           "matrikelnummer": "10h",
+           "ejerlavskode": 561251,
+           "ejerlav": "Filholm By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1643624
+           }
+          },
+          {
+           "matrikelnummer": "6i",
+           "ejerlavskode": 561254,
+           "ejerlav": "Manna By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1595749
+           }
+          },
+          {
+           "matrikelnummer": "6l",
+           "ejerlavskode": 561254,
+           "ejerlav": "Manna By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2534155
+           }
+          },
+          {
+           "matrikelnummer": "25b",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596236
+           }
+          },
+          {
+           "matrikelnummer": "34d",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596277
+           }
+          },
+          {
+           "matrikelnummer": "2c",
+           "ejerlavskode": 561358,
+           "ejerlav": "Tømmerby By, Tolstrup",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596882
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         551240.691,
+         6351097.895
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8839097
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "syfnbfu4s4o6q"
+       },
+       "refs": {
+        "ejendom": "syfnbfu4s4o6q"
+       },
+       "result": "4i, Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4i",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596178
+           }
+          },
+          {
+           "matrikelnummer": "22q",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596153
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         547821.338,
+         6349613.444
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 7771350
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "rb2sw4nbjxyas"
+       },
+       "refs": {
+        "ejendom": "rb2sw4nbjxyas"
+       },
+       "result": "4k, Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4k",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2575923
+           }
+          },
+          {
+           "matrikelnummer": "15g",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596138
+           }
+          },
+          {
+           "matrikelnummer": "15i",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100098538
+           }
+          },
+          {
+           "matrikelnummer": "16a",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596149
+           }
+          },
+          {
+           "matrikelnummer": "17b",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596181
+           }
+          },
+          {
+           "matrikelnummer": "26m",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2548018
+           }
+          },
+          {
+           "matrikelnummer": "27k",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596213
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         547058.987,
+         6351569.271
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100088569
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 429,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "xtrlfu5uawhiw"
+       },
+       "refs": {
+        "ejendom": "xtrlfu5uawhiw"
+       },
+       "result": "11c, Tise By, Tise",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "11c",
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "11c",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596090
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548403.0,
+         6350837.291
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3211902
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "n53hjnwl5huve"
+       },
+       "refs": {
+        "ejendom": "n53hjnwl5huve"
+       },
+       "result": "98, Tise By, Tise",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "98",
+        "ejerlavskode": 561256,
+        "ejerlav": "Tise By, Tise",
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "98",
+           "ejerlavskode": 561256,
+           "ejerlav": "Tise By, Tise",
+           "kommunekode": "0810",
+           "kommune": "Brønderslev",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1596289
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         549223.929,
+         6349657.526
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 3212228
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "amjs2icdtji2i"
+       },
+       "refs": {
+        "ejendom": "amjs2icdtji2i"
+       },
+       "result": "4hb, Tilst By, Tilst",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "4hb",
+        "ejerlavskode": 1020853,
+        "ejerlav": "Tilst By, Tilst",
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4hb",
+           "ejerlavskode": 1020853,
+           "ejerlav": "Tilst By, Tilst",
+           "kommunekode": "0751",
+           "kommune": "Aarhus",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 318201
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         569720.767,
+         6227263.79
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9735150
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "bk57wlq6peo26"
+       },
+       "refs": {
+        "ejendom": "bk57wlq6peo26"
+       },
+       "result": "6n, Tiset By, Tiset",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 1030856,
+        "ejerlav": "Tiset By, Tiset",
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "6n",
+           "ejerlavskode": 1030856,
+           "ejerlav": "Tiset By, Tiset",
+           "kommunekode": "0751",
+           "kommune": "Aarhus",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100865950
+           }
+          },
+          {
+           "matrikelnummer": "12a",
+           "ejerlavskode": 1030856,
+           "ejerlav": "Tiset By, Tiset",
+           "kommunekode": "0751",
+           "kommune": "Aarhus",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 380727
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         569207.206,
+         6213643.126
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9474465
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "bwrv6fh2fgeeq"
+       },
+       "refs": {
+        "ejendom": "bwrv6fh2fgeeq"
+       },
+       "result": "14n, Tiset By, Tiset",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "14n",
+        "ejerlavskode": 1030856,
+        "ejerlav": "Tiset By, Tiset",
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "14n",
+           "ejerlavskode": 1030856,
+           "ejerlav": "Tiset By, Tiset",
+           "kommunekode": "0751",
+           "kommune": "Aarhus",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 380739
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         568972.281,
+         6213662.811
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 4244795
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "dtnuuevz2xifm"
+       },
+       "refs": {
+        "ejendom": "dtnuuevz2xifm"
+       },
+       "result": "4an, Tikøb By, Tikøb",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "4an",
+        "ejerlavskode": 120677,
+        "ejerlav": "Tikøb By, Tikøb",
+        "kommuner": [
+         {
+          "kommunekode": "0217",
+          "kommune": "Helsingør"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "4an",
+           "ejerlavskode": 120677,
+           "ejerlav": "Tikøb By, Tikøb",
+           "kommunekode": "0217",
+           "kommune": "Helsingør",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 597684
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         715219.35,
+         6213726.176
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1333,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2352620
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "k22tr6kzjnv2c"
+       },
+       "refs": {
+        "ejendom": "k22tr6kzjnv2c"
+       },
+       "result": "30e, Tikøb By, Tikøb",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "30e",
+        "ejerlavskode": 120677,
+        "ejerlav": "Tikøb By, Tikøb",
+        "kommuner": [
+         {
+          "kommunekode": "0217",
+          "kommune": "Helsingør"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "30e",
+           "ejerlavskode": 120677,
+           "ejerlav": "Tikøb By, Tikøb",
+           "kommunekode": "0217",
+           "kommune": "Helsingør",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2516668
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         715142.833,
+         6213743.614
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1333,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2352855
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ezp2zsdzbzxby"
+       },
+       "refs": {
+        "ejendom": "ezp2zsdzbzxby"
+       },
+       "result": "2by, Tibirke By, Tibirke",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "2by",
+        "ejerlavskode": 111151,
+        "ejerlav": "Tibirke By, Tibirke",
+        "kommuner": [
+         {
+          "kommunekode": "0270",
+          "kommune": "Gribskov"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "2by",
+           "ejerlavskode": 111151,
+           "ejerlav": "Tibirke By, Tibirke",
+           "kommunekode": "0270",
+           "kommune": "Gribskov",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1199994
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         693527.852,
+         6215572.588
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 2329093
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 232,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "bya3i4qttsai6"
+       },
+       "refs": {
+        "ejerlav": "bya3i4qttsai6"
+       },
+       "result": "Tise By, Tise",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tise By, Tise",
+        "ejerlavskode": 561256
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         547373.031,
+         6349399.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 561256
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "np3uycd3nqjga"
+       },
+       "refs": {
+        "ejerlav": "np3uycd3nqjga"
+       },
+       "result": "Tilst By, Tilst",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tilst By, Tilst",
+        "ejerlavskode": 1020853
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         569974.063,
+         6227675.25
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1020853
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "i573rwk5nj4wo"
+       },
+       "refs": {
+        "ejerlav": "i573rwk5nj4wo"
+       },
+       "result": "Tiset By, Tiset",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tiset By, Tiset",
+        "ejerlavskode": 1030856
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         567496.742,
+         6213118.422
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1030856
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "64fj3h2pezyn2"
+       },
+       "refs": {
+        "ejerlav": "64fj3h2pezyn2"
+       },
+       "result": "Tikøb By, Tikøb",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tikøb By, Tikøb",
+        "ejerlavskode": 120677
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         715146.668,
+         6213712.992
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1333,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 120677
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "2xeqbozfgg3ba"
+       },
+       "refs": {
+        "ejerlav": "2xeqbozfgg3ba"
+       },
+       "result": "Tibirke By, Tibirke",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tibirke By, Tibirke",
+        "ejerlavskode": 111151
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         693386.75,
+         6215490.25
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 111151
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "uu35cxcedctqk"
+       },
+       "refs": {
+        "ejerlav": "uu35cxcedctqk"
+       },
+       "result": "Tilsted By, Tilsted",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tilsted By, Tilsted",
+        "ejerlavskode": 701152
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         478728.875,
+         6310981.75
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 701152
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "ogkmttw3nizai"
+       },
+       "refs": {
+        "ejerlav": "ogkmttw3nizai"
+       },
+       "result": "Tiset, Gram",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tiset, Gram",
+        "ejerlavskode": 1430154
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         500613.222,
+         6127002.384
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1430154
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "n6nencjtbkeqy"
+       },
+       "refs": {
+        "ejerlav": "n6nencjtbkeqy"
+       },
+       "result": "Tistrup By, Tistrup",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tistrup By, Tistrup",
+        "ejerlavskode": 1330560
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         475113.031,
+         6174101.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1330560
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "g2v2abz4xxpnc"
+       },
+       "refs": {
+        "ejerlav": "g2v2abz4xxpnc"
+       },
+       "result": "Tillitze By, Tillitze",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tillitze By, Tillitze",
+        "ejerlavskode": 501458
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         638915.98,
+         6070935.516
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1176,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 501458
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "wsm2qrlchp2r2"
+       },
+       "refs": {
+        "ejerlav": "wsm2qrlchp2r2"
+       },
+       "result": "Tingsted By, Tingsted",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Tingsted By, Tingsted",
+        "ejerlavskode": 511159
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         686949.904,
+         6077831.392
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1176,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 511159
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 200,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ky723kwoevsxi"
+       },
+       "refs": {
+        "stednavn": "ky723kwoevsxi"
+       },
+       "result": "Tivoli",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Tivoli",
+        "type": "naturareal",
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         526951.856,
+         6238785.09
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1046824"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "rwcjvlxyf4wz4"
+       },
+       "refs": {
+        "stednavn": "rwcjvlxyf4wz4"
+       },
+       "result": "Tivoli",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Tivoli",
+        "type": "seværdighed",
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724375.752,
+         6175548.285
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1061044"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "dftv5hti3pfxi"
+       },
+       "refs": {
+        "stednavn": "dftv5hti3pfxi"
+       },
+       "result": "Tivoli",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Tivoli",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0390",
+          "kommune": "Vordingborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         705176.546,
+         6091958.03
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1069164"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "jkpwjg7e3guc2"
+       },
+       "refs": {
+        "stednavn": "jkpwjg7e3guc2"
+       },
+       "result": "Tivoli",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Tivoli",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0190",
+          "kommune": "Furesø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         711491.975,
+         6193986.67
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "7413105"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ial6u7sa3625i"
+       },
+       "refs": {
+        "stednavn": "ial6u7sa3625i"
+       },
+       "result": "Tivoli",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Tivoli",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0492",
+          "kommune": "Ærø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         589962.952,
+         6082415.515
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "7503393"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "agkzxcnvbltv4"
+       },
+       "refs": {
+        "stednavn": "agkzxcnvbltv4"
+       },
+       "result": "Tivoli Hotel",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Tivoli Hotel",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724259.579,
+         6174702.4
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5385,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "7563250"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "hsp7aejcmws76"
+       },
+       "refs": {
+        "stednavn": "hsp7aejcmws76"
+       },
+       "result": "Tivoli Søen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Tivoli Søen",
+        "type": "sø",
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724468.761,
+         6175559.54
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5385,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1042413"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "omr4z2xjzrbgm"
+       },
+       "refs": {
+        "stednavn": "omr4z2xjzrbgm"
+       },
+       "result": "Tivolisøen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Tivolisøen",
+        "type": "sø",
+        "kommuner": [
+         {
+          "kommunekode": "0329",
+          "kommune": "Ringsted"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         673427.868,
+         6151747.255
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4615,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1050131"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "myqo3ehmu3wqi"
+       },
+       "refs": {
+        "stednavn": "myqo3ehmu3wqi"
+       },
+       "result": "Tivoli Friheden",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Tivoli Friheden",
+        "type": "seværdighed",
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         574434.807,
+         6221930.08
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4375,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1094617"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ne5znatb7bf64"
+       },
+       "refs": {
+        "stednavn": "ne5znatb7bf64"
+       },
+       "result": "Tivolislottet",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Tivolislottet",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724375.214,
+         6175666.835
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1133672"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 131,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": []
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": [
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "nuxy6rxrglebu"
+       },
+       "refs": {
+        "sogn": "nuxy6rxrglebu"
+       },
+       "result": "Tim",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0760",
+          "kommune": "Ringkøbing-Skjern"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8759",
+          "sogn": "Tim"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         456362.09,
+         6229473.87
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2222,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8759"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "rpygalheruew6"
+       },
+       "refs": {
+        "sogn": "rpygalheruew6"
+       },
+       "result": "Tise",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0810",
+          "kommune": "Brønderslev"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8411",
+          "sogn": "Tise"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         548975.789,
+         6347359.675
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8411"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "3dz7skaxxurl2"
+       },
+       "refs": {
+        "sogn": "3dz7skaxxurl2"
+       },
+       "result": "Tilst",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8130",
+          "sogn": "Tilst"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         568285.558,
+         6228886.525
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8130"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "tuztmz4u3yur4"
+       },
+       "refs": {
+        "sogn": "tuztmz4u3yur4"
+       },
+       "result": "Tiset",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8106",
+          "sogn": "Tiset"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         568877.457,
+         6213969.73
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1818,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8106"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "xgm4l445mvdes"
+       },
+       "refs": {
+        "sogn": "xgm4l445mvdes"
+       },
+       "result": "Tikøb",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0217",
+          "kommune": "Helsingør"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7440",
+          "sogn": "Tikøb"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         714631.25,
+         6213668.985
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7440"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "2ujdjkuj5e4la"
+       },
+       "refs": {
+        "sogn": "2ujdjkuj5e4la"
+       },
+       "result": "Tibirke",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0270",
+          "kommune": "Gribskov"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7394",
+          "sogn": "Tibirke"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         690888.017,
+         6213996.415
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7394"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "hhjdvf2lufev2"
+       },
+       "refs": {
+        "sogn": "hhjdvf2lufev2"
+       },
+       "result": "Tilsted",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8722",
+          "sogn": "Tilsted"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         478406.717,
+         6310863.335
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8722"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "lfvuu2opb66bw"
+       },
+       "refs": {
+        "sogn": "lfvuu2opb66bw"
+       },
+       "result": "Tinglev",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9061",
+          "sogn": "Tinglev"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         516738.649,
+         6084339.59
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9061"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "5oc5bl4ubacpk"
+       },
+       "refs": {
+        "sogn": "5oc5bl4ubacpk"
+       },
+       "result": "Tirsted",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0360",
+          "kommune": "Lolland"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7663",
+          "sogn": "Tirsted"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         649785.872,
+         6066065.495
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7663"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "rjanbliarpxdy"
+       },
+       "refs": {
+        "sogn": "rjanbliarpxdy"
+       },
+       "result": "Tistrup",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0573",
+          "kommune": "Varde"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8870",
+          "sogn": "Tistrup"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         476894.034,
+         6176810.235
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1538,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8870"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 137,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": []
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 136,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "tivoli",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 128,
+    "ok": true,
+    "response": {
+     "input": "tivoli",
+     "matches": []
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,929 @@
+{
+ "id": "6033528",
+ "term": "6033528",
+ "kommuner": "",
+ "sources": [
+  "tests/cases.yaml: mat-bfe-6033528"
+ ],
+ "recorded_at": "2026-11-06T19:50:02+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 185,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 183,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 84,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 184,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 184,
+    "ok": true,
+    "row_count": 1,
+    "rows": [
+     {
+      "ejerlavsnavn": "Vestervold Kvarter, København",
+      "ejerlavskode": 2000179,
+      "kommunenavn": "Københavns Kommune",
+      "kommunekode": "0101",
+      "matrikelnummer": "162",
+      "visningstekst": "162, Vestervold Kvarter, København",
+      "jordstykke_id": 10438851,
+      "bfenummer": 6033528,
+      "centroid_x": 724495.727,
+      "centroid_y": 6175696.138,
+      "geometri": {
+       "type": "MultiPolygon",
+       "coordinates": [
+        [
+         [
+          [
+           724374.754,
+           6175779.673
+          ],
+          [
+           724377.76,
+           6175754.815
+          ],
+          [
+           724411.296,
+           6175728.984
+          ],
+          [
+           724402.787,
+           6175718.25
+          ],
+          [
+           724501.168,
+           6175639.77
+          ],
+          [
+           724501.484,
+           6175640.152
+          ],
+          [
+           724506.161,
+           6175645.939
+          ],
+          [
+           724509.734,
+           6175650.342
+          ],
+          [
+           724510.014,
+           6175650.118
+          ],
+          [
+           724526.903,
+           6175636.696
+          ],
+          [
+           724571.137,
+           6175692.204
+          ],
+          [
+           724554.229,
+           6175705.597
+          ],
+          [
+           724495.958,
+           6175752.208
+          ],
+          [
+           724496.811,
+           6175753.32
+          ],
+          [
+           724488.662,
+           6175759.805
+          ],
+          [
+           724487.945,
+           6175758.846
+          ],
+          [
+           724454.79,
+           6175785.103
+          ],
+          [
+           724422.197,
+           6175810.581
+          ],
+          [
+           724397.007,
+           6175807.734
+          ],
+          [
+           724374.754,
+           6175779.673
+          ]
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 183,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 83,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 90,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 166,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 168,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 168,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 84,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=6033528&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 76,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "6033528",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 140,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 141,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 145,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "336vfydjxw4rc"
+       },
+       "refs": {
+        "ejendom": "336vfydjxw4rc"
+       },
+       "result": "162, Vestervold Kvarter, København",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "162",
+        "ejerlavskode": 2000179,
+        "ejerlav": "Vestervold Kvarter, København",
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "162",
+           "ejerlavskode": 2000179,
+           "ejerlav": "Vestervold Kvarter, København",
+           "kommunekode": "0101",
+           "kommune": "København",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 10438851
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         724495.727,
+         6175696.138
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 6033528
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 146,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 142,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 139,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "7d6be3inpd5o6"
+       },
+       "refs": {
+        "stednavn": "7d6be3inpd5o6"
+       },
+       "result": "60",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "60",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         522354.36,
+         6073467.84
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2222,
+        "confidence": "B",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1056038"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "6iimx6eadviaw"
+       },
+       "refs": {
+        "stednavn": "6iimx6eadviaw"
+       },
+       "result": "6",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "6",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         526851.51,
+         6076713.15
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1125690"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "najdfaoknik24"
+       },
+       "refs": {
+        "stednavn": "najdfaoknik24"
+       },
+       "result": "28",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "28",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         524462.78,
+         6076770.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1049491"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "gw7lqek7xtee6"
+       },
+       "refs": {
+        "stednavn": "gw7lqek7xtee6"
+       },
+       "result": "61",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "61",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         522266.93,
+         6073338.04
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1123714"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "j74uhoerywbzc"
+       },
+       "refs": {
+        "stednavn": "j74uhoerywbzc"
+       },
+       "result": "62",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "62",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         522060.88,
+         6073383.55
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1079141"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "6ejxcmianbstg"
+       },
+       "refs": {
+        "stednavn": "6ejxcmianbstg"
+       },
+       "result": "63",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "63",
+        "type": "topografi"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         522025.19,
+         6073193.36
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1075984"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "mk6q4ehk7z6gm"
+       },
+       "refs": {
+        "stednavn": "mk6q4ehk7z6gm"
+       },
+       "result": "64",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "64",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         521987.31,
+         6072993.13
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1107048"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "eo5qhp4ixbqee"
+       },
+       "refs": {
+        "stednavn": "eo5qhp4ixbqee"
+       },
+       "result": "65",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "65",
+        "type": "topografi"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         522196.27,
+         6072835.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1009863"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "dhejkzzc4tnnm"
+       },
+       "refs": {
+        "stednavn": "dhejkzzc4tnnm"
+       },
+       "result": "66",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "66",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         522190.29,
+         6072811.03
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1084641"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "7iwes2qpcxfdk"
+       },
+       "refs": {
+        "stednavn": "7iwes2qpcxfdk"
+       },
+       "result": "67",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "67",
+        "type": "topografi",
+        "kommuner": [
+         {
+          "kommunekode": "0580",
+          "kommune": "Aabenraa"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         522095.93,
+         6072617.61
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1089444"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 119,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 133,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 126,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 126,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 124,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "6033528",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 123,
+    "ok": true,
+    "response": {
+     "input": "6033528",
+     "matches": []
+    }
+   }
+  ]
+ }
+}
