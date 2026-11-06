@@ -9,7 +9,7 @@ qgisMinimumVersion=3.0
 qgisMaximumVersion=4.99
 supportsQt6=True
 description=Search and zoom to named places in Denmark
-about=Search box for Danish addresses, apartments, road names, place names, cadastral parcels and properties, postcodes, municipalities and more. Version 4.0 uses Klimadatastyrelsen's search service Bifrost, because GSearch closes in November 2026. Some things work differently and some no longer work, because Bifrost does not offer them: search on partial words (type whole words), a server-side municipality filter (the filter is now an opt-in local filter) and the place name subtype. Click the (i) button in the search panel to read what has changed and why (in Danish). This plugin is developed by Septima.
+about=Search box for Danish addresses, apartments, road names, place names, cadastral parcels and properties, postcodes, municipalities and more. Version 4.0 uses Klimadatastyrelsen's search service Bifrost, because GSearch closes in November 2026. Bifrost needs its own API key (enter it in the plugin settings); a Dataforsyningen token cannot be used. Some things work differently and some no longer work, because Bifrost does not offer them: search on partial words (type whole words), a server-side municipality filter (the filter is now an opt-in local filter) and the place name subtype. Click the (i) button in the search panel to read what has changed and why (in Danish). This plugin is developed by Septima.
 version=4.0.0
 author=Septima
 email=kontakt@septima.dk
@@ -21,6 +21,7 @@ email=kontakt@septima.dk
 # Uncomment the following line and add your changelog entries:
 changelog=2026-11-06 4.0.0 Switch from GSearch, which closes in November 2026, to Klimadatastyrelsen's Bifrost.
     New: apartments (floor/door).
+    Bifrost needs its own API key, entered in the plugin settings or the BIFROST_KEY environment variable; the stored Dataforsyningen token is removed.
     Changed: display texts are built by the plugin; cadastral numbers find the whole property (BFE); the geometry appears shortly after the zoom; the municipality filter is an opt-in local filter.
     No longer possible, because Bifrost does not offer it: search on partial words, a server-side municipality filter, the place name subtype.
     A "Hvad er nyt" dialog (the (i) button in the search panel) explains what has changed and why.

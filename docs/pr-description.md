@@ -18,6 +18,13 @@ Brugerne får forskellene at vide i en "Hvad er nyt"-dialog, som vises første
 gang pluginet starter efter opdateringen, og som altid kan åbnes med ⓘ-knappen i
 søgepanelet. Teksten er `src/geosearch_dk/help/hvad_er_nyt.html`.
 
+### Nøgle til Bifrost
+Bifrost kræver sin egen API-nøgle; et token til Dataforsyningen kan ikke
+bruges, så opdateringen fjerner et gemt token. Pluginet har endnu ingen
+indbygget nøgle (`DEFAULT_BIFROST_KEY` er tom), indtil Klimadatastyrelsen har
+svaret på, om pluginet må få en fælles nøgle. Indtil da indtaster brugerne
+selv en nøgle i indstillingerne eller i miljøvariablen `BIFROST_KEY`.
+
 ### Nyt
 - **Lejligheder:** Man kan nu finde adresser med etage og dør.
 

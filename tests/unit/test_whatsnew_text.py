@@ -1,5 +1,6 @@
 """The "Hvad er nyt" text (help/hvad_er_nyt.html) and the copies of its bullets."""
 
+import re
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -9,6 +10,7 @@ WHY = "Bifrost tilbyder det ikke – vi har bedt Klimadatastyrelsen om det"
 
 # Used by whatsnew.show_whats_new(parent, anchor=...), e.g. from the kommunefilter (#11).
 ANCHORS = [
+    "noegle",
     "nyt",
     "anderledes",
     "visningstekst",
@@ -70,3 +72,37 @@ def test_why_is_given_for_each_lost_feature_in_all_copies():
         assert text.count(WHY) == 3, path
         for phrase in ("rådhuspl", "Stednavnets undertype", "Kommunefilter i søgetjenesten"):
             assert phrase in text, (path, phrase)
+
+
+SETTINGS_PY = ROOT / "src" / "geosearch_dk" / "config" / "settings.py"
+NO_BUILT_IN_KEY = "Pluginet har endnu ingen indbygget nøgle"
+
+
+def _settings_constant(name):
+    # config/settings.py imports qgis, so read the constant from the source.
+    match = re.search(name + r'\s*=\s*\(?\s*"([^"]*)"', SETTINGS_PY.read_text(encoding="utf-8"))
+    assert match, name
+    return match.group(1)
+
+
+def test_key_text_matches_the_built_in_key():
+    """#5: the text says there is no built-in key while DEFAULT_BIFROST_KEY is empty."""
+    has_key = bool(_settings_constant("DEFAULT_BIFROST_KEY"))
+    for path in (HTML, ROOT / "README.md"):
+        text = _flat(path)
+        assert "token til Dataforsyningen kan ikke bruges" in text, path
+        assert (NO_BUILT_IN_KEY in text) is not has_key, (
+            f"{path}: update the key text, DEFAULT_BIFROST_KEY has changed"
+        )
+
+
+def test_key_help_link_matches_the_settings_page():
+    url = _settings_constant("BIFROST_KEY_HELP_URL")
+    assert url in _parse().hrefs
+    assert f"]({url})" in (ROOT / "README.md").read_text(encoding="utf-8")
+
+
+def test_readme_no_longer_describes_the_token():
+    text = _flat(ROOT / "README.md")
+    assert "dataforsyningen.dk/user#token" not in text
+    assert "fungerende token" not in text
