@@ -119,9 +119,6 @@ class SearchBox(QFrame, FORM_CLASS):
         # areafilter = ','.join(['muncode0'+str(k) for k in muncodes])
 
         self.config = {
-            #'token' : settings.value('token'),
-            #'resources': settings.resources,
-            #'resourcesfilter': ",".join(settings.selected_resources()),
             "maxresults": s.value(k + "/maxresults", 25, type=int),
             #'callback': str(s.value(k + "/callback", "callback", type=str)),
             #'areafilter': areafilter,

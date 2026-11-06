@@ -61,6 +61,10 @@ TYPES = (
     SearchType("reg", "Regioner", SEARCH, "region", kommune_filter=FILTER_PROJECT),
 )
 
+# The types 3.x offered are searched by default. A type added later (e.g. from
+# PROPOSED_TYPES) starts switched off, also for users upgrading from 3.x.
+DEFAULT_ON_KEYS = frozenset(("adr", "ste", "pos", "mat", "kom", "ops", "pol", "reg"))
+
 # Candidates from #6 (undecided). Not offered in the UI; kept here so that
 # deciding #6 is a data change. They go through exactly the same code paths.
 PROPOSED_TYPES = (

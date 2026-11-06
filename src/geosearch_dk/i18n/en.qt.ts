@@ -54,7 +54,7 @@
     </message>
     <message>
         <location filename="../config/settings.ui" line="165"/>
-        <source>Adresser (&apos;adr&apos;)</source>
+        <source>Husnumre (&apos;adr&apos;)</source>
         <translation>Addresses ('adr')</translation>
     </message>
     <message>
@@ -98,19 +98,39 @@
         <translation>Only search checked types</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="86"/>
-        <source>Token til Dataforsyningen</source>
-        <translation>Token to Dataforsyningen</translation>
+        <location filename="../config/settings.ui" line="88"/>
+        <source>Bifrost API-nøgle</source>
+        <translation>Bifrost API key</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="95"/>
-        <source>Indsæt token til Dataforsyningen</source>
-        <translation>Add token to Dataforsyningen</translation>
+        <location filename="../config/settings.ui" line="99"/>
+        <source>Tom: miljøvariablen BIFROST_KEY eller pluginets indbyggede nøgle</source>
+        <translation>Empty: the BIFROST_KEY environment variable or the plugin's built-in key</translation>
     </message>
     <message>
-        <location filename="../config/settings.ui" line="102"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://dataforsyningen.dk/user#token&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find dit token til Dataforsyningen eller opret nyt&lt;/span&gt;&lt;/a&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://dataforsyningen.dk/user#token&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find your token to Dataforsyningen or create a new one&lt;/span&gt;&lt;/a&gt;</translation>
+        <location filename="../config/settings.ui" line="106"/>
+        <source>Geosearch DK søger i Klimadatastyrelsens Bifrost. Lad feltet stå tomt for at bruge nøglen i miljøvariablen BIFROST_KEY eller, hvis den ikke er sat, pluginets indbyggede nøgle. Et token til Dataforsyningen kan ikke bruges med Bifrost.</source>
+        <translation>Geosearch DK searches Bifrost from the Danish Agency for Climate Data (Klimadatastyrelsen). Leave the field empty to use the key in the BIFROST_KEY environment variable or, if it is not set, the plugin's built-in key. A Dataforsyningen token cannot be used with Bifrost.</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="116"/>
+        <source>Sådan får du en API-nøgle til Bifrost</source>
+        <translation>How to get an API key for Bifrost</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="286"/>
+        <source>Avanceret</source>
+        <translation>Advanced</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="297"/>
+        <source>Bifrost URL:</source>
+        <translation>Bifrost URL:</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="312"/>
+        <source>Kun til test og udvikling, fx en testserver eller en mock-server. Lad feltet stå tomt for at bruge standardadressen.</source>
+        <translation>For testing and development only, e.g. a test server or a mock server. Leave the field empty to use the default address.</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="118"/>

@@ -91,8 +91,8 @@ QGIS version: ____   OS: ____   Plugin commit: ____
 - [ ] **Offline** (turn off Wi-Fi): searching gives a clear message, not a
       Python error. Searching works again when the network is back, without
       restarting QGIS.
-- [ ] **401** (invalid token, if the plugin uses one; set it in the settings,
-      or point the plugin at the mock server): a clear message that tells the
+- [ ] **401** (invalid Bifrost API key; set it under Bifrost API-nøgle in the
+      settings, or point Avanceret → Bifrost URL at the mock server): a clear message that tells the
       user what to do.
 - [ ] **503** (service unavailable, e.g. with the mock server): a clear
       message, and the plugin keeps working afterwards.

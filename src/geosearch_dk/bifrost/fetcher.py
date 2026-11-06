@@ -13,12 +13,7 @@ from qgis.PyQt.QtCore import QObject, pyqtSignal
 
 from .client import BifrostClient
 from .core import collect_rows, geometry_from_response, geometry_request, plan_search
-from .transport import (
-    DEFAULT_BASE_URL,
-    GEOMETRY_TIMEOUT_MS,
-    SEARCH_TIMEOUT_MS,
-    resolve_key,
-)
+from .transport import GEOMETRY_TIMEOUT_MS, SEARCH_TIMEOUT_MS
 
 GEOMETRY_CACHE_SIZE = 50
 LOG_TAG = "Geosearch DK"
@@ -39,7 +34,7 @@ class BifrostFetcher(QObject):
     Signals:
       ``finished``        a search completed; read the rows with ``get_result()``
       ``not_authorized``  Bifrost rejected the key (401/403)
-      ``missing_key``     no key in the settings or ``BIFROST_KEY``; nothing sent
+      ``missing_key``     no key in the settings, ``BIFROST_KEY`` or the plugin; nothing sent
 
     Only the newest search is reported: an older one still in flight is
     aborted when a new one starts, and its reply is ignored.
@@ -65,13 +60,13 @@ class BifrostFetcher(QObject):
     # --- settings ---------------------------------------------------------
 
     def base_url(self):
-        return self.settings.value("bifrost_url") or DEFAULT_BASE_URL
+        return self.settings.bifrost_url()
 
     def key(self):
-        return resolve_key(self.settings.value("bifrost_key"))
+        return self.settings.bifrost_key()
 
     def selected_keys(self):
-        return tuple(self.settings.selected_resources().keys())
+        return self.settings.selected_type_keys()
 
     # --- search -----------------------------------------------------------
 

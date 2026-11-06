@@ -21,11 +21,37 @@ author               : asger@septima.dk
 import os
 
 from qgis.PyQt import QtCore
+from qgis.PyQt.QtCore import QSettings
 
+from ..bifrost import settings_model as model
+from ..bifrost.transport import DEFAULT_BASE_URL
+from ..bifrost.types import TYPES
 from .qgissettingmanager import *
 
-DEFAULT_DATAFORSYNING_TOKEN = "0350b5341749c0970454474881173412"
-DEFAULT_BIFROST_URL = "https://bifrost.test42.dataforsyningen.dk"
+# Bundled Bifrost key: used when neither the setting nor the BIFROST_KEY
+# environment variable gives a key. Empty until Klimadatastyrelsen has said
+# whether the plugin may ship a shared key (#5).
+DEFAULT_BIFROST_KEY = ""
+# Used when the "Bifrost URL" setting is empty. Pending the production URL (#5).
+DEFAULT_BIFROST_URL = DEFAULT_BASE_URL
+# How to get a key. Pending #5; until then the Bifrost docs.
+BIFROST_KEY_HELP_URL = (
+    "https://bifrost.test42.dataforsyningen.dk/docs/da/#authentication"
+)
+
+
+class _QSettingsStore:
+    """``contains``/``remove`` on QSettings, for ``settings_model.migrate``."""
+
+    def __init__(self, qsettings, prefix=""):
+        self.qsettings = qsettings
+        self.prefix = prefix
+
+    def contains(self, name):
+        return self.qsettings.contains(self.prefix + name)
+
+    def remove(self, name):
+        self.qsettings.remove(self.prefix + name)
 
 
 class Settings(SettingManager):
@@ -33,48 +59,43 @@ class Settings(SettingManager):
 
     def __init__(self):
         SettingManager.__init__(self, "Geosearch DK")
-        # self.baseurl = "https://api.dataforsyningen.dk/rest/gsearch/v1.0/{resource}?token={token}&q={query}&limit={limit}"
-        self.baseurl = "https://api.dataforsyningen.dk/rest/gsearch/v2.0/{resource}?token={token}&q={query}&limit={limit}"
 
-        # The order here is the order results are displayed in
-        self.resources = {
-            "adr": {"id": "husnummer", "titel": "Husnumre"},
-            "ste": {"id": "stednavn", "titel": "Stednavne"},
-            "pos": {"id": "postnummer", "titel": "Postdistrikter"},
-            "mat": {"id": "matrikel", "titel": "Matrikelnumre"},
-            "kom": {"id": "kommune", "titel": "Kommuner"},
-            "ops": {"id": "opstillingskreds", "titel": "Opstillingskredse"},
-            "pol": {"id": "politikreds", "titel": "Politikredse"},
-            "reg": {"id": "region", "titel": "Regioner"},
-        }
-
-        self.add_setting(
-            String("token", Scope.Global, DEFAULT_DATAFORSYNING_TOKEN)
-        )
         self.add_setting(String("kommunefilter", Scope.Global, ""))
-        self.add_setting(String("bifrost_url", Scope.Global, DEFAULT_BIFROST_URL))
-        # Empty: use the BIFROST_KEY environment variable.
-        self.add_setting(String("bifrost_key", Scope.Global, ""))
+        # Empty: DEFAULT_BIFROST_URL. The default is not stored, so a new
+        # default (#5) reaches everyone who has not set a URL.
+        self.add_setting(String(model.URL_SETTING, Scope.Global, ""))
+        # Empty: the BIFROST_KEY environment variable, else DEFAULT_BIFROST_KEY.
+        self.add_setting(String(model.KEY_SETTING, Scope.Global, ""))
+
+        # The order of TYPES is the order results are displayed in
+        for t in TYPES:
+            self.add_setting(
+                Bool(
+                    model.type_setting(t.key),
+                    Scope.Global,
+                    model.type_default(t.key),
+                )
+            )
 
         self._migratesettings()
 
-        for k, dict in self.resources.items():
-            self.add_setting(Bool(f"search_{k}", Scope.Global, True))
+    def bifrost_url(self):
+        return model.base_url(self.value(model.URL_SETTING))
 
-    def selected_resources(self):
-        selected_resources = {}
-        for key, dict in self.resources.items():
-            if self.value(f"search_{key}"):
-                selected_resources[key] = self.resources[key]
-        return selected_resources
+    def bifrost_key(self, environ=None):
+        return model.api_key(
+            self.value(model.KEY_SETTING), DEFAULT_BIFROST_KEY, environ
+        )
+
+    def selected_type_keys(self):
+        return model.selected_type_keys(self.value)
 
     def emit_updated(self):
         self.settings_updated.emit()
 
     def _migratesettings(self):
-        # Migrerer existerende settings
-
-        # Gammelt, nu nedlagt dataforsyningstoken erstattes. Brugerens evt eget token skal ikke røres.
-        old_default_token = "787484d3a8dfee7562ffd6eff1d6e0ee"
-        if self.value("token") == old_default_token:
-            self.set_value("token", DEFAULT_DATAFORSYNING_TOKEN)
+        """Migrate settings from 3.x, see ``settings_model.migrate``."""
+        # Where qgissettingmanager stores global settings, and where its
+        # older versions did.
+        model.migrate(_QSettingsStore(QSettings(), f"plugins/{self.plugin_name}/"))
+        model.migrate(_QSettingsStore(QSettings(self.plugin_name, self.plugin_name)))

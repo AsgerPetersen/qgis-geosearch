@@ -9,6 +9,8 @@ def test_resolve_key_prefers_setting_then_env():
     assert t.resolve_key(" abc ", {"BIFROST_KEY": "env"}) == "abc"
     assert t.resolve_key("", {"BIFROST_KEY": " env "}) == "env"
     assert t.resolve_key(None, {}) == ""
+    assert t.resolve_key("", {}, default=" bundled ") == "bundled"
+    assert t.resolve_key("", {"BIFROST_KEY": "env"}, default="bundled") == "env"
 
 
 def test_endpoint_url():
