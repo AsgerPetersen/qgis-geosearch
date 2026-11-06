@@ -1,0 +1,83 @@
+{
+ "case_id": "pos-aabenraa-aa",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "pos: åbenrå",
+ "term": "åbenrå",
+ "keys": [
+  "pos"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "pos",
+   "resource": "postnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=%C3%A5benr%C3%A5&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 66,
+   "row_count": 1,
+   "rows": [
+    {
+     "postnummer": "6200",
+     "postnummernavn": "Aabenraa",
+     "visningstekst": "6200 Aabenraa",
+     "gadepostnummer": false,
+     "kommunekode": "0580,0540",
+     "geometri": {
+      "type": "MultiPolygon",
+      "summarized": true,
+      "vertex_count": 260,
+      "bbox": [
+       517548.09,
+       6084614.77,
+       540317.95,
+       6108191.86
+      ],
+      "part_count": 1,
+      "area_m2": 262373818
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         517548.09,
+         6084614.77
+        ],
+        [
+         517548.09,
+         6108191.86
+        ],
+        [
+         540317.95,
+         6108191.86
+        ],
+        [
+         540317.95,
+         6084614.77
+        ],
+        [
+         517548.09,
+         6084614.77
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "pos",
+   "text": "6200 Aabenraa",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 1
+  }
+ ]
+}

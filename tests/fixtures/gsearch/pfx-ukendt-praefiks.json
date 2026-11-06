@@ -1,0 +1,161 @@
+{
+ "case_id": "pfx-ukendt-praefiks",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "udg: 1an gentofte",
+ "term": "udg: 1an gentofte",
+ "keys": [
+  "adr",
+  "ste",
+  "pos",
+  "mat",
+  "kom",
+  "ops",
+  "pol",
+  "reg"
+ ],
+ "limit": 5,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=udg:%201an%20gentofte&limit=5",
+   "ok": false,
+   "http_status": 400,
+   "elapsed_ms": 976,
+   "error": "{\"status\":\"BAD_REQUEST\",\"message\":\"UnableToExecuteStatementException\",\"errors\":[\"Invalid input\"]}"
+  },
+  {
+   "key": "ste",
+   "resource": "stednavn",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=udg:%201an%20gentofte&limit=5",
+   "ok": false,
+   "http_status": 400,
+   "elapsed_ms": 44,
+   "error": "{\"status\":\"BAD_REQUEST\",\"message\":\"UnableToExecuteStatementException\",\"errors\":[\"Invalid input\"]}"
+  },
+  {
+   "key": "pos",
+   "resource": "postnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=udg:%201an%20gentofte&limit=5",
+   "ok": false,
+   "http_status": 400,
+   "elapsed_ms": 42,
+   "error": "{\"status\":\"BAD_REQUEST\",\"message\":\"UnableToExecuteStatementException\",\"errors\":[\"Invalid input\"]}"
+  },
+  {
+   "key": "mat",
+   "resource": "matrikel",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=udg:%201an%20gentofte&limit=5",
+   "ok": false,
+   "http_status": 400,
+   "elapsed_ms": 42,
+   "error": "{\"status\":\"BAD_REQUEST\",\"message\":\"UnableToExecuteStatementException\",\"errors\":[\"Invalid input\"]}"
+  },
+  {
+   "key": "kom",
+   "resource": "kommune",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=udg:%201an%20gentofte&limit=5",
+   "ok": false,
+   "http_status": 400,
+   "elapsed_ms": 41,
+   "error": "{\"status\":\"BAD_REQUEST\",\"message\":\"UnableToExecuteStatementException\",\"errors\":[\"Invalid input\"]}"
+  },
+  {
+   "key": "ops",
+   "resource": "opstillingskreds",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=udg:%201an%20gentofte&limit=5",
+   "ok": false,
+   "http_status": 400,
+   "elapsed_ms": 43,
+   "error": "{\"status\":\"BAD_REQUEST\",\"message\":\"UnableToExecuteStatementException\",\"errors\":[\"Invalid input\"]}"
+  },
+  {
+   "key": "pol",
+   "resource": "politikreds",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=udg:%201an%20gentofte&limit=5",
+   "ok": false,
+   "http_status": 400,
+   "elapsed_ms": 40,
+   "error": "{\"status\":\"BAD_REQUEST\",\"message\":\"UnableToExecuteStatementException\",\"errors\":[\"Invalid input\"]}"
+  },
+  {
+   "key": "reg",
+   "resource": "region",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=udg:%201an%20gentofte&limit=5",
+   "ok": false,
+   "http_status": 400,
+   "elapsed_ms": 44,
+   "error": "{\"status\":\"BAD_REQUEST\",\"message\":\"UnableToExecuteStatementException\",\"errors\":[\"Invalid input\"]}"
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Husnumre - Der skete en fejl",
+   "geometry": null,
+   "geometry_type": null,
+   "error": true,
+   "rank": 1
+  },
+  {
+   "key": "ste",
+   "text": "Stednavne - Der skete en fejl",
+   "geometry": null,
+   "geometry_type": null,
+   "error": true,
+   "rank": 2
+  },
+  {
+   "key": "pos",
+   "text": "Postdistrikter - Der skete en fejl",
+   "geometry": null,
+   "geometry_type": null,
+   "error": true,
+   "rank": 3
+  },
+  {
+   "key": "mat",
+   "text": "Matrikelnumre - Der skete en fejl",
+   "geometry": null,
+   "geometry_type": null,
+   "error": true,
+   "rank": 4
+  },
+  {
+   "key": "kom",
+   "text": "Kommuner - Der skete en fejl",
+   "geometry": null,
+   "geometry_type": null,
+   "error": true,
+   "rank": 5
+  },
+  {
+   "key": "ops",
+   "text": "Opstillingskredse - Der skete en fejl",
+   "geometry": null,
+   "geometry_type": null,
+   "error": true,
+   "rank": 6
+  },
+  {
+   "key": "pol",
+   "text": "Politikredse - Der skete en fejl",
+   "geometry": null,
+   "geometry_type": null,
+   "error": true,
+   "rank": 7
+  },
+  {
+   "key": "reg",
+   "text": "Regioner - Der skete en fejl",
+   "geometry": null,
+   "geometry_type": null,
+   "error": true,
+   "rank": 8
+  }
+ ]
+}

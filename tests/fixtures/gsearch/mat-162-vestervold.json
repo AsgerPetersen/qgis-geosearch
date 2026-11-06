@@ -1,0 +1,137 @@
+{
+ "case_id": "mat-162-vestervold",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "162 vestervold",
+ "term": "162 vestervold",
+ "keys": [
+  "mat"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "mat",
+   "resource": "matrikel",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=162%20vestervold&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 73,
+   "row_count": 1,
+   "rows": [
+    {
+     "ejerlavsnavn": "Vestervold Kvarter, København",
+     "ejerlavskode": 2000179,
+     "kommunenavn": "Københavns Kommune",
+     "kommunekode": "0101",
+     "matrikelnummer": "162",
+     "visningstekst": "162, Vestervold Kvarter, København",
+     "jordstykke_id": 10438851,
+     "bfenummer": 6033528,
+     "centroid_x": 724495.727,
+     "centroid_y": 6175696.138,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          724374.754,
+          6175779.673
+         ],
+         [
+          724377.76,
+          6175754.815
+         ],
+         [
+          724411.296,
+          6175728.984
+         ],
+         [
+          724402.787,
+          6175718.25
+         ],
+         [
+          724501.168,
+          6175639.77
+         ],
+         [
+          724501.484,
+          6175640.152
+         ],
+         [
+          724506.161,
+          6175645.939
+         ],
+         [
+          724509.734,
+          6175650.342
+         ],
+         [
+          724510.014,
+          6175650.118
+         ],
+         [
+          724526.903,
+          6175636.696
+         ],
+         [
+          724571.137,
+          6175692.204
+         ],
+         [
+          724554.229,
+          6175705.597
+         ],
+         [
+          724495.958,
+          6175752.208
+         ],
+         [
+          724496.811,
+          6175753.32
+         ],
+         [
+          724488.662,
+          6175759.805
+         ],
+         [
+          724487.945,
+          6175758.846
+         ],
+         [
+          724454.79,
+          6175785.103
+         ],
+         [
+          724422.197,
+          6175810.581
+         ],
+         [
+          724397.007,
+          6175807.734
+         ],
+         [
+          724374.754,
+          6175779.673
+         ]
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "mat",
+   "text": "162, Vestervold Kvarter, København",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 1
+  }
+ ]
+}

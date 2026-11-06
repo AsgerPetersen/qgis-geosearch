@@ -1,0 +1,796 @@
+{
+ "case_id": "ste-mols-bjerge",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "mols bjerge",
+ "term": "mols bjerge",
+ "keys": [
+  "adr",
+  "ste",
+  "pos",
+  "mat",
+  "kom",
+  "ops",
+  "pol",
+  "reg"
+ ],
+ "limit": 5,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=mols%20bjerge&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 72,
+   "row_count": 5,
+   "rows": [
+    {
+     "id": "0a3f5093-4835-32b8-e044-0003ba298018",
+     "kommunenavn": "Syddjurs",
+     "kommunekode": "0706",
+     "vejkode": "1260",
+     "vejnavn": "Mols Bjerge Vej",
+     "husnummertekst": "1",
+     "supplerendebynavn": "Basballe",
+     "postnummer": "8400",
+     "postnummernavn": "Ebeltoft",
+     "visningstekst": "Mols Bjerge Vej 1, Basballe, 8400 Ebeltoft",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        596959.99,
+        6234079.02
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        596911.27,
+        6234011.6
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5093-4836-32b8-e044-0003ba298018",
+     "kommunenavn": "Syddjurs",
+     "kommunekode": "0706",
+     "vejkode": "1260",
+     "vejnavn": "Mols Bjerge Vej",
+     "husnummertekst": "5",
+     "supplerendebynavn": "Basballe",
+     "postnummer": "8400",
+     "postnummernavn": "Ebeltoft",
+     "visningstekst": "Mols Bjerge Vej 5, Basballe, 8400 Ebeltoft",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        596483.6,
+        6233995.54
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        596503.73,
+        6233953.59
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5093-4837-32b8-e044-0003ba298018",
+     "kommunenavn": "Syddjurs",
+     "kommunekode": "0706",
+     "vejkode": "1260",
+     "vejnavn": "Mols Bjerge Vej",
+     "husnummertekst": "7",
+     "supplerendebynavn": "Basballe",
+     "postnummer": "8400",
+     "postnummernavn": "Ebeltoft",
+     "visningstekst": "Mols Bjerge Vej 7, Basballe, 8400 Ebeltoft",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        596438.08656844,
+        6233954.66746301
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        596472.1,
+        6233917.89
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5093-4838-32b8-e044-0003ba298018",
+     "kommunenavn": "Syddjurs",
+     "kommunekode": "0706",
+     "vejkode": "1260",
+     "vejnavn": "Mols Bjerge Vej",
+     "husnummertekst": "8",
+     "supplerendebynavn": "Basballe",
+     "postnummer": "8400",
+     "postnummernavn": "Ebeltoft",
+     "visningstekst": "Mols Bjerge Vej 8, Basballe, 8400 Ebeltoft",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        596541.5,
+        6234039.04
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        596518.23,
+        6234051.91
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5093-4839-32b8-e044-0003ba298018",
+     "kommunenavn": "Syddjurs",
+     "kommunekode": "0706",
+     "vejkode": "1260",
+     "vejnavn": "Mols Bjerge Vej",
+     "husnummertekst": "8A",
+     "supplerendebynavn": "Basballe",
+     "postnummer": "8400",
+     "postnummernavn": "Ebeltoft",
+     "visningstekst": "Mols Bjerge Vej 8A, Basballe, 8400 Ebeltoft",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        596573.62,
+        6234053.17
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        596665.95,
+        6234183.94
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "key": "ste",
+   "resource": "stednavn",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=mols%20bjerge&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 61,
+   "row_count": 4,
+   "rows": [
+    {
+     "id": "12337669-e433-6b98-e053-d480220a5a3f",
+     "skrivemaade": "Mols Bjerge",
+     "visningstekst": "Mols Bjerge (Højdedrag i Knebel)",
+     "skrivemaade_officiel": "Mols Bjerge",
+     "skrivemaade_uofficiel": null,
+     "stednavn_type": "landskabsform",
+     "stednavn_subtype": "højdedrag",
+     "kommunekode": "0706",
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          597576.04,
+          6230125.68
+         ],
+         [
+          597754.6,
+          6230476.71
+         ],
+         [
+          598234.31,
+          6231696.97
+         ],
+         [
+          598506.05,
+          6231930.4
+         ],
+         [
+          598853.93,
+          6232136.88
+         ],
+         [
+          599095.6,
+          6232441.52
+         ],
+         [
+          599549.54,
+          6232760.08
+         ],
+         [
+          598569.87,
+          6233188.6
+         ],
+         [
+          598188.15,
+          6233444.98
+         ],
+         [
+          598087.37,
+          6233633.4
+         ],
+         [
+          597820.71,
+          6233854.32
+         ],
+         [
+          597644.64,
+          6233867.61
+         ],
+         [
+          597473.63,
+          6233815.09
+         ],
+         [
+          597203.37,
+          6233833.19
+         ],
+         [
+          597047.36,
+          6234019.57
+         ],
+         [
+          596942.69,
+          6234086.08
+         ],
+         [
+          596801.92,
+          6234111.16
+         ],
+         [
+          596538.58,
+          6234038.04
+         ],
+         [
+          596426.34,
+          6233950.11
+         ],
+         [
+          596352.83,
+          6233833.23
+         ],
+         [
+          596187.31,
+          6233730.73
+         ],
+         [
+          596022.63,
+          6233789.31
+         ],
+         [
+          595765.05,
+          6234032.14
+         ],
+         [
+          595424.64,
+          6234007.4
+         ],
+         [
+          595301.39,
+          6233928.26
+         ],
+         [
+          595095.64,
+          6233885.71
+         ],
+         [
+          594833.28,
+          6233889.96
+         ],
+         [
+          594591.29,
+          6233622.33
+         ],
+         [
+          594500.85,
+          6233321.69
+         ],
+         [
+          594445.03,
+          6232928.77
+         ],
+         [
+          594356.35,
+          6232867.45
+         ],
+         [
+          594330.44,
+          6232685.44
+         ],
+         [
+          594166.42,
+          6232329.29
+         ],
+         [
+          593957.55,
+          6232179.48
+         ],
+         [
+          593594.25,
+          6231831.21
+         ],
+         [
+          593527.33,
+          6231662.91
+         ],
+         [
+          592961.96,
+          6231353.25
+         ],
+         [
+          592664.85,
+          6231140.54
+         ],
+         [
+          592602.48,
+          6231159.23
+         ],
+         [
+          592586.97,
+          6231082.04
+         ],
+         [
+          592752.92,
+          6230818.88
+         ],
+         [
+          592512.63,
+          6230648.02
+         ],
+         [
+          592628.61,
+          6230564.45
+         ],
+         [
+          592800.09,
+          6230340.06
+         ],
+         [
+          593030.06,
+          6230253.63
+         ],
+         [
+          593224.06,
+          6230117.41
+         ],
+         [
+          593350.45,
+          6230125.64
+         ],
+         [
+          593418.11,
+          6230089.47
+         ],
+         [
+          593651.29,
+          6229795.88
+         ],
+         [
+          593746.85,
+          6229590.57
+         ],
+         [
+          593823.41,
+          6229219.87
+         ],
+         [
+          593902.27,
+          6229070.15
+         ],
+         [
+          593841,
+          6228454.39
+         ],
+         [
+          594716.62,
+          6228120.27
+         ],
+         [
+          594911.45,
+          6228280.62
+         ],
+         [
+          595288.36,
+          6228358.6
+         ],
+         [
+          595365.9,
+          6228523.45
+         ],
+         [
+          595805.63,
+          6229097.97
+         ],
+         [
+          596329.57,
+          6229262.71
+         ],
+         [
+          596875.52,
+          6229681.78
+         ],
+         [
+          597427.07,
+          6229978.23
+         ],
+         [
+          597576.04,
+          6230125.68
+         ]
+        ]
+       ]
+      ]
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         592512.63,
+         6228120.27
+        ],
+        [
+         592512.63,
+         6234111.16
+        ],
+        [
+         599549.54,
+         6234111.16
+        ],
+        [
+         599549.54,
+         6228120.27
+        ],
+        [
+         592512.63,
+         6228120.27
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "id": "19e4392f-d5e5-5d41-e053-d380220a2006",
+     "skrivemaade": "Mols Bjerge Feriecenter",
+     "visningstekst": "Mols Bjerge Feriecenter (Feriecenter i Knebel)",
+     "skrivemaade_officiel": "Mols Bjerge Feriecenter",
+     "skrivemaade_uofficiel": null,
+     "stednavn_type": "bygning",
+     "stednavn_subtype": "feriecenter",
+     "kommunekode": "0706",
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          592470.24,
+          6230717.25
+         ],
+         [
+          592488,
+          6230700.03
+         ],
+         [
+          592488.98,
+          6230701.04
+         ],
+         [
+          592490.54,
+          6230699.53
+         ],
+         [
+          592492.77,
+          6230701.83
+         ],
+         [
+          592491.39,
+          6230703.16
+         ],
+         [
+          592497,
+          6230708.95
+         ],
+         [
+          592479.06,
+          6230726.35
+         ],
+         [
+          592470.24,
+          6230717.25
+         ]
+        ]
+       ]
+      ]
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         592470.24,
+         6230699.53
+        ],
+        [
+         592470.24,
+         6230726.35
+        ],
+        [
+         592497,
+         6230726.35
+        ],
+        [
+         592497,
+         6230699.53
+        ],
+        [
+         592470.24,
+         6230699.53
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "id": "12337669-9d52-6b98-e053-d480220a5a3f",
+     "skrivemaade": "Nationalpark Mols Bjerge",
+     "visningstekst": "Mols Bjerge Nationalpark (Nationalpark Mols Bjerge, Nationalpark i Ebeltoft)",
+     "skrivemaade_officiel": "Nationalpark Mols Bjerge",
+     "skrivemaade_uofficiel": "Mols Bjerge Nationalpark",
+     "stednavn_type": "restriktionsareal",
+     "stednavn_subtype": "nationalpark",
+     "kommunekode": "0707,0706",
+     "geometri": {
+      "type": "MultiPolygon",
+      "summarized": true,
+      "vertex_count": 308,
+      "bbox": [
+       589828.47,
+       6221970.74,
+       614301.4,
+       6242830.41
+      ],
+      "part_count": 1,
+      "area_m2": 177697086
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         589828.47,
+         6221970.74000001
+        ],
+        [
+         589828.47,
+         6242830.413
+        ],
+        [
+         614301.4,
+         6242830.413
+        ],
+        [
+         614301.4,
+         6221970.74000001
+        ],
+        [
+         589828.47,
+         6221970.74000001
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "id": "12337669-9d52-6b98-e053-d480220a5a3f",
+     "skrivemaade": "Nationalpark Mols Bjerge",
+     "visningstekst": "Nationalpark Mols Bjerge (Nationalpark i Ebeltoft)",
+     "skrivemaade_officiel": "Nationalpark Mols Bjerge",
+     "skrivemaade_uofficiel": "Mols Bjerge Nationalpark",
+     "stednavn_type": "restriktionsareal",
+     "stednavn_subtype": "nationalpark",
+     "kommunekode": "0706,0707",
+     "geometri": {
+      "type": "MultiPolygon",
+      "summarized": true,
+      "vertex_count": 308,
+      "bbox": [
+       589828.47,
+       6221970.74,
+       614301.4,
+       6242830.41
+      ],
+      "part_count": 1,
+      "area_m2": 177697086
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         589828.47,
+         6221970.74000001
+        ],
+        [
+         589828.47,
+         6242830.413
+        ],
+        [
+         614301.4,
+         6242830.413
+        ],
+        [
+         614301.4,
+         6221970.74000001
+        ],
+        [
+         589828.47,
+         6221970.74000001
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "key": "pos",
+   "resource": "postnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=mols%20bjerge&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 57,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "mat",
+   "resource": "matrikel",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=mols%20bjerge&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 67,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "kom",
+   "resource": "kommune",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=mols%20bjerge&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 56,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "ops",
+   "resource": "opstillingskreds",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=mols%20bjerge&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 48,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "pol",
+   "resource": "politikreds",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=mols%20bjerge&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 53,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "reg",
+   "resource": "region",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=mols%20bjerge&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 48,
+   "row_count": 0,
+   "rows": []
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Mols Bjerge Vej 1, Basballe, 8400 Ebeltoft",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  },
+  {
+   "key": "adr",
+   "text": "Mols Bjerge Vej 5, Basballe, 8400 Ebeltoft",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 2
+  },
+  {
+   "key": "adr",
+   "text": "Mols Bjerge Vej 7, Basballe, 8400 Ebeltoft",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 3
+  },
+  {
+   "key": "adr",
+   "text": "Mols Bjerge Vej 8, Basballe, 8400 Ebeltoft",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 4
+  },
+  {
+   "key": "adr",
+   "text": "Mols Bjerge Vej 8A, Basballe, 8400 Ebeltoft",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 5
+  },
+  {
+   "key": "ste",
+   "text": "Mols Bjerge (Højdedrag i Knebel)",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 6
+  },
+  {
+   "key": "ste",
+   "text": "Mols Bjerge Feriecenter (Feriecenter i Knebel)",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 7
+  },
+  {
+   "key": "ste",
+   "text": "Mols Bjerge Nationalpark (Nationalpark Mols Bjerge, Nationalpark i Ebeltoft)",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 8
+  },
+  {
+   "key": "ste",
+   "text": "Nationalpark Mols Bjerge (Nationalpark i Ebeltoft)",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 9
+  }
+ ]
+}

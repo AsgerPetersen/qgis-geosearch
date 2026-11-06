@@ -1,0 +1,81 @@
+{
+ "case_id": "pfx-kom-aar",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "kom: aar",
+ "term": "aar",
+ "keys": [
+  "kom"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "kom",
+   "resource": "kommune",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=aar&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 52,
+   "row_count": 1,
+   "rows": [
+    {
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "visningstekst": "Aarhus Kommune",
+     "geometri": {
+      "type": "MultiPolygon",
+      "summarized": true,
+      "vertex_count": 396,
+      "bbox": [
+       558938.03,
+       6206190.44,
+       586013.15,
+       6243462.17
+      ],
+      "part_count": 1,
+      "area_m2": 471303623
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         558938.03,
+         6206190.44
+        ],
+        [
+         558938.03,
+         6243462.17
+        ],
+        [
+         586013.15,
+         6243462.17
+        ],
+        [
+         586013.15,
+         6206190.44
+        ],
+        [
+         558938.03,
+         6206190.44
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "kom",
+   "text": "Aarhus Kommune",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 1
+  }
+ ]
+}

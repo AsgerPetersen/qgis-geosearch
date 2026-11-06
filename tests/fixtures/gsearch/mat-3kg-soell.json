@@ -1,0 +1,137 @@
+{
+ "case_id": "mat-3kg-soell",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "mat: 3kg søll",
+ "term": "3kg søll",
+ "keys": [
+  "mat"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "mat",
+   "resource": "matrikel",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=3kg%20s%C3%B8ll&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 73,
+   "row_count": 2,
+   "rows": [
+    {
+     "ejerlavsnavn": "Øverød By, Søllerød",
+     "ejerlavskode": 11453,
+     "kommunenavn": "Rudersdal Kommune",
+     "kommunekode": "0230",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Øverød By, Søllerød",
+     "jordstykke_id": 1385274,
+     "bfenummer": 2045507,
+     "centroid_x": 717930.036,
+     "centroid_y": 6191893.951,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          717911.421,
+          6191907.269
+         ],
+         [
+          717918.91,
+          6191883.719
+         ],
+         [
+          717922.633,
+          6191884.955
+         ],
+         [
+          717929.298,
+          6191881.615
+         ],
+         [
+          717952.722,
+          6191889.361
+         ],
+         [
+          717943.749,
+          6191917.669
+         ],
+         [
+          717915.534,
+          6191908.59
+         ],
+         [
+          717911.421,
+          6191907.269
+         ]
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "ejerlavsnavn": "Søllerød By, Søllerød",
+     "ejerlavskode": 11452,
+     "kommunenavn": "Rudersdal Kommune",
+     "kommunekode": "0230",
+     "matrikelnummer": "3kg",
+     "visningstekst": "3kg, Søllerød By, Søllerød",
+     "jordstykke_id": 1384672,
+     "bfenummer": 2043966,
+     "centroid_x": 719742.989,
+     "centroid_y": 6190488.113,
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          719729.843,
+          6190470.887
+         ],
+         [
+          719746.915,
+          6190472.954
+         ],
+         [
+          719758.37,
+          6190507.3
+         ],
+         [
+          719735.759,
+          6190502.734
+         ],
+         [
+          719729.843,
+          6190470.887
+         ]
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "mat",
+   "text": "3kg, Øverød By, Søllerød",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 1
+  },
+  {
+   "key": "mat",
+   "text": "3kg, Søllerød By, Søllerød",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 2
+  }
+ ]
+}

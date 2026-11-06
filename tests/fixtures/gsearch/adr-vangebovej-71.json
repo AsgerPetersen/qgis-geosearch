@@ -1,0 +1,66 @@
+{
+ "case_id": "adr-vangebovej-71",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "Vangebovej 71",
+ "term": "Vangebovej 71",
+ "keys": [
+  "adr"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=Vangebovej%2071&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 101,
+   "row_count": 1,
+   "rows": [
+    {
+     "id": "0a3f507d-c493-32b8-e044-0003ba298018",
+     "kommunenavn": "Rudersdal",
+     "kommunekode": "0230",
+     "vejkode": "0684",
+     "vejnavn": "Vangebovej",
+     "husnummertekst": "71",
+     "supplerendebynavn": "Søllerød",
+     "postnummer": "2840",
+     "postnummernavn": "Holte",
+     "visningstekst": "Vangebovej 71, Søllerød, 2840 Holte",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        719749.59855363,
+        6190466.51851438
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        719746.21,
+        6190493.67
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Vangebovej 71, Søllerød, 2840 Holte",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  }
+ ]
+}
