@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Geosearch DK - Settings</string>
+   <string>Geosearch DK - Indstillinger</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <property name="leftMargin">
@@ -177,7 +177,7 @@
              <item>
               <widget class="QLabel" name="kommunefilterInfoLabel">
                <property name="text">
-                <string notr="true">(kommunefilter_info.INFO_HTML)</string>
+                <string notr="true">(kommunefilter_info.info_html())</string>
                </property>
                <property name="textFormat">
                 <enum>Qt::RichText</enum>
@@ -224,7 +224,7 @@
                 </sizepolicy>
                </property>
                <property name="text">
-                <string>I parantes er angivet den forkortelse, der kan bruges i GeosearchDK-søgefeltet til at begrænse søgningen til specifik resultattype. I søgefeltet kan således tastes 'adr:' efterfulgt af adressen - dette gør, at der kun vises adresser som søgeresultater.</string>
+                <string>I parentes er angivet den forkortelse, der kan bruges i GeosearchDK-søgefeltet til at begrænse søgningen til specifik resultattype. I søgefeltet kan således tastes 'adr:' efterfulgt af adressen - dette gør, at der kun vises adresser som søgeresultater.</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>

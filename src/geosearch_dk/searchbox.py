@@ -333,10 +333,10 @@ class SearchBox(QFrame, FORM_CLASS):
         box.setWindowTitle(self.tr("Geosearch DK - Kommunefilter"))
         box.setIcon(QMessageBox.Icon.Information)
         # macOS renders message box text in bold; keep the explanation normal.
-        box.setText(kommunefilter_info.INFO_TITLE)
+        box.setText(kommunefilter_info.info_title())
         box.setInformativeText(
             '<div style="font-weight: normal">'
-            + kommunefilter_info.INFO_BODY_HTML
+            + kommunefilter_info.info_body_html()
             + "</div>"
         )
         settings_button = box.addButton(
@@ -351,7 +351,7 @@ class SearchBox(QFrame, FORM_CLASS):
     def showKommunefilterMigrationNotice(self):
         """Tell a 3.x user once that their kommune filter now works differently."""
         widget = self.qgisIface.messageBar().createMessage(
-            "Geosearch DK", kommunefilter_info.MIGRATION_TEXT
+            "Geosearch DK", kommunefilter_info.migration_text()
         )
         button = QPushButton(widget)
         button.setText(self.tr("Åbn indstillinger"))
@@ -377,7 +377,7 @@ class SearchBox(QFrame, FORM_CLASS):
         if last is not None and now - last < MESSAGE_DURATION:
             return
         self._last_message[kind] = now
-        button_text = self.tr("Åbn settings")
+        button_text = self.tr("Åbn indstillinger")
         widget = self.qgisIface.messageBar().createMessage(title, message)
         button = QPushButton(widget)
         button.setText(button_text)
@@ -475,7 +475,7 @@ class SearchBox(QFrame, FORM_CLASS):
             if row["status"] == "error":
                 QMessageBox.information(
                     self.qgisIface.mainWindow(),
-                    "Geosearch DK - Fejl",
+                    self.tr("Geosearch DK - Fejl"),
                     row.get("message") or row["text"],
                 )
                 return
@@ -488,7 +488,7 @@ class SearchBox(QFrame, FORM_CLASS):
             self.suggester.fetcher.fetch_geometry(row, self._onGeometry)
         except Exception as e:
             QgsApplication.messageLog().logMessage(
-                "Kunne ikke vise valgt objekt: " + str(e),
+                self.tr("Kunne ikke vise valgt objekt: %s") % e,
                 "Geosearch DK",
                 Qgis.MessageLevel.Warning,
             )
@@ -552,7 +552,7 @@ class SearchBox(QFrame, FORM_CLASS):
             'Web: <a href="http://www.septima.dk">www.septima.dk</a>\n'
         )
         QMessageBox.information(
-            self.qgisIface.mainWindow(), "Om Geosearch DK", infoString
+            self.qgisIface.mainWindow(), self.tr("Om Geosearch DK"), infoString
         )
 
     def unload(self):

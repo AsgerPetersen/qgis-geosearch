@@ -229,6 +229,27 @@ matched on the name before " (" because Bifrost has no subtype (#1). A case can
 expect something else from Bifrost than from GSearch with a `bifrost:` override
 in `cases.yaml`.
 
+### Translations
+
+The plugin's texts are Danish. QGIS in English (any `en*` locale, e.g.
+`en_DK`) gets English everywhere; every other locale gets Danish
+(`src/geosearch_dk/language.py`). The English texts are in
+`src/geosearch_dk/i18n/en.qt.ts` and `help/hvad_er_nyt.en.html`. After adding
+or changing a text, a `self.tr(...)` in a Qt class, a `<string>` in a `.ui`
+file, or a `tr("bifrost"|"kommunefilter", ...)` in the pure modules
+(`bifrost/translation.py`):
+
+```sh
+python3 scripts/update_ts.py      # adds new texts as unfinished, drops unused ones
+# fill in the English <translation> of each unfinished text in en.qt.ts
+/opt/homebrew/bin/lrelease -silent src/geosearch_dk/i18n/en.qt.ts -qm src/geosearch_dk/i18n/en.qt.qm
+```
+
+`make test` fails while a text has no English translation, a source text looks
+English, or the two "Hvad er nyt" files have different anchors or links.
+`make test-qgis` checks that the `.qm` matches the `.ts`. Use `lrelease` from
+Qt 5 or 6 (`brew install qt`).
+
 ### Mock Bifrost
 
 Point the plugin's Bifrost URL at `http://127.0.0.1:8766`; any key is accepted.

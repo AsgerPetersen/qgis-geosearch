@@ -2,7 +2,8 @@
 """
 "Hvad er nyt" – what changed in Geosearch DK 4.0 (Bifrost), and why.
 
-The text is help/hvad_er_nyt.html. Public API:
+The text is help/hvad_er_nyt.html, or help/hvad_er_nyt.en.html when QGIS runs
+in English (see language.py). Public API:
 
     show_whats_new(parent=None, anchor=None, settings=None)
         Open the dialog, optionally scrolled to an anchor in the text,
@@ -24,9 +25,15 @@ from qgis.PyQt.QtWidgets import (
     QVBoxLayout,
 )
 
+from .language import localized_file, ui_language
 from .notice import NOTICE_VERSION, SEEN_SETTING
 
 HELP_FILE = os.path.join(os.path.dirname(__file__), "help", "hvad_er_nyt.html")
+
+
+def help_file(language=None):
+    """The text in ``language`` ("en" or "da"; default: the QGIS language)."""
+    return localized_file(HELP_FILE, language or ui_language())
 
 
 class _Notifier(QObject):
@@ -48,7 +55,7 @@ class WhatsNewDialog(QDialog):
         self.browser = QTextBrowser(self)
         self.browser.setObjectName("whatsNewBrowser")
         self.browser.setOpenExternalLinks(True)
-        self.browser.setSource(QUrl.fromLocalFile(HELP_FILE))
+        self.browser.setSource(QUrl.fromLocalFile(help_file()))
 
         buttons = QDialogButtonBox(QDialogButtonBox.StandardButton.Close, self)
         buttons.button(QDialogButtonBox.StandardButton.Close).setText(self.tr("Luk"))
@@ -75,7 +82,7 @@ def notice_seen(settings):
 
 
 def show_whats_new(parent=None, anchor=None, settings=None):
-    """Open "Hvad er nyt", optionally at an anchor in help/hvad_er_nyt.html.
+    """Open "Hvad er nyt", optionally at an anchor in the text (see help_file).
 
     From a modal dialog (e.g. the settings page), pass a widget in that dialog
     as parent, so the new dialog is not blocked by it.

@@ -12,6 +12,8 @@ import json
 import os
 import time
 
+from .translation import tr
+
 KEY_ENV = "BIFROST_KEY"
 DEFAULT_BASE_URL = "https://bifrost.test42.dataforsyningen.dk"
 
@@ -42,7 +44,7 @@ class BifrostHttpError(BifrostError):
         super().__init__(status, detail)
 
     def __str__(self):
-        text = f"Bifrost svarede med HTTP {self.status}"
+        text = tr("bifrost", "Bifrost svarede med HTTP %s") % self.status
         return f"{text}: {self.detail}" if self.detail else text
 
 
@@ -54,7 +56,7 @@ class BifrostMissingKey(BifrostError):
     """No key configured, so nothing was sent."""
 
     def __str__(self):
-        return "Der er ikke angivet en nøgle til Bifrost"
+        return tr("bifrost", "Der er ikke angivet en nøgle til Bifrost")
 
 
 def resolve_key(setting_value, environ=None, default=""):
@@ -144,7 +146,7 @@ def decode_response(status, body, retry_after=None):
     try:
         return json.loads(body)
     except ValueError as e:
-        raise BifrostHttpError(status, f"Ugyldigt svar: {e}") from e
+        raise BifrostHttpError(status, tr("bifrost", "Ugyldigt svar: %s") % e) from e
 
 
 def retry_delay(error, retries_done):

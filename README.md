@@ -32,7 +32,7 @@ Pluginet har endnu ingen indbygget nøgle. Så længe der ingen nøgle er, viser
 
 På [sammenligningssiden](https://asgerpetersen.github.io/gsearch-bifrost-compare/) kan du søge i GSearch og Bifrost side om side.
 
-Teksten i pluginet findes i [src/geosearch_dk/help/hvad_er_nyt.html](src/geosearch_dk/help/hvad_er_nyt.html).
+Teksten i pluginet findes i [src/geosearch_dk/help/hvad_er_nyt.html](src/geosearch_dk/help/hvad_er_nyt.html) og på engelsk i [hvad_er_nyt.en.html](src/geosearch_dk/help/hvad_er_nyt.en.html), som vises, når QGIS kører på engelsk.
 
 Installation af pluginet
 --------------

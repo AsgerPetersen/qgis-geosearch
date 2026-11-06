@@ -24,7 +24,7 @@ from qgis.PyQt.QtWidgets import QCheckBox, QFileDialog
 from qgis.gui import QgsOptionsPageWidget
 from qgis.PyQt.QtWidgets import QVBoxLayout
 from qgis.PyQt.QtGui import QRegularExpressionValidator
-from qgis.PyQt.QtCore import QCoreApplication, QRegularExpression, Qt, QTimer
+from qgis.PyQt.QtCore import QRegularExpression, Qt, QTimer
 from ..bifrost import settings_model as model
 from ..bifrost.types import TYPES
 from .qgissettingmanager import *
@@ -79,7 +79,7 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
         regex = QRegularExpression(MUNCODE_REGEX)
         self.muncodeValidator = QRegularExpressionValidator(regex)
         self.kommunefilter.setValidator(self.muncodeValidator)
-        self.kommunefilterInfoLabel.setText(kommunefilter_info.INFO_HTML)
+        self.kommunefilterInfoLabel.setText(kommunefilter_info.info_html())
         self.kommunefilter_enabled.toggled.connect(self._update_kommunefilter_enabled)
         self._update_kommunefilter_enabled()
         self.kommunefilterWhatsNewLabel.linkActivated.connect(
@@ -105,10 +105,6 @@ class ConfigDialog(WIDGET, BASE, SettingDialog):
     def _add_type_checkboxes(self):
         """One checkbox per type in TYPES, named after its setting."""
         for search_type, row, column in model.checkbox_positions(TYPES):
-            # Same translation context as the strings in settings.ui
-            label = QCoreApplication.translate(
-                "geosearchConfigWidget", model.checkbox_label(search_type)
-            )
-            checkbox = QCheckBox(label, self)
+            checkbox = QCheckBox(model.checkbox_label(search_type), self)
             checkbox.setObjectName(model.type_setting(search_type.key))
             self.gridLayout_3.addWidget(checkbox, row, column)

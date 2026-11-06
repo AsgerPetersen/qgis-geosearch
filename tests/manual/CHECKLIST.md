@@ -106,7 +106,13 @@ QGIS version: ____   OS: ____   Plugin commit: ____
       GSearch kommunefilter setting, the filter is migrated on first start,
       and the **message bar** explains what happened. The message is shown
       only once.
-- [ ] Message bar messages are in Danish and can be closed.
+- [ ] Message bar messages can be closed.
+- [ ] *(Bifrost)* **One language at a time**: with QGIS in Danish (or any
+      language but English) everything is Danish; with QGIS in English
+      (*Settings > Options > General > Override system locale*, e.g.
+      `en_DK`, then restart) the panel, banners, tooltips, settings page, type
+      checkboxes, message bars, error rows and the "what's new" dialog
+      including its text are all English.
 
 ## Errors
 
