@@ -56,7 +56,7 @@ Geometries with more than 250 vertices are stored as a summary (type, bbox, vert
 | [mat-3kg-soelleroed](#mat-3kg-soelleroed) | `3kg søllerød` | mat |  | 3kg, Søllerød By, Søllerød | ✅ rank 2 | #4 |
 | [mat-3kg](#mat-3kg) | `mat: 3kg` | alle |  | 3kg, Øverød By, Søllerød | ✅ rank 29 | #4 |
 | [mat-1a-kommunefilter-615](#mat-1a-kommunefilter-615) | `1a` | mat | 615 | 1a, Nim By, Nim | ✅ rank 2 | #2 |
-| [mat-1an-gentofte](#mat-1an-gentofte) | `mat: 1an gentofte` | alle |  | (no rows) | ✅ no rows |  |
+| [mat-1an-gentofte](#mat-1an-gentofte) | `mat: 1an gentofte` | alle |  | (no rows) | ✅ no rows | #4 |
 | [kom-101](#kom-101) | `kom: 101` | alle |  | Københavns Kommune | ✅ rank 1 |  |
 | [kom-koeb](#kom-koeb) | `kom: køb` | alle |  | Københavns Kommune | ✅ rank 1 | #3 |
 | [kom-aarhus-alle-typer](#kom-aarhus-alle-typer) | `aarhus` | alle |  | Aarhus Kommune | ✅ rank 20 |  |
@@ -1021,6 +1021,7 @@ Geometries with more than 250 vertices are stored as a summary (type, bbox, vert
 - Resources: mat · limit 40
 - Expected: no rows
 - Today: ✅ no rows
+- Known gap in Bifrost: #4
 - Notes: Udgåede matrikler er ikke med i pluginets GSearch-typer. Bifrost kan finde dem (lifecycle retired), se #4 og #6.
 - Slowest request: 77 ms
 
