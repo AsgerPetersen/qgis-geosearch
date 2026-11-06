@@ -134,6 +134,19 @@ EXTRA = [
     ("østerlund 14", ""),
     ("vangebovej 77", ""),
     ("ste: øenslæger", ""),
+    # Kommuner on stednavne and veje: GSearch lists every kommune the object
+    # touches; Bifrost lists fewer, which matters for the kommunefilter.
+    ("gudenå", "730"),
+    ("furesø", ""),
+    ("furesø", "230"),
+    ("roskilde fjord", "265"),
+    ("lyngby hovedgade", "157"),
+    ("skodsborg strandvej", ""),
+    ("skodsborg strandvej", "173"),
+    ("nørrebrogade 2400", ""),
+    # Husnummer først with the full street name (separates it from #3).
+    ("77 vangebovej", ""),
+    ("1 nørrebrogade", ""),
 ]
 PREFIXES = {"adr", "ste", "pos", "mat", "kom", "ops", "pol", "reg", "enh", "vej", "sog", "ret", "udg"}
 

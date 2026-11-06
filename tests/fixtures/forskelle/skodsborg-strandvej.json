@@ -1,0 +1,6842 @@
+{
+ "id": "skodsborg-strandvej",
+ "term": "skodsborg strandvej",
+ "kommuner": "",
+ "sources": [
+  "supplerende"
+ ],
+ "recorded_at": "2026-11-06T19:57:01+00:00",
+ "limit": 10,
+ "gsearch": {
+  "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+  "requests": [
+   {
+    "resource": "adresse",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/adresse?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 233,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "0a3f50a6-ee64-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummer": "7",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 7, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724360.4812023,
+         6190562.5064517
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724318.83,
+         6190526.76
+        ]
+       ]
+      }
+     },
+     {
+      "id": "f4359576-40c2-4eda-8e56-c116adf4731e",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummer": "8",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 8, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724343.8777261,
+         6190581.85099851
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724353.1,
+         6190589.94
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-ee65-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummer": "9A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 9A, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724343.94,
+         6190581.78
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724269.65,
+         6190558.09
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-ee66-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummer": "9B",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 9B, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724330.07816837,
+         6190597.58387989
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724307.99,
+         6190578.21
+        ]
+       ]
+      }
+     },
+     {
+      "id": "b24406dd-7571-419a-9762-bc4f9e8e7fc7",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummer": "10",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 10, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724313.91337696,
+         6190616.01336518
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724321.4,
+         6190622.58
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-ee67-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummer": "11",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 11, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724305.52688605,
+         6190625.57480689
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724289.56,
+         6190611.57
+        ]
+       ]
+      }
+     },
+     {
+      "id": "73e65da2-3099-42c7-902c-1c1f3ee68c6d",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummer": "12",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 12, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724292.55228565,
+         6190640.36715409
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724300.16,
+         6190647.04
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-ee68-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummer": "13",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 13, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724291.73500205,
+         6190641.29893946
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724268.9,
+         6190621.27
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-ee69-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummer": "15",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 15, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724235.82273667,
+         6190654.1265224
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724247.64,
+         6190636.89
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f50a6-ee6a-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummer": "17A",
+      "etagebetegnelse": null,
+      "doerbetegnelse": null,
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 17A, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724220.05871893,
+         6190643.31880003
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724215.64,
+         6190626.62
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "husnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 208,
+    "ok": true,
+    "row_count": 10,
+    "rows": [
+     {
+      "id": "0a3f507d-bcd0-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummertekst": "1",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 1, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724413.23069002,
+         6190502.79474016
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724391.62,
+         6190483.48
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-bcd1-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummertekst": "7",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 7, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724360.4812023,
+         6190562.5064517
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724318.83,
+         6190526.76
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-bcd2-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummertekst": "8",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 8, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724343.8777261,
+         6190581.85099851
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724353.1,
+         6190589.94
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-bcd3-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummertekst": "9A",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 9A, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724343.94,
+         6190581.78
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724269.65,
+         6190558.09
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-bcd4-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummertekst": "9B",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 9B, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724330.07816837,
+         6190597.58387989
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724307.99,
+         6190578.21
+        ]
+       ]
+      }
+     },
+     {
+      "id": "7096f618-62aa-5ed1-e044-00144f3ead67",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummertekst": "10",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 10, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724313.91337696,
+         6190616.01336518
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724321.4,
+         6190622.58
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-bcd5-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummertekst": "11",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 11, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724305.52688605,
+         6190625.57480689
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724289.56,
+         6190611.57
+        ]
+       ]
+      }
+     },
+     {
+      "id": "7096f618-62ab-5ed1-e044-00144f3ead67",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummertekst": "12",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 12, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724292.55228565,
+         6190640.36715409
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724300.16,
+         6190647.04
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-bcd6-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummertekst": "13",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 13, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724291.73500205,
+         6190641.29893946
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724268.9,
+         6190621.27
+        ]
+       ]
+      }
+     },
+     {
+      "id": "0a3f507d-bcd7-32b8-e044-0003ba298018",
+      "kommunenavn": "Rudersdal",
+      "kommunekode": "0230",
+      "vejkode": "0538",
+      "vejnavn": "Skodsborg Strandvej",
+      "husnummertekst": "15",
+      "supplerendebynavn": null,
+      "postnummer": "2942",
+      "postnummernavn": "Skodsborg",
+      "visningstekst": "Skodsborg Strandvej 15, 2942 Skodsborg",
+      "vejpunkt_geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724235.82273667,
+         6190654.1265224
+        ]
+       ]
+      },
+      "geometri": {
+       "type": "MultiPoint",
+       "coordinates": [
+        [
+         724247.64,
+         6190636.89
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "navngivenvej",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/navngivenvej?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 160,
+    "ok": true,
+    "row_count": 1,
+    "rows": [
+     {
+      "id": "166e957e-f0df-4e0b-b8f4-6e5503cd381a",
+      "vejnavn": "Skodsborg Strandvej",
+      "supplerendebynavn": null,
+      "visningstekst": "Skodsborg Strandvej (2942 Skodsborg, 2950 Vedbæk)",
+      "postnummer": "2942,2950",
+      "postnummernavn": "Skodsborg,Vedbæk",
+      "kommunekode": "0230,0173",
+      "geometri": {
+       "type": "MultiLineString",
+       "summarized": true,
+       "vertex_count": 323,
+       "bbox": [
+        723439.39,
+        6190482.35,
+        724431.17,
+        6194238.46
+       ],
+       "part_count": 35,
+       "length_m": 5570
+      },
+      "bbox": {
+       "type": "Polygon",
+       "coordinates": [
+        [
+         [
+          723439.39,
+          6190482.35
+         ],
+         [
+          723439.39,
+          6194238.46
+         ],
+         [
+          724431.17,
+          6194238.46
+         ],
+         [
+          724431.17,
+          6190482.35
+         ],
+         [
+          723439.39,
+          6190482.35
+         ]
+        ]
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "resource": "postnummer",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 174,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 189,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "matrikel_udgaaet",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel_udgaaet?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 188,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "stednavn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 157,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "kommune",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 172,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "sogn",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/sogn?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 82,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "region",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 75,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "retskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/retskreds?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 84,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "politikreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 79,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   },
+   {
+    "resource": "opstillingskreds",
+    "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=skodsborg%20strandvej&limit=10",
+    "http_status": 200,
+    "elapsed_ms": 82,
+    "ok": true,
+    "row_count": 0,
+    "rows": []
+   }
+  ]
+ },
+ "bifrost": {
+  "service": "Bifrost (https://bifrost.test42.dataforsyningen.dk)",
+  "requests": [
+   {
+    "name": "resolve",
+    "endpoint": "resolve",
+    "url": "https://bifrost.test42.dataforsyningen.dk/resolve",
+    "body": {
+     "input": "skodsborg strandvej",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 145,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "ekjy5m2rpyvb2"
+       },
+       "refs": {
+        "street": "ekjy5m2rpyvb2"
+       },
+       "result": "Skodsborg Strandvej, 2942 Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborg Strandvej",
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723870.96,
+         6192448.92
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "166e957e-f0df-4e0b-b8f4-6e5503cd381a"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "ozbnvphhju3wo"
+       },
+       "refs": {
+        "street": "ozbnvphhju3wo"
+       },
+       "result": "Aborg Strandvej, 5610 Assens",
+       "lifecycle": "current",
+       "components": {
+        "street": "Aborg Strandvej",
+        "postcodes": [
+         {
+          "postcode": "5610",
+          "city": "Assens"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         557005.9,
+         6128568.58
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "f4a8ee89-8390-4f08-b841-eb7efd971b67"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "odikmojmnj4gg"
+       },
+       "refs": {
+        "street": "odikmojmnj4gg"
+       },
+       "result": "Søborg Strandvej, 4850 Stubbekøbing",
+       "lifecycle": "current",
+       "components": {
+        "street": "Søborg Strandvej",
+        "postcodes": [
+         {
+          "postcode": "4850",
+          "city": "Stubbekøbing"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0376",
+          "kommune": "Guldborgsund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         697999.53,
+         6087015.39
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5652,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "8427dc4c-135f-4032-8a9e-44b8d4fdaa2d"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "7pymknkrkdnzi"
+       },
+       "refs": {
+        "street": "7pymknkrkdnzi"
+       },
+       "result": "Sjelborg Strandvej, 6710 Esbjerg V",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sjelborg Strandvej",
+        "postcodes": [
+         {
+          "postcode": "6710",
+          "city": "Esbjerg V"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0561",
+          "kommune": "Esbjerg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         458090.7,
+         6155332.21
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "5c24bb96-e4bc-4130-8ae0-c3133d40359b"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "jfkdmehz3bs2g"
+       },
+       "refs": {
+        "city": "jfkdmehz3bs2g"
+       },
+       "result": "Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         726604.387,
+         6192440.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "jfkdmehz3bs2g"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "s3k3mbucyhyno"
+       },
+       "refs": {
+        "street": "s3k3mbucyhyno"
+       },
+       "result": "Strandvej, 9560 Hadsund",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "9560",
+          "city": "Hadsund"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0846",
+          "kommune": "Mariagerfjord"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         567980.94,
+         6286000.01
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "01f95f79-ee16-4e69-9260-78a0b1422dd1"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "zooaatmum7i4k"
+       },
+       "refs": {
+        "street": "zooaatmum7i4k"
+       },
+       "result": "Strandvej, 6320 Egernsund",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "6320",
+          "city": "Egernsund"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         539356.14,
+         6084294.05
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "0359b2f7-cf39-429b-8195-a7dbae24ec7b"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "vghivvrmu6oj2"
+       },
+       "refs": {
+        "street": "vghivvrmu6oj2"
+       },
+       "result": "Strandvej, 9500 Hobro",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "9500",
+          "city": "Hobro"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0846",
+          "kommune": "Mariagerfjord"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         549136.13,
+         6277757.22
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "04030569-3772-4ab6-bb9a-32419f716884"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "xvzofbmo5ihli"
+       },
+       "refs": {
+        "street": "xvzofbmo5ihli"
+       },
+       "result": "Strandvej, 6261 Bredebro",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "6261",
+          "city": "Bredebro"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0550",
+          "kommune": "Tønder"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         477870.59,
+         6103512.18
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "066307ff-ebf0-476d-912f-060454596448"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "qskoizrzcprcc"
+       },
+       "refs": {
+        "street": "qskoizrzcprcc"
+       },
+       "result": "Strandvej, 5400 Bogense",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "5400",
+          "city": "Bogense"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         568350.38,
+         6158187.03
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "0968122e-1b38-497c-974d-73c020a88c65"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "street",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "street",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 135,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "street",
+        "id": "ekjy5m2rpyvb2"
+       },
+       "refs": {
+        "street": "ekjy5m2rpyvb2"
+       },
+       "result": "Skodsborg Strandvej, 2942 Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "street": "Skodsborg Strandvej",
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723870.96,
+         6192448.92
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 1.0,
+        "confidence": "A",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "166e957e-f0df-4e0b-b8f4-6e5503cd381a"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "ozbnvphhju3wo"
+       },
+       "refs": {
+        "street": "ozbnvphhju3wo"
+       },
+       "result": "Aborg Strandvej, 5610 Assens",
+       "lifecycle": "current",
+       "components": {
+        "street": "Aborg Strandvej",
+        "postcodes": [
+         {
+          "postcode": "5610",
+          "city": "Assens"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0420",
+          "kommune": "Assens"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         557005.9,
+         6128568.58
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5909,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "f4a8ee89-8390-4f08-b841-eb7efd971b67"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "odikmojmnj4gg"
+       },
+       "refs": {
+        "street": "odikmojmnj4gg"
+       },
+       "result": "Søborg Strandvej, 4850 Stubbekøbing",
+       "lifecycle": "current",
+       "components": {
+        "street": "Søborg Strandvej",
+        "postcodes": [
+         {
+          "postcode": "4850",
+          "city": "Stubbekøbing"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0376",
+          "kommune": "Guldborgsund"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         697999.53,
+         6087015.39
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5652,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "8427dc4c-135f-4032-8a9e-44b8d4fdaa2d"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "7pymknkrkdnzi"
+       },
+       "refs": {
+        "street": "7pymknkrkdnzi"
+       },
+       "result": "Sjelborg Strandvej, 6710 Esbjerg V",
+       "lifecycle": "current",
+       "components": {
+        "street": "Sjelborg Strandvej",
+        "postcodes": [
+         {
+          "postcode": "6710",
+          "city": "Esbjerg V"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0561",
+          "kommune": "Esbjerg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         458090.7,
+         6155332.21
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5417,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "5c24bb96-e4bc-4130-8ae0-c3133d40359b"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "s3k3mbucyhyno"
+       },
+       "refs": {
+        "street": "s3k3mbucyhyno"
+       },
+       "result": "Strandvej, 9560 Hadsund",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "9560",
+          "city": "Hadsund"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0846",
+          "kommune": "Mariagerfjord"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         567980.94,
+         6286000.01
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "01f95f79-ee16-4e69-9260-78a0b1422dd1"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "zooaatmum7i4k"
+       },
+       "refs": {
+        "street": "zooaatmum7i4k"
+       },
+       "result": "Strandvej, 6320 Egernsund",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "6320",
+          "city": "Egernsund"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         539356.14,
+         6084294.05
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "0359b2f7-cf39-429b-8195-a7dbae24ec7b"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "vghivvrmu6oj2"
+       },
+       "refs": {
+        "street": "vghivvrmu6oj2"
+       },
+       "result": "Strandvej, 9500 Hobro",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "9500",
+          "city": "Hobro"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0846",
+          "kommune": "Mariagerfjord"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         549136.13,
+         6277757.22
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "04030569-3772-4ab6-bb9a-32419f716884"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "xvzofbmo5ihli"
+       },
+       "refs": {
+        "street": "xvzofbmo5ihli"
+       },
+       "result": "Strandvej, 6261 Bredebro",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "6261",
+          "city": "Bredebro"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0550",
+          "kommune": "Tønder"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         477870.59,
+         6103512.18
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "066307ff-ebf0-476d-912f-060454596448"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "qskoizrzcprcc"
+       },
+       "refs": {
+        "street": "qskoizrzcprcc"
+       },
+       "result": "Strandvej, 5400 Bogense",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "5400",
+          "city": "Bogense"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         568350.38,
+         6158187.03
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "0968122e-1b38-497c-974d-73c020a88c65"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "street",
+        "id": "ejj3ajjqw7jsq"
+       },
+       "refs": {
+        "street": "ejj3ajjqw7jsq"
+       },
+       "result": "Strandvej, 4900 Nakskov",
+       "lifecycle": "current",
+       "components": {
+        "street": "Strandvej",
+        "postcodes": [
+         {
+          "postcode": "4900",
+          "city": "Nakskov"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0360",
+          "kommune": "Lolland"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         635668.36,
+         6078306.16
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "street": {
+          "source": "DAR.NavngivenVej",
+          "id": "1233148a-900b-4405-94db-b73237aef01f"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "postcode",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "postcode",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 141,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "wgxiyjjxsa2r2"
+       },
+       "refs": {
+        "postcode": "wgxiyjjxsa2r2"
+       },
+       "result": "Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         726604.387,
+         6192440.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "B",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2942"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "yjoditi5tvk5k"
+       },
+       "refs": {
+        "postcode": "yjoditi5tvk5k"
+       },
+       "result": "Strandby",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9970",
+          "city": "Strandby"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0813",
+          "kommune": "Frederikshavn"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592297.848,
+         6377292.78
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2727,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "9970"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "26kvtowkhfrwg"
+       },
+       "refs": {
+        "postcode": "26kvtowkhfrwg"
+       },
+       "result": "Vejers Strand",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6853",
+          "city": "Vejers Strand"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0573",
+          "kommune": "Varde"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         259509.249,
+         6151955.795
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2692,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "6853"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "dxefblhejpjtc"
+       },
+       "refs": {
+        "postcode": "dxefblhejpjtc"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8660",
+          "city": "Skanderborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0615",
+          "kommune": "Horsens"
+         },
+         {
+          "kommunekode": "0727",
+          "kommune": "Odder"
+         },
+         {
+          "kommunekode": "0746",
+          "kommune": "Skanderborg"
+         },
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         556632.444,
+         6211516.605
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.24,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8660"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "fp4g2gjsvx5uc"
+       },
+       "refs": {
+        "postcode": "fp4g2gjsvx5uc"
+       },
+       "result": "Solrød Strand",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2680",
+          "city": "Solrød Strand"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0269",
+          "kommune": "Solrød"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         705485.171,
+         6157178.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2222,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2680"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "4zb4tee2u33n6"
+       },
+       "refs": {
+        "postcode": "4zb4tee2u33n6"
+       },
+       "result": "Brøndby Strand",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2660",
+          "city": "Brøndby Strand"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0153",
+          "kommune": "Brøndby"
+         },
+         {
+          "kommunekode": "0167",
+          "kommune": "Hvidovre"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         715637.571,
+         6168432.275
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2069,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2660"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "zuwheqlymekci"
+       },
+       "refs": {
+        "postcode": "zuwheqlymekci"
+       },
+       "result": "Vallensbæk Strand",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2665",
+          "city": "Vallensbæk Strand"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0187",
+          "kommune": "Vallensbæk"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         713489.998,
+         6168679.51
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1875,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2665"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "ddj4z7iht5xyi"
+       },
+       "refs": {
+        "postcode": "ddj4z7iht5xyi"
+       },
+       "result": "Sandved",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4262",
+          "city": "Sandved"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0330",
+          "kommune": "Slagelse"
+         },
+         {
+          "kommunekode": "0370",
+          "kommune": "Næstved"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         660927.712,
+         6124831.725
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1739,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "4262"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "fxd4gc7oexyca"
+       },
+       "refs": {
+        "postcode": "fxd4gc7oexyca"
+       },
+       "result": "Søborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2860",
+          "city": "Søborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0101",
+          "kommune": "København"
+         },
+         {
+          "kommunekode": "0159",
+          "kommune": "Gladsaxe"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718656.073,
+         6182251.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1739,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "2860"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "postcode",
+        "id": "nangc776ikq6o"
+       },
+       "refs": {
+        "postcode": "nangc776ikq6o"
+       },
+       "result": "Glesborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8585",
+          "city": "Glesborg"
+         }
+        ],
+        "kommuner": [
+         {
+          "kommunekode": "0707",
+          "kommune": "Norddjurs"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         602080.767,
+         6277341.935
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "postcode": {
+          "source": "DAGI.Postnummerinddeling",
+          "id": "8585"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "city",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "city",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 134,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "city",
+        "id": "jfkdmehz3bs2g"
+       },
+       "refs": {
+        "city": "jfkdmehz3bs2g"
+       },
+       "result": "Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2942",
+          "city": "Skodsborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         726604.387,
+         6192440.88
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "B",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "jfkdmehz3bs2g"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "tzudly4xsvvga"
+       },
+       "refs": {
+        "city": "tzudly4xsvvga"
+       },
+       "result": "Strandby",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "9970",
+          "city": "Strandby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592297.848,
+         6377292.78
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2727,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "tzudly4xsvvga"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "vgivuxnwh4wpc"
+       },
+       "refs": {
+        "city": "vgivuxnwh4wpc"
+       },
+       "result": "Vejers Strand",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "6853",
+          "city": "Vejers Strand"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         259509.249,
+         6151955.795
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2692,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "vgivuxnwh4wpc"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "iv7znd3wz24uq"
+       },
+       "refs": {
+        "city": "iv7znd3wz24uq"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8660",
+          "city": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         556632.444,
+         6211516.605
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.24,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "iv7znd3wz24uq"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "ekw52gbvjkday"
+       },
+       "refs": {
+        "city": "ekw52gbvjkday"
+       },
+       "result": "Solrød Strand",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2680",
+          "city": "Solrød Strand"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         705485.171,
+         6157178.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2222,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "ekw52gbvjkday"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "mursasuh3povy"
+       },
+       "refs": {
+        "city": "mursasuh3povy"
+       },
+       "result": "Brøndby Strand",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2660",
+          "city": "Brøndby Strand"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         715637.571,
+         6168432.275
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2069,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "mursasuh3povy"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "ux43vuqjgap7a"
+       },
+       "refs": {
+        "city": "ux43vuqjgap7a"
+       },
+       "result": "Vallensbæk Strand",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2665",
+          "city": "Vallensbæk Strand"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         713489.998,
+         6168679.51
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1875,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "ux43vuqjgap7a"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "322yptstlgdnw"
+       },
+       "refs": {
+        "city": "322yptstlgdnw"
+       },
+       "result": "Sandved",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "4262",
+          "city": "Sandved"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         660927.712,
+         6124831.725
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1739,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "322yptstlgdnw"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "v7evie7odqwtk"
+       },
+       "refs": {
+        "city": "v7evie7odqwtk"
+       },
+       "result": "Søborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "2860",
+          "city": "Søborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         718656.073,
+         6182251.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1739,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "v7evie7odqwtk"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "city",
+        "id": "iarhwoxjxhiu4"
+       },
+       "refs": {
+        "city": "iarhwoxjxhiu4"
+       },
+       "result": "Glesborg",
+       "lifecycle": "current",
+       "components": {
+        "postcodes": [
+         {
+          "postcode": "8585",
+          "city": "Glesborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         602080.767,
+         6277341.935
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1667,
+        "confidence": "C",
+        "upstream": {
+         "city": {
+          "source": "bifrost.city",
+          "id": "iarhwoxjxhiu4"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "ejendom",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 404,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "gzflc3vtxm45k"
+       },
+       "refs": {
+        "ejendom": "gzflc3vtxm45k"
+       },
+       "result": "1a, Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "matrikelnummer": "1a",
+        "ejerlavskode": 360753,
+        "ejerlav": "Skeby Strand, Skeby",
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2302662
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592679.873,
+         6154317.412
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8074292
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "myyf7mh3jzrw6"
+       },
+       "refs": {
+        "ejendom": "myyf7mh3jzrw6"
+       },
+       "result": "1c, Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1c",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54418
+           }
+          },
+          {
+           "matrikelnummer": "6c",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 50887
+           }
+          },
+          {
+           "matrikelnummer": "2ec",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51887
+           }
+          },
+          {
+           "matrikelnummer": "1bg",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54417
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         591373.48,
+         6156099.388
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 1330907
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "vq3bg3wa6l6zq"
+       },
+       "refs": {
+        "ejendom": "vq3bg3wa6l6zq"
+       },
+       "result": "1d, Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1d",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54419
+           }
+          },
+          {
+           "matrikelnummer": "21a",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54219
+           }
+          },
+          {
+           "matrikelnummer": "1m",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54412
+           }
+          },
+          {
+           "matrikelnummer": "1as",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54368
+           }
+          },
+          {
+           "matrikelnummer": "1au",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54370
+           }
+          },
+          {
+           "matrikelnummer": "1az",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54383
+           }
+          },
+          {
+           "matrikelnummer": "1ci",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54428
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         591816.852,
+         6154677.377
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 10092262
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "pzzedufpfkjog"
+       },
+       "refs": {
+        "ejendom": "pzzedufpfkjog"
+       },
+       "result": "1g, Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1g",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54420
+           }
+          },
+          {
+           "matrikelnummer": "2cc",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51869
+           }
+          },
+          {
+           "matrikelnummer": "2dh",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51867
+           }
+          },
+          {
+           "matrikelnummer": "2eæ",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51868
+           }
+          },
+          {
+           "matrikelnummer": "9b",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54217
+           }
+          },
+          {
+           "matrikelnummer": "9c",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54232
+           }
+          },
+          {
+           "matrikelnummer": "9d",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54218
+           }
+          },
+          {
+           "matrikelnummer": "9f",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54341
+           }
+          },
+          {
+           "matrikelnummer": "9l",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54336
+           }
+          },
+          {
+           "matrikelnummer": "1k",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54414
+           }
+          },
+          {
+           "matrikelnummer": "1l",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54413
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         591309.655,
+         6155149.332
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9432871
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "xcjq6lye62zmu"
+       },
+       "refs": {
+        "ejendom": "xcjq6lye62zmu"
+       },
+       "result": "1h, Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1h",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54421
+           }
+          },
+          {
+           "matrikelnummer": "2cb",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51797
+           }
+          },
+          {
+           "matrikelnummer": "2ci",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51874
+           }
+          },
+          {
+           "matrikelnummer": "2cn",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51875
+           }
+          },
+          {
+           "matrikelnummer": "2co",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51876
+           }
+          },
+          {
+           "matrikelnummer": "2dv",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51863
+           }
+          },
+          {
+           "matrikelnummer": "2ea",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51860
+           }
+          },
+          {
+           "matrikelnummer": "2ef",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51865
+           }
+          },
+          {
+           "matrikelnummer": "2el",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51861
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         591426.354,
+         6154963.04
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 1330880
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "3y22mmrdyjy3o"
+       },
+       "refs": {
+        "ejendom": "3y22mmrdyjy3o"
+       },
+       "result": "1o, Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [
+           {
+            "id": "ohgotafyczdg4",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 733973
+            }
+           }
+          ],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1o",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54411
+           }
+          },
+          {
+           "matrikelnummer": "1",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 50677
+           }
+          },
+          {
+           "matrikelnummer": "4b",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51210
+           }
+          },
+          {
+           "matrikelnummer": "5b",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51208
+           }
+          },
+          {
+           "matrikelnummer": "5ad",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51145
+           }
+          },
+          {
+           "matrikelnummer": "6a",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51209
+           }
+          },
+          {
+           "matrikelnummer": "6an",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51146
+           }
+          },
+          {
+           "matrikelnummer": "7b",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51147
+           }
+          },
+          {
+           "matrikelnummer": "11f",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 50680
+           }
+          },
+          {
+           "matrikelnummer": "13b",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 50682
+           }
+          },
+          {
+           "matrikelnummer": "15d",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 50681
+           }
+          },
+          {
+           "matrikelnummer": "31b",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51144
+           }
+          },
+          {
+           "matrikelnummer": "51",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51437
+           }
+          },
+          {
+           "matrikelnummer": "85",
+           "ejerlavskode": 360552,
+           "ejerlav": "Hasmark By, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 50904
+           }
+          },
+          {
+           "matrikelnummer": "1a",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51607
+           }
+          },
+          {
+           "matrikelnummer": "1g",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51598
+           }
+          },
+          {
+           "matrikelnummer": "1i",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51621
+           }
+          },
+          {
+           "matrikelnummer": "1l",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51600
+           }
+          },
+          {
+           "matrikelnummer": "1p",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51622
+           }
+          },
+          {
+           "matrikelnummer": "1q",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51620
+           }
+          },
+          {
+           "matrikelnummer": "1r",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51612
+           }
+          },
+          {
+           "matrikelnummer": "1s",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51619
+           }
+          },
+          {
+           "matrikelnummer": "1t",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51624
+           }
+          },
+          {
+           "matrikelnummer": "1u",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51618
+           }
+          },
+          {
+           "matrikelnummer": "1v",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51611
+           }
+          },
+          {
+           "matrikelnummer": "1x",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51625
+           }
+          },
+          {
+           "matrikelnummer": "1y",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51613
+           }
+          },
+          {
+           "matrikelnummer": "1z",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51626
+           }
+          },
+          {
+           "matrikelnummer": "1æ",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51614
+           }
+          },
+          {
+           "matrikelnummer": "1ø",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51604
+           }
+          },
+          {
+           "matrikelnummer": "1aa",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51617
+           }
+          },
+          {
+           "matrikelnummer": "1ab",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51615
+           }
+          },
+          {
+           "matrikelnummer": "1ac",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51616
+           }
+          },
+          {
+           "matrikelnummer": "1ad",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51609
+           }
+          },
+          {
+           "matrikelnummer": "2",
+           "ejerlavskode": 360553,
+           "ejerlav": "Hofmansgave Hgd., Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51610
+           }
+          },
+          {
+           "matrikelnummer": "2cg",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51859
+           }
+          },
+          {
+           "matrikelnummer": "6",
+           "ejerlavskode": 360555,
+           "ejerlav": "Norup Strand, Norup",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 51792
+           }
+          },
+          {
+           "matrikelnummer": "8s",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 100065167
+           }
+          },
+          {
+           "matrikelnummer": "10r",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2542322
+           }
+          },
+          {
+           "matrikelnummer": "1t",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54409
+           }
+          },
+          {
+           "matrikelnummer": "1bh",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54410
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         588415.872,
+         6158112.841
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9432804
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "6vd2ndqfw6i56"
+       },
+       "refs": {
+        "ejendom": "6vd2ndqfw6i56"
+       },
+       "result": "1u, Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [
+           {
+            "id": "mhb3z5keg4lc6",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734077
+            }
+           }
+          ],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1u",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54406
+           }
+          },
+          {
+           "matrikelnummer": "3i",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2321312
+           }
+          },
+          {
+           "matrikelnummer": "8c",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54309
+           }
+          },
+          {
+           "matrikelnummer": "8l",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54303
+           }
+          },
+          {
+           "matrikelnummer": "17b",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54305
+           }
+          },
+          {
+           "matrikelnummer": "1v",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54405
+           }
+          },
+          {
+           "matrikelnummer": "1ah",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54401
+           }
+          },
+          {
+           "matrikelnummer": "1ai",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54381
+           }
+          },
+          {
+           "matrikelnummer": "1ak",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54380
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592258.345,
+         6153483.934
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8073326
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "ielsg2hythqvc"
+       },
+       "refs": {
+        "ejendom": "ielsg2hythqvc"
+       },
+       "result": "1z, Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [
+           {
+            "id": "rl6eb3gipti2e",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734013
+            }
+           },
+           {
+            "id": "kmcel5zlkb3hs",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734014
+            }
+           },
+           {
+            "id": "ngkkrr23ugd4q",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734015
+            }
+           },
+           {
+            "id": "rghiedsjbp5o4",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734016
+            }
+           },
+           {
+            "id": "hjjykrsn4cyhe",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734093
+            }
+           }
+          ],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1z",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54403
+           }
+          },
+          {
+           "matrikelnummer": "5c",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54238
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592993.604,
+         6154005.239
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 1330889
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "jyga7xa7gs3ge"
+       },
+       "refs": {
+        "ejendom": "jyga7xa7gs3ge"
+       },
+       "result": "1æ, Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [
+           {
+            "id": "xcsbf2fghdlpy",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 733127
+            }
+           },
+           {
+            "id": "2lkk4bsxmcou2",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734007
+            }
+           },
+           {
+            "id": "shyzogrnltufa",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734008
+            }
+           },
+           {
+            "id": "oedrzn67pyiem",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734009
+            }
+           },
+           {
+            "id": "dzeftb26cquy4",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734010
+            }
+           },
+           {
+            "id": "7nlhtz44rf7eg",
+            "type": "bygning_paa_fremmed_grund",
+            "lifecycle": "current",
+            "upstream": {
+             "source": "MAT.BygningPaaFremmedGrund",
+             "id": 734072
+            }
+           }
+          ],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1æ",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54398
+           }
+          },
+          {
+           "matrikelnummer": "6i",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54235
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         593339.403,
+         6153836.424
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8219051
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "3pf2a4tamdu6c"
+       },
+       "refs": {
+        "ejendom": "3pf2a4tamdu6c"
+       },
+       "result": "1ø, Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0480",
+          "kommune": "Nordfyns"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "1ø",
+           "ejerlavskode": 360753,
+           "ejerlav": "Skeby Strand, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54392
+           }
+          },
+          {
+           "matrikelnummer": "4f",
+           "ejerlavskode": 360752,
+           "ejerlav": "Skeby By, Skeby",
+           "kommunekode": "0480",
+           "kommune": "Nordfyns",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 54233
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         593575.712,
+         6153650.511
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 8798029
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejendom_retired",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "ejendom",
+     "lifecycle": [
+      "retired"
+     ],
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 209,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "zosyuup2wh2tc"
+       },
+       "refs": {
+        "ejendom": "zosyuup2wh2tc"
+       },
+       "result": "139, Skudstrup, Skodborg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "139",
+        "ejerlavskode": 1440652,
+        "ejerlav": "Skudstrup, Skodborg",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "139",
+           "ejerlavskode": 1440652,
+           "ejerlav": "Skudstrup, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "retired",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1885898
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         513729.831,
+         6141678.193
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 5199815
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "agd7vgxfmy5cg"
+       },
+       "refs": {
+        "ejendom": "agd7vgxfmy5cg"
+       },
+       "result": "21, Skudstrup, Skodborg",
+       "lifecycle": "retired",
+       "components": {
+        "matrikelnummer": "21",
+        "ejerlavskode": 1440652,
+        "ejerlav": "Skudstrup, Skodborg",
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "21",
+           "ejerlavskode": 1440652,
+           "ejerlav": "Skudstrup, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1885999
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         511914.836,
+         6141894.877
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 100003715
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "4fbqoy5vcly2u"
+       },
+       "refs": {
+        "ejendom": "4fbqoy5vcly2u"
+       },
+       "result": "33c, Vejen By, Vejen",
+       "lifecycle": "retired",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "33c",
+           "ejerlavskode": 1280852,
+           "ejerlav": "Vejen By, Vejen",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 2376893
+           }
+          },
+          {
+           "matrikelnummer": "20",
+           "ejerlavskode": 1440652,
+           "ejerlav": "Skudstrup, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1886036
+           }
+          },
+          {
+           "matrikelnummer": "302",
+           "ejerlavskode": 1440652,
+           "ejerlav": "Skudstrup, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1886045
+           }
+          },
+          {
+           "matrikelnummer": "306",
+           "ejerlavskode": 1440652,
+           "ejerlav": "Skudstrup, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1886049
+           }
+          },
+          {
+           "matrikelnummer": "308",
+           "ejerlavskode": 1440652,
+           "ejerlav": "Skudstrup, Skodborg",
+           "kommunekode": "0575",
+           "kommune": "Vejen",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1886034
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         510382.623,
+         6147757.216
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9252252
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejendom",
+        "id": "iuivlqjllmdkw"
+       },
+       "refs": {
+        "ejendom": "iuivlqjllmdkw"
+       },
+       "result": "2b, Vivild By, Vivild",
+       "lifecycle": "retired",
+       "components": {
+        "ejerlavskode": 932155,
+        "ejerlav": "Vivild By, Vivild",
+        "kommuner": [
+         {
+          "kommunekode": "0707",
+          "kommune": "Norddjurs"
+         }
+        ]
+       },
+       "ejendom": {
+        "type": "samlet_fast_ejendom",
+        "relations": {
+         "parents": {
+          "refs": [],
+          "complete": true
+         },
+         "children": {
+          "refs": [],
+          "complete": true
+         }
+        },
+        "parcels": {
+         "items": [
+          {
+           "matrikelnummer": "2b",
+           "ejerlavskode": 932155,
+           "ejerlav": "Vivild By, Vivild",
+           "kommunekode": "0707",
+           "kommune": "Norddjurs",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1173548
+           }
+          },
+          {
+           "matrikelnummer": "14b",
+           "ejerlavskode": 932155,
+           "ejerlav": "Vivild By, Vivild",
+           "kommunekode": "0707",
+           "kommune": "Norddjurs",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1173557
+           }
+          },
+          {
+           "matrikelnummer": "14e",
+           "ejerlavskode": 932155,
+           "ejerlav": "Vivild By, Vivild",
+           "kommunekode": "0707",
+           "kommune": "Norddjurs",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1173560
+           }
+          },
+          {
+           "matrikelnummer": "14k",
+           "ejerlavskode": 932155,
+           "ejerlav": "Vivild By, Vivild",
+           "kommunekode": "0707",
+           "kommune": "Norddjurs",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1173559
+           }
+          },
+          {
+           "matrikelnummer": "14o",
+           "ejerlavskode": 932155,
+           "ejerlav": "Vivild By, Vivild",
+           "kommunekode": "0707",
+           "kommune": "Norddjurs",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1173562
+           }
+          },
+          {
+           "matrikelnummer": "14y",
+           "ejerlavskode": 932155,
+           "ejerlav": "Vivild By, Vivild",
+           "kommunekode": "0707",
+           "kommune": "Norddjurs",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1173568
+           }
+          },
+          {
+           "matrikelnummer": "14æ",
+           "ejerlavskode": 932155,
+           "ejerlav": "Vivild By, Vivild",
+           "kommunekode": "0707",
+           "kommune": "Norddjurs",
+           "lifecycle": "current",
+           "upstream": {
+            "source": "MAT.Jordstykke",
+            "id": 1173555
+           }
+          }
+         ],
+         "complete": true
+        }
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         589065.527,
+         6260837.194
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2593,
+        "confidence": "C",
+        "upstream": {
+         "ejendom": {
+          "source": "MAT.SamletFastEjendom",
+          "id": 9976279
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "ejerlav",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "ejerlav",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 140,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "ryfo7l7kvhwxk"
+       },
+       "refs": {
+        "ejerlav": "ryfo7l7kvhwxk"
+       },
+       "result": "Skeby Strand, Skeby",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skeby Strand, Skeby",
+        "ejerlavskode": 360753
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592031.807,
+         6154619.952
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2917,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 360753
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "w25l53ifsjb7e"
+       },
+       "refs": {
+        "ejerlav": "w25l53ifsjb7e"
+       },
+       "result": "Skudstrup, Skodborg",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skudstrup, Skodborg",
+        "ejerlavskode": 1440652
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         510467.13,
+         6144065.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2857,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1440652
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "2agaak3jzet7q"
+       },
+       "refs": {
+        "ejerlav": "2agaak3jzet7q"
+       },
+       "result": "Stadsborg, Koed",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Stadsborg, Koed",
+        "ejerlavskode": 930855
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         592075.732,
+         6254997.949
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2593,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 930855
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "z3pqqtt4i2g3w"
+       },
+       "refs": {
+        "ejerlav": "z3pqqtt4i2g3w"
+       },
+       "result": "Bogense Strand, Skovby",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Bogense Strand, Skovby",
+        "ejerlavskode": 380751
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         566295.701,
+         6156378.692
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 380751
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "einf2ymvnaksm"
+       },
+       "refs": {
+        "ejerlav": "einf2ymvnaksm"
+       },
+       "result": "Skodsbøl, Ådum",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skodsbøl, Ådum",
+        "ejerlavskode": 1200158
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         472878.857,
+         6191120.949
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1200158
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "rxutinkim2r3i"
+       },
+       "refs": {
+        "ejerlav": "rxutinkim2r3i"
+       },
+       "result": "Strandby By, Strandby",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Strandby By, Strandby",
+        "ejerlavskode": 671156
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         513239.655,
+         6294083.297
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 671156
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "6jzyswdzsd56q"
+       },
+       "refs": {
+        "ejerlav": "6jzyswdzsd56q"
+       },
+       "result": "Skodborg Ejerlav, Skodborg",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skodborg Ejerlav, Skodborg",
+        "ejerlavskode": 1440651
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         509777.844,
+         6142147.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2414,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1440651
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "hxe4od23vgyuc"
+       },
+       "refs": {
+        "ejerlav": "hxe4od23vgyuc"
+       },
+       "result": "Skrøbelev Strand, Skrøbelev",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skrøbelev Strand, Skrøbelev",
+        "ejerlavskode": 450455
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         609079.025,
+         6088197.951
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2414,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 450455
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "hvoutfdpsq7yk"
+       },
+       "refs": {
+        "ejerlav": "hvoutfdpsq7yk"
+       },
+       "result": "Skodsbøl, Broager",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Skodsbøl, Broager",
+        "ejerlavskode": 1540158
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         540951.375,
+         6083678.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2333,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 1540158
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "ejerlav",
+        "id": "f52xur6tvochk"
+       },
+       "refs": {
+        "ejerlav": "f52xur6tvochk"
+       },
+       "result": "Lumby Strand, Lumby",
+       "lifecycle": "current",
+       "components": {
+        "ejerlav": "Lumby Strand, Lumby",
+        "ejerlavskode": 360357
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         589256.648,
+         6147000.153
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2308,
+        "confidence": "C",
+        "upstream": {
+         "ejerlav": {
+          "source": "MAT.Ejerlav",
+          "id": 360357
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "stednavn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "stednavn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 141,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "xzvrtzat2ezuq"
+       },
+       "refs": {
+        "stednavn": "xzvrtzat2ezuq"
+       },
+       "result": "Skodsborg Strandpark",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsborg Strandpark",
+        "type": "naturareal"
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723891.403,
+         6192768.59
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.625,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "7534645"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "e3b35gin6kt46"
+       },
+       "refs": {
+        "stednavn": "e3b35gin6kt46"
+       },
+       "result": "Skodsborg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsborg",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723858.896,
+         6191905.57
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.5263,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "7484561"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "swnarffxruiuc"
+       },
+       "refs": {
+        "stednavn": "swnarffxruiuc"
+       },
+       "result": "Skodsborg Station",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsborg Station",
+        "type": "standsningssted",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723718.63,
+         6192176.8
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.44,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1055683"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "mzxzitjismblg"
+       },
+       "refs": {
+        "stednavn": "mzxzitjismblg"
+       },
+       "result": "Skodsborg Dam",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsborg Dam",
+        "type": "sø",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723374.191,
+         6191540.295
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4348,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1069615"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "g7cwn7ues2d7a"
+       },
+       "refs": {
+        "stednavn": "g7cwn7ues2d7a"
+       },
+       "result": "Skodsborg Eng",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Skodsborg Eng",
+        "type": "naturareal",
+        "kommuner": [
+         {
+          "kommunekode": "0230",
+          "kommune": "Rudersdal"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         723709.513,
+         6191735.69
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4348,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1146660"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "3opkrc4f647ow"
+       },
+       "refs": {
+        "stednavn": "3opkrc4f647ow"
+       },
+       "result": "Strandborg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Strandborg",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0707",
+          "kommune": "Norddjurs"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         593262.745,
+         6263715.015
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4286,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1031056"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "cuiurt2eow45q"
+       },
+       "refs": {
+        "stednavn": "cuiurt2eow45q"
+       },
+       "result": "Strandborg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Strandborg",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0336",
+          "kommune": "Stevns"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         714065.974,
+         6128387.005
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4286,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1100506"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "motghzvqbnta4"
+       },
+       "refs": {
+        "stednavn": "motghzvqbnta4"
+       },
+       "result": "Strandborg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Strandborg",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0751",
+          "kommune": "Aarhus"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         569925.903,
+         6217522.045
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4286,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1124973"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "ll4htjypr5hnu"
+       },
+       "refs": {
+        "stednavn": "ll4htjypr5hnu"
+       },
+       "result": "Strandborg",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Strandborg",
+        "type": "bygning",
+        "kommuner": [
+         {
+          "kommunekode": "0270",
+          "kommune": "Gribskov"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         705045.825,
+         6225066.5
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4286,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1135441"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "stednavn",
+        "id": "v74ntp2ajcezy"
+       },
+       "refs": {
+        "stednavn": "v74ntp2ajcezy"
+       },
+       "result": "Strandvejen",
+       "lifecycle": "current",
+       "components": {
+        "stednavn": "Strandvejen",
+        "type": "bebyggelse",
+        "kommuner": [
+         {
+          "kommunekode": "0825",
+          "kommune": "Læsø"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         615019.497,
+         6349334.815
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.4091,
+        "confidence": "C",
+        "upstream": {
+         "stednavn": {
+          "source": "DS.Stednavn",
+          "id": "1010474"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "kommune",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "kommune",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 134,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "4g2kaelduf6im"
+       },
+       "refs": {
+        "kommune": "4g2kaelduf6im"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0746",
+          "kommune": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         553205.992,
+         6215883.855
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.24,
+        "confidence": "B",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0746"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "xfesabtvns5pw"
+       },
+       "refs": {
+        "kommune": "xfesabtvns5pw"
+       },
+       "result": "Silkeborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0740",
+          "kommune": "Silkeborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         537834.497,
+         6226474.69
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.16,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0740"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "c3h7fi7t6ikym"
+       },
+       "refs": {
+        "kommune": "c3h7fi7t6ikym"
+       },
+       "result": "Svendborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0479",
+          "kommune": "Svendborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         601749.963,
+         6109890.33
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.16,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0479"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "kfj25kgqxygpy"
+       },
+       "refs": {
+        "kommune": "kfj25kgqxygpy"
+       },
+       "result": "Fredensborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0210",
+          "kommune": "Fredensborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         714864.85,
+         6205788.28
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1481,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0210"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "shcdgza3xmtsy"
+       },
+       "refs": {
+        "kommune": "shcdgza3xmtsy"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0540",
+          "kommune": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         559691.612,
+         6091586.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1481,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0540"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "wpnen2pxcr4ds"
+       },
+       "refs": {
+        "kommune": "wpnen2pxcr4ds"
+       },
+       "result": "Nyborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0450",
+          "kommune": "Nyborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         606916.262,
+         6129373.38
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1304,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0450"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "2akehmiqjevc6"
+       },
+       "refs": {
+        "kommune": "2akehmiqjevc6"
+       },
+       "result": "Struer",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0671",
+          "kommune": "Struer"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         471658.102,
+         6276858.54
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1304,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0671"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "ejpic6urzpy6u"
+       },
+       "refs": {
+        "kommune": "ejpic6urzpy6u"
+       },
+       "result": "Viborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0791",
+          "kommune": "Viborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         523512.942,
+         6256338.25
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1304,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0791"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "rscxp2rl5hbqa"
+       },
+       "refs": {
+        "kommune": "rscxp2rl5hbqa"
+       },
+       "result": "Aalborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         561730.817,
+         6329962.44
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0851"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "kommune",
+        "id": "6ptfzudassfas"
+       },
+       "refs": {
+        "kommune": "6ptfzudassfas"
+       },
+       "result": "Kalundborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0326",
+          "kommune": "Kalundborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         642330.036,
+         6164958.22
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "kommune": {
+          "source": "DAGI.Kommuneinddeling",
+          "id": "0326"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "sogn",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "sogn",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 121,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "t45v3vyvyxd2w"
+       },
+       "refs": {
+        "sogn": "t45v3vyvyxd2w"
+       },
+       "result": "Skodborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0575",
+          "kommune": "Vejen"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8987",
+          "sogn": "Skodborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         511006.28,
+         6141153.815
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.3333,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8987"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "ft4dzxs3dsr4u"
+       },
+       "refs": {
+        "sogn": "ft4dzxs3dsr4u"
+       },
+       "result": "Strandby",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0820",
+          "kommune": "Vesthimmerlands"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8281",
+          "sogn": "Strandby"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         513662.382,
+         6294801.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2727,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8281"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "djbvk7egjwo3a"
+       },
+       "refs": {
+        "sogn": "djbvk7egjwo3a"
+       },
+       "result": "Strandmark",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0167",
+          "kommune": "Hvidovre"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7142",
+          "sogn": "Strandmark"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         719423.439,
+         6170300.93
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.25,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7142"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "3cwmsdmmrjrzm"
+       },
+       "refs": {
+        "sogn": "3cwmsdmmrjrzm"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0746",
+          "kommune": "Skanderborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9166",
+          "sogn": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         557405.578,
+         6211762.995
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.24,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9166"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "ggr35vvjceadg"
+       },
+       "refs": {
+        "sogn": "ggr35vvjceadg"
+       },
+       "result": "Skalborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0851",
+          "kommune": "Aalborg"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9076",
+          "sogn": "Skalborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         553577.855,
+         6318913.0
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2174,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9076"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "y6gzeujm7cgn2"
+       },
+       "refs": {
+        "sogn": "y6gzeujm7cgn2"
+       },
+       "result": "Brøndby Strand",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0153",
+          "kommune": "Brøndby"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "9084",
+          "sogn": "Brøndby Strand"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         715384.246,
+         6169057.65
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2069,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "9084"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "3pfxdej7asay2"
+       },
+       "refs": {
+        "sogn": "3pfxdej7asay2"
+       },
+       "result": "Skjoldborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0787",
+          "kommune": "Thisted"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8726",
+          "sogn": "Skjoldborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         476199.828,
+         6307319.955
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.2,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8726"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "izpefmry5dsgy"
+       },
+       "refs": {
+        "sogn": "izpefmry5dsgy"
+       },
+       "result": "Bangsbostrand",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0813",
+          "kommune": "Frederikshavn"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8479",
+          "sogn": "Bangsbostrand"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         590674.575,
+         6364875.52
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1786,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8479"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "khstwaj7mzgta"
+       },
+       "refs": {
+        "sogn": "khstwaj7mzgta"
+       },
+       "result": "Søborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0270",
+          "kommune": "Gribskov"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "7430",
+          "sogn": "Søborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         707618.292,
+         6221227.875
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1739,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "7430"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "sogn",
+        "id": "y33ael3lqoa74"
+       },
+       "refs": {
+        "sogn": "y33ael3lqoa74"
+       },
+       "result": "Visborg",
+       "lifecycle": "current",
+       "components": {
+        "kommuner": [
+         {
+          "kommunekode": "0846",
+          "kommune": "Mariagerfjord"
+         }
+        ],
+        "sogne": [
+         {
+          "sognekode": "8305",
+          "sogn": "Visborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         571875.2,
+         6288396.83
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1739,
+        "confidence": "C",
+        "upstream": {
+         "sogn": {
+          "source": "DAGI.Sogneinddeling",
+          "id": "8305"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "region",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "region",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 125,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": []
+    }
+   },
+   {
+    "name": "retskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "retskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 129,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "retskreds",
+        "id": "o37aifbkup6n2"
+       },
+       "refs": {
+        "retskreds": "o37aifbkup6n2"
+       },
+       "result": "Retten i Svendborg",
+       "lifecycle": "current",
+       "components": {
+        "retskredse": [
+         {
+          "retskredsnummer": "13",
+          "retskreds": "Retten i Svendborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         595441.597,
+         6121103.825
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1176,
+        "confidence": "C",
+        "upstream": {
+         "retskreds": {
+          "source": "DAGI.Retskreds",
+          "id": "13"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "retskreds",
+        "id": "q37ulfwqiyca6"
+       },
+       "refs": {
+        "retskreds": "q37ulfwqiyca6"
+       },
+       "result": "Retten i Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "retskredse": [
+         {
+          "retskredsnummer": "11",
+          "retskreds": "Retten i Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         506222.063,
+         6104992.435
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "retskreds": {
+          "source": "DAGI.Retskreds",
+          "id": "11"
+         }
+        }
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "politikreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "politikreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 127,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": []
+    }
+   },
+   {
+    "name": "opstillingskreds",
+    "endpoint": "search",
+    "url": "https://bifrost.test42.dataforsyningen.dk/search",
+    "body": {
+     "input": "skodsborg strandvej",
+     "target": "opstillingskreds",
+     "limit": 10
+    },
+    "http_status": 200,
+    "elapsed_ms": 123,
+    "ok": true,
+    "response": {
+     "input": "skodsborg strandvej",
+     "matches": [
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "7j4l2hb2wgh3e"
+       },
+       "refs": {
+        "opstillingskreds": "7j4l2hb2wgh3e"
+       },
+       "result": "Skanderborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "70",
+          "opstillingskreds": "Skanderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         555005.341,
+         6209540.65
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.24,
+        "confidence": "B",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "70"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "tnvrfj5zuiomq"
+       },
+       "refs": {
+        "opstillingskreds": "tnvrfj5zuiomq"
+       },
+       "result": "Svendborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "47",
+          "opstillingskreds": "Svendborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         601745.325,
+         6109885.525
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.16,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "47"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "bfv63uxdgppja"
+       },
+       "refs": {
+        "opstillingskreds": "bfv63uxdgppja"
+       },
+       "result": "Fredensborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "22",
+          "opstillingskreds": "Fredensborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         715183.126,
+         6204324.255
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1481,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "22"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "c5w6hcgpve7fo"
+       },
+       "refs": {
+        "opstillingskreds": "c5w6hcgpve7fo"
+       },
+       "result": "Sønderborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "49",
+          "opstillingskreds": "Sønderborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         559691.612,
+         6091586.655
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1481,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "49"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "sbpqa52m4syxa"
+       },
+       "refs": {
+        "opstillingskreds": "sbpqa52m4syxa"
+       },
+       "result": "Silkeborg Syd",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "78",
+          "opstillingskreds": "Silkeborg Syd"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         532465.132,
+         6218039.28
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1429,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "78"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "ddnr6rivqk5g6"
+       },
+       "refs": {
+        "opstillingskreds": "ddnr6rivqk5g6"
+       },
+       "result": "Silkeborg Nord",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "77",
+          "opstillingskreds": "Silkeborg Nord"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         531008.598,
+         6233135.67
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1333,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "77"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "ifcl2vkynqweo"
+       },
+       "refs": {
+        "opstillingskreds": "ifcl2vkynqweo"
+       },
+       "result": "Nyborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "46",
+          "opstillingskreds": "Nyborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         602822.982,
+         6140198.325
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1304,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "46"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "l6y75sxidhms2"
+       },
+       "refs": {
+        "opstillingskreds": "l6y75sxidhms2"
+       },
+       "result": "Struer",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "73",
+          "opstillingskreds": "Struer"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         460236.503,
+         6265222.605
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1304,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "73"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "xxcrz54wae576"
+       },
+       "refs": {
+        "opstillingskreds": "xxcrz54wae576"
+       },
+       "result": "Faaborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "48",
+          "opstillingskreds": "Faaborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         590001.136,
+         6117643.735
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.125,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "48"
+         }
+        }
+       }
+      },
+      {
+       "ref": {
+        "kind": "opstillingskreds",
+        "id": "cxyuss6nga4v4"
+       },
+       "refs": {
+        "opstillingskreds": "cxyuss6nga4v4"
+       },
+       "result": "Kalundborg",
+       "lifecycle": "current",
+       "components": {
+        "opstillingskredse": [
+         {
+          "opstillingskredsnummer": "38",
+          "opstillingskreds": "Kalundborg"
+         }
+        ]
+       },
+       "point": {
+        "type": "Point",
+        "coordinates": [
+         647241.579,
+         6178916.555
+        ]
+       },
+       "geometry": null,
+       "meta": {
+        "score": 0.1111,
+        "confidence": "C",
+        "upstream": {
+         "opstillingskreds": {
+          "source": "DAGI.Opstillingskreds",
+          "id": "38"
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ }
+}
