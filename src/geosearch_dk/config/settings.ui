@@ -92,14 +92,14 @@
                 <enum>QLineEdit::PasswordEchoOnEdit</enum>
                </property>
                <property name="placeholderText">
-                <string>Tom: miljøvariablen BIFROST_KEY eller pluginets indbyggede nøgle</string>
+                <string>Tom: nøglen i miljøvariablen BIFROST_KEY</string>
                </property>
               </widget>
              </item>
              <item>
               <widget class="QLabel" name="bifrostKeyHelpLabel">
                <property name="text">
-                <string>Geosearch DK søger i Klimadatastyrelsens Bifrost. Lad feltet stå tomt for at bruge nøglen i miljøvariablen BIFROST_KEY eller, hvis den ikke er sat, pluginets indbyggede nøgle. Et token til Dataforsyningen kan ikke bruges med Bifrost.</string>
+                <string>Geosearch DK søger i Klimadatastyrelsens Bifrost. Lad feltet stå tomt for at bruge nøglen i miljøvariablen BIFROST_KEY. Er den heller ikke sat, søges der uden nøgle, og søgningen virker ikke. Et token til Dataforsyningen kan ikke bruges med Bifrost.</string>
                </property>
                <property name="wordWrap">
                 <bool>true</bool>

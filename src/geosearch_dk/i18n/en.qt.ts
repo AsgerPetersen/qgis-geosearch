@@ -34,6 +34,26 @@
         <translation>Open settings</translation>
     </message>
     <message>
+        <location filename="../searchbox.py" line="172"/>
+        <source>Kommunefilter</source>
+        <translation>Municipality filter</translation>
+    </message>
+    <message>
+        <location filename="../searchbox.py" line="177"/>
+        <source>Geosearch DK - Kommunefilter</source>
+        <translation>Geosearch DK - Municipality filter</translation>
+    </message>
+    <message>
+        <location filename="../searchbox.py" line="187"/>
+        <source>Åbn indstillinger</source>
+        <translation>Open settings</translation>
+    </message>
+    <message>
+        <location filename="../searchbox.py" line="205"/>
+        <source>Hvad er nyt</source>
+        <translation>What's new</translation>
+    </message>
+    <message>
         <location filename="../searchbox.py" line="343"/>
         <source>Geosearch DK lader brugeren zoome til navngivne steder i Danmark.&lt;br /&gt;Pluginet benytter Klimadatastyrelsens søgetjeneste Bifrost, som afløser GSearch.&lt;br /&gt;Pluginets webside: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Udviklet af: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
 </source>
@@ -66,6 +86,21 @@
 </context>
 <context>
     <name>geosearchConfigWidget</name>
+    <message>
+        <location filename="../config/settings.ui" line="128"/>
+        <source>Kommunefilter</source>
+        <translation>Municipality filter</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="140"/>
+        <source>Filtrér søgeresultater lokalt på kommune</source>
+        <translation>Filter search results locally by municipality</translation>
+    </message>
+    <message>
+        <location filename="../config/settings.ui" line="196"/>
+        <source>&lt;a href=&quot;#kommunefilter&quot;&gt;Læs mere under Hvad er nyt&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;#kommunefilter&quot;&gt;Read more under What's new&lt;/a&gt;</translation>
+    </message>
     <message>
         <location filename="../config/settings.ui" line="14"/>
         <source>Geosearch DK - Settings</source>
@@ -138,13 +173,13 @@
     </message>
     <message>
         <location filename="../config/settings.ui" line="99"/>
-        <source>Tom: miljøvariablen BIFROST_KEY eller pluginets indbyggede nøgle</source>
-        <translation>Empty: the BIFROST_KEY environment variable or the plugin's built-in key</translation>
+        <source>Tom: nøglen i miljøvariablen BIFROST_KEY</source>
+        <translation>Empty: the key in the BIFROST_KEY environment variable</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="106"/>
-        <source>Geosearch DK søger i Klimadatastyrelsens Bifrost. Lad feltet stå tomt for at bruge nøglen i miljøvariablen BIFROST_KEY eller, hvis den ikke er sat, pluginets indbyggede nøgle. Et token til Dataforsyningen kan ikke bruges med Bifrost.</source>
-        <translation>Geosearch DK searches Bifrost from the Danish Agency for Climate Data (Klimadatastyrelsen). Leave the field empty to use the key in the BIFROST_KEY environment variable or, if it is not set, the plugin's built-in key. A Dataforsyningen token cannot be used with Bifrost.</translation>
+        <source>Geosearch DK søger i Klimadatastyrelsens Bifrost. Lad feltet stå tomt for at bruge nøglen i miljøvariablen BIFROST_KEY. Er den heller ikke sat, søges der uden nøgle, og søgningen virker ikke. Et token til Dataforsyningen kan ikke bruges med Bifrost.</source>
+        <translation>Geosearch DK searches Bifrost from the Danish Agency for Climate Data (Klimadatastyrelsen). Leave the field empty to use the key in the BIFROST_KEY environment variable. If that is not set either, there is no key and searching does not work. A Dataforsyningen token cannot be used with Bifrost.</translation>
     </message>
     <message>
         <location filename="../config/settings.ui" line="116"/>
