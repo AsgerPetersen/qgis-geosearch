@@ -230,10 +230,7 @@ DISPLAY_TEXT_GAP = 1
 # Cases that fail against Bifrost with no issue to explain them yet. The tests
 # xfail them (the report still shows them as failures); give them a
 # ``known_gap`` in cases.yaml once there is an issue.
-KNOWN_FAILURES = {
-    "reg-hovedstaden-alle-typer": "Region Hovedstaden is ranked 26th: fuzzy hits in the "
-    "other types and the stednavn 'Region Hovedstaden (bygning, ...)' come first",
-}
+KNOWN_FAILURES = {}
 
 
 def bifrost_case(case):

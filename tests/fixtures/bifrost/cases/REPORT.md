@@ -5,9 +5,9 @@ the GSearch baseline (`tests/fixtures/gsearch/`). The expectation is what GSearc
 stednavne match on the name before " (" because Bifrost cannot give GSearch's text (#1).
 
 - Source: recorded fixtures (2026-11-06), replayed through the current core
-- Generated: 2026-11-06T15:00:48+00:00
+- Generated: 2026-11-06T15:12:46+00:00
 - Cases: 57. GSearch meets 57 expectations.
-- Bifrost: 32 pass, 12 known gaps (xfail), 11 pass despite a known gap (xpass), 1 fail, 1 without expectation.
+- Bifrost: 33 pass, 12 known gaps (xfail), 11 pass despite a known gap (xpass), 0 fail, 1 without expectation.
 
 ✅ pass · ⚠️ known gap · 🎉 passes despite a known gap · ❌ unexpected failure
 
@@ -38,7 +38,7 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | [ste-anholt](#ste-anholt) | `anholt` | Anholt (Ø i Kattegat) (top 5) | ✅ rank 3 | ✅ rank 1 (name only, #1) | #1 |
 | [ste-roskilde-fjord](#ste-roskilde-fjord) | `roskilde fjord` | Roskilde Fjord (Fjord i Isefjord) | ✅ rank 1 | ✅ rank 1 (name only, #1) | #1 |
 | [ste-vor-frue-kommunefilter](#ste-vor-frue-kommunefilter) | `vor frue` | Vor Frue Kirke (Kirke i København K) (top 5) | ✅ rank 1 | 🎉 rank 1 (name only, #1) | #2 |
-| [pos-8000](#pos-8000) | `8000` | 8000 Aarhus C (top 10) | ✅ rank 6 | ✅ rank 6 |  |
+| [pos-8000](#pos-8000) | `8000` | 8000 Aarhus C (top 10) | ✅ rank 6 | ✅ rank 1 |  |
 | [pos-80](#pos-80) | `pos: 80` | 8000 Aarhus C (top 3) | ✅ rank 1 | ⚠️ '8000 Aarhus C' not found | #3 |
 | [pos-aarhus](#pos-aarhus) | `aarhus` | 8000 Aarhus C (top 3) | ✅ rank 1 | ✅ rank 1 |  |
 | [pos-aar](#pos-aar) | `pos: aar` | 8000 Aarhus C (top 5) | ✅ rank 1 | 🎉 rank 5 | #3 |
@@ -55,14 +55,14 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | [mat-1an-gentofte](#mat-1an-gentofte) | `mat: 1an gentofte` | (no rows) | ✅ no rows | ⚠️ expected no rows, got 40 | #4 |
 | [kom-101](#kom-101) | `kom: 101` | Københavns Kommune | ✅ rank 1 | ✅ rank 1 |  |
 | [kom-koeb](#kom-koeb) | `kom: køb` | Københavns Kommune | ✅ rank 1 | ⚠️ rank 2 > 1 | #3 |
-| [kom-aarhus-alle-typer](#kom-aarhus-alle-typer) | `aarhus` | Aarhus Kommune (top 20) | ✅ rank 20 | ✅ rank 16 |  |
+| [kom-aarhus-alle-typer](#kom-aarhus-alle-typer) | `aarhus` | Aarhus Kommune (top 20) | ✅ rank 20 | ✅ rank 11 |  |
 | [kom-aabenraa-aa](#kom-aabenraa-aa) | `kommune: åbenrå` | Aabenraa Kommune | ✅ rank 1 | ✅ rank 1 |  |
 | [ops-aarhus](#ops-aarhus) | `ops: aarhus` | Aarhus Nordkredsen (top 3) | ✅ rank 1 | ✅ rank 2 |  |
 | [ops-aar](#ops-aar) | `ops: aar` | Aarhus Nordkredsen (top 5) | ✅ rank 1 | 🎉 rank 2 | #3 |
 | [pol-midt](#pol-midt) | `pol: midt` | Midt- og Vestjyllands Politikreds | ✅ rank 1 | ✅ rank 1 |  |
 | [pol-koebenhavn](#pol-koebenhavn) | `københavn` | Københavns Politikreds | ✅ rank 1 | ✅ rank 1 |  |
 | [reg-midt](#reg-midt) | `reg: midt` | Region Midtjylland | ✅ rank 1 | ✅ rank 1 |  |
-| [reg-hovedstaden-alle-typer](#reg-hovedstaden-alle-typer) | `hovedstaden` | Region Hovedstaden (top 20) | ✅ rank 6 | ❌ rank 26 > 20 |  |
+| [reg-hovedstaden-alle-typer](#reg-hovedstaden-alle-typer) | `hovedstaden` | Region Hovedstaden (top 20) | ✅ rank 6 | ✅ rank 6 |  |
 | [pfx-kom-aar](#pfx-kom-aar) | `kom: aar` | Aarhus Kommune (top 3) | ✅ rank 1 | 🎉 rank 1 | #3 |
 | [pfx-adr-versaler-uden-mellemrum](#pfx-adr-versaler-uden-mellemrum) | `ADR:vangebovej 71` | Vangebovej 71, Søllerød, 2840 Holte | ✅ rank 1 | ✅ rank 1 |  |
 | [pfx-ukendt-praefiks](#pfx-ukendt-praefiks) | `udg: 1an gentofte` | Husnumre - Der skete en fejl → Bifrost: none | ✅ rank 1 | ➖ no expectation |  |
@@ -714,18 +714,18 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 - Typed: `8000`
 - Expected: 8000 Aarhus C (top 10) (polygon)
 - GSearch: ✅ rank 6
-- Bifrost: ✅ pass — rank 6
+- Bifrost: ✅ pass — rank 1
 - Geometry of the hit: Polygon
 - Slowest search request: 134 ms
 
 | # | GSearch | Bifrost |
 |---|---|---|
-| 1 | adr: Amaliegade 1, 8000 Aarhus C | ste: 80 (topografi, Aabenraa) |
-| 2 | adr: Anna Klindt Sørensens Gade 1, 8000 Aarhus C | ste: 80a (topografi) |
-| 3 | adr: Aros Allé 1, 8000 Aarhus C | ste: 8 (topografi, Aabenraa) |
-| 4 | adr: Balivej 1, 8000 Aarhus C | ste: Skate6000 (bygning, Kolding) |
-| 5 | adr: Banegårdsgade 1, 8000 Aarhus C | ste: 81 (topografi) |
-| 6 | pos: **8000 Aarhus C** | pos: **8000 Aarhus C** |
+| 1 | adr: Amaliegade 1, 8000 Aarhus C | pos: **8000 Aarhus C** |
+| 2 | adr: Anna Klindt Sørensens Gade 1, 8000 Aarhus C | ste: 80 (topografi, Aabenraa) |
+| 3 | adr: Aros Allé 1, 8000 Aarhus C | ste: 80a (topografi) |
+| 4 | adr: Balivej 1, 8000 Aarhus C | ste: 8 (topografi, Aabenraa) |
+| 5 | adr: Banegårdsgade 1, 8000 Aarhus C | ste: Skate6000 (bygning, Kolding) |
+| 6 | pos: **8000 Aarhus C** | ste: 81 (topografi) |
 | 7 | mat: 4552a, Haderslev |  |
 | 8 | mat: 6a, Ødum By, Ødum |  |
 | 9 | mat: 5a, Heden, Timring |  |
@@ -1109,7 +1109,7 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 - Typed: `aarhus`
 - Expected: Aarhus Kommune (top 20) (polygon)
 - GSearch: ✅ rank 20
-- Bifrost: ✅ pass — rank 16
+- Bifrost: ✅ pass — rank 11
 - Geometry of the hit: MultiPolygon
 - Slowest search request: 240 ms
 
@@ -1246,7 +1246,7 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 - Typed: `hovedstaden`
 - Expected: Region Hovedstaden (top 20) (polygon)
 - GSearch: ✅ rank 6
-- Bifrost: ❌ FAIL — rank 26 > 20
+- Bifrost: ✅ pass — rank 6
 - Geometry of the hit: MultiPolygon
 - Slowest search request: 670 ms
 
@@ -1257,11 +1257,11 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | 3 | ste: Nordhavn (Tog i Region Hovedstaden) | ste: FGU Hovedstaden - Amager (bygning, Tårnby) |
 | 4 | ste: Kvistgård (Gård i Region Hovedstaden) | ste: FGU Hovedstaden - Nørrebro (bygning, København) |
 | 5 | ste: Kastrup (Tog i Region Hovedstaden) | ste: FGU Hovedstaden - Østerbro (bygning, København) |
-| 6 | reg: **Region Hovedstaden** | pos: 8732 Hovedgård |
-| 7 |  | pos: 8370 Hadsten |
-| 8 |  | pos: 6682 Hovborg |
-| 9 |  | pos: 7182 Bredsten |
-| 10 |  | pos: 9510 Arden |
+| 6 | reg: **Region Hovedstaden** | reg: **Region Hovedstaden** |
+| 7 |  | pos: 8732 Hovedgård |
+| 8 |  | pos: 8370 Hadsten |
+| 9 |  | pos: 6682 Hovborg |
+| 10 |  | pos: 7182 Bredsten |
 | | … 0 more | … 16 more |
 
 ### pfx-kom-aar

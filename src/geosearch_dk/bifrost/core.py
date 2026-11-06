@@ -311,6 +311,42 @@ def rank_rows(rows, term):
     return sorted(rows, key=lambda r: 0 if exact(r) else 1)
 
 
+def _words(text):
+    return re.findall(r"\w+", (text or "").lower())
+
+
+def matches_term(row, term):
+    """True if every word of ``term`` starts a word of the row's text.
+
+    "hovedstaden" matches "Region Hovedstaden", but not Bifrost's fuzzy hits
+    such as "8732 Hovedgård" or "1a, Hovedejerlavet, Stadil".
+    """
+    tokens = _words(term)
+    if not tokens or row.get("status") != STATUS_OK:
+        return False
+    words = _words(row.get("text"))
+    return all(any(w.startswith(t) for w in words) for t in tokens)
+
+
+def rank_types(groups, term):
+    """Order ``[(key, rows)]`` so that types with only fuzzy hits go last.
+
+    Bifrost returns fuzzy hits for every type, so with many types selected a
+    real hit in a late type ends up below rows of near-misses (#22). When a
+    type has a ``matches_term`` row, the types whose ok rows all fail to
+    match move after the others; the order is otherwise kept. When no type
+    matches, nothing moves.
+    """
+
+    def fuzzy(rows):
+        ok = [r for r in rows if r.get("status") == STATUS_OK]
+        return bool(ok) and not any(matches_term(r, term) for r in ok)
+
+    if not any(matches_term(r, term) for _, rows in groups for r in rows):
+        return list(groups)
+    return sorted(groups, key=lambda g: 1 if fuzzy(g[1]) else 0)
+
+
 def dedupe(rows):
     """Drop repeated hits (same kind and ref id); the first one wins."""
     seen = set()
@@ -345,8 +381,9 @@ def collect_rows(plan, responses, members=None):
     is required when ``plan.membership_targets`` is not empty (see
     ``kommunefilter.apply_kommunefilter``).
 
-    Rows come in type order, each type sorted (``rank_rows``), filtered to the
-    kommuner and cut to its limit, without duplicates.
+    Rows come grouped by type, each type sorted (``rank_rows``), filtered to
+    the kommuner and cut to its limit, without duplicates. Types come in plan
+    order, except that types with only fuzzy hits go last (``rank_types``).
     """
     known = {t.key: t for t in plan.types}
     matches = {k: [] for k in known}
@@ -372,6 +409,7 @@ def collect_rows(plan, responses, members=None):
                 matches[k].extend(item.get("matches") or [])
 
     rows = []
+    groups = []
     hidden = {}
     for key, search_type in known.items():
         type_matches = matches[key]
@@ -389,6 +427,8 @@ def collect_rows(plan, responses, members=None):
         type_rows = rank_rows(type_rows, plan.term)[: plan.limits[key]]
         if key in errors:
             type_rows.append(error_row(search_type, errors[key]))
+        groups.append((key, type_rows))
+    for _, type_rows in rank_types(groups, plan.term):
         rows.extend(type_rows)
     return SearchResult(dedupe(rows), hidden)
 

@@ -153,6 +153,18 @@ def find_match(rows, expected):
     return None, None
 
 
+def close_whats_new():
+    """Close the "Hvad er nyt" notice (shown on a new profile) so it does not take focus."""
+    try:
+        import qgis.utils
+
+        module = sys.modules[type(qgis.utils.plugins[PLUGIN_NAME]).__module__]
+        package = module.__name__.rpartition(".")[0]
+        sys.modules[package + ".whatsnew"].close_whats_new()
+    except Exception:
+        pass
+
+
 def find_repo_root(explicit=None):
     candidates = []
     if explicit:
@@ -599,6 +611,7 @@ class VisualRun:
     def run(self, cases):
         results = []
         started = datetime.datetime.now()
+        close_whats_new()
         self.setup_map()
         try:
             for case in cases:

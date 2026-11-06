@@ -66,6 +66,8 @@ class Settings(SettingManager):
         self.add_setting(String(model.URL_SETTING, Scope.Global, ""))
         # Empty: the BIFROST_KEY environment variable, else DEFAULT_BIFROST_KEY.
         self.add_setting(String(model.KEY_SETTING, Scope.Global, ""))
+        # The "Hvad er nyt" notice version last seen (whatsnew.NOTICE_VERSION).
+        self.add_setting(String("notice_seen_version", Scope.Global, ""))
 
         # The order of TYPES is the order results are displayed in
         for t in TYPES:
