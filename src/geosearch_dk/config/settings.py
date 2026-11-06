@@ -88,7 +88,7 @@ class Settings(SettingManager):
         )
 
     def selected_type_keys(self):
-        return model.selected_type_keys(self.value)
+        return model.selected_type_keys(self.value, TYPES)
 
     def emit_updated(self):
         self.settings_updated.emit()
