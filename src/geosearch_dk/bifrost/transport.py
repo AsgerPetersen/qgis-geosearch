@@ -57,13 +57,14 @@ class BifrostMissingKey(BifrostError):
         return "Der er ikke angivet en nøgle til Bifrost"
 
 
-def resolve_key(setting_value, environ=None):
-    """The key to use: the setting, else the ``BIFROST_KEY`` environment variable."""
+def resolve_key(setting_value, environ=None, default=""):
+    """The key to use: the setting, else the ``BIFROST_KEY`` environment
+    variable, else ``default`` (the plugin's bundled key)."""
     key = (setting_value or "").strip()
     if key:
         return key
     environ = os.environ if environ is None else environ
-    return (environ.get(KEY_ENV) or "").strip()
+    return (environ.get(KEY_ENV) or "").strip() or (default or "").strip()
 
 
 def endpoint_url(base_url, endpoint):

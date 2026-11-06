@@ -81,25 +81,38 @@
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
-           <widget class="QGroupBox" name="groupBox">
+           <widget class="QGroupBox" name="bifrostKeyGroupBox">
             <property name="title">
-             <string>Token til Dataforsyningen</string>
+             <string>Bifrost API-nøgle</string>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout">
+            <layout class="QVBoxLayout" name="bifrostKeyLayout">
              <item>
-              <widget class="QLineEdit" name="token">
-               <property name="text">
-                <string/>
+              <widget class="QLineEdit" name="bifrost_key">
+               <property name="echoMode">
+                <enum>QLineEdit::PasswordEchoOnEdit</enum>
                </property>
                <property name="placeholderText">
-                <string>Indsæt token til Dataforsyningen</string>
+                <string>Tom: miljøvariablen BIFROST_KEY eller pluginets indbyggede nøgle</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="label">
+              <widget class="QLabel" name="bifrostKeyHelpLabel">
                <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://dataforsyningen.dk/user#token&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Find dit token til Dataforsyningen eller opret nyt&lt;/span&gt;&lt;/a&gt;</string>
+                <string>Geosearch DK søger i Klimadatastyrelsens Bifrost. Lad feltet stå tomt for at bruge nøglen i miljøvariablen BIFROST_KEY eller, hvis den ikke er sat, pluginets indbyggede nøgle. Et token til Dataforsyningen kan ikke bruges med Bifrost.</string>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="bifrostKeyLinkLabel">
+               <property name="text">
+                <string>Sådan får du en API-nøgle til Bifrost</string>
+               </property>
+               <property name="textFormat">
+                <enum>Qt::RichText</enum>
                </property>
                <property name="openExternalLinks">
                 <bool>true</bool>
@@ -158,88 +171,7 @@
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_5">
              <item>
-              <layout class="QGridLayout" name="gridLayout_3">
-               <item row="0" column="0">
-                <widget class="QCheckBox" name="search_adr">
-                 <property name="text">
-                  <string>Adresser ('adr')</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="1">
-                <widget class="QCheckBox" name="search_ops">
-                 <property name="text">
-                  <string>Opstillingskredse ('ops')</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="0">
-                <widget class="QCheckBox" name="search_ste">
-                 <property name="text">
-                  <string>Stednavne ('ste')</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="1">
-                <widget class="QCheckBox" name="search_pol">
-                 <property name="text">
-                  <string>Politikredse ('pol')</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="2" column="0">
-                <widget class="QCheckBox" name="search_pos">
-                 <property name="text">
-                  <string>Postdistrikter ('pos')</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="2" column="1">
-                <widget class="QCheckBox" name="search_kom">
-                 <property name="text">
-                  <string>Kommuner ('kom')</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="3" column="0">
-                <widget class="QCheckBox" name="search_mat">
-                 <property name="text">
-                  <string>Matrikelnumre ('mat')</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="3" column="1">
-                <widget class="QCheckBox" name="search_reg">
-                 <property name="text">
-                  <string>Regioner ('reg')</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-              </layout>
+              <layout class="QGridLayout" name="gridLayout_3"/>
              </item>
              <item>
               <widget class="QLabel" name="label_soegtip1">
@@ -254,6 +186,45 @@
                </property>
                <property name="alignment">
                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QgsCollapsibleGroupBox" name="advancedGroupBox">
+            <property name="title">
+             <string>Avanceret</string>
+            </property>
+            <property name="collapsed" stdset="0">
+             <bool>true</bool>
+            </property>
+            <layout class="QVBoxLayout" name="advancedLayout">
+             <item>
+              <layout class="QFormLayout" name="advancedFormLayout">
+               <item row="0" column="0">
+                <widget class="QLabel" name="bifrostUrlLabel">
+                 <property name="text">
+                  <string>Bifrost URL:</string>
+                 </property>
+                 <property name="buddy">
+                  <cstring>bifrost_url</cstring>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="bifrost_url"/>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QLabel" name="bifrostUrlHelpLabel">
+               <property name="text">
+                <string>Kun til test og udvikling, fx en testserver eller en mock-server. Lad feltet stå tomt for at bruge standardadressen.</string>
                </property>
                <property name="wordWrap">
                 <bool>true</bool>
@@ -285,6 +256,14 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QgsCollapsibleGroupBox</class>
+   <extends>QGroupBox</extends>
+   <header>qgscollapsiblegroupbox.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

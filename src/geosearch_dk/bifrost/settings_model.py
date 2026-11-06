@@ -1,0 +1,78 @@
+"""The parts of the plugin settings that need no Qt: setting names, defaults,
+which types are selected, the type checkbox layout and the migration from 3.x.
+
+``config/settings.py`` stores the settings with QSettings and
+``config/settings_dialog.py`` shows them; both use this module.
+
+Pure Python: must not import qgis or PyQt.
+"""
+
+from .transport import DEFAULT_BASE_URL, resolve_key
+from .types import DEFAULT_ON_KEYS, TYPES
+
+KEY_SETTING = "bifrost_key"
+URL_SETTING = "bifrost_url"
+TYPE_SETTING = "search_{}"
+
+# Settings from 3.x (GSearch) that are deleted on upgrade.
+# "token": a Dataforsyningen token, the bundled one or the user's own. It
+# cannot be used with Bifrost, which needs its own key.
+OBSOLETE_SETTINGS = ("token",)
+
+
+def type_setting(key):
+    """The bool setting that switches a type on: ``search_<key>``."""
+    return TYPE_SETTING.format(key)
+
+
+def type_default(key):
+    """Whether a type is searched when the user has not chosen."""
+    return key in DEFAULT_ON_KEYS
+
+
+def selected_type_keys(value, types=TYPES):
+    """The keys of the switched-on types, in display order.
+
+    ``value(name)`` returns the value of a setting.
+    """
+    return tuple(t.key for t in types if value(type_setting(t.key)))
+
+
+def checkbox_label(search_type):
+    return f"{search_type.title} ('{search_type.key}')"
+
+
+def checkbox_positions(types=TYPES, columns=2):
+    """``(type, row, column)`` for each type checkbox, filled column by column."""
+    types = tuple(types)
+    rows = -(-len(types) // columns) if types else 0
+    return [(t, i % rows, i // rows) for i, t in enumerate(types)]
+
+
+def base_url(setting_value):
+    """The Bifrost URL to use: the setting, else the default."""
+    return (setting_value or "").strip() or DEFAULT_BASE_URL
+
+
+def api_key(setting_value, default, environ=None):
+    """The key to use: the setting, else ``BIFROST_KEY``, else ``default``."""
+    return resolve_key(setting_value, environ, default)
+
+
+def migrate(store):
+    """Migrate settings from 3.x. Returns the names of the deleted settings.
+
+    ``store`` has ``contains(name)`` and ``remove(name)``. Running it again
+    changes nothing.
+
+    - The Dataforsyningen ``token`` is deleted.
+    - ``search_<key>`` values are kept as they are. Types without a stored
+      value get ``type_default()``, so new types start switched off.
+    - ``kommunefilter`` is migrated by Step 5 (#11), not here.
+    """
+    removed = []
+    for name in OBSOLETE_SETTINGS:
+        if store.contains(name):
+            store.remove(name)
+            removed.append(name)
+    return tuple(removed)
