@@ -1,0 +1,1511 @@
+{
+ "case_id": "kf-vestergade-751",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "vestergade",
+ "term": "vestergade",
+ "keys": [
+  "adr"
+ ],
+ "limit": 40,
+ "kommunekoder": [
+  "751"
+ ],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=vestergade&limit=40&filter=kommunekode%20like%20%27%25751%25%27",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 103,
+   "row_count": 40,
+   "rows": [
+    {
+     "id": "3eb1bee0-d891-4a7a-b5e8-4eb56b29808d",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "1B",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 1B, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574953.91595784,
+        6224278.77589647
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574953.21990644,
+        6224271.78354357
+       ]
+      ]
+     }
+    },
+    {
+     "id": "8fcf8338-5be6-4560-ac18-6e6c9bdc09de",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "1C",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 1C, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574950.27159799,
+        6224279.06327468
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574949.78989958,
+        6224272.34354469
+       ]
+      ]
+     }
+    },
+    {
+     "id": "d7b2fe34-4fa3-429e-9e6b-ab5bce3ee7f7",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "2A",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 2A, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574948.52975836,
+        6224279.16675812
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574948.9563303,
+        6224286.33248556
+       ]
+      ]
+     }
+    },
+    {
+     "id": "289a0570-dcae-4009-bd55-6b19a337d34c",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "2B",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 2B, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574943.05579842,
+        6224279.49196844
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574943.48363725,
+        6224286.70732755
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20b8-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "3",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 3, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574937.81389767,
+        6224279.80339202
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574937.38,
+        6224272.5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20b9-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "3A",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 3A, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574925.77292178,
+        6224280.49875664
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574924.87,
+        6224263.5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20ba-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "3B",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 3B, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574942.13334562,
+        6224279.54677176
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574941.18,
+        6224263.5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "604ad59e-3dfb-7474-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "3C",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 3C, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574924.35335632,
+        6224280.57415961
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574922.57,
+        6224247
+       ]
+      ]
+     }
+    },
+    {
+     "id": "604ad59e-3dfc-7474-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "3D",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 3D, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574939.05037241,
+        6224279.72993252
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574936.69,
+        6224240
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20bb-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "4",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 4, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574932.3427326,
+        6224280.12843629
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574932.70986542,
+        6224287.21857444
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20bd-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "5",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 5, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574916.995852,
+        6224280.96496766
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574917.34094958,
+        6224273.68496766
+       ]
+      ]
+     }
+    },
+    {
+     "id": "ddcaaa1e-eedd-440c-9d42-9404b96c33b2",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "5A",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 5A, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574911.16929006,
+        6224281.27445674
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574910.79982444,
+        6224273.62274769
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20be-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "5B",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 5B, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574908.6152921,
+        6224281.41011728
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574906.99648919,
+        6224264.0405044
+       ]
+      ]
+     }
+    },
+    {
+     "id": "8997b591-3015-43b5-b4d8-b4b7f39a1415",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "5C",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 5C, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574905.09601241,
+        6224281.59705061
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574904.54647575,
+        6224255.11937877
+       ]
+      ]
+     }
+    },
+    {
+     "id": "096e49bb-087c-4741-9ec2-9dd9e6a564df",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "5D",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 5D, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574904.80977607,
+        6224281.61225461
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574899.78646623,
+        6224242.37935329
+       ]
+      ]
+     }
+    },
+    {
+     "id": "d5502436-2afb-4dd8-bacc-3eff12ccc1d7",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "5E",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 5E, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574898.55524509,
+        6224281.78185832
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574898.35535985,
+        6224273.85608006
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20bf-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "6A",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 6A, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574922.04519136,
+        6224280.69676224
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574922.38,
+        6224287
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20c0-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "6B",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 6B, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574908.98547967,
+        6224281.39045405
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574909.31,
+        6224287.5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20c1-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "7",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 7, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574890.46819875,
+        6224281.81105343
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574890.44,
+        6224274
+       ]
+      ]
+     }
+    },
+    {
+     "id": "c6b1d328-f988-4c00-8610-47a916eac685",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "8A",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 8A, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574899.99966297,
+        6224281.77664382
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574900.04,
+        6224292.95
+       ]
+      ]
+     }
+    },
+    {
+     "id": "6cb749bd-7388-4934-9110-33c834066c6e",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "8B",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 8B, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574892.96051284,
+        6224281.80205591
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574892.98,
+        6224287.2
+       ]
+      ]
+     }
+    },
+    {
+     "id": "56ad4258-1aa6-4510-8b5c-98cab1c0500b",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "8C",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 8C, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574886.70864486,
+        6224281.82462583
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574886.73,
+        6224287.74
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20c3-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "11",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 11, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574852.00946861,
+        6224281.25286338
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574852.19,
+        6224273
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20c4-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "15",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 15, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574831.39871659,
+        6224279.82595268
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574832.55,
+        6224272.93
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20c5-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "15A",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 15A, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574828.21909527,
+        6224279.29511301
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574832.7496655,
+        6224259.18351837
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20c6-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "15B",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 15B, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574827.79633024,
+        6224279.22453214
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574825.67965136,
+        6224258.27351655
+       ]
+      ]
+     }
+    },
+    {
+     "id": "604ad59e-3dfd-7474-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "15C",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 15C, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574825.59582399,
+        6224278.8571563
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574832.25,
+        6224239
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20c7-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "17",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 17, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574823.84407053,
+        6224278.56470002
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574824.91,
+        6224272.18
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20c8-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "19",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 19, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574811.23044344,
+        6224276.61027431
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574812.13,
+        6224269.79
+       ]
+      ]
+     }
+    },
+    {
+     "id": "604ad59e-3dfe-7474-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "19B",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 19B, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574808.59287377,
+        6224276.26239342
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574812.43,
+        6224247.17
+       ]
+      ]
+     }
+    },
+    {
+     "id": "34135a97-3262-4a46-83c8-503ea26dd84b",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "19C",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 19C, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574790.26097068,
+        6224223.15885906
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574815.71,
+        6224230.72
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20ca-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "21",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 21, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574793.50702719,
+        6224274.4342835
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574794.06,
+        6224269
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20cb-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "22",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 22, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574845.86787949,
+        6224280.9401059
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574845.38,
+        6224288.5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20cc-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "24",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 24, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574791.16064225,
+        6224274.19552395
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574790.57,
+        6224280
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20cd-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "25",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 25, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574778.77,
+        6224272.93
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574771.75,
+        6224261.5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20ce-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "26",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 26, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574775.05390442,
+        6224272.55656123
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574774.5,
+        6224278
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20cf-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "28",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 28, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574760.86495489,
+        6224271.16839104
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574760.31,
+        6224278.5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20d0-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "29",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 29, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574701.1658439,
+        6224269.57101365
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574701.94,
+        6224263.5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20d1-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "30",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 30, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574749.46243888,
+        6224270.30529509
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574748.88,
+        6224278
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5097-20d2-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "9110",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "31A",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Vestergade 31A, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574683.56418272,
+        6224267.33711113
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574684.43,
+        6224260.5
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Vestergade 1B, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 1C, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 2
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 2A, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 3
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 2B, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 4
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 3, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 5
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 3A, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 6
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 3B, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 7
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 3C, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 8
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 3D, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 9
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 4, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 10
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 5, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 11
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 5A, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 12
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 5B, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 13
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 5C, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 14
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 5D, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 15
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 5E, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 16
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 6A, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 17
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 6B, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 18
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 7, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 19
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 8A, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 20
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 8B, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 21
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 8C, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 22
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 11, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 23
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 15, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 24
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 15A, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 25
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 15B, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 26
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 15C, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 27
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 17, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 28
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 19, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 29
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 19B, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 30
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 19C, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 31
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 21, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 32
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 22, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 33
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 24, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 34
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 25, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 35
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 26, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 36
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 28, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 37
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 29, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 38
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 30, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 39
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 31A, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 40
+  }
+ ]
+}

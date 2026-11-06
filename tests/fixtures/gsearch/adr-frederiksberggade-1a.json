@@ -1,0 +1,66 @@
+{
+ "case_id": "adr-frederiksberggade-1a",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "frederiksberggade 1a",
+ "term": "frederiksberggade 1a",
+ "keys": [
+  "adr"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=frederiksberggade%201a&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 96,
+   "row_count": 1,
+   "rows": [
+    {
+     "id": "0a3f507a-6f8e-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "1932",
+     "vejnavn": "Frederiksberggade",
+     "husnummertekst": "1A",
+     "supplerendebynavn": null,
+     "postnummer": "1459",
+     "postnummernavn": "København K",
+     "visningstekst": "Frederiksberggade 1A, 1459 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724576.32674086,
+        6175991.29092548
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724581.86,
+        6175984.91
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Frederiksberggade 1A, 1459 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "case_id": "adr-noeddebogade-1-st-th",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "nøddebogade 1 st th",
+ "term": "nøddebogade 1 st th",
+ "keys": [
+  "adr"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=n%C3%B8ddebogade%201%20st%20th&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 279,
+   "row_count": 0,
+   "rows": []
+  }
+ ],
+ "display": []
+}

@@ -1,0 +1,705 @@
+{
+ "case_id": "adr-raadhuspl",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "rådhuspl",
+ "term": "rådhuspl",
+ "keys": [
+  "adr",
+  "ste",
+  "pos",
+  "mat",
+  "kom",
+  "ops",
+  "pol",
+  "reg"
+ ],
+ "limit": 5,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=r%C3%A5dhuspl&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 70,
+   "row_count": 5,
+   "rows": [
+    {
+     "id": "0a3f507a-ec01-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "6152",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "1550",
+     "postnummernavn": "København V",
+     "visningstekst": "Rådhuspladsen 1, 1550 København V",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724454.63549553,
+        6175800.01960673
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724434.93,
+        6175755.61
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507f-0959-32b8-e044-0003ba298018",
+     "kommunenavn": "Halsnæs",
+     "kommunekode": "0260",
+     "vejkode": "1214",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "3300",
+     "postnummernavn": "Frederiksværk",
+     "visningstekst": "Rådhuspladsen 1, 3300 Frederiksværk",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        688207.08,
+        6207593.7
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        688190.35,
+        6207578.8
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5084-62c3-32b8-e044-0003ba298018",
+     "kommunenavn": "Slagelse",
+     "kommunekode": "0330",
+     "vejkode": "1407",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "4200",
+     "postnummernavn": "Slagelse",
+     "visningstekst": "Rådhuspladsen 1, 4200 Slagelse",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        649198.49528267,
+        6142354.50223969
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        649189.55,
+        6142347.15
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5083-452c-32b8-e044-0003ba298018",
+     "kommunenavn": "Holbæk",
+     "kommunekode": "0316",
+     "vejkode": "1322",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "4300",
+     "postnummernavn": "Holbæk",
+     "visningstekst": "Rådhuspladsen 1, 4300 Holbæk",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        670319.82368855,
+        6177821.3254674
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        670327.26927435,
+        6177835.02364516
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5096-c91e-32b8-e044-0003ba298018",
+     "kommunenavn": "Aarhus",
+     "kommunekode": "0751",
+     "vejkode": "7005",
+     "vejnavn": "Rådhuspladsen",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "8000",
+     "postnummernavn": "Aarhus C",
+     "visningstekst": "Rådhuspladsen 1, 8000 Aarhus C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574719.28873857,
+        6223783.40750461
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        574724.58304292,
+        6223800.99596137
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "key": "ste",
+   "resource": "stednavn",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=r%C3%A5dhuspl&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 57,
+   "row_count": 5,
+   "rows": [
+    {
+     "id": "3202085b-4011-c3d9-e053-d480220a0594",
+     "skrivemaade": "Rådhuspladsen",
+     "visningstekst": "Rådhuspladsen (Seværdighed i København V)",
+     "skrivemaade_officiel": "Rådhuspladsen",
+     "skrivemaade_uofficiel": null,
+     "stednavn_type": "sevaerdighed",
+     "stednavn_subtype": "andenSeværdighed",
+     "kommunekode": "0101",
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          724343.4818,
+          6175882.4997
+         ],
+         [
+          724293.996,
+          6175848.5344
+         ],
+         [
+          724279.3751,
+          6175842.911
+         ],
+         [
+          724276.2261,
+          6175840.6616
+         ],
+         [
+          724289.4972,
+          6175820.8673
+         ],
+         [
+          724330.6605,
+          6175769.8069
+         ],
+         [
+          724345.7312,
+          6175752.0369
+         ],
+         [
+          724364.1759,
+          6175734.2671
+         ],
+         [
+          724387.1194,
+          6175714.2477
+         ],
+         [
+          724457.5243,
+          6175795.4495
+         ],
+         [
+          724402.8649,
+          6175837.7375
+         ],
+         [
+          724361.7017,
+          6175865.6295
+         ],
+         [
+          724354.0538,
+          6175870.803
+         ],
+         [
+          724343.4818,
+          6175882.4997
+         ]
+        ]
+       ]
+      ]
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         724276.2261,
+         6175714.2477
+        ],
+        [
+         724276.2261,
+         6175882.4997
+        ],
+        [
+         724457.5243,
+         6175882.4997
+        ],
+        [
+         724457.5243,
+         6175714.2477
+        ],
+        [
+         724276.2261,
+         6175714.2477
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "id": "9242383b-6958-d753-e053-d380220a4a5d",
+     "skrivemaade": "Rådhuspladsen",
+     "visningstekst": "Rådhuspladsen (Standsningssted, tog i København V)",
+     "skrivemaade_officiel": "Rådhuspladsen",
+     "skrivemaade_uofficiel": null,
+     "stednavn_type": "standsningssted",
+     "stednavn_subtype": "tog",
+     "kommunekode": "0101",
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724367.6066,
+        6175837.4817
+       ]
+      ]
+     },
+     "bbox": {
+      "type": "Point",
+      "coordinates": [
+       724367.6066,
+       6175837.4817
+      ]
+     }
+    },
+    {
+     "id": "dc0c510d-3142-7b71-e053-0b4f210a47d8",
+     "skrivemaade": "Rådhuspladsen",
+     "visningstekst": "Rådhuspladsen (Seværdighed i Søborg)",
+     "skrivemaade_officiel": "Rådhuspladsen",
+     "skrivemaade_uofficiel": null,
+     "stednavn_type": "sevaerdighed",
+     "stednavn_subtype": "andenSeværdighed",
+     "kommunekode": "0159",
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          719486.6,
+          6182992.8
+         ],
+         [
+          719482.4,
+          6182947.6
+         ],
+         [
+          719528.8,
+          6182943.4
+         ],
+         [
+          719531.8,
+          6182989.4
+         ],
+         [
+          719530.4,
+          6182997.2
+         ],
+         [
+          719508.4,
+          6182999.2
+         ],
+         [
+          719507.6,
+          6182990.8
+         ],
+         [
+          719506.2,
+          6182990.8
+         ],
+         [
+          719486.6,
+          6182992.8
+         ]
+        ]
+       ]
+      ]
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         719482.4,
+         6182943.4
+        ],
+        [
+         719482.4,
+         6182999.2
+        ],
+        [
+         719531.8,
+         6182999.2
+        ],
+        [
+         719531.8,
+         6182943.4
+        ],
+        [
+         719482.4,
+         6182943.4
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "id": "50cd557f-398c-8007-e053-d280220afb65",
+     "skrivemaade": "Rødovre Rådhusplæne",
+     "visningstekst": "Rødovre Rådhusplæne (Park i Rødovre)",
+     "skrivemaade_officiel": "Rødovre Rådhusplæne",
+     "skrivemaade_uofficiel": null,
+     "stednavn_type": "naturareal",
+     "stednavn_subtype": "parkAnlæg",
+     "kommunekode": "0175",
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          717241.3187,
+          6176070.4963
+         ],
+         [
+          717104.48,
+          6176045.3207
+         ],
+         [
+          717128.4567,
+          6175965.3411
+         ],
+         [
+          717237.8935,
+          6175973.5617
+         ],
+         [
+          717226.9327,
+          6176019.6313
+         ],
+         [
+          717251.252,
+          6176023.7416
+         ],
+         [
+          717241.3187,
+          6176070.4963
+         ]
+        ]
+       ]
+      ]
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         717104.48,
+         6175965.3411
+        ],
+        [
+         717104.48,
+         6176070.4963
+        ],
+        [
+         717251.252,
+         6176070.4963
+        ],
+        [
+         717251.252,
+         6175965.3411
+        ],
+        [
+         717104.48,
+         6175965.3411
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "id": "20f2ff12-dd10-613a-e053-d480220a8a06",
+     "skrivemaade": "Frederiksberg Rådhusplads",
+     "visningstekst": "Frederiksberg Rådhusplads (Seværdighed i Frederiksberg)",
+     "skrivemaade_officiel": "Frederiksberg Rådhusplads",
+     "skrivemaade_uofficiel": null,
+     "stednavn_type": "sevaerdighed",
+     "stednavn_subtype": "andenSeværdighed",
+     "kommunekode": "0147",
+     "geometri": {
+      "type": "MultiPolygon",
+      "coordinates": [
+       [
+        [
+         [
+          722074.7292,
+          6175949.4709
+         ],
+         [
+          722071.5292,
+          6175930.6708
+         ],
+         [
+          722073.3291,
+          6175930.2708
+         ],
+         [
+          722067.9292,
+          6175901.6708
+         ],
+         [
+          722066.9292,
+          6175901.6708
+         ],
+         [
+          722063.3228,
+          6175884.7371
+         ],
+         [
+          722096.7865,
+          6175879.5901
+         ],
+         [
+          722123.161,
+          6175876.5015
+         ],
+         [
+          722124.1544,
+          6175887.0075
+         ],
+         [
+          722126.0557,
+          6175903.6829
+         ],
+         [
+          722129.1176,
+          6175934.2444
+         ],
+         [
+          722074.7292,
+          6175949.4709
+         ]
+        ]
+       ]
+      ]
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         722063.3228,
+         6175876.5015
+        ],
+        [
+         722063.3228,
+         6175949.4709
+        ],
+        [
+         722129.1176,
+         6175949.4709
+        ],
+        [
+         722129.1176,
+         6175876.5015
+        ],
+        [
+         722063.3228,
+         6175876.5015
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "key": "pos",
+   "resource": "postnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=r%C3%A5dhuspl&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 69,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "mat",
+   "resource": "matrikel",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=r%C3%A5dhuspl&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 70,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "kom",
+   "resource": "kommune",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=r%C3%A5dhuspl&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 54,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "ops",
+   "resource": "opstillingskreds",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=r%C3%A5dhuspl&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 54,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "pol",
+   "resource": "politikreds",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=r%C3%A5dhuspl&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 53,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "reg",
+   "resource": "region",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=r%C3%A5dhuspl&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 55,
+   "row_count": 0,
+   "rows": []
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 1550 København V",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 3300 Frederiksværk",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 2
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 4200 Slagelse",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 3
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 4300 Holbæk",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 4
+  },
+  {
+   "key": "adr",
+   "text": "Rådhuspladsen 1, 8000 Aarhus C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 5
+  },
+  {
+   "key": "ste",
+   "text": "Rådhuspladsen (Seværdighed i København V)",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 6
+  },
+  {
+   "key": "ste",
+   "text": "Rådhuspladsen (Standsningssted, tog i København V)",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 7
+  },
+  {
+   "key": "ste",
+   "text": "Rådhuspladsen (Seværdighed i Søborg)",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 8
+  },
+  {
+   "key": "ste",
+   "text": "Rødovre Rådhusplæne (Park i Rødovre)",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 9
+  },
+  {
+   "key": "ste",
+   "text": "Frederiksberg Rådhusplads (Seværdighed i Frederiksberg)",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 10
+  }
+ ]
+}

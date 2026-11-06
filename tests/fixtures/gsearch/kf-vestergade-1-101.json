@@ -1,0 +1,1511 @@
+{
+ "case_id": "kf-vestergade-1-101",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "vestergade 1",
+ "term": "vestergade 1",
+ "keys": [
+  "adr"
+ ],
+ "limit": 40,
+ "kommunekoder": [
+  "101"
+ ],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=vestergade%201&limit=40&filter=kommunekode%20like%20%27%25101%25%27",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 283,
+   "row_count": 40,
+   "rows": [
+    {
+     "id": "0a3f507b-24a4-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 1, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724528.81083974,
+        6176033.87379994
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724533.07,
+        6176026.84
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24b6-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "10",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 10, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724489.88761155,
+        6176007.69245596
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724484.73,
+        6176014.37
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24b7-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "10A",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 10A, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724490.49438946,
+        6176008.16112001
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724480.91,
+        6176020.57
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24b8-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "10B",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 10B, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724486.61165875,
+        6176005.1621706
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724470.71,
+        6176025.75
+       ]
+      ]
+     }
+    },
+    {
+     "id": "a7c213b5-086b-452c-bf34-c7fd87ef7c45",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "10C",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 10C, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724500.42,
+        6176015.8
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724464.14,
+        6176065.64
+       ]
+      ]
+     }
+    },
+    {
+     "id": "492782cd-6f1f-4f63-8c6e-a34ddb1bce13",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "10D",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 10D, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724488.87617819,
+        6176006.91124354
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724441.87,
+        6176067.77
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24b9-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "11",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 11, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724477.79763777,
+        6175998.25642914
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724483.63,
+        6175991.12
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24ba-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "12",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 12, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724473.79742105,
+        6175994.98718727
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724468.63,
+        6176001.31
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24bb-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "12A",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 12A, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724481.537985,
+        6176001.24335881
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724457.45,
+        6176032.43
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24bc-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "13",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 13, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724471.19011321,
+        6175992.85632274
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724476.72,
+        6175986.09
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24bd-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "14",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 14, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724451.99922142,
+        6175976.81762492
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724446.53,
+        6175983.31
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24be-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "15",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 15, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724457.27212359,
+        6175981.25955397
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724462.68,
+        6175974.84
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24bf-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "16",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 16, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724442.3505833,
+        6175967.81869166
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724435.93,
+        6175973.86
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24c0-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "17",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 17, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724451.1804406,
+        6175976.12787833
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724456.41,
+        6175969.92
+       ]
+      ]
+     }
+    },
+    {
+     "id": "98b36426-617e-4b47-bf9d-f9c3fac2e1f2",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "17A",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 17A, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724453.10893472,
+        6175977.75245504
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724469.42,
+        6175958.39
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24c1-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "18A",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 18A, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724431.37053238,
+        6175954.19538747
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724424.45,
+        6175959.18
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24c2-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "18B",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 18B, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724429.62292163,
+        6175951.76904103
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724418.82,
+        6175959.55
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24c3-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "18C",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 18C, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724437.88040782,
+        6175962.74247266
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724411.28,
+        6175984.26
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24c4-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "18D",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 18D, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724437.58255762,
+        6175962.37268302
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724386.29,
+        6176003.19
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24c5-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "18E",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 18E, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724427.38600037,
+        6175948.66664635
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724361.2,
+        6175996.44
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24c6-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "18F",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 18F, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724414.7909114,
+        6175931.62099239
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724343.6,
+        6175986.93
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24c7-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "18G",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 18G, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724416.06526565,
+        6175933.26127567
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724359.87,
+        6175976.92
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24c8-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "18H",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 18H, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724426.70488385,
+        6175947.72301617
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724377.79,
+        6175983.03
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24c9-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "19",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 19, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724443.35352162,
+        6175968.8651147
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724448.74,
+        6175963.68
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-cecd-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5144",
+     "vejnavn": "Ny Vestergade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "1471",
+     "postnummernavn": "København K",
+     "visningstekst": "Ny Vestergade 1, 1471 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724857.39466561,
+        6175673.09972116
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724863.13,
+        6175665.22
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-ceda-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5144",
+     "vejnavn": "Ny Vestergade",
+     "husnummertekst": "10",
+     "supplerendebynavn": null,
+     "postnummer": "1471",
+     "postnummernavn": "København K",
+     "visningstekst": "Ny Vestergade 10, 1471 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724782.5881676,
+        6175618.65105833
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724762.5,
+        6175646.25
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-cedb-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5144",
+     "vejnavn": "Ny Vestergade",
+     "husnummertekst": "11",
+     "supplerendebynavn": null,
+     "postnummer": "1471",
+     "postnummernavn": "København K",
+     "visningstekst": "Ny Vestergade 11, 1471 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724798.74339645,
+        6175630.40980432
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724804.85,
+        6175622.02
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-cedc-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5144",
+     "vejnavn": "Ny Vestergade",
+     "husnummertekst": "13",
+     "supplerendebynavn": null,
+     "postnummer": "1471",
+     "postnummernavn": "København K",
+     "visningstekst": "Ny Vestergade 13, 1471 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724781.59691768,
+        6175617.92956709
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724788.06,
+        6175609.05
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-cedd-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5144",
+     "vejnavn": "Ny Vestergade",
+     "husnummertekst": "15",
+     "supplerendebynavn": null,
+     "postnummer": "1471",
+     "postnummernavn": "København K",
+     "visningstekst": "Ny Vestergade 15, 1471 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724769.66269012,
+        6175609.24311939
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724775.91,
+        6175600.66
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-cede-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5144",
+     "vejnavn": "Ny Vestergade",
+     "husnummertekst": "17",
+     "supplerendebynavn": null,
+     "postnummer": "1471",
+     "postnummernavn": "København K",
+     "visningstekst": "Ny Vestergade 17, 1471 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724755.60880451,
+        6175599.01385724
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724761.5,
+        6175590.92
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24a5-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "2",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 2, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724527.17679405,
+        6176032.88434012
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724523.08,
+        6176039.65
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24a6-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "2A",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 2A, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724525.16654336,
+        6176031.66707776
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724517.85,
+        6176043.75
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24a7-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "2B",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 2B, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724525.18943225,
+        6176031.68093762
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724505.91,
+        6176063.52
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24a8-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "2C",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 2C, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724527.45366681,
+        6176033.05199423
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724495.81,
+        6176085.31
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24a9-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "2D",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 2D, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724521.71379662,
+        6176029.57634418
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724489.77,
+        6176082.33
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24aa-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "3",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 3, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724519.25026513,
+        6176028.08292094
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724523.46,
+        6176021.14
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24ab-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "3A",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 3A, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724521.41640659,
+        6176029.3962663
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724533.01,
+        6176010.25
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24ac-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "4",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 4, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724517.01005824,
+        6176026.72460545
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724511.38,
+        6176036.01
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24ad-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "4A",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 4A, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724517.4225404,
+        6176026.97470776
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724489.58,
+        6176053.93
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507b-24ae-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "8216",
+     "vejnavn": "Vestergade",
+     "husnummertekst": "4B",
+     "supplerendebynavn": null,
+     "postnummer": "1456",
+     "postnummernavn": "København K",
+     "visningstekst": "Vestergade 4B, 1456 København K",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724517.48711544,
+        6176027.01386185
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        724494.57,
+        6176064.81
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Vestergade 1, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 10, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 2
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 10A, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 3
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 10B, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 4
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 10C, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 5
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 10D, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 6
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 11, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 7
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 12, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 8
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 12A, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 9
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 13, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 10
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 14, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 11
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 15, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 12
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 16, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 13
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 17, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 14
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 17A, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 15
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 18A, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 16
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 18B, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 17
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 18C, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 18
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 18D, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 19
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 18E, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 20
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 18F, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 21
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 18G, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 22
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 18H, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 23
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 19, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 24
+  },
+  {
+   "key": "adr",
+   "text": "Ny Vestergade 1, 1471 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 25
+  },
+  {
+   "key": "adr",
+   "text": "Ny Vestergade 10, 1471 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 26
+  },
+  {
+   "key": "adr",
+   "text": "Ny Vestergade 11, 1471 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 27
+  },
+  {
+   "key": "adr",
+   "text": "Ny Vestergade 13, 1471 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 28
+  },
+  {
+   "key": "adr",
+   "text": "Ny Vestergade 15, 1471 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 29
+  },
+  {
+   "key": "adr",
+   "text": "Ny Vestergade 17, 1471 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 30
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 2, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 31
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 2A, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 32
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 2B, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 33
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 2C, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 34
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 2D, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 35
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 3, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 36
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 3A, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 37
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 4, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 38
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 4A, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 39
+  },
+  {
+   "key": "adr",
+   "text": "Vestergade 4B, 1456 København K",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 40
+  }
+ ]
+}

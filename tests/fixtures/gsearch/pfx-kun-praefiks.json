@@ -1,0 +1,14 @@
+{
+ "case_id": "pfx-kun-praefiks",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "adr:",
+ "term": "",
+ "keys": [],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [],
+ "display": []
+}

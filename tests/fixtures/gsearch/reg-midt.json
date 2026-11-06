@@ -1,0 +1,82 @@
+{
+ "case_id": "reg-midt",
+ "recorded_at": "2026-11-06T13:24:11+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "reg: midt",
+ "term": "midt",
+ "keys": [
+  "reg"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "reg",
+   "resource": "region",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=midt&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 61,
+   "row_count": 1,
+   "rows": [
+    {
+     "regionskode": "1082",
+     "regionsnavn": "Region Midtjylland",
+     "visningstekst": "Region Midtjylland",
+     "kommunekode": "0741,0706,0727,0751,0730,0710,0615,0746,0846,0766,0740,0630,0791,0756,0530,0779,0657,0671,0661,0760,0573,0665,0787,0820,0707",
+     "geometri": {
+      "type": "MultiPolygon",
+      "summarized": true,
+      "vertex_count": 5386,
+      "bbox": [
+       443787.9,
+       6169531.82,
+       662794.65,
+       6300319.9
+      ],
+      "part_count": 45,
+      "area_m2": 13147758136
+     },
+     "bbox": {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         443787.9,
+         6169531.82
+        ],
+        [
+         443787.9,
+         6300319.9
+        ],
+        [
+         662794.65,
+         6300319.9
+        ],
+        [
+         662794.65,
+         6169531.82
+        ],
+        [
+         443787.9,
+         6169531.82
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "reg",
+   "text": "Region Midtjylland",
+   "geometry": "polygon",
+   "geometry_type": "MultiPolygon",
+   "rank": 1
+  }
+ ]
+}

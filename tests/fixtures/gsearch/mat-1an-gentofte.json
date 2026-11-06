@@ -1,0 +1,27 @@
+{
+ "case_id": "mat-1an-gentofte",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "mat: 1an gentofte",
+ "term": "1an gentofte",
+ "keys": [
+  "mat"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "mat",
+   "resource": "matrikel",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=1an%20gentofte&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 77,
+   "row_count": 0,
+   "rows": []
+  }
+ ],
+ "display": []
+}

@@ -1,0 +1,251 @@
+{
+ "case_id": "adr-skodsborgvej-41",
+ "recorded_at": "2026-11-06T13:22:52+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "3.1.1",
+ "input": "skodsborgvej 41",
+ "term": "skodsborgvej 41",
+ "keys": [
+  "adr"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=skodsborgvej%2041&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 91,
+   "row_count": 6,
+   "rows": [
+    {
+     "id": "0a3f507d-6699-32b8-e044-0003ba298018",
+     "kommunenavn": "Lyngby-Taarbæk",
+     "kommunekode": "0173",
+     "vejkode": "0715",
+     "vejnavn": "Skodsborgvej",
+     "husnummertekst": "41",
+     "supplerendebynavn": null,
+     "postnummer": "2830",
+     "postnummernavn": "Virum",
+     "visningstekst": "Skodsborgvej 41, 2830 Virum",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        718656.06997194,
+        6189190.95422869
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        718639.14,
+        6189214.99
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f509c-b234-32b8-e044-0003ba298018",
+     "kommunenavn": "Aalborg",
+     "kommunekode": "0851",
+     "vejkode": "7291",
+     "vejnavn": "Skodsborgvej",
+     "husnummertekst": "41",
+     "supplerendebynavn": null,
+     "postnummer": "9270",
+     "postnummernavn": "Klarup",
+     "visningstekst": "Skodsborgvej 41, 9270 Klarup",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564766.28,
+        6318788.42
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564780.46,
+        6318780.05
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507d-be61-32b8-e044-0003ba298018",
+     "kommunenavn": "Rudersdal",
+     "kommunekode": "0230",
+     "vejkode": "0540",
+     "vejnavn": "Skodsborgvej",
+     "husnummertekst": "410",
+     "supplerendebynavn": null,
+     "postnummer": "2942",
+     "postnummernavn": "Skodsborg",
+     "visningstekst": "Skodsborgvej 410, 2942 Skodsborg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723796.22,
+        6191871.82
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723832.57,
+        6191877.75
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507d-be62-32b8-e044-0003ba298018",
+     "kommunenavn": "Rudersdal",
+     "kommunekode": "0230",
+     "vejkode": "0540",
+     "vejnavn": "Skodsborgvej",
+     "husnummertekst": "412",
+     "supplerendebynavn": null,
+     "postnummer": "2942",
+     "postnummernavn": "Skodsborg",
+     "visningstekst": "Skodsborgvej 412, 2942 Skodsborg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723841.7807908,
+        6191917.75177309
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723844.3,
+        6191899.66
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507d-be63-32b8-e044-0003ba298018",
+     "kommunenavn": "Rudersdal",
+     "kommunekode": "0230",
+     "vejkode": "0540",
+     "vejnavn": "Skodsborgvej",
+     "husnummertekst": "414",
+     "supplerendebynavn": null,
+     "postnummer": "2942",
+     "postnummernavn": "Skodsborg",
+     "visningstekst": "Skodsborgvej 414, 2942 Skodsborg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723863.55378002,
+        6191920.66324082
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723865.11,
+        6191902.87
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507d-be64-32b8-e044-0003ba298018",
+     "kommunenavn": "Rudersdal",
+     "kommunekode": "0230",
+     "vejkode": "0540",
+     "vejnavn": "Skodsborgvej",
+     "husnummertekst": "416",
+     "supplerendebynavn": null,
+     "postnummer": "2942",
+     "postnummernavn": "Skodsborg",
+     "visningstekst": "Skodsborgvej 416, 2942 Skodsborg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723884.25799643,
+        6191922.47405851
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723885.9,
+        6191903.7
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Skodsborgvej 41, 2830 Virum",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  },
+  {
+   "key": "adr",
+   "text": "Skodsborgvej 41, 9270 Klarup",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 2
+  },
+  {
+   "key": "adr",
+   "text": "Skodsborgvej 410, 2942 Skodsborg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 3
+  },
+  {
+   "key": "adr",
+   "text": "Skodsborgvej 412, 2942 Skodsborg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 4
+  },
+  {
+   "key": "adr",
+   "text": "Skodsborgvej 414, 2942 Skodsborg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 5
+  },
+  {
+   "key": "adr",
+   "text": "Skodsborgvej 416, 2942 Skodsborg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 6
+  }
+ ]
+}
