@@ -1,0 +1,291 @@
+{
+ "case_id": "adr-noerrebrog",
+ "recorded_at": "2026-11-06T19:55:12+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "4.0.0",
+ "input": "nørrebrog",
+ "term": "nørrebrog",
+ "keys": [
+  "adr",
+  "ste",
+  "pos",
+  "mat",
+  "kom",
+  "ops",
+  "pol",
+  "reg"
+ ],
+ "limit": 5,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=n%C3%B8rrebrog&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 159,
+   "row_count": 5,
+   "rows": [
+    {
+     "id": "0a3f507a-d038-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5192",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "2200",
+     "postnummernavn": "København N",
+     "visningstekst": "Nørrebrogade 1, 2200 København N",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723905.60143044,
+        6177033.49023245
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723897.58,
+        6177019.17
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5085-76cd-32b8-e044-0003ba298018",
+     "kommunenavn": "Lolland",
+     "kommunekode": "0360",
+     "vejkode": "1167",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "4930",
+     "postnummernavn": "Maribo",
+     "visningstekst": "Nørrebrogade 1, 4930 Maribo",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        660877.17,
+        6072893.33
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        660871.31,
+        6072869.26
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5091-e599-32b8-e044-0003ba298018",
+     "kommunenavn": "Holstebro",
+     "kommunekode": "0661",
+     "vejkode": "5617",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "7500",
+     "postnummernavn": "Holstebro",
+     "visningstekst": "Nørrebrogade 1, 7500 Holstebro",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        475995.93238235,
+        6246690.26178372
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        475981.31,
+        6246688.32
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8f4-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 1, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552887.44084422,
+        6191811.20404035
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552872.61,
+        6191805.04
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-7a9f-32b8-e044-0003ba298018",
+     "kommunenavn": "Hedensted",
+     "kommunekode": "0766",
+     "vejkode": "1056",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "8722",
+     "postnummernavn": "Hedensted",
+     "visningstekst": "Nørrebrogade 1, 8722 Hedensted",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543801.41413059,
+        6180640.77217848
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543793.76,
+        6180640.81
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "key": "ste",
+   "resource": "stednavn",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/stednavn?token=REDACTED&q=n%C3%B8rrebrog&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 91,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "pos",
+   "resource": "postnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/postnummer?token=REDACTED&q=n%C3%B8rrebrog&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 120,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "mat",
+   "resource": "matrikel",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/matrikel?token=REDACTED&q=n%C3%B8rrebrog&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 117,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "kom",
+   "resource": "kommune",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/kommune?token=REDACTED&q=n%C3%B8rrebrog&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 111,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "ops",
+   "resource": "opstillingskreds",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/opstillingskreds?token=REDACTED&q=n%C3%B8rrebrog&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 111,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "pol",
+   "resource": "politikreds",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/politikreds?token=REDACTED&q=n%C3%B8rrebrog&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 111,
+   "row_count": 0,
+   "rows": []
+  },
+  {
+   "key": "reg",
+   "resource": "region",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/region?token=REDACTED&q=n%C3%B8rrebrog&limit=5",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 107,
+   "row_count": 0,
+   "rows": []
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 2200 København N",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 4930 Maribo",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 2
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 7500 Holstebro",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 3
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 4
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 8722 Hedensted",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 5
+  }
+ ]
+}

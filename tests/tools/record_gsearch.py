@@ -26,6 +26,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import os
 import re
 import sys
 import time
@@ -71,13 +72,16 @@ REPORT_ROWS = 15  # the plugin's popup shows 15 rows before it scrolls
 
 
 def default_token() -> str:
+    token = os.environ.get("GSEARCH_TOKEN")
+    if token:
+        return token
     m = re.search(
         r'DEFAULT_DATAFORSYNING_TOKEN\s*=\s*"([^"]+)"',
         SETTINGS_FILE.read_text(),
     )
     if not m:
         sys.exit(
-            f"Could not find DEFAULT_DATAFORSYNING_TOKEN in {SETTINGS_FILE}"
+            f"Set GSEARCH_TOKEN (DEFAULT_DATAFORSYNING_TOKEN is not in {SETTINGS_FILE})"
         )
     return m.group(1)
 

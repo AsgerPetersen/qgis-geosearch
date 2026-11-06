@@ -5,9 +5,9 @@ the GSearch baseline (`tests/fixtures/gsearch/`). The expectation is what GSearc
 stednavne match on the name before " (" because Bifrost cannot give GSearch's text (#1).
 
 - Source: recorded fixtures (2026-11-06), replayed through the current core
-- Generated: 2026-11-06T15:12:46+00:00
-- Cases: 57. GSearch meets 57 expectations.
-- Bifrost: 33 pass, 12 known gaps (xfail), 11 pass despite a known gap (xpass), 0 fail, 1 without expectation.
+- Generated: 2026-11-06T20:00:37+00:00
+- Cases: 68. GSearch meets 68 expectations.
+- Bifrost: 35 pass, 21 known gaps (xfail), 11 pass despite a known gap (xpass), 0 fail, 1 without expectation.
 
 ✅ pass · ⚠️ known gap · 🎉 passes despite a known gap · ❌ unexpected failure
 
@@ -20,6 +20,14 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | [adr-raadhuspladsen-1-versaler](#adr-raadhuspladsen-1-versaler) | `RÅDHUSPLADSEN 1` | Rådhuspladsen 1, 1550 København V (top 3) | ✅ rank 1 | ✅ rank 1 |  |
 | [adr-raadhuspl](#adr-raadhuspl) | `rådhuspl` | Rådhuspladsen 1, 1550 København V (top 3) | ✅ rank 1 | ⚠️ 'Rådhuspladsen 1, 1550 København V' not found | #3 |
 | [adr-noerrebrog-1](#adr-noerrebrog-1) | `nørrebrog 1` | Nørrebrogade 1, 2200 København N (top 3) | ✅ rank 1 | ⚠️ 'Nørrebrogade 1, 2200 København N' not found | #3 |
+| [adr-noerrebrog](#adr-noerrebrog) | `nørrebrog` | Nørrebrogade 1, 2200 København N (top 5) | ✅ rank 1 | ⚠️ 'Nørrebrogade 1, 2200 København N' not found | #3 |
+| [adr-vangeb](#adr-vangeb) | `vangeb` | Vangeboled 1, Søllerød, 2840 Holte (top 5) | ✅ rank 1 | ⚠️ 'Vangeboled 1, Søllerød, 2840 Holte' not found | #3 |
+| [adr-vangeb-77](#adr-vangeb-77) | `vangeb 77` | Vangebovej 77, Søllerød, 2840 Holte | ✅ rank 1 | ⚠️ 'Vangebovej 77, Søllerød, 2840 Holte' not found | #3 |
+| [adr-77-vangeb](#adr-77-vangeb) | `77 vangeb` | Vangebovej 77, Søllerød, 2840 Holte | ✅ rank 1 | ⚠️ 'Vangebovej 77, Søllerød, 2840 Holte' not found | #3 |
+| [adr-14-oesterlund](#adr-14-oesterlund) | `14 østerlund` | Østerlund 14, 9870 Sindal (top 2) | ✅ rank 1 | ⚠️ 'Østerlund 14, 9870 Sindal' not found | #33 |
+| [adr-oesterlund-14](#adr-oesterlund-14) | `østerlund 14` | Østerlund 14, 9870 Sindal (top 2) | ✅ rank 1 | ✅ rank 2 |  |
+| [adr-77-vangebovej](#adr-77-vangebovej) | `77 vangebovej` | Vangebovej 77, Søllerød, 2840 Holte | ✅ rank 1 | ✅ rank 1 |  |
+| [adr-1-noerrebrogade](#adr-1-noerrebrogade) | `1 nørrebrogade` | Nørrebrogade 1, 2200 København N (top 5) | ✅ rank 1 | ⚠️ 'Nørrebrogade 1, 2200 København N' not found | #33 |
 | [adr-vestergade-21-aarhus](#adr-vestergade-21-aarhus) | `vestergade 21 aarhus` | Vestergade 21, 8000 Aarhus C | ✅ rank 1 | ✅ rank 1 |  |
 | [adr-vestergade-21-aar](#adr-vestergade-21-aar) | `vestergade 21 aar` | Vestergade 21, 8000 Aarhus C (top 3) | ✅ rank 2 | 🎉 rank 2 | #3 |
 | [adr-skodsb](#adr-skodsb) | `skodsb` | Skodsborg Strandvej 1, 2942 Skodsborg (top 5) | ✅ rank 1 | ⚠️ 'Skodsborg Strandvej 1, 2942 Skodsborg' not found | #3 |
@@ -34,9 +42,12 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | [ste-vendsyssel](#ste-vendsyssel) | `ste: vendsyssel` | Vendsyssel (Landsdel i Region Nordjylland) (top 3) | ✅ rank 1 | ✅ rank 1 (name only, #1) | #1 |
 | [ste-skodsborg](#ste-skodsborg) | `ste: skodsborg` | Skodsborg (By i Rudersdal Kommune) (top 3) | ✅ rank 1 | ✅ rank 1 (name only, #1) | #1 |
 | [ste-raadhuspladsen](#ste-raadhuspladsen) | `ste: rådhuspladsen` | Rådhuspladsen (Seværdighed i København V) (top 3) | ✅ rank 1 | ✅ rank 1 (name only, #1) | #1 |
+| [ste-oeenslaeger](#ste-oeenslaeger) | `ste: øenslæger` | Oehlenschlägers Bøg (Løvtræ i Tranekær) (top 3) | ✅ rank 1 | ⚠️ 'Oehlenschlägers Bøg (Løvtræ i Tranekær)' not found | #34 |
+| [ste-oeenslaeger-alle-typer](#ste-oeenslaeger-alle-typer) | `øenslæger` | Oehlenschlægersgade 1, 1663 København V (top 5) | ✅ rank 1 | ⚠️ 'Oehlenschlægersgade 1, 1663 København V' not found | #34 |
 | [ste-tivoli](#ste-tivoli) | `tivoli` | Tivoli (Forlystelsespark i København V) (top 5) | ✅ rank 1 | ✅ rank 1 (name only, #1) | #1 |
 | [ste-anholt](#ste-anholt) | `anholt` | Anholt (Ø i Kattegat) (top 5) | ✅ rank 3 | ✅ rank 1 (name only, #1) | #1 |
 | [ste-roskilde-fjord](#ste-roskilde-fjord) | `roskilde fjord` | Roskilde Fjord (Fjord i Isefjord) | ✅ rank 1 | ✅ rank 1 (name only, #1) | #1 |
+| [ste-gudenaa-kommunefilter-730](#ste-gudenaa-kommunefilter-730) | `ste: gudenå` | Gudenå (Vandløb i Vonge) (top 5) | ✅ rank 1 | ⚠️ 'Gudenå (Vandløb i Vonge)' not found | #35 |
 | [ste-vor-frue-kommunefilter](#ste-vor-frue-kommunefilter) | `vor frue` | Vor Frue Kirke (Kirke i København K) (top 5) | ✅ rank 1 | 🎉 rank 1 (name only, #1) | #2 |
 | [pos-8000](#pos-8000) | `8000` | 8000 Aarhus C (top 10) | ✅ rank 6 | ✅ rank 1 |  |
 | [pos-80](#pos-80) | `pos: 80` | 8000 Aarhus C (top 3) | ✅ rank 1 | ⚠️ '8000 Aarhus C' not found | #3 |
@@ -247,6 +258,206 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | 9 | pos: 1801 Frederiksberg C | ste: Nørrebro (topografi, Ringkøbing-Skjern) |
 | 10 | pos: 1804 Frederiksberg C | ste: Nørrebroen (bygning, Frederikshavn) |
 | | … 5 more | … 12 more |
+
+### adr-noerrebrog
+
+*Brugeren vil finde Nørrebrogade og har kun skrevet 'nørrebrog'*
+
+- Typed: `nørrebrog`
+- Expected: Nørrebrogade 1, 2200 København N (top 5) (point)
+- GSearch: ✅ rank 1
+- Bifrost: ⚠️ known gap — 'Nørrebrogade 1, 2200 København N' not found
+- Slowest search request: 246 ms
+- Known gap: #3
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | adr: **Nørrebrogade 1, 2200 København N** | ste: Nørrebro (bebyggelse, København) |
+| 2 | adr: Nørrebrogade 1, 4930 Maribo | ste: Nørrebro (topografi, Holstebro) |
+| 3 | adr: Nørrebrogade 1, 7500 Holstebro | ste: Nørrebro (topografi, Varde) |
+| 4 | adr: Nørrebrogade 1, 8700 Horsens | ste: Nørrebro (topografi, Ringkøbing-Skjern) |
+| 5 | adr: Nørrebrogade 1, 8722 Hedensted | ste: Nørrebroen (bygning, Frederikshavn) |
+| 6 |  | pos: 4951 Nørreballe |
+| 7 |  | pos: 5580 Nørre Aaby |
+| 8 |  | pos: 6830 Nørre Nebel |
+| 9 |  | pos: 8766 Nørre Snede |
+| 10 |  | pos: 9400 Nørresundby |
+| | … 0 more | … 14 more |
+
+### adr-vangeb
+
+*Brugeren vil finde en adresse på Vangebovej eller Vangeboled i Holte og har kun skrevet 'vangeb'*
+
+- Typed: `vangeb`
+- Expected: Vangeboled 1, Søllerød, 2840 Holte (top 5) (point)
+- GSearch: ✅ rank 1
+- Bifrost: ⚠️ known gap — 'Vangeboled 1, Søllerød, 2840 Holte' not found
+- Slowest search request: 275 ms
+- Known gap: #3
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | adr: **Vangeboled 1, Søllerød, 2840 Holte** | ste: Vangebo (bygning, Helsingør) |
+| 2 | adr: Vangeboled 2, Søllerød, 2840 Holte | ste: Vange (bygning, Tønder) |
+| 3 | adr: Vangebovej 2, Søllerød, 2840 Holte | ste: Vangen (bygning, Hedensted) |
+| 4 | adr: Vangeboled 2A, Søllerød, 2840 Holte | ste: Vangen (bygning, Vesthimmerlands) |
+| 5 | adr: Vangebovej 2B, Søllerød, 2840 Holte | ste: Vangen (bygning, Hjørring) |
+| 6 | ste: Vangebo (Gård i Helsingør) | pos: 7184 Vandel |
+| 7 | ste: Vangebovej (Daginstitution i Holte) | pos: 2720 Vanløse |
+| 8 | ste: Vangebomatriklen (Ravnholm Skole - Afdeling Vangebo, Folkeskole i Holte) | pos: 7442 Engesvang |
+| 9 | ste: Haveforeningen Vangebo (Park i Holte) | pos: 4772 Langebæk |
+| 10 | ste: Ravnholm Skole - Afdeling Vangebo (Folkeskole i Holte) | pos: 9430 Vadum |
+| | … 0 more | … 10 more |
+
+### adr-vangeb-77
+
+*Brugeren vil finde Vangebovej 77 og forkorter vejnavnet*
+
+- Typed: `vangeb 77`
+- Expected: Vangebovej 77, Søllerød, 2840 Holte (point)
+- GSearch: ✅ rank 1
+- Bifrost: ⚠️ known gap — 'Vangebovej 77, Søllerød, 2840 Holte' not found
+- Slowest search request: 199 ms
+- Known gap: #3
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | adr: **Vangebovej 77, Søllerød, 2840 Holte** | adr: Vangen 77, 9400 Nørresundby |
+| 2 | pos: 7755 Bedsted Thy | adr: Vangen 177, 1., 9400 Nørresundby |
+| 3 | pos: 7741 Frøstrup | adr: Vangen 277, 9400 Nørresundby |
+| 4 | pos: 7730 Hanstholm | adr: Vangen 377, 2., 9400 Nørresundby |
+| 5 | pos: 7760 Hurup Thy | adr: Vangen 7, Nexø, 3730 Nexø |
+| 6 | pos: 7752 Snedsted | ste: Vangebo (bygning, Helsingør) |
+| 7 | kom: Morsø Kommune | ste: Vange (bygning, Tønder) |
+| 8 | kom: Skive Kommune | ste: Vangen (bygning, Hedensted) |
+| 9 |  | ste: Vangen (bygning, Vesthimmerlands) |
+| 10 |  | ste: Vangen (bygning, Hjørring) |
+| | … 0 more | … 15 more |
+
+### adr-77-vangeb
+
+*Brugeren skriver husnummeret først og forkorter vejnavnet for at finde Vangebovej 77*
+
+- Typed: `77 vangeb`
+- Expected: Vangebovej 77, Søllerød, 2840 Holte (point)
+- GSearch: ✅ rank 1
+- Bifrost: ⚠️ known gap — 'Vangebovej 77, Søllerød, 2840 Holte' not found
+- Slowest search request: 858 ms
+- Known gap: #3
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | adr: **Vangebovej 77, Søllerød, 2840 Holte** | ste: Vangebo (bygning, Helsingør) |
+| 2 | pos: 7755 Bedsted Thy | ste: Vange (bygning, Tønder) |
+| 3 | pos: 7741 Frøstrup | ste: Vangen (bygning, Hedensted) |
+| 4 | pos: 7730 Hanstholm | ste: Vangen (bygning, Vesthimmerlands) |
+| 5 | pos: 7760 Hurup Thy | ste: Vangen (bygning, Hjørring) |
+| 6 | pos: 7752 Snedsted | pos: 7184 Vandel |
+| 7 | kom: Morsø Kommune | pos: 2720 Vanløse |
+| 8 | kom: Skive Kommune | pos: 7442 Engesvang |
+| 9 |  | pos: 4772 Langebæk |
+| 10 |  | pos: 9430 Vadum |
+| | … 0 more | … 10 more |
+
+### adr-14-oesterlund
+
+*Brugeren skriver husnummeret først for at finde Østerlund 14*
+
+- Typed: `14 østerlund`
+- Expected: Østerlund 14, 9870 Sindal (top 2) (point)
+- GSearch: ✅ rank 1
+- Bifrost: ⚠️ known gap — 'Østerlund 14, 9870 Sindal' not found
+- Slowest search request: 231 ms
+- Known gap: #33
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | adr: **Østerlund 14, 9870 Sindal** | ste: Østerlund (bygning, Lemvig) |
+| 2 | adr: Østerlund 14, Gjellerup, 7400 Herning | ste: Østerlund (bygning, Vejle) |
+| 3 | adr: Østerlunden 14, 5000 Odense C | ste: Østerlund (bygning, Faaborg-Midtfyn) |
+| 4 | adr: Østerlunden 14, Saksild, 8300 Odder | ste: Østerlund (bygning, Herning) |
+| 5 | adr: Østerlundvej 14, Skørring, 8544 Mørke | ste: Østerlund (bygning, Viborg) |
+| 6 | pos: 1401 København K | pos: 9750 Østervrå |
+| 7 | pos: 1402 København K | pos: 3751 Østermarie |
+| 8 | pos: 1403 København K | pos: 7990 Øster Assels |
+| 9 | pos: 1406 København K | pos: 4894 Øster Ulslev |
+| 10 | pos: 1400 København K | pos: 8752 Østbirk |
+| | … 1 more | … 13 more |
+
+### adr-oesterlund-14
+
+*Brugeren vil finde Østerlund 14 og skriver husnummeret efter vejnavnet*
+
+- Typed: `østerlund 14`
+- Expected: Østerlund 14, 9870 Sindal (top 2) (point)
+- GSearch: ✅ rank 1
+- Bifrost: ✅ pass — rank 2
+- Geometry of the hit: Point
+- Slowest search request: 284 ms
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | adr: **Østerlund 14, 9870 Sindal** | adr: Østerlund 14, Gjellerup, 7400 Herning |
+| 2 | adr: Østerlund 14, Gjellerup, 7400 Herning | adr: **Østerlund 14, 9870 Sindal** |
+| 3 | adr: Østerlunden 14, 5000 Odense C | adr: Østerlund 1, Trørød, 2950 Vedbæk |
+| 4 | adr: Østerlunden 14, Saksild, 8300 Odder | adr: Østerlund 4, Trørød, 2950 Vedbæk |
+| 5 | adr: Østerlundvej 14, Skørring, 8544 Mørke | adr: Østerlund 10, Trørød, 2950 Vedbæk |
+| 6 | pos: 1401 København K | ste: Østerlund (bygning, Lemvig) |
+| 7 | pos: 1402 København K | ste: Østerlund (bygning, Vejle) |
+| 8 | pos: 1403 København K | ste: Østerlund (bygning, Faaborg-Midtfyn) |
+| 9 | pos: 1406 København K | ste: Østerlund (bygning, Herning) |
+| 10 | pos: 1400 København K | ste: Østerlund (bygning, Viborg) |
+| | … 1 more | … 18 more |
+
+### adr-77-vangebovej
+
+*Brugeren skriver husnummeret først og hele vejnavnet for at finde Vangebovej 77*
+
+- Typed: `77 vangebovej`
+- Expected: Vangebovej 77, Søllerød, 2840 Holte (point)
+- GSearch: ✅ rank 1
+- Bifrost: ✅ pass — rank 1
+- Geometry of the hit: Point
+- Slowest search request: 239 ms
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | adr: **Vangebovej 77, Søllerød, 2840 Holte** | adr: **Vangebovej 77, Søllerød, 2840 Holte** |
+| 2 | pos: 7755 Bedsted Thy | adr: Vangebovej 17, Søllerød, 2840 Holte |
+| 3 | pos: 7741 Frøstrup | adr: Vangebovej 57, Søllerød, 2840 Holte |
+| 4 | pos: 7730 Hanstholm | adr: Vangebovej 67, Søllerød, 2840 Holte |
+| 5 | pos: 7760 Hurup Thy | adr: Vangebovej 71, Søllerød, 2840 Holte |
+| 6 | pos: 7752 Snedsted | ste: Vangebovej (bygning, Rudersdal) |
+| 7 | kom: Morsø Kommune | ste: Vangebo (bygning, Helsingør) |
+| 8 | kom: Skive Kommune | ste: Vange (bygning, Tønder) |
+| 9 |  | ste: Vangen (bygning, Hedensted) |
+| 10 |  | ste: Vangen (bygning, Vesthimmerlands) |
+| | … 0 more | … 16 more |
+
+### adr-1-noerrebrogade
+
+*Brugeren skriver husnummeret først og hele vejnavnet for at finde Nørrebrogade 1*
+
+- Typed: `1 nørrebrogade`
+- Expected: Nørrebrogade 1, 2200 København N (top 5) (point)
+- GSearch: ✅ rank 1
+- Bifrost: ⚠️ known gap — 'Nørrebrogade 1, 2200 København N' not found
+- Slowest search request: 198 ms
+- Known gap: #33
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | adr: **Nørrebrogade 1, 2200 København N** | ste: Nørrebro (bebyggelse, København) |
+| 2 | adr: Nørrebrogade 1, 4930 Maribo | ste: Nørrebro (topografi, Holstebro) |
+| 3 | adr: Nørrebrogade 1, 7500 Holstebro | ste: Nørrebro (topografi, Varde) |
+| 4 | adr: Nørrebrogade 1, 8700 Horsens | ste: Nørrebro (topografi, Ringkøbing-Skjern) |
+| 5 | adr: Nørrebrogade 1, 8722 Hedensted | ste: Nørregade (bebyggelse, Tønder) |
+| 6 | pos: 1802 Frederiksberg C | pos: 4951 Nørreballe |
+| 7 | pos: 1803 Frederiksberg C | pos: 8766 Nørre Snede |
+| 8 | pos: 1800 Frederiksberg C | pos: 5580 Nørre Aaby |
+| 9 | pos: 1801 Frederiksberg C | pos: 6830 Nørre Nebel |
+| 10 | pos: 1804 Frederiksberg C | pos: 9400 Nørresundby |
+| | … 5 more | … 6 more |
 
 ### adr-vestergade-21-aarhus
 
@@ -607,6 +818,56 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | 10 |  | ste: Rådhushaven (naturareal, København) |
 | | … 0 more | … 30 more |
 
+### ste-oeenslaeger
+
+*Brugeren vil finde stednavne med Oehlenschläger og staver det, som det udtales*
+
+- Typed: `ste: øenslæger`
+- Expected: Oehlenschlägers Bøg (Løvtræ i Tranekær) (top 3) (point)
+- GSearch: ✅ rank 1
+- Bifrost: ⚠️ known gap — 'Oehlenschlägers Bøg (Løvtræ i Tranekær)' not found
+- Slowest search request: 231 ms
+- Known gap: #34
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | ste: **Oehlenschlägers Bøg (Løvtræ i Tranekær)** | ste: Øenslyst (bygning, Syddjurs) |
+| 2 | ste: Adam Oehlenschläger (Seværdighed i København K) | ste: Øen (naturareal, Haderslev) |
+| 3 | ste: Oehlenschlægersgades Skole (Folkeskole i København V) | ste: Øen (bebyggelse, Faaborg-Midtfyn) |
+| 4 |  | ste: Øen (bygning, Syddjurs) |
+| 5 |  | ste: Øen (landskabsform, Syddjurs) |
+| 6 |  | ste: Øen (bygning, København) |
+| 7 |  | ste: Øen (seværdighed, Kalundborg) |
+| 8 |  | ste: Øen (seværdighed, Allerød) |
+| 9 |  | ste: Øen (landskabsform, Langeland) |
+| 10 |  | ste: Øen (bebyggelse, Langeland) |
+| | … 0 more | … 30 more |
+
+### ste-oeenslaeger-alle-typer
+
+*Brugeren har alle typer slået til og søger på 'øenslæger'*
+
+- Typed: `øenslæger`
+- Expected: Oehlenschlægersgade 1, 1663 København V (top 5) (point)
+- GSearch: ✅ rank 1
+- Bifrost: ⚠️ known gap — 'Oehlenschlægersgade 1, 1663 København V' not found
+- Slowest search request: 173 ms
+- Known gap: #34
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | adr: **Oehlenschlægersgade 1, 1663 København V** | ste: Øenslyst (bygning, Syddjurs) |
+| 2 | adr: Oehlenschlægersvej 1, 6000 Kolding | ste: Øen (naturareal, Haderslev) |
+| 3 | adr: Oehlenschlægersgade 1C, 1663 København V | ste: Øen (bebyggelse, Faaborg-Midtfyn) |
+| 4 | adr: Oehlenschlægersvej 1C, 5230 Odense M | ste: Øen (bygning, Syddjurs) |
+| 5 | adr: Oehlenschlægersgade 1D, 1663 København V | ste: Øen (landskabsform, Syddjurs) |
+| 6 | ste: Oehlenschlägers Bøg (Løvtræ i Tranekær) | pos: 3630 Jægerspris |
+| 7 | ste: Adam Oehlenschläger (Seværdighed i København K) | pos: 7990 Øster Assels |
+| 8 | ste: Oehlenschlægersgades Skole (Folkeskole i København V) | pos: 4894 Øster Ulslev |
+| 9 |  | pos: 8300 Odder |
+| 10 |  | pos: 6870 Ølgod |
+| | … 0 more | … 9 more |
+
 ### ste-tivoli
 
 *Brugeren vil finde forlystelsesparken Tivoli i København*
@@ -684,6 +945,29 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | 9 | ste: Kirkegrund (Grund i Roskilde Fjord) | ste: Roskilde Ring (naturareal, Roskilde) |
 | 10 | ste: Ølsted Grund (Grund i Roskilde Fjord) | ste: STU Roskilde (bygning, Roskilde) |
 | | … 30 more | … 30 more |
+
+### ste-gudenaa-kommunefilter-730
+
+*Brugeren har kommunefilter på Randers og vil finde Gudenå, der løber gennem Randers*
+
+- Typed: `ste: gudenå`
+- Kommunefilter: 730
+- Expected: Gudenå (Vandløb i Vonge) (top 5) (line)
+- GSearch: ✅ rank 1
+- Bifrost: ⚠️ known gap — 'Gudenå (Vandløb i Vonge)' not found
+- Hidden by the kommune filter: ste 94
+- Slowest search request: 229 ms
+- Known gap: #35
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | ste: **Gudenå (Vandløb i Vonge)** | ste: Gudenå Øst (topografi, Randers) |
+| 2 | ste: Gudenå Øst (Rasteplads i Randers SV) | ste: Gudenå Vest (topografi, Randers) |
+| 3 | ste: Gudenåbroen (Bro i Randers NV) | ste: Gudenå-Krukken (seværdighed, Randers) |
+| 4 | ste: Gudenå Vest (Rasteplads i Randers SV) | ste: Gudenåbroen (vej, Randers) |
+| 5 | ste: Gudenåparken (Park i Randers NV) | ste: Gudenåparken (naturareal, Randers) |
+| 6 | ste: Gudenå-Krukken (Seværdighed i Randers SV) | ste: Pigen i Gudenåen (seværdighed, Randers) |
+| 7 | ste: Pigen i Gudenåen (Seværdighed i Randers SV) |  |
 
 ### ste-vor-frue-kommunefilter
 

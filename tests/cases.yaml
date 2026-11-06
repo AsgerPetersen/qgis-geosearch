@@ -97,6 +97,84 @@
   known_gap: 3
   notes: "Bifrost retter til 'Nørrebro 1'."
 
+- id: adr-noerrebrog
+  story: "Brugeren vil finde Nørrebrogade og har kun skrevet 'nørrebrog'"
+  input: "nørrebrog"
+  expect:
+    text: "Nørrebrogade 1, 2200 København N"
+    within: 5
+    geometry: point
+  known_gap: 3
+  notes: "Fra sammenligningssiden. Delvist ord: Bifrost giver veje med navnet Nørrebro."
+
+- id: adr-vangeb
+  story: "Brugeren vil finde en adresse på Vangebovej eller Vangeboled i Holte og har kun skrevet 'vangeb'"
+  input: "vangeb"
+  expect:
+    text: "Vangeboled 1, Søllerød, 2840 Holte"
+    within: 5
+    geometry: point
+  known_gap: 3
+  notes: "Fra brugeren. Delvist ord: Bifrost giver veje med navnet Vangen."
+
+- id: adr-vangeb-77
+  story: "Brugeren vil finde Vangebovej 77 og forkorter vejnavnet"
+  input: "vangeb 77"
+  expect:
+    text: "Vangebovej 77, Søllerød, 2840 Holte"
+    within: 1
+    geometry: point
+  known_gap: 3
+  notes: "Fra brugeren. Bifrost retter til 'Vangen 77'."
+
+- id: adr-77-vangeb
+  story: "Brugeren skriver husnummeret først og forkorter vejnavnet for at finde Vangebovej 77"
+  input: "77 vangeb"
+  expect:
+    text: "Vangebovej 77, Søllerød, 2840 Holte"
+    within: 1
+    geometry: point
+  known_gap: 3
+  notes: "Fra brugeren. Både husnummer først og delvist ord."
+
+- id: adr-14-oesterlund
+  story: "Brugeren skriver husnummeret først for at finde Østerlund 14"
+  input: "14 østerlund"
+  expect:
+    text: "Østerlund 14, 9870 Sindal"
+    within: 2
+    geometry: point
+  known_gap: 33
+  notes: "Fra brugeren: nogle brugere skriver husnummeret først. Der er to adresser Østerlund 14 (Sindal og Gjellerup)."
+
+- id: adr-oesterlund-14
+  story: "Brugeren vil finde Østerlund 14 og skriver husnummeret efter vejnavnet"
+  input: "østerlund 14"
+  expect:
+    text: "Østerlund 14, 9870 Sindal"
+    within: 2
+    geometry: point
+  notes: "Modstykke til adr-14-oesterlund."
+
+- id: adr-77-vangebovej
+  story: "Brugeren skriver husnummeret først og hele vejnavnet for at finde Vangebovej 77"
+  input: "77 vangebovej"
+  expect:
+    text: "Vangebovej 77, Søllerød, 2840 Holte"
+    within: 1
+    geometry: point
+  notes: "Husnummer først med helt vejnavn. Modstykke til adr-77-vangeb."
+
+- id: adr-1-noerrebrogade
+  story: "Brugeren skriver husnummeret først og hele vejnavnet for at finde Nørrebrogade 1"
+  input: "1 nørrebrogade"
+  expect:
+    text: "Nørrebrogade 1, 2200 København N"
+    within: 5
+    geometry: point
+  known_gap: 33
+  notes: "Husnummer først med helt vejnavn."
+
 - id: adr-vestergade-21-aarhus
   story: "Brugeren vil finde Vestergade 21 i Aarhus og skriver byen med"
   input: "vestergade 21 aarhus"
@@ -236,6 +314,26 @@
     geometry: polygon
   known_gap: 1
 
+- id: ste-oeenslaeger
+  story: "Brugeren vil finde stednavne med Oehlenschläger og staver det, som det udtales"
+  input: "ste: øenslæger"
+  expect:
+    text: "Oehlenschlägers Bøg (Løvtræ i Tranekær)"
+    within: 3
+    geometry: point
+  known_gap: 34
+  notes: "Fra brugeren. GSearch finder stavemåden Oehlenschläger ud fra udtalen."
+
+- id: ste-oeenslaeger-alle-typer
+  story: "Brugeren har alle typer slået til og søger på 'øenslæger'"
+  input: "øenslæger"
+  expect:
+    text: "Oehlenschlægersgade 1, 1663 København V"
+    within: 5
+    geometry: point
+  known_gap: 34
+  notes: "Fra brugeren. Med alle typer kommer adresserne først."
+
 - id: ste-tivoli
   story: "Brugeren vil finde forlystelsesparken Tivoli i København"
   input: "tivoli"
@@ -265,6 +363,17 @@
     within: 1
     geometry: polygon
   known_gap: 1
+
+- id: ste-gudenaa-kommunefilter-730
+  story: "Brugeren har kommunefilter på Randers og vil finde Gudenå, der løber gennem Randers"
+  input: "ste: gudenå"
+  kommuner: ["730"]
+  expect:
+    text: "Gudenå (Vandløb i Vonge)"
+    within: 5
+    geometry: line
+  known_gap: 35
+  notes: "Gudenå løber gennem otte kommuner. GSearch har dem alle på objektet; Bifrost har kun én (0740 Silkeborg)."
 
 - id: ste-vor-frue-kommunefilter
   story: "Brugeren har kommunefilter på København og Aalborg og vil finde Vor Frue"
