@@ -3,7 +3,7 @@
 Runs the same code the plugin runs (``plan_search``, ``KommunefilterCache``,
 ``collect_rows``), with a urllib ``send`` instead of Qt. Skipped without a key:
 
-    BIFROST_KEY=... uv run pytest tests/live
+    BIFROST_KEY=... uv run pytest -m live tests/live   # make test-live
 
 ``BIFROST_URL`` overrides the default test server.
 """

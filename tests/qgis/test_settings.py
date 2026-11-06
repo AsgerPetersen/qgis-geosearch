@@ -156,3 +156,60 @@ def test_settings_page_round_trip(qgis_parent):
     assert dialog2.bifrost_key.text() == "test-key"
     assert dialog2.bifrost_url.text() == "http://localhost:9999"
     assert [b.objectName()[7:] for b in boxes if b.isChecked()] == list(expected)
+
+
+def test_kommunefilter_from_3x_is_switched_on_once(legacy_settings):
+    from geosearch_dk.config import Settings
+
+    seed(kommunefilter="101,851")
+    settings = Settings()
+    assert settings.kommunefilter_migrated_now is True
+    assert settings.value("kommunefilter_enabled") is True
+    assert settings.value("kommunefilter") == "101,851"
+    again = Settings()
+    assert again.kommunefilter_migrated_now is False
+    assert again.value("kommunefilter_enabled") is True
+
+
+def test_kommunefilter_is_off_by_default(legacy_settings):
+    from geosearch_dk.config import Settings
+
+    settings = Settings()
+    assert settings.kommunefilter_migrated_now is False
+    assert settings.value("kommunefilter_enabled") is False
+    # Typing codes later does not switch it on behind the user's back
+    settings.set_value("kommunefilter", "101")
+    assert Settings().value("kommunefilter_enabled") is False
+
+
+def test_kommunefilter_page(qgis_parent, monkeypatch):
+    from geosearch_dk import kommunefilter_info, whatsnew
+    from geosearch_dk.config import OptionsFactory, Settings
+
+    settings = Settings()
+    page = OptionsFactory(settings).createWidget(qgis_parent)
+    dialog = page.config_widget
+    assert not dialog.kommunefilter_enabled.isChecked()
+    assert not dialog.kommunefilter.isEnabled()
+    info = dialog.kommunefilterInfoLabel
+    assert info.wordWrap() and info.isEnabled()
+    assert "100 bedste hits" in info.text() and "Horsens (615)" in info.text()
+
+    dialog.kommunefilter_enabled.setChecked(True)
+    assert dialog.kommunefilter.isEnabled()
+    dialog.kommunefilter.setText("615")
+    page.apply()
+    assert stored("kommunefilter") == "615"
+    assert settings.value("kommunefilter_enabled") is True
+
+    dialog.kommunefilter_enabled.setChecked(False)
+    assert not dialog.kommunefilter.isEnabled()
+
+    calls = []
+    monkeypatch.setattr(
+        whatsnew, "show_whats_new", lambda *a, **kw: calls.append((a, kw))
+    )
+    dialog.kommunefilterWhatsNewLabel.linkActivated.emit("#kommunefilter")
+    ((args, kwargs),) = calls
+    assert args == (dialog,)
+    assert kwargs["anchor"] == kommunefilter_info.WHATSNEW_ANCHOR == "kommunefilter"

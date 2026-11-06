@@ -130,3 +130,38 @@ def test_new_type_starts_off_after_upgrade():
         return m.type_default(name[len("search_") :])
 
     assert m.selected_type_keys(value, TYPES + (new,)) == ("adr",)
+
+
+def run_kommunefilter_migration(values):
+    def set_value(name, value):
+        values[name] = value
+
+    return m.migrate_kommunefilter(values.get, set_value)
+
+
+@pytest.mark.parametrize("codes", ["101", "101,147,157", " 615 "])
+def test_kommunefilter_from_3x_is_switched_on_once(codes):
+    values = {"kommunefilter": codes}
+    assert run_kommunefilter_migration(values) is True
+    assert values == {
+        "kommunefilter": codes,
+        "kommunefilter_enabled": True,
+        "kommunefilter_migrated": True,
+    }
+    assert run_kommunefilter_migration(values) is False
+
+
+@pytest.mark.parametrize("values", [{}, {"kommunefilter": ""}, {"kommunefilter": "  "}])
+def test_no_kommunefilter_stays_off(values):
+    assert run_kommunefilter_migration(values) is False
+    assert "kommunefilter_enabled" not in values
+    assert values["kommunefilter_migrated"] is True
+
+
+def test_kommunefilter_switched_off_later_stays_off():
+    # The user unticks the filter after the migration; a restart keeps it off.
+    values = {"kommunefilter": "101"}
+    run_kommunefilter_migration(values)
+    values["kommunefilter_enabled"] = False
+    assert run_kommunefilter_migration(values) is False
+    assert values["kommunefilter_enabled"] is False
