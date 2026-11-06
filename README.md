@@ -9,6 +9,10 @@ Overgang til Bifrost
 --------------
 Klimadatastyrelsen lukker søgetjenesten [GSearch](https://github.com/Klimadatastyrelsen/gsearch) i november 2026. Fra version 4.0 bruger Geosearch DK derfor Klimadatastyrelsens nye søgetjeneste, **Bifrost**. Det meste virker som før, men der er nogle forskelle. Pluginet viser dem første gang, det starter efter opdateringen, og du kan altid finde dem igen under ⓘ-knappen i søgepanelet.
 
+**Du skal bruge en nøgle til Bifrost**\
+Bifrost kræver sin egen API-nøgle. Et token til Dataforsyningen kan ikke bruges, så pluginet har fjernet det token, du måske havde angivet i den gamle version.
+Pluginet har endnu ingen indbygget nøgle. Vi har spurgt Klimadatastyrelsen, om pluginet må få en fælles nøgle, som det havde et fælles token til Dataforsyningen. Indtil da skal du selv indtaste en nøgle: Klik på skruenøglen i søgepanelet (eller vælg *Indstillinger → Indstillinger → Geosearch DK*), og indsæt den under **Bifrost API-nøgle**. [Sådan får du en API-nøgle til Bifrost](https://bifrost.test42.dataforsyningen.dk/docs/da/#authentication). Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen `BIFROST_KEY`.
+
 **Nyt**
 - **Lejligheder:** Du kan nu finde adresser med etage og dør.
 
@@ -47,7 +51,7 @@ Pluginet installerer et QGIS-panel med en søgeboks, der som udgangspunkt lægge
 
 Hvis man trykker på krydset i Geosearch DK-panelet bliver det deaktiveret og forsvinder helt fra visningen, men kan nemt genaktiveres ved at sætte flueben ved det under menupunktet Visning->Paneler (på engelsk View->Panels).
 
-Pluginet distribueres med et fungerende token til Dataforsyningen. Det er muligt at angive sit eget token (dvs. [autentificere som en bestemt bruger](https://dataforsyningen.dk/news/3808)) under pluginets indstillinger, som findes ved at gå til menupunktet Indstillinger->Indstillinger->Geosearch DK (engelsk Settings->Options) eller bruge genvejen via skruenøgle-ikonet i panelet.
+Pluginet kræver en API-nøgle til Bifrost (se [Overgang til Bifrost](#overgang-til-bifrost)). Nøglen angives under pluginets indstillinger, som findes ved at gå til menupunktet Indstillinger->Indstillinger->Geosearch DK (engelsk Settings->Options) eller bruge genvejen via skruenøgle-ikonet i panelet.
 
 Opdatering af pluginet
 --------------
@@ -68,7 +72,7 @@ Du kan lave en række indstillinger i pluginets indstillingsfane, som du kan åb
 ![geosearchdk-opensettings](https://github.com/Septima/qgis-geosearch/assets/16276034/3f56d335-7397-4779-b7b0-c39e811fd9eb)
 
 Følgende indstillinger kan foretages i pluginets indstillingsdialog:
-- Token til Dataforsyningen (Opret token [her](https://dataforsyningen.dk/user#token)) - sørg for at du er logget ind øverst til højre og opret derefter et token under "Administrer token til webservices og API'er"
+- Bifrost API-nøgle. Se [Sådan får du en API-nøgle til Bifrost](https://bifrost.test42.dataforsyningen.dk/docs/da/#authentication). Står feltet tomt, bruges miljøvariablen `BIFROST_KEY`. Et token til Dataforsyningen kan ikke bruges.
 - Kommunefilter. Indtast et eller flere kommunenumre adskilt af komma. Pluginet skjuler så søgeresultater uden for de listede kommuner. Læs om begrænsningerne under [Overgang til Bifrost](#overgang-til-bifrost).
 - Typefilter. Vis kun søgeresultater af bestemte typer, f.eks. adresser, matrikelnumre, stednavne etc.
 

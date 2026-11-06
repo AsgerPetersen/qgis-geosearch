@@ -4,30 +4,64 @@
 <context>
     <name>SearchBox</name>
     <message>
-        <location filename="../searchbox.py" line="110"/>
-        <source>Afvist af Dataforsyningen</source>
-        <translation>Rejected by Dataforsyningen</translation>
-    </message>
-    <message>
-        <location filename="../searchbox.py" line="111"/>
-        <source>Manglende eller ukorrekt token til Dataforsyningen.</source>
-        <translation>Missing or incorrect token for Dataforsyningen.</translation>
-    </message>
-    <message>
-        <location filename="../searchbox.py" line="63"/>
+        <location filename="../searchbox.py" line="86"/>
         <source>Søg adresse, stednavn, postnummer, matrikel m.m.</source>
         <translation>Search Danish addresses, road names, place names, postal codes, land registry etc.</translation>
     </message>
     <message>
-        <location filename="../searchbox.py" line="112"/>
+        <location filename="../searchbox.py" line="155"/>
+        <source>Afvist af Bifrost</source>
+        <translation>Rejected by Bifrost</translation>
+    </message>
+    <message>
+        <location filename="../searchbox.py" line="156"/>
+        <source>Nøglen til Bifrost mangler eller er ugyldig.</source>
+        <translation>The Bifrost key is missing or invalid.</translation>
+    </message>
+    <message>
+        <location filename="../searchbox.py" line="162"/>
+        <source>Bifrost-nøgle mangler</source>
+        <translation>Bifrost key missing</translation>
+    </message>
+    <message>
+        <location filename="../searchbox.py" line="164"/>
+        <source>Geosearch DK kræver en nøgle til Bifrost. Angiv den i indstillingerne eller i miljøvariablen BIFROST_KEY.</source>
+        <translation>Geosearch DK needs a key for Bifrost. Enter it in the settings or in the BIFROST_KEY environment variable.</translation>
+    </message>
+    <message>
+        <location filename="../searchbox.py" line="176"/>
         <source>Åbn settings</source>
         <translation>Open settings</translation>
     </message>
     <message>
-        <location filename="../searchbox.py" line="214"/>
-        <source>Geosearch DK lader brugeren zoome til navngivne steder i Danmark.&lt;br /&gt;Pluginet benytter tjenesten 'gsearch' fra &lt;a href=&quot;https://dataforsyningen.dk/data/4831&lt;/a&gt; og kræver derfor et gyldigt login til denne tjeneste.&lt;br /&gt;Pluginets webside: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Udviklet af: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
+        <location filename="../searchbox.py" line="343"/>
+        <source>Geosearch DK lader brugeren zoome til navngivne steder i Danmark.&lt;br /&gt;Pluginet benytter Klimadatastyrelsens søgetjeneste Bifrost, som afløser GSearch.&lt;br /&gt;Pluginets webside: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Udviklet af: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
 </source>
-        <translation>With Geosearch DK the user can zoom to named places in Denmark.&lt;br /&gt;The plugin uses the service 'gsearch' from &lt;a href=&quot;https://dataforsyningen.dk/data/4831&lt;/a&gt; and require a valid login to this service.&lt;br /&gt;The website of the plugin: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Developed by: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;</translation>
+        <translation>With Geosearch DK the user can zoom to named places in Denmark.&lt;br /&gt;The plugin uses Bifrost, the search service from the Danish Agency for Climate Data (Klimadatastyrelsen), which replaces GSearch.&lt;br /&gt;The website of the plugin: &lt;a href=&quot;http://github.com/Septima/qgis-geosearch&quot;&gt;github.com/Septima/qgis-geosearch&lt;/a&gt;&lt;br /&gt;Developed by: Septima&lt;br /&gt;Mail: &lt;a href=&quot;mailto:kontakt@septima.dk&quot;&gt;kontakt@septima.dk&lt;/a&gt;&lt;br /&gt;Web: &lt;a href=&quot;http://www.septima.dk&quot;&gt;www.septima.dk&lt;/a&gt;
+</translation>
+    </message>
+</context>
+<context>
+    <name>WhatsNewDialog</name>
+    <message>
+        <location filename="../whatsnew.py" line="38"/>
+        <source>Geosearch DK – hvad er nyt</source>
+        <translation>Geosearch DK – what&apos;s new</translation>
+    </message>
+    <message>
+        <location filename="../whatsnew.py" line="49"/>
+        <source>Vis ikke igen</source>
+        <translation>Don&apos;t show again</translation>
+    </message>
+    <message>
+        <location filename="../whatsnew.py" line="52"/>
+        <source>Fjern fluebenet for at se denne besked igen næste gang QGIS starter</source>
+        <translation>Untick to see this message again the next time QGIS starts</translation>
+    </message>
+    <message>
+        <location filename="../whatsnew.py" line="59"/>
+        <source>Luk</source>
+        <translation>Close</translation>
     </message>
 </context>
 <context>
@@ -159,6 +193,11 @@
         <location filename="../ui_search.ui" line="20"/>
         <source>Search</source>
         <translation>Search</translation>
+    </message>
+    <message>
+        <location filename="../ui_search.ui" line="58"/>
+        <source>Hvad er nyt – og hvad virker ikke længere</source>
+        <translation>What's new – and what no longer works (in Danish)</translation>
     </message>
 </context>
 </TS>
