@@ -22,6 +22,7 @@ import json
 import os
 import re
 import sys
+import time
 
 from osgeo import ogr
 
@@ -36,6 +37,7 @@ from qgis.core import (
     QgsCoordinateReferenceSystem,
     QgsCoordinateTransform,
     QgsProject,
+    QgsRectangle,
     Qgis,
 )
 from qgis.gui import QgsVertexMarker, QgsRubberBand
@@ -43,6 +45,10 @@ from qgis.gui import QgsVertexMarker, QgsRubberBand
 from . import qgisutils
 from .suggester import Suggester
 from .config import Settings
+
+# Seconds a not-authorised/missing-key message stays and is not repeated.
+MESSAGE_DURATION = 15
+ZOOM_BUFFER = 200.0
 
 FORM_CLASS, _ = uic.loadUiType(
     os.path.join(os.path.dirname(__file__), "ui_search.ui")
@@ -57,6 +63,8 @@ class SearchBox(QFrame, FORM_CLASS):
 
         self.qgisIface = qgisIface
         self.markers = []
+        self._last_message = {}
+        self._zoomed_extent = None
         self.readconfig()  # old config
 
         self.setFrameStyle(QFrame.Shape.StyledPanel + QFrame.Shadow.Raised)
@@ -65,12 +73,13 @@ class SearchBox(QFrame, FORM_CLASS):
             settings=settings,
             searchbox_widget=self.searchEdit,
             notauthorized_func=self.handleNotAuthorized,
+            missingkey_func=self.handleMissingKey,
         )
         self.setupCrsTransform()
 
         self.searchEdit.returnPressed.connect(self.showSelected)
-        self.searchEdit.cleared.connect(self.clearMarkerGeom)
-        self.searchEdit.textEdited.connect(self.clearMarkerGeom)
+        self.searchEdit.cleared.connect(self.clearSelection)
+        self.searchEdit.textEdited.connect(self.clearSelection)
         if hasattr(self.searchEdit, "setPlaceholderText"):
             self.searchEdit.setPlaceholderText(
                 self.tr("Søg adresse, stednavn, postnummer, matrikel m.m.")
@@ -133,8 +142,29 @@ class SearchBox(QFrame, FORM_CLASS):
         }
 
     def handleNotAuthorized(self):
-        title = self.tr("Afvist af Kortforsyningen")
-        message = self.tr("Manglende eller ukorrekt token til Kortforsyningen.")
+        self._pushSettingsMessage(
+            "notauthorized",
+            self.tr("Afvist af Bifrost"),
+            self.tr("Nøglen til Bifrost mangler eller er ugyldig."),
+        )
+
+    def handleMissingKey(self):
+        self._pushSettingsMessage(
+            "missingkey",
+            self.tr("Bifrost-nøgle mangler"),
+            self.tr(
+                "Geosearch DK kræver en nøgle til Bifrost. Angiv den i "
+                "indstillingerne eller i miljøvariablen BIFROST_KEY."
+            ),
+        )
+
+    def _pushSettingsMessage(self, kind, title, message):
+        # Searches run as the user types; show each message once per duration.
+        now = time.monotonic()
+        last = self._last_message.get(kind)
+        if last is not None and now - last < MESSAGE_DURATION:
+            return
+        self._last_message[kind] = now
         button_text = self.tr("Åbn settings")
         widget = self.qgisIface.messageBar().createMessage(title, message)
         button = QPushButton(widget)
@@ -146,7 +176,7 @@ class SearchBox(QFrame, FORM_CLASS):
         )
         widget.layout().addWidget(button)
         self.qgisIface.messageBar().pushWidget(
-            widget, level=Qgis.MessageLevel.Warning, duration=15
+            widget, level=Qgis.MessageLevel.Warning, duration=MESSAGE_DURATION
         )
 
     def setupCrsTransform(self):
@@ -212,51 +242,93 @@ class SearchBox(QFrame, FORM_CLASS):
                 self.qgisIface.mapCanvas().scene().removeItem(m)
         self.markers = []
 
-    def clear(self):
+    def clearSelection(self):
+        """A new search or a cleared box: drop the marker and any pending geometry."""
+        self.suggester.fetcher.cancel_geometry()
+        self._zoomed_extent = None
         self.clearMarkerGeom()
+
+    def clear(self):
+        self.clearSelection()
         self.ui.searchEdit.clear()
 
     def showSelected(self):
         try:
             self.suggester.preventSuggest()
+            self.clearSelection()
 
             row = self.suggester.selectedObject[0]
-            # print o
             if not row:
                 return
             if row["status"] == "error":
                 QMessageBox.information(
                     self.qgisIface.mainWindow(),
                     "Geosearch DK - Fejl",
-                    row["response"],
+                    row.get("message") or row["text"],
                 )
                 return
 
-            # Create a QGIS geom to represent object
-            geom = None
-            if "geometri" in row:
-                geometri = row["geometri"]
-                # Convert to qGisGeom
-                geo_json = json.dumps(geometri)
-                ogr_geom = ogr.CreateGeometryFromJson(geo_json)
-                wkt = ogr_geom.ExportToWkt()
-                geom = QgsGeometry.fromWkt(wkt)
-
-                if geom:
-                    # Zoom to feature
-                    bufgeom = geom.buffer(200.0, 2)
-                    bufgeom.transform(self.crsTransform)
-                    rect = bufgeom.boundingBox()
-                    mc = self.qgisIface.mapCanvas()
-                    mc.setExtent(rect)
-
-                    # Mark the spot
-                    geom.transform(self.crsTransform)
-                    self.setMarkerGeom(geom)
-
-                    mc.refresh()
+            # Zoom to the point now; the full geometry follows when fetched.
+            point = self._geojsonToGeometry(row.get("point"))
+            if point:
+                self._zoomTo(point)
+                self._showGeometry(point)
+            self.suggester.fetcher.fetch_geometry(row, self._onGeometry)
         except Exception as e:
-            pass
+            QgsApplication.messageLog().logMessage(
+                "Kunne ikke vise valgt objekt: " + str(e),
+                "Geosearch DK",
+                Qgis.MessageLevel.Warning,
+            )
+
+    def _onGeometry(self, row, geojson):
+        # Only called for the current selection (see BifrostFetcher.fetch_geometry).
+        geom = self._geojsonToGeometry(geojson)
+        if not geom:
+            if self._zoomed_extent is None:
+                point = self._geojsonToGeometry(row.get("point"))
+                if point:
+                    self._zoomTo(point)
+                    self._showGeometry(point)
+            return
+        # Follow with the zoom only if the user has not moved the map meanwhile.
+        if self._zoomed_extent is None or self._mapUnmoved():
+            self._zoomTo(geom)
+        self._showGeometry(geom)
+
+    def _geojsonToGeometry(self, geojson):
+        """QgsGeometry in EPSG:25832 from a GeoJSON geometry, or None."""
+        if not geojson:
+            return None
+        ogr_geom = ogr.CreateGeometryFromJson(json.dumps(geojson))
+        if ogr_geom is None:
+            return None
+        geom = QgsGeometry.fromWkt(ogr_geom.ExportToWkt())
+        return None if geom.isNull() else geom
+
+    def _zoomTo(self, geom):
+        bufgeom = geom.buffer(ZOOM_BUFFER, 2)
+        bufgeom.transform(self.crsTransform)
+        mc = self.qgisIface.mapCanvas()
+        mc.setExtent(bufgeom.boundingBox())
+        mc.refresh()
+        self._zoomed_extent = QgsRectangle(mc.extent())
+
+    def _mapUnmoved(self):
+        current = self.qgisIface.mapCanvas().extent()
+        tolerance = max(current.width(), current.height()) * 1e-6
+        return (
+            abs(current.xMinimum() - self._zoomed_extent.xMinimum()) <= tolerance
+            and abs(current.yMinimum() - self._zoomed_extent.yMinimum()) <= tolerance
+            and abs(current.xMaximum() - self._zoomed_extent.xMaximum()) <= tolerance
+            and abs(current.yMaximum() - self._zoomed_extent.yMaximum()) <= tolerance
+        )
+
+    def _showGeometry(self, geom):
+        geom = QgsGeometry(geom)
+        geom.transform(self.crsTransform)
+        self.setMarkerGeom(geom)
+        self.qgisIface.mapCanvas().refresh()
 
     def show_about_dialog(self):
         infoString = self.tr(

@@ -35,7 +35,7 @@ from qgis.PyQt.QtNetwork import QNetworkReply
 from qgis.PyQt.uic import loadUi
 from qgis.core import QgsApplication, QgsMessageLog, Qgis
 
-from .gsearchfetcher import GSearchFetcher
+from .bifrost.fetcher import BifrostFetcher
 
 # TODO: Add events to completer? http://www.valuedlessons.com/2008/04/events-in-python.html
 
@@ -43,13 +43,22 @@ from .gsearchfetcher import GSearchFetcher
 class Suggester(QObject):
 
     def __init__(
-        self, settings, searchbox_widget=None, notauthorized_func=None
+        self,
+        settings,
+        searchbox_widget=None,
+        notauthorized_func=None,
+        missingkey_func=None,
     ):
         QObject.__init__(self, searchbox_widget)
         self.notauthorized_func = notauthorized_func
+        self.missingkey_func = missingkey_func
 
         self.my_searchbox_widget = searchbox_widget
-        self.gSearchFetcher = GSearchFetcher(settings)
+        self.fetcher = BifrostFetcher(settings, parent=self)
+        if notauthorized_func:
+            self.fetcher.not_authorized.connect(notauthorized_func)
+        if missingkey_func:
+            self.fetcher.missing_key.connect(missingkey_func)
 
         self.selectedObject = None
         self.isUnloaded = False
@@ -89,7 +98,7 @@ class Suggester(QObject):
 
         self.my_searchbox_widget.textEdited.connect(self.timer.start)
 
-        self.gSearchFetcher.finished.connect(self.handleFetcherResults)
+        self.fetcher.finished.connect(self.handleFetcherResults)
         self.last_query_id = 0
 
     def eventFilter(self, obj, ev):
@@ -145,12 +154,7 @@ class Suggester(QObject):
 
         for row in rows:
             item = QTreeWidgetItem(self.resultlistwidget)
-            text = ""
-            if row["status"] == "error":
-                text = row["resource"]["titel"] + " - Der skete en fejl"
-            else:
-                text = row["visningstekst"]
-            item.setText(0, text)
+            item.setText(0, row["text"])
             item.setTextAlignment(1, Qt.AlignmentFlag.AlignRight)
             item.setForeground(1, color)
             item.setData(
@@ -205,13 +209,14 @@ class Suggester(QObject):
     def invoke_fetcher(self):
         term = self.my_searchbox_widget.text()
         if term:
-            self.last_query_id = self.gSearchFetcher.fetch(term)
+            self.last_query_id = self.fetcher.fetch(term)
 
     def handleFetcherResults(self):
-        rows = self.gSearchFetcher.get_result()
+        rows = self.fetcher.get_result()
         self.showResultRows(rows)
 
     def unload(self):
         # Avoid processing events after QGIS shutdown has begun
         self.resultlistwidget.removeEventFilter(self)
+        self.fetcher.abort_all()
         self.isUnloaded = True
