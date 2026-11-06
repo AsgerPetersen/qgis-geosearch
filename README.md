@@ -60,6 +60,10 @@ Har du en idé til en forbedring eller har du måske opdaget en bug i pluginet, 
 
 Du kan registrere din idé eller bug i projektets [Issuetracker](../../issues). Her kan du også se eksisterende registreringer af idéer og bugs.
 
+Udvikling
+-----------------
+Se [docs/development.md](docs/development.md) for hvordan pluginet køres fra en checkout i en separat QGIS-profil (`make dev`), og for den visuelle kørsel og den manuelle tjekliste.
+
 Ophavsret og videredistribution
 -------------------------------
 Pluginet er udviklet af [Septima](http://www.septima.dk), som er primær ophavsretsindehaver men som har givet tilladelse til distribution under betingelserne i Open Source/Fri Software-licensen [GNU General Public License v3.0](http://www.gnu.org/licenses/gpl.html) eller senere ([GPL3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later)).
