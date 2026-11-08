@@ -147,6 +147,9 @@ EXTRA = [
     # Husnummer først with the full street name (separates it from #3).
     ("77 vangebovej", ""),
     ("1 nørrebrogade", ""),
+    # Streets through several postnumre and kommuner.
+    ("vesterbrogade", ""),
+    ("jagtvej", "147"),
 ]
 PREFIXES = {"adr", "ste", "pos", "mat", "kom", "ops", "pol", "reg", "enh", "vej", "sog", "ret", "udg"}
 
