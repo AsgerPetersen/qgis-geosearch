@@ -398,6 +398,34 @@ filteret står på en af de kommuner, Bifrost ikke har på objektet. Pluginets t
                 "Bifrost har kun 2200.",
             ),
             Example(
+                "vesterbrogade",
+                (
+                    gs("navngivenvej", 1, only=prefix("Vesterbrogade (1550"), kommuner=True),
+                    bf(
+                        "street",
+                        1,
+                        only=exact("Vesterbrogade"),
+                        kommuner=True,
+                        postnumre=True,
+                    ),
+                ),
+                "Vesterbrogade i København og Frederiksberg: GSearch har ni postnumre. "
+                "Bifrost har to (1620 og 1800). Begge har de to kommuner.",
+            ),
+            Example(
+                "jagtvej-k147",
+                (
+                    gs("navngivenvej", 1, kommuner=True),
+                    bf("resolve", 3),
+                    bf("street", 1, only=exact("Jagtvej"), kommuner=True, postnumre=True),
+                ),
+                "Søgning med kommunefilter 147 (Frederiksberg). GSearch har Jagtvej med "
+                "kommunerne 0147 og 0101 og finder den. Bifrost har kun 0101 på Jagtvej, "
+                "og `/resolve` låst til 0147 giver andre veje på Frederiksberg. Pluginet "
+                "bruger `/resolve` til husnumre og veje, så det viser ikke Jagtvej med "
+                "kommunefilter 147.",
+            ),
+            Example(
                 "skodsb",
                 (
                     gs("navngivenvej", 1, only=prefix("Skodsborgvej ("), kommuner=True),

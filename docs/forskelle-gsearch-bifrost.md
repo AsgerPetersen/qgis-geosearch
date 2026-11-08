@@ -8,8 +8,8 @@ svarede. Derfor er de samme søgestrenge optaget fra begge tjenester på samme t
 svarene er gemt. Dokumentet viser, hvor Bifrost svarer anderledes end GSearch, og hvor
 Bifrost svarer lige så godt eller bedre.
 
-**Sådan er det optaget.** 69 søgninger (søgestreng, evt. med kommunekoder) er
-optaget mellem 2026-11-06T19:48:12+00:00 og 2026-11-06T19:58:27+00:00 (UTC). For hver søgning:
+**Sådan er det optaget.** 71 søgninger (søgestreng, evt. med kommunekoder) er
+optaget mellem 2026-11-06T19:48:12+00:00 og 2026-11-08T21:46:00+00:00 (UTC). For hver søgning:
 
 - **GSearch** v2.0 er spurgt direkte i alle 13 ressourcer, også dem pluginet ikke
   bruger (fx `navngivenvej`). Grænsen er 10 hits pr. ressource.
@@ -357,10 +357,10 @@ Optællingen nedenfor dækker alle objekter i alle optagelser (hvert objekt tæl
 | | Objekter | Med 0 kommuner | Med 1 kommune | Med flere kommuner |
 |---|---|---|---|---|
 | GSearch stednavne | 197 | 7 | 169 | 21 (højst 8) |
-| Bifrost stednavne | 1150 | 29 | 1121 | 0 |
-| Bifrost veje (`street`) | 1168 | 19 | 1132 | 17 |
+| Bifrost stednavne | 1257 | 29 | 1228 | 0 |
+| Bifrost veje (`street`) | 1284 | 21 | 1242 | 21 |
 
-Bifrost-veje med mere end ét postnummer: 54 af 1168.
+Bifrost-veje med mere end ét postnummer: 59 af 1284.
 
 #### `gudenå` med kommunefilter 730
 
@@ -460,6 +460,29 @@ Optaget 2026-11-06T19:56:59+00:00 · [rå optagelse](../tests/fixtures/forskelle
 GSearch har postnumrene 2200 og 2400 på Nørrebrogade i København. Bifrost har kun 2200.
 
 Optaget 2026-11-06T19:57:02+00:00 · [rå optagelse](../tests/fixtures/forskelle/noerrebrogade-2400.json)
+
+#### `vesterbrogade`
+
+| Tjeneste | Øverste hits |
+|---|---|
+| GSearch `navngivenvej` (kun "Vesterbrogade (1550…") | Vesterbrogade (1550 København V, 1570 København V, 1610 København V, 1613 København V, 1614 København V, 1620 København V, 1751 København V, 1800 Frederiksberg C, 1810 Frederiksberg C) [kommuner: 0147, 0101] |
+| Bifrost `/search` street (kun "Vesterbrogade") | Vesterbrogade [kommuner: 0101, 0147; postnumre: 1620, 1800] |
+
+Vesterbrogade i København og Frederiksberg: GSearch har ni postnumre. Bifrost har to (1620 og 1800). Begge har de to kommuner.
+
+Optaget 2026-11-08T21:45:11+00:00 · [rå optagelse](../tests/fixtures/forskelle/vesterbrogade.json)
+
+#### `jagtvej` med kommunefilter 147
+
+| Tjeneste | Øverste hits |
+|---|---|
+| GSearch `navngivenvej` | Jagtvej (2000 Frederiksberg, 2100 København Ø, 2200 København N) [kommuner: 0147, 0101] |
+| Bifrost `/resolve` | Jasminvej, 2000 Frederiksberg<br>Vagtelvej, 2000 Frederiksberg<br>Solsortvej, 2000 Frederiksberg |
+| Bifrost `/search` street (kun "Jagtvej") | Jagtvej [kommuner: 0101; postnumre: 2100, 2200] |
+
+Søgning med kommunefilter 147 (Frederiksberg). GSearch har Jagtvej med kommunerne 0147 og 0101 og finder den. Bifrost har kun 0101 på Jagtvej, og `/resolve` låst til 0147 giver andre veje på Frederiksberg. Pluginet bruger `/resolve` til husnumre og veje, så det viser ikke Jagtvej med kommunefilter 147.
+
+Optaget 2026-11-08T21:46:00+00:00 · [rå optagelse](../tests/fixtures/forskelle/jagtvej-k147.json)
 
 #### `skodsb`
 
