@@ -254,8 +254,9 @@ def normalize(match, search_type):
     For /resolve types (``adr``): an entrance is a husnummer. A unit that has
     no floor/door is its entrance (Bifrost then returns only the unit, with
     ``refs.entrance``), so it becomes the entrance row. Apartments are kept
-    as ``unit`` rows when ``accept_units``. Streets, postcodes etc. that
-    /resolve also returns are dropped.
+    as ``unit`` rows when ``accept_units``, and streets as ``street`` rows when
+    ``accept_streets`` (/resolve gives streets, not husnumre, for a bare street
+    name). Postcodes etc. that /resolve also returns are dropped.
     """
     ref = match.get("ref") or {}
     kind = ref.get("kind")
@@ -269,6 +270,8 @@ def normalize(match, search_type):
         if search_type.accept_units:
             return make_row(search_type, match)
         return None
+    if search_type.endpoint == RESOLVE and kind == "street":
+        return make_row(search_type, match) if search_type.accept_streets else None
     if kind != target:
         return None
     return make_row(search_type, match)
