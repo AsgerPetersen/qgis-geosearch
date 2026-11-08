@@ -4,10 +4,10 @@ Every case in [`tests/cases.yaml`](../../../cases.yaml) run through the Bifrost 
 the GSearch baseline (`tests/fixtures/gsearch/`). The expectation is what GSearch showed;
 stednavne match on the name before " (" because Bifrost cannot give GSearch's text (#1).
 
-- Source: recorded fixtures (2026-11-06), replayed through the current core
-- Generated: 2026-11-06T20:00:37+00:00
-- Cases: 68. GSearch meets 68 expectations.
-- Bifrost: 35 pass, 21 known gaps (xfail), 11 pass despite a known gap (xpass), 0 fail, 1 without expectation.
+- Source: recorded fixtures (2026-11-06, 2026-11-08), replayed through the current core
+- Generated: 2026-11-08T14:53:51+00:00
+- Cases: 69. GSearch meets 69 expectations.
+- Bifrost: 36 pass, 21 known gaps (xfail), 11 pass despite a known gap (xpass), 0 fail, 1 without expectation.
 
 ✅ pass · ⚠️ known gap · 🎉 passes despite a known gap · ❌ unexpected failure
 
@@ -28,6 +28,7 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | [adr-oesterlund-14](#adr-oesterlund-14) | `østerlund 14` | Østerlund 14, 9870 Sindal (top 2) | ✅ rank 1 | ✅ rank 2 |  |
 | [adr-77-vangebovej](#adr-77-vangebovej) | `77 vangebovej` | Vangebovej 77, Søllerød, 2840 Holte | ✅ rank 1 | ✅ rank 1 |  |
 | [adr-1-noerrebrogade](#adr-1-noerrebrogade) | `1 nørrebrogade` | Nørrebrogade 1, 2200 København N (top 5) | ✅ rank 1 | ⚠️ 'Nørrebrogade 1, 2200 København N' not found | #33 |
+| [adr-noerrebrogade-vejnavn](#adr-noerrebrogade-vejnavn) | `Nørrebrogade` | Nørrebrogade 1, 2200 København N (top 10) → Bifrost: Nørrebrogade (2200 København N) (top 10) | ✅ rank 1 | ✅ rank 4 |  |
 | [adr-vestergade-21-aarhus](#adr-vestergade-21-aarhus) | `vestergade 21 aarhus` | Vestergade 21, 8000 Aarhus C | ✅ rank 1 | ✅ rank 1 |  |
 | [adr-vestergade-21-aar](#adr-vestergade-21-aar) | `vestergade 21 aar` | Vestergade 21, 8000 Aarhus C (top 3) | ✅ rank 2 | 🎉 rank 2 | #3 |
 | [adr-skodsb](#adr-skodsb) | `skodsb` | Skodsborg Strandvej 1, 2942 Skodsborg (top 5) | ✅ rank 1 | ⚠️ 'Skodsborg Strandvej 1, 2942 Skodsborg' not found | #3 |
@@ -35,9 +36,9 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | [adr-skodsborgvej-414](#adr-skodsborgvej-414) | `skodsborgvej 414` | Skodsborgvej 414, 2942 Skodsborg (top 3) | ✅ rank 1 | ✅ rank 1 |  |
 | [adr-frederiksberggade-1a](#adr-frederiksberggade-1a) | `frederiksberggade 1a` | Frederiksberggade 1A, 1459 København K | ✅ rank 1 | ✅ rank 1 |  |
 | [adr-noeddebogade-1-st-th](#adr-noeddebogade-1-st-th) | `nøddebogade 1 st th` | (no rows) → Bifrost: Nøddebogade 1, st. th, 2200 København N | ✅ no rows | ✅ rank 1 |  |
-| [ste-skagen](#ste-skagen) | `skagen` | Skagen (By i Frederikshavn Kommune) (top 10) | ✅ rank 8 | ✅ rank 1 (name only, #1) | #1 |
+| [ste-skagen](#ste-skagen) | `skagen` | Skagen (By i Frederikshavn Kommune) (top 10) | ✅ rank 8 | ✅ rank 5 (name only, #1) | #1 |
 | [ste-skag](#ste-skag) | `ste: skag` | Skagen (By i Frederikshavn Kommune) (top 10) | ✅ rank 2 | 🎉 rank 1 (name only, #1) | #3 |
-| [ste-mols-bjerge](#ste-mols-bjerge) | `mols bjerge` | Mols Bjerge (Højdedrag i Knebel) (top 10) | ✅ rank 6 | ✅ rank 1 (name only, #1) | #1 |
+| [ste-mols-bjerge](#ste-mols-bjerge) | `mols bjerge` | Mols Bjerge (Højdedrag i Knebel) (top 10) | ✅ rank 6 | ✅ rank 6 (name only, #1) | #1 |
 | [ste-gudenaa](#ste-gudenaa) | `gudenå` | Gudenå (Vandløb i Vonge) (top 3) | ✅ rank 1 | ✅ rank 1 (name only, #1) | #1 |
 | [ste-vendsyssel](#ste-vendsyssel) | `ste: vendsyssel` | Vendsyssel (Landsdel i Region Nordjylland) (top 3) | ✅ rank 1 | ✅ rank 1 (name only, #1) | #1 |
 | [ste-skodsborg](#ste-skodsborg) | `ste: skodsborg` | Skodsborg (By i Rudersdal Kommune) (top 3) | ✅ rank 1 | ✅ rank 1 (name only, #1) | #1 |
@@ -80,7 +81,7 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | [pfx-kun-praefiks](#pfx-kun-praefiks) | `adr:` | (no rows) | ✅ no rows | ✅ no rows |  |
 | [kf-vestergade-751](#kf-vestergade-751) | `vestergade` | Vestergade 1B, 8000 Aarhus C (top 3) | ✅ rank 1 | ⚠️ 'Vestergade 1B, 8000 Aarhus C' not found | #3 |
 | [kf-vestergade-1-101](#kf-vestergade-1-101) | `vestergade 1` | Vestergade 1, 1456 København K | ✅ rank 1 | ✅ rank 1 |  |
-| [kf-lyngby-230-173](#kf-lyngby-230-173) | `lyngby` | 2800 Kongens Lyngby (top 20) | ✅ rank 11 | 🎉 rank 6 | #2 |
+| [kf-lyngby-230-173](#kf-lyngby-230-173) | `lyngby` | 2800 Kongens Lyngby (top 20) | ✅ rank 11 | 🎉 rank 11 | #2 |
 
 ## Cases
 
@@ -222,17 +223,17 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 
 | # | GSearch | Bifrost |
 |---|---|---|
-| 1 | adr: **Rådhuspladsen 1, 1550 København V** | ste: Rådhuspladsen (seværdighed, København) |
-| 2 | adr: Rådhuspladsen 1, 3300 Frederiksværk | ste: Rådhuspladsen (seværdighed, Gladsaxe) |
-| 3 | adr: Rådhuspladsen 1, 4200 Slagelse | ste: Rådhuspladsen (standsningssted, København) |
-| 4 | adr: Rådhuspladsen 1, 4300 Holbæk | ste: Rådhuset (bygning, København) |
-| 5 | adr: Rådhuspladsen 1, 8000 Aarhus C | ste: Rådhusparken (naturareal, Horsens) |
-| 6 | ste: Rådhuspladsen (Seværdighed i København V) | pos: 9681 Ranum |
-| 7 | ste: Rådhuspladsen (Standsningssted, tog i København V) | pos: 7183 Randbøl |
-| 8 | ste: Rådhuspladsen (Seværdighed i Søborg) | pos: 8900 Randers C |
-| 9 | ste: Rødovre Rådhusplæne (Park i Rødovre) | pos: 8920 Randers NV |
-| 10 | ste: Frederiksberg Rådhusplads (Seværdighed i Frederiksberg) | pos: 8940 Randers SV |
-| | … 0 more | … 7 more |
+| 1 | adr: **Rådhuspladsen 1, 1550 København V** | adr: Rådhuspladsen |
+| 2 | adr: Rådhuspladsen 1, 3300 Frederiksværk | adr: Rådhuspladsen (4660 Store Heddinge) |
+| 3 | adr: Rådhuspladsen 1, 4200 Slagelse | adr: Rådhuspladsen (4300 Holbæk) |
+| 4 | adr: Rådhuspladsen 1, 4300 Holbæk | adr: Rådhuspladsen (5450 Otterup) |
+| 5 | adr: Rådhuspladsen 1, 8000 Aarhus C | adr: Rådhuspladsen (3300 Frederiksværk) |
+| 6 | ste: Rådhuspladsen (Seværdighed i København V) | ste: Rådhuspladsen (seværdighed, København) |
+| 7 | ste: Rådhuspladsen (Standsningssted, tog i København V) | ste: Rådhuspladsen (seværdighed, Gladsaxe) |
+| 8 | ste: Rådhuspladsen (Seværdighed i Søborg) | ste: Rådhuspladsen (standsningssted, København) |
+| 9 | ste: Rødovre Rådhusplæne (Park i Rødovre) | ste: Rådhuset (bygning, København) |
+| 10 | ste: Frederiksberg Rådhusplads (Seværdighed i Frederiksberg) | ste: Rådhusparken (naturareal, Horsens) |
+| | … 0 more | … 12 more |
 
 ### adr-noerrebrog-1
 
@@ -272,17 +273,17 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 
 | # | GSearch | Bifrost |
 |---|---|---|
-| 1 | adr: **Nørrebrogade 1, 2200 København N** | ste: Nørrebro (bebyggelse, København) |
-| 2 | adr: Nørrebrogade 1, 4930 Maribo | ste: Nørrebro (topografi, Holstebro) |
-| 3 | adr: Nørrebrogade 1, 7500 Holstebro | ste: Nørrebro (topografi, Varde) |
-| 4 | adr: Nørrebrogade 1, 8700 Horsens | ste: Nørrebro (topografi, Ringkøbing-Skjern) |
-| 5 | adr: Nørrebrogade 1, 8722 Hedensted | ste: Nørrebroen (bygning, Frederikshavn) |
-| 6 |  | pos: 4951 Nørreballe |
-| 7 |  | pos: 5580 Nørre Aaby |
-| 8 |  | pos: 6830 Nørre Nebel |
-| 9 |  | pos: 8766 Nørre Snede |
-| 10 |  | pos: 9400 Nørresundby |
-| | … 0 more | … 14 more |
+| 1 | adr: **Nørrebrogade 1, 2200 København N** | adr: Nørrebro (4653 Karise) |
+| 2 | adr: Nørrebrogade 1, 4930 Maribo | adr: Nørrebro (9700 Brønderslev) |
+| 3 | adr: Nørrebrogade 1, 7500 Holstebro | adr: Nørrebro (9800 Hjørring) |
+| 4 | adr: Nørrebrogade 1, 8700 Horsens | adr: Nørrebro (6400 Sønderborg) |
+| 5 | adr: Nørrebrogade 1, 8722 Hedensted | adr: Nørrebro (5900 Rudkøbing) |
+| 6 |  | ste: Nørrebro (bebyggelse, København) |
+| 7 |  | ste: Nørrebro (topografi, Holstebro) |
+| 8 |  | ste: Nørrebro (topografi, Varde) |
+| 9 |  | ste: Nørrebro (topografi, Ringkøbing-Skjern) |
+| 10 |  | ste: Nørrebroen (bygning, Frederikshavn) |
+| | … 0 more | … 19 more |
 
 ### adr-vangeb
 
@@ -302,12 +303,12 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | 3 | adr: Vangebovej 2, Søllerød, 2840 Holte | ste: Vangen (bygning, Hedensted) |
 | 4 | adr: Vangeboled 2A, Søllerød, 2840 Holte | ste: Vangen (bygning, Vesthimmerlands) |
 | 5 | adr: Vangebovej 2B, Søllerød, 2840 Holte | ste: Vangen (bygning, Hjørring) |
-| 6 | ste: Vangebo (Gård i Helsingør) | pos: 7184 Vandel |
-| 7 | ste: Vangebovej (Daginstitution i Holte) | pos: 2720 Vanløse |
-| 8 | ste: Vangebomatriklen (Ravnholm Skole - Afdeling Vangebo, Folkeskole i Holte) | pos: 7442 Engesvang |
-| 9 | ste: Haveforeningen Vangebo (Park i Holte) | pos: 4772 Langebæk |
-| 10 | ste: Ravnholm Skole - Afdeling Vangebo (Folkeskole i Holte) | pos: 9430 Vadum |
-| | … 0 more | … 10 more |
+| 6 | ste: Vangebo (Gård i Helsingør) | adr: Vangen (6715 Esbjerg N) |
+| 7 | ste: Vangebovej (Daginstitution i Holte) | adr: Vangen (9460 Brovst) |
+| 8 | ste: Vangebomatriklen (Ravnholm Skole - Afdeling Vangebo, Folkeskole i Holte) | adr: Vangen (4281 Gørlev) |
+| 9 | ste: Haveforeningen Vangebo (Park i Holte) | adr: Vangen (8270 Højbjerg) |
+| 10 | ste: Ravnholm Skole - Afdeling Vangebo (Folkeskole i Holte) | adr: Vangen (8963 Auning) |
+| | … 0 more | … 15 more |
 
 ### adr-vangeb-77
 
@@ -459,6 +460,32 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | 10 | pos: 1804 Frederiksberg C | pos: 9400 Nørresundby |
 | | … 5 more | … 6 more |
 
+### adr-noerrebrogade-vejnavn
+
+*Brugeren skriver kun vejnavnet Nørrebrogade og vil se vejen i København*
+
+- Typed: `Nørrebrogade`
+- Expected: Nørrebrogade 1, 2200 København N (top 10) → Bifrost: Nørrebrogade (2200 København N) (top 10) (point)
+- Bifrost differs on purpose: Bifrosts /resolve giver veje, ikke husnumre, når der kun står et vejnavn. Pluginet viser vejene under Husnumre.
+- GSearch: ✅ rank 1
+- Bifrost: ✅ pass — rank 4
+- Geometry of the hit: MultiLineString
+- Slowest search request: 244 ms
+
+| # | GSearch | Bifrost |
+|---|---|---|
+| 1 | adr: **Nørrebrogade 1, 2200 København N** | adr: Nørrebrogade (8700 Horsens) |
+| 2 | adr: Nørrebrogade 1, 4930 Maribo | adr: Nørrebrogade (7000 Fredericia) |
+| 3 | adr: Nørrebrogade 1, 7500 Holstebro | adr: Nørrebrogade (8900 Randers C, 8930 Randers NØ) |
+| 4 | adr: Nørrebrogade 1, 8700 Horsens | adr: **Nørrebrogade (2200 København N)** |
+| 5 | adr: Nørrebrogade 1, 8722 Hedensted | adr: Nørrebrogade (7500 Holstebro) |
+| 6 | adr: Nørrebrogade 1, 8900 Randers C | adr: Nørrebrogade (8722 Hedensted) |
+| 7 | adr: Nørrebrogade 1A, 6700 Esbjerg | adr: Nørrebrogade (4930 Maribo) |
+| 8 | adr: Nørrebrogade 1B, 6700 Esbjerg | adr: Nørrebrogade (7100 Vejle) |
+| 9 | adr: Nørrebrogade 1C, 6700 Esbjerg | adr: Nørrebrogade (8000 Aarhus C) |
+| 10 | adr: Nørrebrogade 1E, 6700 Esbjerg | adr: Nørrebrogade (6700 Esbjerg) |
+| | … 30 more | … 10 more |
+
 ### adr-vestergade-21-aarhus
 
 *Brugeren vil finde Vestergade 21 i Aarhus og skriver byen med*
@@ -523,17 +550,17 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 
 | # | GSearch | Bifrost |
 |---|---|---|
-| 1 | adr: **Skodsborg Strandvej 1, 2942 Skodsborg** | ste: Skodsbøl (bebyggelse, Ringkøbing-Skjern) |
-| 2 | adr: Skodsborgparken 1, 2942 Skodsborg | ste: Skodsbøl (bebyggelse, Sønderborg) |
-| 3 | adr: Skodsborgparken 3, 2942 Skodsborg | ste: Skodsborg (bebyggelse, Rudersdal) |
-| 4 | adr: Skodsborgparken 5, 2942 Skodsborg | ste: Skodsbjerg (bygning, Haderslev) |
-| 5 | adr: Skodsborg Strandvej 7, 2942 Skodsborg | ste: Skodsbøl Skov (naturareal, Sønderborg) |
-| 6 | ste: Skodsbøl (By i Broager) | pos: 2942 Skodsborg |
-| 7 | ste: Skodsbøl (Bebyggelse i Tarm) | pos: 9520 Skørping |
-| 8 | ste: Skodsborg (By i Rudersdal Kommune) | pos: 2740 Skovlunde |
-| 9 | ste: Skodsbjerg (Gård i Vojens) | pos: 4230 Skælskør |
-| 10 | ste: Skodsbølgård (Gård i Tarm) | pos: 8541 Skødstrup |
-| | … 6 more | … 9 more |
+| 1 | adr: **Skodsborg Strandvej 1, 2942 Skodsborg** | adr: Skodsbølvej (6310 Broager) |
+| 2 | adr: Skodsborgparken 1, 2942 Skodsborg | adr: Skodsbølvej (6880 Tarm) |
+| 3 | adr: Skodsborgparken 3, 2942 Skodsborg | adr: Skodsborgvej (2830 Virum, 2840 Holte, 2850 Nærum, 2942 Skodsborg) |
+| 4 | adr: Skodsborgparken 5, 2942 Skodsborg | adr: Skodsborgvej (9270 Klarup) |
+| 5 | adr: Skodsborg Strandvej 7, 2942 Skodsborg | ste: Skodsbøl (bebyggelse, Ringkøbing-Skjern) |
+| 6 | ste: Skodsbøl (By i Broager) | ste: Skodsbøl (bebyggelse, Sønderborg) |
+| 7 | ste: Skodsbøl (Bebyggelse i Tarm) | ste: Skodsborg (bebyggelse, Rudersdal) |
+| 8 | ste: Skodsborg (By i Rudersdal Kommune) | ste: Skodsbjerg (bygning, Haderslev) |
+| 9 | ste: Skodsbjerg (Gård i Vojens) | ste: Skodsbøl Skov (naturareal, Sønderborg) |
+| 10 | ste: Skodsbølgård (Gård i Tarm) | pos: 2942 Skodsborg |
+| | … 6 more | … 13 more |
 
 ### adr-skodsborgvej-41
 
@@ -643,24 +670,24 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 - Typed: `skagen`
 - Expected: Skagen (By i Frederikshavn Kommune) (top 10) (polygon)
 - GSearch: ✅ rank 8
-- Bifrost: ✅ pass — rank 1 (name only, #1)
+- Bifrost: ✅ pass — rank 5 (name only, #1)
 - Geometry of the hit: Polygon
 - Slowest search request: 1618 ms
 - Known gap: #1
 
 | # | GSearch | Bifrost |
 |---|---|---|
-| 1 | adr: Skagensgade 1, Høje Taastrup, 2630 Taastrup | ste: **Skagen (naturareal, Slagelse)** |
-| 2 | adr: Skagensgrund 1, Egense, 9280 Storvorde | ste: **Skagen (bygning, Brønderslev)** |
-| 3 | adr: Skagensvej 1, 9800 Hjørring | ste: **Skagen (bebyggelse, Frederikshavn)** |
-| 4 | adr: Skagensvej 1, 9982 Ålbæk | ste: Skagen Fyr (navigationsanlæg, Frederikshavn) |
-| 5 | adr: Skagenvej 1, 8250 Egå | ste: Skagen Skole (bygning, Frederikshavn) |
-| 6 | ste: **Skagen (Mark i Agersø)** | pos: 9990 Skagen |
-| 7 | ste: **Skagen (Gård i Brønderslev)** | pos: 8832 Skals |
-| 8 | ste: **Skagen (By i Frederikshavn Kommune)** | pos: 5485 Skamby |
-| 9 | ste: Krogen (Hede i Skagen) | pos: 6780 Skærbæk |
-| 10 | ste: Skagen Fyr (Fyrtårn i Skagen) | pos: 3320 Skævinge |
-| | … 6 more | … 11 more |
+| 1 | adr: Skagensgade 1, Høje Taastrup, 2630 Taastrup | adr: Skagenvej (8250 Egå) |
+| 2 | adr: Skagensgrund 1, Egense, 9280 Storvorde | adr: Skagenvej (8940 Randers SV) |
+| 3 | adr: Skagensvej 1, 9800 Hjørring | adr: Lille Skagen (9990 Skagen) |
+| 4 | adr: Skagensvej 1, 9982 Ålbæk | adr: Skagensvej (9700 Brønderslev) |
+| 5 | adr: Skagenvej 1, 8250 Egå | ste: **Skagen (naturareal, Slagelse)** |
+| 6 | ste: **Skagen (Mark i Agersø)** | ste: **Skagen (bygning, Brønderslev)** |
+| 7 | ste: **Skagen (Gård i Brønderslev)** | ste: **Skagen (bebyggelse, Frederikshavn)** |
+| 8 | ste: **Skagen (By i Frederikshavn Kommune)** | ste: Skagen Fyr (navigationsanlæg, Frederikshavn) |
+| 9 | ste: Krogen (Hede i Skagen) | ste: Skagen Skole (bygning, Frederikshavn) |
+| 10 | ste: Skagen Fyr (Fyrtårn i Skagen) | pos: 9990 Skagen |
+| | … 6 more | … 15 more |
 
 ### ste-skag
 
@@ -695,24 +722,24 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 - Typed: `mols bjerge`
 - Expected: Mols Bjerge (Højdedrag i Knebel) (top 10) (polygon)
 - GSearch: ✅ rank 6
-- Bifrost: ✅ pass — rank 1 (name only, #1)
+- Bifrost: ✅ pass — rank 6 (name only, #1)
 - Geometry of the hit: MultiPolygon
 - Slowest search request: 880 ms
 - Known gap: #1
 
 | # | GSearch | Bifrost |
 |---|---|---|
-| 1 | adr: Mols Bjerge Vej 1, Basballe, 8400 Ebeltoft | ste: **Mols Bjerge (landskabsform, Syddjurs)** |
-| 2 | adr: Mols Bjerge Vej 5, Basballe, 8400 Ebeltoft | ste: Bjerge (landskabsform, Thisted) |
-| 3 | adr: Mols Bjerge Vej 7, Basballe, 8400 Ebeltoft | ste: Bjerge (bebyggelse, Kalundborg) |
-| 4 | adr: Mols Bjerge Vej 8, Basballe, 8400 Ebeltoft | ste: Mols Bjerge Feriecenter (bygning, Syddjurs) |
-| 5 | adr: Mols Bjerge Vej 8A, Basballe, 8400 Ebeltoft | ste: Mols Bjerge Nationalpark (restriktionsareal, Syddjurs) |
-| 6 | ste: **Mols Bjerge (Højdedrag i Knebel)** | pos: 4190 Munke Bjergby |
-| 7 | ste: Mols Bjerge Feriecenter (Feriecenter i Knebel) | pos: 6091 Bjert |
-| 8 | ste: Mols Bjerge Nationalpark (Nationalpark Mols Bjerge, Nationalpark i Ebeltoft) | pos: 8850 Bjerringbro |
-| 9 | ste: Nationalpark Mols Bjerge (Nationalpark i Ebeltoft) | pos: 7650 Bøvlingbjerg |
-| 10 |  | pos: 6700 Esbjerg |
-| | … 0 more | … 10 more |
+| 1 | adr: Mols Bjerge Vej 1, Basballe, 8400 Ebeltoft | adr: Mols Bjerge Vej (8400 Ebeltoft, 8420 Knebel) |
+| 2 | adr: Mols Bjerge Vej 5, Basballe, 8400 Ebeltoft | adr: Pouls Bjerge (6857 Blåvand) |
+| 3 | adr: Mols Bjerge Vej 7, Basballe, 8400 Ebeltoft | adr: Bjerget (7700 Thisted) |
+| 4 | adr: Mols Bjerge Vej 8, Basballe, 8400 Ebeltoft | adr: Bjerget (9310 Vodskov) |
+| 5 | adr: Mols Bjerge Vej 8A, Basballe, 8400 Ebeltoft | adr: Bjerget (2970 Hørsholm) |
+| 6 | ste: **Mols Bjerge (Højdedrag i Knebel)** | ste: **Mols Bjerge (landskabsform, Syddjurs)** |
+| 7 | ste: Mols Bjerge Feriecenter (Feriecenter i Knebel) | ste: Bjerge (landskabsform, Thisted) |
+| 8 | ste: Mols Bjerge Nationalpark (Nationalpark Mols Bjerge, Nationalpark i Ebeltoft) | ste: Bjerge (bebyggelse, Kalundborg) |
+| 9 | ste: Nationalpark Mols Bjerge (Nationalpark i Ebeltoft) | ste: Mols Bjerge Feriecenter (bygning, Syddjurs) |
+| 10 |  | ste: Mols Bjerge Nationalpark (restriktionsareal, Syddjurs) |
+| | … 0 more | … 15 more |
 
 ### ste-gudenaa
 
@@ -856,17 +883,17 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 
 | # | GSearch | Bifrost |
 |---|---|---|
-| 1 | adr: **Oehlenschlægersgade 1, 1663 København V** | ste: Øenslyst (bygning, Syddjurs) |
-| 2 | adr: Oehlenschlægersvej 1, 6000 Kolding | ste: Øen (naturareal, Haderslev) |
-| 3 | adr: Oehlenschlægersgade 1C, 1663 København V | ste: Øen (bebyggelse, Faaborg-Midtfyn) |
-| 4 | adr: Oehlenschlægersvej 1C, 5230 Odense M | ste: Øen (bygning, Syddjurs) |
-| 5 | adr: Oehlenschlægersgade 1D, 1663 København V | ste: Øen (landskabsform, Syddjurs) |
-| 6 | ste: Oehlenschlägers Bøg (Løvtræ i Tranekær) | pos: 3630 Jægerspris |
-| 7 | ste: Adam Oehlenschläger (Seværdighed i København K) | pos: 7990 Øster Assels |
-| 8 | ste: Oehlenschlægersgades Skole (Folkeskole i København V) | pos: 4894 Øster Ulslev |
-| 9 |  | pos: 8300 Odder |
-| 10 |  | pos: 6870 Ølgod |
-| | … 0 more | … 9 more |
+| 1 | adr: **Oehlenschlægersgade 1, 1663 København V** | adr: Øen (8560 Kolind) |
+| 2 | adr: Oehlenschlægersvej 1, 6000 Kolding | adr: Øen (6880 Tarm) |
+| 3 | adr: Oehlenschlægersgade 1C, 1663 København V | adr: Øen (6710 Esbjerg V) |
+| 4 | adr: Oehlenschlægersvej 1C, 5230 Odense M | adr: Oehlenschlægersvej (8230 Åbyhøj) |
+| 5 | adr: Oehlenschlægersgade 1D, 1663 København V | adr: Oehlenschlægersvej (5230 Odense M) |
+| 6 | ste: Oehlenschlägers Bøg (Løvtræ i Tranekær) | ste: Øenslyst (bygning, Syddjurs) |
+| 7 | ste: Adam Oehlenschläger (Seværdighed i København K) | ste: Øen (naturareal, Haderslev) |
+| 8 | ste: Oehlenschlægersgades Skole (Folkeskole i København V) | ste: Øen (bebyggelse, Faaborg-Midtfyn) |
+| 9 |  | ste: Øen (bygning, Syddjurs) |
+| 10 |  | ste: Øen (landskabsform, Syddjurs) |
+| | … 0 more | … 14 more |
 
 ### ste-tivoli
 
@@ -1409,7 +1436,7 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | 8 | ste: Århus (Hus i Bedsted Thy) | pos: 8210 Aarhus V |
 | 9 | ste: Aarup (By i Assens Kommune) | pos: 9600 Aars |
 | 10 | ste: Aarhus BSS (Aarhus Universitet i Herning, Universitet i Herning) | pos: 6818 Årre |
-| | … 14 more | … 13 more |
+| | … 14 more | … 15 more |
 
 ### kom-aabenraa-aa
 
@@ -1542,11 +1569,11 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 | 4 | ste: Kvistgård (Gård i Region Hovedstaden) | ste: FGU Hovedstaden - Nørrebro (bygning, København) |
 | 5 | ste: Kastrup (Tog i Region Hovedstaden) | ste: FGU Hovedstaden - Østerbro (bygning, København) |
 | 6 | reg: **Region Hovedstaden** | reg: **Region Hovedstaden** |
-| 7 |  | pos: 8732 Hovedgård |
-| 8 |  | pos: 8370 Hadsten |
-| 9 |  | pos: 6682 Hovborg |
-| 10 |  | pos: 7182 Bredsten |
-| | … 0 more | … 16 more |
+| 7 |  | adr: Hovedgaden (8410 Rønde) |
+| 8 |  | adr: Hovedgaden (5853 Ørbæk) |
+| 9 |  | adr: Hovedgaden (9330 Dronninglund) |
+| 10 |  | adr: Hovedgaden (4623 Lille Skensved) |
+| | … 0 more | … 21 more |
 
 ### pfx-kom-aar
 
@@ -1606,17 +1633,17 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 
 | # | GSearch | Bifrost |
 |---|---|---|
-| 1 | adr: **Husnumre - Der skete en fejl** | ste: Gentofte (bygning, Lemvig) |
-| 2 | ste: Stednavne - Der skete en fejl | ste: Gentofte (bebyggelse, Gentofte) |
-| 3 | pos: Postdistrikter - Der skete en fejl | ste: Gentofte HF (bygning, Gentofte) |
-| 4 | mat: Matrikelnumre - Der skete en fejl | ste: Gentofte Sø (sø, Gentofte) |
-| 5 | kom: Kommuner - Der skete en fejl | ste: Gentofte Enge (naturareal, Gentofte) |
-| 6 | ops: Opstillingskredse - Der skete en fejl | pos: 2820 Gentofte |
-| 7 | pol: Politikredse - Der skete en fejl | pos: 5390 Martofte |
-| 8 | reg: Regioner - Der skete en fejl | pos: 8581 Nimtofte |
-| 9 |  | mat: 10an, Gentofte |
-| 10 |  | mat: 11an, Gentofte |
-| | … 0 more | … 5 more |
+| 1 | adr: **Husnumre - Der skete en fejl** | adr: Gentoftevej (8000 Aarhus C) |
+| 2 | ste: Stednavne - Der skete en fejl | adr: Gentoftegade (2820 Gentofte) |
+| 3 | pos: Postdistrikter - Der skete en fejl | adr: Gentofte Hospitalsvej (2820 Gentofte, 2900 Hellerup) |
+| 4 | mat: Matrikelnumre - Der skete en fejl | adr: Grøntoften (2870 Dyssegård) |
+| 5 | kom: Kommuner - Der skete en fejl | ste: Gentofte (bygning, Lemvig) |
+| 6 | ops: Opstillingskredse - Der skete en fejl | ste: Gentofte (bebyggelse, Gentofte) |
+| 7 | pol: Politikredse - Der skete en fejl | ste: Gentofte HF (bygning, Gentofte) |
+| 8 | reg: Regioner - Der skete en fejl | ste: Gentofte Sø (sø, Gentofte) |
+| 9 |  | ste: Gentofte Enge (naturareal, Gentofte) |
+| 10 |  | pos: 2820 Gentofte |
+| | … 0 more | … 9 more |
 
 ### pfx-kun-praefiks
 
@@ -1643,17 +1670,17 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 
 | # | GSearch | Bifrost |
 |---|---|---|
-| 1 | adr: **Vestergade 1B, 8000 Aarhus C** |  |
-| 2 | adr: Vestergade 1C, 8000 Aarhus C |  |
-| 3 | adr: Vestergade 2A, 8000 Aarhus C |  |
-| 4 | adr: Vestergade 2B, 8000 Aarhus C |  |
-| 5 | adr: Vestergade 3, 8000 Aarhus C |  |
-| 6 | adr: Vestergade 3A, 8000 Aarhus C |  |
-| 7 | adr: Vestergade 3B, 8000 Aarhus C |  |
-| 8 | adr: Vestergade 3C, 8000 Aarhus C |  |
-| 9 | adr: Vestergade 3D, 8000 Aarhus C |  |
-| 10 | adr: Vestergade 4, 8000 Aarhus C |  |
-| | … 30 more | … 0 more |
+| 1 | adr: **Vestergade 1B, 8000 Aarhus C** | adr: Vestergade (8000 Aarhus C) |
+| 2 | adr: Vestergade 1C, 8000 Aarhus C | adr: Østergade (8000 Aarhus C) |
+| 3 | adr: Vestergade 2A, 8000 Aarhus C | adr: Vesterbrogade (8000 Aarhus C) |
+| 4 | adr: Vestergade 2B, 8000 Aarhus C | adr: F. Vestergaards Gade (8000 Aarhus C) |
+| 5 | adr: Vestergade 3, 8000 Aarhus C | adr: Værkmestergade (8000 Aarhus C) |
+| 6 | adr: Vestergade 3A, 8000 Aarhus C | adr: Klostergade (8000 Aarhus C) |
+| 7 | adr: Vestergade 3B, 8000 Aarhus C | adr: Vestergaardsvej (8260 Viby J) |
+| 8 | adr: Vestergade 3C, 8000 Aarhus C | adr: Vestervej (8462 Harlev J) |
+| 9 | adr: Vestergade 3D, 8000 Aarhus C | adr: Vesterport (8000 Aarhus C) |
+| 10 | adr: Vestergade 4, 8000 Aarhus C | adr: Vestervang (8000 Aarhus C) |
+| | … 30 more | … 10 more |
 
 ### kf-vestergade-1-101
 
@@ -1689,7 +1716,7 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 - Kommunefilter: 230, 173
 - Expected: 2800 Kongens Lyngby (top 20) (polygon)
 - GSearch: ✅ rank 11
-- Bifrost: 🎉 passes despite known gap — rank 6
+- Bifrost: 🎉 passes despite known gap — rank 11
 - Hidden by the kommune filter: ste 80, pos 7, mat 100
 - Geometry of the hit: Polygon
 - Slowest search request: 1097 ms
@@ -1697,14 +1724,14 @@ stednavne match on the name before " (" because Bifrost cannot give GSearch's te
 
 | # | GSearch | Bifrost |
 |---|---|---|
-| 1 | adr: Lyngby Kirkestræde 1, 2800 Kongens Lyngby | ste: Lyngby (bebyggelse, Lyngby-Taarbæk) |
-| 2 | adr: Lyngby Rosenvænge 1, 2800 Kongens Lyngby | ste: Lyngby (standsningssted, Lyngby-Taarbæk) |
-| 3 | adr: Lyngby Storcenter 1, 2800 Kongens Lyngby | ste: Lyngby Sø (sø, Lyngby-Taarbæk) |
-| 4 | adr: Lyngby Torv 1, 2800 Kongens Lyngby | ste: TEC Lyngby (bygning, Lyngby-Taarbæk) |
-| 5 | adr: Lyngbygårdsvej 1, 2800 Kongens Lyngby | ste: VUC Lyngby (bygning, Lyngby-Taarbæk) |
-| 6 | ste: Lyngby (Kongens Lyngby, By i Lyngby-Taarbæk Kommune) | pos: **2800 Kongens Lyngby** |
-| 7 | ste: Lyngby (Standsningssted, tog i Kongens Lyngby) | kom: Lyngby-Taarbæk Kommune |
-| 8 | ste: Lyngby Sø (Sø i Kongens Lyngby) | ops: Lyngbykredsen |
-| 9 | ste: TEC Lyngby (H.C. Ørsted Gymnasiet, Gymnasium i Kongens Lyngby) |  |
-| 10 | ste: VUC Lyngby (Uddannelsescenter i Kongens Lyngby) |  |
-| | … 8 more | … 0 more |
+| 1 | adr: Lyngby Kirkestræde 1, 2800 Kongens Lyngby | adr: Lyngby Torv (2800 Kongens Lyngby) |
+| 2 | adr: Lyngby Rosenvænge 1, 2800 Kongens Lyngby | adr: Lyngby Hovedgade (2800 Kongens Lyngby) |
+| 3 | adr: Lyngby Storcenter 1, 2800 Kongens Lyngby | adr: Lyngbystræde (2800 Kongens Lyngby) |
+| 4 | adr: Lyngby Torv 1, 2800 Kongens Lyngby | adr: Lyngby Storcenter (2800 Kongens Lyngby) |
+| 5 | adr: Lyngbygårdsvej 1, 2800 Kongens Lyngby | adr: Lyngby Rosenvænge (2800 Kongens Lyngby) |
+| 6 | ste: Lyngby (Kongens Lyngby, By i Lyngby-Taarbæk Kommune) | ste: Lyngby (bebyggelse, Lyngby-Taarbæk) |
+| 7 | ste: Lyngby (Standsningssted, tog i Kongens Lyngby) | ste: Lyngby (standsningssted, Lyngby-Taarbæk) |
+| 8 | ste: Lyngby Sø (Sø i Kongens Lyngby) | ste: Lyngby Sø (sø, Lyngby-Taarbæk) |
+| 9 | ste: TEC Lyngby (H.C. Ørsted Gymnasiet, Gymnasium i Kongens Lyngby) | ste: TEC Lyngby (bygning, Lyngby-Taarbæk) |
+| 10 | ste: VUC Lyngby (Uddannelsescenter i Kongens Lyngby) | ste: VUC Lyngby (bygning, Lyngby-Taarbæk) |
+| | … 8 more | … 3 more |

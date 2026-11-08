@@ -1,0 +1,1509 @@
+{
+ "case_id": "adr-noerrebrogade-vejnavn",
+ "recorded_at": "2026-11-08T14:53:51+00:00",
+ "service": "GSearch v2.0 (api.dataforsyningen.dk)",
+ "plugin_version": "4.0.0",
+ "input": "Nørrebrogade",
+ "term": "Nørrebrogade",
+ "keys": [
+  "adr"
+ ],
+ "limit": 40,
+ "kommunekoder": [],
+ "max_full_vertices": 250,
+ "requests": [
+  {
+   "key": "adr",
+   "resource": "husnummer",
+   "url": "https://api.dataforsyningen.dk/rest/gsearch/v2.0/husnummer?token=REDACTED&q=N%C3%B8rrebrogade&limit=40",
+   "ok": true,
+   "http_status": 200,
+   "elapsed_ms": 205,
+   "row_count": 40,
+   "rows": [
+    {
+     "id": "0a3f507a-d038-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5192",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "2200",
+     "postnummernavn": "København N",
+     "visningstekst": "Nørrebrogade 1, 2200 København N",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723905.60143044,
+        6177033.49023245
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723897.58,
+        6177019.17
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5085-76cd-32b8-e044-0003ba298018",
+     "kommunenavn": "Lolland",
+     "kommunekode": "0360",
+     "vejkode": "1167",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "4930",
+     "postnummernavn": "Maribo",
+     "visningstekst": "Nørrebrogade 1, 4930 Maribo",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        660877.17,
+        6072893.33
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        660871.31,
+        6072869.26
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5091-e599-32b8-e044-0003ba298018",
+     "kommunenavn": "Holstebro",
+     "kommunekode": "0661",
+     "vejkode": "5617",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "7500",
+     "postnummernavn": "Holstebro",
+     "visningstekst": "Nørrebrogade 1, 7500 Holstebro",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        475995.93238235,
+        6246690.26178372
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        475981.31,
+        6246688.32
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8f4-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 1, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552887.44084422,
+        6191811.20404035
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552872.61,
+        6191805.04
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-7a9f-32b8-e044-0003ba298018",
+     "kommunenavn": "Hedensted",
+     "kommunekode": "0766",
+     "vejkode": "1056",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "8722",
+     "postnummernavn": "Hedensted",
+     "visningstekst": "Nørrebrogade 1, 8722 Hedensted",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543801.41413059,
+        6180640.77217848
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543793.76,
+        6180640.81
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5094-c6b2-32b8-e044-0003ba298018",
+     "kommunenavn": "Randers",
+     "kommunekode": "0730",
+     "vejkode": "1493",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1",
+     "supplerendebynavn": null,
+     "postnummer": "8900",
+     "postnummernavn": "Randers C",
+     "visningstekst": "Nørrebrogade 1, 8900 Randers C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563970.16789312,
+        6258469.12708619
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563960.0479201,
+        6258468.70693742
+       ]
+      ]
+     }
+    },
+    {
+     "id": "9c129b97-8252-4e0b-9acc-83806ad570c1",
+     "kommunenavn": "Esbjerg",
+     "kommunekode": "0561",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1A",
+     "supplerendebynavn": null,
+     "postnummer": "6700",
+     "postnummernavn": "Esbjerg",
+     "visningstekst": "Nørrebrogade 1A, 6700 Esbjerg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        466004.53,
+        6147654.15
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        465959.01,
+        6147526.46
+       ]
+      ]
+     }
+    },
+    {
+     "id": "eafc50e9-fa20-4082-8317-1f8a30956ec1",
+     "kommunenavn": "Esbjerg",
+     "kommunekode": "0561",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1B",
+     "supplerendebynavn": null,
+     "postnummer": "6700",
+     "postnummernavn": "Esbjerg",
+     "visningstekst": "Nørrebrogade 1B, 6700 Esbjerg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        466004.53,
+        6147654.15
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        466001.13,
+        6147647.62
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508d-ae7f-32b8-e044-0003ba298018",
+     "kommunenavn": "Esbjerg",
+     "kommunekode": "0561",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1C",
+     "supplerendebynavn": null,
+     "postnummer": "6700",
+     "postnummernavn": "Esbjerg",
+     "visningstekst": "Nørrebrogade 1C, 6700 Esbjerg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        466008.26494812,
+        6147699.2531492
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        466036.21,
+        6147676.11
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508d-aa11-32b8-e044-0003ba298018",
+     "kommunenavn": "Esbjerg",
+     "kommunekode": "0561",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "1E",
+     "supplerendebynavn": null,
+     "postnummer": "6700",
+     "postnummernavn": "Esbjerg",
+     "visningstekst": "Nørrebrogade 1E, 6700 Esbjerg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        465954.94691574,
+        6147736.9090938
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        465966.38,
+        6147741.88
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5085-76ce-32b8-e044-0003ba298018",
+     "kommunenavn": "Lolland",
+     "kommunekode": "0360",
+     "vejkode": "1167",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "2",
+     "supplerendebynavn": null,
+     "postnummer": "4930",
+     "postnummernavn": "Maribo",
+     "visningstekst": "Nørrebrogade 2, 4930 Maribo",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        660878.43824684,
+        6072856.07061024
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        660885.05,
+        6072855.81
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-1d1f-32b8-e044-0003ba298018",
+     "kommunenavn": "Fredericia",
+     "kommunekode": "0607",
+     "vejkode": "6331",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "2",
+     "supplerendebynavn": null,
+     "postnummer": "7000",
+     "postnummernavn": "Fredericia",
+     "visningstekst": "Nørrebrogade 2, 7000 Fredericia",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        547258.82116896,
+        6158407.85625061
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        547269.51094109,
+        6158407.03826375
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8f5-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "2",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 2, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552885.9,
+        6191814.72
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552896.01,
+        6191820.81
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-7aa0-32b8-e044-0003ba298018",
+     "kommunenavn": "Hedensted",
+     "kommunekode": "0766",
+     "vejkode": "1056",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "2",
+     "supplerendebynavn": null,
+     "postnummer": "8722",
+     "postnummernavn": "Hedensted",
+     "visningstekst": "Nørrebrogade 2, 8722 Hedensted",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543801.60712429,
+        6180660.56327285
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543810.88,
+        6180660.47
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5094-c6b3-32b8-e044-0003ba298018",
+     "kommunenavn": "Randers",
+     "kommunekode": "0730",
+     "vejkode": "1493",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "2",
+     "supplerendebynavn": null,
+     "postnummer": "8900",
+     "postnummernavn": "Randers C",
+     "visningstekst": "Nørrebrogade 2, 8900 Randers C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563979.41948317,
+        6258525.85826292
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563990,
+        6258523.99
+       ]
+      ]
+     }
+    },
+    {
+     "id": "509432fe-1e18-4b1b-b32a-6f7b9f01df32",
+     "kommunenavn": "Esbjerg",
+     "kommunekode": "0561",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "2A",
+     "supplerendebynavn": null,
+     "postnummer": "6700",
+     "postnummernavn": "Esbjerg",
+     "visningstekst": "Nørrebrogade 2A, 6700 Esbjerg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        465842.46882369,
+        6147303.44171273
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        465830.56,
+        6147320.5
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5085-76cf-32b8-e044-0003ba298018",
+     "kommunenavn": "Lolland",
+     "kommunekode": "0360",
+     "vejkode": "1167",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3",
+     "supplerendebynavn": null,
+     "postnummer": "4930",
+     "postnummernavn": "Maribo",
+     "visningstekst": "Nørrebrogade 3, 4930 Maribo",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        660877.17,
+        6072893.33
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        660871,
+        6072875.14
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508d-aa14-32b8-e044-0003ba298018",
+     "kommunenavn": "Esbjerg",
+     "kommunekode": "0561",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3",
+     "supplerendebynavn": null,
+     "postnummer": "6700",
+     "postnummernavn": "Esbjerg",
+     "visningstekst": "Nørrebrogade 3, 6700 Esbjerg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        465951.82418124,
+        6147744.09138315
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        465963.39,
+        6147749.12
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-1d20-32b8-e044-0003ba298018",
+     "kommunenavn": "Fredericia",
+     "kommunekode": "0607",
+     "vejkode": "6331",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3",
+     "supplerendebynavn": null,
+     "postnummer": "7000",
+     "postnummernavn": "Fredericia",
+     "visningstekst": "Nørrebrogade 3, 7000 Fredericia",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        547268.40957176,
+        6158439.90366086
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        547258.35,
+        6158443.47
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-7aa1-32b8-e044-0003ba298018",
+     "kommunenavn": "Hedensted",
+     "kommunekode": "0766",
+     "vejkode": "1056",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3",
+     "supplerendebynavn": null,
+     "postnummer": "8722",
+     "postnummernavn": "Hedensted",
+     "visningstekst": "Nørrebrogade 3, 8722 Hedensted",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543801.50720226,
+        6180650.62935756
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543793.49,
+        6180650.71
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5094-c6b4-32b8-e044-0003ba298018",
+     "kommunenavn": "Randers",
+     "kommunekode": "0730",
+     "vejkode": "1493",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3",
+     "supplerendebynavn": null,
+     "postnummer": "8900",
+     "postnummernavn": "Randers C",
+     "visningstekst": "Nørrebrogade 3, 8900 Randers C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563972.10906602,
+        6258482.229572
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563962.1479243,
+        6258483.40696682
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-d039-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5192",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3A",
+     "supplerendebynavn": null,
+     "postnummer": "2200",
+     "postnummernavn": "København N",
+     "visningstekst": "Nørrebrogade 3A, 2200 København N",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723890.2399838,
+        6177042.09489555
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723882.44,
+        6177028.17
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8f6-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3A",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 3A, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552880.63765895,
+        6191825.5900056
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552869.02,
+        6191819.86
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-d03a-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5192",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3B",
+     "supplerendebynavn": null,
+     "postnummer": "2200",
+     "postnummernavn": "København N",
+     "visningstekst": "Nørrebrogade 3B, 2200 København N",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723890.26899011,
+        6177042.07864776
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723880.54,
+        6177024.71
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8f7-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3B",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 3B, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552880.14631994,
+        6191826.59094283
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552866.47,
+        6191825.04
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8f8-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3C",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 3C, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552879.72845218,
+        6191827.44220721
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552865.9,
+        6191818.02
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8f9-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3D",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 3D, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552880.0848796,
+        6191826.71610676
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552863.51,
+        6191823.31
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8fa-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "3E",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 3E, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552879.42538327,
+        6191828.05960774
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552861.9,
+        6191819.71
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5085-76d0-32b8-e044-0003ba298018",
+     "kommunenavn": "Lolland",
+     "kommunekode": "0360",
+     "vejkode": "1167",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "4",
+     "supplerendebynavn": null,
+     "postnummer": "4930",
+     "postnummernavn": "Maribo",
+     "visningstekst": "Nørrebrogade 4, 4930 Maribo",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        660878.30736845,
+        6072862.62845297
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        660884.83,
+        6072862.64
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8fb-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "4",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 4, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552880.05314921,
+        6191826.78074672
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552890.67,
+        6191832.33
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8fc-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "4A",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 4A, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552881.1023187,
+        6191824.64341832
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552895.2,
+        6191831.34
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-7aa2-32b8-e044-0003ba298018",
+     "kommunenavn": "Hedensted",
+     "kommunekode": "0766",
+     "vejkode": "1056",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "4A",
+     "supplerendebynavn": null,
+     "postnummer": "8722",
+     "postnummernavn": "Hedensted",
+     "visningstekst": "Nørrebrogade 4A, 8722 Hedensted",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543801.69381778,
+        6180669.18205121
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543812.93809557,
+        6180669.15327667
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5094-c6b5-32b8-e044-0003ba298018",
+     "kommunenavn": "Randers",
+     "kommunekode": "0730",
+     "vejkode": "1493",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "4A",
+     "supplerendebynavn": null,
+     "postnummer": "8900",
+     "postnummernavn": "Randers C",
+     "visningstekst": "Nørrebrogade 4A, 8900 Randers C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563983.43879121,
+        6258548.52003032
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563991.99,
+        6258547
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508f-b8fd-32b8-e044-0003ba298018",
+     "kommunenavn": "Horsens",
+     "kommunekode": "0615",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "4B",
+     "supplerendebynavn": null,
+     "postnummer": "8700",
+     "postnummernavn": "Horsens",
+     "visningstekst": "Nørrebrogade 4B, 8700 Horsens",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552878.09,
+        6191830.78
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        552890.32378236,
+        6191836.01467198
+       ]
+      ]
+     }
+    },
+    {
+     "id": "78a5bef0-c1a3-430b-913d-e0fcc1d6604f",
+     "kommunenavn": "Hedensted",
+     "kommunekode": "0766",
+     "vejkode": "1056",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "4B",
+     "supplerendebynavn": null,
+     "postnummer": "8722",
+     "postnummernavn": "Hedensted",
+     "visningstekst": "Nørrebrogade 4B, 8722 Hedensted",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543801.72835811,
+        6180672.6159353
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        543809.67945593,
+        6180672.50286751
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5094-c6b6-32b8-e044-0003ba298018",
+     "kommunenavn": "Randers",
+     "kommunekode": "0730",
+     "vejkode": "1493",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "4B",
+     "supplerendebynavn": null,
+     "postnummer": "8900",
+     "postnummernavn": "Randers C",
+     "visningstekst": "Nørrebrogade 4B, 8900 Randers C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563983.59224479,
+        6258549.38331151
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563997,
+        6258547
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5094-c6b7-32b8-e044-0003ba298018",
+     "kommunenavn": "Randers",
+     "kommunekode": "0730",
+     "vejkode": "1493",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "4C",
+     "supplerendebynavn": null,
+     "postnummer": "8900",
+     "postnummernavn": "Randers C",
+     "visningstekst": "Nørrebrogade 4C, 8900 Randers C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563983.57308045,
+        6258549.27549906
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564002,
+        6258546
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f5094-c6b8-32b8-e044-0003ba298018",
+     "kommunenavn": "Randers",
+     "kommunekode": "0730",
+     "vejkode": "1493",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "4D",
+     "supplerendebynavn": null,
+     "postnummer": "8900",
+     "postnummernavn": "Randers C",
+     "visningstekst": "Nørrebrogade 4D, 8900 Randers C",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        563983.72592144,
+        6258550.13533402
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        564006.99,
+        6258546
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f507a-d03b-32b8-e044-0003ba298018",
+     "kommunenavn": "København",
+     "kommunekode": "0101",
+     "vejkode": "5192",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "5",
+     "supplerendebynavn": null,
+     "postnummer": "2200",
+     "postnummernavn": "København N",
+     "visningstekst": "Nørrebrogade 5, 2200 København N",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723873.2284308,
+        6177051.62386023
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        723866.09,
+        6177038.88
+       ]
+      ]
+     }
+    },
+    {
+     "id": "0a3f508d-aa16-32b8-e044-0003ba298018",
+     "kommunenavn": "Esbjerg",
+     "kommunekode": "0561",
+     "vejkode": "5920",
+     "vejnavn": "Nørrebrogade",
+     "husnummertekst": "5",
+     "supplerendebynavn": null,
+     "postnummer": "6700",
+     "postnummernavn": "Esbjerg",
+     "visningstekst": "Nørrebrogade 5, 6700 Esbjerg",
+     "vejpunkt_geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        465947.17807072,
+        6147755.3952976
+       ]
+      ]
+     },
+     "geometri": {
+      "type": "MultiPoint",
+      "coordinates": [
+       [
+        465958.99,
+        6147759.71
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "display": [
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 2200 København N",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 1
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 4930 Maribo",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 2
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 7500 Holstebro",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 3
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 4
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 8722 Hedensted",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 5
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1, 8900 Randers C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 6
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1A, 6700 Esbjerg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 7
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1B, 6700 Esbjerg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 8
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1C, 6700 Esbjerg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 9
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 1E, 6700 Esbjerg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 10
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 2, 4930 Maribo",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 11
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 2, 7000 Fredericia",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 12
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 2, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 13
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 2, 8722 Hedensted",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 14
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 2, 8900 Randers C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 15
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 2A, 6700 Esbjerg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 16
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3, 4930 Maribo",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 17
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3, 6700 Esbjerg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 18
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3, 7000 Fredericia",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 19
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3, 8722 Hedensted",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 20
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3, 8900 Randers C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 21
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3A, 2200 København N",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 22
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3A, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 23
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3B, 2200 København N",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 24
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3B, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 25
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3C, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 26
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3D, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 27
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 3E, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 28
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 4, 4930 Maribo",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 29
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 4, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 30
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 4A, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 31
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 4A, 8722 Hedensted",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 32
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 4A, 8900 Randers C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 33
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 4B, 8700 Horsens",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 34
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 4B, 8722 Hedensted",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 35
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 4B, 8900 Randers C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 36
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 4C, 8900 Randers C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 37
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 4D, 8900 Randers C",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 38
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 5, 2200 København N",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 39
+  },
+  {
+   "key": "adr",
+   "text": "Nørrebrogade 5, 6700 Esbjerg",
+   "geometry": "point",
+   "geometry_type": "MultiPoint",
+   "rank": 40
+  }
+ ]
+}

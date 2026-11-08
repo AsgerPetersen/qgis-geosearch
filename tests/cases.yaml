@@ -175,6 +175,22 @@
   known_gap: 33
   notes: "Husnummer først med helt vejnavn."
 
+- id: adr-noerrebrogade-vejnavn
+  story: "Brugeren skriver kun vejnavnet Nørrebrogade og vil se vejen i København"
+  input: "Nørrebrogade"
+  types: [adr]
+  expect:
+    text: "Nørrebrogade 1, 2200 København N"
+    within: 10
+    geometry: point
+  bifrost:
+    expect:
+      text: "Nørrebrogade (2200 København N)"
+      within: 10
+      geometry: line
+    reason: "Bifrosts /resolve giver veje, ikke husnumre, når der kun står et vejnavn. Pluginet viser vejene under Husnumre."
+  notes: "Uden husnummer viste 3.x husnumre på vejen (GSearch husnummer). Med Bifrost vises vejene."
+
 - id: adr-vestergade-21-aarhus
   story: "Brugeren vil finde Vestergade 21 i Aarhus og skriver byen med"
   input: "vestergade 21 aarhus"

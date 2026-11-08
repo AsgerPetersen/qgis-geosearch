@@ -39,11 +39,16 @@ class SearchType(NamedTuple):
     kommune_filter: str = FILTER_COMPONENTS
     # RESOLVE only: also show apartments (units with floor/door) under this type.
     accept_units: bool = False
+    # RESOLVE only: also show streets under this type. /resolve returns streets,
+    # not husnumre, when only a street name is typed.
+    accept_streets: bool = False
 
 
 # Today's eight types, in display order (the order of the old settings.resources).
 TYPES = (
-    SearchType("adr", "Husnumre", RESOLVE, "entrance", accept_units=True),
+    SearchType(
+        "adr", "Husnumre", RESOLVE, "entrance", accept_units=True, accept_streets=True
+    ),
     SearchType("ste", "Stednavne", SEARCH, "stednavn"),
     SearchType("pos", "Postdistrikter", SEARCH, "postcode"),
     SearchType("mat", MAT_TITLE, SEARCH, "ejendom"),

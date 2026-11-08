@@ -86,14 +86,23 @@ def test_apartments_are_shown_as_units():
     assert rows[0]["kind"] == "unit"
 
 
-def test_resolve_drops_other_kinds():
+def test_resolve_keeps_streets_and_drops_other_kinds():
     adr = BY_KEY["adr"]
     street = {
         "ref": {"kind": "street", "id": "s"},
         "refs": {"street": "s"},
-        "result": "X",
+        "result": "Nørrebrogade, 2200 København N",
+        "components": {
+            "street": "Nørrebrogade",
+            "postcodes": [{"postcode": "2200", "city": "København N"}],
+        },
     }
-    assert normalize(street, adr) is None
+    row = normalize(street, adr)
+    assert row["kind"] == "street" and row["ref"] == {"kind": "street", "id": "s"}
+    assert row["text"] == "Nørrebrogade (2200 København N)"
+    assert normalize(street, adr._replace(accept_streets=False)) is None
+    postcode = {"ref": {"kind": "postcode", "id": "p"}, "result": "Aarhus C"}
+    assert normalize(postcode, adr) is None
     no_units = adr._replace(accept_units=False)
     apartment = {
         "ref": {"kind": "unit", "id": "u"},
