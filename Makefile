@@ -28,15 +28,14 @@ UNAME_S := $(shell uname -s)
 
 ifeq ($(UNAME_S),Darwin)
   # Newest QGIS*.app in /Applications or ~/Applications whose version starts
-  # with $(QGIS); a "*patched*" copy (make macos-patch-qgis) wins a tie.
+  # with $(QGIS).
   # Override with QGIS_APP=/path/to/QGIS.app
   ifeq ($(origin QGIS_APP),undefined)
   QGIS_APP := $(shell for a in /Applications/QGIS*.app "$(HOME)"/Applications/QGIS*.app; do \
       [ -f "$$a/Contents/Info.plist" ] || continue; \
       v=$$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' "$$a/Contents/Info.plist" 2>/dev/null); \
-      case "$$a" in (*patched*) p=1;; (*) p=0;; esac; \
-      case "$$v" in ($(QGIS).*) echo "$$v $$p $$a";; esac; \
-    done | sort -V | tail -n 1 | cut -d' ' -f3-)
+      case "$$v" in ($(QGIS).*) echo "$$v $$a";; esac; \
+    done | sort -V | tail -n 1 | cut -d' ' -f2-)
   endif
   QGIS_USER_DIR ?= $(HOME)/Library/Application Support/QGIS/QGIS$(QGIS)
   PROFILE_INI    = $(PROFILE_DIR)/qgis.org/QGIS$(QGIS).ini
@@ -168,11 +167,6 @@ else
 endif
 	@grep -F '[readme_screenshots]' "$(SHOTS_OUT)/.qgis.log" || true
 	@rm -f "$(SHOTS_OUT)/.qgis.log"
-
-.PHONY: macos-patch-qgis
-macos-patch-qgis: check-qgis ## macOS 27: make a patched QGIS copy in ~/Applications that does not crash at start
-	python3 scripts/macos_patch_qgis.py "$(QGIS_APP)" \
-	  "$(HOME)/Applications/$(basename $(notdir $(QGIS_APP)))-patched.app"
 
 # --- Tests ------------------------------------------------------------------
 #

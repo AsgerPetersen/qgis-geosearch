@@ -38,7 +38,6 @@ Other targets:
 - `make dev-link`: only create the profile and the symlink (does not start QGIS)
 - `make dev-unlink`: remove the symlink (the profile is kept)
 - `make visual`: run the visual run, see below
-- `make macos-patch-qgis`: see [QGIS 4 crashes at startup on macOS 27](#qgis-4-crashes-at-startup-on-macos-27)
 
 To remove the dev profile completely, delete its folder.
 
@@ -335,25 +334,3 @@ Before uploading a release:
 1. bump `version` in `metadata.txt` and add a changelog line for it at the top;
 2. commit, then run `make publish-check` and fix every error;
 3. upload `dist/geosearch_dk.zip` at plugins.qgis.org.
-
-## QGIS 4 crashes at startup on macOS 27
-
-QGIS 4.2.3 crashes right after it starts on macOS 27.2 (`EXC_BREAKPOINT` in
-`CGImageCreate`, called from `QgsMacNative::setIconPath`). It crashes with any
-profile, also without this plugin. QGIS 3.44 is not affected.
-
-The crash happens while QGIS sets its Dock icon. A copy of the app with the
-colour profile removed from that icon starts normally:
-
-```sh
-make macos-patch-qgis           # creates ~/Applications/QGIS-final-4_2_3-patched.app
-make dev                        # the "-patched" copy is chosen automatically
-```
-
-`scripts/macos_patch_qgis.py` copies the app (an APFS clone, so it uses
-almost no disk space), removes the `sRGB`/`iCCP`/`gAMA`/`cHRM` chunks from
-`qgis-icon-macos.png` and signs the copy ad hoc. The original app is not
-changed. Delete the copy when a fixed QGIS is released.
-
-On macOS, start QGIS 4 through `open` (as `make` does). Starting the binary
-inside the app directly also crashes.
