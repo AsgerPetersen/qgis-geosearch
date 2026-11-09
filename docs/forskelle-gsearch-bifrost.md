@@ -38,9 +38,10 @@ Dokumentet er genereret af `tests/tools/forskelle_doc.py`. Søgestrengene er opt
 med `tests/tools/record_differences.py`.
 
 Pluginets egne testcases (`tests/cases.yaml`) er optaget fra begge tjenester på samme
-måde, som pluginet søger. Resultaterne står side om side i
-[`tests/fixtures/bifrost/cases/REPORT.md`](../tests/fixtures/bifrost/cases/REPORT.md).
-GSearch-baseline står i [`tests/fixtures/gsearch/BASELINE.md`](../tests/fixtures/gsearch/BASELINE.md).
+måde, som pluginet søger. Resultaterne fra Bifrost står i
+[`tests/fixtures/bifrost/cases/REPORT.md`](../tests/fixtures/bifrost/cases/REPORT.md),
+og resultaterne fra GSearch står i
+[`tests/fixtures/gsearch/BASELINE.md`](../tests/fixtures/gsearch/BASELINE.md).
 
 ## Indhold
 

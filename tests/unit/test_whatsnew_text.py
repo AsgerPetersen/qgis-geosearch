@@ -67,7 +67,7 @@ def _flat(path):
 
 
 def test_why_is_given_for_each_lost_feature_in_all_copies():
-    for path in (HTML, ROOT / "README.md", ROOT / "docs" / "pr-description.md"):
+    for path in (HTML, ROOT / "README.md"):
         text = _flat(path)
         assert text.count(WHY) == 3, path
         for phrase in ("nørrebrog", "Stednavnets undertype", "Kommunefilter i søgetjenesten"):

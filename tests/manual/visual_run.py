@@ -6,12 +6,10 @@ Drives the real plugin UI inside a running QGIS: for each case in the case
 catalogue it types the input into the search box, waits for the popup,
 screenshots it, selects the expected hit with the keyboard, waits for the map
 and saves an image of the canvas. The result is a contact sheet in
-out/report.html (plus out/report.json), with the recorded GSearch baseline
-(tests/fixtures/gsearch/<id>.json) next to the current result.
+out/report.html (plus out/report.json).
 
 Only widgets are used (the dock "Geosearch DK", its line edit and the popup
-item view), never plugin internals, so the same script works against the
-GSearch plugin and the Bifrost version.
+item view), never plugin internals.
 
 Run it from the QGIS Python console (Plugins > Python Console):
 
@@ -197,27 +195,6 @@ def load_cases(path):
         if not isinstance(c, dict) or "id" not in c or "input" not in c:
             raise ValueError(f"{path}: every case needs 'id' and 'input': {c!r}")
     return data
-
-
-def baseline_texts(data, limit=40):
-    """Extract display texts, in order, from a recorded GSearch response."""
-    texts = []
-
-    def walk(node):
-        if len(texts) >= limit:
-            return
-        if isinstance(node, dict):
-            if "visningstekst" in node:
-                texts.append(str(node["visningstekst"]))
-                return
-            for v in node.values():
-                walk(v)
-        elif isinstance(node, list):
-            for v in node:
-                walk(v)
-
-    walk(data)
-    return texts
 
 
 # --------------------------------------------------------------------------
@@ -533,7 +510,6 @@ class VisualRun:
             log(res["error"])
             self.ui.close_popup()
 
-        res["baseline"] = self._baseline(cid, expect.get("text"))
         res["status"] = self._status(res)
         log(f"{cid}: {res['status']} {'; '.join(res['problems'])}")
         return res
@@ -582,19 +558,6 @@ class VisualRun:
     def _save(self, pixmap, name):
         pixmap.save(str(self.img / name), "PNG")
         return f"img/{name}"
-
-    def _baseline(self, cid, expected_text):
-        path = Path(self.args.fixtures) / f"{cid}.json"
-        if not path.is_file():
-            return None
-        try:
-            data = json.loads(path.read_text(encoding="utf-8"))
-        except Exception as e:
-            return {"error": f"{path.name}: {e}"}
-        texts = baseline_texts(data)
-        idx, _ = find_match(texts, expected_text)
-        raw = json.dumps(data, ensure_ascii=False, indent=1)
-        return {"texts": texts, "match_index": idx, "raw": raw[:4000]}
 
     @staticmethod
     def _status(res):
@@ -650,7 +613,7 @@ section.case{border:1px solid #ddd;border-radius:6px;padding:12px 16px;margin-bo
 section.case h2{font-size:18px;margin:0 0 6px}
 .story{font-style:italic;color:#444}.facts{font-size:13px;color:#444;margin:6px 0}
 code{background:#f3f3f3;padding:1px 4px;border-radius:3px}
-.grid{display:grid;grid-template-columns:1fr 1fr 1.6fr;gap:16px;margin-top:10px}
+.grid{display:grid;grid-template-columns:1fr 1.6fr;gap:16px;margin-top:10px}
 .grid h3{font-size:13px;text-transform:uppercase;color:#777;margin:0 0 6px}
 ol.rows{margin:6px 0 0;padding-left:26px;font-size:13px}
 ol.rows li.hit{background:#fff59d;font-weight:600}ol.rows li.cut{border-top:2px dashed #999}
@@ -695,15 +658,6 @@ def _case_html(r):
         if r.get("known_gap")
         else ""
     )
-    base = r.get("baseline")
-    if not base:
-        base_html = '<p class="muted">No recorded baseline (tests/fixtures/gsearch/&lt;id&gt;.json)</p>'
-    elif base.get("error"):
-        base_html = f'<p class="problems">{_esc(base["error"])}</p>'
-    else:
-        base_html = _rows_html(base["texts"], base.get("match_index"), within)
-        base_html += f"<details><summary class=muted>raw</summary><pre>{_esc(base['raw'])}</pre></details>"
-
     popup_html = f'<img src="{_esc(r["popup_img"])}" alt="popup">' if r["popup_img"] else ""
     popup_html += _rows_html(r["rows"], r["match_index"], within)
     map_html = (
@@ -738,7 +692,6 @@ def _case_html(r):
 <div class="facts">{' · '.join(facts)}</div>{notes}
 <div class="problems">{_esc('; '.join(r['problems']))}</div>{err}
 <div class="grid">
-<div><h3>GSearch baseline</h3>{base_html}</div>
 <div><h3>Popup now</h3>{popup_html}</div>
 <div><h3>Map now</h3>{map_html}</div>
 </div></section>"""
@@ -746,7 +699,6 @@ def _case_html(r):
         f'<tr><td><a href="#{_esc(r["id"])}">{_esc(r["id"])}</a></td>'
         f'<td><code>{_esc(r["input"])}</code></td><td>{badge}{gap}</td>'
         f'<td>{_rank(r["match_index"])}</td>'
-        f'<td>{_rank(base.get("match_index")) if base else "<span class=muted>no baseline</span>"}</td>'
         f'<td class="problems">{_esc("; ".join(r["problems"]))}</td></tr>'
     )
     return summary, section
@@ -784,7 +736,7 @@ def write_report(out, results, args, started):
 <h1>Geosearch DK visual run</h1>
 <div class="meta">{_esc(meta['started'])} · QGIS {_esc(meta['qgis'])} · plugin {_esc(plugin_version)} · {_esc(meta['cases_file'])}</div>
 <p>{count_html}</p>
-<table class="sum"><tr><th>Case</th><th>Input</th><th>Status</th><th>Rank now</th><th>Rank baseline</th><th>Problems</th></tr>
+<table class="sum"><tr><th>Case</th><th>Input</th><th>Status</th><th>Rank now</th><th>Problems</th></tr>
 {''.join(s for s, _ in parts)}</table>
 {''.join(c for _, c in parts)}
 </body></html>"""
@@ -806,11 +758,6 @@ def parse_args(argv, repo):
     )
     p.add_argument("--cases", default=str(default_cases), help="case catalogue (YAML)")
     p.add_argument("--out", default=str(repo / "out"), help="output directory")
-    p.add_argument(
-        "--fixtures",
-        default=str(repo / "tests" / "fixtures" / "gsearch"),
-        help="directory with recorded GSearch baselines <id>.json",
-    )
     p.add_argument("--only", default="", help="comma separated case ids")
     p.add_argument(
         "--basemap",
@@ -836,7 +783,7 @@ def parse_args(argv, repo):
         if e.code:
             raise ValueError("invalid arguments, see visual_run.main(['--help'])")
         return None  # --help
-    for name in ("cases", "out", "fixtures"):
+    for name in ("cases", "out"):
         path = Path(getattr(args, name))
         setattr(args, name, path if path.is_absolute() else repo / path)
     return args

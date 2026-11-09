@@ -1,6 +1,6 @@
 """Every case in tests/cases.yaml, through the core, against the real Bifrost.
 
-A case passes when Bifrost meets the GSearch expectation (or the case's
+A case passes when Bifrost meets the case's ``expect`` (or its
 ``bifrost.expect``). Cases with a ``known_gap`` are expected to fail
 (xfail); an XPASS means Bifrost now does what the gap says it cannot.
 Stednavne match on the name only (#1). See conftest.py for the report.

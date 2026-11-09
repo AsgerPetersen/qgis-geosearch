@@ -14,7 +14,7 @@ Bifrost kræver sin egen API-nøgle. Et token til Dataforsyningen kan ikke bruge
 Pluginet har ingen indbygget nøgle, så du skal selv oprette en nøgle og indtaste den. Så længe der ingen nøgle er, viser søgepanelet en gul bjælke. Klik på *Indtast nøgle* i den gule bjælke eller på skruenøglen i søgepanelet (eller vælg *Indstillinger → Indstillinger → Geosearch DK*), og indsæt den under **Bifrost API-nøgle**. [Sådan opretter du en bruger på Dataforsyningen](https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen). Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen `BIFROST_KEY`.
 
 **Vigtigt: Matrikelnumre er blevet til ejendomme**\
-Bifrost kan ikke søge i matrikler, kun i ejendomme. Søgetypen **Matrikelnumre** hedder derfor nu **Ejendomme**. Når du søger på et matrikelnummer, finder du hele ejendommen (BFE), som matriklen hører til, og kortet viser hele ejendommen, ikke kun matriklen. Det præcise matrikelnummer står øverst i listen. Ligger ejendommen på flere matrikler, står det i listen, fx *3kg, Vangede (del af ejendom med 27 matrikler)*. Skriv `ejd:` foran for kun at søge i ejendomme, fx `ejd: 3kg søllerød`. `mat:` virker stadig. [Se eksempler](docs/forskelle-gsearch-bifrost.md#matrikel)
+Bifrost kan ikke søge i matrikler, kun i ejendomme. Søgetypen **Matrikelnumre** hedder derfor nu **Ejendomme**. Når du søger på et matrikelnummer, finder du hele ejendommen (BFE), som matriklen hører til, og kortet viser hele ejendommen, ikke kun matriklen. Det præcise matrikelnummer står øverst i listen. Ligger ejendommen på flere matrikler, står det i listen, fx *3kg, Vangede (del af ejendom med 27 matrikler)*. Skriv `ejd:` foran for kun at søge i ejendomme, fx `ejd: 3kg søllerød`. `mat:` virker stadig. [Se eksempler](https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#matrikel)
 
 **Nyt**
 - **Lejligheder:** Du kan nu finde adresser med etage og dør.
@@ -23,20 +23,20 @@ Bifrost kan ikke søge i matrikler, kun i ejendomme. Søgetypen **Matrikelnumre*
 - **Teksten i resultatlisten** laves nu af pluginet. Stednavne vises som *navn (type, kommune)*, fx *Skodsborg (bebyggelse, Rudersdal)*.
 - **Kortet** zoomer først til et punkt. Den fulde geometri, fx en vej eller en ejendom, kommer et øjeblik efter.
 - **Kommunefilteret** er nu et valg, du selv slår til i indstillingerne. Bifrost kan ikke filtrere på kommune, så pluginet henter resultater for hele landet og skjuler dem uden for dine kommuner. Vær opmærksom på:
-  - Du kan gå glip af resultater. Pluginet ser kun på Bifrosts 100 bedste hits for hele landet. Fx giver matrikel *1a* med filter på Horsens (615) ingen resultater, selvom der findes mange. [Se eksempler](docs/forskelle-gsearch-bifrost.md#kommunefilter)
+  - Du kan gå glip af resultater. Pluginet ser kun på Bifrosts 100 bedste hits for hele landet. Fx giver matrikel *1a* med filter på Horsens (615) ingen resultater, selvom der findes mange. [Se eksempler](https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#kommunefilter)
   - Adresser virker bedst, fordi pluginet sender kommunen med til Bifrost.
   - Store stednavne, fx en å eller en landsdel, kan blive skjult, fordi de kun hører til én kommune.
   - Brugte du kommunefilteret i den gamle version, er det slået til. Du kan slå det fra i indstillingerne.
 
 **Virker ikke længere – og hvorfor**
 - **Søgning på dele af ord.** *nørrebrog* finder ikke længere Nørrebrogade. Skriv hele ord, fx *nørrebrogade 1 københavn*. Til gengæld retter Bifrost små stavefejl.\
-  *Hvorfor: Bifrost tilbyder det ikke.* [Se eksempler](docs/forskelle-gsearch-bifrost.md#delord)
+  *Hvorfor: Bifrost tilbyder det ikke.* [Se eksempler](https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#delord)
 - **Kommunefilter i søgetjenesten.** GSearch filtrerede på kommune, så du fik alle hits i dine kommuner. Nu filtrerer pluginet selv, og det kan give færre resultater (se Kommunefilteret ovenfor).\
   *Hvorfor: Bifrost tilbyder det ikke.*
 - **Stednavnets undertype.** GSearch viste fx *Skodsborg (By i Rudersdal Kommune)*. Nu vises kun en overordnet type, fx *bebyggelse* eller *naturareal*, så steder med samme navn kan være svære at skelne.\
-  *Hvorfor: Bifrost tilbyder det ikke.* [Se eksempler](docs/forskelle-gsearch-bifrost.md#visningstekst)
+  *Hvorfor: Bifrost tilbyder det ikke.* [Se eksempler](https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#visningstekst)
 
-Konkrete eksempler, optaget fra begge tjenester før GSearch lukkede, står i [Forskelle mellem GSearch og Bifrost](docs/forskelle-gsearch-bifrost.md).
+Konkrete eksempler, optaget fra begge tjenester før GSearch lukkede, står i [Forskelle mellem GSearch og Bifrost](https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md). Dokumentet og optagelserne ligger i forken [AsgerPetersen/qgis-geosearch](https://github.com/AsgerPetersen/qgis-geosearch), hvor overgangen til Bifrost er udviklet.
 
 Teksten i pluginet findes i [src/geosearch_dk/help/hvad_er_nyt.html](src/geosearch_dk/help/hvad_er_nyt.html) og på engelsk i [hvad_er_nyt.en.html](src/geosearch_dk/help/hvad_er_nyt.en.html), som vises, når QGIS kører på engelsk.
 
