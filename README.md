@@ -20,15 +20,19 @@ Pluginet har endnu ingen indbygget nøgle. Så længe der ingen nøgle er, viser
 - **Teksten i resultatlisten** laves nu af pluginet. Stednavne vises som *navn (type, kommune)*, fx *Skodsborg (bebyggelse, Rudersdal)*.
 - **Matrikelnumre** finder nu hele ejendommen (BFE), som matriklen hører til, og kortet viser hele ejendommen. Det præcise matrikelnummer står øverst i listen.
 - **Kortet** zoomer først til et punkt. Den fulde geometri, fx en vej eller en ejendom, kommer et øjeblik efter.
-- **Kommunefilteret** er nu et valg, du selv slår til i indstillingerne. Bifrost kan ikke filtrere på kommune, så pluginet henter resultater for hele landet og skjuler dem uden for dine kommuner. Du kan derfor gå glip af resultater: pluginet ser kun på Bifrosts 100 bedste hits for hele landet. Adresser virker bedst. Brugte du kommunefilteret i den gamle version, er det slået til.
+- **Kommunefilteret** er nu et valg, du selv slår til i indstillingerne. Bifrost kan ikke filtrere på kommune, så pluginet henter resultater for hele landet og skjuler dem uden for dine kommuner. Vær opmærksom på:
+  - Du kan gå glip af resultater. Pluginet ser kun på Bifrosts 100 bedste hits for hele landet. Fx giver matrikel *1a* med filter på Horsens (615) ingen resultater, selvom der findes mange. [Se eksempler](docs/forskelle-gsearch-bifrost.md#kommunefilter)
+  - Adresser virker bedst, fordi pluginet sender kommunen med til Bifrost.
+  - Store stednavne, fx en å eller en landsdel, kan blive skjult, fordi de kun hører til én kommune.
+  - Brugte du kommunefilteret i den gamle version, er det slået til. Du kan slå det fra i indstillingerne.
 
 **Virker ikke længere – og hvorfor**
 - **Søgning på dele af ord.** *nørrebrog* finder ikke længere Nørrebrogade. Skriv hele ord, fx *nørrebrogade 1 københavn*. Til gengæld retter Bifrost små stavefejl.\
-  *Hvorfor: Bifrost tilbyder det ikke.*
+  *Hvorfor: Bifrost tilbyder det ikke.* [Se eksempler](docs/forskelle-gsearch-bifrost.md#delord)
 - **Kommunefilter i søgetjenesten.** GSearch filtrerede på kommune, så du fik alle hits i dine kommuner. Nu filtrerer pluginet selv, og det kan give færre resultater (se Kommunefilteret ovenfor).\
   *Hvorfor: Bifrost tilbyder det ikke.*
 - **Stednavnets undertype.** GSearch viste fx *Skodsborg (By i Rudersdal Kommune)*. Nu vises kun en overordnet type, fx *bebyggelse* eller *naturareal*, så steder med samme navn kan være svære at skelne.\
-  *Hvorfor: Bifrost tilbyder det ikke.*
+  *Hvorfor: Bifrost tilbyder det ikke.* [Se eksempler](docs/forskelle-gsearch-bifrost.md#visningstekst)
 
 Konkrete eksempler, optaget fra begge tjenester før GSearch lukkede, står i [Forskelle mellem GSearch og Bifrost](docs/forskelle-gsearch-bifrost.md).
 
