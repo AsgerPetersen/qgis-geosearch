@@ -32,15 +32,21 @@ den i indstillingerne eller i miljøvariablen `BIFROST_KEY`.
 Så længe der ingen nøgle er, viser søgepanelet en gul bjælke med et link til
 nøglefeltet i indstillingerne.
 
+### Vigtigt: Matrikelnumre er blevet til ejendomme
+Bifrost kan ikke søge i matrikler, kun i ejendomme. Søgetypen **Matrikelnumre**
+hedder derfor nu **Ejendomme**. En søgning på et matrikelnummer finder hele
+ejendommen (BFE), som matriklen hører til, og kortet viser hele ejendommen,
+ikke kun matriklen. Det præcise matrikelnummer står øverst i listen. Ligger
+ejendommen på flere matrikler, står det i listen, fx
+*3kg, Vangede (ejendom med 27 matrikler)*. Præfikset `ejd:` søger kun i
+ejendomme; `mat:` virker stadig.
+
 ### Nyt
 - **Lejligheder:** Man kan nu finde adresser med etage og dør.
 
 ### Virker anderledes
 - **Teksten i resultatlisten** laves nu af pluginet. Stednavne vises som
   *navn (type, kommune)*, fx *Skodsborg (bebyggelse, Rudersdal)*.
-- **Matrikelnumre** finder nu hele ejendommen (BFE), som matriklen hører til,
-  og kortet viser hele ejendommen. Det præcise matrikelnummer står øverst i
-  listen.
 - **Kortet** zoomer først til et punkt. Den fulde geometri, fx en vej eller en
   ejendom, kommer et øjeblik efter.
 - **Kommunefilteret** er nu et valg, man selv slår til i indstillingerne.

@@ -227,6 +227,45 @@ def test_gsearch_texts(match, text):
             "7b, Lyngby (bygning på fremmed grund)",
         ),
         (
+            m(
+                "ejendom",
+                "3kg, Vangede",
+                ejendom={
+                    "type": "samlet_fast_ejendom",
+                    "parcels": {"items": [{}, {}, {}], "complete": True},
+                },
+            ),
+            "3kg, Vangede (ejendom med 3 matrikler)",
+        ),
+        (
+            m(
+                "ejendom",
+                "1a, Stort Ejerlav",
+                ejendom={"parcels": {"items": [{}] * 1000, "complete": False}},
+            ),
+            "1a, Stort Ejerlav (ejendom med 1000+ matrikler)",
+        ),
+        (
+            m(
+                "ejendom",
+                "3kg, Søllerød By, Søllerød",
+                ejendom={"type": "samlet_fast_ejendom", "parcels": {"items": [{}]}},
+            ),
+            "3kg, Søllerød By, Søllerød",
+        ),
+        (
+            m(
+                "ejendom",
+                "12, Vesterbro",
+                ejendom={
+                    "type": "ejerlejlighed",
+                    "ejerlejlighedsnummer": "4",
+                    "parcels": {"items": [{}, {}]},
+                },
+            ),
+            "12, Vesterbro (ejerlejlighed 4)",
+        ),
+        (
             m("ejendom", "", matrikelnummer="3kg", ejerlav="Søllerød By"),
             "3kg, Søllerød By",
         ),

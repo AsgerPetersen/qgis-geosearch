@@ -48,6 +48,17 @@ Geosearch DK</i>), og indsæt den under <b>Bifrost API-nøgle</b>.
 Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen
 <code>BIFROST_KEY</code>.</p>
 
+<h3 id="matrikel"><a name="matrikel"></a>Vigtigt: Matrikelnumre er blevet til ejendomme</h3>
+<p>Bifrost kan ikke søge i matrikler, kun i ejendomme. Søgetypen
+<b>Matrikelnumre</b> hedder derfor nu <b>Ejendomme</b>. Når du søger på et
+matrikelnummer, finder du hele ejendommen (BFE), som matriklen hører til, og
+kortet viser hele ejendommen, ikke kun matriklen. Det præcise matrikelnummer
+står øverst i listen. Ligger ejendommen på flere matrikler, står det i listen,
+fx <i>3kg, Vangede (ejendom med 27 matrikler)</i>.</p>
+<p>Skriv <code>ejd:</code> foran for kun at søge i ejendomme, fx
+<code>ejd: 3kg søllerød</code>. <code>mat:</code> virker stadig.
+<a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/bifrost/docs/forskelle-gsearch-bifrost.md#matrikel">Se eksempler</a></p>
+
 <h3 id="nyt"><a name="nyt"></a>Nyt</h3>
 <ul>
   <li><b>Lejligheder:</b> Du kan nu finde adresser med etage og dør.</li>
@@ -58,9 +69,6 @@ Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen
   <li id="visningstekst"><a name="visningstekst"></a><b>Teksten i resultatlisten</b> laves nu af
     pluginet. Stednavne vises som <i>navn (type, kommune)</i>, fx
     <i>Skodsborg (bebyggelse, Rudersdal)</i>.</li>
-  <li id="matrikel"><a name="matrikel"></a><b>Matrikelnumre</b> finder nu hele ejendommen
-    (BFE), som matriklen hører til, og kortet viser hele ejendommen. Det præcise
-    matrikelnummer står øverst i listen.</li>
   <li id="geometri"><a name="geometri"></a><b>Kortet</b> zoomer først til et punkt. Den fulde
     geometri, fx en vej eller en ejendom, kommer et øjeblik efter.</li>
   <li id="kommunefilter"><a name="kommunefilter"></a><b>Kommunefilteret</b> er nu et valg, du

@@ -88,14 +88,17 @@ def parse_query(text, selected_keys, types=TYPES):
 
     "mat: 3kg søll" searches only ``mat`` (even when it is not selected), like
     the GSearch plugin: the prefix is the first three letters before the first
-    ":", case-insensitive. Otherwise ``selected_keys`` are searched.
+    ":", case-insensitive. A type's ``prefix`` ("ejd:") works like its key.
+    Otherwise ``selected_keys`` are searched.
     """
     text = text or ""
     known = types_by_key(types)
     if ":" in text:
         prefix, rest = text.split(":", 1)
-        key = prefix[:3].lower()
-        if key in known:
+        prefix = prefix[:3].lower()
+        by_prefix = {t.prefix: k for k, t in known.items() if t.prefix}
+        key = prefix if prefix in known else by_prefix.get(prefix)
+        if key:
             return ParsedQuery(rest.strip(), (key,))
     selected = set(selected_keys)
     return ParsedQuery(text.strip(), tuple(k for k in known if k in selected))

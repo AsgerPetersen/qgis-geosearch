@@ -43,6 +43,18 @@ bar. Click
 Your IT department can also set the key for everyone with the environment
 variable <code>BIFROST_KEY</code>.</p>
 
+<h3 id="matrikel"><a name="matrikel"></a>Important: Cadastral numbers have become properties</h3>
+<p>Bifrost cannot search parcels, only properties. The search type
+<b>Cadastral numbers</b> is therefore now called <b>Properties</b>. When you
+search for a cadastral number, you find the whole property (BFE) that the
+parcel belongs to, and the map shows the whole property, not just the parcel.
+The exact cadastral number is at the top of the list. If the property is on
+more than one parcel, the list says so, e.g.
+<i>3kg, Vangede (ejendom med 27 matrikler)</i>.</p>
+<p>Type <code>ejd:</code> first to search only properties, e.g.
+<code>ejd: 3kg søllerød</code>. <code>mat:</code> still works.
+<a href="https://github.com/AsgerPetersen/qgis-geosearch/blob/bifrost/docs/forskelle-gsearch-bifrost.md#matrikel">See examples (in Danish)</a></p>
+
 <h3 id="nyt"><a name="nyt"></a>New</h3>
 <ul>
   <li><b>Apartments:</b> You can now find addresses with floor and door.</li>
@@ -53,9 +65,6 @@ variable <code>BIFROST_KEY</code>.</p>
   <li id="visningstekst"><a name="visningstekst"></a><b>The text in the result list</b> is now
     made by the plugin. Place names are shown as <i>name (type, municipality)</i>, e.g.
     <i>Skodsborg (bebyggelse, Rudersdal)</i>.</li>
-  <li id="matrikel"><a name="matrikel"></a><b>Cadastral numbers</b> now find the whole property
-    (BFE) that the parcel belongs to, and the map shows the whole property. The exact
-    cadastral number is at the top of the list.</li>
   <li id="geometri"><a name="geometri"></a><b>The map</b> first zooms to a point. The full
     geometry, e.g. a road or a property, follows a moment later.</li>
   <li id="kommunefilter"><a name="kommunefilter"></a><b>The municipality filter</b> is now an

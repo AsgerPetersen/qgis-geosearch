@@ -129,28 +129,28 @@
             <translation>Could not contact Bifrost: %s</translation>
         </message>
         <message>
-            <location filename="../bifrost/core.py" line="283" />
-            <location filename="../bifrost/core.py" line="312" />
+            <location filename="../bifrost/core.py" line="289" />
+            <location filename="../bifrost/core.py" line="318" />
             <source>%s - Der skete en fejl</source>
             <translation>%s - An error occurred</translation>
         </message>
         <message>
-            <location filename="../bifrost/core.py" line="304" />
+            <location filename="../bifrost/core.py" line="310" />
             <source>Ukendt kommunekode %s i kommunefilteret</source>
             <translation>Unknown municipality code %s in the municipality filter</translation>
         </message>
         <message>
-            <location filename="../bifrost/core.py" line="305" />
+            <location filename="../bifrost/core.py" line="311" />
             <source>Kommunefilteret i indstillingerne indeholder kommunekoden %s, som Bifrost ikke kender. Ret eller fjern koden under Indstillinger &gt; Geosearch DK.</source>
             <translation>The municipality filter in the settings contains the municipality code %s, which Bifrost does not know. Correct or remove the code under Settings &gt; Options &gt; Geosearch DK.</translation>
         </message>
         <message>
-            <location filename="../bifrost/core.py" line="312" />
+            <location filename="../bifrost/core.py" line="318" />
             <source>Kommunefilter</source>
             <translation>Municipality filter</translation>
         </message>
         <message>
-            <location filename="../bifrost/core.py" line="313" />
+            <location filename="../bifrost/core.py" line="319" />
             <source>Kommunefilteret kunne ikke hentes fra Bifrost: %s</source>
             <translation>The municipality filter could not be fetched from Bifrost: %s</translation>
         </message>
@@ -170,17 +170,17 @@
             <translation>Could not fetch geometry for '%s': %s</translation>
         </message>
         <message>
-            <location filename="../bifrost/transport.py" line="47" />
+            <location filename="../bifrost/transport.py" line="50" />
             <source>Bifrost svarede med HTTP %s</source>
             <translation>Bifrost answered with HTTP %s</translation>
         </message>
         <message>
-            <location filename="../bifrost/transport.py" line="59" />
+            <location filename="../bifrost/transport.py" line="62" />
             <source>Der er ikke angivet en nøgle til Bifrost</source>
             <translation>No key for Bifrost has been entered</translation>
         </message>
         <message>
-            <location filename="../bifrost/transport.py" line="149" />
+            <location filename="../bifrost/transport.py" line="152" />
             <source>Ugyldigt svar: %s</source>
             <translation>Invalid response: %s</translation>
         </message>
@@ -201,8 +201,8 @@
         </message>
         <message>
             <location filename="../bifrost/types.py" />
-            <source>Matrikelnumre</source>
-            <translation>Cadastral numbers</translation>
+            <source>Ejendomme</source>
+            <translation>Properties</translation>
         </message>
         <message>
             <location filename="../bifrost/types.py" />
