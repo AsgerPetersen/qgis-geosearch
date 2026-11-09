@@ -177,6 +177,16 @@ def test_slow_request_times_out_the_client(mock):
         post(mock, "/search?mock_error=slow&mock_delay=1", {"input": "qqq"}, timeout=0.2)
 
 
+def test_a_request_from_before_reset_is_not_logged(mock):
+    import socket
+
+    with pytest.raises((socket.timeout, TimeoutError, urllib.error.URLError)):
+        post(mock, "/search?mock_error=slow&mock_delay=0.5", {"input": "qqq"}, timeout=0.1)
+    mock.reset()
+    time.sleep(0.8)  # the slow request finishes after the reset
+    assert mock.request_log() == []
+
+
 def test_error_count_fails_only_the_next_requests(mock):
     mock.configure(error="503", error_count=2)
     statuses = [post(mock, "/search", {"input": "qqq"})[0] for _ in range(3)]
