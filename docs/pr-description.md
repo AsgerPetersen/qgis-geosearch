@@ -38,7 +38,7 @@ hedder derfor nu **Ejendomme**. En søgning på et matrikelnummer finder hele
 ejendommen (BFE), som matriklen hører til, og kortet viser hele ejendommen,
 ikke kun matriklen. Det præcise matrikelnummer står øverst i listen. Ligger
 ejendommen på flere matrikler, står det i listen, fx
-*3kg, Vangede (ejendom med 27 matrikler)*. Præfikset `ejd:` søger kun i
+*3kg, Vangede (del af ejendom med 27 matrikler)*. Præfikset `ejd:` søger kun i
 ejendomme; `mat:` virker stadig.
 
 ### Nyt

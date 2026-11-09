@@ -235,7 +235,7 @@ def test_gsearch_texts(match, text):
                     "parcels": {"items": [{}, {}, {}], "complete": True},
                 },
             ),
-            "3kg, Vangede (ejendom med 3 matrikler)",
+            "3kg, Vangede (del af ejendom med 3 matrikler)",
         ),
         (
             m(
@@ -243,7 +243,7 @@ def test_gsearch_texts(match, text):
                 "1a, Stort Ejerlav",
                 ejendom={"parcels": {"items": [{}] * 1000, "complete": False}},
             ),
-            "1a, Stort Ejerlav (ejendom med 1000+ matrikler)",
+            "1a, Stort Ejerlav (del af ejendom med 1000+ matrikler)",
         ),
         (
             m(
