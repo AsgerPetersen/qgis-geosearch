@@ -128,7 +128,7 @@ def _ejerlav(match, c, result):
 
 
 def _parcel_count_note(ejendom):
-    """"ejendom med 27 matrikler" for a property on more than one parcel.
+    """"del af ejendom med 27 matrikler" for a property on more than one parcel.
 
     The hit is the whole property, but its text names only the matched parcel,
     as GSearch's parcel hits did (#4).
@@ -138,7 +138,7 @@ def _parcel_count_note(ejendom):
     if n < 2:
         return None
     more = "" if parcels.get("complete", True) else "+"
-    return "ejendom med %d%s matrikler" % (n, more)
+    return "del af ejendom med %d%s matrikler" % (n, more)
 
 
 def _ejendom(match, c, result):
