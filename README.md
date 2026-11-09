@@ -11,7 +11,7 @@ Klimadatastyrelsen lukker søgetjenesten [GSearch](https://github.com/Klimadatas
 
 **Du skal bruge en nøgle til Bifrost**\
 Bifrost kræver sin egen API-nøgle. Et token til Dataforsyningen kan ikke bruges, så pluginet har fjernet det token, du måske havde angivet i den gamle version.
-Pluginet har endnu ingen indbygget nøgle. Så længe der ingen nøgle er, viser søgepanelet en gul bjælke. Indtil videre skal du selv indtaste en nøgle: Klik på *Indtast nøgle* i den gule bjælke eller på skruenøglen i søgepanelet (eller vælg *Indstillinger → Indstillinger → Geosearch DK*), og indsæt den under **Bifrost API-nøgle**. [Sådan opretter du en bruger på Dataforsyningen](https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen). Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen `BIFROST_KEY`.
+Pluginet har ingen indbygget nøgle, så du skal selv oprette en nøgle og indtaste den. Så længe der ingen nøgle er, viser søgepanelet en gul bjælke. Klik på *Indtast nøgle* i den gule bjælke eller på skruenøglen i søgepanelet (eller vælg *Indstillinger → Indstillinger → Geosearch DK*), og indsæt den under **Bifrost API-nøgle**. [Sådan opretter du en bruger på Dataforsyningen](https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen). Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen `BIFROST_KEY`.
 
 **Nyt**
 - **Lejligheder:** Du kan nu finde adresser med etage og dør.

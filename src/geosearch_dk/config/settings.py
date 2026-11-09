@@ -30,10 +30,10 @@ from ..bifrost.types import TYPES
 from .qgissettingmanager import *
 
 # Bundled Bifrost key: used when neither the setting nor the BIFROST_KEY
-# environment variable gives a key. Empty until Klimadatastyrelsen has said
-# whether the plugin may ship a shared key (#5).
+# environment variable gives a key. Empty: Klimadatastyrelsen does not allow a
+# shared key, so every user needs their own (#5).
 DEFAULT_BIFROST_KEY = ""
-# Used when the "Bifrost URL" setting is empty. Pending the production URL (#5).
+# Used when the "Bifrost URL" setting is empty: production.
 DEFAULT_BIFROST_URL = DEFAULT_BASE_URL
 # How to get a key: Klimadatastyrelsen's page with the user guide. Pending #5.
 BIFROST_KEY_HELP_URL = (
