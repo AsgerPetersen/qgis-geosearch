@@ -15,7 +15,10 @@ import time
 from .translation import tr
 
 KEY_ENV = "BIFROST_KEY"
-DEFAULT_BASE_URL = "https://bifrost.test42.dataforsyningen.dk"
+# Production, per https://confluence.kds.dk/display/Bifrost/FAQ. Not live until
+# Dataforsyningen has moved to its new platform; until then use the test
+# server https://bifrost.test42.dataforsyningen.dk (set "Bifrost URL").
+DEFAULT_BASE_URL = "https://bifrost.dataforsyningen.dk"
 
 SEARCH_TIMEOUT_MS = 15000
 GEOMETRY_TIMEOUT_MS = 60000
