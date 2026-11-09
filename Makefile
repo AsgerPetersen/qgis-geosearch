@@ -3,6 +3,7 @@
 #   make dev             symlink the plugin into the "geosearch-dev" profile and start QGIS 4
 #   make dev QGIS=3      same, with QGIS 3 (Qt5)
 #   make visual          run tests/manual/visual_run.py in QGIS and write out/report.html
+#   make screenshots     retake the README screenshots (Danish) in docs/images
 #   make help            list all targets and variables
 #
 # The plugin's packaging Makefile is src/geosearch_dk/Makefile; this file is
@@ -139,6 +140,33 @@ else
 endif
 	@[ -f "$(OUT)/report.html" ] || { echo "No report was written. See $(OUT)/qgis.log" >&2; exit 1; }
 	@echo "Report: $(abspath $(OUT))/report.html"
+
+# README screenshots (tests/manual/readme_screenshots.py), always in Danish
+SHOTS_PROFILE     := geosearch-screenshots
+SHOTS_PROFILE_DIR := $(QGIS_USER_DIR)/profiles/$(SHOTS_PROFILE)
+SHOTS_INI          = $(subst $(PROFILE_DIR),$(SHOTS_PROFILE_DIR),$(PROFILE_INI))
+SHOTS_OUT         ?= docs/images
+
+.PHONY: screenshots
+screenshots: check-qgis ## Retake the README screenshots in Danish (fresh profile, no key)
+	@rm -rf "$(SHOTS_PROFILE_DIR)"
+	@mkdir -p "$$(dirname "$(SHOTS_INI)")" "$(SHOTS_PROFILE_DIR)/python/plugins" "$(SHOTS_OUT)"
+	@printf '[PythonPlugins]\n$(PLUGIN_NAME)=true\nprocessing=false\n\n[locale]\nuserLocale=da_DK\noverrideFlag=true\n' > "$(SHOTS_INI)"
+	@ln -sfn "$(PLUGIN_SRC)" "$(SHOTS_PROFILE_DIR)/python/plugins/$(PLUGIN_NAME)"
+ifeq ($(UNAME_S),Darwin)
+	@$(SAVE_LAST_PROFILE); \
+	  open -n -W -a "$(QGIS_APP)" --env "SCREENSHOTS_OUT=$(abspath $(SHOTS_OUT))" \
+	    --stdout "$(abspath $(SHOTS_OUT))/.qgis.log" --stderr "$(abspath $(SHOTS_OUT))/.qgis.log" \
+	    --args --profile "$(SHOTS_PROFILE)" --nologo --code "$(CURDIR)/tests/manual/readme_screenshots.py"; \
+	  $(RESTORE_LAST_PROFILE)
+else
+	@$(SAVE_LAST_PROFILE); \
+	  env -u BIFROST_KEY SCREENSHOTS_OUT="$(abspath $(SHOTS_OUT))" "$(QGIS_BIN)" --profile "$(SHOTS_PROFILE)" --nologo \
+	    --code "$(CURDIR)/tests/manual/readme_screenshots.py" > "$(abspath $(SHOTS_OUT))/.qgis.log" 2>&1; \
+	  $(RESTORE_LAST_PROFILE)
+endif
+	@grep -F '[readme_screenshots]' "$(SHOTS_OUT)/.qgis.log" || true
+	@rm -f "$(SHOTS_OUT)/.qgis.log"
 
 .PHONY: macos-patch-qgis
 macos-patch-qgis: check-qgis ## macOS 27: make a patched QGIS copy in ~/Applications that does not crash at start

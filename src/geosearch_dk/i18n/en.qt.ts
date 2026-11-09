@@ -20,8 +20,8 @@
         </message>
         <message>
             <location filename="../searchbox.py" line="196" />
-            <source>Bifrost kræver en API-nøgle, og pluginet har ingen endnu.</source>
-            <translation>Bifrost needs an API key, and the plugin does not have one yet.</translation>
+            <source>Bifrost kræver en API-nøgle, og der er ikke angivet nogen.</source>
+            <translation>Bifrost needs an API key, and none has been set.</translation>
         </message>
         <message>
             <location filename="../searchbox.py" line="199" />
