@@ -22,7 +22,8 @@ email=kontakt@septima.dk
 changelog=2026-11-06 4.0.0 Switch from GSearch, which closes in November 2026, to Klimadatastyrelsen's Bifrost.
     New: apartments (floor/door).
     Bifrost needs its own API key, entered in the plugin settings or the BIFROST_KEY environment variable; the stored Dataforsyningen token is removed.
-    Changed: display texts are built by the plugin; cadastral numbers find the whole property (BFE); the geometry appears shortly after the zoom; the municipality filter is an opt-in local filter.
+    Important: the type Matrikelnumre is now Ejendomme and finds the whole property (BFE), not the parcel; new prefix ejd: (mat: still works).
+    Changed: display texts are built by the plugin; the geometry appears shortly after the zoom; the municipality filter is an opt-in local filter.
     No longer possible, because Bifrost does not offer it: search on partial words, a server-side municipality filter, the place name subtype.
     A "Hvad er nyt" dialog (the (i) button in the search panel) explains what has changed and why.
     2026-09-10 3.1.1 Revert network error check

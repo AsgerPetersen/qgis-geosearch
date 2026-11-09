@@ -119,7 +119,7 @@ def test_settings_page(qgis_parent):
     assert [b.objectName() for b in boxes] == ["search_" + k for k in TYPE_KEYS]
     assert all(b.isChecked() for b in boxes)
     assert boxes[0].text() in ("Husnumre ('adr')", "Addresses ('adr')")
-    assert dialog.findChild(QCheckBox, "search_mat").text().endswith("('mat')")
+    assert dialog.findChild(QCheckBox, "search_mat").text().endswith("('ejd')")
     assert dialog.bifrost_key.text() == ""
     assert dialog.bifrost_url.text() == ""
     assert dialog.bifrost_url.placeholderText() == settings_module.DEFAULT_BIFROST_URL

@@ -56,6 +56,8 @@ def test_proposed_types_do_not_clash():
         ("  aarhus ", ["reg", "adr"], "aarhus", ("adr", "reg")),
         ("mat: 3kg søll", ["adr"], "3kg søll", ("mat",)),
         ("MATRIKEL:3kg", ["adr"], "3kg", ("mat",)),
+        ("ejd: 3kg søll", ["adr"], "3kg søll", ("mat",)),
+        ("EJD:6033528", [], "6033528", ("mat",)),
         ("ste:a:b", [], "a:b", ("ste",)),
         ("xyz: aarhus", ["kom"], "xyz: aarhus", ("kom",)),
         ("aarhus", ["kom", "nope"], "aarhus", ("kom",)),

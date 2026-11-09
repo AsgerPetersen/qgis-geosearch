@@ -13,12 +13,14 @@ Klimadatastyrelsen lukker søgetjenesten [GSearch](https://github.com/Klimadatas
 Bifrost kræver sin egen API-nøgle. Et token til Dataforsyningen kan ikke bruges, så pluginet har fjernet det token, du måske havde angivet i den gamle version.
 Pluginet har ingen indbygget nøgle, så du skal selv oprette en nøgle og indtaste den. Så længe der ingen nøgle er, viser søgepanelet en gul bjælke. Klik på *Indtast nøgle* i den gule bjælke eller på skruenøglen i søgepanelet (eller vælg *Indstillinger → Indstillinger → Geosearch DK*), og indsæt den under **Bifrost API-nøgle**. [Sådan opretter du en bruger på Dataforsyningen](https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen). Din IT-afdeling kan også sætte nøglen for alle med miljøvariablen `BIFROST_KEY`.
 
+**Vigtigt: Matrikelnumre er blevet til ejendomme**\
+Bifrost kan ikke søge i matrikler, kun i ejendomme. Søgetypen **Matrikelnumre** hedder derfor nu **Ejendomme**. Når du søger på et matrikelnummer, finder du hele ejendommen (BFE), som matriklen hører til, og kortet viser hele ejendommen, ikke kun matriklen. Det præcise matrikelnummer står øverst i listen. Ligger ejendommen på flere matrikler, står det i listen, fx *3kg, Vangede (ejendom med 27 matrikler)*. Skriv `ejd:` foran for kun at søge i ejendomme, fx `ejd: 3kg søllerød`. `mat:` virker stadig. [Se eksempler](docs/forskelle-gsearch-bifrost.md#matrikel)
+
 **Nyt**
 - **Lejligheder:** Du kan nu finde adresser med etage og dør.
 
 **Virker anderledes**
 - **Teksten i resultatlisten** laves nu af pluginet. Stednavne vises som *navn (type, kommune)*, fx *Skodsborg (bebyggelse, Rudersdal)*.
-- **Matrikelnumre** finder nu hele ejendommen (BFE), som matriklen hører til, og kortet viser hele ejendommen. Det præcise matrikelnummer står øverst i listen.
 - **Kortet** zoomer først til et punkt. Den fulde geometri, fx en vej eller en ejendom, kommer et øjeblik efter.
 - **Kommunefilteret** er nu et valg, du selv slår til i indstillingerne. Bifrost kan ikke filtrere på kommune, så pluginet henter resultater for hele landet og skjuler dem uden for dine kommuner. Vær opmærksom på:
   - Du kan gå glip af resultater. Pluginet ser kun på Bifrosts 100 bedste hits for hele landet. Fx giver matrikel *1a* med filter på Horsens (615) ingen resultater, selvom der findes mange. [Se eksempler](docs/forskelle-gsearch-bifrost.md#kommunefilter)
@@ -78,7 +80,7 @@ Du kan lave en række indstillinger i pluginets indstillingsfane, som du kan åb
 Følgende indstillinger kan foretages i pluginets indstillingsdialog:
 - Bifrost API-nøgle. Se [Sådan opretter du en bruger på Dataforsyningen](https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen). Står feltet tomt, bruges miljøvariablen `BIFROST_KEY`. Et token til Dataforsyningen kan ikke bruges.
 - Kommunefilter. Indtast et eller flere kommunenumre adskilt af komma. Pluginet skjuler så søgeresultater uden for de listede kommuner. Læs om begrænsningerne under [Overgang til Bifrost](#overgang-til-bifrost).
-- Typefilter. Vis kun søgeresultater af bestemte typer, f.eks. adresser, matrikelnumre, stednavne etc.
+- Typefilter. Vis kun søgeresultater af bestemte typer, f.eks. adresser, ejendomme, stednavne etc.
 
 ![geosearchsettings](https://github.com/Septima/qgis-geosearch/assets/16276034/ffcfe419-38af-4ed1-80f8-bc2264919fb0)
 

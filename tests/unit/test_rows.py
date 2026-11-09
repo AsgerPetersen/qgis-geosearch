@@ -231,7 +231,7 @@ def test_failed_request_gives_error_rows_for_its_types():
     resolve_ok = {"matches": []}
     result = collect_rows(plan, [resolve_ok, OSError("timeout")])
     assert [(r["key"], r["status"], r["text"]) for r in result.rows] == [
-        ("mat", STATUS_ERROR, "Matrikelnumre - Der skete en fejl"),
+        ("mat", STATUS_ERROR, "Ejendomme - Der skete en fejl"),
         ("kom", STATUS_ERROR, "Kommuner - Der skete en fejl"),
     ]
     assert result.rows[0]["message"] == "timeout"

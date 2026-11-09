@@ -55,7 +55,7 @@ def selected_type_keys(value, types=TYPES):
 
 
 def checkbox_label(search_type):
-    return f"{tr('bifrost', search_type.title)} ('{search_type.key}')"
+    return f"{tr('bifrost', search_type.title)} ('{search_type.shown_prefix}')"
 
 
 def checkbox_positions(types=TYPES, columns=2):

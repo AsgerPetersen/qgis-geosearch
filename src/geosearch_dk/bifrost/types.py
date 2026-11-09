@@ -20,9 +20,10 @@ PROJECT = "project"
 FILTER_COMPONENTS = "components"
 FILTER_PROJECT = "project"
 
-# "mat" now finds whole properties (BFE), not parcels, and the label is
-# undecided (#4). Keep the user-facing wording here only.
-MAT_TITLE = "Matrikelnumre"
+# "mat" finds whole properties (BFE), not parcels (#4), so it is shown as
+# "Ejendomme" with the prefix "ejd:". The key stays "mat" so the 3.x setting
+# search_mat and the prefix "mat:" keep working.
+MAT_TITLE = "Ejendomme"
 
 
 class SearchType(NamedTuple):
@@ -42,6 +43,12 @@ class SearchType(NamedTuple):
     # RESOLVE only: also show streets under this type. /resolve returns streets,
     # not husnumre, when only a street name is typed.
     accept_streets: bool = False
+    # The prefix shown to users, when it is not the key. Both are accepted.
+    prefix: str = ""
+
+    @property
+    def shown_prefix(self):
+        return self.prefix or self.key
 
 
 # Today's eight types, in display order (the order of the old settings.resources).
@@ -51,7 +58,7 @@ TYPES = (
     ),
     SearchType("ste", "Stednavne", SEARCH, "stednavn"),
     SearchType("pos", "Postdistrikter", SEARCH, "postcode"),
-    SearchType("mat", MAT_TITLE, SEARCH, "ejendom"),
+    SearchType("mat", MAT_TITLE, SEARCH, "ejendom", prefix="ejd"),
     SearchType("kom", "Kommuner", SEARCH, "kommune"),
     SearchType(
         "ops",

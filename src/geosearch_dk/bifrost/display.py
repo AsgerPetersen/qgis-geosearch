@@ -127,6 +127,20 @@ def _ejerlav(match, c, result):
     return result or c.get("ejerlav") or ""
 
 
+def _parcel_count_note(ejendom):
+    """"ejendom med 27 matrikler" for a property on more than one parcel.
+
+    The hit is the whole property, but its text names only the matched parcel,
+    as GSearch's parcel hits did (#4).
+    """
+    parcels = ejendom.get("parcels") or {}
+    n = len(parcels.get("items") or [])
+    if n < 2:
+        return None
+    more = "" if parcels.get("complete", True) else "+"
+    return "ejendom med %d%s matrikler" % (n, more)
+
+
 def _ejendom(match, c, result):
     # result names the parcel the search matched, e.g. "3kg, Søllerød By, Søllerød",
     # which is GSearch's matrikel text.
@@ -134,6 +148,12 @@ def _ejendom(match, c, result):
     ejendom = match.get("ejendom") or {}
     notes = []
     etype = ejendom.get("type")
+    # An ejerlejlighed or a bygning på fremmed grund lists the land it stands
+    # on, so the count is only shown for the property that owns the land.
+    if etype in (None, "samlet_fast_ejendom"):
+        count = _parcel_count_note(ejendom)
+        if count:
+            notes.append(count)
     if etype == "ejerlejlighed":
         notes.append(
             _join("ejerlejlighed", ejendom.get("ejerlejlighedsnummer"), sep=" ")
