@@ -24,8 +24,10 @@ from geosearch_dk.bifrost import (
 )
 from geosearch_dk.bifrost import transport
 
+import bifrost_cases as bc
+
 KEY = os.environ.get(transport.KEY_ENV)
-URL = os.environ.get("BIFROST_URL") or transport.DEFAULT_BASE_URL
+URL = os.environ.get("BIFROST_URL") or bc.DEFAULT_URL
 ALL = [t.key for t in TYPES]
 
 pytestmark = pytest.mark.skipif(not KEY, reason="set BIFROST_KEY to run live tests")

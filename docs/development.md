@@ -42,6 +42,12 @@ Other targets:
 
 To remove the dev profile completely, delete its folder.
 
+The plugin defaults to Bifrost production, `https://bifrost.dataforsyningen.dk`,
+which is not live yet. A test key works only on the test server: set
+*Bifrost URL* in the plugin settings to `https://bifrost.test42.dataforsyningen.dk`.
+The live tests and the recording tools use the test server unless `BIFROST_URL`
+is set.
+
 ## Linux
 
 `make dev` works on Linux as well. The profile is created in
