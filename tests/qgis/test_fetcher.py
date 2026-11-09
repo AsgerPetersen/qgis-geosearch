@@ -50,6 +50,26 @@ def test_search_is_answered_from_the_recording(fetcher, bifrost_mock):
     assert {e["fixture"] for e in bifrost_mock.request_log()} == {"exact"}
 
 
+@pytest.mark.parametrize("query", ["adr:", None, "no key"])
+def test_a_query_that_sends_nothing_drops_the_running_search(fetcher, query):
+    """The mock answers after 1 s; the old reply must not reach the result list."""
+    from qgis.PyQt.QtCore import QSettings
+
+    assert fetcher.fetch("Vangebovej 71") is not None
+    if query is None:
+        fetcher.cancel_search()  # the search box was emptied
+    elif query == "no key":
+        QSettings().setValue("plugins/Geosearch DK/bifrost_key", "")
+        assert fetcher.fetch("Vangebovej 72") is None
+    else:
+        assert fetcher.fetch(query) is None
+    end = time.monotonic() + 2.5
+    while time.monotonic() < end:
+        QCoreApplication.processEvents()
+        time.sleep(0.01)
+    assert "finished" not in fetcher.events
+
+
 def test_geometry_of_a_hit(fetcher):
     fetcher.fetch("Vangebovej 71")
     wait_for(lambda: fetcher.events)

@@ -100,14 +100,15 @@ class BifrostFetcher(QObject):
         are fetched alongside the search (once per session, see
         ``KommunefilterCache``) and the hits outside the kommuner are hidden.
         """
+        # A reply to the previous search must not show up after a query that
+        # sends nothing, e.g. one that is now only a prefix such as "adr:".
+        self.cancel_search()
         plan = plan_search(term, self.selected_keys(), kommunefilter=self.kommunefilter())
         if not plan.requests:
             return None
         if not self.key():
             self.missing_key.emit()
             return None
-        self._abort_search()
-        self._search_id += 1
         search_id = self._search_id
         parts = {}
 
@@ -140,6 +141,11 @@ class BifrostFetcher(QObject):
 
     def get_result(self):
         return self.result
+
+    def cancel_search(self):
+        """Abort the running search; its reply is ignored if it still arrives."""
+        self._search_id += 1
+        self._abort_search()
 
     def _abort_search(self):
         if self._search_call is not None:
@@ -238,8 +244,7 @@ class BifrostFetcher(QObject):
         callback(row, geojson)
 
     def abort_all(self):
-        self._search_id += 1
-        self._abort_search()
+        self.cancel_search()
         self.cancel_geometry()
         self.kommunefilter_cache.abort()
         self.client.abort_all()
