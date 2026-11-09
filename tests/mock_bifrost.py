@@ -295,6 +295,9 @@ class MockBifrost:
         self.lock = threading.Lock()
         self.config = dict(DEFAULT_CONFIG)
         self.requests = []
+        # Bumped by reset(), so a request still running from an earlier test
+        # (e.g. a "slow" one the client gave up on) stays out of the new log.
+        self.generation = 0
         self.configure(**config)
         self.httpd = None
         self.thread = None
@@ -316,6 +319,7 @@ class MockBifrost:
         with self.lock:
             self.config = dict(DEFAULT_CONFIG)
             self.requests = []
+            self.generation += 1
 
     def status(self):
         with self.lock:
@@ -346,8 +350,9 @@ class MockBifrost:
         """``(status, headers, body)`` for one request."""
         with self.lock:
             config = dict(self.config)
+            generation = self.generation
         error = error or magic_error(body) or self._configured_error()
-        entry = {"endpoint": endpoint, "body": body, "error": error}
+        entry = {"endpoint": endpoint, "body": body, "error": error, "_generation": generation}
         try:
             token = ""
             if authorization and authorization.lower().startswith("bearer "):
@@ -381,7 +386,8 @@ class MockBifrost:
     def _log(self, entry, result):
         entry["status"] = result[0]
         with self.lock:
-            self.requests.append(entry)
+            if entry.pop("_generation") == self.generation:
+                self.requests.append(entry)
         return result
 
     # --- serving ------------------------------------------------------------
