@@ -10,7 +10,7 @@ The mock server (tests/mock_bifrost.py) serves everything recorded here.
     BIFROST_KEY=... uv run python tests/tools/record_bifrost.py [name ...]
 
     # the case catalogue tests/cases.yaml -> fixtures/bifrost/cases/<id>.json
-    # and the before/after report fixtures/bifrost/cases/REPORT.md
+    # and the report fixtures/bifrost/cases/REPORT.md
     BIFROST_KEY=... uv run python tests/tools/record_bifrost.py --cases [id ...]
 
     # only rebuild REPORT.md from the recorded case fixtures (offline)

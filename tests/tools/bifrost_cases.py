@@ -11,20 +11,22 @@ searches:
 4. the full geometry of the expected hit (what clicking it fetches).
 
 ``send(request)`` does the HTTP: ``LiveSender`` against Bifrost, or
-``ReplaySender`` from a recorded fixture. Expectations are the GSearch ones
-(``check_expect`` in record_gsearch.py), with one relaxation: a stednavn
-cannot get GSearch's text (#1), so a ``ste`` row matches on the name
-before " (".
+``ReplaySender`` from a recorded fixture. ``check_expect`` checks a case's
+``expect``, with one relaxation: a stednavn has no subtype in Bifrost (#1),
+so a ``ste`` row matches on the name before " (".
 """
 
 import datetime as dt
 import json
 import math
 import os
+import re
 import sys
 import time
 import urllib.error
 import urllib.request
+
+import yaml
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
@@ -46,13 +48,8 @@ from geosearch_dk.bifrost import (  # noqa: E402
     plan_search,
 )
 from mock_bifrost import FixtureIndex, iter_exchanges  # noqa: E402
-from record_gsearch import (  # noqa: E402
-    check_expect,
-    geometry_kind,
-    load_cases,
-    load_fixture,
-)
 
+CASES_FILE = os.path.join(ROOT, "tests", "cases.yaml")
 CASES_FIXTURES = os.path.join(ROOT, "tests", "fixtures", "bifrost", "cases")
 REPORT_FILE = os.path.join(CASES_FIXTURES, "REPORT.md")
 DEFAULT_URL = "https://bifrost.test42.dataforsyningen.dk"
@@ -77,6 +74,7 @@ __all__ = [
     "LiveSender",
     "ReplaySender",
     "case_plan",
+    "check_expect",
     "load_case_fixture",
     "load_cases",
     "run_case",
@@ -89,6 +87,64 @@ class BifrostHTTPError(Exception):
         super().__init__("HTTP %s: %s" % (status, json.dumps(response, ensure_ascii=False)[:200]))
         self.status = status
         self.response = response
+
+
+# --- the case catalogue ------------------------------------------------------
+
+
+def load_cases(path=CASES_FILE):
+    """The cases in tests/cases.yaml; exits on duplicate ids or unknown types."""
+    with open(path, encoding="utf-8") as f:
+        cases = yaml.safe_load(f)
+    ids = [c["id"] for c in cases]
+    dupes = {i for i in ids if ids.count(i) > 1}
+    if dupes:
+        sys.exit("Duplicate case ids: %s" % sorted(dupes))
+    for c in cases:
+        if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", c["id"]):
+            sys.exit("Case id is not kebab-case: %s" % c["id"])
+        unknown = set(c.get("types") or []) - set(ALL_KEYS)
+        if unknown:
+            sys.exit("%s: unknown types %s" % (c["id"], sorted(unknown)))
+    return cases
+
+
+def geometry_kind(gtype):
+    """point, line or polygon for a GeoJSON geometry type."""
+    if not gtype:
+        return None
+    g = gtype.lower()
+    for kind in ("point", "line", "polygon"):
+        if kind in g:
+            return kind
+    return g
+
+
+def check_expect(case, result):
+    """``(ok, why)`` for the case's ``expect`` against ``result["display"]``.
+
+    ok is None when the case has no expectation.
+    """
+    expect = case.get("expect")
+    rows = result["display"]
+    if not expect:
+        return None, "no expectation"
+    if expect.get("empty"):
+        if rows:
+            return False, "expected no rows, got %d" % len(rows)
+        return True, "no rows"
+    text = expect.get("text")
+    within = expect.get("within", 1)
+    hits = [r for r in rows if r["text"] == text]
+    if not hits:
+        return False, "'%s' not found" % text
+    hit = hits[0]
+    if hit["rank"] > within:
+        return False, "rank %s > %s" % (hit["rank"], within)
+    want_geom = expect.get("geometry")
+    if want_geom and hit["geometry"] != want_geom:
+        return False, "geometry %s != %s" % (hit["geometry"], want_geom)
+    return True, "rank %s" % hit["rank"]
 
 
 # --- senders ----------------------------------------------------------------
@@ -460,14 +516,6 @@ def _expected(exp):
     return _md(exp.get("text")) + (" (top %d)" % exp["within"] if exp.get("within", 1) > 1 else "")
 
 
-def _gsearch(case):
-    fixture = load_fixture(case["id"])
-    if fixture is None:
-        return None, None, "not recorded"
-    ok, why = check_expect(case, fixture)
-    return fixture, ok, why
-
-
 def _slowest(result):
     times = [
         ex.get("elapsed_ms")
@@ -485,19 +533,15 @@ def summarize(results):
 
 
 def write_report(cases, results, path, source):
-    """Write a before/after markdown report; returns the outcome counts.
+    """Write a markdown report of the Bifrost results; returns the outcome counts.
 
     ``results`` maps case id to a ``run_case`` result (None = not run).
     """
     counts = summarize({c["id"]: results.get(c["id"]) for c in cases})
-    g_ok = 0
     summary, details = [], []
     for case in cases:
         cid = case["id"]
         result = results.get(cid)
-        g_fixture, g_ok_case, g_why = _gsearch(case)
-        g_ok += bool(g_ok_case)
-        g_icon = {True: "✅", False: "❌", None: "➖"}[g_ok_case]
         exp = case.get("expect") or {}
         expected = _expected(exp)
         b_exp = bifrost_case(case).get("expect") or {}
@@ -509,8 +553,8 @@ def write_report(cases, results, path, source):
         else:
             b_cell = "%s %s" % (ICONS[result["outcome"]], _md(result["why"]))
         summary.append(
-            "| [%s](#%s) | `%s` | %s | %s %s | %s | %s |"
-            % (cid, cid, _md(case["input"]), expected, g_icon, _md(g_why), b_cell, gap)
+            "| [%s](#%s) | `%s` | %s | %s | %s |"
+            % (cid, cid, _md(case["input"]), expected, b_cell, gap)
         )
 
         d = ["### %s" % cid, "", "*%s*" % case["story"], ""]
@@ -520,7 +564,6 @@ def write_report(cases, results, path, source):
         d.append("- Expected: %s" % expected + (" (%s)" % exp["geometry"] if exp.get("geometry") else ""))
         if case.get("bifrost"):
             d.append("- Bifrost differs on purpose: %s" % _md(case["bifrost"].get("reason")))
-        d.append("- GSearch: %s %s" % (g_icon, _md(g_why)))
         if result:
             d.append(
                 "- Bifrost: %s %s — %s"
@@ -544,57 +587,43 @@ def write_report(cases, results, path, source):
         if gap:
             d.append("- Known gap: %s" % gap)
         d.append("")
-        g_rows = (g_fixture or {}).get("display") or []
-        b_rows = (result or {}).get("display") or []
-        if g_rows or b_rows:
-            d.append("| # | GSearch | Bifrost |")
-            d.append("|---|---|---|")
-            n = min(REPORT_ROWS, max(len(g_rows), len(b_rows)))
-            for i in range(n):
-                cells = []
-                for rows in (g_rows, b_rows):
-                    if i < len(rows):
-                        r = rows[i]
-                        text = _md(r["text"])
-                        want = (exp if rows is g_rows else b_exp).get("text")
-                        if want and (
-                            r["text"] == want
-                            or (r["key"] == "ste" and loose_name(r["text"]) == loose_name(want))
-                        ):
-                            text = "**%s**" % text
-                        cells.append("%s: %s" % (r["key"], text))
-                    else:
-                        cells.append("")
-                d.append("| %d | %s | %s |" % (i + 1, cells[0], cells[1]))
-            more = max(len(g_rows), len(b_rows)) - n
-            if more > 0:
-                d.append(
-                    "| | … %d more | … %d more |"
-                    % (max(0, len(g_rows) - n), max(0, len(b_rows) - n))
-                )
+        rows = (result or {}).get("display") or []
+        if rows:
+            d.append("| # | Bifrost |")
+            d.append("|---|---|")
+            want = b_exp.get("text")
+            for r in rows[:REPORT_ROWS]:
+                text = _md(r["text"])
+                if want and (
+                    r["text"] == want
+                    or (r["key"] == "ste" and loose_name(r["text"]) == loose_name(want))
+                ):
+                    text = "**%s**" % text
+                d.append("| %d | %s: %s |" % (r["rank"], r["key"], text))
+            if len(rows) > REPORT_ROWS:
+                d.append("| | … %d more |" % (len(rows) - REPORT_ROWS))
         else:
-            d.append("*No rows in either.*")
+            d.append("*No rows.*")
         d.append("")
         details.extend(d)
 
     head = [
-        "# Bifrost vs GSearch: case catalogue",
+        "# Bifrost: case catalogue",
         "",
-        "Every case in [`tests/cases.yaml`](%s) run through the Bifrost core and compared with"
+        "Every case in [`tests/cases.yaml`](%s) run through the Bifrost core."
         % os.path.relpath(os.path.join(ROOT, "tests", "cases.yaml"), os.path.dirname(path)),
-        "the GSearch baseline (`tests/fixtures/gsearch/`). The expectation is what GSearch showed;",
-        "stednavne match on the name before \" (\" because Bifrost cannot give GSearch's text (#1).",
+        "Stednavne match on the name before \" (\" because Bifrost has no subtype (#1).",
         "",
         "- Source: %s" % source,
         "- Generated: %s" % dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
-        "- Cases: %d. GSearch meets %d expectations." % (len(cases), g_ok),
+        "- Cases: %d." % len(cases),
         "- Bifrost: %d pass, %d known gaps (xfail), %d pass despite a known gap (xpass), %d fail, %d without expectation."
         % (counts[PASS], counts[XFAIL], counts[XPASS], counts[FAIL], counts[NONE]),
         "",
         "✅ pass · ⚠️ known gap · 🎉 passes despite a known gap · ❌ unexpected failure",
         "",
-        "| Case | Typed | Expected | GSearch | Bifrost | Known gap |",
-        "|---|---|---|---|---|---|",
+        "| Case | Typed | Expected | Bifrost | Known gap |",
+        "|---|---|---|---|---|",
     ]
     os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:

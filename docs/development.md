@@ -141,11 +141,10 @@ case catalogue (`tests/cases.yaml`, see below) it:
 4. waits for the marker or outline on the map and saves an image of the map.
 
 It only uses widgets (the dock *Geosearch DK*, its search field and the
-popup), not plugin internals. The same script therefore works against the
-GSearch plugin and the Bifrost version.
+popup), not plugin internals.
 
 The result is `out/report.html`: a table with the status of every case, and
-per case the GSearch baseline, the popup and the map. Open it in a browser.
+per case the popup and the map. Open it in a browser.
 `out/report.json` has the same data.
 
 ### From a shell
@@ -188,7 +187,6 @@ visual_run.main(["--help"])     # all options
 |--------|---------|---------|
 | `--cases` | `tests/cases.yaml`, or `tests/manual/sample_cases.yaml` if it does not exist | case catalogue |
 | `--out` | `out` | output folder |
-| `--fixtures` | `tests/fixtures/gsearch` | recorded GSearch responses (`<id>.json`), shown as the baseline |
 | `--only` | | comma separated case ids |
 | `--basemap` | `auto` | `auto` adds a temporary OpenStreetMap layer when the project has no layers; `osm` always; `none` never |
 | `--no-filters` | | do not apply the case's `types` and `kommuner` to the plugin settings |
@@ -208,7 +206,7 @@ The case catalogue is a YAML list:
   types: [adr]                   # adr ste pos mat kom ops pol reg; omit = all
   kommuner: []                   # optional kommunefilter codes
   expect: { text: "...", within: 3, geometry: point }
-  known_gap: 3                   # optional issue number
+  known_gap: 3                   # optional issue number in AsgerPetersen/qgis-geosearch
   notes: ""
 ```
 
@@ -234,7 +232,7 @@ Status per case:
 | --- | --- | --- |
 | `make test` | Unit tests: the Bifrost core, the mock Bifrost, and every case in `tests/cases.yaml` replayed from its recorded fixture | [uv](https://docs.astral.sh/uv/) |
 | `make test-qgis` | `tests/qgis` in a real QGIS 4 in Docker (pytest-qgis): plugin load/unload, settings, options page, map markers, the Bifrost fetcher against the mock. `QGIS=3` uses QGIS 3.44 LTR, `make test-qgis-all` runs both | Docker |
-| `make test-live` | Every case against the real Bifrost; writes a before/after report against the GSearch baseline to `out/bifrost-live-report.md` | `BIFROST_KEY` |
+| `make test-live` | Every case against the real Bifrost; writes a report to `out/bifrost-live-report.md` | `BIFROST_KEY` |
 | `make mock` | A mock Bifrost on `http://127.0.0.1:8766` that answers from the recorded fixtures | Python 3 |
 
 Pass pytest options with `PYTEST_ARGS`, e.g. `make test-qgis QGIS=3 PYTEST_ARGS="-k marker -x"`.
@@ -242,9 +240,11 @@ The QGIS images are linux/amd64 only and run emulated on Apple silicon.
 
 In the live suite, a `known_gap` case is an expected failure (xfail) and an
 XPASS means Bifrost now does what the issue says it cannot. Stednavne are
-matched on the name before " (" because Bifrost has no subtype (#1). A case can
-expect something else from Bifrost than from GSearch with a `bifrost:` override
-in `cases.yaml`.
+matched on the name before " (" because Bifrost has no subtype (#1). The
+`expect` of a case was written from what GSearch showed; a `bifrost:` override
+in `cases.yaml` gives Bifrost a different expectation. The GSearch recordings
+and the comparison of the two services are in the fork
+[AsgerPetersen/qgis-geosearch](https://github.com/AsgerPetersen/qgis-geosearch).
 
 ### Translations
 

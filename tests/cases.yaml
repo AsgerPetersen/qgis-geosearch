@@ -13,23 +13,23 @@
 #               omitted = all 8 (the plugin default). A prefix in `input`
 #               overrides this, exactly as in the plugin.
 #   kommuner    optional kommunefilter codes, e.g. ["615"]
-#   expect      what the user sees TODAY in GSearch (see tests/fixtures/gsearch/BASELINE.md)
+#   expect      what the user should see. Written from what Geosearch DK 3.x showed
+#               with GSearch, before GSearch closed in November 2026
 #     text      visningstekst of the intended hit
 #     within    the hit appears within the top N rows of the popup
 #     geometry  point | line | polygon
 #     empty     true = no rows at all (the popup does not open); used instead of text
-#   known_gap   optional: issue number in this repo if Bifrost is expected to fail the case
-#   bifrost     optional: where Bifrost should behave differently from GSearch on purpose
+#   known_gap   optional: issue number in AsgerPetersen/qgis-geosearch if Bifrost is
+#               expected to fail the case
+#   bifrost     optional: where Bifrost should behave differently from `expect` on purpose
 #     expect    replaces `expect` for Bifrost (null = no expectation)
 #     reason    why (shown in the Bifrost report)
 #   notes       free text
 #
-# The Bifrost side is run by `pytest -m live` (tests/live) and recorded with
+# The cases are run against Bifrost by `pytest -m live` (tests/live) and recorded with
 #   BIFROST_KEY=... uv run python tests/tools/record_bifrost.py --cases
-# which also writes tests/fixtures/bifrost/cases/REPORT.md (before/after).
-#
-# Record or refresh the GSearch baseline with:
-#   uv run tests/tools/record_gsearch.py record
+# which also writes tests/fixtures/bifrost/cases/REPORT.md. `make test` replays
+# the recordings (tests/unit/test_case_fixtures.py).
 
 # --------------------------------------------------------------------------
 # Adresser (husnumre)

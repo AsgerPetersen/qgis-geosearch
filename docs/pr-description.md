@@ -66,20 +66,20 @@ det sker i søgetjenesten.
   stavefejl, så et halvt ord bliver rettet til det nærmeste hele ord i stedet
   for at blive fuldført. Brugerne skal skrive hele ord, fx
   *nørrebrogade 1 københavn*. Dette er den største ændring for brugerne.
-  [Se eksempler](https://github.com/AsgerPetersen/qgis-geosearch/blob/bifrost/docs/forskelle-gsearch-bifrost.md#delord)\
+  [Se eksempler](https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#delord)\
   *Hvorfor: Bifrost tilbyder det ikke.*
 - **Kommunefilter i søgetjenesten.** GSearch filtrerede på kommune på serveren,
   så man fik alle hits i de valgte kommuner. Bifrost har ingen kommunefilter
   på `/search`, så pluginet filtrerer selv i Bifrosts 100 bedste hits for hele
   landet. Fx giver matrikel *1a* med filter på Horsens (615) ingen resultater.
-  [Se eksempler](https://github.com/AsgerPetersen/qgis-geosearch/blob/bifrost/docs/forskelle-gsearch-bifrost.md#kommunefilter)\
+  [Se eksempler](https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#kommunefilter)\
   *Hvorfor: Bifrost tilbyder det ikke.*
 - **Stednavnets undertype.** GSearch viste fx *Skodsborg (By i Rudersdal
   Kommune)*. Bifrost giver kun en overordnet type, fx *bebyggelse* eller
   *naturareal*, og én kommune, så steder med samme navn kan være svære at
-  skelne. [Se eksempler](https://github.com/AsgerPetersen/qgis-geosearch/blob/bifrost/docs/forskelle-gsearch-bifrost.md#visningstekst)\
+  skelne. [Se eksempler](https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md#visningstekst)\
   *Hvorfor: Bifrost tilbyder det ikke.*
 
 Konkrete eksempler, optaget fra begge
 tjenester før GSearch lukkede, står i
-[Forskelle mellem GSearch og Bifrost](https://github.com/AsgerPetersen/qgis-geosearch/blob/bifrost/docs/forskelle-gsearch-bifrost.md).
+[Forskelle mellem GSearch og Bifrost](https://github.com/AsgerPetersen/qgis-geosearch/blob/master/docs/forskelle-gsearch-bifrost.md).

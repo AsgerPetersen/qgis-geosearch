@@ -5,7 +5,7 @@
 Environment:
     BIFROST_KEY          API key (required; the tests are skipped without it)
     BIFROST_URL          default https://bifrost.test42.dataforsyningen.dk
-    BIFROST_LIVE_REPORT  where the before/after report goes
+    BIFROST_LIVE_REPORT  where the report goes
                          (default out/bifrost-live-report.md)
 """
 
@@ -60,7 +60,7 @@ def pytest_terminal_summary(terminalreporter, config):
     summary = getattr(config, "_bifrost_summary", None)
     if summary:
         path, counts = summary
-        terminalreporter.write_sep("-", "Bifrost vs GSearch")
+        terminalreporter.write_sep("-", "Bifrost case catalogue")
         terminalreporter.write_line(
             "%(pass)d pass, %(xfail)d known gaps, %(xpass)d pass despite a known gap, "
             "%(fail)d fail, %(none)d without expectation" % counts
