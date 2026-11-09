@@ -292,10 +292,49 @@ recorder refuses to write a fixture that contains the key.
 
 ### CI
 
-`.github/workflows/tests.yml` runs the unit tests and the QGIS tests (QGIS 3.44
-and 4) on pushes and pull requests to `master` and `bifrost`, and the live
+`.github/workflows/tests.yml` runs the unit tests, the QGIS tests (QGIS 3.44
+and 4) and `make publish-check` on pushes and pull requests to `master` and `bifrost`, and the live
 suite nightly (from `master`) or by hand (*Run workflow*). The live job needs
 the repository secret `BIFROST_KEY`; without it, it is skipped.
+
+## Publishing
+
+```sh
+make package          # dist/geosearch_dk.zip
+make publish-check    # make package, then scripts/publish_check.py
+```
+
+`make package` zips the committed `src/geosearch_dk` at `HEAD` with
+`git archive`, so the zip has a single folder `geosearch_dk/` and only
+committed files. It fails if `src/` has uncommitted or untracked changes.
+Files that are in the repository but not needed by the plugin (the old Plugin
+Builder `Makefile`, the Sphinx `help/source`, `scripts/`, the tests of the
+vendored qgissettingmanager) are marked `export-ignore` in
+`src/.gitattributes`.
+
+plugins.qgis.org scans every uploaded version with bandit, detect-secrets and
+flake8. A bandit finding or a critical detect-secrets finding blocks the
+version, and scanning it again does not help: the only fix is to upload a new
+version. `make publish-check` runs the same tools on the unpacked zip (with
+`uvx`, so it needs [uv](https://docs.astral.sh/uv/)) and fails on:
+
+- any bandit or detect-secrets finding, or a flake8 error from the critical
+  rules (E901, E902, E999, F821, F823, F831); the other flake8 findings are
+  only counted;
+- a zip over 25 MB, more than one top-level folder, hidden files, `__pycache__`,
+  executable files, scripts or unexpected binaries (only images and the `.qm`
+  are allowed), generated `ui_*.py`/`*_rc.py`;
+- a scanner config file (`.bandit`, `.secrets.baseline`, `.flake8`, ...). The
+  site honours them, but the version then gets the status *Validated
+  (configured)*. We ship none;
+- `metadata.txt` without `homepage`, `tracker`, `repository` (https), version,
+  or with a changelog whose first line does not mention the version.
+
+Before uploading a release:
+
+1. bump `version` in `metadata.txt` and add a changelog line for it at the top;
+2. commit, then run `make publish-check` and fix every error;
+3. upload `dist/geosearch_dk.zip` at plugins.qgis.org.
 
 ## QGIS 4 crashes at startup on macOS 27
 

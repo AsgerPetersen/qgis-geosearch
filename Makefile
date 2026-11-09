@@ -4,11 +4,12 @@
 #   make dev QGIS=3      same, with QGIS 3 (Qt5)
 #   make visual          run tests/manual/visual_run.py in QGIS and write out/report.html
 #   make screenshots     retake the README screenshots (Danish) in docs/images
+#   make package         build the plugin zip from HEAD in dist/
+#   make publish-check   build the zip and check it as plugins.qgis.org does
 #   make help            list all targets and variables
 #
-# The plugin's packaging Makefile is src/geosearch_dk/Makefile; this file is
-# only for the development loop. Add new targets (test, test-qgis, test-live,
-# mock, ...) in their own section below "Development loop".
+# src/geosearch_dk/Makefile is the old Plugin Builder Makefile and is not used
+# (nor shipped). Add new targets in their own section.
 #
 # See docs/development.md (Windows, Linux, Plugin Reloader, macOS 27 crash).
 
@@ -214,3 +215,30 @@ mock: ## Mock Bifrost on http://127.0.0.1:8766 (MOCK_ARGS="--error 503")
 record-bifrost: ## Re-record the Bifrost case fixtures and REPORT.md (BIFROST_KEY; ONLY=id1,id2)
 	@[ -n "$$BIFROST_KEY" ] || { echo "Set BIFROST_KEY to record" >&2; exit 1; }
 	uv run python tests/tools/record_bifrost.py --cases $(subst $(comma), ,$(ONLY))
+
+# --- Release ----------------------------------------------------------------
+#
+#   make package         dist/geosearch_dk.zip from the committed HEAD
+#   make publish-check   package, then scripts/publish_check.py (bandit,
+#                        detect-secrets, flake8, zip structure, metadata.txt)
+#
+# The zip is `git archive` of src/, so it holds the committed files only.
+# Files listed with export-ignore in src/.gitattributes are left out.
+
+PACKAGE := dist/$(PLUGIN_NAME).zip
+
+.PHONY: package
+package: ## Build dist/geosearch_dk.zip from HEAD (fails if src/ has uncommitted changes)
+	@if [ -n "$$(git status --porcelain --untracked-files=all -- src)" ]; then \
+	  git status --short --untracked-files=all -- src >&2; \
+	  echo "src/ has uncommitted changes; the zip is built from HEAD. Commit or stash them first." >&2; \
+	  exit 1; \
+	fi
+	@mkdir -p dist
+	@rm -f "$(PACKAGE)"
+	git archive --format=zip -o "$(PACKAGE)" HEAD:src
+	@echo "Created $(PACKAGE) ($$(git rev-parse --short HEAD), version $$(sed -n 's/^version=//p' src/$(PLUGIN_NAME)/metadata.txt))"
+
+.PHONY: publish-check
+publish-check: package ## Build the zip and run the plugins.qgis.org checks on it (needs uv)
+	python3 scripts/publish_check.py "$(PACKAGE)"
