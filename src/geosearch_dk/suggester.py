@@ -242,6 +242,8 @@ class Suggester(QObject):
         term = self.my_searchbox_widget.text()
         if term:
             self.last_query_id = self.fetcher.fetch(term)
+        else:
+            self.fetcher.cancel_search()
 
     def handleFetcherResults(self):
         rows = self.fetcher.get_result()
