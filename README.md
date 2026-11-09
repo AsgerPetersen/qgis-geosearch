@@ -75,14 +75,14 @@ Vil du selv opdatere dit plugin, så gør således:
 Indstillinger
 -----------------
 Du kan lave en række indstillinger i pluginets indstillingsfane, som du kan åbne ved at klikke på skruenøgle-ikonet (eller gå til menupunktet Indstillinger->Indstillinger->Geosearch DK (engelsk Settings->Options)):
-![geosearchdk-opensettings](https://github.com/Septima/qgis-geosearch/assets/16276034/3f56d335-7397-4779-b7b0-c39e811fd9eb)
+![Søgepanelet med skruenøglen](docs/images/soegepanel.png)
 
 Følgende indstillinger kan foretages i pluginets indstillingsdialog:
 - Bifrost API-nøgle. Se [Sådan opretter du en bruger på Dataforsyningen](https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen). Står feltet tomt, bruges miljøvariablen `BIFROST_KEY`. Et token til Dataforsyningen kan ikke bruges.
 - Kommunefilter. Indtast et eller flere kommunenumre adskilt af komma. Pluginet skjuler så søgeresultater uden for de listede kommuner. Læs om begrænsningerne under [Overgang til Bifrost](#overgang-til-bifrost).
 - Typefilter. Vis kun søgeresultater af bestemte typer, f.eks. adresser, ejendomme, stednavne etc.
 
-![geosearchsettings](https://github.com/Septima/qgis-geosearch/assets/16276034/ffcfe419-38af-4ed1-80f8-bc2264919fb0)
+![Pluginets indstillinger](docs/images/indstillinger.png)
 
 
 Oplever du fejl eller har du ønsker til forbedringer eller ny funktionalitet?

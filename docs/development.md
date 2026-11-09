@@ -119,6 +119,17 @@ directly. Instead of restarting QGIS after each change, use the
 Restart QGIS when reloading is not enough, for example after changing
 `metadata.txt`.
 
+## README screenshots
+
+`make screenshots` (QGIS=4 or 3) retakes the README's screenshots in
+`docs/images/`: the search panel (`soegepanel.png`) and the plugin's page in the
+QGIS options (`indstillinger.png`). It starts QGIS with its own profile,
+`geosearch-screenshots`, which is recreated every run with Danish locale
+(`da_DK`) and no Bifrost key, takes the images with
+`tests/manual/readme_screenshots.py` and quits. The README is in Danish, so the
+screenshots are always Danish. Retake them whenever the settings page or the
+search panel changes noticeably, and check the images before committing.
+
 ## Visual run
 
 `tests/manual/visual_run.py` drives the real plugin UI. For each case in the

@@ -193,7 +193,7 @@ class SearchBox(QFrame, FORM_CLASS):
             message = (
                 self.tr("Søgning kræver en Bifrost-nøgle.")
                 if narrow
-                else self.tr("Bifrost kræver en API-nøgle, og pluginet har ingen endnu.")
+                else self.tr("Bifrost kræver en API-nøgle, og der er ikke angivet nogen.")
             )
             links = [
                 (notice.LINK_ENTER_KEY, self.tr("Indtast nøgle")),

@@ -1,0 +1,11 @@
+# Notes for coding agents
+
+See `docs/development.md` for the development loop, tests and translations.
+
+## README screenshots
+
+When the settings dialog (or the search panel) changes significantly, retake
+the README screenshots with `make screenshots` and commit the new images in
+`docs/images/` in the same pull request. Always take them in Danish: the
+target does this with its own `da_DK` profile without a Bifrost key. Look at
+the images before committing; they must not show a real key.
