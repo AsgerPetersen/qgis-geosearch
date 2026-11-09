@@ -75,7 +75,7 @@ def test_why_is_given_for_each_lost_feature_in_all_copies():
 
 
 SETTINGS_PY = ROOT / "src" / "geosearch_dk" / "config" / "settings.py"
-NO_BUILT_IN_KEY = "Pluginet har endnu ingen indbygget nøgle"
+NO_BUILT_IN_KEY = "Pluginet har ingen indbygget nøgle"
 
 
 def _settings_constant(name):

@@ -27,15 +27,16 @@ agency's new search service, <b>Bifrost</b>. Most things work as before, but
 there are some differences.</p>
 
 <!--
-  #5: DEFAULT_BIFROST_KEY (config/settings.py) is empty until Klimadatastyrelsen
-  answers. When the plugin gets a built-in key, rewrite this section.
+  #5: Klimadatastyrelsen does not allow a shared key, so DEFAULT_BIFROST_KEY
+  (config/settings.py) is empty.
 -->
 <h3 id="noegle"><a name="noegle"></a>You need a key for Bifrost</h3>
 <p>Bifrost requires its own API key. A Dataforsyningen token cannot be used,
 so the plugin has removed the token you may have entered in the old
 version.</p>
-<p>The plugin does not have a built-in key yet. As long as there is no key, the
-search panel shows a yellow bar. For now you have to enter a key yourself: Click
+<p>The plugin does not have a built-in key, so you have to create a key and
+enter it yourself. As long as there is no key, the search panel shows a yellow
+bar. Click
 <i>Enter key</i> in the yellow bar or the wrench in the search panel (or choose
 <i>Settings → Options → Geosearch DK</i>), and paste it under <b>Bifrost API key</b>.
 <a href="https://www.klimadatastyrelsen.dk/data/dataforsyningen/vi-fremtidssikrer-dataforsyningen">How to create a user at Dataforsyningen</a>.

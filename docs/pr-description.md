@@ -25,10 +25,10 @@ engelsk; ellers er det på dansk.
 
 ### Nøgle til Bifrost
 Bifrost kræver sin egen API-nøgle; et token til Dataforsyningen kan ikke
-bruges, så opdateringen fjerner et gemt token. Pluginet har endnu ingen
-indbygget nøgle (`DEFAULT_BIFROST_KEY` er tom). Det er endnu ikke afklaret med
-Klimadatastyrelsen, om pluginet må få en fælles nøgle. Indtil da indtaster
-brugerne selv en nøgle i indstillingerne eller i miljøvariablen `BIFROST_KEY`.
+bruges, så opdateringen fjerner et gemt token. Klimadatastyrelsen tillader
+ikke, at pluginet har en fælles nøgle, så pluginet har ingen indbygget nøgle
+(`DEFAULT_BIFROST_KEY` er tom). Brugerne opretter selv en nøgle og indtaster
+den i indstillingerne eller i miljøvariablen `BIFROST_KEY`.
 Så længe der ingen nøgle er, viser søgepanelet en gul bjælke med et link til
 nøglefeltet i indstillingerne.
 
