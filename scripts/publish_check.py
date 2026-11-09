@@ -5,7 +5,7 @@
 (``make publish-check`` builds the zip and runs this.)
 
 plugins.qgis.org scans every uploaded version with bandit, detect-secrets and
-flake8. A bandit or critical detect-secrets finding blocks the version, and a
+flake8. A critical bandit or detect-secrets finding blocks the version, and a
 blocked version can only be replaced by uploading a new version. This script
 runs the same three tools (through ``uvx``) on the unpacked zip, without any
 configuration file, and checks the zip's structure and metadata.txt.

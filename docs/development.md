@@ -313,7 +313,7 @@ vendored qgissettingmanager) are marked `export-ignore` in
 `src/.gitattributes`.
 
 plugins.qgis.org scans every uploaded version with bandit, detect-secrets and
-flake8. A bandit finding or a critical detect-secrets finding blocks the
+flake8. A critical bandit or detect-secrets finding blocks the
 version, and scanning it again does not help: the only fix is to upload a new
 version. `make publish-check` runs the same tools on the unpacked zip (with
 `uvx`, so it needs [uv](https://docs.astral.sh/uv/)) and fails on:
